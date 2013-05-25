@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:05:2013 17:44
+date: 23:05:2013 14:52
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -22250,7 +22250,7 @@ relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 id: ZFA:0005054
 name: inner optic circle
 namespace: zebrafish_anatomy
-def: "Vessel that circles the inner rim of the optic capsule.  The inner optic circle drains\nventrally into the optic vein and dorsally into the dorsal ciliary vein." [ZFIN:ZDB-PUB-010205-5]
+def: "Vessel that circles the inner rim of the optic capsule.  The inner optic circle drains ventrally into the optic vein and dorsally into the dorsal ciliary vein." [ZFIN:ZDB-PUB-010205-5]
 synonym: "IOC" EXACT []
 xref: TAO:0005054
 xref: ZFIN:ZDB-ANAT-051116-38
@@ -24675,7 +24675,7 @@ name: CiD
 namespace: zebrafish_anatomy
 def: "A interneuron of the spinal cord with an ipsilateral axon that extends ventral to the Mauthner axon then turns dorsally  and caudally and sometimes has a minor ascending branch." [ZFIN:ZDB-PUB-010807-17]
 synonym: "circumferential descending interneuron" EXACT []
-synonym: "commissural decending interneurons" EXACT [ZFIN:ZDB-PUB-081114-2]
+synonym: "commissural descending interneurons" EXACT [ZFIN:ZDB-PUB-081114-2]
 synonym: "V2a interneuron" RELATED []
 xref: TAO:0005233
 xref: ZFIN:ZDB-ANAT-090922-274
@@ -30513,10 +30513,8 @@ namespace: zebrafish_anatomy
 def: "Multi-tissue structure part of the olfactory bulb  that  is roughly spheroidal and encircled by olfactory sensory neuron axons that formed an anatomically distinct stalk  connected to the olfactory nerve." [ZFIN:ZDB-PUB-120516-14]
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0005668 ! olfactory bulb protoglomerulus
-relationship: end ZFS:0000000 ! Unknown
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
-relationship: start ZFS:0000000 ! Unknown
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
 creation_date: 2013-03-19T02:15:11Z
@@ -37935,7 +37933,7 @@ creation_date: 2012-01-12T05:21:09Z
 id: ZFA:0009396
 name: glycinergic neuron
 namespace: zebrafish_anatomy
-def: "the neurons that utilize glycine as a neurotransmitter" [MP:0010385]
+def: "The neurons that utilize glycine as a neurotransmitter." [MP:0010385]
 xref: CL:1001509
 is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
