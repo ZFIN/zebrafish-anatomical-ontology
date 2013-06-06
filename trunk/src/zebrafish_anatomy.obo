@@ -1,11 +1,11 @@
 format-version: 1.2
-date: 09:04:2013 15:28
+date: 30:05:2013 11:26
 saved-by: Ceri
-auto-generated-by: OBO-Edit 2.1
+auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_anatomical_ontology
-remark: CVS version: $Revision: 1.100$
+remark: SVN version: $Revision: 1.100$
 treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: TAO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
@@ -1350,7 +1350,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000108
 name: fin
 namespace: zebrafish_anatomy
-def: "Surface structure involved in locomotion." [TAO:curator]
+def: "Surface structure involved in locomotion." [TAO:WD]
 synonym: "fins" EXACT PLURAL []
 xref: TAO:0000108
 xref: ZFIN:ZDB-ANAT-010921-533
@@ -1455,6 +1455,7 @@ xref: ZFIN:ZDB-ANAT-010921-540
 is_a: ZFA:0001477 ! portion of tissue
 relationship: develops_from ZFA:0000028 ! heart primordium
 relationship: end ZFS:0000028 ! Segmentation:26+ somites
+relationship: part_of ZFA:0000010 ! cardiovascular system
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
@@ -1777,7 +1778,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000143
 name: retinal photoreceptor layer
 namespace: zebrafish_anatomy
-def: "The layer within the retina where the photoreceptor cell receptor segments reside. This layer is closet to the sclera." [ZFA:curator, ZFIN:ZDB-PUB-961014-677.]
+def: "The layer within the retina where the photoreceptor cell receptor segments reside. This layer is closet to the sclera." [ZFA:curator, ZFIN:ZDB-PUB-961014-677]
 synonym: "retinal photoreceptor layers" EXACT PLURAL []
 xref: TAO:0000143
 xref: ZFIN:ZDB-ANAT-010921-574
@@ -1841,6 +1842,7 @@ xref: ZFIN:ZDB-ANAT-010921-583
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0000115 ! heart rudiment
 relationship: end ZFS:0000029 ! Pharyngula:Prim-5
+relationship: part_of ZFA:0000010 ! cardiovascular system
 relationship: start ZFS:0000028 ! Segmentation:26+ somites
 
 [Term]
@@ -2983,7 +2985,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000239
 name: mesocoracoid bone
 namespace: zebrafish_anatomy
-def: "Endochondral bone that articulates laterally with the medial surface of the cleithrum and ventro-medially with the scapula and coracoid. Mesocoracoid bone is a small, arch-like bone that develops from the mesocoracoid cartilage. Mesocoracoid bone is paired." [TAO:curator]
+def: "Endochondral bone that articulates laterally with the medial surface of the cleithrum and ventro-medially with the scapula and coracoid. Mesocoracoid bone is a small, arch-like bone that develops from the mesocoracoid cartilage. Mesocoracoid bone is paired." [TAO:WD]
 synonym: "mesocoracoid bones" EXACT PLURAL []
 xref: TAO:0000239
 xref: ZFIN:ZDB-ANAT-011113-171
@@ -3350,6 +3352,7 @@ id: ZFA:0000267
 name: primary olfactory fiber layer
 namespace: zebrafish_anatomy
 def: "Portion of tissue which is the most peripheral layer and present only in the rostroventral olfactory bulb. From Neuroanatomy of the Zebrafish Brain." [ISBN:3764351209, ZFA:curator]
+synonym: "olfactory nerve layer" EXACT [ZFIN:ZDB-PUB-050523-2]
 synonym: "stratum nervosum bulbi olfactorii" EXACT []
 xref: TAO:0000267
 xref: ZFIN:ZDB-ANAT-011113-197
@@ -3458,7 +3461,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000277
 name: scale
 namespace: zebrafish_anatomy
-def: "Dermal bone that is thin, flexible, and platelike, and that develops in overlapping skinfolds that cover the body and often the head of fish and the bases of the fins." [TAO:curator]
+def: "Dermal bone that is thin, flexible, and platelike, and that develops in overlapping skinfolds that cover the body and often the head of fish and the bases of the fins." [TAO:WD]
 synonym: "scales" EXACT PLURAL []
 xref: TAO:0000277
 xref: ZFIN:ZDB-ANAT-011113-207
@@ -4160,7 +4163,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000332
 name: coracoid
 namespace: zebrafish_anatomy
-def: "Endochondral bone that articulates dorsally with the scapula and with the mesocoracoid when the latter is present, posteriorly with the lower two or three proximal radials and antero-ventrally with the cleithrum.  The coracoid develops from the scapulo-coracoid cartilage. The coracoid is paired." [TAO:curator]
+def: "Endochondral bone that articulates dorsally with the scapula and with the mesocoracoid when the latter is present, posteriorly with the lower two or three proximal radials and antero-ventrally with the cleithrum.  The coracoid develops from the scapulo-coracoid cartilage. The coracoid is paired." [TAO:GA_TG]
 synonym: "coracoids" EXACT PLURAL []
 synonym: "scapulocoracoid" RELATED []
 xref: TAO:0000332
@@ -4467,11 +4470,11 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000357
 name: glomerular layer
 namespace: zebrafish_anatomy
-def: "Portion of tissue which is located in between the primary olfactory fiber layer and the external cellular layer of the olfactory bulb. From Neuroanatomy of the Zebrafish Brain." [ISBN:3764351209, ZFA:curator]
+def: "Multi-tissue structure which is located in between the primary olfactory fiber layer and the external cellular layer of the olfactory bulb. From Neuroanatomy of the Zebrafish Brain." [ISBN:3764351209, ZFA:curator]
 synonym: "stratum glomerulosum bulbi olfactorii" EXACT []
 xref: TAO:0000357
 xref: ZFIN:ZDB-ANAT-011113-281
-is_a: ZFA:0001477 ! portion of tissue
+is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000402 ! olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
@@ -4509,6 +4512,7 @@ xref: ZFIN:ZDB-ANAT-011113-284
 is_a: ZFA:0001490 ! cavitated compound organ
 relationship: develops_from ZFA:0000149 ! primitive heart tube
 relationship: end ZFS:0000031 ! Pharyngula:Prim-25
+relationship: part_of ZFA:0000010 ! cardiovascular system
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
@@ -4984,7 +4988,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000402
 name: olfactory bulb
 namespace: zebrafish_anatomy
-def: "Brain structure which is the paired anteriormost part of the telencephalon and are connected to the telencephalon by two tracts carrying secondary olfactory fibers. From Neuroanatomy of the Zebrafish Brain." [ISBN:3764351209, ZFA:curator]
+def: "Brain structure which is the paired anteriormost part of the telencephalon and are connected to the telencephalon by two tracts carrying secondary olfactory fibers. From Neuroanatomy of the Zebrafish Brain.  The olfactory bulb is a paired structure." [ISBN:3764351209, ZFA:curator]
 synonym: "bulbus olfactorius" EXACT []
 synonym: "olfactory lobe" EXACT []
 xref: TAO:0000402
@@ -5052,7 +5056,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000407
 name: pectoral girdle
 namespace: zebrafish_anatomy
-def: "Anatomical cluster of paired dermal and endochondral bones that attaches to the dorso-posterior part of the cranium, and support the radials and pectoral fin. It consists of two components: the primary pectoral girdle consisting of the endochondral coracoid, scapula and mesocoracoid bones, and the secondary pectoral girdle consisting of the dermal posttemporal, supracleithrum, cleithrum and poscleithrum(thra) bones." [TAO:curator]
+def: "Anatomical cluster of paired dermal and endochondral bones that attaches to the dorso-posterior part of the cranium, and support the radials and pectoral fin. It consists of two components: the primary pectoral girdle consisting of the endochondral coracoid, scapula and mesocoracoid bones, and the secondary pectoral girdle consisting of the dermal posttemporal, supracleithrum, cleithrum and poscleithrum(thra) bones." [TAO:WD]
 synonym: "pectoral girdles" EXACT PLURAL []
 xref: TAO:0000407
 xref: ZFIN:ZDB-ANAT-011113-331
@@ -6681,7 +6685,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000537
 name: levator operculi
 namespace: zebrafish_anatomy
-def: "Hyoid muscle that originates at the ventrolateral margin of the pterotic and inserts in the dorsomesial edge of the opercle.  The levator operculi is responible for jaw depression, its force of contraction is transmitted through the opercular series and the interoperculo-mandibular ligament to the lower jaw." [ZFIN:ZDB-PUB-080306-33]
+def: "Hyoid muscle that originates at the ventrolateral margin of the pterotic and inserts in the dorsomesial edge of the opercle.  The levator operculi is responsible for jaw depression, its force of contraction is transmitted through the opercular series and the interoperculo-mandibular ligament to the lower jaw." [ZFIN:ZDB-PUB-080306-33]
 synonym: "levator operculae" EXACT []
 xref: TAO:0000537
 xref: ZFIN:ZDB-ANAT-011113-459
@@ -7035,7 +7039,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000565
 name: pelvic girdle
 namespace: zebrafish_anatomy
-def: "Anatomical cluster that consists of the paired basipterygia which support the pelvic fin." [TAO:curator]
+def: "Anatomical cluster that consists of the paired basipterygia which support the pelvic fin." [TAO:WD]
 synonym: "pelvic girdles" EXACT PLURAL []
 xref: TAO:0000565
 xref: ZFIN:ZDB-ANAT-011113-486
@@ -7271,7 +7275,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000583
 name: scapula
 namespace: zebrafish_anatomy
-def: "Endochondral bone that is located medial to the cleithrum, and articulates ventrally with the coracoid, medially with the mesocoracoid when the later is present and posteriorly with the upper one to three proximal radials. The scapula develops from the scapulocoracoid cartilage and belongs to the primary pectoral girdle. It may be perforated by the scapular foramen or it may be notched ventrally and forms together with a similar notch of the coracoid the scapulocoracoid foramen." [TAO:curator]
+def: "Endochondral bone that is located medial to the cleithrum, and articulates ventrally with the coracoid, medially with the mesocoracoid when the later is present and posteriorly with the upper one to three proximal radials. The scapula develops from the scapulocoracoid cartilage and belongs to the primary pectoral girdle. It may be perforated by the scapular foramen or it may be notched ventrally and forms together with a similar notch of the coracoid the scapulocoracoid foramen." [TAO:GA_TG]
 synonym: "scapulae" EXACT PLURAL []
 xref: TAO:0000583
 xref: ZFIN:ZDB-ANAT-011113-510
@@ -7404,7 +7408,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000594
 name: supracleithrum
 namespace: zebrafish_anatomy
-def: "Dermal bone that articulates dorsally with the posttemporal and ventrally with the cleithrum. Supracleithrum is part of the secondary pectoral girdle and commonly, carries part of the lateral line canal." [TAO:curator]
+def: "Dermal bone that articulates dorsally with the posttemporal and ventrally with the cleithrum. Supracleithrum is part of the secondary pectoral girdle and commonly, carries part of the lateral line canal." [TAO:GA_TG, TAO:WD]
 synonym: "supracleithra" EXACT PLURAL []
 xref: TAO:0000594
 xref: ZFIN:ZDB-ANAT-011113-522
@@ -7510,7 +7514,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000602
 name: uroneural
 namespace: zebrafish_anatomy
-def: "Neural arch that extends along the dorso-lateral surface of the last preural centra and/or ural centra and the notochord (Arratia & Schultze, 1992). An uroneural develops as a modification of the neural arch of an ural centrum (Patterson, 1968). The series of uroneurals may include from 7 to 1 elements that are numbered from rostral to caudal. An uroneural is a paired membrane bone." [TAO:curator]
+def: "Neural arch that extends along the dorso-lateral surface of the last preural centra and/or ural centra and the notochord (Arratia & Schultze, 1992). An uroneural develops as a modification of the neural arch of an ural centrum (Patterson, 1968). The series of uroneurals may include from 7 to 1 elements that are numbered from rostral to caudal. An uroneural is a paired membrane bone." [http://citebank.org/node/36904, ISSN:0362-2525, TAO:WD]
 synonym: "uroneurals" EXACT PLURAL []
 xref: TAO:0000602
 xref: ZFIN:ZDB-ANAT-011113-530
@@ -7628,7 +7632,8 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000612
 name: protractor hyoidei
 namespace: zebrafish_anatomy
-def: "Muscle located on ventral side of the head, linking the ventral hyoid arch to the dentary. Innervated by ramus mandibularis V and ramus hyoides VII." [TAO:curator]
+def: "Muscle located on ventral side of the head, linking the ventral hyoid arch to the dentary. Innervated by ramus mandibularis V and ramus hyoides VII." [TAO:WD]
+comment: Source: Winterbottom, R. 1973. A Descriptive Synonymy of the Striated Muscles of the Teleostei. Proceedings of the Academy of Natural Sciences of Philadelphia, Vol. 125 (1973), pp. 225-317.
 synonym: "protractor hyoideus" EXACT PLURAL []
 synonym: "protractors hyoidei" EXACT PLURAL []
 xref: TAO:0000612
@@ -15646,7 +15651,7 @@ id: ZFA:0001263
 name: ovarian follicle stage I
 namespace: zebrafish_anatomy
 def: "Stage I follicles (less than 140 microns) are primary growth stage." [ZFIN:ZDB-PUB-961014-1020]
-synonym: "previtillogenic ovarian follicle" EXACT []
+synonym: "previtellogenic ovarian follicle" EXACT []
 xref: TAO:0001263
 xref: ZFIN:ZDB-ANAT-050711-72
 is_a: ZFA:0001110 ! ovarian follicle
@@ -22245,7 +22250,7 @@ relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 id: ZFA:0005054
 name: inner optic circle
 namespace: zebrafish_anatomy
-def: "Vessel that circles the inner rim of the optic capsule.  The inner optic circle drains\nventrally into the optic vein and dorsally into the dorsal ciliary vein." [ZFIN:ZDB-PUB-010205-5]
+def: "Vessel that circles the inner rim of the optic capsule.  The inner optic circle drains ventrally into the optic vein and dorsally into the dorsal ciliary vein." [ZFIN:ZDB-PUB-010205-5]
 synonym: "IOC" EXACT []
 xref: TAO:0005054
 xref: ZFIN:ZDB-ANAT-051116-38
@@ -22545,7 +22550,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0005077
 name: vascular cord
 namespace: zebrafish_anatomy
-def: "The primordial vasculature that will develop into blood vessels  by the process of tubulogenesis.  The  vascular cord is composed of angioblast or vascular endothelial cells in a solid linear mass called a cord.  The cord then undergoes  tubulogenesis to form the lumen of the vessels." [ZFIN:ZDB-PUB-040416-1.pdf]
+def: "The primordial vasculature that will develop into blood vessels  by the process of tubulogenesis.  The  vascular cord is composed of angioblast or vascular endothelial cells in a solid linear mass called a cord.  The cord then undergoes  tubulogenesis to form the lumen of the vessels." [ZFIN:ZDB-PUB-040416-1]
 xref: TAO:0005077
 xref: ZFIN:ZDB-ANAT-060816-34
 is_a: ZFA:0005076 ! primordial vasculature
@@ -24670,7 +24675,7 @@ name: CiD
 namespace: zebrafish_anatomy
 def: "A interneuron of the spinal cord with an ipsilateral axon that extends ventral to the Mauthner axon then turns dorsally  and caudally and sometimes has a minor ascending branch." [ZFIN:ZDB-PUB-010807-17]
 synonym: "circumferential descending interneuron" EXACT []
-synonym: "commissural decending interneurons" EXACT [ZFIN:ZDB-PUB-081114-2]
+synonym: "commissural descending interneurons" EXACT [ZFIN:ZDB-PUB-081114-2]
 synonym: "V2a interneuron" RELATED []
 xref: TAO:0005233
 xref: ZFIN:ZDB-ANAT-090922-274
@@ -24820,6 +24825,7 @@ creation_date: 2009-08-11T03:38:32Z
 id: ZFA:0005242
 name: multi-ciliated epithelial cell
 namespace: zebrafish_anatomy
+alt_id: ZFA:0009377
 def: "A ciliated epithelial cell with many cilium." [CL:Curator]
 subset: cell_slim
 synonym: "multiciliated epithelial cell" EXACT []
@@ -24836,6 +24842,7 @@ creation_date: 2009-08-11T04:29:39Z
 id: ZFA:0005243
 name: single ciliated epithelial cell
 namespace: zebrafish_anatomy
+alt_id: ZFA:0009378
 def: "A ciliated epithelial cell with a single cilium." [CL:curator]
 subset: cell_slim
 synonym: "single-ciliated epithelial cell" EXACT []
@@ -25960,12 +25967,14 @@ creation_date: 2010-02-10T05:39:30Z
 id: ZFA:0005322
 name: renal principal cell
 namespace: zebrafish_anatomy
-def: "A cuboidal epithelial cell of the kidney which regulates sodium and potassium balance. The activity of sodium and potassium channels on the cells apical membrane is regulated by aldosterone and vasopressin. In mammals these cells are located in the renal collecting ducts." [CL:curator]
+alt_id: ZFA:0009373
+def: "A cuboidal epithelial cell of the kidney which regulates sodium and potassium balance. The activity of sodium and potassium channels on the cells apical membrane is regulated by aldosterone and vasopressin. In mammals these cells are located in the renal collecting ducts." [GOC:CVS]
 subset: cell_slim
 xref: CL:0005009
 xref: TAO:0005322
 xref: ZFIN:ZDB-ANAT-100408-37
 is_a: ZFA:0009038 ! columnar/cuboidal epithelial cell
+is_a: ZFA:0009374 ! kidney epithelial cell
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001287 ! renal tubule
 relationship: start ZFS:0000000 ! Unknown
@@ -27178,7 +27187,7 @@ creation_date: 2010-05-17T10:51:56Z
 id: ZFA:0005411
 name: common crus
 namespace: zebrafish_anatomy
-def: "Duct that forms when the nonampullary ends of the posterior and anterior semicircular canals merge.  The common curs descends connecting the semicircular canals to the horizontal canal." [ZFIN:ZDB-PUB-010912-7, ZFIN:ZDB-PUB-020403-4]
+def: "Duct that forms when the nonampullary ends of the posterior and anterior semicircular canals merge.  The common crus descends connecting the semicircular canals to the horizontal canal." [ZFIN:ZDB-PUB-010912-7, ZFIN:ZDB-PUB-020403-4]
 xref: TAO:0005411
 xref: ZFIN:ZDB-ANAT-100614-65
 is_a: ZFA:0005171 ! duct
@@ -28332,7 +28341,7 @@ creation_date: 2010-07-22T12:32:23Z
 id: ZFA:0005499
 name: circulus
 namespace: zebrafish_anatomy
-def: "Fine ridges on surface of scale, often parallel to the circumference of scale." [http://www.briancoad.com/Dictionary/Complete Dictionary Nov 2011.htm, TAO:curator]
+def: "Fine ridges on surface of scale, often parallel to the circumference of scale." [http://www.briancoad.com/main.asp?page=fishdictionary.htm, TAO:curator]
 synonym: "circuli" EXACT PLURAL []
 xref: TAO:0002051
 xref: ZFIN:ZDB-ANAT-100805-64
@@ -29683,7 +29692,9 @@ creation_date: 2011-11-11T11:33:02Z
 id: ZFA:0005598
 name: pancreatic epsilon cell
 namespace: zebrafish_anatomy
+alt_id: ZFA:0009382
 def: "Ghrelin secreting cells found in the found in the exocrine pancreas." [PMID:14970313]
+comment: In mammals the endocrine pancreas is called the Islets of Langerhans.
 synonym: "pancreatic E cell" EXACT []
 xref: CL:0005019
 xref: ZFIN:ZDB-ANAT-111214-6
@@ -29698,6 +29709,7 @@ creation_date: 2011-11-17T01:02:01Z
 id: ZFA:0005599
 name: ghrelin secreting cell
 namespace: zebrafish_anatomy
+alt_id: ZFA:0009381
 def: "A cell that secretes ghrelin, the peptide hormone that stimulates hunger." [CL:curator]
 xref: CL:0005018
 xref: ZFIN:ZDB-ANAT-111214-7
@@ -30502,11 +30514,12 @@ creation_date: 2013-03-07T12:18:22Z
 id: ZFA:0005661
 name: olfactory bulb glomerulus
 namespace: zebrafish_anatomy
-def: "Multi-tissue structure part of the olfactory bulb  that  is roughly spheroidal and encircled by olfactory sensory neuron axons that formed an anatomically distinct stalk (s) connected to the olfactory nerve." [ZFIN:ZDB-PUB-120516-14]
+def: "Multi-tissue structure part of the olfactory bulb  that  is roughly spheroidal and encircled by olfactory sensory neuron axons that formed an anatomically distinct stalk  connected to the olfactory nerve." [ZFIN:ZDB-PUB-120516-14]
 is_a: ZFA:0001488 ! multi-tissue structure
+relationship: develops_from ZFA:0005668 ! olfactory bulb protoglomerulus
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
 creation_date: 2013-03-19T02:15:11Z
 
@@ -30526,7 +30539,7 @@ creation_date: 2013-03-19T04:04:36Z
 id: ZFA:0005663
 name: dorsal spinal nerve
 namespace: zebrafish_anatomy
-def: "Dorsal branch of the spinal nerve, coursing dorsally and caudally between the muscle and the vertebrae. It remains in the center of the muscle segment and could be followed to the dorsal aspect of the muscle. MiP primary motoneuron axons extend in this branch." [ZFIN: ZDB-PUB-961014-814, ZFIN:ZDB-PUB-961014-1247]
+def: "Dorsal branch of the spinal nerve, coursing dorsally and caudally between the muscle and the vertebrae. It remains in the center of the muscle segment and could be followed to the dorsal aspect of the muscle. MiP primary motoneuron axons extend in this branch." [ZFIN:ZDB-PUB-961014-1247, ZFIN:ZDB-PUB-961014-814]
 synonym: "dorsal nerve" EXACT []
 is_a: ZFA:0005662 ! spinal nerve
 relationship: end ZFS:0000044 ! Adult
@@ -30537,7 +30550,7 @@ creation_date: 2013-03-19T04:08:16Z
 [Term]
 id: ZFA:0005664
 name: lateral spinal nerve
-def: "Ventral branch of the spinal nerve that projects toward the lateral surface of the myotome, initially extending parallel to the horizontal myoseptum. RoP primary motoneuron axons extend in this branch." [ZFIN: ZDB-PUB-961014-814, ZFIN:ZDB-PUB-961014-1247]
+def: "Ventral branch of the spinal nerve that projects toward the lateral surface of the myotome, initially extending parallel to the horizontal myoseptum. RoP primary motoneuron axons extend in this branch." [ZFIN:ZDB-PUB-961014-1247, ZFIN:ZDB-PUB-961014-814]
 synonym: "lateral nerve" EXACT []
 is_a: ZFA:0005662 ! spinal nerve
 relationship: end ZFS:0000044 ! Adult
@@ -30561,7 +30574,7 @@ creation_date: 2013-03-19T04:11:19Z
 id: ZFA:0005666
 name: ventral spinal nerve septal branch
 namespace: zebrafish_anatomy
-def: "Ventral spinal nerve sub-branch that runs near the rostral end of the myotome near the vertical myoseptum." [ZFIN: ZDB-PUB-961014-1247]
+def: "Ventral spinal nerve sub-branch that runs near the rostral end of the myotome near the vertical myoseptum." [ZFIN:ZDB-PUB-961014-1247]
 is_a: ZFA:0005665 ! ventral spinal nerve
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -30572,12 +30585,823 @@ creation_date: 2013-03-19T04:13:53Z
 id: ZFA:0005667
 name: ventral spinal nerve median branch
 namespace: zebrafish_anatomy
-def: "Ventral spinal nerve sub-branch that projects ventrally in the rostro-caudal center of the myotome. The axon of the CaP primary motoneuron extends in this branch." [ZFIN: ZDB-PUB-961014-814, ZFIN:ZDB-PUB-961014-1247]
+def: "Ventral spinal nerve sub-branch that projects ventrally in the rostro-caudal center of the myotome. The axon of the CaP primary motoneuron extends in this branch." [ZFIN:ZDB-PUB-961014-1247, ZFIN:ZDB-PUB-961014-814]
 is_a: ZFA:0005665 ! ventral spinal nerve
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2013-03-19T04:14:46Z
+
+[Term]
+id: ZFA:0005668
+name: olfactory bulb protoglomerulus
+namespace: zebrafish_anatomy
+def: "Multi-tissue structure part of the olfactory bulb comprised of ciliated and microvillous olfactory sensory neurons projections that form specialized neuropilar regions comprised of olfactory sensor axons and the dendrites of olfactory bulb neurons." [ZFIN:ZDB-PUB-120330-2]
+synonym: "glomerular precursors" EXACT []
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0000357 ! glomerular layer
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2013-04-29T11:55:43Z
+
+[Term]
+id: ZFA:0005669
+name: lateral protoglomerulus
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
+synonym: "lateral protoglomeruli" EXACT PLURAL []
+is_a: ZFA:0005668 ! olfactory bulb protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2013-04-29T13:58:36Z
+
+[Term]
+id: ZFA:0005670
+name: central zone protoglomerulus
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [ZFIN:ZDB-PUB-980729-35]
+is_a: ZFA:0005668 ! olfactory bulb protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005673 ! central zone olfactory bulb
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2013-04-29T14:06:50Z
+
+[Term]
+id: ZFA:0005671
+name: medial protoglomerulus
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
+is_a: ZFA:0005668 ! olfactory bulb protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2013-04-29T14:10:49Z
+
+[Term]
+id: ZFA:0005672
+name: ventral posterior glomerulus
+namespace: zebrafish_anatomy
+def: "Single large glomerulus located in the ventral posterior region of the maturing glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-980729-35]
+synonym: "VPG" RELATED []
+is_a: ZFA:0005668 ! olfactory bulb protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-04-29T14:17:00Z
+
+[Term]
+id: ZFA:0005673
+name: central zone olfactory bulb
+namespace: zebrafish_anatomy
+def: "Central region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-980729-35]
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000357 ! glomerular layer
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2013-04-29T14:25:20Z
+
+[Term]
+id: ZFA:0005674
+name: dorsal zone olfactory bulb
+namespace: zebrafish_anatomy
+def: "Dorsal region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-980729-35]
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000357 ! glomerular layer
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-04-29T14:26:28Z
+
+[Term]
+id: ZFA:0005675
+name: lateral zone olfactory bulb
+namespace: zebrafish_anatomy
+def: "Lateral region of the glomerular layer of the olfactory bulb.  The lateral region of the olfactory bulb consisted of morphologically diverse glomeruli and a diffuse aggregate of OSN axons, the lateral plexus." [ZFIN:ZDB-PUB-980729-35]
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000357 ! glomerular layer
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2013-04-29T14:27:13Z
+
+[Term]
+id: ZFA:0005676
+name: medial zone olfactory bulb
+namespace: zebrafish_anatomy
+def: "Medial region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-980729-35]
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000357 ! glomerular layer
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2013-04-29T14:28:47Z
+
+[Term]
+id: ZFA:0005677
+name: ventral zone olfactory bulb
+namespace: zebrafish_anatomy
+def: "Ventral region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-980729-35]
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000357 ! glomerular layer
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-04-29T14:29:39Z
+
+[Term]
+id: ZFA:0005678
+name: dorsolateral zone olfactory bulb
+namespace: zebrafish_anatomy
+def: "Lateral region of the dorsal zone of the olfactory bulb. Glomeruli in this zone are tightly clustered in both male and female fish." [ZFIN:ZDB-PUB-050523-2, ZFIN:ZDB-PUB-101222-42, ZFIN:ZDB-PUB-120516-14]
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005674 ! dorsal zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-06T16:46:27Z
+
+[Term]
+id: ZFA:0005679
+name: ventromedial zone olfactory bulb
+namespace: zebrafish_anatomy
+def: "Medial portion of the ventral region of the glomerular layer of the olfactory bulb." []
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005677 ! ventral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-07T09:59:45Z
+
+[Term]
+id: ZFA:0005680
+name: ventroanterior zone of olfactory bulb
+namespace: zebrafish_anatomy
+def: "Anterior portion of the ventral region of the glomerular layer of the olfactory bulb. In the ventroanterior zone there are  typically seven small glomeruli located 11-20 micrometers beneath the superficial axon bundles  The ganglion differed conspicuously in sizes, shapes, and distribution, and were not individually  identifiable." [ZFA:CVS, ZFIN:ZDB-PUB-120516-14]
+synonym: "vaGx" RELATED []
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005677 ! ventral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-07T10:03:15Z
+
+[Term]
+id: ZFA:0005681
+name: ventroposterior zone olfactory bulb
+namespace: zebrafish_anatomy
+def: "Posterior portion of the ventral region of the glomerular layer of the olfactory bulb." []
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005677 ! ventral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-07T10:22:38Z
+
+[Term]
+id: ZFA:0005682
+name: mediodorsal zone of the olfactory bulb
+namespace: zebrafish_anatomy
+def: "Dorsal part of the medial region of the glomerular layer of the olfactory bulb." [ZFA:CVS]
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-07T13:37:59Z
+
+[Term]
+id: ZFA:0005683
+name: anteromedial  zone olfactory bulb
+namespace: zebrafish_anatomy
+def: "Anterior portion of the medial region of the glomerular layer of the olfactory bulb." [ZFA:CVS]
+synonym: "medial anterior zone olfactory bulb" EXACT []
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-07T13:39:48Z
+
+[Term]
+id: ZFA:0005684
+name: posteromedial glomerulus
+namespace: zebrafish_anatomy
+def: "Glomerulus located between ventromedial and medial olfactory bulb surfaces. The mpG is generally  elongated and innervated by a single thick axon." [ZFIN:ZDB-PUB-050523-2, ZFIN:ZDB-PUB-961014-62]
+synonym: "mpG" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-07T13:48:45Z
+
+[Term]
+id: ZFA:0005685
+name: dG1
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the dorsal zone of the olfactory bulb.  It is located in a stereotypic position near the posterior edge of the dorsal glomerular zone and stains with anti-calretinin." [ZFIN:ZDB-PUB-120516-14]
+synonym: "dorsal glomerulus 1" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005674 ! dorsal zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T14:25:26Z
+
+[Term]
+id: ZFA:0005686
+name: dlG1
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the dorsolateral zone of the olfactory bulb.  Dorsalmost of glomeruli located along the caudal edge of the olfactory bulb." [ZFIN:ZDB-PUB-120516-14]
+synonym: "dorsolateral glomerulus 1" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T14:34:12Z
+
+[Term]
+id: ZFA:0005687
+name: dlG2
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the dorsolateral zone of the olfactory bulb.  Ventral to dlG1 and located along the caudal edge of the olfactory bulb." [ZFIN:ZDB-PUB-120516-14]
+synonym: "dorsolateral glomerulus 2" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T14:38:24Z
+
+[Term]
+id: ZFA:0005688
+name: dlG3
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the dorsolateral zone of the olfactory bulb.  Ventral to dlG2 and located along the caudal edge of the olfactory bulb." [ZFIN:ZDB-PUB-120516-14]
+synonym: "dorsolateral glomerulus 3" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T14:40:59Z
+
+[Term]
+id: ZFA:0005689
+name: dlG4
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the dorsolateral zone of the olfactory bulb.  Ventral to dlG3 and located along the caudal edge of the olfactory bulb." [ZFIN:ZDB-PUB-120516-14]
+synonym: "dorsolateral glomerulus 4" RELATED []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T14:42:35Z
+
+[Term]
+id: ZFA:0005690
+name: dlG5
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the dorsolateral zone of the olfactory bulb.  Ventral to dlG4,  and located along the caudal edge of the olfactory bulb." [ZFIN:ZDB-PUB-120516-14]
+synonym: "dorsolateral glomerulus 5" RELATED []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T14:45:36Z
+
+[Term]
+id: ZFA:0005691
+name: vmG1
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the ventromedial zone of the olfactory bulb. Stains strongly with anti-calretinin. Anteriormost of the triplet of glomeruli strongly expressing calretinin." [ZFIN:ZDB-PUB-120516-14]
+synonym: "ventral triplet glomerulus 1" EXACT []
+synonym: "ventromedial glomerulus 1" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T15:10:31Z
+
+[Term]
+id: ZFA:0005692
+name: vmG2
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the ventromedial zone of the olfactory bulb. Stains strongly with anti-calretinin.  Posterior to vmG1 in the triplet of glomeruli strongly expressing calretinin." [ZFIN:ZDB-PUB-120516-14]
+synonym: "ventral triplet glomerulus 2" EXACT []
+synonym: "ventromedial glomerulus 2" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T15:17:25Z
+
+[Term]
+id: ZFA:0005693
+name: vmG3
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the ventromedial zone of the olfactory bulb. Stains strongly with anti-calretinin.  Posteriormost glomerulus in the triplet of glomeruli strongly expressing calretinin." [ZFIN:ZDB-PUB-120516-14]
+synonym: "ventral triplet glomerulus 3" EXACT []
+synonym: "ventromedial glomerulus 3" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T15:19:23Z
+
+[Term]
+id: ZFA:0005694
+name: vmG4
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the ventromedial zone of the olfactory bulb. Posterior to the triplet of  ventromedial glomeruli strongly expressing calretinin." [ZFIN:ZDB-PUB-120516-14]
+synonym: "ventromedial glomerulus 4" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T15:24:43Z
+
+[Term]
+id: ZFA:0005695
+name: vmG5
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the ventromedial zone of the olfactory bulb. Posterior to vmG4." [ZFIN:ZDB-PUB-120516-14]
+synonym: "ventromedial glomerulus 5" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T15:26:20Z
+
+[Term]
+id: ZFA:0005696
+name: vmG6
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the ventromedial zone of the olfactory bulb. Posterior to vmG4 adjacent to vmG5." [ZFIN:ZDB-PUB-120516-14]
+synonym: "ventromedial glomerulus 6" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T15:27:26Z
+
+[Term]
+id: ZFA:0005697
+name: vmG7
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the ventromedial zone of the olfactory bulb. vmG7 is located anteriorly to vmG1-3 and vmG4-6." [ZFIN:ZDB-PUB-120516-14]
+synonym: "ventromedial glomerulus 7" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T15:31:32Z
+
+[Term]
+id: ZFA:0005698
+name: vmGx
+namespace: zebrafish_anatomy
+def: "Group of glomerulus located in the ventromedial zone of the olfactory bulb The vmGx group, is  located 10-50 micrometers from the ventral surface of the olfactory bulb. And were located anywhere between the posteroventral and anteroventral regions of the olfactory bulb. It was not possible to unambiguously identify the vmGx because they displayed varying distributions and numbers in the olfactory bulbs of different animals." [ZFIN:ZDB-PUB-120516-14]
+synonym: "ventromedial glomerular group x" EXACT []
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T15:34:17Z
+
+[Term]
+id: ZFA:0005699
+name: vmGy
+namespace: zebrafish_anatomy
+def: "Group of glomerulus located in the ventromedial zone of the olfactory bulb. A cluster of comparatively small glomeruli located near the midline between the two olfactory bulbs The glomeruli in the  vmGy were among the smallest glomeruli in the olfactory bulb." [ZFIN:ZDB-PUB-120516-14]
+synonym: "ventromedial glomerular group y" EXACT []
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T15:37:11Z
+
+[Term]
+id: ZFA:0005700
+name: vpG1
+namespace: zebrafish_anatomy
+def: "One of two large glomeruli located in the ventroposterior zone olfactory bulb." [ZFA:CVS, ZFIN:ZDB-PUB-120516-14]
+synonym: "ventroposterior glomerulus 1" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005681 ! ventroposterior zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T15:46:05Z
+
+[Term]
+id: ZFA:0005701
+name: vpG2
+namespace: zebrafish_anatomy
+def: "One of two large glomeruli located in the ventroposterior zone olfactory bulb." [ZFA:CVS, ZFIN:ZDB-PUB-120516-14]
+synonym: "ventroposterior glomerulus 2" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005681 ! ventroposterior zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T15:47:52Z
+
+[Term]
+id: ZFA:0005702
+name: lG1
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the lateral zone of the olfactory bulb. lG1 is surrounded by a diffuse aggregate of OSN axons." [ZFIN:ZDB-PUB-120516-14]
+synonym: "glomerulus 1 of the lateral chain" EXACT []
+synonym: "lateral glomerulus 1" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T16:11:01Z
+
+[Term]
+id: ZFA:0005703
+name: lG2
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the lateral zone of the olfactory bulb." [ZFA:CVS]
+synonym: "glomerulus 2 of the lateral chain" EXACT []
+synonym: "lateral glomerulus 2" EXACT []
+synonym: "lcG2 " EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T16:15:43Z
+
+[Term]
+id: ZFA:0005704
+name: lG3
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the lateral zone of the olfactory bulb." [ZFA:CVS, ZFIN:ZDB-PUB-120516-14]
+synonym: "glomerulus 3 of the lateral chain" EXACT []
+synonym: "lateral glomerulus 3" EXACT []
+synonym: "lcG3" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-21T16:18:03Z
+
+[Term]
+id: ZFA:0005705
+name: lG4
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the lateral zone of the olfactory bulb." [ZFA:CVS]
+synonym: "glomerulus 4 of the lateral chain" EXACT []
+synonym: "lateral glomerulus 4" EXACT []
+synonym: "lcG4" RELATED []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-22T11:07:13Z
+
+[Term]
+id: ZFA:0005706
+name: lG5
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the lateral zone of the olfactory bulb. lG5 is surrounded by a diffuse aggregate of OSN axons." [ZFA:CVS, ZFIN:ZDB-PUB-120516-14]
+synonym: "glomerulus 5 of the lateral chain" EXACT []
+synonym: "lateral glomerulus 5" RELATED []
+synonym: "lcG5 " EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-22T11:11:41Z
+
+[Term]
+id: ZFA:0005707
+name: lGx
+namespace: zebrafish_anatomy
+def: "Group of glomerulus located in the lateral region of the olfactory bulb. The  glomeruli that compose lGx are smaller than the lG1-6 and varied in shape, sizes, and locations between olfactory bulbs of the same and different animals. The lGx were located either along the ventral edge of the lateral group or below the lateral olfactory bulb surface." [ZFIN:ZDB-PUB-120516-14]
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-22T11:16:21Z
+
+[Term]
+id: ZFA:0005708
+name: lG6
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the lateral zone of the olfactory bulb. lG6 is located on the ventroposterior edge of the lateral group." [ZFIN:ZDB-PUB-120516-14]
+synonym: "lateral glomerulus 6" EXACT []
+synonym: "lvpG" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-22T11:19:31Z
+
+[Term]
+id: ZFA:0005709
+name: mdG1
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the mediodorsal zone of the olfactory bulb." [ZFA:CVS]
+synonym: "mdpG1" EXACT []
+synonym: "mediodorsal glomerulus 1" EXACT []
+synonym: "mediodorsal posterior glomerulus 1 " EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005682 ! mediodorsal zone of the olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-22T11:49:49Z
+
+[Term]
+id: ZFA:0005710
+name: mdG2
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the mediodorsal zone of the olfactory bulb." [ZFA:CVS]
+synonym: "mdpG2 " EXACT []
+synonym: "mediodorsal glomerulus 2" EXACT []
+synonym: "mediodorsal posterior glomerulus 2" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005682 ! mediodorsal zone of the olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-22T11:53:33Z
+
+[Term]
+id: ZFA:0005711
+name: mdG3
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the mediodorsal zone of the olfactory bulb." [ZFA:CVS]
+synonym: "mediodorsal glomerulus 3" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005682 ! mediodorsal zone of the olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-22T11:54:46Z
+
+[Term]
+id: ZFA:0005712
+name: mdG4
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the mediodorsal zone of the olfactory bulb." [ZFA:CVS]
+synonym: "mediodorsal glomerulus 4" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005682 ! mediodorsal zone of the olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-22T11:56:36Z
+
+[Term]
+id: ZFA:0005713
+name: mdG5
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the mediodorsal zone of the olfactory bulb." [ZFA:CVS]
+synonym: "mediodorsal glomerulus 5" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005682 ! mediodorsal zone of the olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-22T11:57:20Z
+
+[Term]
+id: ZFA:0005714
+name: mdG6
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the mediodorsal zone of the olfactory bulb." [ZFA:CVS]
+synonym: "mediodorsal glomerulus 6" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005682 ! mediodorsal zone of the olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-22T11:58:01Z
+
+[Term]
+id: ZFA:0005715
+name: maG1
+namespace: zebrafish_anatomy
+def: "Glomerulus located in the anteromedial  zone of the olfactory bulb." [ZFA:CVS]
+synonym: "maG" RELATED []
+synonym: "medial anterior glomerulus 1" EXACT []
+is_a: ZFA:0005661 ! olfactory bulb glomerulus
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005683 ! anteromedial  zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-22T12:02:52Z
+
+[Term]
+id: ZFA:0005716
+name: maGx
+namespace: zebrafish_anatomy
+def: "Group of small glomeruli located in the anteromedial zone of the olfactory bulb. The arrangements of glomeruli maGx varies between animals and they can't be identified as individual units." [ZFIN:ZDB-PUB-120516-14]
+synonym: "medial anterior glomeruli " RELATED []
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005683 ! anteromedial  zone olfactory bulb
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-05-22T12:04:40Z
+
+[Term]
+id: ZFA:0005717
+name: lateral protoglomerulus 1
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-980729-35]
+synonym: "LG1" RELATED []
+is_a: ZFA:0005669 ! lateral protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T15:52:20Z
+
+[Term]
+id: ZFA:0005718
+name: lateral protoglomerulus 2
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-980729-35]
+synonym: "LG2" RELATED []
+is_a: ZFA:0005669 ! lateral protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T16:06:52Z
+
+[Term]
+id: ZFA:0005719
+name: lateral protoglomerulus 3
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-980729-35]
+synonym: "LG3" RELATED []
+is_a: ZFA:0005669 ! lateral protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T16:08:18Z
+
+[Term]
+id: ZFA:0005720
+name: lateral protoglomerulus 4
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-980729-35]
+synonym: "LG4" RELATED []
+is_a: ZFA:0005669 ! lateral protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T16:08:37Z
+
+[Term]
+id: ZFA:0005721
+name: central zone protoglomerulus 1
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [ZFIN:ZDB-PUB-980729-35]
+synonym: "CZ1" EXACT []
+is_a: ZFA:0005670 ! central zone protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005673 ! central zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T17:13:36Z
+
+[Term]
+id: ZFA:0005722
+name: central zone protoglomerulus 2
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [ZFIN:ZDB-PUB-980729-35]
+synonym: "CZ2" EXACT []
+is_a: ZFA:0005670 ! central zone protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005673 ! central zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T17:20:35Z
+
+[Term]
+id: ZFA:0005723
+name: central zone protoglomerulus 3
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [ZFIN:ZDB-PUB-980729-35]
+synonym: "CZ3" EXACT []
+is_a: ZFA:0005670 ! central zone protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005673 ! central zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T17:21:01Z
+
+[Term]
+id: ZFA:0005724
+name: central zone protoglomerulus 4
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [ZFIN:ZDB-PUB-980729-35]
+synonym: "CZ4" EXACT []
+is_a: ZFA:0005670 ! central zone protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005673 ! central zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T17:35:43Z
+
+[Term]
+id: ZFA:0005725
+name: central zone protoglomerulus 5
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [ZFIN:ZDB-PUB-980729-35]
+synonym: "CZ5" EXACT []
+is_a: ZFA:0005670 ! central zone protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005673 ! central zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T17:36:02Z
+
+[Term]
+id: ZFA:0005726
+name: medial protoglomerulus 1
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
+synonym: "MG1 " RELATED []
+is_a: ZFA:0005671 ! medial protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T17:39:34Z
+
+[Term]
+id: ZFA:0005727
+name: medial protoglomerulus 2
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
+synonym: "MG2" RELATED []
+is_a: ZFA:0005671 ! medial protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T17:42:18Z
+
+[Term]
+id: ZFA:0005728
+name: medial protoglomerulus 3
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
+synonym: "MG3" RELATED []
+is_a: ZFA:0005671 ! medial protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T17:42:38Z
+
+[Term]
+id: ZFA:0005729
+name: medial protoglomerulus 4
+namespace: zebrafish_anatomy
+def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
+synonym: "MG4" RELATED []
+is_a: ZFA:0005671 ! medial protoglomerulus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-05-22T17:42:57Z
 
 [Term]
 id: ZFA:0006000
@@ -30655,7 +31479,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 
 [Term]
 id: ZFA:0007004
-name: epiphysial cluster
+name: epiphyseal cluster
 namespace: zebrafish_anatomy
 def: "Early-developing neuronal cluster of the epiphysis.  By 24 hpf the pioneer axon of the dorsoventral diencephalic tract (DVDT) has arisen from the ec and grown ventrally. As this axon encounters axons of the TPOC, it makes a near-90 rostral turn and grows rostrally among axons of the TPOC growing in the opposite direction." [ZFIN:ZDB-PUB-961014-955]
 synonym: "ec" EXACT []
@@ -36884,19 +37708,6 @@ relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
-id: ZFA:0009373
-name: renal principal cell
-namespace: zebrafish_anatomy
-def: "A cuboidal epithelial cell of the kidney which regulates sodium and potassium balance. The activity of sodium and potassium channels on the cells apical membrane is regulated by aldosterone and vasopressin. In mammals these cells are located in the renal collecting ducts." [CL:CVS]
-xref: CL:0005009
-is_a: ZFA:0009038 ! columnar/cuboidal epithelial cell
-is_a: ZFA:0009374 ! kidney epithelial cell
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2013-03-06T01:42:07Z
-
-[Term]
 id: ZFA:0009374
 name: kidney epithelial cell
 namespace: zebrafish_anatomy
@@ -36933,56 +37744,6 @@ relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2013-03-06T01:42:03Z
-
-[Term]
-id: ZFA:0009377
-name: multi-ciliated epithelial cell
-namespace: zebrafish_anatomy
-def: "A ciliated epithelial cell with many cilium." [CL:CVS]
-xref: CL:0005012
-is_a: ZFA:0009035 ! ciliated epithelial cell
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2013-03-06T01:42:09Z
-
-[Term]
-id: ZFA:0009378
-name: single ciliated epithelial cell
-namespace: zebrafish_anatomy
-def: "A ciliated epithelial cell with a single cilium." [CL:CVS]
-xref: CL:0005013
-is_a: ZFA:0009035 ! ciliated epithelial cell
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2013-03-06T01:42:10Z
-
-[Term]
-id: ZFA:0009381
-name: ghrelin secreting cell
-namespace: zebrafish_anatomy
-def: "A cell that secretes ghrelin, the peptide hormone that stimulates hunger." [CL:curator]
-xref: CL:0005018
-is_a: ZFA:0009100 ! peptide hormone secreting cell
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2013-03-06T01:42:12Z
-
-[Term]
-id: ZFA:0009382
-name: pancreatic epsilon cell
-namespace: zebrafish_anatomy
-def: "Ghrelin secreting cells found in the found in the exocrine pancreas." [PMID:14970313]
-comment: In mammals the endocrine pancreas is called the Islets of Langerhans.
-xref: CL:0005019
-is_a: ZFA:0005599 ! ghrelin secreting cell
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-part_of: ZFA:0001249
-created_by: Ceri
-creation_date: 2013-03-06T01:42:13Z
 
 [Term]
 id: ZFA:0009384
@@ -37051,8 +37812,8 @@ def: "Cell that is part of the kidney." [ZFA:CVS]
 xref: CL:1000497
 is_a: ZFA:0009386 ! somatic cell
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000529 ! kidney
 relationship: start ZFS:0000000 ! Unknown
-part_of: ZFA:0000529
 
 [Term]
 id: ZFA:0009390
@@ -37126,7 +37887,7 @@ creation_date: 2012-01-12T05:21:09Z
 id: ZFA:0009396
 name: glycinergic neuron
 namespace: zebrafish_anatomy
-def: "the neurons that utilize glycine as a neurotransmitter" [MP:0010385]
+def: "The neurons that utilize glycine as a neurotransmitter." [MP:0010385]
 xref: CL:1001509
 is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
