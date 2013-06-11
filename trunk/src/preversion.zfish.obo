@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:05:2013 14:51
+date: 10:06:2013 17:33
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -24842,6 +24842,7 @@ creation_date: 2009-08-11T04:29:39Z
 id: ZFA:0005243
 name: single ciliated epithelial cell
 namespace: zebrafish_anatomy
+alt_id: ZFA:0009378
 def: "A ciliated epithelial cell with a single cilium." [CL:curator]
 subset: cell_slim
 synonym: "single-ciliated epithelial cell" EXACT []
@@ -30518,6 +30519,7 @@ is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0005668 ! olfactory bulb protoglomerulus
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
+relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
 creation_date: 2013-03-19T02:15:11Z
 
@@ -30623,6 +30625,7 @@ namespace: zebrafish_anatomy
 def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [ZFIN:ZDB-PUB-980729-35]
 is_a: ZFA:0005668 ! olfactory bulb protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
 creation_date: 2013-04-29T14:06:50Z
@@ -30659,7 +30662,7 @@ def: "Central region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-P
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
-relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
 creation_date: 2013-04-29T14:25:20Z
 
@@ -30683,7 +30686,7 @@ def: "Lateral region of the glomerular layer of the olfactory bulb.  The lateral
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
-relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
 creation_date: 2013-04-29T14:27:13Z
 
@@ -30695,7 +30698,7 @@ def: "Medial region of the glomerular layer of the olfactory bulb." [ZFIN:ZDB-PU
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
-relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
 creation_date: 2013-04-29T14:28:47Z
 
@@ -31337,10 +31340,10 @@ creation_date: 2013-05-22T17:35:43Z
 
 [Term]
 id: ZFA:0005725
-name: central zone protoglomerulus 4
+name: central zone protoglomerulus 5
 namespace: zebrafish_anatomy
 def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [ZFIN:ZDB-PUB-980729-35]
-synonym: "CZ4" EXACT []
+synonym: "CZ5" EXACT []
 is_a: ZFA:0005670 ! central zone protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
@@ -37743,18 +37746,6 @@ created_by: Ceri
 creation_date: 2013-03-06T01:42:03Z
 
 [Term]
-id: ZFA:0009378
-name: single ciliated epithelial cell
-namespace: zebrafish_anatomy
-def: "A ciliated epithelial cell with a single cilium." [CL:CVS]
-xref: CL:0005013
-is_a: ZFA:0009035 ! ciliated epithelial cell
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2013-03-06T01:42:10Z
-
-[Term]
 id: ZFA:0009384
 name: neurecto-epithelial cell
 namespace: zebrafish_anatomy
@@ -38238,6 +38229,9 @@ transitive_over: part_of ! part of
 [Typedef]
 id: end
 name: end stage
+def: "X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y)." []
+synonym: "ends_during" EXACT []
+xref: RO:0002093
 
 [Typedef]
 id: part_of
@@ -38246,14 +38240,13 @@ xref: BFO:0000050
 is_transitive: true
 
 [Typedef]
-id: part_of:
-name: part_of: (UNDECLARED)
-
-[Typedef]
 id: RO:0002131
 name: overlaps
 
 [Typedef]
 id: start
 name: start stage
+def: "X starts_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (start(X) before_or_simultaneous_with end(Y))" []
+synonym: "starts_during" EXACT []
+xref: RO:0002091
 
