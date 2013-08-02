@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:07:2013 13:15
+date: 02:08:2013 16:39
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -3746,6 +3746,7 @@ id: ZFA:0000299
 name: ventral entopeduncular nucleus of ventral telencephalon
 namespace: zebrafish_anatomy
 def: "Peripheral nucleus of the ventral telencephalon that is a band of tightly packed cells starting at the level of the anterior commissure and extends into the telencephalo-diencephalic boundary region. From Neuroanatomy of the Zebrafish Brain." [ISBN:3764351209, ZFA:curator]
+comment: The GAD67-positive (dorsal) entopeduncular\nnucleus (EN= former ENd) appears to be anatomically\nseparate from the GAD67-negative bed nucleus of the\nstria medullaris (BNSM), which was formerly called the ventral\npart of the entopeduncular nucleus (ENv). ZDB-PUB-090814-14.
 synonym: "endopeduncular nucleus, ventral part" EXACT []
 synonym: "entopeduncular nucleus, ventral part" EXACT []
 synonym: "ENv" EXACT []
@@ -8151,6 +8152,7 @@ id: ZFA:0000653
 name: dorsal thalamus
 namespace: zebrafish_anatomy
 def: "Multi-tissue structure that is the dorsal part of the thalamus and emerges ventral to the caudal portion of the ventral habenular nucleus. From Neuroanatomy of the Zebrafish Brain." [ISBN:3764351209, ZFA:curator]
+synonym: "thalamus" RELATED [ZFIN:ZDB-PUB-100621-4]
 synonym: "thalamus, pars dorsalis" EXACT []
 xref: TAO:0000653
 xref: ZFIN:ZDB-ANAT-011113-579
@@ -13393,7 +13395,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001074
 name: taste bud
 namespace: zebrafish_anatomy
-def: "Pear- or onion-shaped intraepithelial sensory endorgans . They sit on a small dermal papilla and consist of modified epithelial cells of different types.  The taste buds are located in the mouth, in the oropharyngeal cavity, on the head and on the  barbels.  They are innervated by either the facial (VII), the glossopharyngeal (IX), or the vagal (X) cranial nerve." [ZFIN:ZDB-PUB-020403-3]
+def: "Pear or onion-shaped intraepithelial sensory endorgans. They sit on a small dermal papilla and consist of modified epithelial cells of different types.  The taste buds are located in the mouth, in the oropharyngeal cavity, on the head and on the  barbels.  They are innervated by either the facial (VII), the glossopharyngeal (IX), or the vagal (X) cranial nerve." [ZFIN:ZDB-PUB-020403-3]
 comment: Taste buds are made up of vertically oriented, elongate cells form the sensory epithelium of the organ: dark cells with many small microvilli, and light cells with one large microvillus as an apical ending. Between the dark and light cells and the basal lamina, the basal cells stretch horizontally.
 synonym: "taste buds" EXACT PLURAL []
 xref: TAO:0001074
@@ -15625,13 +15627,13 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0001260
 name: endocrine pancreas
 namespace: zebrafish_anatomy
-def: "The zebrafish endocrine pancreas is a portion of tissue composed of small groups of islet cells that are distributed throughout the exocrine pancreas.  The islet cells produce insulin, glucagon and somatostatin." [ZFA:curator]
+def: "The zebrafish endocrine pancreas is an compound organ component composed of small groups of islet cells that are distributed throughout the exocrine pancreas.  The islet cells produce insulin, glucagon and somatostatin." [ZFA:curator]
 comment: May be called pancreatic islets of Langerhans (related synonym). Alpha cells secrete glucagon like peptide, beta-insulin, delta cells-somatostatin, pancreastatin.  May also be called "Brockman bodies".
-synonym: "pancreatic islet" EXACT []
+synonym: "pancreatic islet" RELATED []
 synonym: "tail pancreas" RELATED [ZFIN:ZDB-PUB-080922-7]
 xref: TAO:0001260
 xref: ZFIN:ZDB-ANAT-050711-7
-is_a: ZFA:0001477 ! portion of tissue
+is_a: ZFA:0001489 ! compound organ component
 relationship: develops_from ZFA:0001370 ! posterior pancreatic bud
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000140 ! pancreas
@@ -31591,7 +31593,7 @@ synonym: "exocrine glands pancreas" EXACT []
 synonym: "pancreatic acini" EXACT []
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0001249 ! exocrine pancreas
+relationship: part_of ZFA:0005753 ! pancreatic lobule
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
 creation_date: 2013-07-29T10:42:33Z
@@ -31607,7 +31609,9 @@ synonym: "PP cell of pancreatic islet" EXACT []
 synonym: "PP-cell of pancreatic islet" EXACT []
 xref: CL:0002275
 is_a: ZFA:0009034 ! epithelial cell
+relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001260 ! endocrine pancreas
+relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2013-07-29T10:59:29Z
 
@@ -31649,6 +31653,8 @@ namespace: zebrafish_anatomy
 def: "A cell whose primary function is to provide structural support, to provide strength and physical integrity to the organism." [TAIR:sr]
 xref: CL:0000293
 is_a: ZFA:0009000 ! cell
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2013-07-30T16:14:44Z
 
@@ -31667,13 +31673,136 @@ creation_date: 2013-07-30T16:15:56Z
 
 [Term]
 id: ZFA:0005747
-name: supraintestinal lymphatic vessel 
+name: supraintestinal lymphatic vessel
 namespace: zebrafish_anatomy
-def: "Axial lymph vessels that are located on either side of the PCV in the posterior region of the intestine." [ZFIN:ZDB-PUB-120529-43]
+def: "Lymph vessels that are located on either side of the PCV in the posterior region of the intestine." [ZFIN:ZDB-PUB-120529-43]
 synonym: "SIL" EXACT []
-is_a: ZFA:0005296 ! axial lymph vessel
+is_a: ZFA:0005105 ! lymph vasculature
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000037 ! Larval:Day 5
 created_by: Ceri
 creation_date: 2013-07-31T10:44:16Z
+
+[Term]
+id: ZFA:0005748
+name: intrapancreatic duct
+namespace: zebrafish_anatomy
+def: "Digestive duct within the pancreas.  The pancreatic duct carries inactive digestive enzymes to the intestine." [ZFA:CVS, ZFIN:ZDB-PUB-050623-3, ZFIN:ZDB-PUB-101201-32]
+is_a: ZFA:0005162 ! digestive system duct
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000140 ! pancreas
+relationship: part_of ZFA:0001372 ! pancreatic duct
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2013-08-01T14:17:49Z
+
+[Term]
+id: ZFA:0005749
+name: intercalated duct pancreas
+namespace: zebrafish_anatomy
+def: "The portion of the intrapancreatic duct leading from the pancreatic acinar gland to the intralobular duct." [ZFA:CVS, ZFIN:ZDB-PUB-050623-3]
+is_a: ZFA:0005748 ! intrapancreatic duct
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-08-01T14:44:27Z
+
+[Term]
+id: ZFA:0005750
+name: pancreatic intralobular duct
+namespace: zebrafish_anatomy
+def: "Intrapancreatic duct within a pancreatic lobe that connects all the  intercalated duct with an interlobular duct.  The intralobular duct is lined with cuboidal cells." [ZFA:CVS, ZFIN:ZDB-PUB-050623-3]
+is_a: ZFA:0005748 ! intrapancreatic duct
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005753 ! pancreatic lobule
+relationship: start ZFS:0000034 ! Hatching:Pec-fin
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-08-01T14:50:38Z
+
+[Term]
+id: ZFA:0005751
+name: pancreatic interlobular duct
+namespace: zebrafish_anatomy
+def: "Intrapancreatic duct that connects the intralobular duct to the main pancreatic duct." [ZFA:CVS]
+is_a: ZFA:0005748 ! intrapancreatic duct
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-08-01T14:53:52Z
+
+[Term]
+id: ZFA:0005752
+name: main intrapancreatic duct
+namespace: zebrafish_anatomy
+def: "Intrapancreatic duct that connects to the interlobular ducts and drains into the extrapancreatic duct.  The main duct may not be present in all larva and may develop in a segmented fashion." [ZFA:CVS, ZFIN:ZDB-PUB-050623-3, ZFIN:ZDB-PUB-070310-3]
+is_a: ZFA:0005748 ! intrapancreatic duct
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-08-01T14:55:07Z
+
+[Term]
+id: ZFA:0005753
+name: pancreatic lobule
+namespace: zebrafish_anatomy
+def: "Cluster of acinar glands surrounding an intralobular duct." [ZFA:CVS, ZFIN:ZDB-PUB-050623-3]
+synonym: "exocrine lobule" EXACT [ZFIN:ZDB-PUB-050623-3]
+is_a: ZFA:0001478 ! anatomical cluster
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001249 ! exocrine pancreas
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-08-01T15:16:34Z
+
+[Term]
+id: ZFA:0005754
+name: primary islet
+namespace: zebrafish_anatomy
+def: "The primary islet is the first islet to develop." [ZFA:CVS]
+is_a: ZFA:0005755 ! islet
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-08-01T16:05:06Z
+
+[Term]
+id: ZFA:0005755
+name: islet
+namespace: zebrafish_anatomy
+def: "Portion of tissue composed of a group of cells in the pancreas producing insulin, glucagon and somatostatin. Part of the endocrine pancreas." [ZFA:CVS]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001260 ! endocrine pancreas
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-08-01T16:10:28Z
+
+[Term]
+id: ZFA:0005756
+name: secondary islet
+namespace: zebrafish_anatomy
+def: "Islet that develops after the primary islet." [ZFA:CVS]
+comment: Start stage known to be after 3dpf.
+is_a: ZFA:0005755 ! islet
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-08-01T16:10:55Z
+
+[Term]
+id: ZFA:0005757
+name: mid diencephalic organizer
+namespace: zebrafish_anatomy
+def: "Portion of tissue composed of the signal-generating cells within the zona limitans intrathalamica." [ZFA:CVS, ZFA:DF, ZFIN:ZDB-PUB-100621-4, ZFIN:ZDB-PUB-120105-73]
+synonym: "MDO" EXACT []
+synonym: "mid-diencephalic organizer" EXACT []
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0001344 ! zona limitans intrathalamica
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+created_by: Ceri
+creation_date: 2013-08-02T15:20:09Z
 
 [Term]
 id: ZFA:0006000
@@ -34259,8 +34388,7 @@ xref: CL:0000182
 xref: TAO:0009111
 xref: ZFIN:ZDB-ANAT-070308-85
 is_a: ZFA:0009034 ! epithelial cell
-relationship: develops_from ZFA:0009081 ! mesenchymal cell
-relationship: develops_from ZFA:0009139 ! endodermal cell
+relationship: develops_from ZFA:0009398 ! hepatoblast
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000123 ! liver
 relationship: start ZFS:0000000 ! Unknown
@@ -34475,6 +34603,7 @@ xref: TAO:0009126
 xref: ZFIN:ZDB-ANAT-070308-95
 is_a: ZFA:0009124 ! chemoreceptor cell
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001074 ! taste bud
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -37989,7 +38118,9 @@ def: "Epithelial cell part of duct." [ZFA:CVS]
 comment: Definition not present in CL.
 xref: CL:0000068
 is_a: ZFA:0009034 ! epithelial cell
+relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005171 ! duct
+relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2013-07-29T17:17:20Z
 
@@ -38038,7 +38169,9 @@ namespace: zebrafish_anatomy
 def: "An epithelial cell of the intrahepatic portion of the bile duct." [GOC:tfm]
 xref: CL:0002538
 is_a: ZFA:0009372 ! duct epithelial cell
+relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005169 ! intrahepatic bile duct
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
 creation_date: 2013-07-29T17:21:19Z
 
@@ -38049,9 +38182,24 @@ namespace: zebrafish_anatomy
 def: "Epithelial cell found in the ducts of the pancreas." [GOC:tfm]
 xref: CL:0002079
 is_a: ZFA:0009372 ! duct epithelial cell
+relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001372 ! pancreatic duct
+relationship: start ZFS:0000032 ! Pharyngula:High-pec
 created_by: Ceri
 creation_date: 2013-07-29T17:23:07Z
+
+[Term]
+id: ZFA:0009383
+name: endo-epithelial cell
+namespace: zebrafish_anatomy
+def: "An epithelial cell derived from endoderm." [GOC:tfm]
+xref: CL:0002076
+is_a: ZFA:0009034 ! epithelial cell
+relationship: develops_from ZFA:0000017 ! endoderm
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-08-02T16:25:16Z
 
 [Term]
 id: ZFA:0009384
@@ -38200,6 +38348,59 @@ xref: CL:1001509
 is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
+
+[Term]
+id: ZFA:0009397
+name: cholangiocyte
+namespace: zebrafish_anatomy
+def: "An epithelial cell that is part of the bile duct. Cholangiocytes contribute to bile secretion via net release of bicarbonate and water. They are cuboidal epithelium in the small interlobular bile ducts, but become columnar and mucus secreting in larger bile ducts approaching the porta hepatis and the extrahepatic ducts." [PMID:16550043, PMID:18356246]
+synonym: "bile duct cells" RELATED []
+synonym: "epithelial cell of bile duct" EXACT []
+xref: CL:1000488
+is_a: ZFA:0009372 ! duct epithelial cell
+relationship: develops_from ZFA:0009398 ! hepatoblast
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2013-08-02T12:08:01Z
+
+[Term]
+id: ZFA:0009398
+name: hepatoblast
+namespace: zebrafish_anatomy
+def: "Multi fate stem cell that gives rise to both hepatocytes and cholangiocytes as descendants." [PMID:18356246, PMID:20483998, ZFA:CVS]
+is_a: ZFA:0009020 ! multi fate stem cell
+relationship: develops_from ZFA:0000124 ! liver primordium
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+created_by: Ceri
+creation_date: 2013-08-02T12:13:12Z
+
+[Term]
+id: ZFA:0009399
+name: intestinal epithelial cell
+namespace: zebrafish_anatomy
+def: "An epithelial cell of the intestine." [GOC:tfm]
+xref: CL:0002563
+is_a: ZFA:0009383 ! endo-epithelial cell
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001338 ! intestine
+relationship: start ZFS:0000030 ! Pharyngula:Prim-15
+created_by: Ceri
+creation_date: 2013-08-02T16:26:27Z
+
+[Term]
+id: ZFA:0009400
+name: epithelial cell of esophagus
+namespace: zebrafish_anatomy
+def: "An epithelial cell of the esophagus." [GOC:tfm]
+xref: CL:0002252
+is_a: ZFA:0009383 ! endo-epithelial cell
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000204 ! esophagus
+relationship: start ZFS:0000030 ! Pharyngula:Prim-15
+created_by: Ceri
+creation_date: 2013-08-02T16:32:14Z
 
 [Term]
 id: ZFA:0100000
