@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:08:2013 16:39
+date: 07:08:2013 12:50
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -1742,7 +1742,7 @@ relationship: start ZFS:0000022 ! Gastrula:Bud
 id: ZFA:0000140
 name: pancreas
 namespace: zebrafish_anatomy
-def: "The pancreas is an organ composed of endocrine and exocrine glandular tissue that produce hormones and digestive enzymes.  Unlike in other studied vertebrates the pancreas in zebrafish develops from two buds, one anterior  and one posterior. In adult fish the main pancreas is located on the right side of the  attached to the lateral aspect of the intestine by the pancreatic duct. Typically, one large islet and 3-6 smaller islets occupy the main pancreas. The tail of the pancreas is embedded with single beta cells or clusters of small islets and extends caudally along the right side of the intestine." [ZFA:CVS, ZFA:YMB, ZFIN:ZDB-PUB-030902-16, ZFIN:ZDB-PUB-090616-17]
+def: "The pancreas is an organ composed of endocrine and exocrine glandular tissue that produce hormones and digestive enzymes.  Unlike in other studied vertebrates the pancreas in zebrafish develops from two buds, one anterior  and one posterior. In adult fish the main pancreas is located on the right side attached to the lateral aspect of the intestine by the pancreatic duct. Typically, one large islet and 3-6 smaller islets occupy the main pancreas. The tail of the pancreas is embedded with single beta cells or clusters of small islets and extends caudally along the right side of the intestine." [ZFA:CVS, ZFA:YMB, ZFIN:ZDB-PUB-030902-16, ZFIN:ZDB-PUB-090616-17]
 xref: TAO:0000140
 xref: ZFIN:ZDB-ANAT-010921-570
 is_a: ZFA:0000496 ! compound organ
@@ -17041,7 +17041,7 @@ is_a: ZFA:0005162 ! digestive system duct
 relationship: develops_from ZFA:0001369 ! anterior pancreatic bud
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001371 ! pancreatic system
-relationship: start ZFS:0000032 ! Pharyngula:High-pec
+relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 
 [Term]
 id: ZFA:0001373
@@ -22994,10 +22994,9 @@ namespace: zebrafish_anatomy
 def: "The thoracic duct is the first perfused lymphatic, located between the dorsal aorta and posterior cardinal vein." [ZFIN:ZDB-PUB-100719-62]
 xref: TAO:0005110
 xref: ZFIN:ZDB-ANAT-060816-67
-is_a: ZFA:0005105 ! lymph vasculature
+is_a: ZFA:0005296 ! axial lymph vessel
 relationship: develops_from ZFA:0005605 ! lymphangioblast cord
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0005296 ! axial lymph vessel
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 
 [Term]
@@ -30585,6 +30584,7 @@ creation_date: 2013-03-19T04:08:16Z
 [Term]
 id: ZFA:0005664
 name: lateral spinal nerve
+namespace: zebrafish_anatomy
 def: "Ventral branch of the spinal nerve that projects toward the lateral surface of the myotome, initially extending parallel to the horizontal myoseptum. RoP primary motoneuron axons extend in this branch." [ZFIN:ZDB-PUB-961014-1247, ZFIN:ZDB-PUB-961014-814]
 synonym: "lateral nerve" EXACT []
 is_a: ZFA:0005662 ! spinal nerve
@@ -31459,6 +31459,7 @@ namespace: zebrafish_anatomy
 def: "Cranial motor neuron which innervates muscles derived from the branchial (pharyngeal) arches." [PMID:14699587, ZFA:CVS]
 synonym: "branchi  motor neuron" EXACT []
 synonym: "special visceral motor neuron" EXACT []
+xref: CL:0005023
 is_a: ZFA:0005730 ! cranial motor neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -31637,8 +31638,8 @@ id: ZFA:0005744
 name: notochord outer sheath cell
 namespace: zebrafish_anatomy
 def: "Cells that  form an epithelial-like sheath around the vacuolated inner notochord cells. Outer cells secrete a thick extracellular perinotochordal basement membrane." [ZFIN:ZDB-PUB-130322-23]
-synonym: "chordoblast" EXACT []
 synonym: "notochord sheath cell" RELATED []
+xref: CL:0007007
 is_a: ZFA:0009034 ! epithelial cell
 relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0000135 ! notochord
@@ -31715,7 +31716,6 @@ def: "Intrapancreatic duct within a pancreatic lobe that connects all the  inter
 is_a: ZFA:0005748 ! intrapancreatic duct
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005753 ! pancreatic lobule
-relationship: start ZFS:0000034 ! Hatching:Pec-fin
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
 creation_date: 2013-08-01T14:50:38Z
@@ -31747,11 +31747,12 @@ id: ZFA:0005753
 name: pancreatic lobule
 namespace: zebrafish_anatomy
 def: "Cluster of acinar glands surrounding an intralobular duct." [ZFA:CVS, ZFIN:ZDB-PUB-050623-3]
+comment: Lobules are composed of multiple acini so are only apparent starting ~72hpf.  Before 72hpf consider annotating to acinar gland.
 synonym: "exocrine lobule" EXACT [ZFIN:ZDB-PUB-050623-3]
 is_a: ZFA:0001478 ! anatomical cluster
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001249 ! exocrine pancreas
-relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2013-08-01T15:16:34Z
 
