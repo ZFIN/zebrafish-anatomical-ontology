@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:08:2013 12:50
+date: 10:10:2013 15:00
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -27,6 +27,7 @@ id: ZFA:0000001
 name: Kupffer's vesicle
 namespace: zebrafish_anatomy
 def: "Small but distinctive epithelial sac containing fluid, located midventrally posterior to the yolk cell or its extension, and transiently present during most of the segmentation period. Kupffer's vesicle has been compared to the mouse embryonic node." [ZFIN:ZDB-PUB-050328-4, ZFIN:ZDB-PUB-961014-576]
+synonym: "ciliated organ of asymmetry" EXACT [ZFIN:ZDB-PUB-050221-4]
 xref: TAO:0000001
 xref: ZFIN:ZDB-ANAT-010921-406
 is_a: ZFA:0001105 ! embryonic structure
@@ -143,7 +144,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000011
 name: caudal artery
 namespace: zebrafish_anatomy
-def: "Extension of the dorsal aorta in the tail." [ZFIN:ZDB-PUB-961014-576]
+def: "Extension of the dorsal aorta in the post-vent region." [ZFIN:ZDB-PUB-961014-576]
 synonym: "CA" EXACT []
 xref: TAO:0000011
 xref: ZFIN:ZDB-ANAT-010921-418
@@ -2266,7 +2267,7 @@ relationship: develops_from ZFA:0001286 ! caudal vein plexus
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005037 ! post-vent vasculature
 relationship: part_of ZFA:0005295 ! axial blood vessel
-relationship: start ZFS:0000033 ! Hatching:Long-pec
+relationship: start ZFS:0000036 ! Larval:Day 4
 
 [Term]
 id: ZFA:0000181
@@ -3524,6 +3525,7 @@ id: ZFA:0000281
 name: hair cell posterior macula
 namespace: zebrafish_anatomy
 def: "Specialized neuronal receptor cells of the lateral line and acoustico-vestibular systems. (Also see Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/hair_cell/hair_cell.html'>hair cells</a> by T. Whitfield.)" [ZFIN:ZDB-PUB-961014-576]
+subset: cell_slim
 synonym: "sensory hair cells posterior macula" EXACT PLURAL []
 xref: TAO:0000281
 xref: ZFIN:ZDB-ANAT-011113-210
@@ -8468,6 +8470,7 @@ id: ZFA:0000678
 name: hair cell anterior macula
 namespace: zebrafish_anatomy
 def: "Specialized neuronal receptor cells of the anterior macula. (Also see Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/hair_cell/hair_cell.html'>hair cells</a> by T. Whitfield.)" [MESH:68018069, ZFIN:ZDB-PUB-961014-576]
+subset: cell_slim
 synonym: "sensory hair cells anterior macula" EXACT PLURAL []
 xref: TAO:0000678
 xref: ZFIN:ZDB-ANAT-011113-63
@@ -10273,6 +10276,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000821
 name: primary neuron hindbrain
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "primary neurons hindbrain" EXACT PLURAL []
 xref: TAO:0000821
 xref: ZFIN:ZDB-ANAT-020309-195
@@ -11763,7 +11767,7 @@ relationship: start ZFS:0000036 ! Larval:Day 4
 id: ZFA:0000940
 name: posterior lateral line neuromast
 namespace: zebrafish_anatomy
-def: "Neuromast that is part of the posterior lateral line. (Also see Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.) " [ZFIN:ZDB-PUB-961014-576]
+def: "Neuromast that is part of the posterior lateral line. (Also see Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [ZFIN:ZDB-PUB-961014-576]
 synonym: "neuromast posterior" EXACT []
 synonym: "neuromasts posterior" EXACT PLURAL []
 xref: TAO:0000940
@@ -13424,6 +13428,7 @@ name: intestinal bulb
 namespace: zebrafish_anatomy
 def: "This anteriormost portion of the intestine has the most digestive enzymes and the greatest epithelial surface area." [ZFIN:ZDB-PUB-050120-6]
 synonym: "anterior intestine" EXACT []
+synonym: "foregut" RELATED []
 xref: TAO:0001076
 xref: ZFIN:ZDB-ANAT-030922-14
 is_a: ZFA:0001488 ! multi-tissue structure
@@ -13643,6 +13648,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001098
 name: immature hair cell anterior macula
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "immature sensory hair cells anterior macula" EXACT PLURAL []
 xref: TAO:0001098
 xref: ZFIN:ZDB-ANAT-050228-13
@@ -13655,6 +13661,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001099
 name: immature hair cell posterior macula
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "immature sensory hair cells posterior macula" EXACT PLURAL []
 xref: TAO:0001099
 xref: ZFIN:ZDB-ANAT-050228-14
@@ -15970,6 +15977,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001286
 name: caudal vein plexus
 namespace: zebrafish_anatomy
+def: "Post-vent vasculature which forms an interconnecting network of venous tubes. The caudal vein plexus forms via a very active period of angiogenic sprouting, beginning at 25 hpf when venous endothelial cells of the posterior cardinal vein sprout and migrate ventrally, then fuse with neighboring tip cells. This process reiterates during a five-hour window, forming a primordial plexus by 30 hpf. By two days of development, the primitive caudal vein plexus has matured into a complex, well-perfused, venous vascular network. Starting at 4 dpf the caudal vein plexus starts to remodel and simplify." [ZFIN:ZDB-PUB-010205-5, ZFIN:ZDB-PUB-111011-36]
 xref: TAO:0001286
 xref: ZFIN:ZDB-ANAT-050915-91
 is_a: ZFA:0005037 ! post-vent vasculature
@@ -19533,6 +19541,7 @@ id: ZFA:0001572
 name: superior cervical ganglion
 namespace: zebrafish_anatomy
 def: "Trunk ganglion which is bilaterally paired and located at the anterior end of the sympathetic ganglion chain." [ZFA:curator]
+synonym: "SCG" RELATED []
 synonym: "superior sympathetic cervical ganglion" EXACT []
 xref: TAO:0001572
 xref: ZFIN:ZDB-ANAT-070928-174
@@ -20605,6 +20614,7 @@ id: ZFA:0001656
 name: pleuroperitoneal cavity
 namespace: zebrafish_anatomy
 def: "Anatomical space which contains the abdominal visceral and swim bladder. Located posterior to the pericardial cavity, separated by the transverse septum. From Functional Anatomy of the Vertebrates, third edition." [ISBN:0030223695, ZFA:curator]
+synonym: "visceral cavity" EXACT []
 xref: TAO:0002224
 xref: ZFIN:ZDB-ANAT-081013-31
 is_a: ZFA:0001643 ! anatomical space
@@ -23859,6 +23869,7 @@ name: CoPA
 namespace: zebrafish_anatomy
 def: "An interneuron in the spinal cord.  CoPA are bipolar with \"T\" shaped dorsal dendrites, have contralateral longitudinal axons that crosses the cord dorsal to the Mauthner neuron and ascends in the dorsal cord." [ZFIN:ZDB-PUB-010807-17, ZFIN:ZDB-PUB-961014-274, ZFIN:ZDB-PUB-961014-649]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
+subset: cell_slim
 synonym: "primary commissural interneuron" EXACT []
 xref: TAO:0005175
 xref: ZFIN:ZDB-ANAT-090922-217
@@ -23874,6 +23885,7 @@ name: CoSA
 namespace: zebrafish_anatomy
 def: "An interneuron of the spinal cord. CoSA,  have contralateral longitudinal axons that crosses the cord dorsal to the Mauthner neuron and ascends in the dorsal cord." [ZFIN:ZDB-PUB-010807-17, ZFIN:ZDB-PUB-961014-649]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
+subset: cell_slim
 synonym: "secondary commissural interneuron" EXACT []
 xref: TAO:0005176
 xref: ZFIN:ZDB-ANAT-090922-218
@@ -23889,6 +23901,7 @@ name: VeLD
 namespace: zebrafish_anatomy
 def: "An interneuron of the spinal cord. VeLD neurons have an ipsilateral longitudinal axon." [ZFIN:ZDB-PUB-961014-649]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
+subset: cell_slim
 synonym: "V2b interneuron" RELATED []
 synonym: "ventral longitudinal interneuron" EXACT []
 xref: TAO:0005177
@@ -23905,6 +23918,7 @@ name: DoLA
 namespace: zebrafish_anatomy
 def: "An interneuron of the spinal cord." [ZFIN:ZDB-PUB-961014-649]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
+subset: cell_slim
 synonym: "dorsal longitudinal interneuron" EXACT []
 xref: TAO:0005178
 xref: ZFIN:ZDB-ANAT-090922-220
@@ -23968,6 +23982,7 @@ name: t-interneuron
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is located in the caudal hindbrain.  The T interneurons are reticular neurons named after the branching pattern of their axons. The T axons project across the midline, and branches course both rostrally and caudally within the medial longitudinal fascicle (mlf). The cells receive synaptic input from the Mauthner neurons, from unidentified axons in the mlf, and perhaps from trigeminal sensory fibers. They project to cranial and pectoral motor nuclei." [ZFIN:ZDB-PUB-961014-588]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
+subset: cell_slim
 xref: TAO:0005182
 xref: ZFIN:ZDB-ANAT-090922-224
 is_a: ZFA:0005209 ! hindbrain interneuron
@@ -23982,6 +23997,7 @@ name: MiD2i
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 5 with one dorsal neuron in each hemi-rhombomere.  The axonal projection is ipsilateral." [ZFIN:ZDB-PUB-961014-770]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
+subset: cell_slim
 synonym: "middle dorsal 2 ipsilateral interneuron " EXACT []
 xref: TAO:0005183
 xref: ZFIN:ZDB-ANAT-090922-225
@@ -23998,6 +24014,7 @@ name: MiD2cl
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron, part of rhombomere 5, with one dorsal, caudal-lateral neuron in each hemi-rhombomere.  The fibers pass through the lateral longitudinal fasciculus." [ZFIN:ZDB-PUB-961014-770]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
+subset: cell_slim
 synonym: "middle dorsal 2 contralateral llf interneuron " EXACT []
 xref: TAO:0005184
 xref: ZFIN:ZDB-ANAT-090922-226
@@ -24014,6 +24031,7 @@ name: MiD2cm
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron, part of rhombomere 5, with one dorsal, caudal-medial neuron in each hemi-rhombomere.  The fibers pass through the medial longitudinal fasciculus." [ZFIN:ZDB-PUB-961014-770]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
+subset: cell_slim
 synonym: "middle dorsal 2 contralateral mlf interneuron " EXACT []
 xref: TAO:0005185
 xref: ZFIN:ZDB-ANAT-090922-227
@@ -24030,6 +24048,7 @@ name: CoB
 namespace: zebrafish_anatomy
 def: "A bifurcate interneuron.  It is a commissural neuron with both ascending and descending axons in the ventrolateral cord contralateral to its cell body." [ZFIN:ZDB-PUB-961014-649]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.\n\nThis may be the same as CoBL.
+subset: cell_slim
 synonym: "bifurcate commissural interneuron" EXACT []
 xref: TAO:0005186
 xref: ZFIN:ZDB-ANAT-090922-228
@@ -24044,6 +24063,7 @@ id: ZFA:0005187
 name: MiM1
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 4, with one medial neuron in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "middle medial interneuron " EXACT []
 xref: TAO:0005187
 xref: ZFIN:ZDB-ANAT-090922-229
@@ -24059,6 +24079,7 @@ id: ZFA:0005188
 name: MiR1
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 4 with one rostral neuron in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "middle rostral 1 interneuron " EXACT []
 xref: TAO:0005188
 xref: ZFIN:ZDB-ANAT-090922-230
@@ -24074,6 +24095,7 @@ id: ZFA:0005189
 name: MiR2
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 5 with one rostral neuron in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "middle rostral 2 interneuron " EXACT []
 xref: TAO:0005189
 xref: ZFIN:ZDB-ANAT-090922-231
@@ -24089,6 +24111,7 @@ id: ZFA:0005190
 name: MiV1
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 4 with six ventral neurons in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "middle ventral 1 neuron " EXACT []
 xref: TAO:0005190
 xref: ZFIN:ZDB-ANAT-090922-232
@@ -24104,6 +24127,7 @@ id: ZFA:0005191
 name: MiV2
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 5 with five ventral neurons in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "middle ventral 2 neuron " EXACT []
 xref: TAO:0005191
 xref: ZFIN:ZDB-ANAT-090922-233
@@ -24119,6 +24143,7 @@ id: ZFA:0005192
 name: RoI2C
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 2 with two intermediate-caudal  neurons in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "rostral intermediate 2 caudal interneuron " EXACT []
 xref: TAO:0005192
 xref: ZFIN:ZDB-ANAT-090922-234
@@ -24134,6 +24159,7 @@ id: ZFA:0005193
 name: RoI2R
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 2 with one intermediate-rostral neuron in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "rostral intermediate 2 rostral interneuron " EXACT []
 xref: TAO:0005193
 xref: ZFIN:ZDB-ANAT-090922-235
@@ -24150,6 +24176,7 @@ name: RoL1
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 1 with twelve neurons in each hemi-rhombomere. Axon runs in the dorsal spinal cord. The RoL1 stem axon projects ipsilaterally along the brain stem and spinal cord. From the more lateral location of its spinal axon, RoL1's collaterals projected both ventrally and medially.  The branching of RoL1 collaterals within the medulla, occur at multiple levels." [ZFIN:ZDB-PUB-030319-6, ZFIN:ZDB-PUB-961014-770]
 comment: May have 12  neurons in each hemi rhombomere ZDB-PUB-060217-9.\n7 neurons in each hemi rhombomere 080227-17 and 931014-770.
+subset: cell_slim
 synonym: "rostral lateral 1 interneuron " EXACT []
 xref: TAO:0005194
 xref: ZFIN:ZDB-ANAT-090922-236
@@ -24166,6 +24193,7 @@ name: MiD3cl
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron, part of rhombomere 6, with one caudal-lateral neuron in each hemi-rhombomere.  The fibers pass through the lateral longitudinal fasciculus." [ZFIN:ZDB-PUB-961014-770]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
+subset: cell_slim
 synonym: "middle dorsal 3 contralateral llf interneuron " EXACT []
 xref: TAO:0005195
 xref: ZFIN:ZDB-ANAT-090922-237
@@ -24182,6 +24210,7 @@ name: MiD3cm
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron, part of rhombomere 6, with one caudal-medial neuron in each hemi-rhombomere.  The fibers pass through the medial longitudinal fasciculus." [ZFIN:ZDB-PUB-961014-770]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
+subset: cell_slim
 synonym: "middle dorsal 3 contralateral mlf interneuron " EXACT []
 xref: TAO:0005196
 xref: ZFIN:ZDB-ANAT-090922-238
@@ -24198,6 +24227,7 @@ name: MiD3i
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 6 with one dorsal neuron in each hemi-rhombomere. The axonal projection is ipsilateral." [ZFIN:ZDB-PUB-961014-770]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
+subset: cell_slim
 synonym: "middle dorsal 3 ipsilateral interneuron " EXACT []
 xref: TAO:0005197
 xref: ZFIN:ZDB-ANAT-090922-239
@@ -24213,6 +24243,7 @@ id: ZFA:0005198
 name: RoL2
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 2 with 4 lateral neurons in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "rostral lateral 2 interneuron " EXACT []
 xref: TAO:0005198
 xref: ZFIN:ZDB-ANAT-090922-240
@@ -24228,6 +24259,7 @@ id: ZFA:0005199
 name: RoL2r
 namespace: zebrafish_anatomy
 def: "A RoL2 interneuron that is part of rhombomere 2." [ZFIN:ZDB-PUB-090217-9]
+subset: cell_slim
 synonym: "rostral lateral 2 rostral interneuron " EXACT []
 xref: TAO:0005199
 xref: ZFIN:ZDB-ANAT-090922-241
@@ -24243,6 +24275,7 @@ id: ZFA:0005200
 name: RoL2c
 namespace: zebrafish_anatomy
 def: "A RoL2 interneuron that is part of rhombomere 2." [ZFIN:ZDB-PUB-090217-9]
+subset: cell_slim
 synonym: "rostral lateral 2 caudal interneuron " EXACT []
 xref: TAO:0005200
 xref: ZFIN:ZDB-ANAT-090922-242
@@ -24258,6 +24291,7 @@ id: ZFA:0005201
 name: RoL3
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 3 with 1 lateral neuron in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "rostral lateral 3 interneuron " EXACT []
 xref: TAO:0005201
 xref: ZFIN:ZDB-ANAT-090922-243
@@ -24273,6 +24307,7 @@ id: ZFA:0005202
 name: RoM1c
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 1 with one medial-caudal neuron in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "rostral medial 1 caudal interneuron " EXACT []
 xref: TAO:0005202
 xref: ZFIN:ZDB-ANAT-090922-244
@@ -24288,6 +24323,7 @@ id: ZFA:0005203
 name: RoM1r
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 1 with one medial-rostral neuron in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "rostral medial 1 rostral interneuron " EXACT []
 xref: TAO:0005203
 xref: ZFIN:ZDB-ANAT-090922-245
@@ -24303,6 +24339,7 @@ id: ZFA:0005204
 name: RoV3
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 3 with three ventral neurons in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "rostral ventral 3 interneuron " EXACT []
 xref: ZFIN:ZDB-ANAT-090922-246
 is_a: ZFA:0005209 ! hindbrain interneuron
@@ -24317,6 +24354,7 @@ id: ZFA:0005205
 name: RoM2l
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 2 with one medial-lateral neuron in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "rostral medial 2 lateral interneuron " EXACT []
 xref: TAO:0005205
 xref: ZFIN:ZDB-ANAT-090922-247
@@ -24332,6 +24370,7 @@ id: ZFA:0005206
 name: RoM2m
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 2 with one medial neuron in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "rostral medial 2 medial interneuron " EXACT []
 xref: TAO:0005206
 xref: ZFIN:ZDB-ANAT-090922-248
@@ -24347,6 +24386,7 @@ id: ZFA:0005207
 name: RoM3l
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 3 with one lateral neuron in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "rostral medial 3 lateral interneuron " EXACT []
 xref: TAO:0005207
 xref: ZFIN:ZDB-ANAT-090922-249
@@ -24362,6 +24402,7 @@ id: ZFA:0005208
 name: RoM3m
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 32 with two medial neurons in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "rostral medial 3 medial interneuron " RELATED []
 xref: TAO:0005208
 xref: ZFIN:ZDB-ANAT-090922-250
@@ -24377,6 +24418,7 @@ id: ZFA:0005209
 name: hindbrain interneuron
 namespace: zebrafish_anatomy
 def: "Is a CNS interneuron that is part of the hindbrain." [ZFA:curator]
+subset: cell_slim
 xref: TAO:0005209
 xref: ZFIN:ZDB-ANAT-090922-251
 is_a: ZFA:0009191 ! CNS interneuron
@@ -24391,6 +24433,7 @@ id: ZFA:0005210
 name: midbrain interneuron
 namespace: zebrafish_anatomy
 def: "CNS interneurons located in the midbrain." [ZFA:curator]
+subset: cell_slim
 xref: TAO:0005210
 xref: ZFIN:ZDB-ANAT-090922-252
 is_a: ZFA:0009191 ! CNS interneuron
@@ -24404,6 +24447,7 @@ id: ZFA:0005211
 name: MeL
 namespace: zebrafish_anatomy
 def: "Midbrain interneuron in the lateral midbrain." [ZFIN:ZDB-PUB-961014-758]
+subset: cell_slim
 synonym: "mesencephalon lateral interneuron" EXACT []
 xref: TAO:0005211
 xref: ZFIN:ZDB-ANAT-090922-253
@@ -24419,6 +24463,7 @@ id: ZFA:0005212
 name: MeM
 namespace: zebrafish_anatomy
 def: "Midbrain interneuron located in the medial midbrain." [ZFIN:ZDB-PUB-961014-758]
+subset: cell_slim
 synonym: "mesencephalon medial interneuron" EXACT []
 xref: TAO:0005212
 xref: ZFIN:ZDB-ANAT-090922-254
@@ -24434,6 +24479,7 @@ id: ZFA:0005213
 name: MeLr
 namespace: zebrafish_anatomy
 def: "Midbrain interneuron at the rostral position in the lateral midbrain." [ZFIN:ZDB-PUB-090217-9]
+subset: cell_slim
 synonym: "mesencephalon lateral rostral interneuron" EXACT []
 xref: TAO:0005213
 xref: ZFIN:ZDB-ANAT-090922-255
@@ -24449,6 +24495,7 @@ id: ZFA:0005214
 name: MeLc
 namespace: zebrafish_anatomy
 def: "Midbrain interneuron at the caudal position in the lateral midbrain." [ZFIN:ZDB-PUB-090217-9]
+subset: cell_slim
 synonym: "mesencephalon lateral caudal interneuron" EXACT []
 xref: TAO:0005214
 xref: ZFIN:ZDB-ANAT-090922-256
@@ -24464,6 +24511,7 @@ id: ZFA:0005215
 name: MeLm
 namespace: zebrafish_anatomy
 def: "Midbrain interneuron at the medial position in the lateral midbrain." [ZFIN:ZDB-PUB-090217-9]
+subset: cell_slim
 synonym: "mesencephalon lateral medial interneuron" EXACT []
 xref: TAO:0005215
 xref: ZFIN:ZDB-ANAT-090922-257
@@ -24479,6 +24527,7 @@ id: ZFA:0005216
 name: MeM1
 namespace: zebrafish_anatomy
 def: "Midbrain interneuron located in the medial midbrain." [ZFIN:ZDB-PUB-090217-9]
+subset: cell_slim
 synonym: "mesencephalon medial 1 interneuron" EXACT []
 xref: TAO:0005216
 xref: ZFIN:ZDB-ANAT-090922-258
@@ -24494,6 +24543,7 @@ id: ZFA:0005217
 name: CaV
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 7, with 2 ventral neurons in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "caudal ventral interneuron" EXACT []
 xref: TAO:0005217
 xref: ZFIN:ZDB-ANAT-090922-259
@@ -24509,6 +24559,7 @@ id: ZFA:0005218
 name: CaD
 namespace: zebrafish_anatomy
 def: "Hindbrain interneuron that is part of rhombomere 7, with 1 dorsal neuron in each hemi-rhombomere." [ZFIN:ZDB-PUB-961014-770]
+subset: cell_slim
 synonym: "caudal dorsal interneuron" EXACT []
 xref: TAO:0005218
 xref: ZFIN:ZDB-ANAT-090922-260
@@ -24663,6 +24714,7 @@ id: ZFA:0005230
 name: CoBL
 namespace: zebrafish_anatomy
 def: "A bifurcate interneuron where the axon projects ventrally, crossing the spinal cord  ventral to the Mauthner axons before bifurcating and extending dorsally." [ZFIN:ZDB-PUB-010807-17]
+subset: cell_slim
 synonym: "commissural bifurcating longitudinal" EXACT []
 xref: TAO:0005230
 xref: ZFIN:ZDB-ANAT-090922-271
@@ -24677,6 +24729,7 @@ id: ZFA:0005231
 name: bifurcate interneuron
 namespace: zebrafish_anatomy
 def: "Is a spinal interneuron that has an axon that splits into roughly equal size branches." [ZFA:curator]
+subset: cell_slim
 xref: TAO:0005231
 xref: ZFIN:ZDB-ANAT-090922-272
 is_a: ZFA:0000778 ! spinal cord interneuron
@@ -24690,6 +24743,7 @@ id: ZFA:0005232
 name: MCoD
 namespace: zebrafish_anatomy
 def: "A multipolar  interneuron with branching dendrites.  The axon extend ventrally, lateral to the Mauthner axons before crossing the cord and descending ventrally." [ZFIN:ZDB-PUB-010807-17]
+subset: cell_slim
 synonym: "larval VeLD" RELATED []
 synonym: "multipolar commissural descending interneuron" EXACT []
 xref: TAO:0005232
@@ -24705,6 +24759,7 @@ id: ZFA:0005233
 name: CiD
 namespace: zebrafish_anatomy
 def: "A interneuron of the spinal cord with an ipsilateral axon that extends ventral to the Mauthner axon then turns dorsally  and caudally and sometimes has a minor ascending branch." [ZFIN:ZDB-PUB-010807-17]
+subset: cell_slim
 synonym: "circumferential descending interneuron" EXACT []
 synonym: "commissural descending interneurons" EXACT [ZFIN:ZDB-PUB-081114-2]
 synonym: "V2a interneuron" RELATED []
@@ -24721,6 +24776,7 @@ id: ZFA:0005234
 name: CoLA
 namespace: zebrafish_anatomy
 def: "A spinal interneuron with a dorsal dendrite that extends caudally. CoLA also has  midlateral process that extend rostrally and caudally, the axon crosses the cord dorsal to the Mauthner cell and ascends, extending dorsally.  Axon has minor descending branch." [ZFIN:ZDB-PUB-010807-17]
+subset: cell_slim
 synonym: "commissural longitudinal ascending interneuron" EXACT []
 xref: TAO:0005234
 xref: ZFIN:ZDB-ANAT-090922-275
@@ -24735,6 +24791,7 @@ id: ZFA:0005235
 name: UCoD
 namespace: zebrafish_anatomy
 def: "A unipolar spinal interneuron that forms dendritic trunk laterally with extensive dendritic branching.  The axon extends ventrally, lateral to the Mauthner axons before crssoing the cord and descending ventrally." [ZFIN:ZDB-PUB-010807-17]
+subset: cell_slim
 synonym: "unipolar commissural descending interneuron" RELATED []
 xref: TAO:0005235
 xref: ZFIN:ZDB-ANAT-090922-276
@@ -24818,6 +24875,7 @@ id: ZFA:0005240
 name: Kolmer-Agduhr neuron
 namespace: zebrafish_anatomy
 def: "Kolmer-Agduhr neurons are ciliated GABAergic neurons that contact the central canal of the spinal cord and have ipsilateral ascending axons." [ZFIN:ZDB-PUB-080825-21]
+subset: cell_slim
 synonym: "KA cell" EXACT []
 synonym: "KA interneuron" EXACT [ZFIN:ZDB-PUB-041115-5]
 synonym: "KA neuron" EXACT [ZFIN:ZDB-PUB-980624-10]
@@ -24857,7 +24915,7 @@ id: ZFA:0005242
 name: multi-ciliated epithelial cell
 namespace: zebrafish_anatomy
 alt_id: ZFA:0009377
-def: "A ciliated epithelial cell with many cilium." [CL:Curator]
+def: "A ciliated epithelial cell with many cilia." [CL:Curator]
 subset: cell_slim
 synonym: "multiciliated epithelial cell" EXACT []
 xref: CL:0005012
@@ -24941,6 +24999,7 @@ id: ZFA:0005247
 name: CiA
 namespace: zebrafish_anatomy
 def: "Interneurons of the spinal cord that arise from the V1 proliferation domain.  The CiA neurons inhibit motoneurons, other ventral interneurons and also inhibit dorsal sensory neurons involved in sensory gating,.  CiA have ipsilateral axonal projections in both motor and sensory regions of spinal cord." [ZFIN:ZDB-PUB-040625-12, ZFIN:ZDB-PUB-060418-1]
+subset: cell_slim
 synonym: "circumferential ascending interneuron" EXACT []
 synonym: "V1 interneuron" RELATED []
 xref: TAO:0005247
@@ -26332,7 +26391,8 @@ creation_date: 2010-03-18T06:14:28Z
 id: ZFA:0005345
 name: adipose tissue
 namespace: zebrafish_anatomy
-def: "Connective tissue in which fat is stored." [ZFA:curator]
+def: "Connective tissue in which fat is stored. All adipose tissue in the zebrafish is white adipose tissue and is comprised of adipocytes, stroma, macrophages and vasculature.  Mature adipocytes express adipokines, such as adipsin, adiponectin, and leptin so white adipose tissue is considered an endocrine organ. The connective tissue is loose and infiltrated by a vascular network." [ZFA:CVS, ZFIN:ZDB-PUB-101011-51]
+synonym: "white adipose tissue" EXACT []
 xref: TAO:0002134
 xref: ZFIN:ZDB-ANAT-100408-59
 is_a: ZFA:0001477 ! portion of tissue
@@ -29286,6 +29346,7 @@ id: ZFA:0005565
 name: tether cell
 namespace: zebrafish_anatomy
 def: "A specialized hair cell that has an elongated kinocilium upon which an otolith accretes. The tether cell then anchors the otolith in place." [ZFIN:ZDB-PUB-971216-3]
+subset: cell_slim
 xref: CL:0002450
 xref: ZFIN:ZDB-ANAT-110121-5
 is_a: ZFA:0009366 ! hair cell
@@ -29729,6 +29790,7 @@ namespace: zebrafish_anatomy
 alt_id: ZFA:0009382
 def: "Ghrelin secreting cells found in the found in the exocrine pancreas." [PMID:14970313]
 comment: In mammals the endocrine pancreas is called the Islets of Langerhans.
+subset: cell_slim
 synonym: "pancreatic E cell" EXACT []
 xref: CL:0005019
 xref: ZFIN:ZDB-ANAT-111214-6
@@ -29745,6 +29807,7 @@ name: ghrelin secreting cell
 namespace: zebrafish_anatomy
 alt_id: ZFA:0009381
 def: "A cell that secretes ghrelin, the peptide hormone that stimulates hunger." [CL:curator]
+subset: cell_slim
 xref: CL:0005018
 xref: ZFIN:ZDB-ANAT-111214-7
 is_a: ZFA:0009100 ! peptide hormone secreting cell
@@ -31443,6 +31506,7 @@ id: ZFA:0005730
 name: cranial motor neuron
 namespace: zebrafish_anatomy
 def: "Motor neuron that innervate muscles that control eye, jaw, and facial movements of the vertebrate head and parasympathetic neurons that innervate certain glands and organs." [ZFA:CVS]
+subset: cell_slim
 synonym: "cranial motoneuron" EXACT []
 xref: CL:0015000
 is_a: ZFA:0009052 ! motor neuron
@@ -31457,6 +31521,7 @@ id: ZFA:0005731
 name: branchiomotor neuron
 namespace: zebrafish_anatomy
 def: "Cranial motor neuron which innervates muscles derived from the branchial (pharyngeal) arches." [PMID:14699587, ZFA:CVS]
+subset: cell_slim
 synonym: "branchi  motor neuron" EXACT []
 synonym: "special visceral motor neuron" EXACT []
 xref: CL:0005023
@@ -31471,6 +31536,7 @@ id: ZFA:0005732
 name: visceromotor neuron
 namespace: zebrafish_anatomy
 def: "Cranial motor neurons are found in the hindbrain, and innervate parasympathetic neurons that innervate tear glands, sweat glands, and the smooth muscles and glands of the pulmonary, cardiovascular, and gastrointestinal systems." [PMID:14699587, ZFA:CVS]
+subset: cell_slim
 synonym: "general visceral motor neuron" EXACT []
 xref: CL:0005025
 is_a: ZFA:0005730 ! cranial motor neuron
@@ -31485,6 +31551,7 @@ id: ZFA:0005733
 name: somatomotor neuron
 namespace: zebrafish_anatomy
 def: "Cranial motor neurons found in the midbrain and hindbrain that innervates muscles that control eye and tongue." [PMID:14699587, ZFA:CVS]
+subset: cell_slim
 xref: CL:0005024
 is_a: ZFA:0005730 ! cranial motor neuron
 relationship: end ZFS:0000044 ! Adult
@@ -31563,6 +31630,7 @@ id: ZFA:0005739
 name: pancreatic acinar cell
 namespace: zebrafish_anatomy
 def: "A secretory cell found in pancreatic acini that secretes digestive enzymes and mucins. This cell is a typical zymogenic cell, has a basal nucleus and basophilic cytoplasm consisting of regular arrays of granular endoplasmic reticulum with mitochondria and dense secretory granules." [GOC:tfm, ZFIN:ZDB-PUB-050623-3]
+subset: cell_slim
 xref: CL:0002064
 is_a: ZFA:0009277 ! acinar cell
 relationship: end ZFS:0000044 ! Adult
@@ -31576,6 +31644,7 @@ id: ZFA:0005740
 name: pancreatic centroacinar cell
 namespace: zebrafish_anatomy
 def: "A cuboidal epithelial cell that is continuous with the lining of intercalated ducts that drain the acinus. This cell type secretes a high pH solution to aid in activation of zymogens, and can differentiate into endocrine and exocrine pancreatic cell types." [GOC:tfm, ZFIN:ZDB-PUB-050623-3]
+subset: cell_slim
 synonym: "CAC" EXACT [ZFIN:ZDB-PUB-050623-3]
 xref: CL:0002080
 is_a: ZFA:0009038 ! columnar/cuboidal epithelial cell
@@ -31604,6 +31673,7 @@ id: ZFA:0005742
 name: pancreatic PP cell
 namespace: zebrafish_anatomy
 def: "Polypeptide producing cell located in the islets of the pancreas." [GOC:tfm]
+subset: cell_slim
 synonym: "pancreatic F cells " RELATED []
 synonym: "pancreatic polypeptide-secreting cell" EXACT []
 synonym: "PP cell of pancreatic islet" EXACT []
@@ -31621,6 +31691,7 @@ id: ZFA:0005743
 name: pancreatic D cell
 namespace: zebrafish_anatomy
 def: "A D cell located in the pancreas. Peripherally placed within the islets like type A cells; contains somatostatin." [CL:tfm]
+subset: cell_slim
 synonym: "D-cell of pancreatic islet" EXACT []
 synonym: "delta cell of islet" EXACT []
 synonym: "pancreatic delta cell" EXACT []
@@ -31638,6 +31709,7 @@ id: ZFA:0005744
 name: notochord outer sheath cell
 namespace: zebrafish_anatomy
 def: "Cells that  form an epithelial-like sheath around the vacuolated inner notochord cells. Outer cells secrete a thick extracellular perinotochordal basement membrane." [ZFIN:ZDB-PUB-130322-23]
+subset: cell_slim
 synonym: "notochord sheath cell" RELATED []
 xref: CL:0007007
 is_a: ZFA:0009034 ! epithelial cell
@@ -31652,6 +31724,7 @@ id: ZFA:0005745
 name: structural cell
 namespace: zebrafish_anatomy
 def: "A cell whose primary function is to provide structural support, to provide strength and physical integrity to the organism." [TAIR:sr]
+subset: cell_slim
 xref: CL:0000293
 is_a: ZFA:0009000 ! cell
 relationship: end ZFS:0000044 ! Adult
@@ -31664,6 +31737,7 @@ id: ZFA:0005746
 name: notochord inner cell
 namespace: zebrafish_anatomy
 def: "Structural cell of notochord that contain one large fluid-filled intracellular vacuole that occupies most of the cell volume." [ZFIN:ZDB-PUB-130322-23]
+subset: cell_slim
 synonym: "chordocytes" EXACT []
 is_a: ZFA:0005745 ! structural cell
 relationship: end ZFS:0000000 ! Unknown
@@ -31804,6 +31878,160 @@ relationship: part_of ZFA:0001344 ! zona limitans intrathalamica
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 created_by: Ceri
 creation_date: 2013-08-02T15:20:09Z
+
+[Term]
+id: ZFA:0005758
+name: pancreatic fat
+namespace: zebrafish_anatomy
+def: "Adipose tissue interspersed within the pancreatic acini." [ZFA:CVS, ZFIN:ZDB-PUB-101011-51]
+comment: No evidence of septa surrounding fat has been presented so is a fat accumulation or deposit not a fat pad.
+is_a: ZFA:0005345 ! adipose tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005753 ! pancreatic lobule
+relationship: start ZFS:0000039 ! Larval:Days 7-13
+created_by: Ceri
+creation_date: 2013-09-23T10:03:51Z
+
+[Term]
+id: ZFA:0005759
+name: visceral fat
+namespace: zebrafish_anatomy
+def: "Adipose tissue on the surface of the organs within the pleuroperitoneal cavity. Visceral adipocytes were observed posterior to the swim bladder and lining the visceral cavity." [ZFA:CVS, ZFIN:ZDB-PUB-101011-51]
+comment: No evidence of septa surrounding fat has been presented so is a fat accumulation or deposit not a fat pad.
+synonym: "visceral fat deposit" RELATED []
+is_a: ZFA:0005345 ! adipose tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001656 ! pleuroperitoneal cavity
+relationship: start ZFS:0000040 ! Larval:Days 14-20
+created_by: Ceri
+creation_date: 2013-09-23T10:23:07Z
+
+[Term]
+id: ZFA:0005760
+name: cranial fat
+namespace: zebrafish_anatomy
+def: "Adipose tissue in the cranium. Cranial adipocytes are located within the ventral wall of the cranium, situated between the brain and the esophagus." [ZFA:CVS, ZFIN:ZDB-PUB-101011-51]
+comment: No evidence of septa surrounding fat has been presented so is a fat accumulation or deposit not a fat pad.
+is_a: ZFA:0005345 ! adipose tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001114 ! head
+relationship: start ZFS:0000041 ! Larval:Days 21-29
+created_by: Ceri
+creation_date: 2013-09-23T10:26:44Z
+
+[Term]
+id: ZFA:0005761
+name: periorbital fat
+namespace: zebrafish_anatomy
+def: "Adipose tissue surrounding the eye." [ZFA:CVS]
+comment: No evidence of septa surrounding fat has been presented so is a fat accumulation or deposit not a fat pad.
+is_a: ZFA:0005760 ! cranial fat
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001410 ! orbital region
+relationship: start ZFS:0000041 ! Larval:Days 21-29
+created_by: Ceri
+creation_date: 2013-09-23T10:59:00Z
+
+[Term]
+id: ZFA:0005762
+name: subcutaneous fat
+namespace: zebrafish_anatomy
+def: "Adipose tissue between muscle and integument." [ZFA:CVS, ZFIN:ZDB-PUB-111012-7]
+is_a: ZFA:0005345 ! adipose tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000041 ! Larval:Days 21-29
+created_by: Ceri
+creation_date: 2013-09-23T11:20:54Z
+
+[Term]
+id: ZFA:0005763
+name: esophageal fat
+namespace: zebrafish_anatomy
+def: "Adipose tissue surrounding the esophagus." [ZFA:CVS, ZFIN:ZDB-PUB-101011-51]
+is_a: ZFA:0005345 ! adipose tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001114 ! head
+relationship: start ZFS:0000042 ! Juvenile:Days 30-44
+created_by: Ceri
+creation_date: 2013-09-23T11:32:46Z
+
+[Term]
+id: ZFA:0005764
+name: mandibular fat
+namespace: zebrafish_anatomy
+def: "Adipose tissue deposited along the mandible." [ZFA:CVS, ZFIN:ZDB-PUB-101011-51]
+synonym: "jaw fat deposit" EXACT []
+is_a: ZFA:0005345 ! adipose tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001273 ! ventral mandibular arch
+relationship: start ZFS:0000042 ! Juvenile:Days 30-44
+created_by: Ceri
+creation_date: 2013-09-23T11:33:07Z
+
+[Term]
+id: ZFA:0005765
+name: pericardial fat
+namespace: zebrafish_anatomy
+def: "Adipose tissue surrounding the heart." [ZFA:CVS, ZFIN:ZDB-PUB-090417-9]
+synonym: "pericardial fat deposit" EXACT []
+is_a: ZFA:0005345 ! adipose tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000054 ! pericardium
+relationship: start ZFS:0000042 ! Juvenile:Days 30-44
+created_by: Ceri
+creation_date: 2013-09-23T11:41:21Z
+
+[Term]
+id: ZFA:0005766
+name: pectoral fin plate fat
+namespace: zebrafish_anatomy
+def: "Adipose tissue that forms at the base of the pectoral fin." [ZFA:CVS, ZFIN:ZDB-PUB-090417-9]
+synonym: "pectoral fin plate deposit" EXACT []
+is_a: ZFA:0005762 ! subcutaneous fat
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001161 ! pectoral fin
+relationship: start ZFS:0000042 ! Juvenile:Days 30-44
+created_by: Ceri
+creation_date: 2013-09-23T11:42:40Z
+
+[Term]
+id: ZFA:0005767
+name: caudal fin fat
+namespace: zebrafish_anatomy
+def: "Subcutaneous adipose tissue deposit at the base of the caudal fin." [ZFA:CVS, ZFIN:ZDB-PUB-101011-51]
+synonym: "tail fin fat" EXACT []
+is_a: ZFA:0005762 ! subcutaneous fat
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001058 ! caudal fin
+relationship: start ZFS:0000042 ! Juvenile:Days 30-44
+created_by: Ceri
+creation_date: 2013-09-23T12:46:21Z
+
+[Term]
+id: ZFA:0005768
+name: trigeminal sensory neuron
+namespace: zebrafish_anatomy
+def: "Sensory neuron that extends a single axon shaft along the lateral white matter of the hindbrain and spinal cord. Numerous medially projecting branches are later formed and innervate a series of target nuclei along the anteroposterior axis of the hindbrain and spinal cord.  The highly branched axons innervate the integument of the head.  There are several subtypes with different afferent branching morphologies." [ZFIN:ZDB-PUB-120106-15]
+is_a: ZFA:0009053 ! sensory neuron
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000023 ! Segmentation:1-4 somites
+created_by: Ceri
+creation_date: 2013-09-30T15:31:51Z
+
+[Term]
+id: ZFA:0005769
+name: spermatid
+namespace: zebrafish_anatomy
+def: "A male germ cell that develops from the haploid secondary spermatocytes. Without further division, spermatids undergo structural changes and give rise to spermatozoa." [CL:editor]
+subset: cell_slim
+xref: CL:0000018
+is_a: ZFA:0009000 ! cell
+relationship: develops_from ZFA:0009005 ! spermatocyte
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000598 ! testis
+relationship: start ZFS:0000043 ! Juvenile:Days 45-89
+created_by: Ceri
+creation_date: 2013-10-04T15:51:27Z
 
 [Term]
 id: ZFA:0006000
@@ -32768,6 +32996,7 @@ relationship: start ZFS:0000001 ! Zygote:1-cell
 id: ZFA:0009001
 name: receptor cell (sensu Animalia)
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "receptor cells (sensu Animalia)" EXACT PLURAL []
 xref: CL:0000006
 xref: TAO:0009001
@@ -33531,6 +33760,7 @@ id: ZFA:0009051
 name: interneuron
 namespace: zebrafish_anatomy
 def: "Most generally any neuron which is not motor or sensory. Interneurons may also refer to neurons whose axons remain within a particular brain region as contrasted with projection neurons which have axons projecting to other brain regions." [CL:curator]
+subset: cell_slim
 synonym: "interneurons" EXACT PLURAL []
 xref: CL:0000099
 xref: TAO:0009051
@@ -33564,13 +33794,13 @@ xref: TAO:0009053
 xref: ZFIN:ZDB-ANAT-011113-357
 is_a: ZFA:0009238 ! afferent neuron
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000047 ! peripheral olfactory organ
-relationship: start ZFS:0000030 ! Pharyngula:Prim-15
+relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
 [Term]
 id: ZFA:0009054
 name: polymodal neuron
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "polymodal neurons" EXACT PLURAL []
 xref: CL:0000102
 xref: TAO:0009054
@@ -33584,6 +33814,7 @@ id: ZFA:0009055
 name: bipolar neuron
 namespace: zebrafish_anatomy
 def: "A type of interneuron that has two neurites, usually an axon and a dendrite, extending from opposite poles of an ovoid cell body." [ZFIN:ZDB-PUB-070221-4]
+subset: cell_slim
 synonym: "bipolar neurons" EXACT PLURAL []
 xref: CL:0000103
 xref: TAO:0009055
@@ -33597,6 +33828,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009056
 name: multipolar neuron
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "multipolar neurons" EXACT PLURAL []
 xref: CL:0000104
 xref: TAO:0009056
@@ -33609,6 +33841,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009057
 name: pseudounipolar neuron
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "pseudounipolar neurons" EXACT PLURAL []
 xref: CL:0000105
 xref: TAO:0009057
@@ -33621,6 +33854,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009058
 name: unipolar neuron
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "unipolar neurons" EXACT PLURAL []
 xref: CL:0000106
 xref: TAO:0009058
@@ -33730,6 +33964,7 @@ name: pioneer neuron
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000409
 def: "Pioneer neurons establish a pathway in the developing central nervous system and then undergo programmed cell death once the adult axons, which follow them, have made connections with the target site. Thus, they are a transient cell type involved in axon guidance." [ZFIN:ZDB-PUB-070131-1]
+subset: cell_slim
 xref: CL:0000116
 xref: TAO:0009066
 xref: ZFIN:ZDB-ANAT-011113-334
@@ -33963,7 +34198,7 @@ id: ZFA:0009082
 name: fat cell
 namespace: zebrafish_anatomy
 alt_id: ZFA:0009208
-def: "A fat-storing cell found mostly in the abdominal cavity and subcutaneous tissue of mammals. Fat is usually stored in the form of triglycerides." [CL:curator]
+def: "A fat-storing cell found mostly in the abdominal cavity and subcutaneous tissue of mammals. Fat is usually stored in the form of triglycerides. Cell that stores fat in a unilocular lipid droplet, has a thin circular cytoplasm and pericentral nucleus. The average adult adipocyte diameter is between 30 and 40 micrometers.  No adipocytes were observed in larvae on 6 or 9 dpf." [CL:curator, ZFIN:ZDB-PUB-090417-9, ZFIN:ZDB-PUB-101011-51]
 subset: cell_slim
 synonym: "adipocyte" EXACT []
 synonym: "lipocyte" EXACT []
@@ -33979,7 +34214,7 @@ relationship: develops_from ZFA:0009026 ! fibroblast
 relationship: develops_from ZFA:0009081 ! mesenchymal cell
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005345 ! adipose tissue
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000039 ! Larval:Days 7-13
 
 [Term]
 id: ZFA:0009083
@@ -34343,6 +34578,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009108
 name: Leydig cell
 namespace: zebrafish_anatomy
+def: "A Leydig cell is a testosterone-secreting cell in the interstitial area, between the seminiferous tubules, in the testis." [PMID:12050120]
 subset: cell_slim
 synonym: "interstitial cell" EXACT []
 xref: CL:0000178
@@ -34508,6 +34744,7 @@ id: ZFA:0009119
 name: pain receptor cell
 namespace: zebrafish_anatomy
 def: "The peripheral receptor for pain. Includes receptors which are sensitive to painful mechanical stimuli, extreme heat or cold, and chemical stimuli. All mammalian nociceptors are free nerve endings." [CL:curator]
+subset: cell_slim
 synonym: "nociceptor" EXACT []
 synonym: "nocireceptor" EXACT []
 xref: CL:0000198
@@ -34522,6 +34759,7 @@ id: ZFA:0009120
 name: mechanoreceptor cell
 namespace: zebrafish_anatomy
 def: "A cell specialized to transduce mechanical stimuli and relay that information centrally in the nervous system." [CL:curator]
+subset: cell_slim
 synonym: "mechanoreceptor cells" EXACT PLURAL []
 xref: CL:0000199
 xref: TAO:0009120
@@ -34535,6 +34773,7 @@ id: ZFA:0009121
 name: auditory receptor cell
 namespace: zebrafish_anatomy
 def: "A mechanoreceptor cell located in the inner ear that is sensitive to auditory stimuli. The accessory sensory structures are arranged so that appropriate stimuli cause movement of the hair-like projections (stereocilia and kinocilia) which relay the information centrally in the nervous system." [CL:curator]
+subset: cell_slim
 synonym: "auditory hair cell" EXACT []
 synonym: "auditory receptor cells" EXACT PLURAL []
 xref: CL:0000201
@@ -34558,6 +34797,7 @@ id: ZFA:0009123
 name: thermoreceptor cell
 namespace: zebrafish_anatomy
 def: "A cellular receptor which mediates the sense of temperature. Thermoreceptors in vertebrates are mostly located under the skin. In mammals there are separate types of thermoreceptors for cold and for warmth and pain receptor cells which detect cold or heat extreme enough to cause pain." [CL:curator]
+subset: cell_slim
 synonym: "thermoreceptor cells" EXACT PLURAL []
 xref: CL:0000205
 xref: TAO:0009123
@@ -34571,6 +34811,7 @@ id: ZFA:0009124
 name: chemoreceptor cell
 namespace: zebrafish_anatomy
 def: "A cell specialized to detect chemical substances and relay that information centrally in the nervous system. Chemoreceptors may monitor external stimuli, as in taste and olfaction, or internal stimuli, such as the concentrations of oxygen and carbon dioxide in the blood." [CL:curator]
+subset: cell_slim
 synonym: "chemoreceptor cells" EXACT PLURAL []
 xref: CL:0000206
 xref: TAO:0009124
@@ -34583,6 +34824,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009125
 name: olfactory receptor cell
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "olfactory receptor neuron" EXACT []
 synonym: "olfactory sensory neuron" EXACT []
 synonym: "Schultze's cell" EXACT []
@@ -34598,6 +34840,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0009126
 name: taste receptor cell
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "taste receptor cells" EXACT PLURAL []
 xref: CL:0000209
 xref: TAO:0009126
@@ -34612,6 +34855,7 @@ id: ZFA:0009127
 name: photoreceptor cell
 namespace: zebrafish_anatomy
 def: "A cell specialized to detect and transduce light." [CL:curator]
+subset: cell_slim
 synonym: "photoreceptor cells" EXACT PLURAL []
 xref: CL:0000210
 xref: TAO:0009127
@@ -34949,14 +35193,16 @@ id: ZFA:0009150
 name: Rohon-Beard neuron
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000002
+def: "Primary sensory neurons with cell bodies located in the dorsal spinal cord, that innervate the integument of the trunk and tail at early larval stages. The cutaneous axons of Rohon-Beard neurons display a broad spectrum of peripheral axon branching patterns.  Most Rohon-Beard neurons undergo apoptosis by 5dpf." [ZFIN:ZDB-PUB-120807-45]
 subset: cell_slim
 synonym: "RB neuron" EXACT []
+synonym: "Rohon-Beard cell" EXACT []
 synonym: "Rohon-Beard neurons" EXACT PLURAL []
 xref: CL:0000247
 xref: TAO:0009150
 xref: ZFIN:ZDB-ANAT-010921-407
-is_a: ZFA:0009000 ! cell
-relationship: end ZFS:0000038 ! Larval:Day 6
+is_a: ZFA:0009053 ! sensory neuron
+relationship: end ZFS:0000040 ! Larval:Days 14-20
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
 [Term]
@@ -35003,6 +35249,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009154
 name: eye photoreceptor cell
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "eye photoreceptor cells" EXACT PLURAL []
 xref: CL:0000287
 xref: TAO:0009154
@@ -35434,6 +35681,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009185
 name: sensory processing neuron
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "sensory processing neurons" EXACT PLURAL []
 xref: CL:0000379
 xref: TAO:0009185
@@ -35878,6 +36126,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0009219
 name: visible light photoreceptor cell
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "visible light photoreceptor cells" EXACT PLURAL []
 xref: CL:0000488
 xref: TAO:0009219
@@ -35890,6 +36139,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009220
 name: photopic photoreceptor cell
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "photopic photoreceptor cells" EXACT PLURAL []
 xref: CL:0000490
 xref: TAO:0009220
@@ -35902,6 +36152,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009221
 name: UV sensitive photoreceptor cell
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "UV sensitive photoreceptor cells" EXACT PLURAL []
 xref: CL:0000494
 xref: TAO:0009221
@@ -35914,6 +36165,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009222
 name: blue sensitive photoreceptor cell
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "blue sensitive photoreceptor cells" EXACT PLURAL []
 xref: CL:0000495
 xref: TAO:0009222
@@ -35926,6 +36178,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009223
 name: green sensitive photoreceptor cell
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "green sensitive photoreceptor cells" EXACT PLURAL []
 xref: CL:0000496
 xref: TAO:0009223
@@ -35938,6 +36191,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009224
 name: red sensitive photoreceptor cell
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "red sensitive photoreceptor cells" EXACT PLURAL []
 xref: CL:0000497
 xref: TAO:0009224
@@ -35950,6 +36204,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009225
 name: inhibitory interneuron
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "inhibitory interneurons" EXACT PLURAL []
 xref: CL:0000498
 xref: TAO:0009225
@@ -36190,6 +36445,7 @@ id: ZFA:0009242
 name: primary neuron
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000055
+subset: cell_slim
 xref: CL:0000530
 xref: TAO:0009242
 xref: ZFIN:ZDB-ANAT-010921-472
@@ -36233,6 +36489,7 @@ id: ZFA:0009245
 name: primary interneuron
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000945
+subset: cell_slim
 xref: CL:0000534
 xref: TAO:0009245
 xref: ZFIN:ZDB-ANAT-020309-308
@@ -36245,6 +36502,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0009246
 name: secondary neuron
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "secondary neurons" EXACT PLURAL []
 xref: CL:0000535
 xref: TAO:0009246
@@ -36387,6 +36645,7 @@ id: ZFA:0009255
 name: amacrine cell
 namespace: zebrafish_anatomy
 def: "Interneuron of the vertebrate retina. They integrate, modulate, and interpose a temporal domain in the visual message presented to the retinal ganglion cells, with which they synapse in the inner plexiform layer." [CL:curator]
+subset: cell_slim
 synonym: "amacrine neuron" EXACT []
 xref: CL:0000561
 xref: TAO:0009255
@@ -36493,6 +36752,7 @@ id: ZFA:0009262
 name: retinal cone cell
 namespace: zebrafish_anatomy
 def: "One of the two photoreceptor cell types in the vertebrate retina. In cones the photopigment is in invaginations of the cell membrane of the outer segment. Cones are less sensitive to light than rods, but they provide vision with higher spatial and temporal acuity, and the combination of signals from cones with different pigments allows color vision." [CL:curator]
+subset: cell_slim
 synonym: "retinal cone cells" EXACT PLURAL []
 xref: CL:0000573
 xref: TAO:0009262
@@ -36665,6 +36925,7 @@ id: ZFA:0009274
 name: pressoreceptor cell
 namespace: zebrafish_anatomy
 def: "A receptor in the vascular system, particularly the aorta and carotid sinus, which is sensitive to stretch of the vessel walls." [CL:curator]
+subset: cell_slim
 synonym: "pressoreceptor cells" EXACT PLURAL []
 xref: CL:0000602
 xref: TAO:0009274
@@ -36678,6 +36939,7 @@ id: ZFA:0009275
 name: retinal rod cell
 namespace: zebrafish_anatomy
 def: "One of the two photoreceptor cell types of the vertebrate retina. In rods the photopigment is in stacks of membranous disks separate from the outer cell membrane. Rods are more sensitive to light than cones, but rod mediated vision has less spatial and temporal resolution than cone vision." [CL:curator]
+subset: cell_slim
 synonym: "retinal rod cells" EXACT PLURAL []
 xref: CL:0000604
 xref: TAO:0009275
@@ -36987,6 +37249,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009297
 name: stellate interneuron
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "stellate interneurons" EXACT PLURAL []
 xref: CL:0000691
 xref: TAO:0009297
@@ -37016,6 +37279,7 @@ id: ZFA:0009299
 name: neuroglioform cell
 namespace: zebrafish_anatomy
 def: "A stellate interneuron having 7-10 dendrites that may branch." [CL:curator]
+subset: cell_slim
 synonym: "spiderweb cell" EXACT []
 xref: CL:0000693
 xref: TAO:0009299
@@ -37249,6 +37513,7 @@ id: ZFA:0009315
 name: horizontal cell
 namespace: zebrafish_anatomy
 def: "A neuron that laterally connects other neurons in the inner nuclear layer of the retina." [ZFIN:ZDB-PUB-070221-6]
+subset: cell_slim
 synonym: "horizontal cells" EXACT PLURAL []
 xref: CL:0000745
 xref: TAO:0009315
@@ -37295,6 +37560,7 @@ id: ZFA:0009318
 name: retinal bipolar neuron
 namespace: zebrafish_anatomy
 def: "A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner plexiform layer." [CL:curator]
+subset: cell_slim
 xref: CL:0000748
 xref: TAO:0009318
 xref: ZFIN:ZDB-ANAT-070308-251
@@ -37307,6 +37573,7 @@ id: ZFA:0009319
 name: ON-bipolar cell
 namespace: zebrafish_anatomy
 def: "A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner half of the inner plexiform layer. These cells depolarize in response to light stimulation of their corresponding photoreceptors." [CL:curator]
+subset: cell_slim
 synonym: "ON-bipolar cells" EXACT PLURAL []
 xref: CL:0000749
 xref: TAO:0009319
@@ -37320,6 +37587,7 @@ id: ZFA:0009320
 name: OFF-bipolar cell
 namespace: zebrafish_anatomy
 def: "A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the outer half of the inner plexiform layer. These cells hyperpolarize in response to light stimulation of their corresponding photoreceptors." [CL:curator]
+subset: cell_slim
 synonym: "OFF-bipolar cells" EXACT PLURAL []
 xref: CL:0000750
 xref: TAO:0009320
@@ -37333,6 +37601,7 @@ id: ZFA:0009321
 name: rod bipolar cell
 namespace: zebrafish_anatomy
 def: "A bipolar neuron found in the retina and having connections with rod photoreceptor cells and neurons in the inner plexiform layer." [CL:curator]
+subset: cell_slim
 synonym: "rod bipolar cells" EXACT PLURAL []
 xref: CL:0000751
 xref: TAO:0009321
@@ -37347,6 +37616,7 @@ id: ZFA:0009322
 name: cone retinal bipolar cell
 namespace: zebrafish_anatomy
 def: "A bipolar neuron found in the retina and having connections with cone photoreceptor cells and neurons in the inner plexiform layer." [CL:curator]
+subset: cell_slim
 synonym: "cone retinal bipolar cells" EXACT PLURAL []
 xref: CL:0000752
 xref: TAO:0009322
@@ -37885,6 +38155,7 @@ name: myeloid lineage restricted progenitor cell
 namespace: zebrafish_anatomy
 def: "A progenitor cell restricted to the myeloid lineage." [CL:curator, PMID:19022770]
 comment: Note that this is a class of cell types, not an identified single cell type.
+subset: cell_slim
 synonym: "myeloid progenitor cell" RELATED []
 synonym: "myeloid progenitor cells" EXACT PLURAL []
 xref: CL:0000839
@@ -37913,6 +38184,7 @@ id: ZFA:0009358
 name: ciliated olfactory receptor neuron
 namespace: zebrafish_anatomy
 def: "An olfactory receptor cell in which the apical ending of the dendrite is a pronounced ciliated olfactory knob." [ZFIN:ZDB-PUB-060724-7]
+subset: cell_slim
 synonym: "ciliated olfactory sensory neuron" EXACT []
 synonym: "ciliated sensory neuron" EXACT []
 xref: CL:0000847
@@ -37927,6 +38199,7 @@ id: ZFA:0009359
 name: microvillous olfactory receptor neuron
 namespace: zebrafish_anatomy
 def: "An olfactory receptor cell in which the apical ending of the dendrite is a knob that bears numerous microvilli." [ZFIN:ZDB-PUB-060724-7]
+subset: cell_slim
 synonym: "microvillous olfactory sensory neuron" EXACT []
 synonym: "microvillous sensory neuron" RELATED []
 xref: CL:0000848
@@ -37941,6 +38214,7 @@ id: ZFA:0009360
 name: crypt olfactory receptor neuron
 namespace: zebrafish_anatomy
 def: "An olfactory receptor cell with short cilia growing in an invagination bordered by microvilli." [ZFIN:ZDB-PUB-060724-7]
+subset: cell_slim
 synonym: "crypt cell" EXACT []
 synonym: "crypt olfactory sensory neuron" EXACT []
 synonym: "crypt sensory neuron" EXACT []
@@ -37957,6 +38231,7 @@ name: serotonergic neuron
 namespace: zebrafish_anatomy
 alt_id: ZFA:0009192
 def: "A neuron that releases serotonin as a neurotransmitter." [CL:curator]
+subset: cell_slim
 synonym: "5-HT neuron" EXACT []
 synonym: "5-hydroxytryptamine neuron" EXACT []
 synonym: "serotinergic neuron" RELATED []
@@ -38036,6 +38311,7 @@ id: ZFA:0009366
 name: hair cell
 namespace: zebrafish_anatomy
 def: "Hair cell is a mechanoreceptor cell that is sensitive to movement of the hair-like projections (stereocilia and kinocilia) which relay the information centrally in the nervous system." [CL:curator]
+subset: cell_slim
 synonym: "hair cells" EXACT PLURAL []
 xref: CL:0000855
 xref: TAO:0009366
@@ -38049,6 +38325,7 @@ id: ZFA:0009367
 name: neuromast hair cell
 namespace: zebrafish_anatomy
 def: "Neuromast hair cell is a hair cell that acts as a sensory receptor of the neuromast; it is morphologically polarized as a result of the relative position of the single kinocilium and the clusters of stereocilia on its apical surface." [CL:curator]
+subset: cell_slim
 synonym: "neuromast hair cells" EXACT PLURAL []
 xref: CL:0000856
 xref: TAO:0009367
@@ -38090,6 +38367,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009370
 name: stretch receptor cell
 namespace: zebrafish_anatomy
+subset: cell_slim
 synonym: "stretch receptor cells" EXACT PLURAL []
 xref: CL:1000082
 xref: TAO:0009370
@@ -38117,6 +38395,7 @@ name: duct epithelial cell
 namespace: zebrafish_anatomy
 def: "Epithelial cell part of duct." [ZFA:CVS]
 comment: Definition not present in CL.
+subset: cell_slim
 xref: CL:0000068
 is_a: ZFA:0009034 ! epithelial cell
 relationship: end ZFS:0000044 ! Adult
@@ -38130,6 +38409,7 @@ id: ZFA:0009374
 name: kidney epithelial cell
 namespace: zebrafish_anatomy
 def: "An epithelial cell of the kidney." [GOC:tfm, KUPO:SJ]
+subset: cell_slim
 xref: CL:0002518
 is_a: ZFA:0009034 ! epithelial cell
 is_a: ZFA:0009389 ! kidney cell
@@ -38141,6 +38421,7 @@ id: ZFA:0009375
 name: renal intercalated cell
 namespace: zebrafish_anatomy
 def: "A cuboidal epithelial cell of the kidney that regulates acid/base balance." [CL:CVS]
+subset: cell_slim
 synonym: "intercalated cell" EXACT []
 xref: CL:0005010
 is_a: ZFA:0009038 ! columnar/cuboidal epithelial cell
@@ -38156,6 +38437,7 @@ id: ZFA:0009376
 name: renal alpha-intercalated cell
 namespace: zebrafish_anatomy
 def: "A cuboidal epithelial cell of the kidney which secretes acid and reabsorbs base to regulate acid/base balance." [CL:CVS]
+subset: cell_slim
 xref: CL:0005011
 is_a: ZFA:0009375 ! renal intercalated cell
 relationship: end ZFS:0000044 ! Adult
@@ -38168,6 +38450,7 @@ id: ZFA:0009379
 name: intrahepatic bile duct epithelial cell
 namespace: zebrafish_anatomy
 def: "An epithelial cell of the intrahepatic portion of the bile duct." [GOC:tfm]
+subset: cell_slim
 xref: CL:0002538
 is_a: ZFA:0009372 ! duct epithelial cell
 relationship: end ZFS:0000044 ! Adult
@@ -38181,6 +38464,7 @@ id: ZFA:0009380
 name: pancreatic ductal cell
 namespace: zebrafish_anatomy
 def: "Epithelial cell found in the ducts of the pancreas." [GOC:tfm]
+subset: cell_slim
 xref: CL:0002079
 is_a: ZFA:0009372 ! duct epithelial cell
 relationship: end ZFS:0000044 ! Adult
@@ -38194,6 +38478,7 @@ id: ZFA:0009383
 name: endo-epithelial cell
 namespace: zebrafish_anatomy
 def: "An epithelial cell derived from endoderm." [GOC:tfm]
+subset: cell_slim
 xref: CL:0002076
 is_a: ZFA:0009034 ! epithelial cell
 relationship: develops_from ZFA:0000017 ! endoderm
@@ -38208,6 +38493,7 @@ name: neurecto-epithelial cell
 namespace: zebrafish_anatomy
 def: "Epithelial cells derived from neural plate and neural crest." [GOC:tfm]
 comment: The term "neuroepithelial cell" is used to describe both this cell type and sensory epithelial cell (CL:0000098).
+subset: cell_slim
 synonym: "neuroepithelial cell" BROAD []
 xref: CL:0000710
 is_a: ZFA:0009038 ! columnar/cuboidal epithelial cell
@@ -38221,6 +38507,7 @@ id: ZFA:0009385
 name: ecto-epithelial cell
 namespace: zebrafish_anatomy
 def: "An epithelial cell derived from ectoderm." [FMA:69074]
+subset: cell_slim
 xref: CL:0002077
 is_a: ZFA:0009034 ! epithelial cell
 is_a: ZFA:0009386 ! somatic cell
@@ -38233,6 +38520,7 @@ id: ZFA:0009386
 name: somatic cell
 namespace: zebrafish_anatomy
 def: "A cell of an organism that does not pass on its genetic material to the organism's offspring (i.e. a non-germ line cell)." [GOC:tfm, ISBN:0721662544]
+subset: cell_slim
 xref: CL:0002371
 is_a: ZFA:0009000 ! cell
 relationship: end ZFS:0000044 ! Adult
@@ -38243,6 +38531,7 @@ id: ZFA:0009387
 name: supportive cell
 namespace: zebrafish_anatomy
 def: "A cell whose primary function is to support other cell types." [FB:ma, GOC:tfm]
+subset: cell_slim
 xref: CL:0000630
 is_a: ZFA:0009000 ! cell
 relationship: end ZFS:0000044 ! Adult
@@ -38253,6 +38542,7 @@ id: ZFA:0009388
 name: meso-epithelial cell
 namespace: zebrafish_anatomy
 def: "Epithelial cell derived from mesoderm or mesenchyme." [FMA:69076, GOC:tfm]
+subset: cell_slim
 synonym: "epithelial mesenchymal cell" EXACT []
 xref: CL:0002078
 is_a: ZFA:0009034 ! epithelial cell
@@ -38266,6 +38556,7 @@ id: ZFA:0009389
 name: kidney cell
 namespace: zebrafish_anatomy
 def: "Cell that is part of the kidney." [ZFA:CVS]
+subset: cell_slim
 xref: CL:1000497
 is_a: ZFA:0009386 ! somatic cell
 relationship: end ZFS:0000044 ! Adult
@@ -38276,6 +38567,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009390
 name: kidney interstitial cell
 namespace: zebrafish_anatomy
+subset: cell_slim
 xref: CL:1000500
 is_a: ZFA:0009389 ! kidney cell
 is_a: ZFA:0009392 ! connective tissue cell
@@ -38286,6 +38578,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009391
 name: kidney medulla cell
 namespace: zebrafish_anatomy
+subset: cell_slim
 xref: CL:1000504
 is_a: ZFA:0009389 ! kidney cell
 relationship: end ZFS:0000044 ! Adult
@@ -38296,6 +38589,7 @@ id: ZFA:0009392
 name: connective tissue cell
 namespace: zebrafish_anatomy
 def: "A cell of the supporting or framework tissue of the body, arising chiefly from the embryonic mesoderm and including adipose tissue, cartilage, and bone." [GOC:tfm, ISBN:0618947256]
+subset: cell_slim
 xref: CL:0002320
 is_a: ZFA:0009386 ! somatic cell
 relationship: end ZFS:0000044 ! Adult
@@ -38307,6 +38601,7 @@ name: lymphangioblast
 namespace: zebrafish_anatomy
 def: "Lymphatic progenitor cells." [CL:CVS]
 comment: Usually express Prox1, or prox1b.
+subset: cell_slim
 xref: CL:0005020
 is_a: ZFA:0009020 ! multi fate stem cell
 relationship: end ZFS:0000044 ! Adult
@@ -38319,6 +38614,7 @@ id: ZFA:0009394
 name: mesenchymal lymphangioblast
 namespace: zebrafish_anatomy
 def: "Mesenchymal derived lymphatic progenitor cells that give rise to the superficial lymphatics." [PMID:15624319, PMID:18430230]
+subset: cell_slim
 xref: CL:0005021
 is_a: ZFA:0009081 ! mesenchymal cell
 is_a: ZFA:0009393 ! lymphangioblast
@@ -38332,6 +38628,7 @@ id: ZFA:0009395
 name: vascular lymphangioblast
 namespace: zebrafish_anatomy
 def: "Lymphatic progenitor cells, derived from the veins, that give rise to lymphatic endothelial cells." [CL:CVS]
+subset: cell_slim
 synonym: "parachordal lymphangioblast" NARROW []
 xref: CL:0005022
 is_a: ZFA:0009393 ! lymphangioblast
@@ -38345,6 +38642,7 @@ id: ZFA:0009396
 name: glycinergic neuron
 namespace: zebrafish_anatomy
 def: "The neurons that utilize glycine as a neurotransmitter." [MP:0010385]
+subset: cell_slim
 xref: CL:1001509
 is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
@@ -38355,6 +38653,7 @@ id: ZFA:0009397
 name: cholangiocyte
 namespace: zebrafish_anatomy
 def: "An epithelial cell that is part of the bile duct. Cholangiocytes contribute to bile secretion via net release of bicarbonate and water. They are cuboidal epithelium in the small interlobular bile ducts, but become columnar and mucus secreting in larger bile ducts approaching the porta hepatis and the extrahepatic ducts." [PMID:16550043, PMID:18356246]
+subset: cell_slim
 synonym: "bile duct cells" RELATED []
 synonym: "epithelial cell of bile duct" EXACT []
 xref: CL:1000488
@@ -38370,6 +38669,7 @@ id: ZFA:0009398
 name: hepatoblast
 namespace: zebrafish_anatomy
 def: "Multi fate stem cell that gives rise to both hepatocytes and cholangiocytes as descendants." [PMID:18356246, PMID:20483998, ZFA:CVS]
+subset: cell_slim
 is_a: ZFA:0009020 ! multi fate stem cell
 relationship: develops_from ZFA:0000124 ! liver primordium
 relationship: end ZFS:0000000 ! Unknown
@@ -38382,6 +38682,7 @@ id: ZFA:0009399
 name: intestinal epithelial cell
 namespace: zebrafish_anatomy
 def: "An epithelial cell of the intestine." [GOC:tfm]
+subset: cell_slim
 xref: CL:0002563
 is_a: ZFA:0009383 ! endo-epithelial cell
 relationship: end ZFS:0000044 ! Adult
@@ -38395,6 +38696,7 @@ id: ZFA:0009400
 name: epithelial cell of esophagus
 namespace: zebrafish_anatomy
 def: "An epithelial cell of the esophagus." [GOC:tfm]
+subset: cell_slim
 xref: CL:0002252
 is_a: ZFA:0009383 ! endo-epithelial cell
 relationship: end ZFS:0000044 ! Adult
