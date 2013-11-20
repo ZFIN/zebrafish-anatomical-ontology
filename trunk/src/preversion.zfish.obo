@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:10:2013 15:00
+date: 19:11:2013 16:09
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -40,8 +40,10 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000003
 name: adaxial cell
 namespace: zebrafish_anatomy
+def: "Muscle precursor cell that is adjacent to the notochord and part of the presomitic mesoderm." [PMID:8951054]
 subset: cell_slim
 synonym: "adaxial cells" EXACT PLURAL []
+xref: CL:0007016
 xref: TAO:0000003
 xref: ZFIN:ZDB-ANAT-010921-408
 is_a: ZFA:0009000 ! cell
@@ -8601,8 +8603,10 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000688
 name: olfactory support cell
 namespace: zebrafish_anatomy
+def: "Supporting cell that is part of the olfactory epithelium. Their cell bodies are more or less cylindrical, often with a pronounced basal part resting on the basal lamina. Their apical surface is covered with microvillous-like protrusions. Nuclei of olfactory support cell lie below the nuclear layer of olfactory sensory neurons,  a feature that is reverse that of other vertebrates.  The nuclei are less electron dense then those of the olfactory sensory neurons." [ZFIN:ZDB-PUB-060724-7]
+comment: Different nuclear position and morphology from CL_0000853.
 subset: cell_slim
-synonym: "support cells" EXACT PLURAL []
+synonym: "support cells" RELATED PLURAL []
 xref: TAO:0000688
 xref: ZFIN:ZDB-ANAT-011113-73
 is_a: ZFA:0009000 ! cell
@@ -13557,12 +13561,14 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0001086
 name: muscle pioneer
 namespace: zebrafish_anatomy
+def: "Cells that develop from adaxial  that express engrailed and do not migrate completely to the lateral surface of the myotome, and instead extend from the notochord to the lateral surface of the somite, at the level of the future horizontal myoseptum." [ZFIN:ZDB-PUB-961219-12]
 subset: cell_slim
 synonym: "muscle pioneers" EXACT PLURAL []
 synonym: "non migratory adaxial cells" EXACT []
 xref: TAO:0001086
 xref: ZFIN:ZDB-ANAT-031211-14
 is_a: ZFA:0009000 ! cell
+relationship: develops_from ZFA:0000003 ! adaxial cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
 relationship: part_of ZFA:0009116 ! slow muscle cell
 relationship: start ZFS:0000024 ! Segmentation:5-9 somites
@@ -13765,6 +13771,7 @@ id: ZFA:0001109
 name: oocyte
 namespace: zebrafish_anatomy
 alt_id: ZFA:0009008
+def: "A female germ cell that has entered meiosis." [GOC:tfm, ISBN:0721662544]
 comment: I think the term we really want is CL:0000023.
 subset: cell_slim
 synonym: "egg" RELATED []
@@ -16351,6 +16358,7 @@ name: atrioventricular canal
 namespace: zebrafish_anatomy
 def: "The part of the heart connecting the atrium to the cardiac ventricle." [ZFA:curator]
 synonym: "AV canal" EXACT []
+synonym: "AVC" EXACT []
 xref: TAO:0001315
 xref: ZFIN:ZDB-ANAT-051116-2
 is_a: ZFA:0001488 ! multi-tissue structure
@@ -17055,7 +17063,7 @@ relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 id: ZFA:0001373
 name: migratory slow muscle precursor cell
 namespace: zebrafish_anatomy
-def: "Cells that initially are located adjacent to the spinal cord and notochord that migrate from their initial medial position radially through the myotome to the lateral surface of the somites." [ZFA:curator]
+def: "Cells that initially are located adjacent to the spinal cord and notochord that migrate from their initial medial position radially through the myotome to the lateral surface of the somites." [ZFA:curator, ZFIN:ZDB-PUB-961219-12]
 subset: cell_slim
 synonym: "migratory slow muscle precursor cells" EXACT PLURAL []
 xref: TAO:0001373
@@ -19515,9 +19523,12 @@ relationship: start ZFS:0000043 ! Juvenile:Days 45-89
 id: ZFA:0001570
 name: unfertilized egg
 namespace: zebrafish_anatomy
+def: "A female gamete where meiosis has progressed to metaphase II and is able to participate in fertilization.  In zebrafish specified to be outside the body." [ISBN:0721662544]
 comment: Outside the body.
 subset: cell_slim
 synonym: "activated oocyte" EXACT []
+synonym: "egg" EXACT []
+xref: CL:0000025
 xref: TAO:0001570
 xref: ZFIN:ZDB-ANAT-070928-172
 is_a: ZFA:0009000 ! cell
@@ -24861,6 +24872,7 @@ namespace: zebrafish_anatomy
 def: "Is a specialized pore forming cell of the follicle, located adjacent to the animal pole of the oocyte.  The micropylar cell makes the single micropyle (pore) through the chorion through which the sperm fertilizes the egg." [ZFIN:ZDB-PUB-080630-14]
 subset: cell_slim
 synonym: "plug cell" EXACT []
+xref: CL:0007022
 xref: TAO:0005239
 xref: ZFIN:ZDB-ANAT-090922-280
 is_a: ZFA:0009000 ! cell
@@ -31835,6 +31847,7 @@ id: ZFA:0005754
 name: primary islet
 namespace: zebrafish_anatomy
 def: "The primary islet is the first islet to develop." [ZFA:CVS]
+synonym: "principal islet" EXACT []
 is_a: ZFA:0005755 ! islet
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -32032,6 +32045,15 @@ relationship: part_of ZFA:0000598 ! testis
 relationship: start ZFS:0000043 ! Juvenile:Days 45-89
 created_by: Ceri
 creation_date: 2013-10-04T15:51:27Z
+
+[Term]
+id: ZFA:0005770
+name: crypt neuron olfactory support cell
+namespace: zebrafish_anatomy
+def: "Specialized olfactory support cell that surrounds crypt olfactory sensory neurons.   There are one or two support cells for each crypt neuron.  The cytoplasm of crypt neuron olfactory support cells is less electron dense then other support cells.  They also bear numerous microvilli at their apical rim. When two supporting cells are present, they interdigitate with each other  Mitochondria in crypt supporting cells are larger than those in the common supporting cells." [ZFIN:ZDB-PUB-060724-7]
+is_a: ZFA:0000688 ! olfactory support cell
+created_by: Ceri
+creation_date: 2013-11-05T11:05:25Z
 
 [Term]
 id: ZFA:0006000
@@ -32243,7 +32265,7 @@ def: "Caudal portion of embryonic tissue that gives rise to the posterior neural
 xref: TAO:0007015
 xref: ZFIN:ZDB-ANAT-070928-196
 is_a: ZFA:0001477 ! portion of tissue
-relationship: end ZFS:0000020 ! Gastrula:75%-epiboly
+relationship: end ZFS:0000021 ! Gastrula:90%-epiboly
 relationship: part_of ZFA:0000063 ! presumptive neural plate
 relationship: start ZFS:0000019 ! Gastrula:Shield
 
@@ -32258,7 +32280,7 @@ is_a: ZFA:0001477 ! portion of tissue
 relationship: develops_from ZFA:0007014 ! anterior presumptive neural plate
 relationship: end ZFS:0000022 ! Gastrula:Bud
 relationship: part_of ZFA:0000132 ! neural plate
-relationship: start ZFS:0000021 ! Gastrula:90%-epiboly
+relationship: start ZFS:0000020 ! Gastrula:75%-epiboly
 
 [Term]
 id: ZFA:0007017
@@ -33658,6 +33680,7 @@ namespace: zebrafish_anatomy
 alt_id: ZFA:0009340
 alt_id: ZFA:0009341
 def: "A type of lymphocyte whose defining characteristic is the expression of a T cell receptor complex." [ZFIN:ZDB-PUB-070221-3]
+comment: CL:0000804 and CL:0000812 were merged in the cell ontology into CL:0000084.
 subset: cell_slim
 synonym: "immature T cell" EXACT []
 synonym: "immature T lymphocyte" EXACT []
@@ -33671,8 +33694,6 @@ synonym: "T lymphocyte" EXACT []
 synonym: "T-cell" EXACT []
 synonym: "T-lymphocyte" EXACT []
 xref: CL:0000084
-xref: CL:0000804
-xref: CL:0000812
 xref: TAO:0009046
 xref: TAO:0009340
 xref: TAO:0009341
@@ -34210,7 +34231,6 @@ xref: TAO:0009208
 xref: ZFIN:ZDB-ANAT-070308-163
 xref: ZFIN:ZDB-ANAT-070308-62
 is_a: ZFA:0009000 ! cell
-relationship: develops_from ZFA:0009026 ! fibroblast
 relationship: develops_from ZFA:0009081 ! mesenchymal cell
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005345 ! adipose tissue
@@ -34251,10 +34271,11 @@ relationship: start ZFS:0000000 ! Unknown
 [Term]
 id: ZFA:0009085
 name: amelocyte
-namespace: zebrafish_anatomy
+def: "Skeletogenic cell that produces enamel, overlies the odontogenic papilla, and arises from the differentiation of a preameloblast cell." [GOC:tfm]
+comment: Was CL:0000139, seems that cell type was merged into CL:0000059 along with CL:0000053.
 subset: cell_slim
 synonym: "amelocytes" EXACT PLURAL []
-xref: CL:0000139
+xref: CL:0000059
 xref: TAO:0009085
 xref: ZFIN:ZDB-ANAT-070308-64
 is_a: ZFA:0009089 ! simple columnar epithelial cell
@@ -34635,9 +34656,9 @@ id: ZFA:0009112
 name: pericyte
 namespace: zebrafish_anatomy
 def: "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane. Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distinguishing this cell type from adventitial cells). They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells." [CL:curator, ISBN:0721662544, PMID:16807374, PMID:17986482, PMID:20024907]
+comment: CL:0000184 was merged into CL:0000699.
 subset: cell_slim
 synonym: "pericytes" EXACT PLURAL []
-xref: CL:0000184
 xref: CL:0000669
 xref: TAO:0009112
 xref: ZFIN:ZDB-ANAT-070308-86
@@ -34773,10 +34794,10 @@ id: ZFA:0009121
 name: auditory receptor cell
 namespace: zebrafish_anatomy
 def: "A mechanoreceptor cell located in the inner ear that is sensitive to auditory stimuli. The accessory sensory structures are arranged so that appropriate stimuli cause movement of the hair-like projections (stereocilia and kinocilia) which relay the information centrally in the nervous system." [CL:curator]
+comment: Has alt_id CL:0000201.
 subset: cell_slim
 synonym: "auditory hair cell" EXACT []
 synonym: "auditory receptor cells" EXACT PLURAL []
-xref: CL:0000201
 xref: CL:0000202
 xref: TAO:0009121
 xref: ZFIN:ZDB-ANAT-070308-91
@@ -38231,12 +38252,12 @@ name: serotonergic neuron
 namespace: zebrafish_anatomy
 alt_id: ZFA:0009192
 def: "A neuron that releases serotonin as a neurotransmitter." [CL:curator]
+comment: Has alternate ID CL:0000403.
 subset: cell_slim
 synonym: "5-HT neuron" EXACT []
 synonym: "5-hydroxytryptamine neuron" EXACT []
 synonym: "serotinergic neuron" RELATED []
 synonym: "serotinergic neurons" RELATED []
-xref: CL:0000403
 xref: CL:0000850
 xref: TAO:0009192
 xref: TAO:0009361
