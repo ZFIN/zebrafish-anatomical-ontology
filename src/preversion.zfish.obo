@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:11:2013 16:09
+date: 02:12:2013 15:05
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -1537,6 +1537,7 @@ id: ZFA:0000121
 name: lateral plate mesoderm
 namespace: zebrafish_anatomy
 synonym: "lateral plate" EXACT []
+synonym: "LPM" EXACT []
 xref: TAO:0000121
 xref: ZFIN:ZDB-ANAT-010921-547
 is_a: ZFA:0000041 ! mesoderm
@@ -15094,6 +15095,7 @@ synonym: "pharyngeal skeleton" EXACT []
 xref: TAO:0001216
 xref: ZFIN:ZDB-ANAT-050711-3
 is_a: ZFA:0001478 ! anatomical cluster
+relationship: develops_from ZFA:0005771 ! ectomesenchyme
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000737 ! cranium
 relationship: start ZFS:0000025 ! Segmentation:10-13 somites
@@ -18836,14 +18838,14 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001513
 name: dermomyotome
 namespace: zebrafish_anatomy
-def: "Epithelial sheet on the external surface of the somite that gives rise to trunk, muscle and dermis." [ZFA:curator]
+def: "Epithelial sheet on the external surface of the somite that gives rise to trunk, muscle and dermis." [ZFA:MAH, ZFIN:ZDB-PUB-060124-14]
 synonym: "dermomyotomes" EXACT PLURAL []
 xref: TAO:0001513
 xref: ZFIN:ZDB-ANAT-070517-29
 is_a: ZFA:0001486 ! epithelium
 relationship: develops_from ZFA:0000155 ! somite
 relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
 id: ZFA:0001514
@@ -22344,12 +22346,13 @@ id: ZFA:0005057
 name: epicardium
 namespace: zebrafish_anatomy
 def: "External layer of the heart." [ZFA:curator]
+comment: No evidence of epicardium layer in cardiac atrium in Hu et al 2001.
 xref: TAO:0005057
 xref: ZFIN:ZDB-ANAT-060131-63
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000114 ! heart
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 
 [Term]
 id: ZFA:0005058
@@ -32052,8 +32055,58 @@ name: crypt neuron olfactory support cell
 namespace: zebrafish_anatomy
 def: "Specialized olfactory support cell that surrounds crypt olfactory sensory neurons.   There are one or two support cells for each crypt neuron.  The cytoplasm of crypt neuron olfactory support cells is less electron dense then other support cells.  They also bear numerous microvilli at their apical rim. When two supporting cells are present, they interdigitate with each other  Mitochondria in crypt supporting cells are larger than those in the common supporting cells." [ZFIN:ZDB-PUB-060724-7]
 is_a: ZFA:0000688 ! olfactory support cell
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2013-11-05T11:05:25Z
+
+[Term]
+id: ZFA:0005771
+name: ectomesenchyme
+namespace: zebrafish_anatomy
+def: "Portion of tissue that develops from the cranial neural crest and which cells populate a series of pharyngeal arches from which develops the support skeleton of the jaw and gills." [ZFIN:ZDB-PUB-110609-14, ZFIN:ZDB-PUB-120517-11]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: develops_from ZFA:0001194 ! cranial neural crest
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000025 ! Segmentation:10-13 somites
+created_by: Ceri
+creation_date: 2013-11-25T12:11:28Z
+
+[Term]
+id: ZFA:0005772
+name: fertilized egg
+namespace: zebrafish_anatomy
+def: "Diploid cell produced by the fusion of sperm cell nucleus and egg cell." [GOC:tjm]
+synonym: "zygote " EXACT []
+xref: CL:00000365
+is_a: ZFA:0009000 ! cell
+relationship: end ZFS:0000001 ! Zygote:1-cell
+relationship: start ZFS:0000001 ! Zygote:1-cell
+created_by: Ceri
+creation_date: 2013-11-25T13:46:49Z
+
+[Term]
+id: ZFA:0005773
+name: embryonic blood vessel endothelial progenitor cell
+namespace: zebrafish_anatomy
+def: "An endothelial progenitor cell that participates in angiogenesis during development." [GOC:tjm]
+xref: CL:0002546
+is_a: ZFA:0009138 ! mesodermal cell
+relationship: end ZFS:0000026 ! Segmentation:14-19 somites
+relationship: start ZFS:0000023 ! Segmentation:1-4 somites
+created_by: Ceri
+creation_date: 2013-12-02T14:57:49Z
+
+[Term]
+id: ZFA:0005774
+name: atrial epicardium
+namespace: zebrafish_anatomy
+def: "The external layer of the atrium bounding the atrial myocardium." [ZFA:CVS, ZFIN:ZDB-PUB-100112-31]
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005057 ! epicardium
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2013-11-26T16:32:55Z
 
 [Term]
 id: ZFA:0006000
@@ -33544,7 +33597,7 @@ xref: ZFIN:ZDB-ANAT-050915-152
 is_a: ZFA:0009039 ! squamous epithelial cell
 is_a: ZFA:0009065 ! endothelial cell
 relationship: develops_from ZFA:0000041 ! mesoderm
-relationship: develops_from ZFA:0009138 ! mesodermal cell
+relationship: develops_from ZFA:0005773 ! embryonic blood vessel endothelial progenitor cell
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005257 ! blood vessel endothelium
 relationship: start ZFS:0000000 ! Unknown
