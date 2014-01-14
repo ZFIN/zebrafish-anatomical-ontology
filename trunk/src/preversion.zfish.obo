@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:12:2013 15:05
+date: 14:01:2014 09:51
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -28416,6 +28416,7 @@ xref: TAO:0001712
 xref: ZFIN:ZDB-ANAT-100805-61
 is_a: ZFA:0001308 ! organism subdivision
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001114 ! head
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2010-07-22T11:22:07Z
@@ -33400,6 +33401,7 @@ synonym: "lymphopoietic stem cell" RELATED []
 xref: CL:0000051
 xref: TAO:0009023
 xref: ZFIN:ZDB-ANAT-050915-142
+is_a: ZFA:0009000 ! cell
 is_a: ZFA:0009355 ! lymphoid progenitor cell
 relationship: develops_from ZFA:0009014 ! hematopoietic stem cell
 relationship: end ZFS:0000044 ! Adult
