@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:01:2014 09:51
+date: 29:01:2014 14:15
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -1018,7 +1018,7 @@ id: ZFA:0000084
 name: yolk
 namespace: zebrafish_anatomy
 alt_id: ZFA:0009197
-def: "Nutrient store for embryonic development in the form of semicrystalline phospholipoprotein and contained within yolk granules." [ZFIN:ZDB-PUB-961014-576]
+def: "Giant syncytial uncleaved cell containing nutrient store for embryonic development in the form of semicrystalline phospholipoprotein and contained within yolk granules." [ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 synonym: "yolk cell" EXACT []
 xref: CL:0000428
@@ -1026,7 +1026,7 @@ xref: TAO:0000084
 xref: ZFIN:ZDB-ANAT-010921-503
 xref: ZFIN:ZDB-ANAT-070308-157
 is_a: ZFA:0009000 ! cell
-relationship: end ZFS:0000036 ! Larval:Day 4
+relationship: end ZFS:0000037 ! Larval:Day 5
 relationship: start ZFS:0000001 ! Zygote:1-cell
 
 [Term]
@@ -1069,6 +1069,7 @@ name: YSL
 namespace: zebrafish_anatomy
 def: "Peripheral layer of the yolk cell including nuclei and non-yolky cytoplasm." [ZFIN:ZDB-PUB-961014-576]
 synonym: "periblast" EXACT [ZFIN:ZDB-PUB-961014-576]
+synonym: "yolk sac" RELATED []
 synonym: "yolk syncytial layer" EXACT [ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000088
 xref: ZFIN:ZDB-ANAT-010921-508
@@ -4029,6 +4030,7 @@ id: ZFA:0000320
 name: caudal commissure
 namespace: zebrafish_anatomy
 def: "Diencephalic tract which is located in the vicinity of the dorsal diencephalon and mesencephalon and connects the pretectal nuclei. From Neuroanatomy of the Zebrafish Brain." [ISBN:3764351209, ZFA:curator]
+synonym: "PC" RELATED []
 synonym: "posterior commissure" EXACT []
 xref: TAO:0000320
 xref: ZFIN:ZDB-ANAT-011113-247
@@ -4816,6 +4818,7 @@ id: ZFA:0000387
 name: motor nucleus of vagal nerve
 namespace: zebrafish_anatomy
 comment: This term split from vagal lobe.  Merged before 1996.
+synonym: "motor nucleus of X" EXACT []
 synonym: "motor nucleus X" EXACT []
 synonym: "nucleus motorius of nervi vagi" EXACT []
 synonym: "nX" EXACT []
@@ -5602,6 +5605,7 @@ id: ZFA:0000449
 name: torus longitudinalis
 namespace: zebrafish_anatomy
 def: "Multi-tissue structure that is a paired longitudinal eminence of granular cells that develops from the alar plate and is attached to the tegmentum in the medial tectal ventricle. The torus longitudinalis only occurs in ray finned fishes." [ZFA:curator]
+synonym: "Longitudinal torus" EXACT []
 synonym: "tori longitudinalis" EXACT PLURAL []
 xref: TAO:0000449
 xref: ZFIN:ZDB-ANAT-011113-373
@@ -7489,6 +7493,7 @@ id: ZFA:0000599
 name: torus semicircularis
 namespace: zebrafish_anatomy
 def: "Multi-tissue structure that is part of the midbrain and develops from the alar plate. The torus semicircularis is located dorsal to the lateral tegmentum where it extends into the medial tectal ventricle and receives ascending sensory octavolateralis input." [ZFA:curator]
+synonym: "Semicircular torus " EXACT []
 xref: TAO:0000599
 xref: ZFIN:ZDB-ANAT-011113-527
 is_a: ZFA:0001488 ! multi-tissue structure
@@ -16453,7 +16458,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0001322
 name: dorsoventral diencephalic tract
 namespace: zebrafish_anatomy
-def: "A tract originating in the epiphysis and fasciculating with the tract of the postoptic commissure." [ZFIN:ZDB-PUB-961014-955]
+def: "A tract originating in the epiphysis and fasciculating with the tract of the postoptic commissure dorsal to the ventral flexure." [ZFIN:ZDB-PUB-961014-719, ZFIN:ZDB-PUB-961014-955]
 synonym: "DVDT" EXACT []
 xref: TAO:0001322
 xref: ZFIN:ZDB-ANAT-060131-6
@@ -16779,6 +16784,7 @@ relationship: start ZFS:0000038 ! Larval:Day 6
 id: ZFA:0001349
 name: stratum opticum
 namespace: zebrafish_anatomy
+def: "Portion of tissue that is the most superficial layer of the tectal neuropil closest to the eye target of the retinal axons." [ZFIN:ZDB-PUB-101101-16]
 synonym: "strata opticum" EXACT PLURAL []
 xref: TAO:0001349
 xref: ZFIN:ZDB-ANAT-060131-27
@@ -16814,7 +16820,9 @@ relationship: start ZFS:0000038 ! Larval:Day 6
 id: ZFA:0001352
 name: stratum periventriculare
 namespace: zebrafish_anatomy
+def: "Portion of the optic tectum which contains the cell bodies of most tectal neurons." [ZFIN:ZDB-PUB-101101-16]
 synonym: "strata periventriculare" EXACT PLURAL []
+synonym: "SVP" RELATED []
 xref: TAO:0001352
 xref: ZFIN:ZDB-ANAT-060131-30
 is_a: ZFA:0001477 ! portion of tissue
@@ -20639,7 +20647,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001657
 name: supraoptic tract
 namespace: zebrafish_anatomy
-def: "CNS tract/commissure which extends between the telencephalon and diencephalon." [ZFIN:ZDB-PUB-961014-955]
+def: "CNS tract/commissure which extends between the telencephalon and diencephalon and lies along the dorsal edge of the optic stalk." [ZFIN:ZDB-PUB-961014-719, ZFIN:ZDB-PUB-961014-955]
 synonym: "SOT" EXACT []
 xref: TAO:0002244
 xref: ZFIN:ZDB-ANAT-081013-32
