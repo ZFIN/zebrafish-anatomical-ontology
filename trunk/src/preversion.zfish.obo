@@ -5605,7 +5605,7 @@ id: ZFA:0000449
 name: torus longitudinalis
 namespace: zebrafish_anatomy
 def: "Multi-tissue structure that is a paired longitudinal eminence of granular cells that develops from the alar plate and is attached to the tegmentum in the medial tectal ventricle. The torus longitudinalis only occurs in ray finned fishes." [ZFA:curator]
-synonym: "Longitudinal torus" EXACT []
+synonym: "longitudinal torus" EXACT []
 synonym: "tori longitudinalis" EXACT PLURAL []
 xref: TAO:0000449
 xref: ZFIN:ZDB-ANAT-011113-373
@@ -7493,7 +7493,7 @@ id: ZFA:0000599
 name: torus semicircularis
 namespace: zebrafish_anatomy
 def: "Multi-tissue structure that is part of the midbrain and develops from the alar plate. The torus semicircularis is located dorsal to the lateral tegmentum where it extends into the medial tectal ventricle and receives ascending sensory octavolateralis input." [ZFA:curator]
-synonym: "Semicircular torus " EXACT []
+synonym: "semicircular torus " EXACT []
 xref: TAO:0000599
 xref: ZFIN:ZDB-ANAT-011113-527
 is_a: ZFA:0001488 ! multi-tissue structure
@@ -33410,7 +33410,7 @@ xref: CL:0000051
 xref: TAO:0009023
 xref: ZFIN:ZDB-ANAT-050915-142
 is_a: ZFA:0009000 ! cell
-is_a: ZFA:0009355 ! lymphoid progenitor cell
+
 relationship: develops_from ZFA:0009014 ! hematopoietic stem cell
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
