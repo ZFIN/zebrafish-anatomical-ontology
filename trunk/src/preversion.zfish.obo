@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:01:2014 14:15
+date: 04:02:2014 14:04
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -4434,6 +4434,7 @@ id: ZFA:0000353
 name: fasciculus retroflexus
 namespace: zebrafish_anatomy
 def: "Paired fasciculus that connects the habenula to the interpeduncular nucleus.  In zebrafish the fascicles seem to gather under the raphe nucleus and don't extend to the medulla." [ZFIN:ZDB-PUB-010601-11]
+synonym: "fasciculus retroflexi" EXACT PLURAL []
 synonym: "habenulo-interpeduncular tract" EXACT []
 synonym: "habenulointerpeduncular tract" EXACT []
 synonym: "tractus habenulo-interpeduncularis" EXACT []
@@ -31546,7 +31547,7 @@ name: branchiomotor neuron
 namespace: zebrafish_anatomy
 def: "Cranial motor neuron which innervates muscles derived from the branchial (pharyngeal) arches." [PMID:14699587, ZFA:CVS]
 subset: cell_slim
-synonym: "branchi  motor neuron" EXACT []
+synonym: "branchi motor neuron" EXACT []
 synonym: "special visceral motor neuron" EXACT []
 xref: CL:0005023
 is_a: ZFA:0005730 ! cranial motor neuron
@@ -33410,7 +33411,6 @@ xref: CL:0000051
 xref: TAO:0009023
 xref: ZFIN:ZDB-ANAT-050915-142
 is_a: ZFA:0009000 ! cell
-
 relationship: develops_from ZFA:0009014 ! hematopoietic stem cell
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
