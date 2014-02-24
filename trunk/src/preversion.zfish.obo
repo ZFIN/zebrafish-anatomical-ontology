@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 04:02:2014 14:04
+date: 18:02:2014 11:04
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -1929,7 +1929,7 @@ id: ZFA:0000155
 name: somite
 namespace: zebrafish_anatomy
 def: "Undifferentiated mesodermal components of early trunk or tail segments or metameres, derived from paraxial mesoderm; forms myotomes, sclerotomes and perhaps dermatomes." [ZFIN:ZDB-PUB-961014-576]
-synonym: "somitic mesoderm" EXACT []
+synonym: "somitic mesoderm" RELATED []
 xref: TAO:0000155
 xref: ZFIN:ZDB-ANAT-010921-591
 is_a: ZFA:0001477 ! portion of tissue
@@ -36558,6 +36558,7 @@ id: ZFA:0009244
 name: primary motor neuron
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000572
+def: "Motor neurons with an early birthday that innervate myotomal muscles.  The somata have cross sectional areas of 670+- 105 micrometers.  The soma are located in a relatively central position within the cross section of the spinal cord.    Axons loop around the medial surface of the Mauthner axon before entering the ventral root." [ZFIN:ZDB-PUB-961014-1247]
 subset: cell_slim
 synonym: "primary motoneuron" EXACT []
 xref: CL:0000533
@@ -36600,6 +36601,7 @@ id: ZFA:0009247
 name: secondary motor neuron
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000584
+def: "Motor neurons with a latter birthday innervate myotomal muscles.  The somata have a cross sectional area of 169+- 60 micrometers.  They are located more ventrally and laterally in the spinal cord then the primary motor neurons.  The axons are positioned lateral to the Mauthner axon in their path to the ventral root." [ZFIN:ZDB-PUB-961014-1247]
 subset: cell_slim
 synonym: "secondary motoneuron" EXACT []
 xref: CL:0000536
