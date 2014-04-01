@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:02:2014 11:04
+date: 01:04:2014 09:12
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -136,6 +136,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0000010
 name: cardiovascular system
 namespace: zebrafish_anatomy
+def: "Anatomical system that functions in circulation and  has as its parts the heart and vasculature. The lymphatic system is considered part of the cardiovascular system." [ZFA:CVS]
 xref: TAO:0000010
 xref: ZFIN:ZDB-ANAT-010921-417
 is_a: ZFA:0001439 ! anatomical system
@@ -802,7 +803,7 @@ synonym: "anus" RELATED []
 xref: TAO:0000066
 xref: ZFIN:ZDB-ANAT-010921-484
 is_a: ZFA:0000292 ! surface structure
-relationship: end ZFS:0000044 ! Adult
+relationship: end ZFS:0000029 ! Pharyngula:Prim-5
 relationship: part_of ZFA:0000112 ! gut
 relationship: start ZFS:0000028 ! Segmentation:26+ somites
 
@@ -876,6 +877,7 @@ xref: TAO:0000072
 xref: ZFIN:ZDB-ANAT-010921-490
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
+relationship: RO:0002254 ZFA:0005785 ! esophageal striated muscle
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
 [Term]
@@ -1219,7 +1221,7 @@ relationship: start ZFS:0000012 ! Blastula:High
 id: ZFA:0000099
 name: brain vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure contains fluid that is actively transported around the brain." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the brain." [ZFA:curator]
 xref: TAO:0000099
 xref: ZFIN:ZDB-ANAT-060131-4
 is_a: ZFA:0001267 ! cranial vasculature
@@ -1563,6 +1565,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000123
 name: liver
 namespace: zebrafish_anatomy
+def: "Solid compound organ with three lobes that has many functions including bile production, blood detoxification, the production of critical plasma proteins and clotting factors, complement proteins  and the storage of many substances, such as lipids, amino acids, iron, and glycogen. Female fish produce vitellogenins in the liver." [ZFIN:ZDB-PUB-030115-26, ZFIN:ZDB-PUB-090407-7, ZFIN:ZDB-PUB-100730-19]
 xref: TAO:0000123
 xref: ZFIN:ZDB-ANAT-010921-549
 is_a: ZFA:0001491 ! solid compound organ
@@ -2546,7 +2549,7 @@ is_obsolete: true
 id: ZFA:0000204
 name: esophagus
 namespace: zebrafish_anatomy
-def: "Esophagus part of the gut that develops from endodermal precursors at the rostral   end of the digestive tract.  The esophagus develops independently from the intestine." [ZFA:CVS, ZFA:YMB, ZFIN:ZDB-PUB-030312-8.]
+def: "Esophagus part of the gut that develops from endodermal precursors at the rostral end of the digestive tract.  The esophagus develops independently from the intestine." [ZFA:CVS, ZFA:YMB, ZFIN:ZDB-PUB-030312-8]
 synonym: "oesophagus" EXACT []
 xref: TAO:0000204
 xref: ZFIN:ZDB-ANAT-011113-135
@@ -4156,11 +4159,12 @@ id: ZFA:0000330
 name: cloacal chamber
 namespace: zebrafish_anatomy
 def: "Space proximal to the urogenital pore where the pronephric duct, intestine and the ovaduct or sperm duct  empties." [ZFA:curator]
+synonym: "cloaca lumen" EXACT []
 xref: TAO:0000330
 xref: ZFIN:ZDB-ANAT-011113-257
 is_a: ZFA:0001643 ! anatomical space
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000112 ! gut
+relationship: part_of ZFA:0005781 ! cloaca
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -5167,7 +5171,7 @@ relationship: start ZFS:0000020 ! Gastrula:75%-epiboly
 id: ZFA:0000415
 name: esophageal sphincter
 namespace: zebrafish_anatomy
-def: "Sphincter of the esophagus." [ZFA:CVS, ZFA:YMB]
+def: "Sphincter at the junction of the esophagus and pneumatic duct." [ZFA:CVS, ZFA:YMB]
 synonym: "oesophagial sphincter" EXACT []
 xref: TAO:0000415
 xref: ZFIN:ZDB-ANAT-011113-34
@@ -5434,6 +5438,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0000436
 name: spleen
 namespace: zebrafish_anatomy
+def: "Organ that filters the blood removing defective blood cells.  The spleen is a dark red organ, located in the peritoneal cavity, adjacent to one of the liver lobes. The spleen consists of red pulp composed of erythrocytes and thrombocytes and white pulp, composed of macrophages, reticular cells and reticulin fibers." [ZFIN:ZDB-PUB-110609-55]
 xref: TAO:0000436
 xref: ZFIN:ZDB-ANAT-011113-360
 is_a: ZFA:0000496 ! compound organ
@@ -6837,7 +6842,7 @@ relationship: develops_from ZFA:0001290 ! stomodeum
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000339 ! digestive system
 relationship: part_of ZFA:0001114 ! head
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000033 ! Hatching:Long-pec
 
 [Term]
 id: ZFA:0000548
@@ -6936,9 +6941,11 @@ relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 id: ZFA:0000555
 name: opercular flap
 namespace: zebrafish_anatomy
+def: "A large flap, covered by integument,  supported by several flat bones, actuated by muscles, found on the side of the head covering the gill chambers." [ZFA:CVS, ZFIN:ZDB-PUB-110609-47]
 synonym: "gill cover" EXACT []
 synonym: "gill slit" RELATED []
 synonym: "opercular apparatus" EXACT []
+synonym: "opercular cover" RELATED [ZFIN:ZDB-PUB-030304-18]
 synonym: "operculum" EXACT []
 xref: TAO:0000555
 xref: ZFIN:ZDB-ANAT-011113-476
@@ -7067,7 +7074,7 @@ xref: ZFIN:ZDB-ANAT-011113-486
 is_a: ZFA:0001478 ! anatomical cluster
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001387 ! pelvic fin skeleton
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000041 ! Larval:Days 21-29
 
 [Term]
 id: ZFA:0000566
@@ -9130,6 +9137,7 @@ xref: TAO:0000728
 xref: ZFIN:ZDB-ANAT-020309-109
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
+relationship: RO:0002254 ZFA:0005785 ! esophageal striated muscle
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
 [Term]
@@ -9175,6 +9183,7 @@ xref: TAO:0000732
 xref: ZFIN:ZDB-ANAT-020309-112
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
+relationship: RO:0002254 ZFA:0005785 ! esophageal striated muscle
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
 [Term]
@@ -10207,7 +10216,7 @@ xref: ZFIN:ZDB-ANAT-020309-187
 is_a: ZFA:0000243 ! neuromast
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000424 ! opercular lateral line
-relationship: start ZFS:0000036 ! Larval:Day 4
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 
 [Term]
 id: ZFA:0000815
@@ -13161,8 +13170,9 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001055
 name: pronephric duct opening
 namespace: zebrafish_anatomy
-def: "The juncture where the pronephric ducts empty into the cloaca." [ZFA:curator]
+def: "The juncture where the pronephric ducts empty into the cloaca." [ZFA:CVS]
 synonym: "pronephric duct openings" EXACT PLURAL []
+synonym: "urogenital opening" RELATED [ZFIN:ZDB-PUB-060508-11]
 xref: TAO:0001055
 xref: ZFIN:ZDB-ANAT-020702-13
 is_a: ZFA:0001643 ! anatomical space
@@ -13344,6 +13354,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0001069
 name: ventral fin fold
 namespace: zebrafish_anatomy
+def: "Region of the median fin fold that develops into the anal and caudal fin." [ZFA:CVS]
 synonym: "anal fin fold" EXACT []
 synonym: "tail fin fold" EXACT []
 synonym: "ventral fin" EXACT []
@@ -13437,7 +13448,8 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001076
 name: intestinal bulb
 namespace: zebrafish_anatomy
-def: "This anteriormost portion of the intestine has the most digestive enzymes and the greatest epithelial surface area." [ZFIN:ZDB-PUB-050120-6]
+def: "The bulbous anteriormost portion of the intestine has the most digestive enzymes and the greatest epithelial surface area." [ZFIN:ZDB-PUB-050120-6]
+synonym: " pseudogaster " EXACT [ISBN:3510650670]
 synonym: "anterior intestine" EXACT []
 synonym: "foregut" RELATED []
 xref: TAO:0001076
@@ -13467,6 +13479,7 @@ relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 id: ZFA:0001078
 name: thymus
 namespace: zebrafish_anatomy
+def: "Paired organ where maturation of T-lymphocytes occurs. The adult thymus located on the dorsomedial aspect of the branchial cavity above the third pharyngeal cartilage.  The thymus undergoes a period of rapid growth beginning at about the third week and continuing for several more weeks. Accompanying this growth is a dramatic change in the shape of the thymus. It is ovoid initially and then starts to grow dorsally along the skull, forming a characteristic protrusion. During this growth period the adult pattern of rag1-positive cortex and rag1-negative medulla becomes established. The  protrusions diminish with age and the thymus gradually shrinks; at two years, the thymus is again confined to the pharynx with minimal if any protrusion." [ZFIN:ZDB-PUB-040216-26, ZFIN:ZDB-PUB-110609-55]
 xref: TAO:0001078
 xref: ZFIN:ZDB-ANAT-030922-3
 is_a: ZFA:0000496 ! compound organ
@@ -13479,7 +13492,7 @@ relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 id: ZFA:0001079
 name: blood vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure contains blood that is actively transported around the organism." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains blood that is actively transported around the organism." [ZFA:curator]
 synonym: "blood vessel" RELATED []
 xref: TAO:0001079
 xref: ZFIN:ZDB-ANAT-030922-4
@@ -14702,7 +14715,7 @@ xref: ZFIN:ZDB-ANAT-050420-3
 is_a: ZFA:0005596 ! paired fin
 relationship: develops_from ZFA:0001384 ! pelvic fin bud
 relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000030 ! Pharyngula:Prim-15
+relationship: start ZFS:0000042 ! Juvenile:Days 30-44
 
 [Term]
 id: ZFA:0001185
@@ -15738,7 +15751,7 @@ relationship: start ZFS:0000042 ! Juvenile:Days 30-44
 id: ZFA:0001267
 name: cranial vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure contains fluid that is actively transported around the head." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the head." [ZFA:curator]
 synonym: "head vasculature" EXACT []
 xref: TAO:0001267
 xref: ZFIN:ZDB-ANAT-050711-76
@@ -16048,13 +16061,14 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0001290
 name: stomodeum
 namespace: zebrafish_anatomy
-def: "Anterior part of the embryonic alimentary canal formed as an invagination of the ectoderm; the future mouth." [ZFA:curator]
+def: "Anterior part of the embryonic alimentary canal formed as an invagination of the ectoderm; the future mouth." [ZFA:curator, ZFIN:ZDB-PUB-050523-10]
+synonym: "oral ectoderm" RELATED [ZFIN:ZDB-PUB-100726-23]
 xref: TAO:0001290
 xref: ZFIN:ZDB-ANAT-050915-95
 is_a: ZFA:0000292 ! surface structure
-relationship: end ZFS:0000000 ! Unknown
+relationship: end ZFS:0000033 ! Hatching:Long-pec
 relationship: part_of ZFA:0000112 ! gut
-relationship: start ZFS:0000031 ! Pharyngula:Prim-25
+relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
 id: ZFA:0001291
@@ -16249,6 +16263,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001306
 name: pharyngeal arch
 namespace: zebrafish_anatomy
+def: "One of a series of paired bony or cartilaginous arches that develop along the lateral walls of the foregut.  The pharyngeal arches have developmental contributions from endoderm, mesenchyme, and neural crest cells and are separated by anterior lateral endoderm out-pockets known as pharyngeal pouches. There are seven pharyngeal arches." [ZFA:YMB, ZFIN:ZDB-PUB-010912-16, ZFIN:ZDB-PUB-131119-6, ZFIN:ZDB-PUB-961014-985]
 synonym: "pharyngeal arches" EXACT PLURAL []
 xref: TAO:0001306
 xref: ZFIN:ZDB-ANAT-050915-111
@@ -17210,8 +17225,8 @@ xref: TAO:0001384
 xref: ZFIN:ZDB-ANAT-060131-55
 is_a: ZFA:0001383 ! fin bud
 relationship: develops_from ZFA:0001454 ! pelvic fin field
-relationship: end ZFS:0000030 ! Pharyngula:Prim-15
-relationship: start ZFS:0000000 ! Unknown
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000040 ! Larval:Days 14-20
 
 [Term]
 id: ZFA:0001385
@@ -17224,7 +17239,7 @@ xref: ZFIN:ZDB-ANAT-060131-56
 is_a: ZFA:0001702 ! apical ectodermal ridge
 relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0001384 ! pelvic fin bud
-relationship: start ZFS:0000030 ! Pharyngula:Prim-15
+relationship: start ZFS:0000040 ! Larval:Days 14-20
 
 [Term]
 id: ZFA:0001386
@@ -17237,7 +17252,7 @@ xref: ZFIN:ZDB-ANAT-060131-57
 is_a: ZFA:0000041 ! mesoderm
 relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0001384 ! pelvic fin bud
-relationship: start ZFS:0000030 ! Pharyngula:Prim-15
+relationship: start ZFS:0000040 ! Larval:Days 14-20
 
 [Term]
 id: ZFA:0001387
@@ -17795,7 +17810,7 @@ xref: TAO:0001430
 xref: ZFIN:ZDB-ANAT-060816-5
 is_a: ZFA:0005171 ! duct
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000204 ! esophagus
+relationship: RO:0002150 ZFA:0000204 ! esophagus
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 
 [Term]
@@ -18042,9 +18057,9 @@ xref: TAO:0001449
 xref: ZFIN:ZDB-ANAT-060816-18
 is_a: ZFA:0000393 ! mesenchyme
 relationship: develops_from ZFA:0001386 ! mesoderm pelvic fin bud
-relationship: end ZFS:0000035 ! Larval:Protruding-mouth
+relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001184 ! pelvic fin
-relationship: start ZFS:0000030 ! Pharyngula:Prim-15
+relationship: start ZFS:0000042 ! Juvenile:Days 30-44
 
 [Term]
 id: ZFA:0001450
@@ -18056,9 +18071,9 @@ xref: TAO:0001450
 xref: ZFIN:ZDB-ANAT-060816-19
 is_a: ZFA:0001702 ! apical ectodermal ridge
 relationship: develops_from ZFA:0001385 ! apical ectodermal ridge pelvic fin bud
-relationship: end ZFS:0000035 ! Larval:Protruding-mouth
+relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0001184 ! pelvic fin
-relationship: start ZFS:0000031 ! Pharyngula:Prim-25
+relationship: start ZFS:0000042 ! Juvenile:Days 30-44
 
 [Term]
 id: ZFA:0001451
@@ -18082,9 +18097,9 @@ synonym: "ZPA" RELATED []
 xref: TAO:0001452
 xref: ZFIN:ZDB-ANAT-060816-21
 is_a: ZFA:0001477 ! portion of tissue
-relationship: end ZFS:0000030 ! Pharyngula:Prim-15
+relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0001386 ! mesoderm pelvic fin bud
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000040 ! Larval:Days 14-20
 
 [Term]
 id: ZFA:0001453
@@ -18109,8 +18124,8 @@ xref: TAO:0001454
 xref: ZFIN:ZDB-ANAT-060816-23
 is_a: ZFA:0001105 ! embryonic structure
 relationship: end ZFS:0000000 ! Unknown
+relationship: end ZFS:0000040 ! Larval:Days 14-20
 relationship: part_of ZFA:0005042 ! posterior lateral plate mesoderm
-relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 
 [Term]
 id: ZFA:0001455
@@ -21246,8 +21261,8 @@ def: "Proliferative region that is part of the developing fin fold or fin." [ZFA
 xref: TAO:0002146
 xref: ZFIN:ZDB-ANAT-090922-169
 is_a: ZFA:0000098 ! proliferative region
-relationship: end ZFS:0000037 ! Larval:Day 5
-relationship: start ZFS:0000000 ! Unknown
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 created_by: Melissa  Haendel
 creation_date: 2009-08-05T02:38:05Z
 
@@ -21629,7 +21644,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0005003
 name: pharyngeal vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure contains fluid that is actively transported around the pharyngeal region." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the pharyngeal region." [ZFA:curator]
 synonym: "branchial basket" RELATED []
 synonym: "branchial vasculature" EXACT []
 xref: TAO:0005003
@@ -21916,7 +21931,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0005024
 name: trunk vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure contains fluid that is actively transported around trunk." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around trunk." [ZFA:curator]
 xref: TAO:0005024
 xref: ZFIN:ZDB-ANAT-050915-84
 is_a: ZFA:0005249 ! vasculature
@@ -22100,7 +22115,7 @@ relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 id: ZFA:0005037
 name: post-vent vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure contains fluid that is actively transported around the post-vent region. This is frequently referred to as tail vasculature in the zebrafish community." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the post-vent region. This is frequently referred to as tail vasculature in the zebrafish community." [ZFA:curator]
 synonym: "tail vasculature" RELATED []
 xref: TAO:0005037
 xref: ZFIN:ZDB-ANAT-051116-21
@@ -22847,7 +22862,7 @@ relationship: start ZFS:0000036 ! Larval:Day 4
 id: ZFA:0005095
 name: fin vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure contains fluid that is actively transported around the fin." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the fin." [ZFA:curator]
 xref: TAO:0005095
 xref: ZFIN:ZDB-ANAT-060816-52
 is_a: ZFA:0005249 ! vasculature
@@ -22871,7 +22886,7 @@ relationship: start ZFS:0000034 ! Hatching:Pec-fin
 id: ZFA:0005097
 name: caudal fin vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure contains fluid that is actively transported around the caudal fin." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the caudal fin." [ZFA:curator]
 xref: TAO:0005097
 xref: ZFIN:ZDB-ANAT-060816-54
 is_a: ZFA:0005095 ! fin vasculature
@@ -25054,7 +25069,7 @@ creation_date: 2009-11-02T04:07:52Z
 id: ZFA:0005249
 name: vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure contains fluid that is actively transported around the organism." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the organism." [ZFA:curator]
 xref: TAO:0001079
 xref: TAO:0005249
 xref: ZFIN:ZDB-ANAT-091221-27
@@ -25836,7 +25851,7 @@ creation_date: 2010-01-20T02:55:49Z
 id: ZFA:0005305
 name: kidney vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure contains fluid that is actively transported around the kidney." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the kidney." [ZFA:curator]
 xref: TAO:0005305
 xref: ZFIN:ZDB-ANAT-100205-356
 is_a: ZFA:0005249 ! vasculature
@@ -26014,6 +26029,7 @@ id: ZFA:0005317
 name: pectoral fin fold
 namespace: zebrafish_anatomy
 def: "The functional webs of the paired fins.  They arise as a consequence of apical fold (AER) expansion and of migration of the distal mesenchyme. The fin folds are delimited by a dorsal and a ventral striated epidermis. The cells of the epidermal basal stratum are positioned on a basement membrane. Directly beneath the basement membrane of each side there is an array of actinotrichs, fibers of the extracellular matrix which act as supportive elements of the larval fin folds." [ZFIN:ZDB-PUB-990210-18]
+synonym: "pectoral fin membrane" EXACT []
 xref: TAO:0005317
 xref: ZFIN:ZDB-ANAT-100408-32
 is_a: ZFA:0001488 ! multi-tissue structure
@@ -26028,13 +26044,10 @@ creation_date: 2010-02-10T03:27:29Z
 id: ZFA:0005318
 name: lymph node
 namespace: zebrafish_anatomy
-comment: May not exist in teleosts.   Only sources that say they don't exist are same sources that said lymph system didn't exist 5 years ago.
+comment: Does not exist in teleosts.  Menke, A.L., Spitsbergen, J.M., Wolterbeek, A.P., and Woutersen, R.A. (2011) Normal Anatomy and Histology of the Adult Zebrafish. Toxicol. Pathol. 39(5): 759-775.
 xref: TAO:0005318
 xref: ZFIN:ZDB-ANAT-100408-33
-is_a: ZFA:0001488 ! multi-tissue structure
-relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000385 ! lymphatic system
-relationship: start ZFS:0000000 ! Unknown
+is_obsolete: true
 created_by: Ceri
 creation_date: 2010-02-10T03:44:48Z
 
@@ -32119,6 +32132,147 @@ created_by: Ceri
 creation_date: 2013-11-26T16:32:55Z
 
 [Term]
+id: ZFA:0005775
+name: enteric neuron
+namespace: zebrafish_anatomy
+def: "Neuron that is part of the enteric nervous system." [CL:MAH]
+xref: CL:0007011
+is_a: ZFA:0009059 ! autonomic neuron
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001155 ! enteric nervous system
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-03-06T12:36:50Z
+
+[Term]
+id: ZFA:0005776
+name: parasympathetic neuron
+namespace: zebrafish_anatomy
+def: "Parasympathetic neurons are part of the parasympathetic nervous system and the cell bodies lie in the brain and sacral region of the spinal cord. The neurons are mainly cholinergic." [ISBN:0080923437]
+xref: CL:0011102
+is_a: ZFA:0009059 ! autonomic neuron
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001575 ! parasympathetic nervous system
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-03-06T12:39:37Z
+
+[Term]
+id: ZFA:0005777
+name: sympathetic neuron
+namespace: zebrafish_anatomy
+def: "Sympathetic neurons are part of the sympathetic nervous system and are primarily adrenergic producing the neurotransmitter noradrenalin along with other neuropeptides." [ISBN:0080923437]
+xref: CL:0011103
+is_a: ZFA:0009059 ! autonomic neuron
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001576 ! sympathetic nervous system
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-03-06T12:42:24Z
+
+[Term]
+id: ZFA:0005778
+name: hypocretin-secreting neuron
+namespace: zebrafish_anatomy
+def: "A neuron that releases hypocretin as a neurotransmitter." [PMID:23848055]
+synonym: "orexin secreting neuron " RELATED []
+xref: CL:0011109
+is_a: ZFA:0009248 ! neuron
+created_by: Ceri
+creation_date: 2014-03-06T13:14:29Z
+
+[Term]
+id: ZFA:0005779
+name: thymic epithelium
+namespace: zebrafish_anatomy
+def: "Epithelium within the thymus where lymphocytes mature.  Cells of the thymic epithelium have cytoplasm that appear devoid of most membrane bound organelles but contain bundles of cytoplasmic filaments, and frequent desmosomes occur between these epithelial cells. There are also secretory epithelial cells that contain a  heterogeneous population of electron-dense, cytoplasmic granules and a well developed Golgi complex.   Epithelial cysts are present after 3 weeks." [ZFIN:ZDB-PUB-990414-60]
+is_a: ZFA:0001486 ! epithelium
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001078 ! thymus
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2014-03-11T15:25:06Z
+
+[Term]
+id: ZFA:0005780
+name: immature thymic epithelium
+namespace: zebrafish_anatomy
+def: "Epithelium of the thymus primordium composed of cells of immature morphology. The immature thymic epithelium is continuous with the pharyngeal epithelium.  The immature thymic epithelium is composed of electron-lucent epithelial cells of irregular or polygonal shape and contain numerous ribosomes, large electron-lucent mitochondria, and rough endoplasmic reticulum. Nascent desmosomes join these primitive epithelial cells together." [ZFIN:ZDB-PUB-990414-60]
+is_a: ZFA:0001486 ! epithelium
+relationship: end ZFS:0000035 ! Larval:Protruding-mouth
+relationship: part_of ZFA:0001077 ! thymus primordium
+relationship: start ZFS:0000034 ! Hatching:Pec-fin
+created_by: Ceri
+creation_date: 2014-03-11T15:28:25Z
+
+[Term]
+id: ZFA:0005781
+name: cloaca
+namespace: zebrafish_anatomy
+def: "Part of the gut where the pronephric tubules come together with the caudal end of the intestine attaching at 4dpf.  The oviduct or sperm duct connect later." [ZFIN:ZDB-PUB-060508-11]
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000112 ! gut
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+created_by: Ceri
+creation_date: 2014-03-12T09:34:37Z
+
+[Term]
+id: ZFA:0005782
+name: intestinal opening
+namespace: zebrafish_anatomy
+def: "The juncture where the  intestine empties into the cloaca." [ZFA:CVS]
+synonym: "gut opening" EXACT []
+relationship: part_of ZFA:0000330 ! cloacal chamber
+created_by: Ceri
+creation_date: 2014-03-12T09:39:01Z
+
+[Term]
+id: ZFA:0005783
+name: cloacal epithelium
+namespace: zebrafish_anatomy
+def: "Epithelium lining the cloaca.  The epithelium is a simple cuboidal epithelium at prim-5." [ZFIN:ZDB-PUB-000505-17]
+is_a: ZFA:0001486 ! epithelium
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005123 ! gut epithelium
+relationship: part_of ZFA:0005781 ! cloaca
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+created_by: Ceri
+creation_date: 2014-03-12T10:18:40Z
+
+[Term]
+id: ZFA:0005784
+name: striated muscle cell
+namespace: zebrafish_anatomy
+def: "Muscle cell which has as its direct parts myofilaments organized into sarcomeres." [GOC:tfm, ISBN:0721662544]
+xref: CL:0000737
+is_a: ZFA:0009114 ! muscle cell
+created_by: Ceri
+creation_date: 2014-03-18T03:14:29Z
+
+[Term]
+id: ZFA:0005785
+name: esophageal striated muscle
+namespace: zebrafish_anatomy
+def: "Striated muscle of the esophogus. Permits voluntary swallowing." [ZFIN:ZDB-PUB-130709-61]
+is_a: ZFA:0005145 ! muscle
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000204 ! esophagus
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2014-03-18T03:37:56Z
+
+[Term]
+id: ZFA:0005786
+name: cleft cell
+namespace: zebrafish_anatomy
+def: "Wedge-shaped epidermal cell positioned along the apex of the developing fin fold. Each cleft cell retains a wedge-shaped form during fold formation and develops a basal cleft-shaped invagination. Invaginations are aligned in neighboring cleft cells so that these cells cap the distal boundary of the subepidermal space where collagenous extracellular fibres called actinotrichia run anteroposteriorly along the length of the fin fold." [ZFA:CVS, ZFIN:/ZDB-PUB-961014-195]
+is_a: ZFA:0009183 ! epidermal cell
+relationship: part_of ZFA:0000040 ! median fin fold
+created_by: Ceri
+creation_date: 2014-03-25T09:31:29Z
+
+[Term]
 id: ZFA:0006000
 name: intermediate hypothalamus
 namespace: zebrafish_anatomy
@@ -33966,12 +34120,13 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009060
 name: cholinergic neuron
 namespace: zebrafish_anatomy
+def: "A neuron that uses acetylcholine as a vesicular neurotransmitter." [GOC:tfm]
 subset: cell_slim
 synonym: "cholinergic neurons" EXACT PLURAL []
 xref: CL:0000108
 xref: TAO:0009060
 xref: ZFIN:ZDB-ANAT-070308-45
-is_a: ZFA:0009059 ! autonomic neuron
+is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -33984,7 +34139,7 @@ synonym: "adrenergic neurons" EXACT PLURAL []
 xref: CL:0000109
 xref: TAO:0009061
 xref: ZFIN:ZDB-ANAT-070308-46
-is_a: ZFA:0009059 ! autonomic neuron
+is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -33997,7 +34152,7 @@ synonym: "peptidergic neurons" EXACT PLURAL []
 xref: CL:0000110
 xref: TAO:0009062
 xref: ZFIN:ZDB-ANAT-070308-47
-is_a: ZFA:0009059 ! autonomic neuron
+is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -34477,7 +34632,7 @@ xref: TAO:0009094
 xref: ZFIN:ZDB-ANAT-070308-71
 is_a: ZFA:0009159 ! mucus secreting cell
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0005124 ! intestinal epithelium
+relationship: part_of ZFA:0001486 ! epithelium
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -34750,6 +34905,7 @@ namespace: zebrafish_anatomy
 def: "A mature contractile cell, commonly known as a myocyte, that forms one of three kinds of muscle." [CL:curator]
 subset: cell_slim
 synonym: "myocyte" EXACT []
+synonym: "myofiber" EXACT []
 xref: CL:0000187
 xref: TAO:0009114
 xref: ZFIN:ZDB-ANAT-050915-158
@@ -34764,10 +34920,12 @@ id: ZFA:0009115
 name: skeletal muscle cell
 namespace: zebrafish_anatomy
 subset: cell_slim
-synonym: "striated muscle cell" EXACT []
+synonym: "skeletal muscle fiber" EXACT []
+synonym: "striated muscle cell" RELATED []
 xref: CL:0000188
 xref: TAO:0009115
 xref: ZFIN:ZDB-ANAT-050915-159
+is_a: ZFA:0005784 ! striated muscle cell
 is_a: ZFA:0009114 ! muscle cell
 relationship: develops_from ZFA:0009236 ! skeletal muscle myoblast
 relationship: end ZFS:0000044 ! Adult
@@ -36506,7 +36664,7 @@ synonym: "nitrergic neurons" EXACT PLURAL []
 xref: CL:0000528
 xref: TAO:0009240
 xref: ZFIN:ZDB-ANAT-070308-193
-is_a: ZFA:0009059 ! autonomic neuron
+is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -36558,7 +36716,7 @@ id: ZFA:0009244
 name: primary motor neuron
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000572
-def: "Motor neurons with an early birthday that innervate myotomal muscles.  The somata have cross sectional areas of 670+- 105 micrometers.  The soma are located in a relatively central position within the cross section of the spinal cord.    Axons loop around the medial surface of the Mauthner axon before entering the ventral root." [ZFIN:ZDB-PUB-961014-1247]
+def: "Motor neurons that arise during the first day of development.  Primary motoneurons have larger diameter cell bodies and axons than secondary motoneurons and are positioned more dorsally and medially than secondary motoneurons. Primary motoneurons are present in a single bilateral pair of clusters in each spinal segment and innervate axial muscle fibers in the corresponding pair of myotomes. Axons make a conspicuous loop around the Mauthner axon before entering the ventral root." [ISBN:0471530506]
 subset: cell_slim
 synonym: "primary motoneuron" EXACT []
 xref: CL:0000533
@@ -36601,7 +36759,7 @@ id: ZFA:0009247
 name: secondary motor neuron
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000584
-def: "Motor neurons with a latter birthday innervate myotomal muscles.  The somata have a cross sectional area of 169+- 60 micrometers.  They are located more ventrally and laterally in the spinal cord then the primary motor neurons.  The axons are positioned lateral to the Mauthner axon in their path to the ventral root." [ZFIN:ZDB-PUB-961014-1247]
+def: "Motor neurons that develop several hours later than primary motoneurons and sprout axons several hours after the primary motor growth cones have extended to the periphery.  They have smaller cell bodies and are located more ventrally and laterally in the spinal cord than primary motoneurons. Axons usually project directly out of the spinal cord with no apparent contact with the Mauthner axon and are positioned lateral to the Mauthner axon in their path to the ventral root.  Secondary motoneurons have smaller fields, which can overlap one another, and innervate many fewer muscle fibers than primary motoneurons." [ISBN:0471530506, ZFIN:ZDB-PUB-961014-1247]
 subset: cell_slim
 synonym: "secondary motoneuron" EXACT []
 xref: CL:0000536
@@ -37038,12 +37196,13 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009276
 name: GABAergic neuron
 namespace: zebrafish_anatomy
+def: "A neuron that uses GABA as a vesicular neurotransmitter." [GOC:tfm]
 subset: cell_slim
 synonym: "GABAergic neurons" EXACT PLURAL []
 xref: CL:0000617
 xref: TAO:0009276
 xref: ZFIN:ZDB-ANAT-070308-215
-is_a: ZFA:0009059 ! autonomic neuron
+is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -37207,6 +37366,7 @@ name: primordial germ cell
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000065
 subset: cell_slim
+synonym: "PGC" EXACT []
 xref: CL:0000670
 xref: TAO:0009288
 xref: ZFIN:ZDB-ANAT-010921-483
@@ -37240,7 +37400,7 @@ synonym: "glutamatergic neurons" EXACT PLURAL []
 xref: CL:0000679
 xref: TAO:0009290
 xref: ZFIN:ZDB-ANAT-070308-227
-is_a: ZFA:0009059 ! autonomic neuron
+is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -37392,13 +37552,13 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009301
 name: dopaminergic neuron
 namespace: zebrafish_anatomy
-def: "A neuron that releases dopamine as a neurotransmitter." [CL:curator]
+def: "A neuron that releases dopamine as a neurotransmitter." [CL:dhill]
 subset: cell_slim
 synonym: "dopaminergic neurons" EXACT PLURAL []
 xref: CL:0000700
 xref: TAO:0009301
 xref: ZFIN:ZDB-ANAT-060816-77
-is_a: ZFA:0009059 ! autonomic neuron
+is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -37619,6 +37779,7 @@ synonym: "cardiomyocyte" EXACT []
 xref: CL:0000746
 xref: TAO:0009316
 xref: ZFIN:ZDB-ANAT-070308-249
+is_a: ZFA:0005784 ! striated muscle cell
 is_a: ZFA:0009114 ! muscle cell
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001319 ! myocardium
@@ -39127,7 +39288,7 @@ transitive_over: part_of ! part of
 [Typedef]
 id: end
 name: end stage
-def: "X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y)." []
+def: "X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y)." [goc:cjm]
 synonym: "ends_during" EXACT []
 xref: RO:0002093
 
@@ -39142,9 +39303,32 @@ id: RO:0002131
 name: overlaps
 
 [Typedef]
+id: RO:0002150
+name: continuous with
+def: "X continuous_with Y if and only if X and Y share a fiat boundary." [goc:cjm]
+synonym: "continuous_with" EXACT []
+xref: RO:0002150
+is_symmetric: true
+
+[Typedef]
+id: RO:0002254
+name: has developmental contribution from
+def: "x has developmental contribution from y iff x has some part z such that z develops from y." [goc:cjm]
+synonym: "has_developmental_contribution_from" EXACT []
+xref: RO:0002254
+holds_over_chain: develops_from
+
+[Typedef]
+id: RO:0002255
+name: developmentally contributes to
+synonym: "developmentally_contributes_to" EXACT []
+xref: RO:0002255
+inverse_of: RO:0002254 ! has developmental contribution from
+
+[Typedef]
 id: start
 name: start stage
-def: "X starts_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (start(X) before_or_simultaneous_with end(Y))" []
+def: "X starts_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (start(X) before_or_simultaneous_with end(Y))." [goc:cjm]
 synonym: "starts_during" EXACT []
 xref: RO:0002091
 
