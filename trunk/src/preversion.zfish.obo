@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 01:04:2014 09:12
-saved-by: Ceri
+date: 02:04:2014 08:59
+saved-by: yvonne
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: PLURAL "PLURAL"
@@ -877,7 +877,7 @@ xref: TAO:0000072
 xref: ZFIN:ZDB-ANAT-010921-490
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: RO:0002254 ZFA:0005785 ! esophageal striated muscle
+relationship: has_developmental_contribution_from ZFA:0005785 ! esophageal striated muscle
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
 [Term]
@@ -5268,7 +5268,7 @@ is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001205 ! Meckel's cartilage
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001273 ! ventral mandibular arch
-relationship: RO:0002131 ZFA:0005618 ! anguloarticular-retroarticular joint
+relationship: overlaps ZFA:0005618 ! anguloarticular-retroarticular joint
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -5851,7 +5851,7 @@ relationship: develops_from ZFA:0001645 ! angular bone
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001273 ! ventral mandibular arch
-relationship: RO:0002131 ZFA:0005618 ! anguloarticular-retroarticular joint
+relationship: overlaps ZFA:0005618 ! anguloarticular-retroarticular joint
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -5921,7 +5921,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001414 ! occipital region
 relationship: part_of ZFA:0001424 ! chondrocranium
 relationship: part_of ZFA:0001580 ! neurocranium
-relationship: RO:0002131 ZFA:0005423 ! basioccipital-exoccipital joint
+relationship: overlaps ZFA:0005423 ! basioccipital-exoccipital joint
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -8273,7 +8273,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001414 ! occipital region
 relationship: part_of ZFA:0001424 ! chondrocranium
 relationship: part_of ZFA:0001580 ! neurocranium
-relationship: RO:0002131 ZFA:0005423 ! basioccipital-exoccipital joint
+relationship: overlaps ZFA:0005423 ! basioccipital-exoccipital joint
 relationship: start ZFS:0000039 ! Larval:Days 7-13
 
 [Term]
@@ -9137,7 +9137,7 @@ xref: TAO:0000728
 xref: ZFIN:ZDB-ANAT-020309-109
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: RO:0002254 ZFA:0005785 ! esophageal striated muscle
+relationship: has_developmental_contribution_from ZFA:0005785 ! esophageal striated muscle
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
 [Term]
@@ -9183,7 +9183,7 @@ xref: TAO:0000732
 xref: ZFIN:ZDB-ANAT-020309-112
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: RO:0002254 ZFA:0005785 ! esophageal striated muscle
+relationship: has_developmental_contribution_from ZFA:0005785 ! esophageal striated muscle
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
 [Term]
@@ -16263,7 +16263,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001306
 name: pharyngeal arch
 namespace: zebrafish_anatomy
-def: "One of a series of paired bony or cartilaginous arches that develop along the lateral walls of the foregut.  The pharyngeal arches have developmental contributions from endoderm, mesenchyme, and neural crest cells and are separated by anterior lateral endoderm out-pockets known as pharyngeal pouches. There are seven pharyngeal arches." [ZFA:YMB, ZFIN:ZDB-PUB-010912-16, ZFIN:ZDB-PUB-131119-6, ZFIN:ZDB-PUB-961014-985]
+def: "One of a series of paired bony or cartilaginous arches that develop along the lateral walls of the foregut.  The pharyngeal arches have developmental contributions from endoderm, mesoderm, and neural crest cells and are separated by anterior lateral endoderm out-pockets known as pharyngeal pouches. There are seven pharyngeal arches." [ZFA:YMB, ZFIN:ZDB-PUB-010912-16, ZFIN:ZDB-PUB-131119-6, ZFIN:ZDB-PUB-961014-985]
 synonym: "pharyngeal arches" EXACT PLURAL []
 xref: TAO:0001306
 xref: ZFIN:ZDB-ANAT-050915-111
@@ -17810,7 +17810,7 @@ xref: TAO:0001430
 xref: ZFIN:ZDB-ANAT-060816-5
 is_a: ZFA:0005171 ! duct
 relationship: end ZFS:0000044 ! Adult
-relationship: RO:0002150 ZFA:0000204 ! esophagus
+relationship: continuous_with ZFA:0000204 ! esophagus
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 
 [Term]
@@ -21943,7 +21943,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0005025
 name: dorsal longitudinal anastomotic vessel
 namespace: zebrafish_anatomy
-def: "Trunk vessel that runs medially along the dorsal-most portion of the trunk and post-vent region. The DLAVs are formed by the longitudinal anastomoses of the intersegmental vessels to form a right and left pair of dorsal longitudinal anastomotic vessels. These paired vessels remodel to form a single plexiform vessel beginning at 3dpf continuing until after 7dpf.  The basilar artery connects to the DLAVs at the caudal end of the medulla oblongata.  In the early embryo (2.5-3.5 dpf) the primitive hindbrain channels also connect to the DLAV." [ZFIN:ZDB-PUB-010205-5]
+def: "Paired trunk vessels that run medially along the dorsal-most portion of the trunk and post-vent region. The DLAVs are formed by the longitudinal anastomoses of the intersegmental vessels to form a right and left pair of dorsal longitudinal anastomotic vessels. These paired vessels remodel to form a single plexiform vessel beginning at 3dpf continuing until after 7dpf.  The basilar artery connects to the DLAVs at the caudal end of the medulla oblongata.  In the early embryo (2.5-3.5 dpf) the primitive hindbrain channels also connect to the DLAV." [ZFIN:ZDB-PUB-010205-5]
 comment: Eventually half of the ISVs will carry blood from the aorta to the DLAVs, and half from the DLAV to the posterior cardinal vein.
 synonym: "DLAV" EXACT []
 xref: TAO:0005025
@@ -30295,7 +30295,7 @@ xref: ZFIN:ZDB-ANAT-120608-1
 is_a: ZFA:0005494 ! skeletal element
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001554 ! lepidotrichium
-relationship: RO:0002131 ZFA:0005634 ! lepidotrichium joint
+relationship: overlaps ZFA:0005634 ! lepidotrichium joint
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2012-04-06T02:21:01Z
@@ -39296,14 +39296,16 @@ xref: RO:0002093
 id: part_of
 name: part of
 xref: BFO:0000050
+is_a: overlaps
 is_transitive: true
 
 [Typedef]
-id: RO:0002131
+id: overlaps
 name: overlaps
+xref: RO:0002131
 
 [Typedef]
-id: RO:0002150
+id: continuous_with
 name: continuous with
 def: "X continuous_with Y if and only if X and Y share a fiat boundary." [goc:cjm]
 synonym: "continuous_with" EXACT []
@@ -39311,19 +39313,20 @@ xref: RO:0002150
 is_symmetric: true
 
 [Typedef]
-id: RO:0002254
+id: has_developmental_contribution_from
 name: has developmental contribution from
 def: "x has developmental contribution from y iff x has some part z such that z develops from y." [goc:cjm]
 synonym: "has_developmental_contribution_from" EXACT []
 xref: RO:0002254
-holds_over_chain: develops_from
+holds_over_chain: has_part develops_from
 
 [Typedef]
-id: RO:0002255
-name: developmentally contributes to
-synonym: "developmentally_contributes_to" EXACT []
-xref: RO:0002255
-inverse_of: RO:0002254 ! has developmental contribution from
+id: has_part
+name: has_part
+xref: BFO:0000051
+is_transitive: true
+is_a: overlaps
+inverse_of: part_of ! part_of
 
 [Typedef]
 id: start
