@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 02:04:2014 08:59
-saved-by: yvonne
+date: 07:04:2014 10:38
+saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: PLURAL "PLURAL"
@@ -877,7 +877,6 @@ xref: TAO:0000072
 xref: ZFIN:ZDB-ANAT-010921-490
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: has_developmental_contribution_from ZFA:0005785 ! esophageal striated muscle
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
 [Term]
@@ -5267,8 +5266,8 @@ xref: ZFIN:ZDB-ANAT-011113-348
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001205 ! Meckel's cartilage
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0001273 ! ventral mandibular arch
 relationship: overlaps ZFA:0005618 ! anguloarticular-retroarticular joint
+relationship: part_of ZFA:0001273 ! ventral mandibular arch
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -5849,9 +5848,9 @@ is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001644 ! articular cartilage
 relationship: develops_from ZFA:0001645 ! angular bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005618 ! anguloarticular-retroarticular joint
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001273 ! ventral mandibular arch
-relationship: overlaps ZFA:0005618 ! anguloarticular-retroarticular joint
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -5918,10 +5917,10 @@ xref: ZFIN:ZDB-ANAT-011113-397
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001423 ! parachordal cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005423 ! basioccipital-exoccipital joint
 relationship: part_of ZFA:0001414 ! occipital region
 relationship: part_of ZFA:0001424 ! chondrocranium
 relationship: part_of ZFA:0001580 ! neurocranium
-relationship: overlaps ZFA:0005423 ! basioccipital-exoccipital joint
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -6842,7 +6841,7 @@ relationship: develops_from ZFA:0001290 ! stomodeum
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000339 ! digestive system
 relationship: part_of ZFA:0001114 ! head
-relationship: start ZFS:0000033 ! Hatching:Long-pec
+relationship: start ZFS:0000000 ! Unknown
 
 [Term]
 id: ZFA:0000548
@@ -8270,10 +8269,10 @@ is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001423 ! parachordal cartilage
 relationship: develops_from ZFA:0001504 ! occipital arch cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005423 ! basioccipital-exoccipital joint
 relationship: part_of ZFA:0001414 ! occipital region
 relationship: part_of ZFA:0001424 ! chondrocranium
 relationship: part_of ZFA:0001580 ! neurocranium
-relationship: overlaps ZFA:0005423 ! basioccipital-exoccipital joint
 relationship: start ZFS:0000039 ! Larval:Days 7-13
 
 [Term]
@@ -9137,7 +9136,6 @@ xref: TAO:0000728
 xref: ZFIN:ZDB-ANAT-020309-109
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: has_developmental_contribution_from ZFA:0005785 ! esophageal striated muscle
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
 [Term]
@@ -9183,7 +9181,6 @@ xref: TAO:0000732
 xref: ZFIN:ZDB-ANAT-020309-112
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: has_developmental_contribution_from ZFA:0005785 ! esophageal striated muscle
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
 [Term]
@@ -16066,7 +16063,7 @@ synonym: "oral ectoderm" RELATED [ZFIN:ZDB-PUB-100726-23]
 xref: TAO:0001290
 xref: ZFIN:ZDB-ANAT-050915-95
 is_a: ZFA:0000292 ! surface structure
-relationship: end ZFS:0000033 ! Hatching:Long-pec
+relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0000112 ! gut
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
@@ -16263,7 +16260,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001306
 name: pharyngeal arch
 namespace: zebrafish_anatomy
-def: "One of a series of paired bony or cartilaginous arches that develop along the lateral walls of the foregut.  The pharyngeal arches have developmental contributions from endoderm, mesoderm, and neural crest cells and are separated by anterior lateral endoderm out-pockets known as pharyngeal pouches. There are seven pharyngeal arches." [ZFA:YMB, ZFIN:ZDB-PUB-010912-16, ZFIN:ZDB-PUB-131119-6, ZFIN:ZDB-PUB-961014-985]
+def: "One of a series of paired bony or cartilaginous arches that develop along the lateral walls of the foregut. The pharyngeal arches have developmental contributions from endoderm, mesoderm, and neural crest cells and are separated by anterior lateral endoderm out-pockets known as pharyngeal pouches. There are seven pharyngeal arches." [ZFA:YMB, ZFIN:ZDB-PUB-010912-16, ZFIN:ZDB-PUB-131119-6, ZFIN:ZDB-PUB-961014-985]
 synonym: "pharyngeal arches" EXACT PLURAL []
 xref: TAO:0001306
 xref: ZFIN:ZDB-ANAT-050915-111
@@ -17809,8 +17806,8 @@ def: "A duct connecting the esophagus to the posterior chamber of the swim bladd
 xref: TAO:0001430
 xref: ZFIN:ZDB-ANAT-060816-5
 is_a: ZFA:0005171 ! duct
-relationship: end ZFS:0000044 ! Adult
 relationship: continuous_with ZFA:0000204 ! esophagus
+relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 
 [Term]
@@ -18123,9 +18120,9 @@ synonym: "pelvic fin fields" EXACT PLURAL []
 xref: TAO:0001454
 xref: ZFIN:ZDB-ANAT-060816-23
 is_a: ZFA:0001105 ! embryonic structure
-relationship: end ZFS:0000000 ! Unknown
 relationship: end ZFS:0000040 ! Larval:Days 14-20
 relationship: part_of ZFA:0005042 ! posterior lateral plate mesoderm
+relationship: start ZFS:0000000 ! Unknown
 
 [Term]
 id: ZFA:0001455
@@ -20079,6 +20076,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0001611
 name: pharyngeal arch 2
 namespace: zebrafish_anatomy
+def: "The second pharyngeal arch, also known as the hyoid arch, forms jaw support structures.  Anteriorly positioned cranial neural crest cells, which align with rhombomeres 4/5, contribute to the hyoid arch structures including the ceratohyla and hyosymplectic cartilages." [ZFA:YMB, ZFIN:ZDB-PUB-020904-6, ZFIN:ZDB-PUB-040726-7, ZFIN:ZDB-PUB-961014-985]
 synonym: "hyoid arch" EXACT []
 synonym: "pharyngeal arches 2" EXACT PLURAL []
 synonym: "visceral arch 2" EXACT []
@@ -20092,6 +20090,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0001612
 name: pharyngeal arch 1
 namespace: zebrafish_anatomy
+def: "The first pharyngeal arch, also known as the mandibular arch, forms the jaw. The first pharyngeal arch gives rise to elements of the jaw, with the most anteriorly positioned cranial neural crest cells contributing to mandibular arch structures, including Meckel's and palatoquadrate cartilages that constitute the lower and upper jaw respectively." [ZFA:YMB, ZFIN:ZDB-PUB-020904-6, ZFIN:ZDB-PUB-121120-12, ZFIN:ZDB-PUB-961014-985]
 synonym: "mandibular arch" EXACT []
 synonym: "pharyngeal arches 1" EXACT PLURAL []
 synonym: "visceral arch 1" EXACT []
@@ -30294,8 +30293,8 @@ def: "Skeletal element which is part of lepidotrichium articulating with other l
 xref: ZFIN:ZDB-ANAT-120608-1
 is_a: ZFA:0005494 ! skeletal element
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0001554 ! lepidotrichium
 relationship: overlaps ZFA:0005634 ! lepidotrichium joint
+relationship: part_of ZFA:0001554 ! lepidotrichium
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2012-04-06T02:21:01Z
@@ -32178,6 +32177,8 @@ def: "A neuron that releases hypocretin as a neurotransmitter." [PMID:23848055]
 synonym: "orexin secreting neuron " RELATED []
 xref: CL:0011109
 is_a: ZFA:0009248 ! neuron
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2014-03-06T13:14:29Z
 
@@ -32223,7 +32224,9 @@ name: intestinal opening
 namespace: zebrafish_anatomy
 def: "The juncture where the  intestine empties into the cloaca." [ZFA:CVS]
 synonym: "gut opening" EXACT []
+relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000330 ! cloacal chamber
+relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2014-03-12T09:39:01Z
 
@@ -32247,6 +32250,8 @@ namespace: zebrafish_anatomy
 def: "Muscle cell which has as its direct parts myofilaments organized into sarcomeres." [GOC:tfm, ISBN:0721662544]
 xref: CL:0000737
 is_a: ZFA:0009114 ! muscle cell
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2014-03-18T03:14:29Z
 
@@ -32257,6 +32262,9 @@ namespace: zebrafish_anatomy
 def: "Striated muscle of the esophogus. Permits voluntary swallowing." [ZFIN:ZDB-PUB-130709-61]
 is_a: ZFA:0005145 ! muscle
 relationship: end ZFS:0000044 ! Adult
+relationship: has_developmental_contribution_from ZFA:0000072 ! somite 1
+relationship: has_developmental_contribution_from ZFA:0000728 ! somite 2
+relationship: has_developmental_contribution_from ZFA:0000732 ! somite 3
 relationship: part_of ZFA:0000204 ! esophagus
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
@@ -32268,9 +32276,58 @@ name: cleft cell
 namespace: zebrafish_anatomy
 def: "Wedge-shaped epidermal cell positioned along the apex of the developing fin fold. Each cleft cell retains a wedge-shaped form during fold formation and develops a basal cleft-shaped invagination. Invaginations are aligned in neighboring cleft cells so that these cells cap the distal boundary of the subepidermal space where collagenous extracellular fibres called actinotrichia run anteroposteriorly along the length of the fin fold." [ZFA:CVS, ZFIN:/ZDB-PUB-961014-195]
 is_a: ZFA:0009183 ! epidermal cell
+relationship: end ZFS:0000037 ! Larval:Day 5
 relationship: part_of ZFA:0000040 ! median fin fold
+relationship: start ZFS:0000028 ! Segmentation:26+ somites
 created_by: Ceri
 creation_date: 2014-03-25T09:31:29Z
+
+[Term]
+id: ZFA:0005787
+name: hypophyseal artery
+namespace: zebrafish_anatomy
+def: "Artery that runs along the midline from anterior to posterior regions of the hypothalamus and splits into two capillary branches (hyc). The formation of the artery is initiated at the hypophysis itself and extends anteriorly until it connects with the palatocerebral arteries at day 2.5." [ZFA:CVS, ZFIN:ZDB-PUB-111027-47, ZFIN:ZDB-PUB-130222-26]
+is_a: ZFA:0000005 ! artery
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000099 ! brain vasculature
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2014-04-03T10:42:12Z
+
+[Term]
+id: ZFA:0005788
+name: hypophyseal vein
+namespace: zebrafish_anatomy
+def: "Vein thats tarts posterior of the hypophysis and drains the hypophyseal capillaries.  It empties into the primary head sinus." [ZFA:CVS, ZFIN:ZDB-PUB-130222-26]
+is_a: ZFA:0000082 ! vein
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000099 ! brain vasculature
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2014-04-03T10:47:03Z
+
+[Term]
+id: ZFA:0005789
+name: preopticohypophyseal tract
+namespace: zebrafish_anatomy
+def: "Axon tract originating  from the two hemispheres of the neurosecretory preoptic areas  converging into the midline and terminating at the ventral part of the hypothalamus at the presumed location of the pituitary. Analogous to the supraopticohypophyseal tract in mammals." [ZFA:CVS, ZFIN:ZDB-PUB-111027-47]
+synonym: "preopticohypophyseal axon tract" EXACT []
+is_a: ZFA:0001682 ! white matter
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-04-03T11:19:03Z
+
+[Term]
+id: ZFA:0005790
+name: hypophyseal capillary
+namespace: zebrafish_anatomy
+def: "Pair of capillaries that bilaterally encompass the hypophysis starting at the anterior aspect of the hypophysis (pituitary).   Directly posterior to the pituitary, the two capillaries fuse with the hypophyseal vein." [ZFA:CVS, ZFIN:ZDB-PUB-130222-26]
+is_a: ZFA:0005250 ! capillary
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2014-04-03T11:27:53Z
 
 [Term]
 id: ZFA:0006000
@@ -39278,6 +39335,14 @@ name: Stages
 namespace: zebrafish_stages
 
 [Typedef]
+id: continuous_with
+name: continuous with
+def: "X continuous_with Y if and only if X and Y share a fiat boundary." [goc:cjm]
+synonym: "continuous_with" EXACT []
+xref: RO:0002150
+is_symmetric: true
+
+[Typedef]
 id: develops_from
 name: develops from
 xref: RO:0002202
@@ -39293,26 +39358,6 @@ synonym: "ends_during" EXACT []
 xref: RO:0002093
 
 [Typedef]
-id: part_of
-name: part of
-xref: BFO:0000050
-is_a: overlaps
-is_transitive: true
-
-[Typedef]
-id: overlaps
-name: overlaps
-xref: RO:0002131
-
-[Typedef]
-id: continuous_with
-name: continuous with
-def: "X continuous_with Y if and only if X and Y share a fiat boundary." [goc:cjm]
-synonym: "continuous_with" EXACT []
-xref: RO:0002150
-is_symmetric: true
-
-[Typedef]
 id: has_developmental_contribution_from
 name: has developmental contribution from
 def: "x has developmental contribution from y iff x has some part z such that z develops from y." [goc:cjm]
@@ -39325,8 +39370,20 @@ id: has_part
 name: has_part
 xref: BFO:0000051
 is_transitive: true
-is_a: overlaps
-inverse_of: part_of ! part_of
+is_a: overlaps ! overlaps
+inverse_of: part_of ! part of
+
+[Typedef]
+id: overlaps
+name: overlaps
+xref: RO:0002131
+
+[Typedef]
+id: part_of
+name: part of
+xref: BFO:0000050
+is_transitive: true
+is_a: overlaps ! overlaps
 
 [Typedef]
 id: start
