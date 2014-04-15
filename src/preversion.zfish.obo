@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:04:2014 10:38
+date: 11:04:2014 10:36
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -3743,11 +3743,14 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000298
 name: vent
 namespace: zebrafish_anatomy
+synonym: "cloacal opening" EXACT [ZFIN:ZDB-PUB-110602-26]
 xref: TAO:0000298
 xref: ZFIN:ZDB-ANAT-011113-227
 is_a: ZFA:0000292 ! surface structure
+relationship: develops_from ZFA:0000066 ! proctodeum
 relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000028 ! Segmentation:26+ somites
+relationship: part_of ZFA:0005781 ! cloaca
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
 id: ZFA:0000299
@@ -18115,11 +18118,11 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0001454
 name: pelvic fin field
 namespace: zebrafish_anatomy
-def: "Embryonic region that develops into the pelvic fin bud." [ZFA:curator]
+def: "Portion of tissue in the pelvic region that develops into the pelvic fin bud." [ZFA:curator]
 synonym: "pelvic fin fields" EXACT PLURAL []
 xref: TAO:0001454
 xref: ZFIN:ZDB-ANAT-060816-23
-is_a: ZFA:0001105 ! embryonic structure
+is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000040 ! Larval:Days 14-20
 relationship: part_of ZFA:0005042 ! posterior lateral plate mesoderm
 relationship: start ZFS:0000000 ! Unknown
@@ -20078,7 +20081,6 @@ name: pharyngeal arch 2
 namespace: zebrafish_anatomy
 def: "The second pharyngeal arch, also known as the hyoid arch, forms jaw support structures.  Anteriorly positioned cranial neural crest cells, which align with rhombomeres 4/5, contribute to the hyoid arch structures including the ceratohyla and hyosymplectic cartilages." [ZFA:YMB, ZFIN:ZDB-PUB-020904-6, ZFIN:ZDB-PUB-040726-7, ZFIN:ZDB-PUB-961014-985]
 synonym: "hyoid arch" EXACT []
-synonym: "pharyngeal arches 2" EXACT PLURAL []
 synonym: "visceral arch 2" EXACT []
 xref: TAO:0001596
 xref: ZFIN:ZDB-ANAT-080417-90
@@ -20092,7 +20094,6 @@ name: pharyngeal arch 1
 namespace: zebrafish_anatomy
 def: "The first pharyngeal arch, also known as the mandibular arch, forms the jaw. The first pharyngeal arch gives rise to elements of the jaw, with the most anteriorly positioned cranial neural crest cells contributing to mandibular arch structures, including Meckel's and palatoquadrate cartilages that constitute the lower and upper jaw respectively." [ZFA:YMB, ZFIN:ZDB-PUB-020904-6, ZFIN:ZDB-PUB-121120-12, ZFIN:ZDB-PUB-961014-985]
 synonym: "mandibular arch" EXACT []
-synonym: "pharyngeal arches 1" EXACT PLURAL []
 synonym: "visceral arch 1" EXACT []
 xref: TAO:0001595
 xref: ZFIN:ZDB-ANAT-080417-91
@@ -32234,7 +32235,7 @@ creation_date: 2014-03-12T09:39:01Z
 id: ZFA:0005783
 name: cloacal epithelium
 namespace: zebrafish_anatomy
-def: "Epithelium lining the cloaca.  The epithelium is a simple cuboidal epithelium at prim-5." [ZFIN:ZDB-PUB-000505-17]
+def: "Epithelium lining the cloaca.  The epithelium is a simple cuboidal epithelium at Prim-5." [ZFIN:ZDB-PUB-000505-17]
 is_a: ZFA:0001486 ! epithelium
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005123 ! gut epithelium
@@ -32274,7 +32275,7 @@ creation_date: 2014-03-18T03:37:56Z
 id: ZFA:0005786
 name: cleft cell
 namespace: zebrafish_anatomy
-def: "Wedge-shaped epidermal cell positioned along the apex of the developing fin fold. Each cleft cell retains a wedge-shaped form during fold formation and develops a basal cleft-shaped invagination. Invaginations are aligned in neighboring cleft cells so that these cells cap the distal boundary of the subepidermal space where collagenous extracellular fibres called actinotrichia run anteroposteriorly along the length of the fin fold." [ZFA:CVS, ZFIN:/ZDB-PUB-961014-195]
+def: "Wedge-shaped epidermal cell positioned along the apex of the developing fin fold. Each cleft cell retains a wedge-shaped form during fold formation and develops a basal cleft-shaped invagination. Invaginations are aligned in neighboring cleft cells so that these cells cap the distal boundary of the subepidermal space where collagenous extracellular fibres called actinotrichia run anteroposteriorly along the length of the fin fold." [ZFA:CVS, ZFIN:ZDB-PUB-961014-195]
 is_a: ZFA:0009183 ! epidermal cell
 relationship: end ZFS:0000037 ! Larval:Day 5
 relationship: part_of ZFA:0000040 ! median fin fold
@@ -32325,6 +32326,7 @@ namespace: zebrafish_anatomy
 def: "Pair of capillaries that bilaterally encompass the hypophysis starting at the anterior aspect of the hypophysis (pituitary).   Directly posterior to the pituitary, the two capillaries fuse with the hypophyseal vein." [ZFA:CVS, ZFIN:ZDB-PUB-130222-26]
 is_a: ZFA:0005250 ! capillary
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000099 ! brain vasculature
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
 creation_date: 2014-04-03T11:27:53Z
