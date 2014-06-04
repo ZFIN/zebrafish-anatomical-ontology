@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:04:2014 10:36
+date: 04:06:2014 16:04
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -2769,7 +2769,9 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000222
 name: isthmic primary nucleus
 namespace: zebrafish_anatomy
+def: "Sensory trigeminal nucleus located in the most rostral position.  It lies immediately caudal to the secondary gustatory nucleus." [ZFIN:ZDB-PUB-961014-1280]
 synonym: "isthmic primary nuclei" EXACT PLURAL []
+synonym: "isthmic primary sensory trigeminal nucleus" EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000222
 xref: ZFIN:ZDB-ANAT-011113-152
 is_a: ZFA:0000433 ! sensory trigeminal nucleus
@@ -3077,6 +3079,8 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000245
 name: nucleus of the descending root
 namespace: zebrafish_anatomy
+def: "Sensory trigeminal nucleus that lies at the mediodorsal edge of the descending trigeminal root (DV).  This nucleus is not clearly delineated." [ZFIN:ZDB-PUB-961014-1280]
+synonym: "sensory nucleus of the descending trigeminal root" EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000245
 xref: ZFIN:ZDB-ANAT-011113-177
 is_a: ZFA:0000433 ! sensory trigeminal nucleus
@@ -3800,7 +3804,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000302
 name: ventral habenular nucleus
 namespace: zebrafish_anatomy
-def: "Habenular nucleus positioned ventromedially to the dorsal habenular nuclei. The axons of the ventral habenular nucleus passed laterally through the interpeduncular nucleus and projected to the ventral part of the median raphe.  The ventral habenular nucleus is homolog mammalian lateral habenular nucleus." [ZFIN:ZDB-PUB-100202-7]
+def: "Habenular nucleus positioned ventromedially to the dorsal habenular nuclei. The ventral habenular nuclei are paired and symmetrical, each have a conical shape defined by a wide rostral end, occupying the entire anterior region of the habenula, and a narrow caudal end. The axons of the ventral habenular nucleus passed laterally through the interpeduncular nucleus and projected to the ventral part of the median raphe.  The ventral habenular nucleus is homolog mammalian lateral habenular nucleus." [ZFIN:ZDB-PUB-100202-7, ZFIN:ZDB-PUB-120709-5]
 xref: TAO:0000302
 xref: ZFIN:ZDB-ANAT-011113-230
 is_a: ZFA:0005575 ! brain nucleus
@@ -3927,6 +3931,7 @@ relationship: start ZFS:0000042 ! Juvenile:Days 30-44
 id: ZFA:0000312
 name: mesencephalic nucleus of trigeminal nerve
 namespace: zebrafish_anatomy
+def: "Sensory trigeminal nucleus located at the tectal ventricle near the synencephalon and optic tectum  that contains large pyriform neurons.  The sensory fibers of the large pyriform neurons that run peripherally in the trigeminal nerve." [ZFIN:ZDB-PUB-961014-1280]
 synonym: "mesencephalic nuclei of trigeminal nerves" EXACT PLURAL []
 xref: TAO:0000312
 xref: ZFIN:ZDB-ANAT-011113-24
@@ -4358,6 +4363,8 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000346
 name: dorsal tegmental nucleus
 namespace: zebrafish_anatomy
+def: "Tegmental nucleus that is immediately adjacent to the nucleus lateralis valvulae (NLV).  This nucleus is sometimes considered part of the NLV but the cells are more densely packed.  The nucleus extends rostrally into the mesencephalon." [ZFIN:ZDB-PUB-961014-1280]
+synonym: "DTN" RELATED []
 synonym: "nucleus tegmentalis dorsalis" EXACT []
 xref: TAO:0000346
 xref: ZFIN:ZDB-ANAT-011113-271
@@ -4975,6 +4982,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000399
 name: secondary gustatory nucleus trigeminal nucleus
 namespace: zebrafish_anatomy
+def: "Nucleus that lies rostral to the isthmic primary nucleus." [ZFIN:ZDB-PUB-961014-1280]
 synonym: "secondary gustatory nucleus trigeminal nuclei" EXACT PLURAL []
 xref: TAO:0000399
 xref: ZFIN:ZDB-ANAT-011113-321
@@ -5403,6 +5411,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0000433
 name: sensory trigeminal nucleus
 namespace: zebrafish_anatomy
+synonym: "NVs" RELATED []
 synonym: "sensory trigeminal nuclei" EXACT PLURAL []
 xref: TAO:0000433
 xref: ZFIN:ZDB-ANAT-011113-358
@@ -6673,6 +6682,8 @@ name: lateral longitudinal fasciculus
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000198
 def: "The lateral longitudinal fascicule is an ascending bundle of axons. The LLF contains fibers of the auditory and mechanosensory systems which originate in the primary sensory brainstem nuclei and terminate in the torus semicircularis.   The LLF lies dorsal to the superior reticular formation, adjacent to the ventral rhombencephalic commissure.  The LLF becomes displaced more laterally as it approaches the torus semicircularis.  The LLF is homologous to the mammalian lateral lemniscus." [ZFIN:ZDB-PUB-961014-1280]
+synonym: "lateral lemniscus" EXACT [ZFIN:ZDB-PUB-040526-7]
+synonym: "lateral longitudinal fascicle" EXACT []
 synonym: "lateral longitundinal fasciculus" EXACT []
 synonym: "LLF" RELATED []
 xref: TAO:0000534
@@ -6892,7 +6903,7 @@ relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 id: ZFA:0000551
 name: nucleus lateralis valvulae
 namespace: zebrafish_anatomy
-def: "Hindbrain nucleus in the tegmental region of rhombomere 1." [ZFIN:ZDB-PUB-100601-20]
+def: "Hindbrain nucleus in the tegmental region of rhombomere 1.  The cells of the nucleus are granular and lie at the ventral border of the cerebellum and brain stem." [ZFIN:ZDB-PUB-100601-20, ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000551
 xref: ZFIN:ZDB-ANAT-011113-471
 is_a: ZFA:0001658 ! hindbrain nucleus
@@ -12453,6 +12464,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000997
 name: medial funicular nucleus trigeminal nucleus
 namespace: zebrafish_anatomy
+def: "Sensory trigeminal nucleus located at the end of the medulla oblongata." [ZFIN:ZDB-PUB-961014-1280]
 synonym: "medial funicular nucleus trigeminal nuclei" EXACT PLURAL []
 xref: TAO:0000997
 xref: ZFIN:ZDB-ANAT-020309-46
@@ -14643,7 +14655,7 @@ relationship: start ZFS:0000020 ! Gastrula:75%-epiboly
 id: ZFA:0001179
 name: epidermal superficial stratum
 namespace: zebrafish_anatomy
-def: "The outer layer of the epidermis.  The living cells form single cell layer, the outer surface of which is ornamented with microridges. Theseouter epidermal cells are not renewed periodically, but are individually replaced when dead." [ZFIN:ZDB-PUB-040726-12]
+def: "The outer layer of the epidermis.  The living cells form single cell layer, the outer surface of which is ornamented with microridges. These outer epidermal cells are not renewed periodically, but are individually replaced when dead." [ZFIN:ZDB-PUB-040726-12]
 xref: TAO:0001179
 xref: ZFIN:ZDB-ANAT-050420-25
 is_a: ZFA:0001477 ! portion of tissue
@@ -18530,6 +18542,7 @@ xref: TAO:0001487
 xref: ZFIN:ZDB-ANAT-070517-3
 is_a: ZFA:0100000 ! zebrafish anatomical entity
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001094 ! whole organism
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -32332,6 +32345,125 @@ created_by: Ceri
 creation_date: 2014-04-03T11:27:53Z
 
 [Term]
+id: ZFA:0005791
+name: breeding tubercle
+namespace: zebrafish_anatomy
+def: "Surface structure that is a keratinized epidermal appendages that is a contact organ and secondary sex organ." [ZFA:CVS, ZFIN:ZDB-PUB-140317-29, ZFIN:ZDB-PUB-140519-1]
+is_a: ZFA:0000292 ! surface structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000368 ! integument
+relationship: start ZFS:0000041 ! Larval:Days 21-29
+created_by: Ceri
+creation_date: 2014-05-15T15:26:12Z
+
+[Term]
+id: ZFA:0005792
+name: jaw flap
+namespace: zebrafish_anatomy
+def: "Surface structure that is a protrusion from the rostral end of the jaw, supported by the mandibular projection." [ZFIN:ZDB-PUB-140317-29, ZFIN:ZDB-PUB-140519-1]
+synonym: "lateral projections lower jaw" EXACT []
+is_a: ZFA:0000292 ! surface structure
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000041 ! Larval:Days 21-29
+created_by: Ceri
+creation_date: 2014-06-04T14:10:53Z
+
+[Term]
+id: ZFA:0005793
+name: superficial layer of breeding tubercle
+namespace: zebrafish_anatomy
+def: "Layer of smooth cells composing the outer layer of the breeding tubercle.  Cells in this layer have a high keratin content, lamellar bodies, and condensed chromosomes.  This layer is repeatedly shed and regenerated." [ZFA:CVS, ZFIN:ZDB-PUB-140317-29]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005791 ! breeding tubercle
+relationship: start ZFS:0000041 ! Larval:Days 21-29
+created_by: Ceri
+creation_date: 2014-06-04T14:33:07Z
+
+[Term]
+id: ZFA:0005794
+name: second tier layer of breeding tubercle
+namespace: zebrafish_anatomy
+def: "Cell layer that lies underneath the superficial layer of the breeding tubercle.  Characterized by tight junctions within the layer." [ZFA:CVS, ZFIN:ZDB-PUB-140317-29]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005791 ! breeding tubercle
+relationship: start ZFS:0000041 ! Larval:Days 21-29
+created_by: Ceri
+creation_date: 2014-06-04T14:46:01Z
+
+[Term]
+id: ZFA:0005795
+name: spinous layer of breeding tubercle
+namespace: zebrafish_anatomy
+def: "Intermediate layer of the breeding tubercles characterized by cells with  loose spinous organization connected to each other via desmosomes, but with wide extracellular spaces in between." [ZFA:CVS, ZFIN:ZDB-PUB-140317-29]
+synonym: "spinous keratinocyte layer" EXACT []
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005791 ! breeding tubercle
+relationship: start ZFS:0000041 ! Larval:Days 21-29
+created_by: Ceri
+creation_date: 2014-06-04T14:46:51Z
+
+[Term]
+id: ZFA:0005796
+name: basal layer breeding tubercle
+namespace: zebrafish_anatomy
+def: "Layer of breeding tubercle proximal to basal lamina of the integument." [ZFA:CVS, ZFIN:ZDB-PUB-140317-29]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005791 ! breeding tubercle
+relationship: start ZFS:0000041 ! Larval:Days 21-29
+created_by: Ceri
+creation_date: 2014-06-04T14:48:25Z
+
+[Term]
+id: ZFA:0005797
+name: pectoral fin breeding tubercle
+namespace: zebrafish_anatomy
+def: "Breeding tubercles along the surface of the pectoral fin lepidotrichium of males." [ZFA:CVS, ZFIN:ZDB-PUB-140317-29, ZFIN:ZDB-PUB-140519-1]
+is_a: ZFA:0005791 ! breeding tubercle
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000242 ! male organism
+relationship: part_of ZFA:0001161 ! pectoral fin
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-06-04T14:50:54Z
+
+[Term]
+id: ZFA:0005798
+name: jaw row breeding tubercle
+namespace: zebrafish_anatomy
+def: "Surface structures composed of breeding tubercles arranged in a double row in the medial region on each side of the lower jaw." [ZFA:CVS, ZFIN:ZDB-PUB-140317-29, ZFIN:ZDB-PUB-140519-1]
+is_a: ZFA:0005791 ! breeding tubercle
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000041 ! Larval:Days 21-29
+created_by: Ceri
+creation_date: 2014-06-04T14:56:48Z
+
+[Term]
+id: ZFA:0005799
+name: jaw flap breeding tubercle
+def: "Breeding tubercles that cover the surface of the jaw flap." [ZFA:CVS, ZFIN:ZDB-PUB-140317-29, ZFIN:ZDB-PUB-140519-1]
+is_a: ZFA:0005791 ! breeding tubercle
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000041 ! Larval:Days 21-29
+created_by: Ceri
+creation_date: 2014-06-04T15:32:28Z
+
+[Term]
+id: ZFA:0005800
+name: extracellular lipid lamellae
+namespace: zebrafish_anatomy
+def: "Portion of organism substance that is located between the cap and second tier layers of the breeding tubercles.  The lipid lamellae is composed of lipids." [ZFA:CVS, ZFIN:ZDB-PUB-140317-29]
+is_a: ZFA:0001487 ! portion of organism substance
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005791 ! breeding tubercle
+relationship: start ZFS:0000041 ! Larval:Days 21-29
+created_by: Ceri
+creation_date: 2014-06-04T16:00:53Z
+
+[Term]
 id: ZFA:0006000
 name: intermediate hypothalamus
 namespace: zebrafish_anatomy
@@ -39355,9 +39487,10 @@ transitive_over: part_of ! part of
 [Typedef]
 id: end
 name: end stage
-def: "X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y)." [goc:cjm]
+def: "c existence ends during s iff  end_of(c) part_of s." [goc:cjm]
 synonym: "ends_during" EXACT []
-xref: RO:0002093
+synonym: "existence ends during" RELATED []
+xref: RO:0002492
 
 [Typedef]
 id: has_developmental_contribution_from
@@ -39390,7 +39523,8 @@ is_a: overlaps ! overlaps
 [Typedef]
 id: start
 name: start stage
-def: "X starts_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (start(X) before_or_simultaneous_with end(Y))." [goc:cjm]
+def: "c existence starts during s iff start_of(c) part_of s." [goc:cjm]
+synonym: "existence starts during" RELATED []
 synonym: "starts_during" EXACT []
-xref: RO:0002091
+xref: RO:0002488
 
