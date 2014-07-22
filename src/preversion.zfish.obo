@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:06:2014 10:36
+date: 22:07:2014 15:20
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -16771,7 +16771,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001345
 name: interrenal gland
 namespace: zebrafish_anatomy
-def: "An epithelial structure consisting of steroid producing cells interposed with chromaffin cells embedded within the head kidney.  The interrenal gland is thought to be the equivalent of the mammalian adrenal cortex in zebrafish." [ZFIN:ZDB-PUB-030408-12]
+def: "An bilobed multi-tissue structure lateral to the notochord composed of an epithelium consisting of steroid producing cells interposed with chromaffin cells.  The interrenal gland is embedded within the head kidney.  The interrenal gland is the zebrafish functional equivalent of the mammalian adrenal cortex." [ZFA:CVS, ZFA:MAH, ZFIN:ZDB-PUB-030408-12, ZFIN:ZDB-PUB-061108-13]
 xref: TAO:0001345
 xref: ZFIN:ZDB-ANAT-060131-23
 is_a: ZFA:0001488 ! multi-tissue structure
@@ -30778,7 +30778,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-04-29T13:58:36Z
+creation_date: 2013-04-29T01:58:36Z
 
 [Term]
 id: ZFA:0005670
@@ -30790,7 +30790,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-04-29T14:06:50Z
+creation_date: 2013-04-29T02:06:50Z
 
 [Term]
 id: ZFA:0005671
@@ -30802,7 +30802,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-04-29T14:10:49Z
+creation_date: 2013-04-29T02:10:49Z
 
 [Term]
 id: ZFA:0005672
@@ -30814,7 +30814,7 @@ is_a: ZFA:0005668 ! olfactory bulb protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-04-29T14:17:00Z
+creation_date: 2013-04-29T02:17:00Z
 
 [Term]
 id: ZFA:0005673
@@ -30826,7 +30826,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-04-29T14:25:20Z
+creation_date: 2013-04-29T02:25:20Z
 
 [Term]
 id: ZFA:0005674
@@ -30838,7 +30838,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-04-29T14:26:28Z
+creation_date: 2013-04-29T02:26:28Z
 
 [Term]
 id: ZFA:0005675
@@ -30850,7 +30850,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-04-29T14:27:13Z
+creation_date: 2013-04-29T02:27:13Z
 
 [Term]
 id: ZFA:0005676
@@ -30862,7 +30862,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-04-29T14:28:47Z
+creation_date: 2013-04-29T02:28:47Z
 
 [Term]
 id: ZFA:0005677
@@ -30874,7 +30874,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-04-29T14:29:39Z
+creation_date: 2013-04-29T02:29:39Z
 
 [Term]
 id: ZFA:0005678
@@ -30886,7 +30886,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005674 ! dorsal zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-06T16:46:27Z
+creation_date: 2013-05-06T04:46:27Z
 
 [Term]
 id: ZFA:0005679
@@ -30935,7 +30935,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-07T13:37:59Z
+creation_date: 2013-05-07T01:37:59Z
 
 [Term]
 id: ZFA:0005683
@@ -30948,7 +30948,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-07T13:39:48Z
+creation_date: 2013-05-07T01:39:48Z
 
 [Term]
 id: ZFA:0005684
@@ -30961,7 +30961,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-07T13:48:45Z
+creation_date: 2013-05-07T01:48:45Z
 
 [Term]
 id: ZFA:0005685
@@ -30974,7 +30974,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005674 ! dorsal zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T14:25:26Z
+creation_date: 2013-05-21T02:25:26Z
 
 [Term]
 id: ZFA:0005686
@@ -30987,7 +30987,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T14:34:12Z
+creation_date: 2013-05-21T02:34:12Z
 
 [Term]
 id: ZFA:0005687
@@ -31000,7 +31000,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T14:38:24Z
+creation_date: 2013-05-21T02:38:24Z
 
 [Term]
 id: ZFA:0005688
@@ -31013,7 +31013,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T14:40:59Z
+creation_date: 2013-05-21T02:40:59Z
 
 [Term]
 id: ZFA:0005689
@@ -31026,7 +31026,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T14:42:35Z
+creation_date: 2013-05-21T02:42:35Z
 
 [Term]
 id: ZFA:0005690
@@ -31039,7 +31039,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T14:45:36Z
+creation_date: 2013-05-21T02:45:36Z
 
 [Term]
 id: ZFA:0005691
@@ -31053,7 +31053,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:10:31Z
+creation_date: 2013-05-21T03:10:31Z
 
 [Term]
 id: ZFA:0005692
@@ -31067,7 +31067,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:17:25Z
+creation_date: 2013-05-21T03:17:25Z
 
 [Term]
 id: ZFA:0005693
@@ -31081,7 +31081,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:19:23Z
+creation_date: 2013-05-21T03:19:23Z
 
 [Term]
 id: ZFA:0005694
@@ -31094,7 +31094,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:24:43Z
+creation_date: 2013-05-21T03:24:43Z
 
 [Term]
 id: ZFA:0005695
@@ -31107,7 +31107,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:26:20Z
+creation_date: 2013-05-21T03:26:20Z
 
 [Term]
 id: ZFA:0005696
@@ -31120,7 +31120,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:27:26Z
+creation_date: 2013-05-21T03:27:26Z
 
 [Term]
 id: ZFA:0005697
@@ -31133,7 +31133,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:31:32Z
+creation_date: 2013-05-21T03:31:32Z
 
 [Term]
 id: ZFA:0005698
@@ -31146,7 +31146,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:34:17Z
+creation_date: 2013-05-21T03:34:17Z
 
 [Term]
 id: ZFA:0005699
@@ -31159,7 +31159,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:37:11Z
+creation_date: 2013-05-21T03:37:11Z
 
 [Term]
 id: ZFA:0005700
@@ -31172,7 +31172,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005681 ! ventroposterior zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:46:05Z
+creation_date: 2013-05-21T03:46:05Z
 
 [Term]
 id: ZFA:0005701
@@ -31185,7 +31185,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005681 ! ventroposterior zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:47:52Z
+creation_date: 2013-05-21T03:47:52Z
 
 [Term]
 id: ZFA:0005702
@@ -31199,7 +31199,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T16:11:01Z
+creation_date: 2013-05-21T04:11:01Z
 
 [Term]
 id: ZFA:0005703
@@ -31214,7 +31214,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T16:15:43Z
+creation_date: 2013-05-21T04:15:43Z
 
 [Term]
 id: ZFA:0005704
@@ -31229,7 +31229,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T16:18:03Z
+creation_date: 2013-05-21T04:18:03Z
 
 [Term]
 id: ZFA:0005705
@@ -31407,7 +31407,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T15:52:20Z
+creation_date: 2013-05-22T03:52:20Z
 
 [Term]
 id: ZFA:0005718
@@ -31420,7 +31420,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T16:06:52Z
+creation_date: 2013-05-22T04:06:52Z
 
 [Term]
 id: ZFA:0005719
@@ -31433,7 +31433,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T16:08:18Z
+creation_date: 2013-05-22T04:08:18Z
 
 [Term]
 id: ZFA:0005720
@@ -31446,7 +31446,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T16:08:37Z
+creation_date: 2013-05-22T04:08:37Z
 
 [Term]
 id: ZFA:0005721
@@ -31459,7 +31459,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:13:36Z
+creation_date: 2013-05-22T05:13:36Z
 
 [Term]
 id: ZFA:0005722
@@ -31472,7 +31472,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:20:35Z
+creation_date: 2013-05-22T05:20:35Z
 
 [Term]
 id: ZFA:0005723
@@ -31485,7 +31485,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:21:01Z
+creation_date: 2013-05-22T05:21:01Z
 
 [Term]
 id: ZFA:0005724
@@ -31498,7 +31498,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:35:43Z
+creation_date: 2013-05-22T05:35:43Z
 
 [Term]
 id: ZFA:0005725
@@ -31511,7 +31511,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:36:02Z
+creation_date: 2013-05-22T05:36:02Z
 
 [Term]
 id: ZFA:0005726
@@ -31524,7 +31524,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:39:34Z
+creation_date: 2013-05-22T05:39:34Z
 
 [Term]
 id: ZFA:0005727
@@ -31537,7 +31537,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:42:18Z
+creation_date: 2013-05-22T05:42:18Z
 
 [Term]
 id: ZFA:0005728
@@ -31550,7 +31550,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:42:38Z
+creation_date: 2013-05-22T05:42:38Z
 
 [Term]
 id: ZFA:0005729
@@ -31563,7 +31563,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:42:57Z
+creation_date: 2013-05-22T05:42:57Z
 
 [Term]
 id: ZFA:0005730
@@ -31578,7 +31578,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001114 ! head
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-06-20T14:04:57Z
+creation_date: 2013-06-20T02:04:57Z
 
 [Term]
 id: ZFA:0005731
@@ -31593,7 +31593,7 @@ is_a: ZFA:0005730 ! cranial motor neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-06-20T14:06:26Z
+creation_date: 2013-06-20T02:06:26Z
 
 [Term]
 id: ZFA:0005732
@@ -31608,7 +31608,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000029 ! hindbrain
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-06-20T14:08:10Z
+creation_date: 2013-06-20T02:08:10Z
 
 [Term]
 id: ZFA:0005733
@@ -31623,7 +31623,7 @@ relationship: part_of ZFA:0000029 ! hindbrain
 relationship: part_of ZFA:0000128 ! midbrain
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-06-20T14:09:35Z
+creation_date: 2013-06-20T02:09:35Z
 
 [Term]
 id: ZFA:0005734
@@ -31675,7 +31675,7 @@ relationship: develops_from ZFA:0000017 ! endoderm
 relationship: end ZFS:0000032 ! Pharyngula:High-pec
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 created_by: Ceri
-creation_date: 2013-07-23T15:03:23Z
+creation_date: 2013-07-23T03:03:23Z
 
 [Term]
 id: ZFA:0005738
@@ -31687,7 +31687,7 @@ relationship: develops_from ZFA:0005737 ! intestinal rod
 relationship: end ZFS:0000032 ! Pharyngula:High-pec
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 created_by: Ceri
-creation_date: 2013-07-23T15:06:11Z
+creation_date: 2013-07-23T03:06:11Z
 
 [Term]
 id: ZFA:0005739
@@ -31781,7 +31781,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0000135 ! notochord
 relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 created_by: Ceri
-creation_date: 2013-07-30T16:09:49Z
+creation_date: 2013-07-30T04:09:49Z
 
 [Term]
 id: ZFA:0005745
@@ -31794,7 +31794,7 @@ is_a: ZFA:0009000 ! cell
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-07-30T16:14:44Z
+creation_date: 2013-07-30T04:14:44Z
 
 [Term]
 id: ZFA:0005746
@@ -31808,7 +31808,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0000135 ! notochord
 relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 created_by: Ceri
-creation_date: 2013-07-30T16:15:56Z
+creation_date: 2013-07-30T04:15:56Z
 
 [Term]
 id: ZFA:0005747
@@ -31833,7 +31833,7 @@ relationship: part_of ZFA:0000140 ! pancreas
 relationship: part_of ZFA:0001372 ! pancreatic duct
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-08-01T14:17:49Z
+creation_date: 2013-08-01T02:17:49Z
 
 [Term]
 id: ZFA:0005749
@@ -31844,7 +31844,7 @@ is_a: ZFA:0005748 ! intrapancreatic duct
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-08-01T14:44:27Z
+creation_date: 2013-08-01T02:44:27Z
 
 [Term]
 id: ZFA:0005750
@@ -31856,7 +31856,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005753 ! pancreatic lobule
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-08-01T14:50:38Z
+creation_date: 2013-08-01T02:50:38Z
 
 [Term]
 id: ZFA:0005751
@@ -31867,7 +31867,7 @@ is_a: ZFA:0005748 ! intrapancreatic duct
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-08-01T14:53:52Z
+creation_date: 2013-08-01T02:53:52Z
 
 [Term]
 id: ZFA:0005752
@@ -31878,7 +31878,7 @@ is_a: ZFA:0005748 ! intrapancreatic duct
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-08-01T14:55:07Z
+creation_date: 2013-08-01T02:55:07Z
 
 [Term]
 id: ZFA:0005753
@@ -31892,7 +31892,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001249 ! exocrine pancreas
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-08-01T15:16:34Z
+creation_date: 2013-08-01T03:16:34Z
 
 [Term]
 id: ZFA:0005754
@@ -31904,7 +31904,7 @@ is_a: ZFA:0005755 ! islet
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-08-01T16:05:06Z
+creation_date: 2013-08-01T04:05:06Z
 
 [Term]
 id: ZFA:0005755
@@ -31916,7 +31916,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001260 ! endocrine pancreas
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-08-01T16:10:28Z
+creation_date: 2013-08-01T04:10:28Z
 
 [Term]
 id: ZFA:0005756
@@ -31928,7 +31928,7 @@ is_a: ZFA:0005755 ! islet
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-08-01T16:10:55Z
+creation_date: 2013-08-01T04:10:55Z
 
 [Term]
 id: ZFA:0005757
@@ -31942,7 +31942,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0001344 ! zona limitans intrathalamica
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 created_by: Ceri
-creation_date: 2013-08-02T15:20:09Z
+creation_date: 2013-08-02T03:20:09Z
 
 [Term]
 id: ZFA:0005758
@@ -32081,7 +32081,7 @@ is_a: ZFA:0009053 ! sensory neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 created_by: Ceri
-creation_date: 2013-09-30T15:31:51Z
+creation_date: 2013-09-30T03:31:51Z
 
 [Term]
 id: ZFA:0005769
@@ -32096,7 +32096,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000598 ! testis
 relationship: start ZFS:0000043 ! Juvenile:Days 45-89
 created_by: Ceri
-creation_date: 2013-10-04T15:51:27Z
+creation_date: 2013-10-04T03:51:27Z
 
 [Term]
 id: ZFA:0005770
@@ -32132,7 +32132,7 @@ is_a: ZFA:0009000 ! cell
 relationship: end ZFS:0000001 ! Zygote:1-cell
 relationship: start ZFS:0000001 ! Zygote:1-cell
 created_by: Ceri
-creation_date: 2013-11-25T13:46:49Z
+creation_date: 2013-11-25T01:46:49Z
 
 [Term]
 id: ZFA:0005773
@@ -32144,7 +32144,7 @@ is_a: ZFA:0009138 ! mesodermal cell
 relationship: end ZFS:0000026 ! Segmentation:14-19 somites
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 created_by: Ceri
-creation_date: 2013-12-02T14:57:49Z
+creation_date: 2013-12-02T02:57:49Z
 
 [Term]
 id: ZFA:0005774
@@ -32156,7 +32156,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005057 ! epicardium
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-11-26T16:32:55Z
+creation_date: 2013-11-26T04:32:55Z
 
 [Term]
 id: ZFA:0005775
@@ -32208,7 +32208,7 @@ is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2014-03-06T13:14:29Z
+creation_date: 2014-03-06T01:14:29Z
 
 [Term]
 id: ZFA:0005779
@@ -32220,7 +32220,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001078 ! thymus
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2014-03-11T15:25:06Z
+creation_date: 2014-03-11T03:25:06Z
 
 [Term]
 id: ZFA:0005780
@@ -32232,7 +32232,7 @@ relationship: end ZFS:0000035 ! Larval:Protruding-mouth
 relationship: part_of ZFA:0001077 ! thymus primordium
 relationship: start ZFS:0000034 ! Hatching:Pec-fin
 created_by: Ceri
-creation_date: 2014-03-11T15:28:25Z
+creation_date: 2014-03-11T03:28:25Z
 
 [Term]
 id: ZFA:0005781
@@ -32369,7 +32369,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000368 ! integument
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-05-15T15:26:12Z
+creation_date: 2014-05-15T03:26:12Z
 
 [Term]
 id: ZFA:0005792
@@ -32381,7 +32381,7 @@ is_a: ZFA:0000292 ! surface structure
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T14:10:53Z
+creation_date: 2014-06-04T02:10:53Z
 
 [Term]
 id: ZFA:0005793
@@ -32393,7 +32393,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005791 ! breeding tubercle
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T14:33:07Z
+creation_date: 2014-06-04T02:33:07Z
 
 [Term]
 id: ZFA:0005794
@@ -32405,7 +32405,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005791 ! breeding tubercle
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T14:46:01Z
+creation_date: 2014-06-04T02:46:01Z
 
 [Term]
 id: ZFA:0005795
@@ -32418,7 +32418,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005791 ! breeding tubercle
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T14:46:51Z
+creation_date: 2014-06-04T02:46:51Z
 
 [Term]
 id: ZFA:0005796
@@ -32430,7 +32430,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005791 ! breeding tubercle
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T14:48:25Z
+creation_date: 2014-06-04T02:48:25Z
 
 [Term]
 id: ZFA:0005797
@@ -32443,7 +32443,7 @@ relationship: part_of ZFA:0000242 ! male organism
 relationship: part_of ZFA:0001161 ! pectoral fin
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2014-06-04T14:50:54Z
+creation_date: 2014-06-04T02:50:54Z
 
 [Term]
 id: ZFA:0005798
@@ -32454,17 +32454,18 @@ is_a: ZFA:0005791 ! breeding tubercle
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T14:56:48Z
+creation_date: 2014-06-04T02:56:48Z
 
 [Term]
 id: ZFA:0005799
 name: jaw flap breeding tubercle
+namespace: zebrafish_anatomy
 def: "Breeding tubercles that cover the surface of the jaw flap." [ZFA:CVS, ZFIN:ZDB-PUB-140317-29, ZFIN:ZDB-PUB-140519-1]
 is_a: ZFA:0005791 ! breeding tubercle
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T15:32:28Z
+creation_date: 2014-06-04T03:32:28Z
 
 [Term]
 id: ZFA:0005800
@@ -32476,7 +32477,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005791 ! breeding tubercle
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T16:00:53Z
+creation_date: 2014-06-04T04:00:53Z
 
 [Term]
 id: ZFA:0005801
@@ -32490,7 +32491,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0001345 ! interrenal gland
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2014-06-06T13:45:08Z
+creation_date: 2014-06-06T01:45:08Z
 
 [Term]
 id: ZFA:0005802
@@ -32503,6 +32504,71 @@ relationship: part_of ZFA:0001346 ! interrenal primordium
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 created_by: Ceri
 creation_date: 2014-06-10T10:26:33Z
+
+[Term]
+id: ZFA:0005803
+name: cupula
+namespace: zebrafish_anatomy
+def: "Gelatinous substance surrounding the kinocila of the neuromast." [ZFA:CVS, ZFIN:ZDB-PUB-961014-768]
+is_a: ZFA:0001487 ! portion of organism substance
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000243 ! neuromast
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-06-24T09:55:56Z
+
+[Term]
+id: ZFA:0005804
+name: rhombencephalic efferent neurons to the lateral line
+namespace: zebrafish_anatomy
+def: "Efferent neuron where the cell body is located in the hindbrain reticular formation immediately adjacent to the medial longitudinal fascicle at the rostrocaudal level between the MiDl and the CaD and adjacent to the descending Mauthner axon.  RELL dendrites are large and extend bilaterally into the ventrolateral neuropil.  The ipsilateral dendrite reaches into a single area of the ventrolateral neuropil whereas the contralateral dendrite branches and extends into two different levels of the same rostrocaudal column of the ventrolateral neuropil. The axon emerges from the ventral part of the perikaryon courses a short distance rostrally to the level of the ROLE  cells and then turns laterally from the CNS accompanying the root of the posterior lateral line nerve." [ZFA:CVS, ZFIN:ZDB-PUB-961014-768]
+synonym: "RELL neuron" EXACT []
+is_a: ZFA:0009239 ! efferent neuron
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000029 ! hindbrain
+relationship: part_of ZFA:0000034 ! lateral line system
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-06-24T10:08:34Z
+
+[Term]
+id: ZFA:0005805
+name: rhombencephalic octavola-teral efferent neuron
+namespace: zebrafish_anatomy
+def: "Efferent neuron located in the hindbrain.  The axon of ROLE cells travels rostrally near the ipsilateral medial longitudinal fascicle to the level of the Mauthner cell where it turns laterally to exit with the eighth nerve.  Outside the brain the  axon continues ventrally  to the base of the saccular macula in the ear then turns caudally to ender the ganglion of the posterior lateral line.   A branch of the axon  turns ventrally before the main axon enters the LLG.  The branch goes ventrally along the wall of the otic capsule." [ZFA:CVS, ZFIN:ZDB-PUB-961014-768]
+synonym: "ROLE neuron" EXACT []
+is_a: ZFA:0009239 ! efferent neuron
+relationship: part_of ZFA:0000128 ! midbrain
+created_by: Ceri
+creation_date: 2014-06-24T10:42:22Z
+
+[Term]
+id: ZFA:0005806
+name: diencephalic efferent neurons to the lateral line
+namespace: zebrafish_anatomy
+def: "Efferent neurons located ventrally in the diencephalon.  The dendrites extend into a large area of the diencephalic neuropil rostral, caudal, lateral and ventral to the cell body.  The axon courses dorsally and then caudally through the midbrain.   As the axon descends through the brain it gives off branches at several levels.   One branch usually exits the brain with the posterior lateral line nerve.  The axon can be traced into the cervical spinal cord." [ZFA:CVS, ZFIN:ZDB-PUB-961014-768]
+comment: There may be 2 neuron types grouped under this name since there are some instances the axons were seen to exit with the eighth cranial nerve instead of the PLL nerve:  ZDB-PUB-961014-768.
+synonym: "DELL neuron" EXACT []
+is_a: ZFA:0009239 ! efferent neuron
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000034 ! lateral line system
+relationship: part_of ZFA:0000101 ! diencephalon
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-06-24T11:50:49Z
+
+[Term]
+id: ZFA:0005807
+name: intestine lumen
+namespace: zebrafish_anatomy
+def: "Anatomical space within the intestine where digestion normally occurs.  The intestinal lumen begins as an interconnected web of small space at 43 hpf that over time remodels to form a single continuous tube at 68hpf.  Lumen maturation proceeds from anterior to posterior along the intestine." [ZFA:CVS, ZFIN:ZDB-PUB-140415-28]
+synonym: "gut lumen" RELATED []
+is_a: ZFA:0001643 ! anatomical space
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001338 ! intestine
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-14T13:57:57Z
 
 [Term]
 id: ZFA:0006000
@@ -38881,7 +38947,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005171 ! duct
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-07-29T17:17:20Z
+creation_date: 2013-07-29T05:17:20Z
 
 [Term]
 id: ZFA:0009374
@@ -38936,7 +39002,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005169 ! intrahepatic bile duct
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-07-29T17:21:19Z
+creation_date: 2013-07-29T05:21:19Z
 
 [Term]
 id: ZFA:0009380
@@ -38950,7 +39016,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001372 ! pancreatic duct
 relationship: start ZFS:0000032 ! Pharyngula:High-pec
 created_by: Ceri
-creation_date: 2013-07-29T17:23:07Z
+creation_date: 2013-07-29T05:23:07Z
 
 [Term]
 id: ZFA:0009383
@@ -38964,7 +39030,7 @@ relationship: develops_from ZFA:0000017 ! endoderm
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-08-02T16:25:16Z
+creation_date: 2013-08-02T04:25:16Z
 
 [Term]
 id: ZFA:0009384
@@ -39168,7 +39234,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001338 ! intestine
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 created_by: Ceri
-creation_date: 2013-08-02T16:26:27Z
+creation_date: 2013-08-02T04:26:27Z
 
 [Term]
 id: ZFA:0009400
@@ -39182,7 +39248,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000204 ! esophagus
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 created_by: Ceri
-creation_date: 2013-08-02T16:32:14Z
+creation_date: 2013-08-02T04:32:14Z
 
 [Term]
 id: ZFA:0100000
@@ -39531,7 +39597,7 @@ name: end stage
 def: "c existence ends during s iff  end_of(c) part_of s." [goc:cjm]
 synonym: "ends_during" EXACT []
 synonym: "existence ends during" RELATED []
-xref: RO:0002492
+xref: RO:0002497
 
 [Typedef]
 id: has_developmental_contribution_from
@@ -39567,5 +39633,5 @@ name: start stage
 def: "c existence starts during s iff start_of(c) part_of s." [goc:cjm]
 synonym: "existence starts during" RELATED []
 synonym: "starts_during" EXACT []
-xref: RO:0002488
+xref: RO:0002496
 
