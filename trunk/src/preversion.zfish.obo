@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:07:2014 15:20
+date: 24:07:2014 09:07
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -2373,7 +2373,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000189
 name: otic region
 namespace: zebrafish_anatomy
-def: "Anatomical cluster that is a posterolateral part of the cranium and structurally supports the vestibuloauditory system." [ZFA:curator]
+def: "Anatomical cluster of skeletal elements that is a posterolateral part of the cranium and structurally supports the vestibuloauditory system." [ZFA:curator]
 synonym: "cranial vault" RELATED []
 xref: TAO:0000189
 xref: ZFIN:ZDB-ANAT-011113-121
@@ -6088,12 +6088,14 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000486
 name: parietal bone
 namespace: zebrafish_anatomy
-def: "Paired dermal bone that covers the hind part of the cranium, overlapping the dorsal edge of the sphenotic, pterotic, epiotic and the anterior edge of the supraoccipital. The parietal are overlapped anteriorly by the frontal." [ZFA:curator]
+def: "Paired dermal bone that covers the hind part of the cranium, overlapping the dorsal edge of the sphenotic, pterotic, epiotic and the anterior edge of the supraoccipital. The parietal are overlapped anteriorly by the frontal." [ZFA:CVS, ZFIN:ZDB-PUB-111111-5]
 synonym: "post parietal" EXACT []
 xref: TAO:0000486
 xref: ZFIN:ZDB-ANAT-011113-41
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005608 ! frontal-parietal joint
+relationship: overlaps ZFA:0005609 ! supraoccipital-parietal joint
 relationship: part_of ZFA:0000189 ! otic region
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001580 ! neurocranium
@@ -6438,6 +6440,7 @@ xref: TAO:0000514
 xref: ZFIN:ZDB-ANAT-011113-436
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005608 ! frontal-parietal joint
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001410 ! orbital region
 relationship: part_of ZFA:0001580 ! neurocranium
@@ -7470,6 +7473,7 @@ xref: ZFIN:ZDB-ANAT-011113-523
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001506 ! tectum synoticum
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005609 ! supraoccipital-parietal joint
 relationship: part_of ZFA:0001414 ! occipital region
 relationship: part_of ZFA:0001424 ! chondrocranium
 relationship: part_of ZFA:0001580 ! neurocranium
@@ -28139,13 +28143,14 @@ creation_date: 2010-07-21T03:59:58Z
 id: ZFA:0005472
 name: inter-frontal joint
 namespace: zebrafish_anatomy
-def: "Joint between the left and right frontal bone." [TAO:curator]
+def: "Joint between the left and right frontal bone." [TAO:WD]
 synonym: "interfrontal suture" EXACT [ZFIN:ZDB-PUB-060323-12]
 synonym: "metopic suture" RELATED [ZFIN:ZDB-PUB-060323-12]
 xref: TAO:0001922
 xref: ZFIN:ZDB-ANAT-100805-37
 is_a: ZFA:0005156 ! fibrous joint
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005606 ! cranial vault
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2010-07-21T04:01:00Z
@@ -29963,7 +29968,7 @@ creation_date: 2011-12-27T12:45:30Z
 id: ZFA:0005606
 name: cranial vault
 namespace: zebrafish_anatomy
-def: "Anatomical cluster that forms the roof over the brain." [ZFA:curator]
+def: "Anatomical cluster of skeletal elements that forms the roof over the brain." [ZFA:CVS, ZFIN:ZDB-PUB-060323-12]
 synonym: "calva" RELATED []
 synonym: "calvaria" EXACT PLURAL []
 synonym: "calvarium" EXACT []
@@ -29971,6 +29976,7 @@ synonym: "skullcap" RELATED []
 xref: ZFIN:ZDB-ANAT-120217-4
 is_a: ZFA:0001478 ! anatomical cluster
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001580 ! neurocranium
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2012-01-30T12:33:01Z
@@ -29985,6 +29991,7 @@ xref: TAO:0005245
 xref: ZFIN:ZDB-ANAT-120217-5
 is_a: ZFA:0005156 ! fibrous joint
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005606 ! cranial vault
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2012-01-30T02:35:47Z
@@ -29993,12 +30000,13 @@ creation_date: 2012-01-30T02:35:47Z
 id: ZFA:0005608
 name: frontal-parietal joint
 namespace: zebrafish_anatomy
-def: "Fibrous joint connecting the frontal bone to the parietal bone." [ZFIN:ZDB-PUB-060323-12]
+def: "Fibrous joint connecting the frontal bone to the parietal bone.  This joint remains patent in zebrafish throughout their lifetime." [ZFA:CVS, ZFIN:ZDB-PUB-060323-12, ZFIN:ZDB-PUB-111111-5]
 synonym: "coronal suture" RELATED []
 xref: TAO:0005255
 xref: ZFIN:ZDB-ANAT-120217-6
 is_a: ZFA:0005156 ! fibrous joint
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005606 ! cranial vault
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2012-01-30T02:37:39Z
@@ -30008,11 +30016,12 @@ id: ZFA:0005609
 name: supraoccipital-parietal joint
 namespace: zebrafish_anatomy
 def: "Fibrous joint connecting the supraoccipital to the parietal bone." [ZFIN:ZDB-PUB-060323-12]
-synonym: "lamdoid suture" RELATED []
+synonym: "lamdoid suture" RELATED [ZFIN:ZDB-PUB-060323-12]
 xref: TAO:0005264
 xref: ZFIN:ZDB-ANAT-120217-7
 is_a: ZFA:0005156 ! fibrous joint
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005606 ! cranial vault
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2012-01-30T02:48:16Z
@@ -33892,7 +33901,6 @@ xref: CL:0000056
 xref: TAO:0009025
 xref: ZFIN:ZDB-ANAT-050915-157
 is_a: ZFA:0009000 ! cell
-relationship: develops_from ZFA:0009179 ! muscle stem cell
 relationship: end ZFS:0000000 ! Unknown
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
@@ -38643,7 +38651,6 @@ xref: CL:0000834
 xref: TAO:0009352
 xref: ZFIN:ZDB-ANAT-070308-284
 is_a: ZFA:0009356 ! myeloid lineage restricted progenitor cell
-relationship: develops_from ZFA:0009251 ! granulocyte monocyte progenitor cell
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
