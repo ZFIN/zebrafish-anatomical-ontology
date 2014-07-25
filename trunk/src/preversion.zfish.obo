@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 24:07:2014 09:07
+date: 25:07:2014 14:30
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -1412,7 +1412,7 @@ relationship: start ZFS:0000018 ! Gastrula:Germ-ring
 id: ZFA:0000112
 name: gut
 namespace: zebrafish_anatomy
-def: "The alimentary or digestive tract, and associated organs." [ZFA:curator]
+def: "The alimentary or digestive tract, and associated organs." [ZFA:MAH]
 synonym: "alimentary canal" EXACT []
 synonym: "enteric tract" EXACT []
 synonym: "gut tube" EXACT []
@@ -13483,7 +13483,7 @@ is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0005738 ! intestinal bulb primordium
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001338 ! intestine
-relationship: start ZFS:0000030 ! Pharyngula:Prim-15
+relationship: start ZFS:0000032 ! Pharyngula:High-pec
 
 [Term]
 id: ZFA:0001077
@@ -23417,7 +23417,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005138
 name: dental organ
 namespace: zebrafish_anatomy
-def: "A structure that is involved in tooth formation.  A bell shape two layer  epithelial structure that descends toward the ceratobranchial 5 bone, enclosing the dental mesenchyme.  At later times in tooth development the cells at the apex of the bell may be involved in enameloid formation.  This structure remains at the base of the erupted tooth and is the source of replacement teeth." [ZFA:curator]
+def: "A structure that is involved in tooth formation.  A bell shape two layer  epithelial structure that descends toward the ceratobranchial 5 bone, enclosing the dental mesenchyme.  At later times in tooth development the cells at the apex of the bell may be involved in enameloid formation.  This structure remains at the base of the erupted tooth and is the source of replacement teeth." [ZFA:CVS, ZFIN:ZDB-PUB-001208-4]
 synonym: "enamel organ" EXACT []
 xref: TAO:0005138
 xref: ZFIN:ZDB-ANAT-070517-41
@@ -33851,7 +33851,7 @@ synonym: "MEP" EXACT []
 xref: CL:0000050
 xref: TAO:0009022
 xref: ZFIN:ZDB-ANAT-070308-16
-is_a: ZFA:0009356 ! myeloid lineage restricted progenitor cell
+is_a: ZFA:0009000 ! cell
 relationship: develops_from ZFA:0009021 ! common myeloid progenitor
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -33901,6 +33901,7 @@ xref: CL:0000056
 xref: TAO:0009025
 xref: ZFIN:ZDB-ANAT-050915-157
 is_a: ZFA:0009000 ! cell
+relationship: develops_from ZFA:0009179 ! muscle stem cell
 relationship: end ZFS:0000000 ! Unknown
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
@@ -36069,6 +36070,7 @@ xref: ZFIN:ZDB-ANAT-070308-135
 is_a: ZFA:0009000 ! cell
 relationship: develops_from ZFA:0009003 ! cranial neural crest cell
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005140 ! dental papilla
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -37136,7 +37138,7 @@ synonym: "granulocyte-macrophage progenitor" EXACT [ZFIN:ZDB-PUB-070221-1]
 xref: CL:0000557
 xref: TAO:0009251
 xref: ZFIN:ZDB-ANAT-060331-74
-is_a: ZFA:0009356 ! myeloid lineage restricted progenitor cell
+is_a: ZFA:0009000 ! cell
 relationship: develops_from ZFA:0009021 ! common myeloid progenitor
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
