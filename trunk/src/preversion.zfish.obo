@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 25:07:2014 14:30
+date: 10:09:2014 12:13
 saved-by: Ceri
-auto-generated-by: OBO-Edit 2.3-beta5
+auto-generated-by: OBO-Edit 2.1
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_anatomical_ontology
@@ -4810,8 +4810,9 @@ namespace: zebrafish_anatomy
 def: "The lymphatic system consists of blind-ended vessels that return fluid and macromolecules from interstitial tissue space back into blood circulation, while serving as a conduit for the development and transport of lymphoid cells." [ZFIN:ZDB-PUB-130322-28]
 xref: TAO:0000385
 xref: ZFIN:ZDB-ANAT-011113-308
-is_a: ZFA:0000010 ! cardiovascular system
+is_a: ZFA:0001439 ! anatomical system
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000010 ! cardiovascular system
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -5287,7 +5288,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000423
 name: anterior cardinal vein
 namespace: zebrafish_anatomy
-def: "Vein that joins with the posterior cardinal vein to form the common cardinal vein.  The anterior cardinal vein (ACV) connects to the primordial hindbrain channel at early stages. At later stages the posterior cerebral vein (PCeV) and the pectoral vein (PV) drain into ACV.  The rostral portion of the ACV connects to the primary head sinus (PHS) at 2.5dpf, the PHS is sometimes considered an extension of the ACV." [ZFIN:ZDB-PUB-010205-5]
+def: "Vein that joins with the posterior cardinal vein to form the common cardinal vein.  The anterior cardinal vein (ACV) connects to the primordial hindbrain channel at early stages. At later stages the posterior cerebral vein (PCeV) and the pectoral vein (PV) drain into ACV.  The rostral portion of the ACV connects to the primary head sinus (PHS) at 2.5dpf, the PHS is sometimes considered an extension of the ACV." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "ACV" EXACT []
 synonym: "rostral cardinal vein" EXACT []
 xref: TAO:0000423
@@ -8449,7 +8450,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000673
 name: hypobranchial artery
 namespace: zebrafish_anatomy
-def: "A pair of HA are connect one to each AA1. They run rostromedially until at the extreme rostro-ventral midline the two vessels merge and then run straight caudally along the ventral midline until they reach the cranial end of the ventral aorta (VA). There, the single HA passes just dorsal to the rostral end of the VA and then immediately splits again into a pair of HA. The paired HA continue caudally just to either side of the ventral midline. The HA provide blood supply to the ventral branchial region and the heart." [ZFIN:ZDB-PUB-010205-5]
+def: "A pair of HA are connect one to each AA1. They run rostromedially until at the extreme rostro-ventral midline the two vessels merge and then run straight caudally along the ventral midline until they reach the cranial end of the ventral aorta (VA). There, the single HA passes just dorsal to the rostral end of the VA and then immediately splits again into a pair of HA. The paired HA continue caudally just to either side of the ventral midline. The HA provide blood supply to the ventral branchial region and the heart." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "HA" EXACT []
 xref: TAO:0000673
 xref: ZFIN:ZDB-ANAT-011113-599
@@ -8462,7 +8463,7 @@ relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 id: ZFA:0000674
 name: interopercle
 namespace: zebrafish_anatomy
-def: "Dermal bone that is located anterior to the subopercle and lying below and slightly ventral to the horizontal limb of the preopercle. The interopercle is a paired bone." [ZFA:curator]
+def: "Dermal bone that is located anterior to the subopercle and lying below and slightly ventral to the horizontal limb of the preopercle. The interopercle is a paired bone." [ZFA:CVS]
 synonym: "interopercles" EXACT PLURAL []
 xref: TAO:0000674
 xref: ZFIN:ZDB-ANAT-011113-6
@@ -13180,7 +13181,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001054
 name: lateral dorsal aorta
 namespace: zebrafish_anatomy
-def: "Connect the outflow of the aortic arches to the dorsal aorta. The place where the lateral dorsal aorta fuse is called the radix of the aorta." [ZFIN:ZDB-PUB-010205-5]
+def: "Connect the outflow of the aortic arches to the dorsal aorta. The place where the lateral dorsal aorta fuse is called the radix of the aorta." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "LDA" EXACT []
 xref: TAO:0001054
 xref: ZFIN:ZDB-ANAT-020702-12
@@ -13221,7 +13222,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0001057
 name: intersegmental vein
 namespace: zebrafish_anatomy
-def: "Veins that connect the posterior cardinal vein and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries. They form from primary intersegmental vessels that are contacted by secondary angiogenic sprouts from the posterior cardinal vein and take on the characteristics of veins.  These eventually link with other secondary sprouts from the posterior cardinal vein to form the parachordal vessel." [ZFIN:ZDB-PUB-030908-4]
+def: "Veins that connect the posterior cardinal vein and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries. They form from primary intersegmental vessels that are contacted by secondary angiogenic sprouts from the posterior cardinal vein and take on the characteristics of veins.  These eventually link with other secondary sprouts from the posterior cardinal vein to form the parachordal vessel." [ZFA:CVS, ZFIN:ZDB-PUB-030908-4]
 synonym: "ISV" EXACT []
 xref: TAO:0001057
 xref: ZFIN:ZDB-ANAT-020702-15
@@ -13277,7 +13278,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001061
 name: intersegmental artery
 namespace: zebrafish_anatomy
-def: "Arteries that connect the dorsal aorta and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries.  At early stages these vessels don't have venous or arterial markers.  They form from the primary sprouts from the dorsal aorta." [ZFIN:ZDB-PUB-030908-4]
+def: "Arteries that connect the dorsal aorta and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries.  At early stages these vessels don't have venous or arterial markers.  They form from the primary sprouts from the dorsal aorta." [ZFA:CVS, ZFIN:ZDB-PUB-030908-4]
 synonym: "intersegmental arteries" EXACT PLURAL []
 xref: TAO:0001061
 xref: ZFIN:ZDB-ANAT-020702-19
@@ -13290,7 +13291,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0001062
 name: primitive mesencephalic artery
 namespace: zebrafish_anatomy
-def: "Branches dorsally from the cranial division of the internal carotid artery, then curves caudally along the dorsal medial wall of the eye capsule to drain into the PMBC just rostral to the midbrain hindbrain boundary." [ZFA:curator]
+def: "Artery that branches dorsally from the cranial division of the internal carotid artery, then curves caudally along the dorsal medial wall of the eye capsule to drain into the PMBC just rostral to the midbrain hindbrain boundary." [ZFA:CVS]
 synonym: "PMsA" EXACT []
 xref: TAO:0001062
 xref: ZFIN:ZDB-ANAT-020702-2
@@ -13352,7 +13353,7 @@ relationship: start ZFS:0000039 ! Larval:Days 7-13
 id: ZFA:0001067
 name: anterior cerebral vein
 namespace: zebrafish_anatomy
-def: "Vein that branches from the primordial hindbrain channel (PHBC) at 1.3 dpf. The primitive prosencephalic artery drains into the anterior cerebral vein (ACeV) as do the prosencephalic artery and the nasal vein." [ZFIN:ZDB-PUB-010205-5]
+def: "Vein that branches from the primordial hindbrain channel (PHBC) at 1.3 dpf. The primitive prosencephalic artery drains into the anterior cerebral vein (ACeV) as do the prosencephalic artery and the nasal vein." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "ACeV" EXACT []
 synonym: "rostral cerebral vein" EXACT []
 xref: TAO:0001067
@@ -13366,7 +13367,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001068
 name: mesencephalic artery
 namespace: zebrafish_anatomy
-def: "Develops from the proximal portion of the primitive mesencephalic artery." [ZFIN:ZDB-PUB-010205-5]
+def: "Artery in the midbrain that develops from the proximal portion of the primitive mesencephalic artery." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "MsA" EXACT []
 xref: TAO:0001068
 xref: ZFIN:ZDB-ANAT-020702-7
@@ -13435,7 +13436,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0001073
 name: axial vasculature
 namespace: zebrafish_anatomy
-def: "Vasculature that runs along the rostral-caudal axis of the fish." [ZFA:curator]
+def: "Vasculature that runs along the rostral-caudal axis of the fish." [ZFA:CVS]
 xref: TAO:0001073
 xref: ZFIN:ZDB-ANAT-030922-11
 is_a: ZFA:0005249 ! vasculature
@@ -13517,7 +13518,7 @@ relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 id: ZFA:0001079
 name: blood vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure that contains blood that is actively transported around the organism." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains blood that is actively transported around the organism." [ZFA:CVS]
 synonym: "blood vessel" RELATED []
 xref: TAO:0001079
 xref: ZFIN:ZDB-ANAT-030922-4
@@ -15776,7 +15777,7 @@ relationship: start ZFS:0000042 ! Juvenile:Days 30-44
 id: ZFA:0001267
 name: cranial vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the head." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the head." [ZFA:CVS]
 synonym: "head vasculature" EXACT []
 xref: TAO:0001267
 xref: ZFIN:ZDB-ANAT-050711-76
@@ -16013,7 +16014,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001285
 name: intersegmental vessel
 namespace: zebrafish_anatomy
-def: "Blood vessels that connect the dorsal aorta or the posterior cardinal vein and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries.  At early stages these vessels don't have venous or arterial markers." [ZFIN:ZDB-PUB-030908-4]
+def: "Blood vessels that connect the dorsal aorta or the posterior cardinal vein and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries.  At early stages these vessels don't have venous or arterial markers." [ZFA:CVS, ZFIN:ZDB-PUB-030908-4]
 synonym: "intersegmental vessels" EXACT PLURAL []
 synonym: "intersomitic vessels" EXACT []
 synonym: "segmental vessel" EXACT []
@@ -16030,7 +16031,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001286
 name: caudal vein plexus
 namespace: zebrafish_anatomy
-def: "Post-vent vasculature which forms an interconnecting network of venous tubes. The caudal vein plexus forms via a very active period of angiogenic sprouting, beginning at 25 hpf when venous endothelial cells of the posterior cardinal vein sprout and migrate ventrally, then fuse with neighboring tip cells. This process reiterates during a five-hour window, forming a primordial plexus by 30 hpf. By two days of development, the primitive caudal vein plexus has matured into a complex, well-perfused, venous vascular network. Starting at 4 dpf the caudal vein plexus starts to remodel and simplify." [ZFIN:ZDB-PUB-010205-5, ZFIN:ZDB-PUB-111011-36]
+def: "Post-vent vasculature which forms an interconnecting network of venous tubes. The caudal vein plexus forms via a very active period of angiogenic sprouting, beginning at 25 hpf when venous endothelial cells of the posterior cardinal vein sprout and migrate ventrally, then fuse with neighboring tip cells. This process reiterates during a five-hour window, forming a primordial plexus by 30 hpf. By two days of development, the primitive caudal vein plexus has matured into a complex, well-perfused, venous vascular network. Starting at 4 dpf the caudal vein plexus starts to remodel and simplify." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5, ZFIN:ZDB-PUB-111011-36]
 xref: TAO:0001286
 xref: ZFIN:ZDB-ANAT-050915-91
 is_a: ZFA:0005037 ! post-vent vasculature
@@ -20665,6 +20666,7 @@ id: ZFA:0001655
 name: pericardial cavity
 namespace: zebrafish_anatomy
 def: "Anatomical space in which the heart is located and is surrounded by the pericardium." [ZFA:curator]
+synonym: "thoracic cavity" EXACT []
 xref: TAO:0002220
 xref: ZFIN:ZDB-ANAT-081013-30
 is_a: ZFA:0001643 ! anatomical space
@@ -21629,7 +21631,7 @@ creation_date: 2009-09-08T02:10:35Z
 id: ZFA:0005000
 name: basal communicating artery
 namespace: zebrafish_anatomy
-def: "Artery that extends horizontally across the brain midline which is fed by the caudal division of the internal carotid artery. Three pairs of central arteries extend from the basal communicating artery (BCA), the anterior, middle and  posterior mesencephalic central arteries. The BCA does not correspond to the anterior communicating artery of the mammalian circle of Willis.  The BCA is unpaired." [ZFIN:ZDB-PUB-010205-5]
+def: "Artery that extends horizontally across the brain midline which is fed by the caudal division of the internal carotid artery. Three pairs of central arteries extend from the basal communicating artery (BCA), the anterior, middle and  posterior mesencephalic central arteries. The BCA does not correspond to the anterior communicating artery of the mammalian circle of Willis.  The BCA is unpaired." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "BCA" EXACT []
 xref: TAO:0005000
 xref: ZFIN:ZDB-ANAT-050915-120
@@ -21642,7 +21644,7 @@ relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 id: ZFA:0005001
 name: posterior communicating artery
 namespace: zebrafish_anatomy
-def: "An artery that connects caudal division of the internal carotid artery and the basal communicating artery to the basilar artery." [ZFIN:ZDB-PUB-010205-5]
+def: "An artery that connects caudal division of the internal carotid artery and the basal communicating artery to the basilar artery." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "caudal communicating segment" EXACT []
 synonym: "PCA" EXACT []
 synonym: "PCS" EXACT []
@@ -21657,7 +21659,7 @@ relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 id: ZFA:0005002
 name: basilar artery
 namespace: zebrafish_anatomy
-def: "Artery that runs along the ventral keel of the hindbrain.  It lies between the primordial hindbrain channels(PHBC).  It irrigates the hindbrain and is connected, through the hindbrain, to the PHBC by the central arteries." [ZFIN:ZDB-PUB-110426-11]
+def: "Artery that runs along the ventral keel of the hindbrain.  It lies between the primordial hindbrain channels(PHBC).  It irrigates the hindbrain and is connected, through the hindbrain, to the PHBC by the central arteries." [ZFA:CVS, ZFIN:ZDB-PUB-110426-11]
 synonym: "BA" EXACT []
 xref: TAO:0005002
 xref: ZFIN:ZDB-ANAT-050915-122
@@ -21670,7 +21672,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0005003
 name: pharyngeal vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the pharyngeal region." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the pharyngeal region." [ZFA:CVS]
 synonym: "branchial basket" RELATED []
 synonym: "branchial vasculature" EXACT []
 xref: TAO:0005003
@@ -21957,7 +21959,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0005024
 name: trunk vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around trunk." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around trunk." [ZFA:CVS]
 xref: TAO:0005024
 xref: ZFIN:ZDB-ANAT-050915-84
 is_a: ZFA:0005249 ! vasculature
@@ -21969,7 +21971,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0005025
 name: dorsal longitudinal anastomotic vessel
 namespace: zebrafish_anatomy
-def: "Paired trunk vessels that run medially along the dorsal-most portion of the trunk and post-vent region. The DLAVs are formed by the longitudinal anastomoses of the intersegmental vessels to form a right and left pair of dorsal longitudinal anastomotic vessels. These paired vessels remodel to form a single plexiform vessel beginning at 3dpf continuing until after 7dpf.  The basilar artery connects to the DLAVs at the caudal end of the medulla oblongata.  In the early embryo (2.5-3.5 dpf) the primitive hindbrain channels also connect to the DLAV." [ZFIN:ZDB-PUB-010205-5]
+def: "Paired trunk vessels that run medially along the dorsal-most portion of the trunk and post-vent region. The DLAVs are formed by the longitudinal anastomoses of the intersegmental vessels to form a right and left pair of dorsal longitudinal anastomotic vessels. These paired vessels remodel to form a single plexiform vessel beginning at 3dpf continuing until after 7dpf.  The basilar artery connects to the DLAVs at the caudal end of the medulla oblongata.  In the early embryo (2.5-3.5 dpf) the primitive hindbrain channels also connect to the DLAV." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 comment: Eventually half of the ISVs will carry blood from the aorta to the DLAVs, and half from the DLAV to the posterior cardinal vein.
 synonym: "DLAV" EXACT []
 xref: TAO:0005025
@@ -22048,7 +22050,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0005030
 name: dorsal ciliary vein
 namespace: zebrafish_anatomy
-def: "Vein that branches off the nasal ciliary artery.  Initially, at 2dpf, the dorsal ciliary vein (DCV) drains into the primordial midbrain channel (PMBC) or the PMBC/PHBC junction.  Later, by 3.5dpf,  the DCV drains into the optic choroid vascular plexus.  The dorsal branch of the inner optic circle drains into the DCV." [ZFIN:ZDB-PUB-010205-5]
+def: "Vein that branches off the nasal ciliary artery.  Initially, at 2dpf, the dorsal ciliary vein (DCV) drains into the primordial midbrain channel (PMBC) or the PMBC/PHBC junction.  Later, by 3.5dpf,  the DCV drains into the optic choroid vascular plexus.  The dorsal branch of the inner optic circle drains into the DCV." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "DCV" EXACT []
 xref: TAO:0005030
 xref: ZFIN:ZDB-ANAT-051116-14
@@ -22115,7 +22117,7 @@ relationship: start ZFS:0000036 ! Larval:Day 4
 id: ZFA:0005035
 name: subintestinal vein
 namespace: zebrafish_anatomy
-def: "Vein that drains the vascular plexus of the midgut and hindgut.  At early stages the subintestinal vein (SIV) drains into the PCV and the CCV.  At later stages the SIV drains into the hepatic sinusoid.  The SIV are begin as paired veins.   After 4dpf the remains of the left SIV forms separate segments that empty into the right SIV and eventually merge with the right.  At 3dpf the rostral end of  left SIV begins to form the reticular hepatic sinusoids.  The portion of the left SIV caudal to the hepatic sinusoid forms the hepatic portal vein." [ZFIN:ZDB-PUB-010205-5]
+def: "Vein that drains the vascular plexus of the midgut and hindgut.  At early stages the subintestinal vein (SIV) drains into the PCV and the CCV.  At later stages the SIV drains into the hepatic sinusoid.  The SIV are begin as paired veins.   After 4dpf the remains of the left SIV forms separate segments that empty into the right SIV and eventually merge with the right.  At 3dpf the rostral end of  left SIV begins to form the reticular hepatic sinusoids.  The portion of the left SIV caudal to the hepatic sinusoid forms the hepatic portal vein." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "SIV" EXACT []
 synonym: "vitelline vein" EXACT []
 xref: TAO:0005035
@@ -22141,7 +22143,7 @@ relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 id: ZFA:0005037
 name: post-vent vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the post-vent region. This is frequently referred to as tail vasculature in the zebrafish community." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the post-vent region. This is frequently referred to as tail vasculature in the zebrafish community." [ZFA:CVS]
 synonym: "tail vasculature" RELATED []
 xref: TAO:0005037
 xref: ZFIN:ZDB-ANAT-051116-21
@@ -22355,7 +22357,7 @@ relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 id: ZFA:0005054
 name: inner optic circle
 namespace: zebrafish_anatomy
-def: "Vessel that circles the inner rim of the optic capsule.  The inner optic circle drains ventrally into the optic vein and dorsally into the dorsal ciliary vein." [ZFIN:ZDB-PUB-010205-5]
+def: "Vessel that circles the inner rim of the optic capsule.  The inner optic circle drains ventrally into the optic vein and dorsally into the dorsal ciliary vein." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "IOC" EXACT []
 xref: TAO:0005054
 xref: ZFIN:ZDB-ANAT-051116-38
@@ -22401,6 +22403,7 @@ comment: No evidence of epicardium layer in cardiac atrium in Hu et al 2001.
 xref: TAO:0005057
 xref: ZFIN:ZDB-ANAT-060131-63
 is_a: ZFA:0001477 ! portion of tissue
+relationship: develops_from ZFA:0005808 ! proepicardial cluster
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000114 ! heart
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
@@ -22416,13 +22419,14 @@ is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000009 ! cardiac ventricle
 relationship: part_of ZFA:0005057 ! epicardium
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 
 [Term]
 id: ZFA:0005059
 name: trabecular layer
 namespace: zebrafish_anatomy
 def: "The layer of the myocardium composed of projections of contractile myocytes.   The trabecular layer is bounded internally by the endocardium.  Unlike the trabeculations of higher vertebrates, both atrial and ventricular trabeculae of the zebrafish have more strut-like character, and are more uniform without apparent regional differences." [ZFIN:ZDB-PUB-010912-30]
+comment: Cardiac conduction may occur in the trabecular layer via trabecular fibers, PMID: 12626327.
 synonym: "trabecula" RELATED []
 xref: TAO:0005059
 xref: ZFIN:ZDB-ANAT-060131-65
@@ -22472,7 +22476,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005063
 name: cardiac conduction system
 namespace: zebrafish_anatomy
-def: "Anatomical system located in the heart that initiates and propagates heart contraction.  The cardiac pacemaker." [ZFA:curator]
+def: "Anatomical system located in the heart that initiates and propagates heart contraction.  The cardiac pacemaker." [ZFA:CVS]
 synonym: "cardiac pacemaker" EXACT []
 synonym: "central conduction system" EXACT []
 xref: TAO:0005063
@@ -22576,21 +22580,20 @@ relationship: develops_from ZFA:0005073 ! atrioventricular ring
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001315 ! atrioventricular canal
 relationship: part_of ZFA:0005063 ! cardiac conduction system
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 
 [Term]
 id: ZFA:0005071
 name: distal conduction system
 namespace: zebrafish_anatomy
+comment: Appears to be mammalian due to exact synonym His-Perkinje system, which doesn't have an exact analog in fish (or frogs). PMID:22984480 PLoS One. 2012;7(9):e44231.
 synonym: "His-Purkinje system" EXACT []
 synonym: "His-Purkinji network" EXACT []
 synonym: "HPS" EXACT []
 xref: TAO:0005071
 xref: ZFIN:ZDB-ANAT-060331-64
-is_a: ZFA:0005063 ! cardiac conduction system
-relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000009 ! cardiac ventricle
-relationship: start ZFS:0000000 ! Unknown
+is_obsolete: true
+consider: ZFA:0005059
 
 [Term]
 id: ZFA:0005072
@@ -22623,7 +22626,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0005074
 name: central cardiac conduction system
 namespace: zebrafish_anatomy
-def: "Cardiac conduction system, characterized by slow impulse propagation and prolonged refractory periods." [ZFA:curator]
+def: "Cardiac conduction system, characterized by slow impulse propagation and prolonged refractory periods." [ZFA:CVS, ZFIN:ZDB-PUB-060227-6]
 xref: TAO:0005074
 xref: ZFIN:ZDB-ANAT-060331-67
 is_a: ZFA:0005063 ! cardiac conduction system
@@ -22634,12 +22637,15 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005075
 name: peripheral cardiac conduction system
 namespace: zebrafish_anatomy
-def: "Portion of the cardiac conduction system, with rapid impulse propagation." [ZFA:curator]
+def: "Portion of the cardiac conduction system, with rapid impulse propagation.  In the zebrafish fast conduction takes place in the trabecular layer." [ZFA:CVS, ZFIN:ZDB-PUB-120927-27, ZFIN:ZDB-PUB-120928-25]
+synonym: "distal conduction system " RELATED []
+synonym: "ventricular fast conduction system" EXACT [ZFIN:ZDB-PUB-120927-27]
 xref: TAO:0005075
 xref: ZFIN:ZDB-ANAT-060331-68
 is_a: ZFA:0005063 ! cardiac conduction system
 relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0000009 ! cardiac ventricle
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 
 [Term]
 id: ZFA:0005076
@@ -22722,7 +22728,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005082
 name: dorsal branch nasal ciliary artery
 namespace: zebrafish_anatomy
-def: "Branch of the nasal ciliary artery (NCA) that splits off of the NCA near the lens and forms the dorsal ciliary vein." [ZFIN:ZDB-PUB-010205-5]
+def: "Branch of the nasal ciliary artery (NCA) that splits off of the NCA near the lens and forms the dorsal ciliary vein." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "dorsal branch nasal ciliary arteries" EXACT PLURAL []
 xref: TAO:0005082
 xref: ZFIN:ZDB-ANAT-060816-39
@@ -22746,7 +22752,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0005084
 name: metencephalic artery
 namespace: zebrafish_anatomy
-def: "These arteries branch dorsally from both sides of the posterior communicating artery looping up to join with the opposite MtA as well as with both middle cerebral veins at the dorsal midline of the head." [ZFIN:ZDB-PUB-010205-5]
+def: "These arteries branch dorsally from both sides of the posterior communicating artery looping up to join with the opposite MtA as well as with both middle cerebral veins at the dorsal midline of the head." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "metencephalic arteries" EXACT PLURAL []
 xref: TAO:0005084
 xref: ZFIN:ZDB-ANAT-060816-41
@@ -22784,7 +22790,7 @@ relationship: start ZFS:0000034 ! Hatching:Pec-fin
 id: ZFA:0005087
 name: pectoral vein
 namespace: zebrafish_anatomy
-def: "Vein from the pectoral fin that drains into the ACV just cranial to the ACV-CCV junction." [ZFIN:ZDB-PUB-010205-5]
+def: "Vein from the pectoral fin that drains into the ACV just cranial to the ACV-CCV junction." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "PV" EXACT []
 xref: TAO:0005087
 xref: ZFIN:ZDB-ANAT-060816-44
@@ -22852,7 +22858,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005092
 name: mesencephalic vein
 namespace: zebrafish_anatomy
-def: "Paired veins that sprout from the dorsal midline junction and dive ventrally.  The mesencephalic veins are fed by the mesencephalic arteries,  after 2.5 dpf, and drain into the dorsal longitudinal vessel after 5dpf." [ZFIN:ZDB-PUB-010205-5]
+def: "Paired veins that sprout from the dorsal midline junction and dive ventrally.  The mesencephalic veins are fed by the mesencephalic arteries,  after 2.5 dpf, and drain into the dorsal longitudinal vessel after 5dpf." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "MsV" EXACT []
 xref: TAO:0005092
 xref: ZFIN:ZDB-ANAT-060816-49
@@ -22864,7 +22870,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0005093
 name: nasal vein
 namespace: zebrafish_anatomy
-def: "Vein that  is fed by the nasal artery.  It  rises dorsally around the front of the head, draining into the ACeV and eventually into the PMBC on either side." [ZFIN:ZDB-PUB-010205-5]
+def: "Vein that  is fed by the nasal artery.  It  rises dorsally around the front of the head, draining into the ACeV and eventually into the PMBC on either side." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "NV" EXACT []
 xref: TAO:0005093
 xref: ZFIN:ZDB-ANAT-060816-50
@@ -22916,7 +22922,7 @@ relationship: start ZFS:0000034 ! Hatching:Pec-fin
 id: ZFA:0005097
 name: caudal fin vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the caudal fin." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the caudal fin." [ZFA:CVS]
 xref: TAO:0005097
 xref: ZFIN:ZDB-ANAT-060816-54
 is_a: ZFA:0005095 ! fin vasculature
@@ -25742,7 +25748,7 @@ creation_date: 2010-01-20T01:17:47Z
 id: ZFA:0005295
 name: axial blood vessel
 namespace: zebrafish_anatomy
-def: "Blood vessel that runs along the rostral-caudal axis of the fish." [ZFA:curator]
+def: "Blood vessel that runs along the rostral-caudal axis of the fish." [ZFA:CVS]
 xref: TAO:0005295
 xref: ZFIN:ZDB-ANAT-100205-346
 is_a: ZFA:0001073 ! axial vasculature
@@ -25755,7 +25761,7 @@ creation_date: 2010-01-20T02:24:10Z
 id: ZFA:0005296
 name: axial lymph vessel
 namespace: zebrafish_anatomy
-def: "Lymph vessel that runs along the rostral-caudal axis of the fish." [ZFA:curator]
+def: "Lymph vessel that runs along the rostral-caudal axis of the fish." [ZFA:CVS]
 xref: ZFIN:ZDB-ANAT-100205-347
 is_a: ZFA:0001073 ! axial vasculature
 relationship: end ZFS:0000044 ! Adult
@@ -25867,7 +25873,7 @@ creation_date: 2010-01-20T02:55:44Z
 id: ZFA:0005304
 name: caudal fin blood vessel
 namespace: zebrafish_anatomy
-def: "Blood vessel located within the caudal fin." [ZFA:curator]
+def: "Blood vessel located within the caudal fin." [ZFA:CVS]
 xref: TAO:0005304
 xref: ZFIN:ZDB-ANAT-100205-355
 is_a: ZFA:0005299 ! fin blood vessel
@@ -25895,7 +25901,7 @@ creation_date: 2010-01-20T03:02:06Z
 id: ZFA:0005306
 name: kidney blood vessel
 namespace: zebrafish_anatomy
-def: "Blood vessel part of kidney." [ZFA:curator]
+def: "Blood vessel part of kidney." [ZFA:CVS]
 xref: TAO:0005306
 xref: ZFIN:ZDB-ANAT-100205-357
 is_a: ZFA:0005314 ! blood vessel
@@ -26028,7 +26034,7 @@ creation_date: 2010-01-29T02:17:51Z
 id: ZFA:0005315
 name: venule
 namespace: zebrafish_anatomy
-def: "Multi-tissue structure part of the blood vasculature formed by the anastomosis of capillaries.  Venules carry blood toward the heart." [ZFA:curator]
+def: "Multi-tissue structure part of the blood vasculature formed by the anastomosis of capillaries.  Venules carry blood toward the heart." [ZFA:CVS]
 xref: TAO:0005315
 xref: ZFIN:ZDB-ANAT-100205-366
 is_a: ZFA:0005314 ! blood vessel
@@ -26112,7 +26118,7 @@ creation_date: 2010-02-10T05:29:42Z
 id: ZFA:0005321
 name: vascular smooth muscle
 namespace: zebrafish_anatomy
-def: "Smooth muscle that is part of the blood vessel wall." [ZFIN:ZDB-PUB-060216-3]
+def: "Smooth muscle that is part of the blood vessel wall." [ZFA:CVS, ZFIN:ZDB-PUB-060216-3]
 xref: TAO:0005321
 xref: ZFIN:ZDB-ANAT-100408-36
 is_a: ZFA:0005274 ! smooth muscle
@@ -32163,7 +32169,7 @@ def: "The external layer of the atrium bounding the atrial myocardium." [ZFA:CVS
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005057 ! epicardium
-relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+relationship: start ZFS:0000036 ! Larval:Day 4
 created_by: Ceri
 creation_date: 2013-11-26T04:32:55Z
 
@@ -32531,6 +32537,7 @@ id: ZFA:0005804
 name: rhombencephalic efferent neurons to the lateral line
 namespace: zebrafish_anatomy
 def: "Efferent neuron where the cell body is located in the hindbrain reticular formation immediately adjacent to the medial longitudinal fascicle at the rostrocaudal level between the MiDl and the CaD and adjacent to the descending Mauthner axon.  RELL dendrites are large and extend bilaterally into the ventrolateral neuropil.  The ipsilateral dendrite reaches into a single area of the ventrolateral neuropil whereas the contralateral dendrite branches and extends into two different levels of the same rostrocaudal column of the ventrolateral neuropil. The axon emerges from the ventral part of the perikaryon courses a short distance rostrally to the level of the ROLE  cells and then turns laterally from the CNS accompanying the root of the posterior lateral line nerve." [ZFA:CVS, ZFIN:ZDB-PUB-961014-768]
+subset: cell_slim
 synonym: "RELL neuron" EXACT []
 is_a: ZFA:0009239 ! efferent neuron
 relationship: end ZFS:0000044 ! Adult
@@ -32545,9 +32552,12 @@ id: ZFA:0005805
 name: rhombencephalic octavola-teral efferent neuron
 namespace: zebrafish_anatomy
 def: "Efferent neuron located in the hindbrain.  The axon of ROLE cells travels rostrally near the ipsilateral medial longitudinal fascicle to the level of the Mauthner cell where it turns laterally to exit with the eighth nerve.  Outside the brain the  axon continues ventrally  to the base of the saccular macula in the ear then turns caudally to ender the ganglion of the posterior lateral line.   A branch of the axon  turns ventrally before the main axon enters the LLG.  The branch goes ventrally along the wall of the otic capsule." [ZFA:CVS, ZFIN:ZDB-PUB-961014-768]
+subset: cell_slim
 synonym: "ROLE neuron" EXACT []
 is_a: ZFA:0009239 ! efferent neuron
+relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000128 ! midbrain
+relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2014-06-24T10:42:22Z
 
@@ -32557,6 +32567,7 @@ name: diencephalic efferent neurons to the lateral line
 namespace: zebrafish_anatomy
 def: "Efferent neurons located ventrally in the diencephalon.  The dendrites extend into a large area of the diencephalic neuropil rostral, caudal, lateral and ventral to the cell body.  The axon courses dorsally and then caudally through the midbrain.   As the axon descends through the brain it gives off branches at several levels.   One branch usually exits the brain with the posterior lateral line nerve.  The axon can be traced into the cervical spinal cord." [ZFA:CVS, ZFIN:ZDB-PUB-961014-768]
 comment: There may be 2 neuron types grouped under this name since there are some instances the axons were seen to exit with the eighth cranial nerve instead of the PLL nerve:  ZDB-PUB-961014-768.
+subset: cell_slim
 synonym: "DELL neuron" EXACT []
 is_a: ZFA:0009239 ! efferent neuron
 relationship: end ZFS:0000044 ! Adult
@@ -32577,7 +32588,109 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001338 ! intestine
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2014-07-14T13:57:57Z
+creation_date: 2014-07-14T01:57:57Z
+
+[Term]
+id: ZFA:0005808
+name: proepicardial cluster
+namespace: zebrafish_anatomy
+def: "Transient cluster of cardiac progenitor cells that develops adjacent to the heart and migrates onto the heart to form the epicardium.  Proepicardial clusters in Zebrafish form on the pericardial wall, adjacent to the atrioventricular (AV) junction and near the venous pole." [ZFA:CVS, ZFIN:ZDB-PUB-080218-16, ZFIN:ZDB-PUB-140603-8]
+synonym: "proepicardial organ" EXACT [ZFIN:ZDB-PUB-080218-16]
+synonym: "proepicardium" EXACT [ZFIN:ZDB-PUB-140603-8]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000035 ! Larval:Protruding-mouth
+relationship: part_of ZFA:0000010 ! cardiovascular system
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-28T03:01:42Z
+
+[Term]
+id: ZFA:0005809
+name: pectinate muscle
+namespace: zebrafish_anatomy
+def: "Network of heavily branched muscle in the atrium." [ZFIN:ZDB-PUB-001026-2]
+synonym: "pectinate muscles" EXACT PLURAL []
+is_a: ZFA:0005280 ! cardiac muscle
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000471 ! atrium
+relationship: start ZFS:0000040 ! Larval:Days 14-20
+created_by: Ceri
+creation_date: 2014-07-28T04:28:45Z
+
+[Term]
+id: ZFA:0005810
+name: trabecular layer of the atrium
+namespace: zebrafish_anatomy
+def: "Trabecular layer of the atrial myocardium." [ZFA:CVS, ZFIN:ZDB-PUB-121030-7]
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001374 ! atrial myocardium
+relationship: part_of ZFA:0005059 ! trabecular layer
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-28T04:35:49Z
+
+[Term]
+id: ZFA:0005811
+name: heart vasculature
+namespace: zebrafish_anatomy
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the heart." [ZFA:CVS]
+is_a: ZFA:0005249 ! vasculature
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000114 ! heart
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-31T10:04:10Z
+
+[Term]
+id: ZFA:0005812
+name: coronary artery
+namespace: zebrafish_anatomy
+def: "Artery that carries blood from the efferent branchial artery to the cardiac ventricle.  The artery runs along the ventral surface of the bulbus arteriosus." [ZFA:CVS, ZFIN:ZDB-PUB-010912-30]
+synonym: "coronary vessel" EXACT []
+is_a: ZFA:0000005 ! artery
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005811 ! heart vasculature
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-31T10:05:29Z
+
+[Term]
+id: ZFA:0005813
+name: coronary capillary
+namespace: zebrafish_anatomy
+def: "Capillaries that innervate the subtrabecular layer of the heart." [ZFA:CVS, ZFIN:ZDB-PUB-010912-30]
+is_a: ZFA:0005250 ! capillary
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005811 ! heart vasculature
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-31T10:09:35Z
+
+[Term]
+id: ZFA:0005814
+name: coronary vein
+namespace: zebrafish_anatomy
+def: "Vein that carries blood from the coronary capillaries to the atrial chamber entering the atrium close to the atrioventricular region." [ZFA:CVS, ZFIN:ZDB-PUB-010912-30]
+is_a: ZFA:0000082 ! vein
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005811 ! heart vasculature
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-31T10:11:35Z
+
+[Term]
+id: ZFA:0005815
+name: T interneuron
+namespace: zebrafish_anatomy
+def: "Hindbrain interneurons that are part of the reticular formation.  The T interneurons receive synaptic input from the  Mauthner neuron.  The axon is T-shaped the proximal segment courses to the midline of the  brain and near the midline bifurcates to form an ascending rostral segment and a descending caudal segment.  The rostral and caudal segments join the dorsal component of the MLF.  The T interneurons are located caudal to CaD and appear to be bilaterally paired." [ZFA:CVS, ZFIN:ZDB-PUB-961014-588]
+subset: cell_slim
+synonym: "T shaped reticular neuron " RELATED []
+synonym: "T-interneuron" EXACT []
+is_a: ZFA:0005209 ! hindbrain interneuron
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-31T02:33:52Z
 
 [Term]
 id: ZFA:0006000
