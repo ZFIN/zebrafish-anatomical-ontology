@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 10:06:2014 10:36
+date: 10:09:2014 12:13
 saved-by: Ceri
-auto-generated-by: OBO-Edit 2.3-beta5
+auto-generated-by: OBO-Edit 2.1
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_anatomical_ontology
@@ -1412,7 +1412,7 @@ relationship: start ZFS:0000018 ! Gastrula:Germ-ring
 id: ZFA:0000112
 name: gut
 namespace: zebrafish_anatomy
-def: "The alimentary or digestive tract, and associated organs." [ZFA:curator]
+def: "The alimentary or digestive tract, and associated organs." [ZFA:MAH]
 synonym: "alimentary canal" EXACT []
 synonym: "enteric tract" EXACT []
 synonym: "gut tube" EXACT []
@@ -2373,7 +2373,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000189
 name: otic region
 namespace: zebrafish_anatomy
-def: "Anatomical cluster that is a posterolateral part of the cranium and structurally supports the vestibuloauditory system." [ZFA:curator]
+def: "Anatomical cluster of skeletal elements that is a posterolateral part of the cranium and structurally supports the vestibuloauditory system." [ZFA:curator]
 synonym: "cranial vault" RELATED []
 xref: TAO:0000189
 xref: ZFIN:ZDB-ANAT-011113-121
@@ -4810,8 +4810,9 @@ namespace: zebrafish_anatomy
 def: "The lymphatic system consists of blind-ended vessels that return fluid and macromolecules from interstitial tissue space back into blood circulation, while serving as a conduit for the development and transport of lymphoid cells." [ZFIN:ZDB-PUB-130322-28]
 xref: TAO:0000385
 xref: ZFIN:ZDB-ANAT-011113-308
-is_a: ZFA:0000010 ! cardiovascular system
+is_a: ZFA:0001439 ! anatomical system
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000010 ! cardiovascular system
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -5287,7 +5288,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000423
 name: anterior cardinal vein
 namespace: zebrafish_anatomy
-def: "Vein that joins with the posterior cardinal vein to form the common cardinal vein.  The anterior cardinal vein (ACV) connects to the primordial hindbrain channel at early stages. At later stages the posterior cerebral vein (PCeV) and the pectoral vein (PV) drain into ACV.  The rostral portion of the ACV connects to the primary head sinus (PHS) at 2.5dpf, the PHS is sometimes considered an extension of the ACV." [ZFIN:ZDB-PUB-010205-5]
+def: "Vein that joins with the posterior cardinal vein to form the common cardinal vein.  The anterior cardinal vein (ACV) connects to the primordial hindbrain channel at early stages. At later stages the posterior cerebral vein (PCeV) and the pectoral vein (PV) drain into ACV.  The rostral portion of the ACV connects to the primary head sinus (PHS) at 2.5dpf, the PHS is sometimes considered an extension of the ACV." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "ACV" EXACT []
 synonym: "rostral cardinal vein" EXACT []
 xref: TAO:0000423
@@ -6088,12 +6089,14 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000486
 name: parietal bone
 namespace: zebrafish_anatomy
-def: "Paired dermal bone that covers the hind part of the cranium, overlapping the dorsal edge of the sphenotic, pterotic, epiotic and the anterior edge of the supraoccipital. The parietal are overlapped anteriorly by the frontal." [ZFA:curator]
+def: "Paired dermal bone that covers the hind part of the cranium, overlapping the dorsal edge of the sphenotic, pterotic, epiotic and the anterior edge of the supraoccipital. The parietal are overlapped anteriorly by the frontal." [ZFA:CVS, ZFIN:ZDB-PUB-111111-5]
 synonym: "post parietal" EXACT []
 xref: TAO:0000486
 xref: ZFIN:ZDB-ANAT-011113-41
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005608 ! frontal-parietal joint
+relationship: overlaps ZFA:0005609 ! supraoccipital-parietal joint
 relationship: part_of ZFA:0000189 ! otic region
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001580 ! neurocranium
@@ -6438,6 +6441,7 @@ xref: TAO:0000514
 xref: ZFIN:ZDB-ANAT-011113-436
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005608 ! frontal-parietal joint
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001410 ! orbital region
 relationship: part_of ZFA:0001580 ! neurocranium
@@ -7470,6 +7474,7 @@ xref: ZFIN:ZDB-ANAT-011113-523
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001506 ! tectum synoticum
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005609 ! supraoccipital-parietal joint
 relationship: part_of ZFA:0001414 ! occipital region
 relationship: part_of ZFA:0001424 ! chondrocranium
 relationship: part_of ZFA:0001580 ! neurocranium
@@ -8445,7 +8450,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000673
 name: hypobranchial artery
 namespace: zebrafish_anatomy
-def: "A pair of HA are connect one to each AA1. They run rostromedially until at the extreme rostro-ventral midline the two vessels merge and then run straight caudally along the ventral midline until they reach the cranial end of the ventral aorta (VA). There, the single HA passes just dorsal to the rostral end of the VA and then immediately splits again into a pair of HA. The paired HA continue caudally just to either side of the ventral midline. The HA provide blood supply to the ventral branchial region and the heart." [ZFIN:ZDB-PUB-010205-5]
+def: "A pair of HA are connect one to each AA1. They run rostromedially until at the extreme rostro-ventral midline the two vessels merge and then run straight caudally along the ventral midline until they reach the cranial end of the ventral aorta (VA). There, the single HA passes just dorsal to the rostral end of the VA and then immediately splits again into a pair of HA. The paired HA continue caudally just to either side of the ventral midline. The HA provide blood supply to the ventral branchial region and the heart." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "HA" EXACT []
 xref: TAO:0000673
 xref: ZFIN:ZDB-ANAT-011113-599
@@ -8458,7 +8463,7 @@ relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 id: ZFA:0000674
 name: interopercle
 namespace: zebrafish_anatomy
-def: "Dermal bone that is located anterior to the subopercle and lying below and slightly ventral to the horizontal limb of the preopercle. The interopercle is a paired bone." [ZFA:curator]
+def: "Dermal bone that is located anterior to the subopercle and lying below and slightly ventral to the horizontal limb of the preopercle. The interopercle is a paired bone." [ZFA:CVS]
 synonym: "interopercles" EXACT PLURAL []
 xref: TAO:0000674
 xref: ZFIN:ZDB-ANAT-011113-6
@@ -13176,7 +13181,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001054
 name: lateral dorsal aorta
 namespace: zebrafish_anatomy
-def: "Connect the outflow of the aortic arches to the dorsal aorta. The place where the lateral dorsal aorta fuse is called the radix of the aorta." [ZFIN:ZDB-PUB-010205-5]
+def: "Connect the outflow of the aortic arches to the dorsal aorta. The place where the lateral dorsal aorta fuse is called the radix of the aorta." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "LDA" EXACT []
 xref: TAO:0001054
 xref: ZFIN:ZDB-ANAT-020702-12
@@ -13217,7 +13222,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0001057
 name: intersegmental vein
 namespace: zebrafish_anatomy
-def: "Veins that connect the posterior cardinal vein and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries. They form from primary intersegmental vessels that are contacted by secondary angiogenic sprouts from the posterior cardinal vein and take on the characteristics of veins.  These eventually link with other secondary sprouts from the posterior cardinal vein to form the parachordal vessel." [ZFIN:ZDB-PUB-030908-4]
+def: "Veins that connect the posterior cardinal vein and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries. They form from primary intersegmental vessels that are contacted by secondary angiogenic sprouts from the posterior cardinal vein and take on the characteristics of veins.  These eventually link with other secondary sprouts from the posterior cardinal vein to form the parachordal vessel." [ZFA:CVS, ZFIN:ZDB-PUB-030908-4]
 synonym: "ISV" EXACT []
 xref: TAO:0001057
 xref: ZFIN:ZDB-ANAT-020702-15
@@ -13273,7 +13278,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001061
 name: intersegmental artery
 namespace: zebrafish_anatomy
-def: "Arteries that connect the dorsal aorta and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries.  At early stages these vessels don't have venous or arterial markers.  They form from the primary sprouts from the dorsal aorta." [ZFIN:ZDB-PUB-030908-4]
+def: "Arteries that connect the dorsal aorta and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries.  At early stages these vessels don't have venous or arterial markers.  They form from the primary sprouts from the dorsal aorta." [ZFA:CVS, ZFIN:ZDB-PUB-030908-4]
 synonym: "intersegmental arteries" EXACT PLURAL []
 xref: TAO:0001061
 xref: ZFIN:ZDB-ANAT-020702-19
@@ -13286,7 +13291,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0001062
 name: primitive mesencephalic artery
 namespace: zebrafish_anatomy
-def: "Branches dorsally from the cranial division of the internal carotid artery, then curves caudally along the dorsal medial wall of the eye capsule to drain into the PMBC just rostral to the midbrain hindbrain boundary." [ZFA:curator]
+def: "Artery that branches dorsally from the cranial division of the internal carotid artery, then curves caudally along the dorsal medial wall of the eye capsule to drain into the PMBC just rostral to the midbrain hindbrain boundary." [ZFA:CVS]
 synonym: "PMsA" EXACT []
 xref: TAO:0001062
 xref: ZFIN:ZDB-ANAT-020702-2
@@ -13348,7 +13353,7 @@ relationship: start ZFS:0000039 ! Larval:Days 7-13
 id: ZFA:0001067
 name: anterior cerebral vein
 namespace: zebrafish_anatomy
-def: "Vein that branches from the primordial hindbrain channel (PHBC) at 1.3 dpf. The primitive prosencephalic artery drains into the anterior cerebral vein (ACeV) as do the prosencephalic artery and the nasal vein." [ZFIN:ZDB-PUB-010205-5]
+def: "Vein that branches from the primordial hindbrain channel (PHBC) at 1.3 dpf. The primitive prosencephalic artery drains into the anterior cerebral vein (ACeV) as do the prosencephalic artery and the nasal vein." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "ACeV" EXACT []
 synonym: "rostral cerebral vein" EXACT []
 xref: TAO:0001067
@@ -13362,7 +13367,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001068
 name: mesencephalic artery
 namespace: zebrafish_anatomy
-def: "Develops from the proximal portion of the primitive mesencephalic artery." [ZFIN:ZDB-PUB-010205-5]
+def: "Artery in the midbrain that develops from the proximal portion of the primitive mesencephalic artery." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "MsA" EXACT []
 xref: TAO:0001068
 xref: ZFIN:ZDB-ANAT-020702-7
@@ -13431,7 +13436,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0001073
 name: axial vasculature
 namespace: zebrafish_anatomy
-def: "Vasculature that runs along the rostral-caudal axis of the fish." [ZFA:curator]
+def: "Vasculature that runs along the rostral-caudal axis of the fish." [ZFA:CVS]
 xref: TAO:0001073
 xref: ZFIN:ZDB-ANAT-030922-11
 is_a: ZFA:0005249 ! vasculature
@@ -13479,7 +13484,7 @@ is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0005738 ! intestinal bulb primordium
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001338 ! intestine
-relationship: start ZFS:0000030 ! Pharyngula:Prim-15
+relationship: start ZFS:0000032 ! Pharyngula:High-pec
 
 [Term]
 id: ZFA:0001077
@@ -13513,7 +13518,7 @@ relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 id: ZFA:0001079
 name: blood vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure that contains blood that is actively transported around the organism." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains blood that is actively transported around the organism." [ZFA:CVS]
 synonym: "blood vessel" RELATED []
 xref: TAO:0001079
 xref: ZFIN:ZDB-ANAT-030922-4
@@ -15772,7 +15777,7 @@ relationship: start ZFS:0000042 ! Juvenile:Days 30-44
 id: ZFA:0001267
 name: cranial vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the head." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the head." [ZFA:CVS]
 synonym: "head vasculature" EXACT []
 xref: TAO:0001267
 xref: ZFIN:ZDB-ANAT-050711-76
@@ -16009,7 +16014,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001285
 name: intersegmental vessel
 namespace: zebrafish_anatomy
-def: "Blood vessels that connect the dorsal aorta or the posterior cardinal vein and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries.  At early stages these vessels don't have venous or arterial markers." [ZFIN:ZDB-PUB-030908-4]
+def: "Blood vessels that connect the dorsal aorta or the posterior cardinal vein and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries.  At early stages these vessels don't have venous or arterial markers." [ZFA:CVS, ZFIN:ZDB-PUB-030908-4]
 synonym: "intersegmental vessels" EXACT PLURAL []
 synonym: "intersomitic vessels" EXACT []
 synonym: "segmental vessel" EXACT []
@@ -16026,7 +16031,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001286
 name: caudal vein plexus
 namespace: zebrafish_anatomy
-def: "Post-vent vasculature which forms an interconnecting network of venous tubes. The caudal vein plexus forms via a very active period of angiogenic sprouting, beginning at 25 hpf when venous endothelial cells of the posterior cardinal vein sprout and migrate ventrally, then fuse with neighboring tip cells. This process reiterates during a five-hour window, forming a primordial plexus by 30 hpf. By two days of development, the primitive caudal vein plexus has matured into a complex, well-perfused, venous vascular network. Starting at 4 dpf the caudal vein plexus starts to remodel and simplify." [ZFIN:ZDB-PUB-010205-5, ZFIN:ZDB-PUB-111011-36]
+def: "Post-vent vasculature which forms an interconnecting network of venous tubes. The caudal vein plexus forms via a very active period of angiogenic sprouting, beginning at 25 hpf when venous endothelial cells of the posterior cardinal vein sprout and migrate ventrally, then fuse with neighboring tip cells. This process reiterates during a five-hour window, forming a primordial plexus by 30 hpf. By two days of development, the primitive caudal vein plexus has matured into a complex, well-perfused, venous vascular network. Starting at 4 dpf the caudal vein plexus starts to remodel and simplify." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5, ZFIN:ZDB-PUB-111011-36]
 xref: TAO:0001286
 xref: ZFIN:ZDB-ANAT-050915-91
 is_a: ZFA:0005037 ! post-vent vasculature
@@ -16771,7 +16776,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001345
 name: interrenal gland
 namespace: zebrafish_anatomy
-def: "An epithelial structure consisting of steroid producing cells interposed with chromaffin cells embedded within the head kidney.  The interrenal gland is thought to be the equivalent of the mammalian adrenal cortex in zebrafish." [ZFIN:ZDB-PUB-030408-12]
+def: "An bilobed multi-tissue structure lateral to the notochord composed of an epithelium consisting of steroid producing cells interposed with chromaffin cells.  The interrenal gland is embedded within the head kidney.  The interrenal gland is the zebrafish functional equivalent of the mammalian adrenal cortex." [ZFA:CVS, ZFA:MAH, ZFIN:ZDB-PUB-030408-12, ZFIN:ZDB-PUB-061108-13]
 xref: TAO:0001345
 xref: ZFIN:ZDB-ANAT-060131-23
 is_a: ZFA:0001488 ! multi-tissue structure
@@ -20661,6 +20666,7 @@ id: ZFA:0001655
 name: pericardial cavity
 namespace: zebrafish_anatomy
 def: "Anatomical space in which the heart is located and is surrounded by the pericardium." [ZFA:curator]
+synonym: "thoracic cavity" EXACT []
 xref: TAO:0002220
 xref: ZFIN:ZDB-ANAT-081013-30
 is_a: ZFA:0001643 ! anatomical space
@@ -21625,7 +21631,7 @@ creation_date: 2009-09-08T02:10:35Z
 id: ZFA:0005000
 name: basal communicating artery
 namespace: zebrafish_anatomy
-def: "Artery that extends horizontally across the brain midline which is fed by the caudal division of the internal carotid artery. Three pairs of central arteries extend from the basal communicating artery (BCA), the anterior, middle and  posterior mesencephalic central arteries. The BCA does not correspond to the anterior communicating artery of the mammalian circle of Willis.  The BCA is unpaired." [ZFIN:ZDB-PUB-010205-5]
+def: "Artery that extends horizontally across the brain midline which is fed by the caudal division of the internal carotid artery. Three pairs of central arteries extend from the basal communicating artery (BCA), the anterior, middle and  posterior mesencephalic central arteries. The BCA does not correspond to the anterior communicating artery of the mammalian circle of Willis.  The BCA is unpaired." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "BCA" EXACT []
 xref: TAO:0005000
 xref: ZFIN:ZDB-ANAT-050915-120
@@ -21638,7 +21644,7 @@ relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 id: ZFA:0005001
 name: posterior communicating artery
 namespace: zebrafish_anatomy
-def: "An artery that connects caudal division of the internal carotid artery and the basal communicating artery to the basilar artery." [ZFIN:ZDB-PUB-010205-5]
+def: "An artery that connects caudal division of the internal carotid artery and the basal communicating artery to the basilar artery." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "caudal communicating segment" EXACT []
 synonym: "PCA" EXACT []
 synonym: "PCS" EXACT []
@@ -21653,7 +21659,7 @@ relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 id: ZFA:0005002
 name: basilar artery
 namespace: zebrafish_anatomy
-def: "Artery that runs along the ventral keel of the hindbrain.  It lies between the primordial hindbrain channels(PHBC).  It irrigates the hindbrain and is connected, through the hindbrain, to the PHBC by the central arteries." [ZFIN:ZDB-PUB-110426-11]
+def: "Artery that runs along the ventral keel of the hindbrain.  It lies between the primordial hindbrain channels(PHBC).  It irrigates the hindbrain and is connected, through the hindbrain, to the PHBC by the central arteries." [ZFA:CVS, ZFIN:ZDB-PUB-110426-11]
 synonym: "BA" EXACT []
 xref: TAO:0005002
 xref: ZFIN:ZDB-ANAT-050915-122
@@ -21666,7 +21672,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0005003
 name: pharyngeal vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the pharyngeal region." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the pharyngeal region." [ZFA:CVS]
 synonym: "branchial basket" RELATED []
 synonym: "branchial vasculature" EXACT []
 xref: TAO:0005003
@@ -21953,7 +21959,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0005024
 name: trunk vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around trunk." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around trunk." [ZFA:CVS]
 xref: TAO:0005024
 xref: ZFIN:ZDB-ANAT-050915-84
 is_a: ZFA:0005249 ! vasculature
@@ -21965,7 +21971,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0005025
 name: dorsal longitudinal anastomotic vessel
 namespace: zebrafish_anatomy
-def: "Paired trunk vessels that run medially along the dorsal-most portion of the trunk and post-vent region. The DLAVs are formed by the longitudinal anastomoses of the intersegmental vessels to form a right and left pair of dorsal longitudinal anastomotic vessels. These paired vessels remodel to form a single plexiform vessel beginning at 3dpf continuing until after 7dpf.  The basilar artery connects to the DLAVs at the caudal end of the medulla oblongata.  In the early embryo (2.5-3.5 dpf) the primitive hindbrain channels also connect to the DLAV." [ZFIN:ZDB-PUB-010205-5]
+def: "Paired trunk vessels that run medially along the dorsal-most portion of the trunk and post-vent region. The DLAVs are formed by the longitudinal anastomoses of the intersegmental vessels to form a right and left pair of dorsal longitudinal anastomotic vessels. These paired vessels remodel to form a single plexiform vessel beginning at 3dpf continuing until after 7dpf.  The basilar artery connects to the DLAVs at the caudal end of the medulla oblongata.  In the early embryo (2.5-3.5 dpf) the primitive hindbrain channels also connect to the DLAV." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 comment: Eventually half of the ISVs will carry blood from the aorta to the DLAVs, and half from the DLAV to the posterior cardinal vein.
 synonym: "DLAV" EXACT []
 xref: TAO:0005025
@@ -22044,7 +22050,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0005030
 name: dorsal ciliary vein
 namespace: zebrafish_anatomy
-def: "Vein that branches off the nasal ciliary artery.  Initially, at 2dpf, the dorsal ciliary vein (DCV) drains into the primordial midbrain channel (PMBC) or the PMBC/PHBC junction.  Later, by 3.5dpf,  the DCV drains into the optic choroid vascular plexus.  The dorsal branch of the inner optic circle drains into the DCV." [ZFIN:ZDB-PUB-010205-5]
+def: "Vein that branches off the nasal ciliary artery.  Initially, at 2dpf, the dorsal ciliary vein (DCV) drains into the primordial midbrain channel (PMBC) or the PMBC/PHBC junction.  Later, by 3.5dpf,  the DCV drains into the optic choroid vascular plexus.  The dorsal branch of the inner optic circle drains into the DCV." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "DCV" EXACT []
 xref: TAO:0005030
 xref: ZFIN:ZDB-ANAT-051116-14
@@ -22111,7 +22117,7 @@ relationship: start ZFS:0000036 ! Larval:Day 4
 id: ZFA:0005035
 name: subintestinal vein
 namespace: zebrafish_anatomy
-def: "Vein that drains the vascular plexus of the midgut and hindgut.  At early stages the subintestinal vein (SIV) drains into the PCV and the CCV.  At later stages the SIV drains into the hepatic sinusoid.  The SIV are begin as paired veins.   After 4dpf the remains of the left SIV forms separate segments that empty into the right SIV and eventually merge with the right.  At 3dpf the rostral end of  left SIV begins to form the reticular hepatic sinusoids.  The portion of the left SIV caudal to the hepatic sinusoid forms the hepatic portal vein." [ZFIN:ZDB-PUB-010205-5]
+def: "Vein that drains the vascular plexus of the midgut and hindgut.  At early stages the subintestinal vein (SIV) drains into the PCV and the CCV.  At later stages the SIV drains into the hepatic sinusoid.  The SIV are begin as paired veins.   After 4dpf the remains of the left SIV forms separate segments that empty into the right SIV and eventually merge with the right.  At 3dpf the rostral end of  left SIV begins to form the reticular hepatic sinusoids.  The portion of the left SIV caudal to the hepatic sinusoid forms the hepatic portal vein." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "SIV" EXACT []
 synonym: "vitelline vein" EXACT []
 xref: TAO:0005035
@@ -22137,7 +22143,7 @@ relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 id: ZFA:0005037
 name: post-vent vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the post-vent region. This is frequently referred to as tail vasculature in the zebrafish community." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the post-vent region. This is frequently referred to as tail vasculature in the zebrafish community." [ZFA:CVS]
 synonym: "tail vasculature" RELATED []
 xref: TAO:0005037
 xref: ZFIN:ZDB-ANAT-051116-21
@@ -22351,7 +22357,7 @@ relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 id: ZFA:0005054
 name: inner optic circle
 namespace: zebrafish_anatomy
-def: "Vessel that circles the inner rim of the optic capsule.  The inner optic circle drains ventrally into the optic vein and dorsally into the dorsal ciliary vein." [ZFIN:ZDB-PUB-010205-5]
+def: "Vessel that circles the inner rim of the optic capsule.  The inner optic circle drains ventrally into the optic vein and dorsally into the dorsal ciliary vein." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "IOC" EXACT []
 xref: TAO:0005054
 xref: ZFIN:ZDB-ANAT-051116-38
@@ -22397,6 +22403,7 @@ comment: No evidence of epicardium layer in cardiac atrium in Hu et al 2001.
 xref: TAO:0005057
 xref: ZFIN:ZDB-ANAT-060131-63
 is_a: ZFA:0001477 ! portion of tissue
+relationship: develops_from ZFA:0005808 ! proepicardial cluster
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000114 ! heart
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
@@ -22412,13 +22419,14 @@ is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000009 ! cardiac ventricle
 relationship: part_of ZFA:0005057 ! epicardium
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 
 [Term]
 id: ZFA:0005059
 name: trabecular layer
 namespace: zebrafish_anatomy
 def: "The layer of the myocardium composed of projections of contractile myocytes.   The trabecular layer is bounded internally by the endocardium.  Unlike the trabeculations of higher vertebrates, both atrial and ventricular trabeculae of the zebrafish have more strut-like character, and are more uniform without apparent regional differences." [ZFIN:ZDB-PUB-010912-30]
+comment: Cardiac conduction may occur in the trabecular layer via trabecular fibers, PMID: 12626327.
 synonym: "trabecula" RELATED []
 xref: TAO:0005059
 xref: ZFIN:ZDB-ANAT-060131-65
@@ -22468,7 +22476,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005063
 name: cardiac conduction system
 namespace: zebrafish_anatomy
-def: "Anatomical system located in the heart that initiates and propagates heart contraction.  The cardiac pacemaker." [ZFA:curator]
+def: "Anatomical system located in the heart that initiates and propagates heart contraction.  The cardiac pacemaker." [ZFA:CVS]
 synonym: "cardiac pacemaker" EXACT []
 synonym: "central conduction system" EXACT []
 xref: TAO:0005063
@@ -22572,21 +22580,20 @@ relationship: develops_from ZFA:0005073 ! atrioventricular ring
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001315 ! atrioventricular canal
 relationship: part_of ZFA:0005063 ! cardiac conduction system
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 
 [Term]
 id: ZFA:0005071
 name: distal conduction system
 namespace: zebrafish_anatomy
+comment: Appears to be mammalian due to exact synonym His-Perkinje system, which doesn't have an exact analog in fish (or frogs). PMID:22984480 PLoS One. 2012;7(9):e44231.
 synonym: "His-Purkinje system" EXACT []
 synonym: "His-Purkinji network" EXACT []
 synonym: "HPS" EXACT []
 xref: TAO:0005071
 xref: ZFIN:ZDB-ANAT-060331-64
-is_a: ZFA:0005063 ! cardiac conduction system
-relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000009 ! cardiac ventricle
-relationship: start ZFS:0000000 ! Unknown
+is_obsolete: true
+consider: ZFA:0005059
 
 [Term]
 id: ZFA:0005072
@@ -22619,7 +22626,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0005074
 name: central cardiac conduction system
 namespace: zebrafish_anatomy
-def: "Cardiac conduction system, characterized by slow impulse propagation and prolonged refractory periods." [ZFA:curator]
+def: "Cardiac conduction system, characterized by slow impulse propagation and prolonged refractory periods." [ZFA:CVS, ZFIN:ZDB-PUB-060227-6]
 xref: TAO:0005074
 xref: ZFIN:ZDB-ANAT-060331-67
 is_a: ZFA:0005063 ! cardiac conduction system
@@ -22630,12 +22637,15 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005075
 name: peripheral cardiac conduction system
 namespace: zebrafish_anatomy
-def: "Portion of the cardiac conduction system, with rapid impulse propagation." [ZFA:curator]
+def: "Portion of the cardiac conduction system, with rapid impulse propagation.  In the zebrafish fast conduction takes place in the trabecular layer." [ZFA:CVS, ZFIN:ZDB-PUB-120927-27, ZFIN:ZDB-PUB-120928-25]
+synonym: "distal conduction system " RELATED []
+synonym: "ventricular fast conduction system" EXACT [ZFIN:ZDB-PUB-120927-27]
 xref: TAO:0005075
 xref: ZFIN:ZDB-ANAT-060331-68
 is_a: ZFA:0005063 ! cardiac conduction system
 relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0000009 ! cardiac ventricle
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 
 [Term]
 id: ZFA:0005076
@@ -22718,7 +22728,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005082
 name: dorsal branch nasal ciliary artery
 namespace: zebrafish_anatomy
-def: "Branch of the nasal ciliary artery (NCA) that splits off of the NCA near the lens and forms the dorsal ciliary vein." [ZFIN:ZDB-PUB-010205-5]
+def: "Branch of the nasal ciliary artery (NCA) that splits off of the NCA near the lens and forms the dorsal ciliary vein." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "dorsal branch nasal ciliary arteries" EXACT PLURAL []
 xref: TAO:0005082
 xref: ZFIN:ZDB-ANAT-060816-39
@@ -22742,7 +22752,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0005084
 name: metencephalic artery
 namespace: zebrafish_anatomy
-def: "These arteries branch dorsally from both sides of the posterior communicating artery looping up to join with the opposite MtA as well as with both middle cerebral veins at the dorsal midline of the head." [ZFIN:ZDB-PUB-010205-5]
+def: "These arteries branch dorsally from both sides of the posterior communicating artery looping up to join with the opposite MtA as well as with both middle cerebral veins at the dorsal midline of the head." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "metencephalic arteries" EXACT PLURAL []
 xref: TAO:0005084
 xref: ZFIN:ZDB-ANAT-060816-41
@@ -22780,7 +22790,7 @@ relationship: start ZFS:0000034 ! Hatching:Pec-fin
 id: ZFA:0005087
 name: pectoral vein
 namespace: zebrafish_anatomy
-def: "Vein from the pectoral fin that drains into the ACV just cranial to the ACV-CCV junction." [ZFIN:ZDB-PUB-010205-5]
+def: "Vein from the pectoral fin that drains into the ACV just cranial to the ACV-CCV junction." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "PV" EXACT []
 xref: TAO:0005087
 xref: ZFIN:ZDB-ANAT-060816-44
@@ -22848,7 +22858,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005092
 name: mesencephalic vein
 namespace: zebrafish_anatomy
-def: "Paired veins that sprout from the dorsal midline junction and dive ventrally.  The mesencephalic veins are fed by the mesencephalic arteries,  after 2.5 dpf, and drain into the dorsal longitudinal vessel after 5dpf." [ZFIN:ZDB-PUB-010205-5]
+def: "Paired veins that sprout from the dorsal midline junction and dive ventrally.  The mesencephalic veins are fed by the mesencephalic arteries,  after 2.5 dpf, and drain into the dorsal longitudinal vessel after 5dpf." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "MsV" EXACT []
 xref: TAO:0005092
 xref: ZFIN:ZDB-ANAT-060816-49
@@ -22860,7 +22870,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0005093
 name: nasal vein
 namespace: zebrafish_anatomy
-def: "Vein that  is fed by the nasal artery.  It  rises dorsally around the front of the head, draining into the ACeV and eventually into the PMBC on either side." [ZFIN:ZDB-PUB-010205-5]
+def: "Vein that  is fed by the nasal artery.  It  rises dorsally around the front of the head, draining into the ACeV and eventually into the PMBC on either side." [ZFA:CVS, ZFIN:ZDB-PUB-010205-5]
 synonym: "NV" EXACT []
 xref: TAO:0005093
 xref: ZFIN:ZDB-ANAT-060816-50
@@ -22912,7 +22922,7 @@ relationship: start ZFS:0000034 ! Hatching:Pec-fin
 id: ZFA:0005097
 name: caudal fin vasculature
 namespace: zebrafish_anatomy
-def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the caudal fin." [ZFA:curator]
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the caudal fin." [ZFA:CVS]
 xref: TAO:0005097
 xref: ZFIN:ZDB-ANAT-060816-54
 is_a: ZFA:0005095 ! fin vasculature
@@ -23413,7 +23423,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005138
 name: dental organ
 namespace: zebrafish_anatomy
-def: "A structure that is involved in tooth formation.  A bell shape two layer  epithelial structure that descends toward the ceratobranchial 5 bone, enclosing the dental mesenchyme.  At later times in tooth development the cells at the apex of the bell may be involved in enameloid formation.  This structure remains at the base of the erupted tooth and is the source of replacement teeth." [ZFA:curator]
+def: "A structure that is involved in tooth formation.  A bell shape two layer  epithelial structure that descends toward the ceratobranchial 5 bone, enclosing the dental mesenchyme.  At later times in tooth development the cells at the apex of the bell may be involved in enameloid formation.  This structure remains at the base of the erupted tooth and is the source of replacement teeth." [ZFA:CVS, ZFIN:ZDB-PUB-001208-4]
 synonym: "enamel organ" EXACT []
 xref: TAO:0005138
 xref: ZFIN:ZDB-ANAT-070517-41
@@ -25738,7 +25748,7 @@ creation_date: 2010-01-20T01:17:47Z
 id: ZFA:0005295
 name: axial blood vessel
 namespace: zebrafish_anatomy
-def: "Blood vessel that runs along the rostral-caudal axis of the fish." [ZFA:curator]
+def: "Blood vessel that runs along the rostral-caudal axis of the fish." [ZFA:CVS]
 xref: TAO:0005295
 xref: ZFIN:ZDB-ANAT-100205-346
 is_a: ZFA:0001073 ! axial vasculature
@@ -25751,7 +25761,7 @@ creation_date: 2010-01-20T02:24:10Z
 id: ZFA:0005296
 name: axial lymph vessel
 namespace: zebrafish_anatomy
-def: "Lymph vessel that runs along the rostral-caudal axis of the fish." [ZFA:curator]
+def: "Lymph vessel that runs along the rostral-caudal axis of the fish." [ZFA:CVS]
 xref: ZFIN:ZDB-ANAT-100205-347
 is_a: ZFA:0001073 ! axial vasculature
 relationship: end ZFS:0000044 ! Adult
@@ -25863,7 +25873,7 @@ creation_date: 2010-01-20T02:55:44Z
 id: ZFA:0005304
 name: caudal fin blood vessel
 namespace: zebrafish_anatomy
-def: "Blood vessel located within the caudal fin." [ZFA:curator]
+def: "Blood vessel located within the caudal fin." [ZFA:CVS]
 xref: TAO:0005304
 xref: ZFIN:ZDB-ANAT-100205-355
 is_a: ZFA:0005299 ! fin blood vessel
@@ -25891,7 +25901,7 @@ creation_date: 2010-01-20T03:02:06Z
 id: ZFA:0005306
 name: kidney blood vessel
 namespace: zebrafish_anatomy
-def: "Blood vessel part of kidney." [ZFA:curator]
+def: "Blood vessel part of kidney." [ZFA:CVS]
 xref: TAO:0005306
 xref: ZFIN:ZDB-ANAT-100205-357
 is_a: ZFA:0005314 ! blood vessel
@@ -26024,7 +26034,7 @@ creation_date: 2010-01-29T02:17:51Z
 id: ZFA:0005315
 name: venule
 namespace: zebrafish_anatomy
-def: "Multi-tissue structure part of the blood vasculature formed by the anastomosis of capillaries.  Venules carry blood toward the heart." [ZFA:curator]
+def: "Multi-tissue structure part of the blood vasculature formed by the anastomosis of capillaries.  Venules carry blood toward the heart." [ZFA:CVS]
 xref: TAO:0005315
 xref: ZFIN:ZDB-ANAT-100205-366
 is_a: ZFA:0005314 ! blood vessel
@@ -26108,7 +26118,7 @@ creation_date: 2010-02-10T05:29:42Z
 id: ZFA:0005321
 name: vascular smooth muscle
 namespace: zebrafish_anatomy
-def: "Smooth muscle that is part of the blood vessel wall." [ZFIN:ZDB-PUB-060216-3]
+def: "Smooth muscle that is part of the blood vessel wall." [ZFA:CVS, ZFIN:ZDB-PUB-060216-3]
 xref: TAO:0005321
 xref: ZFIN:ZDB-ANAT-100408-36
 is_a: ZFA:0005274 ! smooth muscle
@@ -28139,13 +28149,14 @@ creation_date: 2010-07-21T03:59:58Z
 id: ZFA:0005472
 name: inter-frontal joint
 namespace: zebrafish_anatomy
-def: "Joint between the left and right frontal bone." [TAO:curator]
+def: "Joint between the left and right frontal bone." [TAO:WD]
 synonym: "interfrontal suture" EXACT [ZFIN:ZDB-PUB-060323-12]
 synonym: "metopic suture" RELATED [ZFIN:ZDB-PUB-060323-12]
 xref: TAO:0001922
 xref: ZFIN:ZDB-ANAT-100805-37
 is_a: ZFA:0005156 ! fibrous joint
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005606 ! cranial vault
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2010-07-21T04:01:00Z
@@ -29963,7 +29974,7 @@ creation_date: 2011-12-27T12:45:30Z
 id: ZFA:0005606
 name: cranial vault
 namespace: zebrafish_anatomy
-def: "Anatomical cluster that forms the roof over the brain." [ZFA:curator]
+def: "Anatomical cluster of skeletal elements that forms the roof over the brain." [ZFA:CVS, ZFIN:ZDB-PUB-060323-12]
 synonym: "calva" RELATED []
 synonym: "calvaria" EXACT PLURAL []
 synonym: "calvarium" EXACT []
@@ -29971,6 +29982,7 @@ synonym: "skullcap" RELATED []
 xref: ZFIN:ZDB-ANAT-120217-4
 is_a: ZFA:0001478 ! anatomical cluster
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001580 ! neurocranium
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2012-01-30T12:33:01Z
@@ -29985,6 +29997,7 @@ xref: TAO:0005245
 xref: ZFIN:ZDB-ANAT-120217-5
 is_a: ZFA:0005156 ! fibrous joint
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005606 ! cranial vault
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2012-01-30T02:35:47Z
@@ -29993,12 +30006,13 @@ creation_date: 2012-01-30T02:35:47Z
 id: ZFA:0005608
 name: frontal-parietal joint
 namespace: zebrafish_anatomy
-def: "Fibrous joint connecting the frontal bone to the parietal bone." [ZFIN:ZDB-PUB-060323-12]
+def: "Fibrous joint connecting the frontal bone to the parietal bone.  This joint remains patent in zebrafish throughout their lifetime." [ZFA:CVS, ZFIN:ZDB-PUB-060323-12, ZFIN:ZDB-PUB-111111-5]
 synonym: "coronal suture" RELATED []
 xref: TAO:0005255
 xref: ZFIN:ZDB-ANAT-120217-6
 is_a: ZFA:0005156 ! fibrous joint
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005606 ! cranial vault
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2012-01-30T02:37:39Z
@@ -30008,11 +30022,12 @@ id: ZFA:0005609
 name: supraoccipital-parietal joint
 namespace: zebrafish_anatomy
 def: "Fibrous joint connecting the supraoccipital to the parietal bone." [ZFIN:ZDB-PUB-060323-12]
-synonym: "lamdoid suture" RELATED []
+synonym: "lamdoid suture" RELATED [ZFIN:ZDB-PUB-060323-12]
 xref: TAO:0005264
 xref: ZFIN:ZDB-ANAT-120217-7
 is_a: ZFA:0005156 ! fibrous joint
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005606 ! cranial vault
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2012-01-30T02:48:16Z
@@ -30778,7 +30793,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-04-29T13:58:36Z
+creation_date: 2013-04-29T01:58:36Z
 
 [Term]
 id: ZFA:0005670
@@ -30790,7 +30805,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-04-29T14:06:50Z
+creation_date: 2013-04-29T02:06:50Z
 
 [Term]
 id: ZFA:0005671
@@ -30802,7 +30817,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-04-29T14:10:49Z
+creation_date: 2013-04-29T02:10:49Z
 
 [Term]
 id: ZFA:0005672
@@ -30814,7 +30829,7 @@ is_a: ZFA:0005668 ! olfactory bulb protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-04-29T14:17:00Z
+creation_date: 2013-04-29T02:17:00Z
 
 [Term]
 id: ZFA:0005673
@@ -30826,7 +30841,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-04-29T14:25:20Z
+creation_date: 2013-04-29T02:25:20Z
 
 [Term]
 id: ZFA:0005674
@@ -30838,7 +30853,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-04-29T14:26:28Z
+creation_date: 2013-04-29T02:26:28Z
 
 [Term]
 id: ZFA:0005675
@@ -30850,7 +30865,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-04-29T14:27:13Z
+creation_date: 2013-04-29T02:27:13Z
 
 [Term]
 id: ZFA:0005676
@@ -30862,7 +30877,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-04-29T14:28:47Z
+creation_date: 2013-04-29T02:28:47Z
 
 [Term]
 id: ZFA:0005677
@@ -30874,7 +30889,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000357 ! glomerular layer
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-04-29T14:29:39Z
+creation_date: 2013-04-29T02:29:39Z
 
 [Term]
 id: ZFA:0005678
@@ -30886,7 +30901,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005674 ! dorsal zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-06T16:46:27Z
+creation_date: 2013-05-06T04:46:27Z
 
 [Term]
 id: ZFA:0005679
@@ -30935,7 +30950,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-07T13:37:59Z
+creation_date: 2013-05-07T01:37:59Z
 
 [Term]
 id: ZFA:0005683
@@ -30948,7 +30963,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-07T13:39:48Z
+creation_date: 2013-05-07T01:39:48Z
 
 [Term]
 id: ZFA:0005684
@@ -30961,7 +30976,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-07T13:48:45Z
+creation_date: 2013-05-07T01:48:45Z
 
 [Term]
 id: ZFA:0005685
@@ -30974,7 +30989,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005674 ! dorsal zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T14:25:26Z
+creation_date: 2013-05-21T02:25:26Z
 
 [Term]
 id: ZFA:0005686
@@ -30987,7 +31002,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T14:34:12Z
+creation_date: 2013-05-21T02:34:12Z
 
 [Term]
 id: ZFA:0005687
@@ -31000,7 +31015,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T14:38:24Z
+creation_date: 2013-05-21T02:38:24Z
 
 [Term]
 id: ZFA:0005688
@@ -31013,7 +31028,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T14:40:59Z
+creation_date: 2013-05-21T02:40:59Z
 
 [Term]
 id: ZFA:0005689
@@ -31026,7 +31041,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T14:42:35Z
+creation_date: 2013-05-21T02:42:35Z
 
 [Term]
 id: ZFA:0005690
@@ -31039,7 +31054,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005678 ! dorsolateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T14:45:36Z
+creation_date: 2013-05-21T02:45:36Z
 
 [Term]
 id: ZFA:0005691
@@ -31053,7 +31068,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:10:31Z
+creation_date: 2013-05-21T03:10:31Z
 
 [Term]
 id: ZFA:0005692
@@ -31067,7 +31082,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:17:25Z
+creation_date: 2013-05-21T03:17:25Z
 
 [Term]
 id: ZFA:0005693
@@ -31081,7 +31096,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:19:23Z
+creation_date: 2013-05-21T03:19:23Z
 
 [Term]
 id: ZFA:0005694
@@ -31094,7 +31109,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:24:43Z
+creation_date: 2013-05-21T03:24:43Z
 
 [Term]
 id: ZFA:0005695
@@ -31107,7 +31122,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:26:20Z
+creation_date: 2013-05-21T03:26:20Z
 
 [Term]
 id: ZFA:0005696
@@ -31120,7 +31135,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:27:26Z
+creation_date: 2013-05-21T03:27:26Z
 
 [Term]
 id: ZFA:0005697
@@ -31133,7 +31148,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:31:32Z
+creation_date: 2013-05-21T03:31:32Z
 
 [Term]
 id: ZFA:0005698
@@ -31146,7 +31161,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:34:17Z
+creation_date: 2013-05-21T03:34:17Z
 
 [Term]
 id: ZFA:0005699
@@ -31159,7 +31174,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005679 ! ventromedial zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:37:11Z
+creation_date: 2013-05-21T03:37:11Z
 
 [Term]
 id: ZFA:0005700
@@ -31172,7 +31187,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005681 ! ventroposterior zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:46:05Z
+creation_date: 2013-05-21T03:46:05Z
 
 [Term]
 id: ZFA:0005701
@@ -31185,7 +31200,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005681 ! ventroposterior zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T15:47:52Z
+creation_date: 2013-05-21T03:47:52Z
 
 [Term]
 id: ZFA:0005702
@@ -31199,7 +31214,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T16:11:01Z
+creation_date: 2013-05-21T04:11:01Z
 
 [Term]
 id: ZFA:0005703
@@ -31214,7 +31229,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T16:15:43Z
+creation_date: 2013-05-21T04:15:43Z
 
 [Term]
 id: ZFA:0005704
@@ -31229,7 +31244,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-05-21T16:18:03Z
+creation_date: 2013-05-21T04:18:03Z
 
 [Term]
 id: ZFA:0005705
@@ -31407,7 +31422,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T15:52:20Z
+creation_date: 2013-05-22T03:52:20Z
 
 [Term]
 id: ZFA:0005718
@@ -31420,7 +31435,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T16:06:52Z
+creation_date: 2013-05-22T04:06:52Z
 
 [Term]
 id: ZFA:0005719
@@ -31433,7 +31448,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T16:08:18Z
+creation_date: 2013-05-22T04:08:18Z
 
 [Term]
 id: ZFA:0005720
@@ -31446,7 +31461,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005675 ! lateral zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T16:08:37Z
+creation_date: 2013-05-22T04:08:37Z
 
 [Term]
 id: ZFA:0005721
@@ -31459,7 +31474,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:13:36Z
+creation_date: 2013-05-22T05:13:36Z
 
 [Term]
 id: ZFA:0005722
@@ -31472,7 +31487,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:20:35Z
+creation_date: 2013-05-22T05:20:35Z
 
 [Term]
 id: ZFA:0005723
@@ -31485,7 +31500,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:21:01Z
+creation_date: 2013-05-22T05:21:01Z
 
 [Term]
 id: ZFA:0005724
@@ -31498,7 +31513,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:35:43Z
+creation_date: 2013-05-22T05:35:43Z
 
 [Term]
 id: ZFA:0005725
@@ -31511,7 +31526,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005673 ! central zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:36:02Z
+creation_date: 2013-05-22T05:36:02Z
 
 [Term]
 id: ZFA:0005726
@@ -31524,7 +31539,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:39:34Z
+creation_date: 2013-05-22T05:39:34Z
 
 [Term]
 id: ZFA:0005727
@@ -31537,7 +31552,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:42:18Z
+creation_date: 2013-05-22T05:42:18Z
 
 [Term]
 id: ZFA:0005728
@@ -31550,7 +31565,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:42:38Z
+creation_date: 2013-05-22T05:42:38Z
 
 [Term]
 id: ZFA:0005729
@@ -31563,7 +31578,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-05-22T17:42:57Z
+creation_date: 2013-05-22T05:42:57Z
 
 [Term]
 id: ZFA:0005730
@@ -31578,7 +31593,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001114 ! head
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-06-20T14:04:57Z
+creation_date: 2013-06-20T02:04:57Z
 
 [Term]
 id: ZFA:0005731
@@ -31593,7 +31608,7 @@ is_a: ZFA:0005730 ! cranial motor neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-06-20T14:06:26Z
+creation_date: 2013-06-20T02:06:26Z
 
 [Term]
 id: ZFA:0005732
@@ -31608,7 +31623,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000029 ! hindbrain
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-06-20T14:08:10Z
+creation_date: 2013-06-20T02:08:10Z
 
 [Term]
 id: ZFA:0005733
@@ -31623,7 +31638,7 @@ relationship: part_of ZFA:0000029 ! hindbrain
 relationship: part_of ZFA:0000128 ! midbrain
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-06-20T14:09:35Z
+creation_date: 2013-06-20T02:09:35Z
 
 [Term]
 id: ZFA:0005734
@@ -31675,7 +31690,7 @@ relationship: develops_from ZFA:0000017 ! endoderm
 relationship: end ZFS:0000032 ! Pharyngula:High-pec
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 created_by: Ceri
-creation_date: 2013-07-23T15:03:23Z
+creation_date: 2013-07-23T03:03:23Z
 
 [Term]
 id: ZFA:0005738
@@ -31687,7 +31702,7 @@ relationship: develops_from ZFA:0005737 ! intestinal rod
 relationship: end ZFS:0000032 ! Pharyngula:High-pec
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 created_by: Ceri
-creation_date: 2013-07-23T15:06:11Z
+creation_date: 2013-07-23T03:06:11Z
 
 [Term]
 id: ZFA:0005739
@@ -31781,7 +31796,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0000135 ! notochord
 relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 created_by: Ceri
-creation_date: 2013-07-30T16:09:49Z
+creation_date: 2013-07-30T04:09:49Z
 
 [Term]
 id: ZFA:0005745
@@ -31794,7 +31809,7 @@ is_a: ZFA:0009000 ! cell
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-07-30T16:14:44Z
+creation_date: 2013-07-30T04:14:44Z
 
 [Term]
 id: ZFA:0005746
@@ -31808,7 +31823,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0000135 ! notochord
 relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 created_by: Ceri
-creation_date: 2013-07-30T16:15:56Z
+creation_date: 2013-07-30T04:15:56Z
 
 [Term]
 id: ZFA:0005747
@@ -31833,7 +31848,7 @@ relationship: part_of ZFA:0000140 ! pancreas
 relationship: part_of ZFA:0001372 ! pancreatic duct
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2013-08-01T14:17:49Z
+creation_date: 2013-08-01T02:17:49Z
 
 [Term]
 id: ZFA:0005749
@@ -31844,7 +31859,7 @@ is_a: ZFA:0005748 ! intrapancreatic duct
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-08-01T14:44:27Z
+creation_date: 2013-08-01T02:44:27Z
 
 [Term]
 id: ZFA:0005750
@@ -31856,7 +31871,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005753 ! pancreatic lobule
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-08-01T14:50:38Z
+creation_date: 2013-08-01T02:50:38Z
 
 [Term]
 id: ZFA:0005751
@@ -31867,7 +31882,7 @@ is_a: ZFA:0005748 ! intrapancreatic duct
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-08-01T14:53:52Z
+creation_date: 2013-08-01T02:53:52Z
 
 [Term]
 id: ZFA:0005752
@@ -31878,7 +31893,7 @@ is_a: ZFA:0005748 ! intrapancreatic duct
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-08-01T14:55:07Z
+creation_date: 2013-08-01T02:55:07Z
 
 [Term]
 id: ZFA:0005753
@@ -31892,7 +31907,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001249 ! exocrine pancreas
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-08-01T15:16:34Z
+creation_date: 2013-08-01T03:16:34Z
 
 [Term]
 id: ZFA:0005754
@@ -31904,7 +31919,7 @@ is_a: ZFA:0005755 ! islet
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-08-01T16:05:06Z
+creation_date: 2013-08-01T04:05:06Z
 
 [Term]
 id: ZFA:0005755
@@ -31916,7 +31931,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001260 ! endocrine pancreas
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-08-01T16:10:28Z
+creation_date: 2013-08-01T04:10:28Z
 
 [Term]
 id: ZFA:0005756
@@ -31928,7 +31943,7 @@ is_a: ZFA:0005755 ! islet
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-08-01T16:10:55Z
+creation_date: 2013-08-01T04:10:55Z
 
 [Term]
 id: ZFA:0005757
@@ -31942,7 +31957,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0001344 ! zona limitans intrathalamica
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 created_by: Ceri
-creation_date: 2013-08-02T15:20:09Z
+creation_date: 2013-08-02T03:20:09Z
 
 [Term]
 id: ZFA:0005758
@@ -32081,7 +32096,7 @@ is_a: ZFA:0009053 ! sensory neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 created_by: Ceri
-creation_date: 2013-09-30T15:31:51Z
+creation_date: 2013-09-30T03:31:51Z
 
 [Term]
 id: ZFA:0005769
@@ -32096,7 +32111,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000598 ! testis
 relationship: start ZFS:0000043 ! Juvenile:Days 45-89
 created_by: Ceri
-creation_date: 2013-10-04T15:51:27Z
+creation_date: 2013-10-04T03:51:27Z
 
 [Term]
 id: ZFA:0005770
@@ -32132,7 +32147,7 @@ is_a: ZFA:0009000 ! cell
 relationship: end ZFS:0000001 ! Zygote:1-cell
 relationship: start ZFS:0000001 ! Zygote:1-cell
 created_by: Ceri
-creation_date: 2013-11-25T13:46:49Z
+creation_date: 2013-11-25T01:46:49Z
 
 [Term]
 id: ZFA:0005773
@@ -32144,7 +32159,7 @@ is_a: ZFA:0009138 ! mesodermal cell
 relationship: end ZFS:0000026 ! Segmentation:14-19 somites
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 created_by: Ceri
-creation_date: 2013-12-02T14:57:49Z
+creation_date: 2013-12-02T02:57:49Z
 
 [Term]
 id: ZFA:0005774
@@ -32154,9 +32169,9 @@ def: "The external layer of the atrium bounding the atrial myocardium." [ZFA:CVS
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005057 ! epicardium
-relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+relationship: start ZFS:0000036 ! Larval:Day 4
 created_by: Ceri
-creation_date: 2013-11-26T16:32:55Z
+creation_date: 2013-11-26T04:32:55Z
 
 [Term]
 id: ZFA:0005775
@@ -32208,7 +32223,7 @@ is_a: ZFA:0009248 ! neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2014-03-06T13:14:29Z
+creation_date: 2014-03-06T01:14:29Z
 
 [Term]
 id: ZFA:0005779
@@ -32220,7 +32235,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001078 ! thymus
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2014-03-11T15:25:06Z
+creation_date: 2014-03-11T03:25:06Z
 
 [Term]
 id: ZFA:0005780
@@ -32232,7 +32247,7 @@ relationship: end ZFS:0000035 ! Larval:Protruding-mouth
 relationship: part_of ZFA:0001077 ! thymus primordium
 relationship: start ZFS:0000034 ! Hatching:Pec-fin
 created_by: Ceri
-creation_date: 2014-03-11T15:28:25Z
+creation_date: 2014-03-11T03:28:25Z
 
 [Term]
 id: ZFA:0005781
@@ -32369,7 +32384,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000368 ! integument
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-05-15T15:26:12Z
+creation_date: 2014-05-15T03:26:12Z
 
 [Term]
 id: ZFA:0005792
@@ -32381,7 +32396,7 @@ is_a: ZFA:0000292 ! surface structure
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T14:10:53Z
+creation_date: 2014-06-04T02:10:53Z
 
 [Term]
 id: ZFA:0005793
@@ -32393,7 +32408,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005791 ! breeding tubercle
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T14:33:07Z
+creation_date: 2014-06-04T02:33:07Z
 
 [Term]
 id: ZFA:0005794
@@ -32405,7 +32420,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005791 ! breeding tubercle
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T14:46:01Z
+creation_date: 2014-06-04T02:46:01Z
 
 [Term]
 id: ZFA:0005795
@@ -32418,7 +32433,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005791 ! breeding tubercle
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T14:46:51Z
+creation_date: 2014-06-04T02:46:51Z
 
 [Term]
 id: ZFA:0005796
@@ -32430,7 +32445,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005791 ! breeding tubercle
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T14:48:25Z
+creation_date: 2014-06-04T02:48:25Z
 
 [Term]
 id: ZFA:0005797
@@ -32443,7 +32458,7 @@ relationship: part_of ZFA:0000242 ! male organism
 relationship: part_of ZFA:0001161 ! pectoral fin
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2014-06-04T14:50:54Z
+creation_date: 2014-06-04T02:50:54Z
 
 [Term]
 id: ZFA:0005798
@@ -32454,17 +32469,18 @@ is_a: ZFA:0005791 ! breeding tubercle
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T14:56:48Z
+creation_date: 2014-06-04T02:56:48Z
 
 [Term]
 id: ZFA:0005799
 name: jaw flap breeding tubercle
+namespace: zebrafish_anatomy
 def: "Breeding tubercles that cover the surface of the jaw flap." [ZFA:CVS, ZFIN:ZDB-PUB-140317-29, ZFIN:ZDB-PUB-140519-1]
 is_a: ZFA:0005791 ! breeding tubercle
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T15:32:28Z
+creation_date: 2014-06-04T03:32:28Z
 
 [Term]
 id: ZFA:0005800
@@ -32476,7 +32492,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005791 ! breeding tubercle
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 created_by: Ceri
-creation_date: 2014-06-04T16:00:53Z
+creation_date: 2014-06-04T04:00:53Z
 
 [Term]
 id: ZFA:0005801
@@ -32490,7 +32506,7 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0001345 ! interrenal gland
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2014-06-06T13:45:08Z
+creation_date: 2014-06-06T01:45:08Z
 
 [Term]
 id: ZFA:0005802
@@ -32503,6 +32519,178 @@ relationship: part_of ZFA:0001346 ! interrenal primordium
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 created_by: Ceri
 creation_date: 2014-06-10T10:26:33Z
+
+[Term]
+id: ZFA:0005803
+name: cupula
+namespace: zebrafish_anatomy
+def: "Gelatinous substance surrounding the kinocila of the neuromast." [ZFA:CVS, ZFIN:ZDB-PUB-961014-768]
+is_a: ZFA:0001487 ! portion of organism substance
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000243 ! neuromast
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-06-24T09:55:56Z
+
+[Term]
+id: ZFA:0005804
+name: rhombencephalic efferent neurons to the lateral line
+namespace: zebrafish_anatomy
+def: "Efferent neuron where the cell body is located in the hindbrain reticular formation immediately adjacent to the medial longitudinal fascicle at the rostrocaudal level between the MiDl and the CaD and adjacent to the descending Mauthner axon.  RELL dendrites are large and extend bilaterally into the ventrolateral neuropil.  The ipsilateral dendrite reaches into a single area of the ventrolateral neuropil whereas the contralateral dendrite branches and extends into two different levels of the same rostrocaudal column of the ventrolateral neuropil. The axon emerges from the ventral part of the perikaryon courses a short distance rostrally to the level of the ROLE  cells and then turns laterally from the CNS accompanying the root of the posterior lateral line nerve." [ZFA:CVS, ZFIN:ZDB-PUB-961014-768]
+subset: cell_slim
+synonym: "RELL neuron" EXACT []
+is_a: ZFA:0009239 ! efferent neuron
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000029 ! hindbrain
+relationship: part_of ZFA:0000034 ! lateral line system
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-06-24T10:08:34Z
+
+[Term]
+id: ZFA:0005805
+name: rhombencephalic octavola-teral efferent neuron
+namespace: zebrafish_anatomy
+def: "Efferent neuron located in the hindbrain.  The axon of ROLE cells travels rostrally near the ipsilateral medial longitudinal fascicle to the level of the Mauthner cell where it turns laterally to exit with the eighth nerve.  Outside the brain the  axon continues ventrally  to the base of the saccular macula in the ear then turns caudally to ender the ganglion of the posterior lateral line.   A branch of the axon  turns ventrally before the main axon enters the LLG.  The branch goes ventrally along the wall of the otic capsule." [ZFA:CVS, ZFIN:ZDB-PUB-961014-768]
+subset: cell_slim
+synonym: "ROLE neuron" EXACT []
+is_a: ZFA:0009239 ! efferent neuron
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000128 ! midbrain
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-06-24T10:42:22Z
+
+[Term]
+id: ZFA:0005806
+name: diencephalic efferent neurons to the lateral line
+namespace: zebrafish_anatomy
+def: "Efferent neurons located ventrally in the diencephalon.  The dendrites extend into a large area of the diencephalic neuropil rostral, caudal, lateral and ventral to the cell body.  The axon courses dorsally and then caudally through the midbrain.   As the axon descends through the brain it gives off branches at several levels.   One branch usually exits the brain with the posterior lateral line nerve.  The axon can be traced into the cervical spinal cord." [ZFA:CVS, ZFIN:ZDB-PUB-961014-768]
+comment: There may be 2 neuron types grouped under this name since there are some instances the axons were seen to exit with the eighth cranial nerve instead of the PLL nerve:  ZDB-PUB-961014-768.
+subset: cell_slim
+synonym: "DELL neuron" EXACT []
+is_a: ZFA:0009239 ! efferent neuron
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000034 ! lateral line system
+relationship: part_of ZFA:0000101 ! diencephalon
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-06-24T11:50:49Z
+
+[Term]
+id: ZFA:0005807
+name: intestine lumen
+namespace: zebrafish_anatomy
+def: "Anatomical space within the intestine where digestion normally occurs.  The intestinal lumen begins as an interconnected web of small space at 43 hpf that over time remodels to form a single continuous tube at 68hpf.  Lumen maturation proceeds from anterior to posterior along the intestine." [ZFA:CVS, ZFIN:ZDB-PUB-140415-28]
+synonym: "gut lumen" RELATED []
+is_a: ZFA:0001643 ! anatomical space
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001338 ! intestine
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-14T01:57:57Z
+
+[Term]
+id: ZFA:0005808
+name: proepicardial cluster
+namespace: zebrafish_anatomy
+def: "Transient cluster of cardiac progenitor cells that develops adjacent to the heart and migrates onto the heart to form the epicardium.  Proepicardial clusters in Zebrafish form on the pericardial wall, adjacent to the atrioventricular (AV) junction and near the venous pole." [ZFA:CVS, ZFIN:ZDB-PUB-080218-16, ZFIN:ZDB-PUB-140603-8]
+synonym: "proepicardial organ" EXACT [ZFIN:ZDB-PUB-080218-16]
+synonym: "proepicardium" EXACT [ZFIN:ZDB-PUB-140603-8]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000035 ! Larval:Protruding-mouth
+relationship: part_of ZFA:0000010 ! cardiovascular system
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-28T03:01:42Z
+
+[Term]
+id: ZFA:0005809
+name: pectinate muscle
+namespace: zebrafish_anatomy
+def: "Network of heavily branched muscle in the atrium." [ZFIN:ZDB-PUB-001026-2]
+synonym: "pectinate muscles" EXACT PLURAL []
+is_a: ZFA:0005280 ! cardiac muscle
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000471 ! atrium
+relationship: start ZFS:0000040 ! Larval:Days 14-20
+created_by: Ceri
+creation_date: 2014-07-28T04:28:45Z
+
+[Term]
+id: ZFA:0005810
+name: trabecular layer of the atrium
+namespace: zebrafish_anatomy
+def: "Trabecular layer of the atrial myocardium." [ZFA:CVS, ZFIN:ZDB-PUB-121030-7]
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001374 ! atrial myocardium
+relationship: part_of ZFA:0005059 ! trabecular layer
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-28T04:35:49Z
+
+[Term]
+id: ZFA:0005811
+name: heart vasculature
+namespace: zebrafish_anatomy
+def: "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the heart." [ZFA:CVS]
+is_a: ZFA:0005249 ! vasculature
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000114 ! heart
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-31T10:04:10Z
+
+[Term]
+id: ZFA:0005812
+name: coronary artery
+namespace: zebrafish_anatomy
+def: "Artery that carries blood from the efferent branchial artery to the cardiac ventricle.  The artery runs along the ventral surface of the bulbus arteriosus." [ZFA:CVS, ZFIN:ZDB-PUB-010912-30]
+synonym: "coronary vessel" EXACT []
+is_a: ZFA:0000005 ! artery
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005811 ! heart vasculature
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-31T10:05:29Z
+
+[Term]
+id: ZFA:0005813
+name: coronary capillary
+namespace: zebrafish_anatomy
+def: "Capillaries that innervate the subtrabecular layer of the heart." [ZFA:CVS, ZFIN:ZDB-PUB-010912-30]
+is_a: ZFA:0005250 ! capillary
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005811 ! heart vasculature
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-31T10:09:35Z
+
+[Term]
+id: ZFA:0005814
+name: coronary vein
+namespace: zebrafish_anatomy
+def: "Vein that carries blood from the coronary capillaries to the atrial chamber entering the atrium close to the atrioventricular region." [ZFA:CVS, ZFIN:ZDB-PUB-010912-30]
+is_a: ZFA:0000082 ! vein
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005811 ! heart vasculature
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-31T10:11:35Z
+
+[Term]
+id: ZFA:0005815
+name: T interneuron
+namespace: zebrafish_anatomy
+def: "Hindbrain interneurons that are part of the reticular formation.  The T interneurons receive synaptic input from the  Mauthner neuron.  The axon is T-shaped the proximal segment courses to the midline of the  brain and near the midline bifurcates to form an ascending rostral segment and a descending caudal segment.  The rostral and caudal segments join the dorsal component of the MLF.  The T interneurons are located caudal to CaD and appear to be bilaterally paired." [ZFA:CVS, ZFIN:ZDB-PUB-961014-588]
+subset: cell_slim
+synonym: "T shaped reticular neuron " RELATED []
+synonym: "T-interneuron" EXACT []
+is_a: ZFA:0005209 ! hindbrain interneuron
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2014-07-31T02:33:52Z
 
 [Term]
 id: ZFA:0006000
@@ -33776,7 +33964,7 @@ synonym: "MEP" EXACT []
 xref: CL:0000050
 xref: TAO:0009022
 xref: ZFIN:ZDB-ANAT-070308-16
-is_a: ZFA:0009356 ! myeloid lineage restricted progenitor cell
+is_a: ZFA:0009000 ! cell
 relationship: develops_from ZFA:0009021 ! common myeloid progenitor
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -35995,6 +36183,7 @@ xref: ZFIN:ZDB-ANAT-070308-135
 is_a: ZFA:0009000 ! cell
 relationship: develops_from ZFA:0009003 ! cranial neural crest cell
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005140 ! dental papilla
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -37062,7 +37251,7 @@ synonym: "granulocyte-macrophage progenitor" EXACT [ZFIN:ZDB-PUB-070221-1]
 xref: CL:0000557
 xref: TAO:0009251
 xref: ZFIN:ZDB-ANAT-060331-74
-is_a: ZFA:0009356 ! myeloid lineage restricted progenitor cell
+is_a: ZFA:0009000 ! cell
 relationship: develops_from ZFA:0009021 ! common myeloid progenitor
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -38577,7 +38766,6 @@ xref: CL:0000834
 xref: TAO:0009352
 xref: ZFIN:ZDB-ANAT-070308-284
 is_a: ZFA:0009356 ! myeloid lineage restricted progenitor cell
-relationship: develops_from ZFA:0009251 ! granulocyte monocyte progenitor cell
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -38881,7 +39069,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005171 ! duct
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-07-29T17:17:20Z
+creation_date: 2013-07-29T05:17:20Z
 
 [Term]
 id: ZFA:0009374
@@ -38936,7 +39124,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005169 ! intrahepatic bile duct
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2013-07-29T17:21:19Z
+creation_date: 2013-07-29T05:21:19Z
 
 [Term]
 id: ZFA:0009380
@@ -38950,7 +39138,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001372 ! pancreatic duct
 relationship: start ZFS:0000032 ! Pharyngula:High-pec
 created_by: Ceri
-creation_date: 2013-07-29T17:23:07Z
+creation_date: 2013-07-29T05:23:07Z
 
 [Term]
 id: ZFA:0009383
@@ -38964,7 +39152,7 @@ relationship: develops_from ZFA:0000017 ! endoderm
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2013-08-02T16:25:16Z
+creation_date: 2013-08-02T04:25:16Z
 
 [Term]
 id: ZFA:0009384
@@ -39168,7 +39356,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001338 ! intestine
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 created_by: Ceri
-creation_date: 2013-08-02T16:26:27Z
+creation_date: 2013-08-02T04:26:27Z
 
 [Term]
 id: ZFA:0009400
@@ -39182,7 +39370,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000204 ! esophagus
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 created_by: Ceri
-creation_date: 2013-08-02T16:32:14Z
+creation_date: 2013-08-02T04:32:14Z
 
 [Term]
 id: ZFA:0100000
@@ -39531,7 +39719,7 @@ name: end stage
 def: "c existence ends during s iff  end_of(c) part_of s." [goc:cjm]
 synonym: "ends_during" EXACT []
 synonym: "existence ends during" RELATED []
-xref: RO:0002492
+xref: RO:0002497
 
 [Typedef]
 id: has_developmental_contribution_from
@@ -39567,5 +39755,5 @@ name: start stage
 def: "c existence starts during s iff start_of(c) part_of s." [goc:cjm]
 synonym: "existence starts during" RELATED []
 synonym: "starts_during" EXACT []
-xref: RO:0002488
+xref: RO:0002496
 
