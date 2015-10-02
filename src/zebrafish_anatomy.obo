@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:07:2015 16:02
+date: 18:09:2015 16:52
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -2224,6 +2224,7 @@ synonym: "dentary bone" EXACT []
 xref: TAO:0000191
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005488 ! mandibular symphysis
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001273 ! ventral mandibular arch
 relationship: start ZFS:0000000 ! Unknown
@@ -2286,6 +2287,9 @@ synonym: "dorsal hypohyals" EXACT PLURAL []
 xref: TAO:0000196
 is_a: ZFA:0001381 ! hypohyal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005457 ! dorsal hypohyal-urohyal joint
+relationship: overlaps ZFA:0005458 ! dorsal hypohyal-ventral hypohyal joint
+relationship: overlaps ZFA:0005467 ! ceratohyal-dorsal hypohyal joint
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -2624,6 +2628,7 @@ xref: TAO:0000226
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001503 ! lamina orbitonasalis
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005420 ! autopalatine-lateral ethmoid joint
 relationship: part_of ZFA:0000351 ! olfactory region
 relationship: part_of ZFA:0001424 ! chondrocranium
 relationship: part_of ZFA:0001580 ! neurocranium
@@ -2802,6 +2807,8 @@ xref: TAO:0000240
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001399 ! palatoquadrate cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005469 ! hyomandibula-metapterygoid joint
+relationship: overlaps ZFA:0005486 ! quadrate-metapterygoid joint
 relationship: part_of ZFA:0001272 ! palatoquadrate arch
 relationship: start ZFS:0000040 ! Larval:Days 14-20
 
@@ -3169,6 +3176,7 @@ synonym: "maxillae" EXACT PLURAL []
 xref: TAO:0000270
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005421 ! autopalatine-maxillary joint
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001272 ! palatoquadrate arch
 relationship: start ZFS:0000000 ! Unknown
@@ -3506,6 +3514,9 @@ synonym: "ventrohyal" EXACT []
 xref: TAO:0000300
 is_a: ZFA:0001381 ! hypohyal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005458 ! dorsal hypohyal-ventral hypohyal joint
+relationship: overlaps ZFA:0005466 ! ceratohyal-ventral hypohyal joint
+relationship: overlaps ZFA:0005476 ! inter-ventral hypohyal joint
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -3692,6 +3703,7 @@ id: ZFA:0000316
 name: basihyal bone
 namespace: zebrafish_anatomy
 def: "Endochondral bone that is median and is the anterior-most bone of the ventral hyoid arch, the 'tongue' of the a fish. Ossification of the cartilaginous basihyal is first visible at the posterior end of the club-shaped basihyal cartilage (6.0 mm). Ossification spreads throughout the cartilage, except for the anterior tip, which remains cartilaginous. The posteroventral tip extends between the left and right dorsal hypohyals." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+synonym: "basihyal" RELATED []
 synonym: "basihyoid" EXACT []
 synonym: "glossohyal" EXACT []
 xref: TAO:0000316
@@ -3888,6 +3900,7 @@ xref: TAO:0000332
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001455 ! scapulocoracoid
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005470 ! inter-coracoid joint
 relationship: part_of ZFA:0000407 ! pectoral girdle
 relationship: start ZFS:0000040 ! Larval:Days 14-20
 
@@ -4854,6 +4867,8 @@ xref: TAO:0000419
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001515 ! taenia marginalis posterior
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005482 ! prootic-pterosphenoid joint
+relationship: overlaps ZFA:0005560 ! parasphenoid-basioccipital joint
 relationship: part_of ZFA:0000290 ! sphenoid region
 relationship: part_of ZFA:0001424 ! chondrocranium
 relationship: part_of ZFA:0001580 ! neurocranium
@@ -5254,6 +5269,7 @@ def: "The urohyal is a median dermal bone that ossifies in the membrane between 
 xref: TAO:0000452
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005457 ! dorsal hypohyal-urohyal joint
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001402 ! ventral hyoid arch
 relationship: start ZFS:0000000 ! Unknown
@@ -5501,6 +5517,8 @@ is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001423 ! parachordal cartilage
 relationship: end ZFS:0000044 ! Adult
 relationship: overlaps ZFA:0005423 ! basioccipital-exoccipital joint
+relationship: overlaps ZFA:0005560 ! parasphenoid-basioccipital joint
+relationship: overlaps ZFA:0005613 ! basioccipital-prootic joint
 relationship: part_of ZFA:0001414 ! occipital region
 relationship: part_of ZFA:0001424 ! chondrocranium
 relationship: part_of ZFA:0001580 ! neurocranium
@@ -5550,6 +5568,8 @@ synonym: "branchiostegal rays" EXACT PLURAL []
 xref: TAO:0000476
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005465 ! ceratohyal-branchiostegal ray joint
+relationship: overlaps ZFA:0005498 ! epihyal-branchiostegal ray joint
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001402 ! ventral hyoid arch
 relationship: start ZFS:0000000 ! Unknown
@@ -5652,6 +5672,7 @@ synonym: "post parietal" EXACT []
 xref: TAO:0000486
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005607 ! inter-parietal joint
 relationship: overlaps ZFA:0005608 ! frontal-parietal joint
 relationship: overlaps ZFA:0005609 ! supraoccipital-parietal joint
 relationship: part_of ZFA:0000189 ! otic region
@@ -5974,6 +5995,8 @@ def: "Large elongated paired dermal bones that roof the cranium and bear part of
 xref: TAO:0000514
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005468 ! frontal-pterotic joint
+relationship: overlaps ZFA:0005472 ! inter-frontal joint
 relationship: overlaps ZFA:0005608 ! frontal-parietal joint
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001410 ! orbital region
@@ -6612,6 +6635,7 @@ synonym: "premaxillae" EXACT PLURAL []
 xref: TAO:0000567
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005475 ! inter-premaxillary joint
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001272 ! palatoquadrate arch
 relationship: start ZFS:0000000 ! Unknown
@@ -6698,6 +6722,8 @@ relationship: develops_from ZFA:0001423 ! parachordal cartilage
 relationship: develops_from ZFA:0001425 ! basal plate cartilage
 relationship: develops_from ZFA:0001500 ! auditory capsule
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005482 ! prootic-pterosphenoid joint
+relationship: overlaps ZFA:0005613 ! basioccipital-prootic joint
 relationship: part_of ZFA:0000189 ! otic region
 relationship: part_of ZFA:0001424 ! chondrocranium
 relationship: part_of ZFA:0001580 ! neurocranium
@@ -6713,6 +6739,7 @@ xref: TAO:0000576
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001500 ! auditory capsule
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005468 ! frontal-pterotic joint
 relationship: part_of ZFA:0000189 ! otic region
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001424 ! chondrocranium
@@ -6742,6 +6769,11 @@ xref: TAO:0000578
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001400 ! ceratohyal cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005465 ! ceratohyal-branchiostegal ray joint
+relationship: overlaps ZFA:0005466 ! ceratohyal-ventral hypohyal joint
+relationship: overlaps ZFA:0005467 ! ceratohyal-dorsal hypohyal joint
+relationship: overlaps ZFA:0005497 ! epihyal-ceratohyal joint
+relationship: overlaps ZFA:0005859 ! ceratohyal-interhyal joint
 relationship: part_of ZFA:0001402 ! ventral hyoid arch
 relationship: start ZFS:0000000 ! Unknown
 
@@ -7227,6 +7259,9 @@ xref: TAO:0000620
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001399 ! palatoquadrate cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005420 ! autopalatine-lateral ethmoid joint
+relationship: overlaps ZFA:0005421 ! autopalatine-maxillary joint
+relationship: overlaps ZFA:0005422 ! autopalatine-vomer joint
 relationship: part_of ZFA:0001272 ! palatoquadrate arch
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 
@@ -7240,6 +7275,8 @@ xref: TAO:0000621
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001399 ! palatoquadrate cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005486 ! quadrate-metapterygoid joint
+relationship: overlaps ZFA:0005616 ! quadrate-entopterygoid joint
 relationship: part_of ZFA:0001272 ! palatoquadrate arch
 relationship: start ZFS:0000039 ! Larval:Days 7-13
 
@@ -7267,6 +7304,7 @@ xref: TAO:0000623
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001539 ! basipterygium cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005471 ! inter-basipterygium joint
 relationship: part_of ZFA:0000565 ! pelvic girdle
 relationship: start ZFS:0000000 ! Unknown
 
@@ -7300,6 +7338,8 @@ xref: TAO:0000627
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001400 ! ceratohyal cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005497 ! epihyal-ceratohyal joint
+relationship: overlaps ZFA:0005498 ! epihyal-branchiostegal ray joint
 relationship: part_of ZFA:0001402 ! ventral hyoid arch
 relationship: start ZFS:0000000 ! Unknown
 
@@ -7652,6 +7692,7 @@ synonym: "mesopterygoid" EXACT []
 xref: TAO:0000657
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005616 ! quadrate-entopterygoid joint
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001272 ! palatoquadrate arch
 relationship: start ZFS:0000000 ! Unknown
@@ -7833,6 +7874,8 @@ xref: TAO:0000672
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001422 ! hyosymplectic cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005469 ! hyomandibula-metapterygoid joint
+relationship: overlaps ZFA:0005632 ! preopercle vertical limb-hyomandibula joint
 relationship: part_of ZFA:0001401 ! dorsal hyoid arch
 relationship: start ZFS:0000000 ! Unknown
 
@@ -8067,6 +8110,7 @@ xref: TAO:0000692
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001422 ! hyosymplectic cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005631 ! preopercle horizontal limb-symplectic joint
 relationship: part_of ZFA:0001401 ! dorsal hyoid arch
 relationship: start ZFS:0000000 ! Unknown
 
@@ -17424,6 +17468,7 @@ id: ZFA:0001510
 name: basihyal cartilage
 namespace: zebrafish_anatomy
 def: "Pharyngeal arch cartilage that is median and is the anterior-most cartilage of the ventral hyoid arch. It chondrifies between the anterior tips of the ceratohyal cartilages, anterior to the first copula." [GOC:mh, ORCiD:0000-0001-9114-8737]
+synonym: "basihyal" RELATED []
 xref: TAO:0001510
 is_a: ZFA:0001460 ! pharyngeal arch cartilage
 relationship: end ZFS:0000044 ! Adult
@@ -18378,6 +18423,7 @@ synonym: "preopercle ventral arm" EXACT [ZFIN:ZDB-PUB-961014-192]
 xref: TAO:0000289
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005631 ! preopercle horizontal limb-symplectic joint
 relationship: part_of ZFA:0000264 ! preopercle
 relationship: start ZFS:0000000 ! Unknown
 
@@ -18393,6 +18439,7 @@ synonym: "preopercle vertical arm" EXACT []
 xref: TAO:0000336
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005632 ! preopercle vertical limb-hyomandibula joint
 relationship: part_of ZFA:0000264 ! preopercle
 relationship: start ZFS:0000000 ! Unknown
 
@@ -20551,7 +20598,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005044
 name: optic artery
 namespace: zebrafish_anatomy
-def: "The artery that carries blood to the eye.  It branches from the internal carotid artery and enters the eye ventrally through the optic fissure." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-010205-5]
+def: "The artery that carries blood to the eye.  It branches from the primitive internal carotid artery and enters the eye ventrally through the optic fissure." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-010205-5]
 synonym: "optic arteries" EXACT PLURAL []
 xref: TAO:0005044
 is_a: ZFA:0000005 ! artery
@@ -21015,6 +21062,7 @@ def: "Branch of the nasal ciliary artery (NCA) that splits off of the NCA near t
 synonym: "dorsal branch nasal ciliary arteries" EXACT PLURAL []
 xref: TAO:0005082
 is_a: ZFA:0000005 ! artery
+is_a: ZFA:0007057 ! ocular blood vessel
 relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005053 ! nasal ciliary artery
 relationship: start ZFS:0000033 ! Hatching:Long-pec
@@ -21025,6 +21073,7 @@ name: ventral branch nasal ciliary artery
 namespace: zebrafish_anatomy
 xref: TAO:0005083
 is_a: ZFA:0000005 ! artery
+is_a: ZFA:0007057 ! ocular blood vessel
 relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005053 ! nasal ciliary artery
 relationship: start ZFS:0000033 ! Hatching:Long-pec
@@ -30973,6 +31022,62 @@ created_by: Ceri
 creation_date: 2015-07-02T09:19:35Z
 
 [Term]
+id: ZFA:0005857
+name: bile
+namespace: zebrafish_anatomy
+def: "Zebrafish bile contains the bile alcohol cyprinol sulfate." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120822-8]
+is_a: ZFA:0001487 ! portion of organism substance
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2015-07-31T11:15:59Z
+
+[Term]
+id: ZFA:0005858
+name: hyaloid capillaries
+namespace: zebrafish_anatomy
+def: "Capillaries that branch from the hyaloid artery and drain into the hyaloid vein.  The hyaloid capillaries are located behind the lens and may be transient." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-150419-5]
+is_a: ZFA:0005046 ! hyaloid vessel
+is_a: ZFA:0005250 ! capillary
+relationship: end ZFS:0000043 ! Juvenile:Days 45-89
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2015-08-17T16:43:51Z
+
+[Term]
+id: ZFA:0005859
+name: ceratohyal-interhyal joint
+namespace: zebrafish_anatomy
+def: "Joint that articulates the interhyal skeletal element and ceratohyal skeletal element.  The ceratohyal-interhyal joint is paired." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-970210-30]
+is_a: ZFA:0001596 ! joint
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2015-09-09T13:15:07Z
+
+[Term]
+id: ZFA:0005860
+name: interhyal-hyosymplectic joint
+namespace: zebrafish_anatomy
+def: "Joint that articulates the interhyal element and the hyosymplectic element.  The interhyal-hyosymplectic joint is paired." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-970210-30]
+is_a: ZFA:0001596 ! joint
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2015-09-09T13:28:54Z
+
+[Term]
+id: ZFA:0005861
+name: opercle-hyosymplectic joint
+namespace: zebrafish_anatomy
+def: "Joint that articulates the opercle and they hyosymplectic.  The opercle-hyosymplectic joint is paired." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-970210-30]
+is_a: ZFA:0001596 ! joint
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2015-09-09T13:33:46Z
+
+[Term]
 id: ZFA:0006000
 name: intermediate hypothalamus
 namespace: zebrafish_anatomy
@@ -32040,7 +32145,7 @@ synonym: "trunk neural crest cells" EXACT PLURAL []
 xref: CL:0000011
 xref: TAO:0009004
 is_a: ZFA:0009165 ! neural crest cell
-relationship: end ZFS:0000029 ! Pharyngula:Prim-5
+relationship: end ZFS:0000031 ! Pharyngula:Prim-25
 relationship: part_of ZFA:0001024 ! trunk neural crest
 relationship: start ZFS:0000000 ! Unknown
 
@@ -35728,7 +35833,9 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009279
 name: ito cell
 namespace: zebrafish_anatomy
+def: "A cell that is found in the perisinusoidal space of the liver that is capable of multiple roles including storage of retinol, presentation of antigen to T cells (including CD1d-restricted NKT cells), and upon activation, production of extracellular matrix components that can contribute to liver fibrosis. This activated state has a myofibroblast-like phenotype." [GOC:tm]
 subset: cell_slim
+synonym: "hepatic stellate cell" EXACT []
 synonym: "perisinusoidal cell" EXACT []
 xref: CL:0000632
 xref: TAO:0009279
