@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 18:09:2015 16:52
-saved-by: Ceri
+date: 02:11:2015 14:34
+saved-by: yvonne
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: PLURAL "PLURAL"
@@ -752,6 +752,8 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000067
 name: pronephric mesoderm
 namespace: zebrafish_anatomy
+def: "Intermediate mesoderm that is located beneath the anterior somites and gives rise to the pronephros and pronephric duct." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-000606-4]
+synonym: "pronephric primordium" EXACT [ZFIN:ZDB-PUB-000606-4]
 xref: TAO:0000067
 is_a: ZFA:0000041 ! mesoderm
 relationship: end ZFS:0000024 ! Segmentation:5-9 somites
@@ -762,7 +764,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000068
 name: proneural cluster
 namespace: zebrafish_anatomy
-def: "Cluster of cells in the neural plate that have the potential to become neuroblast." [ZFIN:ZDB-PUB-990921-1]
+def: "Cluster of cells in the neural plate that have the potential to become neuroblast." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-990921-1]
 synonym: "proneural clusters" EXACT PLURAL []
 xref: TAO:0000068
 is_a: ZFA:0001105 ! embryonic structure
@@ -774,7 +776,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000069
 name: rhombomere 6
 namespace: zebrafish_anatomy
-def: "Hindbrain segment or neuromere." [ZFIN:ZDB-PUB-961014-576]
+def: "Hindbrain segment or neuromere." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-576]
 synonym: "r6" EXACT []
 xref: TAO:0000069
 is_a: ZFA:0001064 ! rhombomere
@@ -794,7 +796,7 @@ is_obsolete: true
 id: ZFA:0000071
 name: shield
 namespace: zebrafish_anatomy
-def: "Embryonic structure that is a local accumulation of cells along the germ ring.  The shield marks the dorsal side of the embryo." [ZFIN:ZDB-PUB-961014-576]
+def: "Embryonic structure that is a local accumulation of cells along the germ ring.  The shield marks the dorsal side of the embryo." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-576]
 synonym: "organizer" EXACT []
 synonym: "Spemann Mangold organizer" EXACT []
 synonym: "Spemann's organizer" EXACT []
@@ -808,7 +810,7 @@ relationship: start ZFS:0000019 ! Gastrula:Shield
 id: ZFA:0000072
 name: somite 1
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000072
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -818,7 +820,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000073
 name: somite 5
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000073
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -828,7 +830,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000074
 name: somite 26
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000074
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -889,7 +891,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000079
 name: telencephalon
 namespace: zebrafish_anatomy
-def: "The anterior and dorsal forebrain neuromere. In ray-finned fishes and most pronounced in teleosts the roof plate of the embryonic telencephalon extends laterally with the effect that the paired alar plates forming the hemispheric walls roll out lateroventrally in a process called eversion. This is unlike the development in other vertebrate groups. From Neuroanatomy of the Zebrafish Brain." [ISBN:3764351209]
+def: "The anterior and dorsal forebrain neuromere. In ray-finned fishes and most pronounced in teleosts the roof plate of the embryonic telencephalon extends laterally with the effect that the paired alar plates forming the hemispheric walls roll out lateroventrally in a process called eversion. This is unlike the development in other vertebrate groups. From Neuroanatomy of the Zebrafish Brain." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
 xref: TAO:0000079
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0000571 ! presumptive telencephalon
@@ -942,7 +944,7 @@ id: ZFA:0000084
 name: yolk
 namespace: zebrafish_anatomy
 alt_id: ZFA:0009197
-def: "Giant syncytial uncleaved cell containing nutrient store for embryonic development in the form of semicrystalline phospholipoprotein and contained within yolk granules." [ZFIN:ZDB-PUB-961014-576]
+def: "Giant syncytial uncleaved cell containing nutrient store for embryonic development in the form of semicrystalline phospholipoprotein and contained within yolk granules." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 synonym: "yolk cell" EXACT []
 xref: CL:0000428
@@ -1594,7 +1596,7 @@ relationship: start ZFS:0000036 ! Larval:Day 4
 id: ZFA:0000137
 name: optic stalk
 namespace: zebrafish_anatomy
-def: "Portion of tissue that provides a pathway for axon migration from the retina.   The cells of the optic stalk later differentiate into glial cells of the optic  nerve." [ZFIN:ZDB-PUB-030210-6, ZFIN:ZDB-PUB-101201-28]
+def: "Portion of tissue that provides a pathway for axon migration from the retina.   The cells of the optic stalk later differentiate into glial cells of the optic  nerve." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-030210-6, ZFIN:ZDB-PUB-101201-28]
 synonym: "optic stalks" EXACT PLURAL []
 xref: TAO:0000137
 is_a: ZFA:0001477 ! portion of tissue
@@ -1643,7 +1645,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000142
 name: peripheral nervous system
 namespace: zebrafish_anatomy
-def: "Nervous structures including ganglia outside of the central nervous system." [ZFIN:ZDB-PUB-961014-576]
+def: "Nervous structures including ganglia outside of the central nervous system." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-576]
 synonym: "pns" EXACT []
 xref: TAO:0000142
 is_a: ZFA:0000396 ! nervous system
@@ -1708,7 +1710,7 @@ relationship: start ZFS:0000019 ! Gastrula:Shield
 id: ZFA:0000149
 name: primitive heart tube
 namespace: zebrafish_anatomy
-def: "Multi-tissue structure that arises from the heart rudiment and will become the heart tube." [ZFIN:ZDB-PUB-010219-2]
+def: "Multi-tissue structure that arises from the heart rudiment and will become the heart tube." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-010219-2]
 xref: TAO:0000149
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0000115 ! heart rudiment
@@ -1720,7 +1722,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000150
 name: pronephric duct
 namespace: zebrafish_anatomy
-def: "Duct of the embryonic kidney, present bilaterally ventral to the somites and leading to the cloacal chamber. Wingert et al. have suggested that the pronephric duct as described traditionally may consist of subregions which are analogous to portions of the tubule segment of mammalian and other fish nephrons." [ZFIN:ZDB-PUB-071029-9, ZFIN:ZDB-PUB-961014-576]
+def: "Duct of the embryonic kidney, present bilaterally ventral to the somites and leading to the cloacal chamber. Wingert et al. have suggested that the pronephric duct as described traditionally may consist of subregions which are analogous to portions of the tubule segment of mammalian and other fish nephrons." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-071029-9, ZFIN:ZDB-PUB-961014-576]
 synonym: "pronephric ducts" EXACT PLURAL []
 xref: TAO:0000150
 is_a: ZFA:0005171 ! duct
@@ -1733,7 +1735,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000151
 name: pronephros
 namespace: zebrafish_anatomy
-def: "The embryonic kidney, present at the level of the third somite, is composed of two glomeruli fused at the midline, two pronephric tubules, and paired bilateral pronephric ducts that modify the composition of the blood filtrate before delivering it to the cloaca for excretion." [ZFIN:ZDB-PUB-961014-576]
+def: "The embryonic kidney, present at the level of the third somite, is composed of two glomeruli fused at the midline, two pronephric tubules, and paired bilateral pronephric ducts that modify the composition of the blood filtrate before delivering it to the cloaca for excretion." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-576]
 synonym: "embryonic kidney" EXACT [ZFIN:ZDB-PUB-961014-576]
 synonym: "pronephric nephron" EXACT []
 xref: TAO:0000151
@@ -1773,7 +1775,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000154
 name: sinus venosus
 namespace: zebrafish_anatomy
-def: "Heart region collecting blood from the paired common cardinal veins and delivering to the atrium. One of four components of the heart. The sinus venosus also acts as a pacemaker and is the first to contract." [ZFIN:ZDB-PUB-961014-576]
+def: "Heart region collecting blood from the paired common cardinal veins and delivering to the atrium. One of four components of the heart. The sinus venosus also acts as a pacemaker and is the first to contract." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-576]
 synonym: "inflow tract" EXACT []
 xref: TAO:0000154
 is_a: ZFA:0001488 ! multi-tissue structure
@@ -1786,7 +1788,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0000155
 name: somite
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal components of early trunk or tail segments or metameres, derived from paraxial mesoderm; forms myotomes, sclerotomes and perhaps dermatomes." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal components of early trunk or tail segments or metameres, derived from paraxial mesoderm; forms myotomes, sclerotomes and perhaps dermatomes." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 synonym: "somitic mesoderm" RELATED []
 xref: TAO:0000155
 is_a: ZFA:0001477 ! portion of tissue
@@ -1799,7 +1801,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000156
 name: somite 20
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000156
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -1809,7 +1811,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000157
 name: somite 30
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000157
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -1819,7 +1821,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000158
 name: urostyle
 namespace: zebrafish_anatomy
-def: "This centrum may be formed via the fusion of the terminal centrum and half-centrum. It is sometimes termed the 'ultimate' vertebra. Develops from the fused preural centrum 1+ ural centrum 1." [ZFIN:ZDB-PUB-011008-1]
+def: "This centrum may be formed via the fusion of the terminal centrum and half-centrum. It is sometimes termed the 'ultimate' vertebra. Develops from the fused preural centrum 1+ ural centrum 1." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-011008-1]
 synonym: "compound centrum" EXACT []
 synonym: "last vertebra" EXACT []
 synonym: "ultimate vertebra" EXACT []
@@ -1995,6 +1997,7 @@ is_obsolete: true
 id: ZFA:0000172
 name: branchial muscle
 namespace: zebrafish_anatomy
+def: "Muscle that is part of pharyngeal arches 3-7 which are also known as the branchial arches." [GOC:CVS, ORCiD:0000-0002-2244-7917]
 synonym: "branchial muscles" EXACT PLURAL []
 xref: TAO:0000172
 is_a: ZFA:0001652 ! head muscle
@@ -2159,7 +2162,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0000185
 name: commissura rostral, pars ventralis
 namespace: zebrafish_anatomy
-def: "Anterior commissure which abuts the preoptic region dorsally. From Neuroanatomy of the Zebrafish Brain." [ISBN:3764351209]
+def: "Anterior commissure which abuts the preoptic region dorsally. From Neuroanatomy of the Zebrafish Brain." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
 synonym: "commissura anterior, pars ventralis" EXACT []
 xref: TAO:0000185
 is_a: ZFA:0001108 ! anterior commissure
@@ -2183,7 +2186,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000188
 name: corpus cerebelli
 namespace: zebrafish_anatomy
-def: "Brain structure which is one of three parts of the cerebellum and is the entry point for a posterior cerebellar tract that carries cerebellar afferents from many brain stem nuclei. From Neuroanatomy of the Zebrafish Brain." [ISBN:3764351209]
+def: "Brain structure which is one of three parts of the cerebellum and is the entry point for a posterior cerebellar tract that carries cerebellar afferents from many brain stem nuclei. From Neuroanatomy of the Zebrafish Brain." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
 synonym: "cerebellar corpus" EXACT []
 synonym: "corpus cerebellum" EXACT PLURAL []
 xref: TAO:0000188
@@ -2572,7 +2575,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000222
 name: isthmic primary nucleus
 namespace: zebrafish_anatomy
-def: "Sensory trigeminal nucleus located in the most rostral position.  It lies immediately caudal to the secondary gustatory nucleus." [ZFIN:ZDB-PUB-961014-1280]
+def: "Sensory trigeminal nucleus located in the most rostral position.  It lies immediately caudal to the secondary gustatory nucleus." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-1280]
 synonym: "isthmic primary nuclei" EXACT PLURAL []
 synonym: "isthmic primary sensory trigeminal nucleus" EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000222
@@ -2666,7 +2669,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000229
 name: lateral olfactory tract
 namespace: zebrafish_anatomy
-def: "Telencephalic white matter which extends between the olfactory bulb and the ipsilateral dorsal telencephalon and carries secondary olfactory fibers. From Neuroanatomy of the Zebrafish Brain." [ISBN:3764351209]
+def: "Telencephalic white matter which extends between the olfactory bulb and the ipsilateral dorsal telencephalon and carries secondary olfactory fibers. From Neuroanatomy of the Zebrafish Brain." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
 synonym: "tractus olfactorius lateralis" EXACT []
 xref: TAO:0000229
 is_a: ZFA:0000597 ! telencephalic white matter
@@ -2714,7 +2717,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0000233
 name: lower oral valve
 namespace: zebrafish_anatomy
-def: "Portion of tissue, located on the lower jaw that defines the caudal extent of the labial cavity.  The oral valves control the flow of water into the mouth during routine respiration." [ZFIN:ZDB-PUB-060921-12]
+def: "Portion of tissue, located on the lower jaw that defines the caudal extent of the labial cavity.  The oral valves control the flow of water into the mouth during routine respiration." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-060921-12]
 synonym: "breathing valve" RELATED []
 synonym: "buccal valve " RELATED []
 synonym: "lower internal lip" EXACT [ZFIN:ZDB-PUB-060921-12]
@@ -3082,7 +3085,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0000263
 name: precaudal vertebra
 namespace: zebrafish_anatomy
-def: "Post-cranial vertebrae lacking hemal spines (Weitzman, 1962), refers generally to the anterior vertebral region bounding the abdominal cavity. Alternate but not quite synonymous terms are abdominal or trunk vertebrae, which bear parapophyses and ribs. In many actinopterygians dorsal to the posterior abdominal cavity there are transitional vertebrae lacking ribs but also without hemal spines or sometimes even enclosed hemal arches. The primary definition would identify these vertebrae as precaudal." [ZFIN:ZDB-PUB-031103-13]
+def: "Post-cranial vertebrae lacking hemal spines (Weitzman, 1962), refers generally to the anterior vertebral region bounding the abdominal cavity. Alternate but not quite synonymous terms are abdominal or trunk vertebrae, which bear parapophyses and ribs. In many actinopterygians dorsal to the posterior abdominal cavity there are transitional vertebrae lacking ribs but also without hemal spines or sometimes even enclosed hemal arches. The primary definition would identify these vertebrae as precaudal." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-031103-13]
 synonym: "abdominal vertebra" RELATED []
 synonym: "precaudal vertebrae" EXACT PLURAL []
 synonym: "trunk vertebra" RELATED []
@@ -3263,7 +3266,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000279
 name: segmental plate
 namespace: zebrafish_anatomy
-def: "Unsegmented field of paraxial mesoderm present posterior to the most recently formed somite pair, from which somites will form." [ZFIN:ZDB-PUB-961014-576]
+def: "Unsegmented field of paraxial mesoderm present posterior to the most recently formed somite pair, from which somites will form." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-576]
 synonym: "presomitic mesoderm" EXACT []
 synonym: "PSM" EXACT []
 xref: TAO:0000279
@@ -3468,7 +3471,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000297
 name: vagal lobe
 namespace: zebrafish_anatomy
-def: "The multi-tissue,  vagal lobe is a large, paired brain stem structure flanking the unpaired facial lobe laterally.  The vagal lobe contains motor and gustatory neurons. While some degree of histological segregation is apparent within the vagal lobe, a clear lamination, as seen in goldfish or carp is absent." [ZFIN:ZDB-PUB-961014-1280]
+def: "The multi-tissue,  vagal lobe is a large, paired brain stem structure flanking the unpaired facial lobe laterally.  The vagal lobe contains motor and gustatory neurons. While some degree of histological segregation is apparent within the vagal lobe, a clear lamination, as seen in goldfish or carp is absent." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-1280]
 synonym: "LX" EXACT [ZFIN:ZDB-PUB-961014-1280]
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
@@ -3572,7 +3575,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000305
 name: ventral sulcus
 namespace: zebrafish_anatomy
-def: "Groove that separates the paired inferior (or lateral) lobes of the hypothalamus from the tuberal hypothalamus." [http://en.wikipedia.org/wiki/Hypothalamic_sulcus]
+def: "Groove that separates the paired inferior (or lateral) lobes of the hypothalamus from the tuberal hypothalamus." [GOC:mh, http://en.wikipedia.org/wiki/Hypothalamic_sulcus, ORCiD:0000-0001-9114-8737]
 synonym: "hypothalamic sulcus" RELATED []
 xref: TAO:0000305
 is_a: ZFA:0001690 ! groove
@@ -3618,7 +3621,7 @@ relationship: start ZFS:0000041 ! Larval:Days 21-29
 id: ZFA:0000309
 name: E-YSL
 namespace: zebrafish_anatomy
-def: "The portion of the YSL that is outside of the blastoderm margin during epiboly." [ZFIN:ZDB-PUB-961014-576]
+def: "The portion of the YSL that is outside of the blastoderm margin during epiboly." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-576]
 synonym: "external yolk syncytial layer" EXACT [ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000309
 is_a: ZFA:0001477 ! portion of tissue
@@ -3654,7 +3657,7 @@ relationship: start ZFS:0000042 ! Juvenile:Days 30-44
 id: ZFA:0000312
 name: mesencephalic nucleus of trigeminal nerve
 namespace: zebrafish_anatomy
-def: "Sensory trigeminal nucleus located at the tectal ventricle near the synencephalon and optic tectum  that contains large pyriform neurons.  The sensory fibers of the large pyriform neurons that run peripherally in the trigeminal nerve." [ZFIN:ZDB-PUB-961014-1280]
+def: "Sensory trigeminal nucleus located at the tectal ventricle near the synencephalon and optic tectum  that contains large pyriform neurons.  The sensory fibers of the large pyriform neurons that run peripherally in the trigeminal nerve." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-1280]
 synonym: "mesencephalic nuclei of trigeminal nerves" EXACT PLURAL []
 xref: TAO:0000312
 is_a: ZFA:0000433 ! sensory trigeminal nucleus
@@ -3861,7 +3864,7 @@ relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 id: ZFA:0000329
 name: chorion
 namespace: zebrafish_anatomy
-def: "The egg shell." [ZFIN:ZDB-PUB-961014-576]
+def: "The egg shell." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000329
 is_a: ZFA:0000020 ! extraembryonic structure
 relationship: end ZFS:0000032 ! Pharyngula:High-pec
@@ -4092,8 +4095,9 @@ is_obsolete: true
 id: ZFA:0000349
 name: epaxialis
 namespace: zebrafish_anatomy
+def: "Skeletal muscle that is the dorsal-most component of the body musculature. The anterior region attaches to the back of the cranial vault and the dorsal region of the pectoral girdle. The epaxialis is bound to the skin by fibrous connective tissue and internally it inserts over the dorsal portion of the vertebral centra and fin pterygiophores and the neural spines. Posteriorly the epaxialis overlies the modified muscle of the caudal fin and inserts onto the dorsal ray bases of the fin. The anterior epaxial plays a role in feeding and the posterior region is central to locomotion." [GOC:cvs, ISBN:0125296509, ORCiD:0000-0002-2244-7917]
 xref: TAO:0000349
-is_a: ZFA:0005145 ! muscle
+is_a: ZFA:0005277 ! skeletal muscle
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000473 ! trunk musculature
 relationship: start ZFS:0000000 ! Unknown
@@ -4164,7 +4168,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000355
 name: roof plate midbrain region
 namespace: zebrafish_anatomy
-def: "Roof plate that is part of the midbrain." [GOC:GOC\:CVS, GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "Roof plate that is part of the midbrain." [GOC:CVS, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 xref: TAO:0000355
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000029 ! Pharyngula:Prim-5
@@ -8504,7 +8508,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000725
 name: somite 11
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000725
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8514,7 +8518,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000726
 name: somite 14
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000726
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8524,7 +8528,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000727
 name: somite 17
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000727
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8534,7 +8538,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000728
 name: somite 2
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000728
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8555,7 +8559,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000730
 name: somite 23
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000730
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8565,7 +8569,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000731
 name: somite 27
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000731
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8575,7 +8579,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000732
 name: somite 3
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000732
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8585,7 +8589,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000733
 name: somite 7
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000733
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9951,7 +9955,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000851
 name: somite 12
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000851
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9961,7 +9965,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000852
 name: somite 15
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000852
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9971,7 +9975,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000853
 name: somite 18
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000853
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9981,7 +9985,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000854
 name: somite 21
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000854
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9991,7 +9995,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000855
 name: somite 24
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000855
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10001,7 +10005,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000856
 name: somite 28
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000856
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10011,7 +10015,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000857
 name: somite 4
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000857
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10021,7 +10025,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000858
 name: somite 8
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000858
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11346,7 +11350,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000974
 name: somite 10
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000974
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11356,7 +11360,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000975
 name: somite 13
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000975
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11366,7 +11370,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000976
 name: somite 16
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000976
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11376,7 +11380,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000977
 name: somite 19
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000977
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11386,7 +11390,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000978
 name: somite 22
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000978
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11407,7 +11411,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000980
 name: somite 25
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000980
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11417,7 +11421,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000981
 name: somite 29
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000981
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11427,7 +11431,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000982
 name: somite 6
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000982
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11437,7 +11441,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000983
 name: somite 9
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000983
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12832,7 +12836,6 @@ subset: cell_slim
 synonym: "egg" RELATED []
 xref: CL:0000023
 xref: TAO:0001109
-xref: ZFIN:ZFA\:0009008
 is_a: ZFA:0009000 ! cell
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001110 ! ovarian follicle
@@ -14588,7 +14591,8 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001263
 name: ovarian follicle stage I
 namespace: zebrafish_anatomy
-def: "Stage I follicles (less than 140 microns) are primary growth stage." [ZFIN:ZDB-PUB-961014-1020]
+def: "Stage I follicles (less than 140 microns) contain a stage 1 oocyte and are in the primary growth stage." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-1020]
+synonym: "ovarian follicle stage 1" EXACT []
 synonym: "previtellogenic ovarian follicle" EXACT []
 xref: TAO:0001263
 is_a: ZFA:0001110 ! ovarian follicle
@@ -14599,8 +14603,9 @@ relationship: start ZFS:0000042 ! Juvenile:Days 30-44
 id: ZFA:0001264
 name: ovarian follicle stage IV
 namespace: zebrafish_anatomy
-def: "Stage IV (690-730 microns) are oocyte maturation." [ZFIN:ZDB-PUB-961014-1020]
+def: "Stage IV follicles (690-730 microns) contain a stage 4 oocyte and are considered mature." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-1020]
 synonym: "mature ovarian follicle" EXACT []
+synonym: "ovarian follicle stage 4" EXACT []
 xref: TAO:0001264
 is_a: ZFA:0001110 ! ovarian follicle
 relationship: end ZFS:0000044 ! Adult
@@ -14610,7 +14615,8 @@ relationship: start ZFS:0000042 ! Juvenile:Days 30-44
 id: ZFA:0001265
 name: ovarian follicle stage II
 namespace: zebrafish_anatomy
-def: "Stage II follicles (140-340 microns) are cortical alveolus stage." [ZFIN:ZDB-PUB-961014-1020]
+def: "Stage II follicles (140-340 microns) contain a stage 2 oocyte." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-1020]
+synonym: "ovarian follicle stage 2" EXACT []
 synonym: "ovarian follicles stage II" EXACT PLURAL []
 xref: TAO:0001265
 is_a: ZFA:0001110 ! ovarian follicle
@@ -14621,7 +14627,8 @@ relationship: start ZFS:0000042 ! Juvenile:Days 30-44
 id: ZFA:0001266
 name: ovarian follicle stage III
 namespace: zebrafish_anatomy
-def: "Stage III (340-690 microns) are vitellogenesis." [ZFIN:ZDB-PUB-961014-1020]
+def: "Stage III follicles (340-690 microns) contain a stage 3 oocyte." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-1020]
+synonym: "ovarian follicle stage 3" EXACT []
 synonym: "ovarian follicles stage III" EXACT PLURAL []
 xref: TAO:0001266
 is_a: ZFA:0001110 ! ovarian follicle
@@ -18066,10 +18073,13 @@ relationship: start ZFS:0000039 ! Larval:Days 7-13
 id: ZFA:0001565
 name: oocyte stage II
 namespace: zebrafish_anatomy
-def: "Oocyte part of stage II ovarian follicle." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Oocyte part of stage II ovarian follicle.  The stage II oocytes are characterized by the presence of cortical alveoli, a tripartite zona radiata (vitelline envelope), and a central germinal vesicle." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-140513-387]
 comment: In stage II (cortical alveolus stage), oocytes are distinguished by the appearance of variably sized cortical alveoli and the vitelline envelope becomes prominent, ZDB-PUB-961014-1020.
 subset: cell_slim
+synonym: "cortical-alveolar oocyte" EXACT []
 synonym: "oocytes stage II" EXACT PLURAL []
+synonym: "previtellogenic oocyte" RELATED [ZFIN:ZDB-PUB-140513-387]
+synonym: "Stage 2 oocyte" EXACT []
 xref: TAO:0001565
 is_a: ZFA:0001109 ! oocyte
 relationship: end ZFS:0000044 ! Adult
@@ -18080,10 +18090,13 @@ relationship: start ZFS:0000043 ! Juvenile:Days 45-89
 id: ZFA:0001566
 name: oocyte stage III
 namespace: zebrafish_anatomy
-def: "Oocyte part of stage III ovarian follicle." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Oocyte part of stage III ovarian follicle.  Stage III oocytes contain internal vitellus droplets and peripheral yolk vesicles." [GOC:CVS, GOC:mh, ORCiD:0000-0001-9114-8737, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-140513-387]
 comment: In stage III (vitellogenesis), yolk proteins appear in oocytes and yolk bodies with crystalline yolk accrue during this major growth stage. Oocytes develop the capacity to respond in vitro to the steroid 17, 20-dihydroxy-4-pregnen-3-one (DHP) by undergoing oocyte maturation  ZDB-PUB-961014-1020.
 subset: cell_slim
 synonym: "oocytes stage III" EXACT PLURAL []
+synonym: "postvitellogenic oocyte" RELATED [ZFIN:ZDB-PUB-140513-387]
+synonym: "Stage 3 oocyte" EXACT []
+synonym: "vitellogenic oocytes" EXACT []
 xref: TAO:0001566
 is_a: ZFA:0001109 ! oocyte
 relationship: end ZFS:0000044 ! Adult
@@ -18094,10 +18107,13 @@ relationship: start ZFS:0000043 ! Juvenile:Days 45-89
 id: ZFA:0001567
 name: oocyte stage I
 namespace: zebrafish_anatomy
-def: "Oocyte part of stage I ovarian follicle." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Oocyte part of stage I ovarian follicle. Stage I oocytes are basophilic, and have relatively large nuclei." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-140513-387]
 comment: Oocytes reside in nests with other oocytes (Stage IA) and then within a definitive follicle (Stage IB), where they greatly increase in size ZDB-PUB-961014-1020.
 subset: cell_slim
 synonym: "oocytes stage I" EXACT PLURAL []
+synonym: "previtellogenic oocyte" RELATED [ZFIN:ZDB-PUB-140513-387]
+synonym: "primary oocyte" EXACT []
+synonym: "Stage 1 oocyte" EXACT []
 xref: TAO:0001567
 is_a: ZFA:0001109 ! oocyte
 relationship: end ZFS:0000044 ! Adult
@@ -18108,10 +18124,13 @@ relationship: start ZFS:0000043 ! Juvenile:Days 45-89
 id: ZFA:0001568
 name: oocyte stage IV
 namespace: zebrafish_anatomy
-def: "Oocyte part of stage IV ovarian follicle." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Oocyte part of stage IV ovarian follicle. Stage IV oocytes are large and filled with noncrystalline yolky bodies." [GOC:CVS, GOC:mh, ORCiD:0000-0001-9114-8737, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-140513-387]
 comment: In stage IV (oocyte maturation), oocytes increase slightly in size, become translucent, and their yolk becomes non-crystalline as they undergo final meiotic maturation in vivo (and in response to DHP in vitro).  ZDB-PUB-961014-1020.
 subset: cell_slim
+synonym: "mature oocytes" EXACT []
 synonym: "oocytes stage IV" EXACT PLURAL []
+synonym: "postvitellogenic oocyte" RELATED [ZFIN:ZDB-PUB-140513-387]
+synonym: "Stage 4 oocyte" EXACT []
 xref: TAO:0001568
 is_a: ZFA:0001109 ! oocyte
 relationship: end ZFS:0000044 ! Adult
@@ -18152,6 +18171,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001571
 name: postovulatory follicle
 namespace: zebrafish_anatomy
+def: "A follicle that has undergone ovulation and no longer contains an oocyte." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 synonym: "postovulatory follicles" EXACT PLURAL []
 xref: TAO:0001571
 is_a: ZFA:0001110 ! ovarian follicle
@@ -18367,7 +18387,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001590
 name: dermal bone
 namespace: zebrafish_anatomy
-def: "Intramembranous bone that forms superficially in the organism.  Dermal bodes develop from the direct differentiation of mesenchymal cells into osteoblasts." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-120529-44]
+def: "Intramembranous bone that forms superficially in the organism.  Dermal bones develop from the direct differentiation of mesenchymal cells into osteoblasts." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-120529-44]
 synonym: "dermal bones" EXACT PLURAL []
 xref: TAO:0001590
 is_a: ZFA:0001635 ! intramembranous bone
@@ -28242,7 +28262,7 @@ creation_date: 2012-04-24T12:26:31Z
 id: ZFA:0005641
 name: maxillo-mandibular ligament
 namespace: zebrafish_anatomy
-def: "Ligament that connects the dentary to the maxilla." [ZFIN:ZDB-PUB-961014-192]
+def: "Ligament that connects the dentary to the maxilla." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
 is_a: ZFA:0001675 ! ligament
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -28253,7 +28273,7 @@ creation_date: 2012-04-24T01:00:12Z
 id: ZFA:0005642
 name: maxillo-rostroid ligament
 namespace: zebrafish_anatomy
-def: "Ligament that connects the  rostral process of the maxilla  to the kinethmoid." [ZFIN:ZDB-PUB-961014-192]
+def: "Ligament that connects the  rostral process of the maxilla  to the kinethmoid." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
 is_a: ZFA:0001675 ! ligament
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -28264,7 +28284,7 @@ creation_date: 2012-04-24T01:00:52Z
 id: ZFA:0005643
 name: premaxillo-rostroid ligament
 namespace: zebrafish_anatomy
-def: "Ligament that, in the adult, attaches the premaxilla to its counterpart at the midline and the kinethmoid posterodorsally." [ZFIN:ZDB-PUB-961014-192]
+def: "Ligament that, in the adult, attaches the premaxilla to its counterpart at the midline and the kinethmoid posterodorsally." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
 is_a: ZFA:0001675 ! ligament
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -28275,7 +28295,7 @@ creation_date: 2012-04-24T01:03:14Z
 id: ZFA:0005644
 name: ceratobranchial 5 ligament
 namespace: zebrafish_anatomy
-def: "The ligament that connects the anteroventral tips of ceratobranchials 5 medially." [ZFIN:ZDB-PUB-961014-192]
+def: "The ligament that connects the anteroventral tips of ceratobranchials 5 medially." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
 is_a: ZFA:0001675 ! ligament
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -28286,7 +28306,7 @@ creation_date: 2012-04-24T01:03:58Z
 id: ZFA:0005645
 name: supracleithrum-intercalar ligament
 namespace: zebrafish_anatomy
-def: "Short ligament that runs from the hooked anterior end of the supracleithrum to the intercalar." [ZFIN:ZDB-PUB-961014-192]
+def: "Short ligament that runs from the hooked anterior end of the supracleithrum to the intercalar." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
 is_a: ZFA:0001675 ! ligament
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -28297,7 +28317,7 @@ creation_date: 2012-04-24T01:04:45Z
 id: ZFA:0005646
 name: preopercle-retroarticular ligament
 namespace: zebrafish_anatomy
-def: "Ligament that connects the  preopercle to the retroarticular anteroventrally." [ZFIN:ZDB-PUB-961014-192]
+def: "Ligament that connects the  preopercle to the retroarticular anteroventrally." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
 is_a: ZFA:0001675 ! ligament
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -28356,7 +28376,7 @@ creation_date: 2012-05-08T03:51:06Z
 id: ZFA:0005651
 name: primitive pectoral fin abductor
 namespace: zebrafish_anatomy
-def: "Abductor that originates at the cleithrum the muscle fibers run in sheets along the endoskeletal disk extending dorsally and caudally from its base. Distally, the muscles insert onto the fin membrane." [ZFIN:ZDB-PUB-050920-7]
+def: "Abductor that originates at the cleithrum the muscle fibers run in sheets along the endoskeletal disk extending dorsally and caudally from its base. Distally, the muscles insert onto the fin membrane." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050920-7]
 is_a: ZFA:0005269 ! abductor muscle
 relationship: end ZFS:0000040 ! Larval:Days 14-20
 relationship: start ZFS:0000000 ! Unknown
@@ -28379,7 +28399,7 @@ creation_date: 2012-06-15T10:41:21Z
 id: ZFA:0005653
 name: vagal sensory zone
 namespace: zebrafish_anatomy
-def: "Portion of tissue in the vagal lobe that contains GABAergic sensory interneurons." [ZFIN:ZDB-PUB-120409-2]
+def: "Portion of tissue in the vagal lobe that contains GABAergic sensory interneurons." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120409-2]
 is_a: ZFA:0000297 ! vagal lobe
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
@@ -28463,7 +28483,7 @@ creation_date: 2013-03-07T12:15:28Z
 id: ZFA:0005660
 name: intestinal mucosa
 namespace: zebrafish_anatomy
-def: "Multi-tissue structure of the intestine comprising of the intestinal epithelium and the intestinal lamina propria mucosa." [ZFIN:ZDB-PUB-050120-6]
+def: "Multi-tissue structure of the intestine comprising of the intestinal epithelium and the intestinal lamina propria mucosa." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050120-6]
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001338 ! intestine
@@ -28475,7 +28495,7 @@ creation_date: 2013-03-07T12:18:22Z
 id: ZFA:0005661
 name: olfactory bulb glomerulus
 namespace: zebrafish_anatomy
-def: "Multi-tissue structure part of the olfactory bulb  that  is roughly spheroidal and encircled by olfactory sensory neuron axons that formed an anatomically distinct stalk  connected to the olfactory nerve." [ZFIN:ZDB-PUB-120516-14]
+def: "Multi-tissue structure part of the olfactory bulb  that  is roughly spheroidal and encircled by olfactory sensory neuron axons that formed an anatomically distinct stalk  connected to the olfactory nerve." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0005668 ! olfactory bulb protoglomerulus
 relationship: end ZFS:0000044 ! Adult
@@ -28488,7 +28508,7 @@ creation_date: 2013-03-19T02:15:11Z
 id: ZFA:0005662
 name: spinal nerve
 namespace: zebrafish_anatomy
-def: "Bilaterally-paired nerve connecting each segment of the spinal cord to the limbs and organs." [ZFIN:ZDB-PUB-961014-1247, ZFIN:ZDB-PUB-961014-814]
+def: "Bilaterally-paired nerve connecting each segment of the spinal cord to the limbs and organs." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-1247, ZFIN:ZDB-PUB-961014-814]
 is_a: ZFA:0007009 ! nerve
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000142 ! peripheral nervous system
@@ -28500,7 +28520,7 @@ creation_date: 2013-03-19T04:04:36Z
 id: ZFA:0005663
 name: dorsal spinal nerve
 namespace: zebrafish_anatomy
-def: "Dorsal branch of the spinal nerve, coursing dorsally and caudally between the muscle and the vertebrae. It remains in the center of the muscle segment and could be followed to the dorsal aspect of the muscle. MiP primary motoneuron axons extend in this branch." [ZFIN:ZDB-PUB-961014-1247, ZFIN:ZDB-PUB-961014-814]
+def: "Dorsal branch of the spinal nerve, coursing dorsally and caudally between the muscle and the vertebrae. It remains in the center of the muscle segment and could be followed to the dorsal aspect of the muscle. MiP primary motoneuron axons extend in this branch." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-1247, ZFIN:ZDB-PUB-961014-814]
 synonym: "dorsal nerve" EXACT []
 is_a: ZFA:0005662 ! spinal nerve
 relationship: end ZFS:0000044 ! Adult
@@ -28512,7 +28532,7 @@ creation_date: 2013-03-19T04:08:16Z
 id: ZFA:0005664
 name: lateral spinal nerve
 namespace: zebrafish_anatomy
-def: "Ventral branch of the spinal nerve that projects toward the lateral surface of the myotome, initially extending parallel to the horizontal myoseptum. RoP primary motoneuron axons extend in this branch." [ZFIN:ZDB-PUB-961014-1247, ZFIN:ZDB-PUB-961014-814]
+def: "Ventral branch of the spinal nerve that projects toward the lateral surface of the myotome, initially extending parallel to the horizontal myoseptum. RoP primary motoneuron axons extend in this branch." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-1247, ZFIN:ZDB-PUB-961014-814]
 synonym: "lateral nerve" EXACT []
 is_a: ZFA:0005662 ! spinal nerve
 relationship: end ZFS:0000044 ! Adult
@@ -28524,7 +28544,7 @@ creation_date: 2013-03-19T04:09:27Z
 id: ZFA:0005665
 name: ventral spinal nerve
 namespace: zebrafish_anatomy
-def: "Ventral spinal nerve branch that projects to the ventral myotome. The axon of the CaP primary motoneuron extends in this branch." [ZFIN:ZDB-PUB-961014-1247]
+def: "Ventral spinal nerve branch that projects to the ventral myotome. The axon of the CaP primary motoneuron extends in this branch." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-1247]
 synonym: "ventral nerve" EXACT []
 is_a: ZFA:0005662 ! spinal nerve
 relationship: end ZFS:0000044 ! Adult
@@ -28536,7 +28556,7 @@ creation_date: 2013-03-19T04:11:19Z
 id: ZFA:0005666
 name: ventral spinal nerve septal branch
 namespace: zebrafish_anatomy
-def: "Ventral spinal nerve sub-branch that runs near the rostral end of the myotome near the vertical myoseptum." [ZFIN:ZDB-PUB-961014-1247]
+def: "Ventral spinal nerve sub-branch that runs near the rostral end of the myotome near the vertical myoseptum." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-1247]
 is_a: ZFA:0005665 ! ventral spinal nerve
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -29572,7 +29592,7 @@ creation_date: 2013-07-29T11:03:15Z
 id: ZFA:0005744
 name: notochord outer sheath cell
 namespace: zebrafish_anatomy
-def: "Cells that  form an epithelial-like sheath around the vacuolated inner notochord cells. Outer cells secrete a thick extracellular perinotochordal basement membrane." [ZFIN:ZDB-PUB-130322-23]
+def: "Cells that  form an epithelial-like sheath around the vacuolated inner notochord cells. Outer cells secrete a thick extracellular perinotochordal basement membrane." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-130322-23]
 subset: cell_slim
 synonym: "notochord sheath cell" RELATED []
 xref: CL:0007007
@@ -29600,7 +29620,7 @@ creation_date: 2013-07-30T04:14:44Z
 id: ZFA:0005746
 name: notochord inner cell
 namespace: zebrafish_anatomy
-def: "Structural cell of notochord that contain one large fluid-filled intracellular vacuole that occupies most of the cell volume." [ZFIN:ZDB-PUB-130322-23]
+def: "Structural cell of notochord that contain one large fluid-filled intracellular vacuole that occupies most of the cell volume." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-130322-23]
 subset: cell_slim
 synonym: "chordocytes" EXACT []
 is_a: ZFA:0005745 ! structural cell
@@ -30960,7 +30980,7 @@ is_a: ZFA:0000694 ! ceratobranchial 5 tooth
 relationship: end ZFS:0000000 ! Unknown
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
-creation_date: 2015-07-01T16:53:58Z
+creation_date: 2015-07-01T04:53:58Z
 
 [Term]
 id: ZFA:0005852
@@ -30972,7 +30992,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001137 ! ventral tooth row
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
-creation_date: 2015-07-01T16:55:16Z
+creation_date: 2015-07-01T04:55:16Z
 
 [Term]
 id: ZFA:0005853
@@ -31043,7 +31063,7 @@ is_a: ZFA:0005250 ! capillary
 relationship: end ZFS:0000043 ! Juvenile:Days 45-89
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2015-08-17T16:43:51Z
+creation_date: 2015-08-17T04:43:51Z
 
 [Term]
 id: ZFA:0005859
@@ -31054,7 +31074,7 @@ is_a: ZFA:0001596 ! joint
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2015-09-09T13:15:07Z
+creation_date: 2015-09-09T01:15:07Z
 
 [Term]
 id: ZFA:0005860
@@ -31065,7 +31085,7 @@ is_a: ZFA:0001596 ! joint
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2015-09-09T13:28:54Z
+creation_date: 2015-09-09T01:28:54Z
 
 [Term]
 id: ZFA:0005861
@@ -31076,7 +31096,31 @@ is_a: ZFA:0001596 ! joint
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2015-09-09T13:33:46Z
+creation_date: 2015-09-09T01:33:46Z
+
+[Term]
+id: ZFA:0005862
+name: ovarian lymph vessel
+namespace: zebrafish_anatomy
+def: "Lymph vessels within the ovary.  These vessels are located in the interstitium between ovarian follicles and  appear to envelop arterioles." [GOC:CVS, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-130218-10]
+is_a: ZFA:0005844 ! lymph vessel
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000040 ! Larval:Days 14-20
+created_by: Ceri
+creation_date: 2015-10-28T12:00:39Z
+
+[Term]
+id: ZFA:0005863
+name: pectoral protractor
+namespace: zebrafish_anatomy
+def: "Pectoral fin muscle.  Links pectoral fin and branchial movement and stabilizes the pectoral girdle.  Thought to be the teleost homologue of the cucullaris muscle group." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-110803-26]
+synonym: "protractor pectoralis" EXACT [ZFIN:ZDB-PUB-110803-26]
+is_a: ZFA:0005145 ! muscle
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000563 ! pectoral fin musculature
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2015-10-28T16:41:12Z
 
 [Term]
 id: ZFA:0006000
@@ -35848,7 +35892,9 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009280
 name: Muller cell
 namespace: zebrafish_anatomy
+def: "Glial cell of the retina that forms a support structure stretching radially across the thickness of the retina. Muller cell bodies are found in  the inner nuclear layer and send projection to the outer limiting membrane and inner limiting membrane." [GOC:cvs, GOC:ymb, http://webvision.med.utah.edu/book/part-ii-anatomy-and-physiology-of-the-retina/glial-cells-of-the-retina/, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
+synonym: "Mueller cell" EXACT [ZFIN:ZDB-PUB-150220-2]
 synonym: "Muller cells" EXACT PLURAL []
 xref: CL:0000636
 xref: TAO:0009280
