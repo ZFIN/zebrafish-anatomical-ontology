@@ -10,6 +10,7 @@ treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: TAO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: VSAO part_of NCBITaxon:7955
+ontology: zfa
 
 [Term]
 id: ZFA:0000000
