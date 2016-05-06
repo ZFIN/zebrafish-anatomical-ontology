@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 02:11:2015 14:34
-saved-by: yvonne
-auto-generated-by: OBO-Edit 2.3-beta5
+date: 08:04:2016 13:41
+saved-by: Ceri
+auto-generated-by: OBO-Edit 2.1
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_anatomical_ontology
@@ -529,6 +529,7 @@ namespace: zebrafish_anatomy
 def: "A cell population arising from the dorsolateral aspect of the central nervous system primordium during the segmentation period, and later migrating along stereotyped pathways to give rise to a diverse and well-defined set of cell types including pigment cells, peripheral neurons and glia, and head cartilage." [ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000045
 is_a: ZFA:0001477 ! portion of tissue
+relationship: develops_from ZFA:0007082 ! neural plate border
 relationship: end ZFS:0000031 ! Pharyngula:Prim-25
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
@@ -797,6 +798,7 @@ id: ZFA:0000071
 name: shield
 namespace: zebrafish_anatomy
 def: "Embryonic structure that is a local accumulation of cells along the germ ring.  The shield marks the dorsal side of the embryo." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-576]
+synonym: "dorsal organizer" EXACT []
 synonym: "organizer" EXACT []
 synonym: "Spemann Mangold organizer" EXACT []
 synonym: "Spemann's organizer" EXACT []
@@ -841,7 +843,7 @@ id: ZFA:0000075
 name: spinal cord
 namespace: zebrafish_anatomy
 alt_id: ZFA:0001664
-synonym: "medulla spinalis" EXACT []
+synonym: "medulla spinalis" EXACT [ZFIN:ZDB-PUB-961014-1280]
 synonym: "spinal cord structure" RELATED []
 xref: TAO:0000075
 is_a: ZFA:0001490 ! cavitated compound organ
@@ -1286,6 +1288,7 @@ synonym: "hindbrain ventricle" EXACT []
 synonym: "rhombencephalic ventricle" EXACT []
 synonym: "rhombencephalic vesicle" EXACT []
 synonym: "ventricle IV" EXACT []
+synonym: "ventriculus rhombencephali" EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000110
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
@@ -1842,6 +1845,7 @@ synonym: "medial tectal ventricle" EXACT []
 synonym: "mesencephalic ventricle" EXACT []
 synonym: "mesencephalic vesicle" EXACT []
 synonym: "midbrain ventricle" EXACT []
+synonym: "ventriculus mesencephali" EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000159
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
@@ -1873,7 +1877,7 @@ def: "Fluid-filled brain cavity." [ZFIN:ZDB-PUB-961014-576]
 synonym: "3rd ventricle" EXACT []
 synonym: "diencephalic ventricle" EXACT []
 synonym: "diencephalic vesicle" EXACT []
-synonym: "ventriculus diencephali" EXACT []
+synonym: "ventriculus diencephali" EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000161
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0001259 ! forebrain ventricle
@@ -1917,8 +1921,10 @@ id: ZFA:0000165
 name: inferior lobe
 namespace: zebrafish_anatomy
 def: "Multi-tissue structure that is a paired nucleus located in the lateral expansion of the dorsal hypothalamic zone." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
+synonym: "inferior lobe of hypothalamus" EXACT [ZFIN:ZDB-PUB-961014-1280]
 synonym: "inferior lobes" EXACT PLURAL []
 synonym: "lateral lobe of hypothalamus" EXACT []
+synonym: "lobus inferior hypothalami" EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000165
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
@@ -2188,6 +2194,7 @@ name: corpus cerebelli
 namespace: zebrafish_anatomy
 def: "Brain structure which is one of three parts of the cerebellum and is the entry point for a posterior cerebellar tract that carries cerebellar afferents from many brain stem nuclei. From Neuroanatomy of the Zebrafish Brain." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
 synonym: "cerebellar corpus" EXACT []
+synonym: "corpus cerebelli granular layer " EXACT [ZFIN:ZDB-PUB-961014-1280]
 synonym: "corpus cerebellum" EXACT PLURAL []
 xref: TAO:0000188
 is_a: ZFA:0001488 ! multi-tissue structure
@@ -2692,10 +2699,13 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000231
 name: lateral recess
 namespace: zebrafish_anatomy
-def: "Lateral protrusion of the third ventricle." [GOC:mh, ORCiD:0000-0001-9114-8737]
+alt_id: ZFA:0005493
+def: "Intracranial space formed by confluence of supraorbital, infraorbital, preopercular and temporal sensory canals that forms the lateral protrusion of the third ventricle.See also Di Dario (2004)." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917]
 synonym: "lateral recess of diencephalic ventricle" EXACT [ZFIN:ZDB-PUB-091221-27]
 synonym: "lateral recesses" EXACT PLURAL []
+synonym: "recessus lateralis" EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000231
+xref: TAO:0001799
 is_a: ZFA:0001643 ! anatomical space
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000161 ! third ventricle
@@ -2950,6 +2960,7 @@ name: optic tract
 namespace: zebrafish_anatomy
 def: "Diencephalic white matter (tract) which is comprised of retinal ganglion cell axons after which they have passed through the optic chiasm." [GOC:mh, ORCiD:0000-0001-9114-8737]
 synonym: "optic tracts" EXACT PLURAL []
+synonym: "tractus opticus" EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000252
 is_a: ZFA:0000338 ! diencephalic white matter
 relationship: end ZFS:0000044 ! Adult
@@ -3633,7 +3644,7 @@ relationship: start ZFS:0000013 ! Blastula:Oblong
 id: ZFA:0000310
 name: cranial nerve VI
 namespace: zebrafish_anatomy
-def: "Cranial nerve which exits the medulla oblongata and controls the lateral movement of the eye. The caudal and rostral roots fuse together and course rostrally once they are outside the brainstem. From Neuroanatomy of the Zebrafish Brain." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
+def: "Cranial nerve which exits the medulla oblongata and controls the lateral movement of the eye. The caudal and rostral roots fuse together and course rostrally once they are outside the brainstem. The abducens nerve innervates the lateral rectus extraocular muscle." [GOC:mh, GOC:ymb, ISBN:3764351209, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-131119-12]
 synonym: "abducens nerve" EXACT []
 synonym: "CN-VI" EXACT []
 synonym: "nervus abducens" EXACT []
@@ -4673,7 +4684,7 @@ id: ZFA:0000402
 name: olfactory bulb
 namespace: zebrafish_anatomy
 def: "Brain structure which is the paired anteriormost part of the telencephalon and are connected to the telencephalon by two tracts carrying secondary olfactory fibers. From Neuroanatomy of the Zebrafish Brain.  The olfactory bulb is a paired structure." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
-synonym: "bulbus olfactorius" EXACT []
+synonym: "bulbus olfactorius" EXACT [ZFIN:ZDB-PUB-961014-1280]
 synonym: "olfactory lobe" EXACT []
 xref: TAO:0000402
 is_a: ZFA:0001488 ! multi-tissue structure
@@ -4710,6 +4721,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000405
 name: cranial nerve III
 namespace: zebrafish_anatomy
+def: "Cranial nerve which innervates muscles of the ocular motor system. The oculomotor nerve innervates the inferior oblique, inferior rectus, medial rectus and superior rectus extraocular muscles." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-131119-12]
 synonym: "CN-III" EXACT []
 synonym: "occulomotor" EXACT []
 synonym: "oculomotor nerve" EXACT []
@@ -5056,7 +5068,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000435
 name: cranial nerve II
 namespace: zebrafish_anatomy
-def: "Cranial nerve which is comprised of retinal ganglion cell axons running posterior medially towards the optic chiasm, at which some of the axons cross the midline and after which the structure is termed the optic tract." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Cranial nerve which is comprised of retinal ganglion cell axons running posterior medially towards the optic chiasm, at which the axons cross the midline and after which the structure is termed the optic tract." [GOC:mh, ORCiD:0000-0001-9114-8737]
 synonym: "CN-II" EXACT []
 synonym: "optic" EXACT []
 synonym: "optic nerve" EXACT []
@@ -5119,6 +5131,7 @@ namespace: zebrafish_anatomy
 def: "Hindbrain nucleus that is located in ventral rhombomeres 1-3 and gives rise to ascending fibers innervating most areas of the brain.  Early in development, both the superior raphe nucleus emits rostrally and caudally directed projections. However, in the adult, the long projections of superior raphe nucleus  restricted to anterior." [ZFIN:ZDB-PUB-081114-19]
 comment: May be homologous to the dorsal raphe nucleus of human mouse and rat. ZDB-PUB-081008-18.
 synonym: "anterior raphe nucleus" EXACT []
+synonym: "dorsal raphe nucleus" RELATED []
 xref: TAO:0000440
 is_a: ZFA:0001658 ! hindbrain nucleus
 relationship: end ZFS:0000044 ! Adult
@@ -5183,7 +5196,7 @@ synonym: "dorsal midbrain" EXACT []
 synonym: "mesencephalic tectum" EXACT []
 synonym: "tectal lobe" EXACT []
 synonym: "tectum" EXACT [ZFIN:ZDB-PUB-961014-576]
-synonym: "tectum opticum" EXACT []
+synonym: "tectum opticum" EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000445
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0001357 ! alar plate midbrain region
@@ -5961,6 +5974,7 @@ id: ZFA:0000511
 name: extraocular musculature
 namespace: zebrafish_anatomy
 def: "Muscle system surrounding the eye.  The extraocular musculature is derived from the neural crest. The extraocular muscles assume their adult configuration between 66 and 72 hpf.  They differentiate contemporaneously with the eye vesicle, form precise anatomic attachments to sclera and bone, and are innervated by cranial nerves 3, 4, and 6." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-110512-18, ZFIN:ZDB-PUB-970121-6]
+synonym: "ocular  musculature" RELATED []
 xref: TAO:0000511
 is_a: ZFA:0000328 ! cephalic musculature
 relationship: end ZFS:0000044 ! Adult
@@ -6014,6 +6028,7 @@ id: ZFA:0000516
 name: periventricular grey zone
 namespace: zebrafish_anatomy
 synonym: "periventricular grey zones" EXACT PLURAL []
+synonym: "PGZ" EXACT [ZFIN:ZDB-PUB-140919-7]
 xref: TAO:0000516
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
@@ -6178,7 +6193,7 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000163 ! renal system
 relationship: part_of ZFA:0001159 ! immune system
 relationship: part_of ZFA:0001656 ! pleuroperitoneal cavity
-relationship: start ZFS:0000027 ! Segmentation:20-25 somites
+relationship: start ZFS:0000037 ! Larval:Day 5
 
 [Term]
 id: ZFA:0000530
@@ -6365,7 +6380,7 @@ replaced_by: ZFA:0001646
 id: ZFA:0000545
 name: medulla oblongata
 namespace: zebrafish_anatomy
-def: "Brain structure that is located ventrocaudal to the cerebellum and just anterior to the spinal cord and contains the sensory and motor nuclei of six cranial nerves. In zebrafish, with the exception of the cerebellum, the ventral remainder of the metencephalon can be separated only arbitrarily from the more caudal myelencephalic portion of the medulla oblongata and thus these are not distinguished here." [ISBN:3764351209]
+def: "Brain structure that is located ventrocaudal to the cerebellum and just anterior to the spinal cord and contains the sensory and motor nuclei of six cranial nerves. In zebrafish, with the exception of the cerebellum, the ventral remainder of the metencephalon can be separated only arbitrarily from the more caudal myelencephalic portion of the medulla oblongata." [ISBN:3764351209]
 xref: TAO:0000545
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
@@ -6503,7 +6518,9 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000556
 name: optic chiasm
 namespace: zebrafish_anatomy
-def: "Decussation of cranial nerve II axons whereby some cross the midline and some remain ipsilateral." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Decussation of cranial nerve II axons whereby the retinal axons cross the midline, projecting contralaterally through the optic tract." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+synonym: "chiasma opticum" EXACT [ZFIN:ZDB-PUB-961014-1280]
+synonym: "optic commissure" EXACT []
 xref: TAO:0000556
 is_a: ZFA:0000338 ! diencephalic white matter
 relationship: end ZFS:0000044 ! Adult
@@ -7030,6 +7047,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000600
 name: cranial nerve IV
 namespace: zebrafish_anatomy
+def: "Cranial nerve that innervates the oculomotor system. The trochlear nerve is the only motor nerve to project dorsally and then cross the midline before exiting the neuroepithelium and re-orienting ventrally to project to the contralateral superior oblique extraocular muscle." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-131119-12]
 synonym: "CN-IV" EXACT []
 synonym: "trochlear" EXACT []
 synonym: "trochlear nerve" EXACT []
@@ -7425,6 +7443,8 @@ id: ZFA:0000634
 name: caudal hypothalamic zone
 namespace: zebrafish_anatomy
 def: "Multi-tissue structure which forms most of the median tuberal portion of the hypothalamus. From Neuroanatomy of the Zebrafish Brain." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
+synonym: "hypothalamus pars tuberalis " EXACT [ZFIN:ZDB-PUB-961014-1280]
+synonym: "tuberal hypothalamus" EXACT [ZFIN:ZDB-PUB-961014-1280]
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000392 ! median tuberal portion
@@ -7448,8 +7468,7 @@ name: cerebellar crest
 namespace: zebrafish_anatomy
 def: "Portion of tissue composed of parallel fibers that originate at the granular eminence that overlays the rhombencephalic lateral line region. Also termed the molecular layer." [GOC:ymb, ISBN:3540560130, ORCiD:0000-0002-9900-7880]
 comment: Not sure how much of the molecular layer is cerebellar crest.
-synonym: "crista cerebellaris" EXACT []
-synonym: "molecular layer" RELATED []
+synonym: "crista cerebellaris molecular layer" EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000636
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
@@ -8123,6 +8142,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000693
 name: tangential nucleus
 namespace: zebrafish_anatomy
+def: "The tangential nucleus is located in rhombomere 5 and receives a dense utricular input.   Tangential nucleus neurons project contralaterally to extraocular motoneurons and to multiple sites within the reticulospinal complex; unlike other classes of vestibular neuron, they modulate their firing in response to static head displacements." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120702-13, ZFIN:ZDB-PUB-160324-18]
 xref: TAO:0000693
 is_a: ZFA:0000401 ! octaval nerve sensory nucleus
 relationship: end ZFS:0000044 ! Adult
@@ -8162,6 +8182,7 @@ name: telencephalic ventricle
 namespace: zebrafish_anatomy
 synonym: "lateral ventricle" EXACT []
 synonym: "telencephalic vesicle" EXACT []
+synonym: "ventriculi telencephali " EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000696
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0001259 ! forebrain ventricle
@@ -10224,9 +10245,8 @@ name: facial neural crest
 namespace: zebrafish_anatomy
 def: "Cranial neural crest that is part of the facial region." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 xref: TAO:0000875
-is_a: ZFA:0001194 ! cranial neural crest
-relationship: end ZFS:0000028 ! Segmentation:26+ somites
-relationship: start ZFS:0000024 ! Segmentation:5-9 somites
+is_obsolete: true
+consider: ZFA:0001194
 
 [Term]
 id: ZFA:0000876
@@ -10995,6 +11015,7 @@ namespace: zebrafish_anatomy
 def: "Diencephalic nucleus that is part of the synencephalon, is located adjacent to the caudal commissure, and extends axons into the medial longitudinal fasciculus. From Neuroanatomy of the Zebrafish Brain." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
 xref: TAO:0000941
 is_a: ZFA:0001659 ! diencephalic nucleus
+relationship: develops_from ZFA:0005871 ! region of the nucleus of the medial longitudinal fascicle
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000293 ! synencephalon
 relationship: start ZFS:0000000 ! Unknown
@@ -11890,6 +11911,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0001024
 name: trunk neural crest
 namespace: zebrafish_anatomy
+def: "Neural crest that is part of the trunk." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 xref: TAO:0001024
 is_a: ZFA:0000045 ! neural crest
 relationship: end ZFS:0000031 ! Pharyngula:Prim-25
@@ -11927,6 +11949,7 @@ name: oral cavity
 namespace: zebrafish_anatomy
 def: "Space within the oral region." [GOC:mh, ORCiD:0000-0001-9114-8737]
 synonym: "buccal cavity" EXACT []
+synonym: "buccal chamber" EXACT []
 xref: TAO:0001027
 is_a: ZFA:0001643 ! anatomical space
 relationship: end ZFS:0000044 ! Adult
@@ -13796,7 +13819,7 @@ namespace: zebrafish_anatomy
 def: "Neural crest that is part of the head." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 xref: TAO:0001194
 is_a: ZFA:0000045 ! neural crest
-relationship: end ZFS:0000028 ! Segmentation:26+ somites
+relationship: end ZFS:0000029 ! Pharyngula:Prim-5
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 
 [Term]
@@ -13864,7 +13887,6 @@ def: "Islands of eosinic cells found on the lateroventral surface of the kidney.
 xref: TAO:0001200
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000529 ! kidney
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
@@ -15580,7 +15602,7 @@ xref: TAO:0001346
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0001206 ! intermediate mesoderm
 relationship: end ZFS:0000035 ! Larval:Protruding-mouth
-relationship: part_of ZFA:0000529 ! kidney
+relationship: part_of ZFA:0000151 ! pronephros
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
@@ -16682,8 +16704,6 @@ id: ZFA:0001442
 name: upper rhombic lip
 namespace: zebrafish_anatomy
 def: "Anterior-most region of dorsal hindbrain within rhombomere 1, adjacent the midbrain-hindbrain boundary." [GOC:cvs, ORCiD:0000-0002-2244-7917]
-synonym: "cerebellar anlage" EXACT []
-synonym: "presumptive cerebellum" EXACT []
 xref: TAO:0001442
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000028 ! Segmentation:26+ somites
@@ -22309,20 +22329,6 @@ created_by: Ceri
 creation_date: 2009-06-18T04:38:21Z
 
 [Term]
-id: ZFA:0005182
-name: t-interneuron
-namespace: zebrafish_anatomy
-def: "Hindbrain interneuron that is located in the caudal hindbrain.  The T interneurons are reticular neurons named after the branching pattern of their axons. The T axons project across the midline, and branches course both rostrally and caudally within the medial longitudinal fascicle (mlf). The cells receive synaptic input from the Mauthner neurons, from unidentified axons in the mlf, and perhaps from trigeminal sensory fibers. They project to cranial and pectoral motor nuclei." [ZFIN:ZDB-PUB-961014-588]
-comment: This term is a leaf node in the zebrafish AO and is not in the CL.
-subset: cell_slim
-xref: TAO:0005182
-is_a: ZFA:0005209 ! hindbrain interneuron
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2009-06-18T04:44:30Z
-
-[Term]
 id: ZFA:0005183
 name: MiD2i
 namespace: zebrafish_anatomy
@@ -22332,6 +22338,7 @@ subset: cell_slim
 synonym: "middle dorsal 2 ipsilateral interneuron " EXACT []
 xref: TAO:0005183
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000823 ! rhombomere 5
 relationship: start ZFS:0000000 ! Unknown
@@ -22348,6 +22355,7 @@ subset: cell_slim
 synonym: "middle dorsal 2 contralateral llf interneuron " EXACT []
 xref: TAO:0005184
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000823 ! rhombomere 5
 relationship: start ZFS:0000000 ! Unknown
@@ -22364,6 +22372,7 @@ subset: cell_slim
 synonym: "middle dorsal 2 contralateral mlf interneuron " EXACT []
 xref: TAO:0005185
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000823 ! rhombomere 5
 relationship: start ZFS:0000000 ! Unknown
@@ -22394,6 +22403,7 @@ subset: cell_slim
 synonym: "middle medial interneuron " EXACT []
 xref: TAO:0005187
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001032 ! rhombomere 4
 relationship: start ZFS:0000000 ! Unknown
@@ -22409,6 +22419,7 @@ subset: cell_slim
 synonym: "middle rostral 1 interneuron " EXACT []
 xref: TAO:0005188
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001032 ! rhombomere 4
 relationship: start ZFS:0000000 ! Unknown
@@ -22424,6 +22435,7 @@ subset: cell_slim
 synonym: "middle rostral 2 interneuron " EXACT []
 xref: TAO:0005189
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000823 ! rhombomere 5
 relationship: start ZFS:0000000 ! Unknown
@@ -22439,6 +22451,7 @@ subset: cell_slim
 synonym: "middle ventral 1 neuron " EXACT []
 xref: TAO:0005190
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001032 ! rhombomere 4
 relationship: start ZFS:0000000 ! Unknown
@@ -22454,6 +22467,7 @@ subset: cell_slim
 synonym: "middle ventral 2 neuron " EXACT []
 xref: TAO:0005191
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000823 ! rhombomere 5
 relationship: start ZFS:0000000 ! Unknown
@@ -22469,6 +22483,7 @@ subset: cell_slim
 synonym: "rostral intermediate 2 caudal interneuron " EXACT []
 xref: TAO:0005192
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000822 ! rhombomere 2
 relationship: start ZFS:0000000 ! Unknown
@@ -22484,6 +22499,7 @@ subset: cell_slim
 synonym: "rostral intermediate 2 rostral interneuron " EXACT []
 xref: TAO:0005193
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000822 ! rhombomere 2
 relationship: start ZFS:0000000 ! Unknown
@@ -22500,6 +22516,7 @@ subset: cell_slim
 synonym: "rostral lateral 1 interneuron " EXACT []
 xref: TAO:0005194
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001031 ! rhombomere 1
 relationship: start ZFS:0000000 ! Unknown
@@ -22516,6 +22533,7 @@ subset: cell_slim
 synonym: "middle dorsal 3 contralateral llf interneuron " EXACT []
 xref: TAO:0005195
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000069 ! rhombomere 6
 relationship: start ZFS:0000000 ! Unknown
@@ -22532,6 +22550,7 @@ subset: cell_slim
 synonym: "middle dorsal 3 contralateral mlf interneuron " EXACT []
 xref: TAO:0005196
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000069 ! rhombomere 6
 relationship: start ZFS:0000000 ! Unknown
@@ -22548,6 +22567,7 @@ subset: cell_slim
 synonym: "middle dorsal 3 ipsilateral interneuron " EXACT []
 xref: TAO:0005197
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000069 ! rhombomere 6
 relationship: start ZFS:0000000 ! Unknown
@@ -22563,6 +22583,7 @@ subset: cell_slim
 synonym: "rostral lateral 2 interneuron " EXACT []
 xref: TAO:0005198
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000822 ! rhombomere 2
 relationship: start ZFS:0000000 ! Unknown
@@ -22608,6 +22629,7 @@ subset: cell_slim
 synonym: "rostral lateral 3 interneuron " EXACT []
 xref: TAO:0005201
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000948 ! rhombomere 3
 relationship: start ZFS:0000000 ! Unknown
@@ -22623,6 +22645,7 @@ subset: cell_slim
 synonym: "rostral medial 1 caudal interneuron " EXACT []
 xref: TAO:0005202
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001031 ! rhombomere 1
 relationship: start ZFS:0000000 ! Unknown
@@ -22638,6 +22661,7 @@ subset: cell_slim
 synonym: "rostral medial 1 rostral interneuron " EXACT []
 xref: TAO:0005203
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001031 ! rhombomere 1
 relationship: start ZFS:0000000 ! Unknown
@@ -22652,6 +22676,7 @@ def: "Hindbrain interneuron that is part of rhombomere 3 with three ventral neur
 subset: cell_slim
 synonym: "rostral ventral 3 interneuron " EXACT []
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000948 ! rhombomere 3
 relationship: start ZFS:0000000 ! Unknown
@@ -22667,6 +22692,7 @@ subset: cell_slim
 synonym: "rostral medial 2 lateral interneuron " EXACT []
 xref: TAO:0005205
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000822 ! rhombomere 2
 relationship: start ZFS:0000000 ! Unknown
@@ -22682,6 +22708,7 @@ subset: cell_slim
 synonym: "rostral medial 2 medial interneuron " EXACT []
 xref: TAO:0005206
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000822 ! rhombomere 2
 relationship: start ZFS:0000000 ! Unknown
@@ -22697,6 +22724,7 @@ subset: cell_slim
 synonym: "rostral medial 3 lateral interneuron " EXACT []
 xref: TAO:0005207
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000948 ! rhombomere 3
 relationship: start ZFS:0000000 ! Unknown
@@ -22712,6 +22740,7 @@ subset: cell_slim
 synonym: "rostral medial 3 medial interneuron " RELATED []
 xref: TAO:0005208
 is_a: ZFA:0005209 ! hindbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000948 ! rhombomere 3
 relationship: start ZFS:0000000 ! Unknown
@@ -22769,6 +22798,7 @@ subset: cell_slim
 synonym: "mesencephalon medial interneuron" EXACT []
 xref: TAO:0005212
 is_a: ZFA:0005210 ! midbrain interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000128 ! midbrain
 relationship: start ZFS:0000000 ! Unknown
@@ -24474,6 +24504,7 @@ name: posterior recess
 namespace: zebrafish_anatomy
 def: "Posterior protrusion of the third ventricle." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 synonym: "posterior recess of diencephalic ventricle" EXACT [ZFIN:ZDB-PUB-091221-27]
+synonym: "recessus posterior " EXACT [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0005338
 is_a: ZFA:0001643 ! anatomical space
 relationship: end ZFS:0000044 ! Adult
@@ -26394,18 +26425,6 @@ relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2010-07-22T11:19:01Z
-
-[Term]
-id: ZFA:0005493
-name: recessus lateralis
-namespace: zebrafish_anatomy
-def: "Intracranial space formed by confluence of supraorbital, infraorbital, preopercular and temporal sensory canals. See also Di Dario (2004)." [TAO:curator]
-xref: TAO:0001799
-is_a: ZFA:0001643 ! anatomical space
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2010-07-22T11:19:30Z
 
 [Term]
 id: ZFA:0005494
@@ -29936,7 +29955,7 @@ name: ectomesenchyme
 namespace: zebrafish_anatomy
 def: "Portion of tissue that develops from the cranial neural crest and which cells populate a series of pharyngeal arches from which develops the support skeleton of the jaw and gills." [ZFIN:ZDB-PUB-110609-14, ZFIN:ZDB-PUB-120517-11]
 is_a: ZFA:0001477 ! portion of tissue
-relationship: develops_from ZFA:0001194 ! cranial neural crest
+relationship: develops_from ZFA:0007087 ! migratory cranial neural crest
 relationship: end ZFS:0000000 ! Unknown
 relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 created_by: Ceri
@@ -30490,10 +30509,15 @@ creation_date: 2014-07-31T10:11:35Z
 id: ZFA:0005815
 name: T interneuron
 namespace: zebrafish_anatomy
-def: "Hindbrain interneurons that are part of the reticular formation.  The T interneurons receive synaptic input from the  Mauthner neuron.  The axon is T-shaped the proximal segment courses to the midline of the  brain and near the midline bifurcates to form an ascending rostral segment and a descending caudal segment.  The rostral and caudal segments join the dorsal component of the MLF.  The T interneurons are located caudal to CaD and appear to be bilaterally paired." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-588]
+alt_id: ZFA:0005182
+def: "TARGET DEFINITION: Hindbrain interneurons that are part of the reticular formation.  The T interneurons receive synaptic input from the  Mauthner neuron,  from unidentified axons in the mlf, and perhaps from trigeminal sensory fibers.  .  The axon is T-shaped the proximal segment courses to the midline of the  brain and near the midline bifurcates to form an ascending rostral segment and a descending caudal segment.  The rostral and caudal segments join the dorsal component of the MLF.  The T interneurons are located caudal to CaD and appear to be bilaterally paired. They project to cranial and pectoral motor nuclei." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-588]
+comment: This term is a leaf node in the zebrafish AO and is not in the CL.
 subset: cell_slim
+synonym: "cranial relay neuron" RELATED [ZFIN:ZDB-PUB-110110-13]
 synonym: "T shaped reticular neuron " RELATED []
 synonym: "T-interneuron" EXACT []
+synonym: "t-interneuron" EXACT []
+xref: TAO:0005182
 is_a: ZFA:0005209 ! hindbrain interneuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -31120,7 +31144,143 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000563 ! pectoral fin musculature
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
-creation_date: 2015-10-28T16:41:12Z
+creation_date: 2015-10-28T04:41:12Z
+
+[Term]
+id: ZFA:0005864
+name: retinotectal tract
+namespace: zebrafish_anatomy
+def: "Portion of optic tract that innervates the optic tectum." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-1095, ZFIN:ZDB-PUB-961014-148]
+is_a: ZFA:0001682 ! white matter
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000252 ! optic tract
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2016-01-11T03:48:45Z
+
+[Term]
+id: ZFA:0005865
+name: reticulospinal neuron
+namespace: zebrafish_anatomy
+def: "Neuron with the large soma in the brain with an axon projecting caudally to the spinal cord." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-594]
+is_a: ZFA:0009191 ! CNS interneuron
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2016-01-12T10:33:08Z
+
+[Term]
+id: ZFA:0005866
+name: vestibulospinal neuron
+namespace: zebrafish_anatomy
+def: "CNS interneuron with a soma located in a cluster  in the lateral wall of the medulla, with dendrites confined to the neuropil,  that has connections to the vestibular and lateral line neurons." [ZFIN:ZDB-PUB-961014-572]
+synonym: "V" RELATED []
+is_a: ZFA:0009191 ! CNS interneuron
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2016-01-12T11:25:07Z
+
+[Term]
+id: ZFA:0005867
+name: cephalic mesoderm
+namespace: zebrafish_anatomy
+def: "Mesoderm part of the head." [GOC:cvs, ORCiD:0000-0002-2244-7917\,]
+is_a: ZFA:0000041 ! mesoderm
+relationship: develops_from ZFA:0000414 ! presumptive cephalic mesoderm
+relationship: end ZFS:0000034 ! Hatching:Pec-fin
+relationship: part_of ZFA:0001114 ! head
+relationship: start ZFS:0000024 ! Segmentation:5-9 somites
+created_by: Ceri
+creation_date: 2016-01-14T02:01:33Z
+
+[Term]
+id: ZFA:0005868
+name: griseum tectale
+namespace: zebrafish_anatomy
+def: "Rostral cell mass bordering the pretectum.  The cells are stained with the gene nurod and are Hu positive.  The region is named for its presumed  homology to the avian griseum tectale." [ZFIN:ZDB-PUB-070711-1]
+synonym: "tectal grey " EXACT []
+is_a: ZFA:0001665 ! midbrain nucleus
+is_a: ZFA:0005575 ! brain nucleus
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0000445 ! optic tectum
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2016-01-22T12:54:41Z
+
+[Term]
+id: ZFA:0005869
+name: cerebellar plate
+namespace: zebrafish_anatomy
+def: "Multi-tissue structure that is made up of the external granular layer and the ventral proliferative layer." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0000029 ! hindbrain
+relationship: start ZFS:0000032 ! Pharyngula:High-pec
+created_by: Ceri
+creation_date: 2016-02-02T11:33:30Z
+
+[Term]
+id: ZFA:0005870
+name: cerebellar plate ventral proliferative layer
+namespace: zebrafish_anatomy
+def: "Proliferative zone on the ventral side of the cerebellar plate." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
+is_a: ZFA:0000098 ! proliferative region
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005869 ! cerebellar plate
+relationship: start ZFS:0000032 ! Pharyngula:High-pec
+created_by: Ceri
+creation_date: 2016-02-02T11:45:44Z
+
+[Term]
+id: ZFA:0005871
+name: region of the nucleus of the medial longitudinal fascicle
+namespace: zebrafish_anatomy
+def: "Portion of tissue in the midbrain that will develop into the nucleus of the medial longitudinal fasciculus synencephalon." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0000128 ! midbrain
+relationship: start ZFS:0000026 ! Segmentation:14-19 somites
+created_by: Ceri
+creation_date: 2016-02-02T11:47:50Z
+
+[Term]
+id: ZFA:0005872
+name: external granular layer of the cerebellar plate
+def: "Proliferative region that forms on peripheral side of the cerebellar plate." [GOC:cvs, ORDCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
+synonym: "cerebellar plate peripheral proliferative zone" RELATED []
+synonym: "EGL" EXACT []
+is_a: ZFA:0000098 ! proliferative region
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005869 ! cerebellar plate
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2016-02-02T11:50:39Z
+
+[Term]
+id: ZFA:0005873
+name: noradrenergic neuron
+namespace: zebrafish_anatomy
+def: "A neuron that releases norephinephrine  (noradrenaline) as a neurotransmitter." [CL:Curator]
+subset: cell_slim
+xref: CL:0008025
+is_a: ZFA:0009214 ! norepinephrine secreting cell
+is_a: ZFA:0009248 ! neuron
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2016-03-22T02:18:57Z
+
+[Term]
+id: ZFA:0005874
+name: spiral neuron
+namespace: zebrafish_anatomy
+def: "Spiral neurons are excitatory interneurons located in rhombomere 3 and have contralateral projections that cross the midline forming commissures in rhombomere 3. After crossing the midline the two commissures fuse and project caudally synapsing with the Mauthner neuron.  As they enter the axon cap, spiral fiber neurons lose their myelin and wrap around the axon hillock in a stereotyped spiral, where they make both electrical and glutamatergic synapses on the M cell axon close to the M-cell soma and with one another. Spiral neurons produced biphasic excitatory postsynaptic potentials (EPSPs) in the contralateral M-cell  with a short latency." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-010711-2, ZFIN:ZDB-PUB-110110-13, ZFIN:ZDB-PUB-150512-4]
+is_a: ZFA:0005209 ! hindbrain interneuron
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000948 ! rhombomere 3
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2016-03-23T01:14:15Z
 
 [Term]
 id: ZFA:0006000
@@ -31256,9 +31416,10 @@ relationship: start ZFS:0000000 ! Unknown
 
 [Term]
 id: ZFA:0007010
-name: eminentia thalami
+name: thalamic eminence
 namespace: zebrafish_anatomy
 def: "Part of the forebrain that is ventral to the ventral thalamus and dorsal to the preoptic area. See page 44 of the Atlas of Early Zebrafish Brain Development." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-070711-1]
+synonym: "eminentia thalami" EXACT []
 xref: TAO:0007010
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
@@ -32131,6 +32292,191 @@ created_by: yvonne
 creation_date: 2014-10-24T02:55:07Z
 
 [Term]
+id: ZFA:0007082
+name: neural plate border
+namespace: zebrafish_anatomy
+def: "Region of the neural plate that will give rise to the neural crest. The neural plate border includes progenitors for the dorsal neural tube, the neural crest, and placodes. It is a broad competence domain, established between neural and non-neural ectoderm within which subtle and sequential cell autonomous and non-cell autonomous molecular interactions will progressively define the neural crest fate from adjacent dorsal neural fates." [GOC:ymb, ORCiD:0000-0002-9900-7880, PMID:22305800]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0000132 ! neural plate
+relationship: start ZFS:0000020 ! Gastrula:75%-epiboly
+created_by: yvonne
+creation_date: 2016-01-28T08:43:28Z
+
+[Term]
+id: ZFA:0007083
+name: premigratory neural crest
+namespace: zebrafish_anatomy
+def: "Premigratory neural crest population that develops from the neural plate border. The cells of this group will undergo epithelial to mesenchymal transition and delaminate to produce the migratory neural crest." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000045 ! neural crest
+relationship: develops_from ZFA:0007082 ! neural plate border
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000023 ! Segmentation:1-4 somites
+created_by: yvonne
+creation_date: 2016-01-28T09:06:50Z
+
+[Term]
+id: ZFA:0007084
+name: premigratory neural crest cell
+namespace: zebrafish_anatomy
+def: "Cell that is part of the premigratory neural crest population. Will undergo epithelial to mesenchymal transition and delamination to become part of the migratory neural crest." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+synonym: "premigratory neural crest cells" EXACT PLURAL []
+xref: CL:0007004
+is_a: ZFA:0009165 ! neural crest cell
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0007083 ! premigratory neural crest
+relationship: start ZFS:0000023 ! Segmentation:1-4 somites
+created_by: yvonne
+creation_date: 2016-01-28T09:29:06Z
+
+[Term]
+id: ZFA:0007085
+name: migratory neural crest
+namespace: zebrafish_anatomy
+def: "Migratory neural crest population that develops from premigratory neural crest. This group of neural crest has undergone ectomesenchymal transition and delamination." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000045 ! neural crest
+relationship: develops_from ZFA:0007083 ! premigratory neural crest
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000025 ! Segmentation:10-13 somites
+created_by: yvonne
+creation_date: 2016-01-28T12:04:14Z
+
+[Term]
+id: ZFA:0007086
+name: migratory neural crest cell
+namespace: zebrafish_anatomy
+def: "Cell that is part of the migratory neural crest population. Migratory neural crest cells develop from premigratory neural crest cells and have undergone epithelial to mesenchymal transition and delamination." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+synonym: "migratory neural crest cells" EXACT PLURAL []
+xref: CL:0000333
+is_a: ZFA:0009136 ! motile cell
+relationship: develops_from ZFA:0007084 ! premigratory neural crest cell
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0007085 ! migratory neural crest
+relationship: start ZFS:0000025 ! Segmentation:10-13 somites
+created_by: yvonne
+creation_date: 2016-01-28T01:35:09Z
+
+[Term]
+id: ZFA:0007087
+name: migratory cranial neural crest
+namespace: zebrafish_anatomy
+def: "Migratory cranial neural crest population that develops from premigratory cranial neural crest. This group of neural crest has undergone ectomesenchymal transition and delamination." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0001194 ! cranial neural crest
+is_a: ZFA:0007085 ! migratory neural crest
+relationship: develops_from ZFA:0007088 ! premigratory cranial neural crest
+relationship: end ZFS:0000029 ! Pharyngula:Prim-5
+relationship: start ZFS:0000025 ! Segmentation:10-13 somites
+created_by: yvonne
+creation_date: 2016-03-07T11:45:15Z
+
+[Term]
+id: ZFA:0007088
+name: premigratory cranial neural crest
+namespace: zebrafish_anatomy
+def: "Premigratory cranial neural crest population that develops from the neural plate border. The cells of this group will undergo epithelial to mesenchymal transition and delaminate to produce the migratory cranial neural crest." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0001194 ! cranial neural crest
+is_a: ZFA:0007083 ! premigratory neural crest
+relationship: end ZFS:0000024 ! Segmentation:5-9 somites
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-03-07T03:27:33Z
+
+[Term]
+id: ZFA:0007089
+name: embryonic cell
+namespace: zebrafish_anatomy
+def: "A cell of the embryo." [CL:curator]
+xref: CL:0002321
+is_a: ZFA:0009000 ! cell
+relationship: end ZFS:0000034 ! Hatching:Pec-fin
+relationship: start ZFS:0000001 ! Zygote:1-cell
+created_by: yvonne
+creation_date: 2016-03-30T01:24:36Z
+
+[Term]
+id: ZFA:0007090
+name: premigratory cranial neural crest cell
+namespace: zebrafish_anatomy
+def: "Cell that is part of the premigratory cranial neural crest population. Will undergo epithelial to mesenchymal transition and delamination to become part of the migratory cranial neural crest." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+synonym: "premigratory cranial neural crest cells" EXACT PLURAL []
+is_a: ZFA:0007084 ! premigratory neural crest cell
+is_a: ZFA:0009003 ! cranial neural crest cell
+relationship: end ZFS:0000024 ! Segmentation:5-9 somites
+relationship: part_of ZFA:0007088 ! premigratory cranial neural crest
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-03-31T12:37:58Z
+
+[Term]
+id: ZFA:0007091
+name: migratory cranial neural crest cell
+namespace: zebrafish_anatomy
+def: "Cell that is part of the migratory cranial neural crest population. Migratory cranial neural crest cells develop from premigratory cranial neural crest cells and have undergone epithelial to mesenchymal transition and delamination." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+synonym: "migratory cranial neural crest cells" EXACT PLURAL []
+xref: CL:0000008
+is_a: ZFA:0007086 ! migratory neural crest cell
+relationship: develops_from ZFA:0007090 ! premigratory cranial neural crest cell
+relationship: end ZFS:0000029 ! Pharyngula:Prim-5
+relationship: part_of ZFA:0007087 ! migratory cranial neural crest
+relationship: start ZFS:0000025 ! Segmentation:10-13 somites
+created_by: yvonne
+creation_date: 2016-03-31T12:43:55Z
+
+[Term]
+id: ZFA:0007092
+name: premigratory trunk neural crest
+namespace: zebrafish_anatomy
+def: "Premigratory trunk neural crest population that develops from the neural plate border. The cells of this group will undergo epithelial to mesenchymal transition and delaminate to produce the migratory trunk neural crest." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0001024 ! trunk neural crest
+is_a: ZFA:0007083 ! premigratory neural crest
+relationship: end ZFS:0000030 ! Pharyngula:Prim-15
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-03-31T01:03:25Z
+
+[Term]
+id: ZFA:0007093
+name: migratory trunk neural crest
+namespace: zebrafish_anatomy
+def: "Migratory trunk neural crest population that develops from premigratory trunk neural crest. This group of neural crest has undergone ectomesenchymal transition and delamination." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0001024 ! trunk neural crest
+is_a: ZFA:0007085 ! migratory neural crest
+relationship: develops_from ZFA:0007092 ! premigratory trunk neural crest
+relationship: end ZFS:0000031 ! Pharyngula:Prim-25
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-03-31T01:11:09Z
+
+[Term]
+id: ZFA:0007094
+name: premigratory trunk neural crest cell
+namespace: zebrafish_anatomy
+def: "Cell that is part of the premigratory trunk neural crest population. Will undergo epithelial to mesenchymal transition and delamination to become part of the migratory trunk neural crest." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+synonym: "premigratory trunk neural crest cells" EXACT PLURAL []
+is_a: ZFA:0007084 ! premigratory neural crest cell
+is_a: ZFA:0009004 ! trunk neural crest cell
+relationship: end ZFS:0000030 ! Pharyngula:Prim-15
+relationship: part_of ZFA:0007092 ! premigratory trunk neural crest
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-03-31T01:18:04Z
+
+[Term]
+id: ZFA:0007095
+name: migratory trunk neural crest cell
+namespace: zebrafish_anatomy
+def: "Cell that is part of the migratory trunk neural crest population. Migratory trunk neural crest cells develop from premigratory trunk neural crest cells and have undergone epithelial to mesenchymal transition and delamination." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+synonym: "migratory trunk neural crest cells" EXACT PLURAL []
+xref: CL:0000011
+is_a: ZFA:0007086 ! migratory neural crest cell
+relationship: develops_from ZFA:0007094 ! premigratory trunk neural crest cell
+relationship: end ZFS:0000031 ! Pharyngula:Prim-25
+relationship: part_of ZFA:0007093 ! migratory trunk neural crest
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-03-31T01:22:09Z
+
+[Term]
 id: ZFA:0009000
 name: cell
 namespace: zebrafish_anatomy
@@ -32161,34 +32507,34 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009002
 name: early embryonic cell
 namespace: zebrafish_anatomy
+def: "An embryonic cell that is formed before the germ layers have been formed." [CL:curator]
 subset: cell_slim
 synonym: "early embryonic cells" EXACT PLURAL []
 xref: CL:0000007
 xref: TAO:0009002
-is_a: ZFA:0009000 ! cell
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
+is_a: ZFA:0007089 ! embryonic cell
+relationship: end ZFS:0000022 ! Gastrula:Bud
+relationship: start ZFS:0000001 ! Zygote:1-cell
 
 [Term]
 id: ZFA:0009003
 name: cranial neural crest cell
 namespace: zebrafish_anatomy
+def: "A cell of the cranial neural crest." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "cranial neural crest cells" EXACT PLURAL []
-xref: CL:0000008
-xref: TAO:0009003
 is_a: ZFA:0009165 ! neural crest cell
 relationship: end ZFS:0000029 ! Pharyngula:Prim-5
+relationship: part_of ZFA:0001194 ! cranial neural crest
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
 id: ZFA:0009004
 name: trunk neural crest cell
 namespace: zebrafish_anatomy
+def: "A cell of the trunk neural crest." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "trunk neural crest cells" EXACT PLURAL []
-xref: CL:0000011
-xref: TAO:0009004
 is_a: ZFA:0009165 ! neural crest cell
 relationship: end ZFS:0000031 ! Pharyngula:Prim-25
 relationship: part_of ZFA:0001024 ! trunk neural crest
@@ -32344,6 +32690,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009016
 name: germ line cell
 namespace: zebrafish_anatomy
+def: "A cell that is within the developmental lineage of gametes and is able to pass along its genetic material to offspring." [GOC:tfm]
 subset: cell_slim
 synonym: "germ line cells" EXACT PLURAL []
 xref: CL:0000039
@@ -34182,11 +34529,12 @@ name: Mauthner neuron
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000087
 alt_id: ZFA:0000613
-def: "Is a hindbrain interneuron." [ZFIN:ZDB-PUB-961014-770]
+def: "Is a hindbrain interneuron.  Giant reticulospinal neurons possessing thick crossed axons and positioned dorsally in the hindbrain tegmentum at the level of entrance of the eighth cranial nerve.  The Mauthner neuron is paired. The M-cell has two large invariant dendrites: The lateral dendrite terminates in the sensory neuropil of the acoustico-lateral area, and the ventral dendrite terminates in the neuropil of the motor tegmentum. Fine dendrites are present, and mostly arise from three regions; from the terminus of each major dendrite and from the ventral surface of the perikaryon." [GOC:CVS, GOC:MH, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-599, ZFIN:ZDB-PUB-961014-770]
 subset: cell_slim
 xref: CL:0000246
 xref: TAO:0009149
-is_a: ZFA:0009191 ! CNS interneuron
+is_a: ZFA:0005865 ! reticulospinal neuron
+is_a: ZFA:0009194 ! CNS short range interneuron
 relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0000545 ! medulla oblongata
 relationship: part_of ZFA:0001032 ! rhombomere 4
@@ -34282,6 +34630,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0009156
 name: gamete
 namespace: zebrafish_anatomy
+def: "A mature sexual reproductive cell having a single set of unpaired chromosomes." [GOC:tfm]
 subset: cell_slim
 synonym: "gametes" EXACT PLURAL []
 xref: CL:0000300
@@ -34394,13 +34743,10 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009165
 name: neural crest cell
 namespace: zebrafish_anatomy
-def: "A cell of the strip of specialized ectoderm flanking each side of the embryonal neural plate, which after the closure of the neural tube, forms a column of isolated cells along the dorsal aspect of the neural tube. Most of the cranial and all of the spinal sensory ganglion cells arise by differentiation of neural crest cells." [CL:curator]
+def: "A cell of the neural crest. The neural crest is a strip of specialized ectoderm, the neural plate border, which flanks each side of the embryonic neural plate. Neural crest cells are multipotent. Premigratory neural crest cells are found at the neural plate boarder, some of which will undergo ectomesenchymal transition and delamination to form migratory neural crest cells. Most of the cranial and all of the spinal sensory ganglion cells arise by differentiation of neural crest cells." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "neural crest cells" EXACT PLURAL []
-xref: CL:0000333
-xref: TAO:0009165
-is_a: ZFA:0009136 ! motile cell
-relationship: develops_from ZFA:0009080 ! neurectodermal cell
+is_a: ZFA:0007089 ! embryonic cell
 relationship: end ZFS:0000031 ! Pharyngula:Prim-25
 relationship: part_of ZFA:0000045 ! neural crest
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
@@ -34992,9 +35338,11 @@ relationship: start ZFS:0000000 ! Unknown
 
 [Term]
 id: ZFA:0009214
-name: norepinephrin secreting cell
+name: norepinephrine secreting cell
 namespace: zebrafish_anatomy
+def: "A cell capable of producting norepinephrine. Norepinephrine is a catecholamine with multiple roles including as a hormone and a neurotransmitter. In addition, epinephrine is synthesized from norepinephrine by the actions of the phenylethanolamine N-methyltransferase enzyme." [CL:curator]
 subset: cell_slim
+synonym: " noradrenergic cell" EXACT []
 synonym: "norepinephrin secreting cells" EXACT PLURAL []
 xref: CL:0000459
 xref: TAO:0009214
@@ -35997,6 +36345,7 @@ id: ZFA:0009288
 name: primordial germ cell
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000065
+def: "A primordial germ cell is a diploid germ cell precursors that transiently exist in the embryo before they enter into close association with the somatic cells of the gonad and become irreversibly committed as germ cells." [CL:curator]
 subset: cell_slim
 synonym: "PGC" EXACT []
 xref: CL:0000670
