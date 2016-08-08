@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:06:2016 16:20
+date: 08:08:2016 10:18
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.1
 subsetdef: cell_slim "cell_slim"
@@ -31240,6 +31240,7 @@ id: ZFA:0005871
 name: region of the nucleus of the medial longitudinal fascicle
 namespace: zebrafish_anatomy
 def: "Portion of tissue in the midbrain that will develop into the nucleus of the medial longitudinal fasciculus synencephalon." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
+is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0000128 ! midbrain
 relationship: start ZFS:0000026 ! Segmentation:14-19 somites
