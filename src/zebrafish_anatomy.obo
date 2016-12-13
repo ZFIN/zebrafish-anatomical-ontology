@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 08:08:2016 10:18
+date: 02:12:2016 12:16
 saved-by: Ceri
-auto-generated-by: OBO-Edit 2.1
+auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_anatomical_ontology
@@ -4411,6 +4411,7 @@ relationship: start ZFS:0000040 ! Larval:Days 14-20
 id: ZFA:0000379
 name: lateral forebrain bundle diencephalon
 namespace: zebrafish_anatomy
+def: "Portion of the lateral forebrain bundle that lies in the diencephalon." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 synonym: "lateral forebrain bundles diencephalon" EXACT PLURAL []
 xref: TAO:0000379
 is_a: ZFA:0000338 ! diencephalic white matter
@@ -6030,6 +6031,7 @@ relationship: start ZFS:0000041 ! Larval:Days 21-29
 id: ZFA:0000516
 name: periventricular grey zone
 namespace: zebrafish_anatomy
+synonym: "periventricular gray zone" EXACT []
 synonym: "periventricular grey zones" EXACT PLURAL []
 synonym: "PGZ" EXACT [ZFIN:ZDB-PUB-140919-7]
 xref: TAO:0000516
@@ -6775,6 +6777,7 @@ relationship: start ZFS:0000040 ! Larval:Days 14-20
 id: ZFA:0000577
 name: renal portal vein
 namespace: zebrafish_anatomy
+def: "Afferent veins that supply the kidneys.  The renal portal veins connect" []
 synonym: "renal portal veins" EXACT PLURAL []
 xref: TAO:0000577
 is_a: ZFA:0000082 ! vein
@@ -9143,6 +9146,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000779
 name: lateral forebrain bundle telencephalon
 namespace: zebrafish_anatomy
+def: "Portion of the lateral forebrain bundle that lies in the telencephalon.." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 synonym: "lateral forebrain bundles telencephalon" EXACT PLURAL []
 xref: TAO:0000779
 is_a: ZFA:0000597 ! telencephalic white matter
@@ -15812,6 +15816,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001366
 name: tract of the postoptic commissure
 namespace: zebrafish_anatomy
+def: "Tract that extends from the postoptic commissure through a curved trajectory in the diencephalon into the ventral midbrain \nIn the anterior diencephalon the TOP is a single tract but caudally the axons of the TPOC diverge and tend to grow in distinct parallel bundles. The more dorsal bundles extend in the dorsolateral tegmentum, the ventral bundles of the TPOC merge into the DLF in the hindbrain." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-167]
 synonym: "TPOC" EXACT []
 xref: TAO:0001366
 is_a: ZFA:0001682 ! white matter
@@ -19610,7 +19615,6 @@ name: cerebellar granule cell
 namespace: zebrafish_anatomy
 def: "Granule cell that is part of the cerebellum." [CL:curator]
 subset: cell_slim
-xref: CL:0000989
 xref: CL:0001031
 xref: TAO:0002182
 is_a: ZFA:0009070 ! granule cell
@@ -19736,7 +19740,7 @@ creation_date: 2009-08-04T01:24:26Z
 
 [Term]
 id: ZFA:0001700
-name: tunica externa
+name: tunica externa swim bladder
 namespace: zebrafish_anatomy
 def: "Multi-tissue structure that is the external layer of the swim bladder that is covered by the peritoneum, and made of elastic fibres and ichthyocol (short needles of collagen)." [http://www.briancoad.com/Dictionary/T.htm]
 xref: TAO:0002245
@@ -19749,7 +19753,7 @@ creation_date: 2009-08-05T12:54:11Z
 
 [Term]
 id: ZFA:0001701
-name: tunica interna
+name: tunica interna swim bladder
 namespace: zebrafish_anatomy
 def: "Multi-tissue structure that is the internal layer of the swim bladder and is comprised of thin endoderm and a smooth muscle layer called the muscularis mucosa with longitudinal and circular fibres with some collagen." [http://www.briancoad.com/Dictionary/T.htm]
 xref: TAO:0002246
@@ -21439,11 +21443,12 @@ relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 id: ZFA:0005111
 name: medial forebrain bundle
 namespace: zebrafish_anatomy
+def: "Tract that originates in the telencephalon lies medial to the lateral forebrain bundle and extends into the diencephalon approaching the posterior tuberal nucleus.  In embryos the tract connects cells in the ventral olfactory bulb to those in the septal area." [GOC:cvs, ZFIN:ZDB-PUB-071219-12, ZFIN:ZDB-PUB-961014-1280]
 synonym: "medial forebrain bundles" EXACT PLURAL []
 xref: TAO:0005111
 is_a: ZFA:0001682 ! white matter
 relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 
 [Term]
 id: ZFA:0005112
@@ -25936,11 +25941,13 @@ creation_date: 2010-06-25T12:27:58Z
 id: ZFA:0005452
 name: tract of the caudal commissure
 namespace: zebrafish_anatomy
+def: "Tract which originates from several clusters of cell bodies in the rostral midbrain, the anterior tegmentum and the nucleus of the posterior commissure.  The neurons that are part of the nucleus of the posterior commissure have axons which course ventrally toward the anterior tegmentum, while the ventral tegmental clusters of neurons have axons which course dorsally along the posterior commissure and cross the dorsal midline to the contralateral side they then turn posteriorly and extend to the posterior region of the tegmentum and eventually into the hindbrain via the tract of the postoptic commissure. ." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-1268, ZFIN:ZDB-PUB-961014-167]
+synonym: "TPC" RELATED [ZFIN:ZDB-PUB-961014-1268]
 synonym: "tract of the posterior commissure" EXACT [ZFIN:ZDB-PUB-961014-421]
 is_a: ZFA:0001682 ! white matter
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000320 ! caudal commissure
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000028 ! Segmentation:26+ somites
 created_by: Ceri
 creation_date: 2010-07-21T01:49:43Z
 
@@ -27330,7 +27337,7 @@ def: "Clear ocular fluid in the anterior segment of the eye.  It is produced pri
 xref: TAO:0002288
 is_a: ZFA:0001487 ! portion of organism substance
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0005566 ! anterior segment eye
+relationship: part_of ZFA:0005876 ! anterior chamber eye
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2010-11-11T11:10:25Z
@@ -31240,7 +31247,6 @@ id: ZFA:0005871
 name: region of the nucleus of the medial longitudinal fascicle
 namespace: zebrafish_anatomy
 def: "Portion of tissue in the midbrain that will develop into the nucleus of the medial longitudinal fasciculus synencephalon." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
-is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0000128 ! midbrain
 relationship: start ZFS:0000026 ! Segmentation:14-19 somites
@@ -31290,7 +31296,8 @@ creation_date: 2016-03-23T01:14:15Z
 id: ZFA:0005875
 name: tract of the commissure of the caudal tuberculum
 namespace: zebrafish_anatomy
-def: "Tract that extend  from the intersection of the tract of the postoptic commissure and supraoptic tract that projects caudally across the hypothalamus and into the commissure of the caudal tuberculum." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-1268]
+def: "Tract that extends from the intersection of the tract of the postoptic commissure and supraoptic tract that projects caudally across the hypothalamus and into the commissure of the caudal tuberculum.  The axons appear to originate from a symmetric group of neurons in the forebrain that travel caudally into the diencephalon and then decussate, with some axons continuing  to travel longitudinally and join other axons crossing the midline.   There does not appear to be a clear ortholog of the TCPT in mammals; and the function(s) of the TCPT are not currently known." [GOC:cvs, GOC:dsf, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-1268]
+comment: This tract was originally identified in zebrafish by Wilson et al., 1990
 synonym: " TCPT" EXACT [ZFIN:ZDB-PUB-961014-1268]
 synonym: "tract of the commissure of the posterior tuberculum" EXACT []
 is_a: ZFA:0001682 ! white matter
@@ -31299,6 +31306,29 @@ relationship: part_of ZFA:0000491 ! commissure of the caudal tuberculum
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 created_by: Ceri
 creation_date: 2016-06-07T10:08:17Z
+
+[Term]
+id: ZFA:0005876
+name: anterior chamber eye
+namespace: zebrafish_anatomy
+def: "The space between the cornea and lens in the anterior segment of the eye where the aqueous humor is located." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+is_a: ZFA:0001643 ! anatomical space
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005566 ! anterior segment eye
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2016-10-13T15:42:03Z
+
+[Term]
+id: ZFA:0005877
+name: commissure of the tract of the commissure of the caudal tuberculum
+namespace: zebrafish_anatomy
+def: "Commissure that is formed by a subset of TCPT axons that cross the midline in the diencephalon.  The TCPTc does not appear to cross with other commissures.  The initial crossing of the TCPTc occurs at approximately 36 hpf." [GOC:cvs, GOC:dsf, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120419-3.]
+synonym: "Commissure of the TCPT" EXACT []
+is_a: ZFA:0000338 ! diencephalic white matter
+relationship: start ZFS:0000031 ! Pharyngula:Prim-25
+created_by: Ceri
+creation_date: 2016-10-18T10:07:14Z
 
 [Term]
 id: ZFA:0006000
@@ -31461,10 +31491,13 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0007012
 name: lateral forebrain bundle
 namespace: zebrafish_anatomy
+def: "In the adult bilaterally paired compact tract located lateral to the medial forebrain bundle that extends to the diencephalon.  Formed from several fascicles that  originate in the precommissural telencephalon and converge rostrocaudally.  In the seven day old fish bilaterally paired bundle that runs caudally from the anterior commissure to the forebrain. In the caudal  diencephalon the bundle divides  into  two  parts.   The thinner part runs more laterally and ventrally, and the thicker part was located more medially and dorsally. Both bundles run in the caudal direction  toward  the  cranial  wall  of  the  lateral  recess  of  the diencephalic   ventricle,   where   they   apparently exchange some fibers. Then, they continue in the caudal  direction,  surrounding  the lateral  recess from  the  ventral  and dorsal side, and meet close to the caudal wall of lateral  recess at the level  of  the  commissure  of  the  posterior  tuberculum." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-051207-17, ZFIN:ZDB-PUB-961014-1280]
+synonym: "fasciculus lateralis telencephali" EXACT [ZFIN:ZDB-PUB-961014-1280]
 synonym: "lateral forebrain bundles" EXACT PLURAL []
 xref: TAO:0007012
 is_a: ZFA:0001682 ! white matter
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000109 ! forebrain
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 
 [Term]
@@ -32495,6 +32528,204 @@ created_by: yvonne
 creation_date: 2016-03-31T01:22:09Z
 
 [Term]
+id: ZFA:0007096
+name: vertebra 13
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 12." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0001582 ! non-Weberian precaudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T14:15:01Z
+
+[Term]
+id: ZFA:0007097
+name: vertebra 14
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 13." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0001582 ! non-Weberian precaudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T14:22:33Z
+
+[Term]
+id: ZFA:0007098
+name: vertebra 15
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 14." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:10:35Z
+
+[Term]
+id: ZFA:0007099
+name: vertebra 16
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 15." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:15:45Z
+
+[Term]
+id: ZFA:0007100
+name: vertebra 17
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 16." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:17:20Z
+
+[Term]
+id: ZFA:0007101
+name: vertebra 18
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 17." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:19:07Z
+
+[Term]
+id: ZFA:0007102
+name: vertebra 19
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 18." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:20:46Z
+
+[Term]
+id: ZFA:0007103
+name: vertebra 20
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 19." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:22:42Z
+
+[Term]
+id: ZFA:0007104
+name: vertebra 21
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 20." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:24:43Z
+
+[Term]
+id: ZFA:0007105
+name: vertebra 22
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 21." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:26:15Z
+
+[Term]
+id: ZFA:0007106
+name: vertebra 23
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 22." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:29:09Z
+
+[Term]
+id: ZFA:0007107
+name: vertebra 24
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 23." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:31:04Z
+
+[Term]
+id: ZFA:0007108
+name: vertebra 25
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 24." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:32:40Z
+
+[Term]
+id: ZFA:0007109
+name: vertebra 26
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 25." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:34:15Z
+
+[Term]
+id: ZFA:0007110
+name: vertebra 27
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 26." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:36:10Z
+
+[Term]
+id: ZFA:0007111
+name: vertebra 28
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 27." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:37:40Z
+
+[Term]
+id: ZFA:0007112
+name: vertebra 29
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 28." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:39:17Z
+
+[Term]
+id: ZFA:0007113
+name: vertebra 30
+namespace: zebrafish_anatomy
+def: "Vertebra that is posteriorly adjacent to vertebra 29." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+is_a: ZFA:0000326 ! caudal vertebra
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: yvonne
+creation_date: 2016-10-19T15:41:01Z
+
+[Term]
 id: ZFA:0009000
 name: cell
 namespace: zebrafish_anatomy
@@ -32871,6 +33102,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009027
 name: chondroblast
 namespace: zebrafish_anatomy
+def: "Skeletogenic cell that is typically non-terminally differentiated, secretes an avascular, GAG rich matrix; is not buried in cartilage tissue matrix, retains the ability to divide, located adjacent to cartilage tissue (including within the perichondrium)." [GOC:tfm]
 subset: cell_slim
 synonym: "chondroblasts" EXACT PLURAL []
 xref: CL:0000058
@@ -32900,6 +33132,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009029
 name: odontoblast
 namespace: zebrafish_anatomy
+def: "Skeletogenic cell that  secretes dentine matrix, is derived from the tooth pulp." [GOC:cvs]
 subset: cell_slim
 synonym: "odontoblasts" EXACT PLURAL []
 xref: CL:0000060
@@ -34038,10 +34271,11 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009112
 name: pericyte
 namespace: zebrafish_anatomy
-def: "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane. Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distinguishing this cell type from adventitial cells). They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells." [CL:curator, ISBN:0721662544, PMID:16807374, PMID:17986482, PMID:20024907]
+def: "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane. Pericytes are present in capillaries where proper adventitial and muscle layer are missing (thus distinguishing this cell type from adventitial cells). They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells." [CL:curator, ISBN:0721662544, PMID:16807374, PMID:17986482, PMID:20024907]
 comment: CL:0000184 was merged into CL:0000699.
 subset: cell_slim
 synonym: "pericytes" EXACT PLURAL []
+synonym: "perivascular cells" EXACT []
 xref: CL:0000669
 xref: TAO:0009112
 is_a: ZFA:0009000 ! cell
