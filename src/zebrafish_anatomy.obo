@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:12:2016 12:16
+date: 17:01:2017 13:27
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -5463,7 +5463,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000467
 name: anguloarticular
 namespace: zebrafish_anatomy
-def: "Dermal and endochondral compound bone that results from the fusion of the dermal angular and the endochondral articular and forms the posterior part of the lower jaw. It articulates with the dentary anteriorly and with the retroarticular postero-medially. The anguloarticular is paired." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "Dermal and endochondral compound bone that results from the fusion of the dermal angular and the endochondral articular and forms the posterior part of the lower jaw. It articulates with the dentary anteriorly and with the retroarticular postero-medially. The anguloarticular is paired." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-192]
 synonym: "articular" EXACT []
 xref: TAO:0000467
 is_a: ZFA:0001590 ! dermal bone
@@ -12866,7 +12866,7 @@ subset: cell_slim
 synonym: "egg" RELATED []
 xref: CL:0000023
 xref: TAO:0001109
-is_a: ZFA:0009000 ! cell
+is_a: ZFA:0009016 ! germ line cell
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001110 ! ovarian follicle
 relationship: start ZFS:0000042 ! Juvenile:Days 30-44
@@ -26332,6 +26332,8 @@ synonym: "jaw joint" RELATED []
 xref: TAO:0001802
 is_a: ZFA:0005153 ! synovial joint
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0000467 ! anguloarticular
+relationship: overlaps ZFA:0000621 ! quadrate
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2010-07-21T04:44:59Z
@@ -29940,7 +29942,7 @@ namespace: zebrafish_anatomy
 def: "A male germ cell that develops from the haploid secondary spermatocytes. Without further division, spermatids undergo structural changes and give rise to spermatozoa." [CL:editor]
 subset: cell_slim
 xref: CL:0000018
-is_a: ZFA:0009000 ! cell
+is_a: ZFA:0009016 ! germ line cell
 relationship: develops_from ZFA:0009005 ! spermatocyte
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000598 ! testis
@@ -31326,9 +31328,23 @@ namespace: zebrafish_anatomy
 def: "Commissure that is formed by a subset of TCPT axons that cross the midline in the diencephalon.  The TCPTc does not appear to cross with other commissures.  The initial crossing of the TCPTc occurs at approximately 36 hpf." [GOC:cvs, GOC:dsf, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120419-3.]
 synonym: "Commissure of the TCPT" EXACT []
 is_a: ZFA:0000338 ! diencephalic white matter
+relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 created_by: Ceri
 creation_date: 2016-10-18T10:07:14Z
+
+[Term]
+id: ZFA:0005878
+name: oogonia
+namespace: zebrafish_anatomy
+def: "An undifferentiated germ cell that proliferates rapidly and gives rise to oocytes. In zebrafish oogonia are round cells, with centrally located nucleoli, which are strongly basophilic. Oogonia in larva zebrafish fish are often found in clusters of two or four cells, corresponding to the second, or third oogonial divisions, presumably arising from mitotic divisions of primordial germ cells." [GOC:cvs, GOC:tfm, ISBN:0721662544, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120718-30]
+xref: CL:0000024
+is_a: ZFA:0009016 ! germ line cell
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000413 ! gonad
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2016-12-14T12:05:24Z
 
 [Term]
 id: ZFA:0006000
@@ -32798,7 +32814,7 @@ subset: cell_slim
 synonym: "spermatocytes" EXACT PLURAL []
 xref: CL:0000017
 xref: TAO:0009005
-is_a: ZFA:0009000 ! cell
+is_a: ZFA:0009016 ! germ line cell
 relationship: develops_from ZFA:0009007 ! spermatogonium
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000598 ! testis
@@ -32815,7 +32831,7 @@ synonym: "spermatozoid" EXACT []
 synonym: "spermatozoon" EXACT []
 xref: CL:0000019
 xref: TAO:0009006
-is_a: ZFA:0009000 ! cell
+is_a: ZFA:0009016 ! germ line cell
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -32830,7 +32846,7 @@ synonym: "spermatogonia" EXACT PLURAL []
 xref: CL:0000020
 xref: TAO:0001337
 xref: TAO:0009007
-is_a: ZFA:0009000 ! cell
+is_a: ZFA:0009016 ! germ line cell
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000598 ! testis
 relationship: start ZFS:0000000 ! Unknown
