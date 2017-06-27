@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:01:2017 13:27
+date: 12:06:2017 16:06
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -1579,7 +1579,6 @@ xref: TAO:0000135
 is_a: ZFA:0001477 ! portion of tissue
 relationship: develops_from ZFA:0000091 ! axial chorda mesoderm
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0001414 ! occipital region
 relationship: start ZFS:0000022 ! Gastrula:Bud
 
 [Term]
@@ -2941,6 +2940,7 @@ synonym: "opercles" EXACT PLURAL []
 xref: TAO:0000250
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005885 ! operculohyoid ligament
 relationship: part_of ZFA:0000555 ! opercular flap
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001401 ! dorsal hyoid arch
@@ -3303,7 +3303,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000281
 name: hair cell posterior macula
 namespace: zebrafish_anatomy
-def: "Specialized neuronal receptor cells of the lateral line and acoustico-vestibular systems. (Also see Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/hair_cell/hair_cell.html'>hair cells</a> by T. Whitfield.)" [ZFIN:ZDB-PUB-961014-576]
+def: "Specialized neuronal receptor cells of the posterior macula. (Also see Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/hair_cell/hair_cell.html'>hair cells</a> by T. Whitfield.)" [ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 synonym: "sensory hair cells posterior macula" EXACT PLURAL []
 xref: TAO:0000281
@@ -4810,6 +4810,7 @@ name: gonad
 namespace: zebrafish_anatomy
 def: "The part of the reproductive system that produces and releases eggs (ovary) or sperm (testis)." [GOC:mh, ORCiD:0000-0001-9114-8737]
 synonym: "gonads" EXACT PLURAL []
+synonym: "mature gonad" RELATED []
 xref: TAO:0000413
 is_a: ZFA:0001490 ! cavitated compound organ
 relationship: develops_from ZFA:0005272 ! immature gonad
@@ -7027,7 +7028,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000598
 name: testis
 namespace: zebrafish_anatomy
-def: "Male reproductive organ." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Male reproductive organ. Adult zebrafish testes are paired organs forming elongated structures, internally organized into tubules. These tubules are formed by seminiferous epithelium containing cysts of spermatogonia and spermatocytes surrounded by somatic support cells, called Sertoli cells. Cysts are arranged around a lumen containing spermatozoa that is connected to the efferent ducts. The interstitial regions between the tubules contain the steroid-producing Leydig cells, connective tissue, and blood vessels." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-161215-2]
 synonym: "testes" EXACT PLURAL []
 xref: TAO:0000598
 is_a: ZFA:0000413 ! gonad
@@ -12752,6 +12753,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001098
 name: immature hair cell anterior macula
 namespace: zebrafish_anatomy
+def: "A hair cell which is immature and located in the anterior macula. It  will develop into a hair cell of the anterior macula." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "immature sensory hair cells anterior macula" EXACT PLURAL []
 xref: TAO:0001098
@@ -12764,6 +12766,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001099
 name: immature hair cell posterior macula
 namespace: zebrafish_anatomy
+def: "A hair cell which is immature and located in the posterior macula. It  will develop into a hair cell of the posterior macula." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "immature sensory hair cells posterior macula" EXACT PLURAL []
 xref: TAO:0001099
@@ -14681,6 +14684,8 @@ id: ZFA:0001268
 name: sperm duct
 namespace: zebrafish_anatomy
 def: "Is a duct part of the testis that carries sperm and fluid to the cloaca." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
+synonym: "efferent duct" EXACT []
+synonym: "efferent tubule" EXACT []
 synonym: "sperm ducts" EXACT PLURAL []
 xref: TAO:0001268
 is_a: ZFA:0005171 ! duct
@@ -16208,6 +16213,7 @@ def: "Pharyngeal arch cartilage that is bilaterally paired and the largest carti
 xref: TAO:0001400
 is_a: ZFA:0001460 ! pharyngeal arch cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0005885 ! operculohyoid ligament
 relationship: part_of ZFA:0001402 ! ventral hyoid arch
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 
@@ -31347,6 +31353,89 @@ created_by: Ceri
 creation_date: 2016-12-14T12:05:24Z
 
 [Term]
+id: ZFA:0005879
+name: seminiferous tubule
+namespace: zebrafish_anatomy
+def: "Tubules formed by the seminiferous epithelium that contains spermatogenic cyst surrounded by somatic support cells, called Sertoli cells.  The lumen of he seminiferous tubules connects to the sperm or efferent duct." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-090407-9]
+synonym: "seminiferous tubules" EXACT PLURAL []
+synonym: "sperm duct" BROAD []
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000598 ! testis
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2017-04-28T11:17:00Z
+
+[Term]
+id: ZFA:0005880
+name: seminiferous epithelium
+namespace: zebrafish_anatomy
+def: "Epithelium that lines the seminiferous tubules." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-090407-9]
+is_a: ZFA:0001486 ! epithelium
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005879 ! seminiferous tubule
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2017-05-16T12:39:16Z
+
+[Term]
+id: ZFA:0005881
+name: tunica propria of seminiferous tubule
+namespace: zebrafish_anatomy
+def: "The membranous sheath that surrounding the seminiferous tubule." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-090407-9]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005879 ! seminiferous tubule
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2017-05-16T12:44:18Z
+
+[Term]
+id: ZFA:0005882
+name: spermatogenic cyst
+namespace: zebrafish_anatomy
+def: "Structure in the testis formed by cytoplasmic projections of one or two Sertoli cells that surround a single spermatogonium.  Sperm production occurs with in the cyst and the spermatogonium divides to generate approximately 1300 mature sperm.  A given Sertoli cell is in contact with only one germ cell clone." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-090407-9]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000598 ! testis
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2017-05-16T12:48:48Z
+
+[Term]
+id: ZFA:0005883
+name: tunica albuginea testis
+namespace: zebrafish_anatomy
+def: "Membranous sheath that surrounds the testis." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-090407-9]
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000598 ! testis
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2017-05-16T12:51:24Z
+
+[Term]
+id: ZFA:0005884
+name: seminiferous tubule lumen
+namespace: zebrafish_anatomy
+def: "Lumen of the seminiferous tubule.  Mature sperm is stored in the tubular lumen." [GOC:cvs, https://en.wikibooks.org/wiki/The_Zebrafish_in_Toxicology/Spermatogenesis, ORCiD:0000-0002-2244-7917]
+is_a: ZFA:0001643 ! anatomical space
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005879 ! seminiferous tubule
+relationship: start ZFS:0000024 ! Segmentation:5-9 somites
+created_by: Ceri
+creation_date: 2017-05-16T13:18:07Z
+
+[Term]
+id: ZFA:0005885
+name: operculohyoid ligament
+namespace: zebrafish_anatomy
+def: "Ligament that connects the anterior apex of the opercle to the posterior end of the ceratohyal.  The ligament extends orthogonal and anterior to the opercle." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-161030-16]
+is_a: ZFA:0001675 ! ligament
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+creation_date: 2017-06-12T13:27:26Z
+
+[Term]
 id: ZFA:0006000
 name: intermediate hypothalamus
 namespace: zebrafish_anatomy
@@ -32848,7 +32937,7 @@ xref: TAO:0001337
 xref: TAO:0009007
 is_a: ZFA:0009016 ! germ line cell
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000598 ! testis
+relationship: part_of ZFA:0005882 ! spermatogenic cyst
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -34583,7 +34672,7 @@ xref: CL:0000216
 xref: TAO:0009133
 is_a: ZFA:0009132 ! barrier cell
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000598 ! testis
+relationship: part_of ZFA:0005882 ! spermatogenic cyst
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 
 [Term]
