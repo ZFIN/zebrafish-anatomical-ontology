@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:10:2017 17:11
+date: 12:06:2017 16:06
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -2823,7 +2823,6 @@ relationship: end ZFS:0000044 ! Adult
 relationship: overlaps ZFA:0005469 ! hyomandibula-metapterygoid joint
 relationship: overlaps ZFA:0005486 ! quadrate-metapterygoid joint
 relationship: part_of ZFA:0001272 ! palatoquadrate arch
-relationship: part_of ZFA:0005509 ! palate
 relationship: start ZFS:0000040 ! Larval:Days 14-20
 
 [Term]
@@ -2980,7 +2979,6 @@ relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000290 ! sphenoid region
 relationship: part_of ZFA:0001424 ! chondrocranium
 relationship: part_of ZFA:0001580 ! neurocranium
-relationship: part_of ZFA:0005509 ! palate
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -3628,7 +3626,6 @@ is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000351 ! olfactory region
 relationship: part_of ZFA:0000863 ! dermatocranium
-relationship: part_of ZFA:0005509 ! palate
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 
 [Term]
@@ -4893,6 +4890,7 @@ relationship: overlaps ZFA:0005482 ! prootic-pterosphenoid joint
 relationship: overlaps ZFA:0005560 ! parasphenoid-basioccipital joint
 relationship: part_of ZFA:0000290 ! sphenoid region
 relationship: part_of ZFA:0001424 ! chondrocranium
+relationship: part_of ZFA:0001580 ! neurocranium
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -5697,7 +5695,6 @@ relationship: end ZFS:0000044 ! Adult
 relationship: overlaps ZFA:0005607 ! inter-parietal joint
 relationship: overlaps ZFA:0005608 ! frontal-parietal joint
 relationship: overlaps ZFA:0005609 ! supraoccipital-parietal joint
-relationship: overlaps ZFA:0005891 ! epiotic-parietal joint
 relationship: part_of ZFA:0000189 ! otic region
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001580 ! neurocranium
@@ -6442,7 +6439,6 @@ synonym: "postemporal" EXACT []
 xref: TAO:0000549
 is_a: ZFA:0001590 ! dermal bone
 relationship: end ZFS:0000044 ! Adult
-relationship: overlaps ZFA:0005889 ! epiotic-posttemporal joint
 relationship: part_of ZFA:0000189 ! otic region
 relationship: part_of ZFA:0000407 ! pectoral girdle
 relationship: part_of ZFA:0000863 ! dermatocranium
@@ -6602,7 +6598,6 @@ relationship: part_of ZFA:0000351 ! olfactory region
 relationship: part_of ZFA:0000863 ! dermatocranium
 relationship: part_of ZFA:0001410 ! orbital region
 relationship: part_of ZFA:0001580 ! neurocranium
-relationship: part_of ZFA:0005509 ! palate
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -6747,7 +6742,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000575
 name: prootic
 namespace: zebrafish_anatomy
-def: "Paired cartilage bone that contacts the pterosphenoid anteriorly, the sphenotic and the pterotic dorsally, and the epiotic and basioccipital posteriorly. The parasphenoid covers the ventral region of each prootic, the upper edge of which contributes to the hyomandibular facet. The prootic bear foramina that accommodate branches of the trigeminal and facial nerves." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Paired cartilage bone that contacts the pterosphenoid anteriorly, the sphenotic and the pterotic dorsally, and the epiotic and basioccipital posteriorly. The parasphenoid covers the ventral region of each prootic, the upper edge of which contributes to the hyomandibular facet. Bear foramina that accommodate branches of the trigeminal and facial nerves." [GOC:mh, ORCiD:0000-0001-9114-8737]
 synonym: "prootics" EXACT PLURAL []
 xref: TAO:0000575
 is_a: ZFA:0001591 ! endochondral bone
@@ -6755,7 +6750,6 @@ relationship: develops_from ZFA:0001423 ! parachordal cartilage
 relationship: develops_from ZFA:0001425 ! basal plate cartilage
 relationship: develops_from ZFA:0001500 ! auditory capsule
 relationship: end ZFS:0000044 ! Adult
-relationship: has_developmental_contribution_from ZFA:0005887 ! posterior basicapsular commissure
 relationship: overlaps ZFA:0005482 ! prootic-pterosphenoid joint
 relationship: overlaps ZFA:0005613 ! basioccipital-prootic joint
 relationship: part_of ZFA:0000189 ! otic region
@@ -16371,8 +16365,6 @@ xref: TAO:0001412
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001500 ! auditory capsule
 relationship: end ZFS:0000044 ! Adult
-relationship: overlaps ZFA:0005889 ! epiotic-posttemporal joint
-relationship: overlaps ZFA:0005891 ! epiotic-parietal joint
 relationship: part_of ZFA:0000189 ! otic region
 relationship: part_of ZFA:0001424 ! chondrocranium
 relationship: part_of ZFA:0001580 ! neurocranium
@@ -21988,8 +21980,7 @@ id: ZFA:0005156
 name: fibrous joint
 namespace: zebrafish_anatomy
 def: "A joint where fibrous tissue such as ligament connects two calcified tissues." [GOC:cvs, ORCiD:0000-0002-2244-7917]
-synonym: "syndesmoses" EXACT PLURAL []
-synonym: "syndesmosis" EXACT []
+synonym: "syndesmosis" RELATED []
 xref: TAO:0005156
 is_a: ZFA:0001596 ! joint
 relationship: end ZFS:0000044 ! Adult
@@ -25548,7 +25539,6 @@ id: ZFA:0005418
 name: auditory fenestra
 namespace: zebrafish_anatomy
 def: "Opening in the neurocranium to allow communication between the swim bladder and the inner ear." [TAO:curator]
-synonym: "auditory fenestrae" EXACT PLURAL []
 xref: TAO:0002066
 is_a: ZFA:0005386 ! foramen
 relationship: end ZFS:0000044 ! Adult
@@ -25972,8 +25962,6 @@ id: ZFA:0005453
 name: basicapsular fenestra
 namespace: zebrafish_anatomy
 def: "Opening in the prootic.  The basicapsular fenestra is paired." [GOC:cvs, ORCiD:0000-0002-2244-7917]
-synonym: "basicapsular fenestrae" EXACT PLURAL []
-xref: XX:<new xref>
 is_a: ZFA:0005386 ! foramen
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -26646,11 +26634,10 @@ creation_date: 2010-07-23T12:08:04Z
 id: ZFA:0005509
 name: palate
 namespace: zebrafish_anatomy
-def: "Anatomical cluster that is the upper roof of the mouth that is roofed by bones such as the parasphenoid, prevomer, metapterygoid, orbitosphenoid." [TAO:curator]
+def: "Anatomical cluster that is the upper roof of the mouth that is roofed by bones such as the parasphenoid, vomer, metapterygoid, orbitosphenoid." [TAO:curator]
 xref: TAO:0002093
 is_a: ZFA:0001478 ! anatomical cluster
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000737 ! cranium
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2010-07-23T12:10:28Z
@@ -28114,7 +28101,6 @@ id: ZFA:0005625
 name: hypophyseal fenestra
 namespace: zebrafish_anatomy
 def: "Space enclosed by the trabeculae cranii.  The anterior tip of the notochord extends into the posterior region of the hypophyseal fenestra." [ZFIN:ZDB-PUB-961014-192]
-synonym: "hypophyseal fenestrae" EXACT PLURAL []
 xref: TAO:0005269
 is_a: ZFA:0005386 ! foramen
 relationship: end ZFS:0000000 ! Unknown
@@ -31448,127 +31434,6 @@ is_a: ZFA:0001675 ! ligament
 relationship: end ZFS:0000000 ! Unknown
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 creation_date: 2017-06-12T13:27:26Z
-
-[Term]
-id: ZFA:0005886
-name: anterior basicapsular commissure
-namespace: zebrafish_anatomy
-def: "Cartilage that attaches the parachordal cartilage to the auditory capsule anterior to the basicapsular fenestra. The anterior basicapsular commissure are paired." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
-synonym: "anterior  basicranial commissure" EXACT [ZFIN:ZDB-PUB-970819-13]
-is_a: ZFA:0001461 ! chondrocranium cartilage
-relationship: end ZFS:0000000 ! Unknown
-relationship: part_of ZFA:0001580 ! neurocranium
-relationship: start ZFS:0000034 ! Hatching:Pec-fin
-created_by: Ceri
-creation_date: 2017-10-20T11:38:57Z
-
-[Term]
-id: ZFA:0005887
-name: posterior basicapsular commissure
-namespace: zebrafish_anatomy
-def: "Cartilage that attaches the parachordal cartilage to the auditory capsule posterior of the  basicapsular fenestra. The posterior basicapsular commissure are paired." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
-synonym: "posterior basicranial commissure" EXACT [ZFIN:ZDB-PUB-970819-13]
-is_a: ZFA:0001461 ! chondrocranium cartilage
-relationship: end ZFS:0000000 ! Unknown
-relationship: part_of ZFA:0001580 ! neurocranium
-relationship: start ZFS:0000034 ! Hatching:Pec-fin
-created_by: Ceri
-creation_date: 2017-10-20T11:42:11Z
-
-[Term]
-id: ZFA:0005888
-name: lateral basicapsular commissure
-namespace: zebrafish_anatomy
-def: "Cartilage that grows from the auditory capsule medially toward the anterior end of the parachordal cartilage to enclose the hyomandibular (facial) foramen. The lateral basicapsular commissure are paired." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-970819-13]
-synonym: " lateral  basicranial commissure" EXACT [ZFIN:ZDB-PUB-970819-13]
-synonym: "lateral commissure " RELATED [ZFIN:ZDB-PUB-970819-13]
-is_a: ZFA:0001461 ! chondrocranium cartilage
-relationship: end ZFS:0000000 ! Unknown
-relationship: part_of ZFA:0001580 ! neurocranium
-relationship: start ZFS:0000035 ! Larval:Protruding-mouth
-created_by: Ceri
-creation_date: 2017-10-20T11:51:14Z
-
-[Term]
-id: ZFA:0005889
-name: epiotic-posttemporal joint
-namespace: zebrafish_anatomy
-def: "Syndesmosis that connects the posterior lateral edge of the epiotic to the posttemporal. The epiotic-posttemporal joint is paired." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
-synonym: "epioccipital-posttemporal joint" EXACT []
-is_a: ZFA:0005156 ! fibrous joint
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2017-10-20T15:00:45Z
-
-[Term]
-id: ZFA:0005890
-name: carotid artery canal
-namespace: zebrafish_anatomy
-def: "Canal where the carotid artery enters the cranium.  Located between the parasphenoid and prootic bones in adult fish." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
-is_a: ZFA:0005386 ! foramen
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2017-10-25T14:53:32Z
-
-[Term]
-id: ZFA:0005891
-name: epiotic-parietal joint
-namespace: zebrafish_anatomy
-def: "Syndesmosis that connects the anterior edge epiotic to the parietal.  The epiotic-parietal joint is paired." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
-synonym: "epioccipital-parietal" EXACT []
-is_a: ZFA:0005156 ! fibrous joint
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2017-10-20T15:30:23Z
-
-[Term]
-id: ZFA:0005892
-name: lateral occipital foramen
-namespace: zebrafish_anatomy
-def: "Foramen that has the exoccipital as the anterior and dorsal rim. The occipital forms the anterior rim during early development." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
-synonym: "lateral occipital foramina" EXACT PLURAL [ZFIN:ZDB-PUB-961014-192]
-is_a: ZFA:0005386 ! foramen
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2017-10-20T16:00:30Z
-
-[Term]
-id: ZFA:0005893
-name: glossopharyngeal foramen
-namespace: zebrafish_anatomy
-def: "Foramen in the exoccipital through which the glossopharyngeal nerve (cranial nerve IX) passes." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
-is_a: ZFA:0005386 ! foramen
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2017-10-20T16:05:15Z
-
-[Term]
-id: ZFA:0005894
-name: vagus foramen
-namespace: zebrafish_anatomy
-def: "Foramen in the exoccipital through which the vagus nerve (cranial nerve X) passes." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
-is_a: ZFA:0005386 ! foramen
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2017-10-20T16:06:35Z
-
-[Term]
-id: ZFA:0005895
-name: trigeminal-facial chamber
-namespace: zebrafish_anatomy
-def: "Chamber  in the prootic where the trunks of the trigeminal facial nerve complex pass from the brain to the outside of the cranium.  In  the  adult,  a  posteromedial extension  from  the  prootic delimits  the  medial  boundary  of  the trigeminal-facial  chamber.  The  anterior opening  of  the  trigeminal-facial  chamber lies between  the  prootic  and  the  pterosphenoid." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
-synonym: "trigeminofacialis chamber" EXACT []
-is_a: ZFA:0001643 ! anatomical space
-relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2017-10-27T16:53:59Z
 
 [Term]
 id: ZFA:0006000
@@ -38341,19 +38206,6 @@ relationship: part_of ZFA:0000204 ! esophagus
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 created_by: Ceri
 creation_date: 2013-08-02T04:32:14Z
-
-[Term]
-id: ZFA:0009401
-name: lens fiber cell
-namespace: zebrafish_anatomy
-def: "A  vertebrate lens cell that is any of the elongated, tightly packed cells that make up the bulk of the mature lens in a camera-type eye." [GOC:nv]
-xref: CL:0011004
-is_a: ZFA:0009000 ! cell
-relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000035 ! lens
-relationship: start ZFS:0000000 ! Unknown
-created_by: Ceri
-creation_date: 2017-09-01T15:46:37Z
 
 [Term]
 id: ZFA:0100000
