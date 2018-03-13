@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:10:2017 17:11
+date: 23:02:2018 13:57
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -1071,8 +1071,8 @@ name: blood island
 namespace: zebrafish_anatomy
 def: "Nests of developing blood cells arising late in the segmentation period from the intermediate mass, and located in the anterior-ventral tail, just posterior to the yolk extension." [ZFIN:ZDB-PUB-961014-576]
 synonym: "blood islands" EXACT PLURAL []
-synonym: "caudal hematopoietic tissue" EXACT []
-synonym: "posterior blood island" EXACT []
+synonym: "caudal hematopoietic tissue" RELATED []
+synonym: "posterior blood island" RELATED []
 synonym: "posterior ICM" EXACT []
 xref: TAO:0000094
 is_a: ZFA:0001477 ! portion of tissue
@@ -1839,7 +1839,7 @@ relationship: start ZFS:0000040 ! Larval:Days 14-20
 id: ZFA:0000159
 name: tectal ventricle
 namespace: zebrafish_anatomy
-synonym: "cerebral aquaduct" EXACT []
+synonym: "cerebral aqueduct" EXACT []
 synonym: "medial tectal ventricle" EXACT []
 synonym: "mesencephalic ventricle" EXACT []
 synonym: "mesencephalic vesicle" EXACT []
@@ -2243,6 +2243,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000192
 name: descending trigeminal root
 namespace: zebrafish_anatomy
+def: "The bundle of the sensory root of the trigeminal nerve that descends in the medulla oblongata providing somatosensory input to the nucleus of the descending trigeminal root and to the medial funicular nucleus." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-1280]
 synonym: "radix descendens nervi trigemini" EXACT []
 xref: TAO:0000192
 is_a: ZFA:0001663 ! cranial nerve root
@@ -2460,7 +2461,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000211
 name: gill lamella
 namespace: zebrafish_anatomy
-def: "Multi-tissue structure that is the transverse vertical platelet on the gill filament, through which capillaries run. The primary gill lamellae carry numerous fine layers called secondary lamellae which are the actual regions of respiration and excretion." [http://www.briancoad.com/Dictionary/G.htm]
+def: "Multi-tissue structure that is the transverse vertical platelet on the gill filament, through which capillaries run. The primary gill lamellae carry numerous fine layers called secondary lamellae which are the actual regions of respiration and excretion." [GOC:cvs, http://www.briancoad.com/Dictionary/G.htm, ORCiD:0000-0002-2244-7917]
 synonym: "gill lamellae" EXACT PLURAL []
 xref: TAO:0000211
 is_a: ZFA:0001488 ! multi-tissue structure
@@ -2521,6 +2522,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000216
 name: infracarinalis
 namespace: zebrafish_anatomy
+comment: This may need to be treated as a waypoint in the development of the various muscles or as a group of muscles.
 xref: TAO:0000216
 is_a: ZFA:0005145 ! muscle
 relationship: end ZFS:0000044 ! Adult
@@ -2767,6 +2769,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000236
 name: mandibular muscle
 namespace: zebrafish_anatomy
+def: "Muscle that are part of the  mandibular arch (pharyngeal arch 1)." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 synonym: "mandibular muscles" EXACT PLURAL []
 xref: TAO:0000236
 is_a: ZFA:0001652 ! head muscle
@@ -3682,7 +3685,9 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000313
 name: anal inclinator
 namespace: zebrafish_anatomy
+def: "Series of paired muscles that have a distal attachment at the lateral  base of each ray and a proximal attachment  to the hypaxialis.  The left and right inclinators attach the integument and trunk muscles to the base of each ray." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8]
 synonym: "anal inclinators" EXACT PLURAL []
+synonym: "inclinatores anales" EXACT [ZFIN:ZDB-PUB-171118-8]
 xref: TAO:0000313
 is_a: ZFA:0005276 ! inclinator muscle
 relationship: end ZFS:0000044 ! Adult
@@ -4250,6 +4255,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000362
 name: hypaxialis
 namespace: zebrafish_anatomy
+def: "The hypaxialis consists of that part of the body musculature lying ventral to the midlateral horizontal septum." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-151106-17]
 xref: TAO:0000362
 is_a: ZFA:0005145 ! muscle
 relationship: end ZFS:0000044 ! Adult
@@ -5121,6 +5127,8 @@ relationship: start ZFS:0000037 ! Larval:Day 5
 id: ZFA:0000439
 name: superficial pelvic abductor
 namespace: zebrafish_anatomy
+def: "Ventral, superficial, paired muscle that originates from the posterior part of the protractor ishii tendon and the midline.  At the midline the paired muscles contact each other.  These are short muscles that attach to all pelvic fin rays except ray 1 and ray 2." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8]
+synonym: "abductor superficialis pelvicus" EXACT [ZFIN:ZDB-PUB-171118-8]
 synonym: "superficial pelvic abductors" EXACT PLURAL []
 xref: TAO:0000439
 is_a: ZFA:0005269 ! abductor muscle
@@ -5455,7 +5463,9 @@ relationship: start ZFS:0000034 ! Hatching:Pec-fin
 id: ZFA:0000466
 name: anal depressor
 namespace: zebrafish_anatomy
+def: "Series of  muscles that  have an anterior attachment  at posteriorlateral base of each ray and posterior attachment at the haemal spines. These muscles act in opposition to the anal erectors to lower the anal fin rays." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8]
 synonym: "anal depressors" EXACT PLURAL []
+synonym: "depressores anales" RELATED [ZFIN:ZDB-PUB-171118-8]
 xref: TAO:0000466
 is_a: ZFA:0005270 ! depressor muscle
 relationship: end ZFS:0000044 ! Adult
@@ -5815,6 +5825,8 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000497
 name: pelvic adductor profundus
 namespace: zebrafish_anatomy
+def: "Dorsal pelvic fin muscle that originates at the anterior side of the basipterygium, lies mostly parallel to the pelvic fin rays and attaches and inserts on the bases of all the pelvic fin rays." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8]
+synonym: "adductor profundus pelvicus" EXACT [ZFIN:ZDB-PUB-171118-8]
 synonym: "pelvic adductors profundus" EXACT PLURAL []
 xref: TAO:0000497
 is_a: ZFA:0005268 ! adductor muscle
@@ -6477,6 +6489,8 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000552
 name: nucleus ruber
 namespace: zebrafish_anatomy
+def: "Nucleus located in the midbrain tegmentum that controls motor coordination during locomotion." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-151021-15]
+synonym: "red nucleus" EXACT []
 xref: TAO:0000552
 is_a: ZFA:0005577 ! tegmental nucleus
 relationship: end ZFS:0000044 ! Adult
@@ -6622,6 +6636,8 @@ relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 id: ZFA:0000564
 name: pelvic abductor profundus
 namespace: zebrafish_anatomy
+def: "Deep pelvic muscle that originates from the basipterygium  and lies manly parallel to the rays and attaches to the base of all the rays except ray 1." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8]
+synonym: "abductor profundus pelvicus" EXACT [ZFIN:ZDB-PUB-171118-8]
 synonym: "pelvic abductors profundus" EXACT PLURAL []
 xref: TAO:0000564
 is_a: ZFA:0005269 ! abductor muscle
@@ -6965,6 +6981,8 @@ relationship: start ZFS:0000014 ! Blastula:Sphere
 id: ZFA:0000592
 name: superficial pelvic adductor
 namespace: zebrafish_anatomy
+def: "Superficial, dorsal pelvic fin muscle that originates at the anterior side of the basipterygium and inserts onto all pelvic fin rays except ray 1." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8]
+synonym: "adductor superficialis pelvicus" EXACT [ZFIN:ZDB-PUB-171118-8]
 synonym: "superficial pelvic adductors" EXACT PLURAL []
 xref: TAO:0000592
 is_a: ZFA:0005268 ! adductor muscle
@@ -7247,7 +7265,9 @@ relationship: start ZFS:0000039 ! Larval:Days 7-13
 id: ZFA:0000617
 name: anal erector
 namespace: zebrafish_anatomy
+def: "Series of muscles that have a distal attachment at the anteriolateral base of each ray and spike and a proximal attachment to the haemal spines.  A tendon runs along one third the dorsoventral length of the muscle toward the attachment at the haemal spine.  These muscles act in opposition to the anal depressors to raise the anal fin rays." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8]
 synonym: "anal erectors" EXACT PLURAL []
+synonym: "erectores anales" EXACT [ZFIN:ZDB-PUB-171118-8]
 xref: TAO:0000617
 is_a: ZFA:0005267 ! erector muscle
 relationship: end ZFS:0000044 ! Adult
@@ -7336,6 +7356,7 @@ name: basipterygium
 namespace: zebrafish_anatomy
 def: "Endochondral bone that is paired and supports the pelvic fin. The basipterygium has a posteromedial process called the ischiac process (Wietzman 1962)." [TAO:curator]
 synonym: "pelvic bone" EXACT []
+synonym: "pelvic girdle" RELATED []
 xref: TAO:0000623
 is_a: ZFA:0001591 ! endochondral bone
 relationship: develops_from ZFA:0001539 ! basipterygium cartilage
@@ -7652,6 +7673,8 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000651
 name: dorsal pelvic arrector
 namespace: zebrafish_anatomy
+def: "Dorsal pelvic fin muscle that originates at the anterior side of the basipterygium and inserts onto the base of the first pelvic fin ray." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8]
+synonym: "arrector dorsalis pelvicus" EXACT [ZFIN:ZDB-PUB-171118-8]
 synonym: "dorsal pelvic arrectors" EXACT PLURAL []
 xref: TAO:0000651
 is_a: ZFA:0005275 ! arrector muscle
@@ -8289,6 +8312,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000704
 name: ventral pelvic arrector
 namespace: zebrafish_anatomy
+def: "Deep, narrow muscle that arises anteriorly and laterally of the pelvic abductor profundus. It attaches to the first pelvic ray." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8v]
 synonym: "ventral pelvic arrectors" EXACT PLURAL []
 xref: TAO:0000704
 is_a: ZFA:0005275 ! arrector muscle
@@ -12688,6 +12712,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0001089
 name: myoseptum
 namespace: zebrafish_anatomy
+synonym: "myocommata" EXACT [ZFIN:ZDB-PUB-151106-17]
 synonym: "myosepta" EXACT PLURAL []
 xref: TAO:0001089
 is_a: ZFA:0000382 ! acellular anatomical structure
@@ -15827,7 +15852,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001366
 name: tract of the postoptic commissure
 namespace: zebrafish_anatomy
-def: "Tract that extends from the postoptic commissure through a curved trajectory in the diencephalon into the ventral midbrain \nIn the anterior diencephalon the TOP is a single tract but caudally the axons of the TPOC diverge and tend to grow in distinct parallel bundles. The more dorsal bundles extend in the dorsolateral tegmentum, the ventral bundles of the TPOC merge into the DLF in the hindbrain." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-167]
+def: "Tract that extends from the postoptic commissure through a curved trajectory in the diencephalon into the ventral midbrain. In the anterior diencephalon the TOP is a single tract but caudally the axons of the TPOC diverge and tend to grow in distinct parallel bundles. The more dorsal bundles extend in the dorsolateral tegmentum, the ventral bundles of the TPOC merge into the DLF in the hindbrain." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-167]
 synonym: "TPOC" EXACT []
 xref: TAO:0001366
 is_a: ZFA:0001682 ! white matter
@@ -19458,7 +19483,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0001679
 name: solid lens vesicle
 namespace: zebrafish_anatomy
-def: "Portion of tissue that gives rise to the lens. The lens of the zebrafish forms by delamination of lens placodal cells and not through invagination. This results in a solid spherical mass as opposed to a hollow lens vesicle. Detachment of the solid lens vesicle of zebrafish at 24-26 hpf is accomplished in part by apoptosis, similar to mammals." [ZFIN:ZDB-PUB-050701-15]
+def: "Portion of tissue that gives rise to the lens. The lens of the zebrafish forms by delamination of lens placodal cells and not through invagination. This results in a solid spherical mass as opposed to a hollow lens vesicle. Detachment of the solid lens vesicle of zebrafish at 24-26 hpf is accomplished in part by apoptosis, similar to mammals." [GOC:cvs, ORCiD:CVS, ZFIN:ZDB-PUB-050701-15]
 comment: Dbxref for ZFIN changed to match actual database accession number.  Old Dbxref ZDB-ANAT-090226-2 correct Dbxref ZDB-ANAT-090227-6.
 synonym: " immature lens" EXACT []
 synonym: "lens mass" EXACT [ZFIN:ZDB-PUB-091023-49]
@@ -20672,7 +20697,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0005045
 name: hyaloid artery
 namespace: zebrafish_anatomy
-def: "Artery that is internal to the eye." [ZFIN:ZDB-PUB-010205-5]
+def: "Artery that is internal to the eye." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-010205-5]
 synonym: "hyaloid arteries" EXACT PLURAL []
 xref: TAO:0005045
 is_a: ZFA:0000005 ! artery
@@ -21457,7 +21482,7 @@ relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 id: ZFA:0005111
 name: medial forebrain bundle
 namespace: zebrafish_anatomy
-def: "Tract that originates in the telencephalon lies medial to the lateral forebrain bundle and extends into the diencephalon approaching the posterior tuberal nucleus.  In embryos the tract connects cells in the ventral olfactory bulb to those in the septal area." [GOC:cvs, ZFIN:ZDB-PUB-071219-12, ZFIN:ZDB-PUB-961014-1280]
+def: "Tract that originates in the telencephalon lies medial to the lateral forebrain bundle and extends into the diencephalon approaching the posterior tuberal nucleus.  In embryos the tract connects cells in the ventral olfactory bulb to those in the septal area." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-071219-12, ZFIN:ZDB-PUB-961014-1280]
 synonym: "medial forebrain bundles" EXACT PLURAL []
 xref: TAO:0005111
 is_a: ZFA:0001682 ! white matter
@@ -25973,7 +25998,6 @@ name: basicapsular fenestra
 namespace: zebrafish_anatomy
 def: "Opening in the prootic.  The basicapsular fenestra is paired." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 synonym: "basicapsular fenestrae" EXACT PLURAL []
-xref: XX:<new xref>
 is_a: ZFA:0005386 ! foramen
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -29060,9 +29084,9 @@ creation_date: 2013-05-21T03:47:52Z
 
 [Term]
 id: ZFA:0005702
-name: lG1
+name: lg1
 namespace: zebrafish_anatomy
-def: "Glomerulus located in the lateral zone of the olfactory bulb. lG1 is surrounded by a diffuse aggregate of OSN axons." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
+def: "Glomerulus located in the lateral zone of the olfactory bulb. LG1 is surrounded by a diffuse aggregate of OSN axons." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "glomerulus 1 of the lateral chain" EXACT []
 synonym: "lateral glomerulus 1" EXACT []
 is_a: ZFA:0005661 ! olfactory bulb glomerulus
@@ -29119,9 +29143,9 @@ creation_date: 2013-05-22T11:07:13Z
 
 [Term]
 id: ZFA:0005706
-name: lG5
+name: lg5
 namespace: zebrafish_anatomy
-def: "Glomerulus located in the lateral zone of the olfactory bulb. lG5 is surrounded by a diffuse aggregate of OSN axons." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
+def: "Glomerulus located in the lateral zone of the olfactory bulb. LG5 is surrounded by a diffuse aggregate of OSN axons." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "glomerulus 5 of the lateral chain" EXACT []
 synonym: "lateral glomerulus 5" RELATED []
 synonym: "lcG5 " EXACT []
@@ -29146,9 +29170,9 @@ creation_date: 2013-05-22T11:16:21Z
 
 [Term]
 id: ZFA:0005708
-name: lG6
+name: lg6
 namespace: zebrafish_anatomy
-def: "Glomerulus located in the lateral zone of the olfactory bulb. lG6 is located on the ventroposterior edge of the lateral group." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
+def: "Glomerulus located in the lateral zone of the olfactory bulb. LG6 is located on the ventroposterior edge of the lateral group." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "lateral glomerulus 6" EXACT []
 synonym: "lvpG" EXACT []
 is_a: ZFA:0005661 ! olfactory bulb glomerulus
@@ -31278,7 +31302,7 @@ creation_date: 2016-02-02T11:47:50Z
 [Term]
 id: ZFA:0005872
 name: external granular layer of the cerebellar plate
-def: "Proliferative region that forms on peripheral side of the cerebellar plate." [GOC:cvs, ORDCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
+def: "Proliferative region that forms on peripheral side of the cerebellar plate." [GOC:cvs, ORCiD:0000-0002-2244-7917, ORDCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
 synonym: "cerebellar plate peripheral proliferative zone" RELATED []
 synonym: "EGL" EXACT []
 is_a: ZFA:0000098 ! proliferative region
@@ -31319,7 +31343,7 @@ id: ZFA:0005875
 name: tract of the commissure of the caudal tuberculum
 namespace: zebrafish_anatomy
 def: "Tract that extends from the intersection of the tract of the postoptic commissure and supraoptic tract that projects caudally across the hypothalamus and into the commissure of the caudal tuberculum.  The axons appear to originate from a symmetric group of neurons in the forebrain that travel caudally into the diencephalon and then decussate, with some axons continuing  to travel longitudinally and join other axons crossing the midline.   There does not appear to be a clear ortholog of the TCPT in mammals; and the function(s) of the TCPT are not currently known." [GOC:cvs, GOC:dsf, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-1268]
-comment: This tract was originally identified in zebrafish by Wilson et al., 1990
+comment: This tract was originally identified in zebrafish by Wilson et al., 1990.
 synonym: " TCPT" EXACT [ZFIN:ZDB-PUB-961014-1268]
 synonym: "tract of the commissure of the posterior tuberculum" EXACT []
 is_a: ZFA:0001682 ! white matter
@@ -31569,6 +31593,47 @@ relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2017-10-27T16:53:59Z
+
+[Term]
+id: ZFA:0005896
+name: anal retractor
+namespace: zebrafish_anatomy
+def: "Longitudinal unpaired muscle that attaches to the base of the  most posterior ray of the anal fin (usually ray 14) and runs posteriorly into he hypaxial musculature of the caudal fin.  The anal retractor pulls the anal fin toward the body." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8]
+synonym: "infracarinalis posterior" EXACT [ZFIN:ZDB-PUB-151106-17, ZFIN:ZDB-PUB-180212-2]
+synonym: "retractor analis" EXACT [ZFIN:ZDB-PUB-171118-8]
+is_a: ZFA:0005145 ! muscle
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001154 ! anal fin musculature
+relationship: start ZFS:0000000 ! Unknown
+created_by: ceriv
+creation_date: 2018-02-12T10:14:25Z
+
+[Term]
+id: ZFA:0005897
+name: anal protractor
+namespace: zebrafish_anatomy
+def: "Longitudinal muscle that on the anterior end is  continuous with the retractor ischii and on the posterior end inserts into the base of the first anal ray." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8]
+synonym: "infracarinalis medius" RELATED [ZFIN:ZDB-PUB-151106-17, ZFIN:ZDB-PUB-180212-2]
+synonym: "protractor analis" EXACT [ZFIN:ZDB-PUB-171118-8]
+is_a: ZFA:0005145 ! muscle
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001154 ! anal fin musculature
+relationship: start ZFS:0000000 ! Unknown
+created_by: ceriv
+creation_date: 2018-02-12T10:37:38Z
+
+[Term]
+id: ZFA:0005898
+name: caudal hematopoietic tissue
+namespace: zebrafish_anatomy
+def: "Tissue that lies between the caudal artery and the caudal vein plexus where definitive homatopiesis occurs after  48hpf and before the hematopoietic progenitors migrate to the thymus and kidney." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-061227-29, ZFIN:ZDB-PUB-070303-37]
+synonym: "posterior blood island" RELATED [ZFIN:ZDB-PUB-070303-37]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000039 ! Larval:Days 7-13
+relationship: part_of ZFA:0005023 ! hematopoietic system
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Ceri
+creation_date: 2018-02-21T12:40:50Z
 
 [Term]
 id: ZFA:0006000
