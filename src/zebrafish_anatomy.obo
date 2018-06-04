@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:02:2018 13:57
+date: 31:05:2018 14:03
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -502,12 +502,13 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000043
 name: muscle pioneer somite 1
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 1." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 1" EXACT PLURAL []
 xref: TAO:0000043
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000963 ! slow muscle cell somite 1
+relationship: part_of ZFA:0000072 ! somite 1
 relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 
 [Term]
@@ -646,7 +647,7 @@ synonym: "pericardial sac" EXACT []
 xref: TAO:0000054
 is_a: ZFA:0005425 ! serous membrane
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000010 ! cardiovascular system
+relationship: part_of ZFA:0007115 ! pericardial region
 relationship: start ZFS:0000028 ! Segmentation:26+ somites
 
 [Term]
@@ -862,7 +863,7 @@ xref: TAO:0000076
 is_a: ZFA:0001490 ! cavitated compound organ
 relationship: develops_from ZFA:0005335 ! swim bladder bud
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0001656 ! pleuroperitoneal cavity
+relationship: part_of ZFA:0007116 ! pleuroperitoneal region
 relationship: start ZFS:0000034 ! Hatching:Pec-fin
 
 [Term]
@@ -1342,7 +1343,7 @@ is_a: ZFA:0001490 ! cavitated compound organ
 relationship: develops_from ZFA:0000360 ! heart tube
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000010 ! cardiovascular system
-relationship: part_of ZFA:0001655 ! pericardial cavity
+relationship: part_of ZFA:0007115 ! pericardial region
 relationship: start ZFS:0000032 ! Pharyngula:High-pec
 
 [Term]
@@ -1628,7 +1629,7 @@ is_a: ZFA:0000496 ! compound organ
 relationship: develops_from ZFA:0001390 ! pancreatic bud
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001371 ! pancreatic system
-relationship: part_of ZFA:0001656 ! pleuroperitoneal cavity
+relationship: part_of ZFA:0007116 ! pleuroperitoneal region
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 
 [Term]
@@ -1718,6 +1719,7 @@ is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0000115 ! heart rudiment
 relationship: end ZFS:0000029 ! Pharyngula:Prim-5
 relationship: part_of ZFA:0000010 ! cardiovascular system
+relationship: part_of ZFA:0007115 ! pericardial region
 relationship: start ZFS:0000028 ! Segmentation:26+ somites
 
 [Term]
@@ -1745,7 +1747,7 @@ is_a: ZFA:0001490 ! cavitated compound organ
 relationship: develops_from ZFA:0000067 ! pronephric mesoderm
 relationship: end ZFS:0000039 ! Larval:Days 7-13
 relationship: part_of ZFA:0000163 ! renal system
-relationship: part_of ZFA:0001438 ! coelom
+relationship: part_of ZFA:0007116 ! pleuroperitoneal region
 relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 
 [Term]
@@ -2431,7 +2433,7 @@ is_a: ZFA:0000496 ! compound organ
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000036 ! liver and biliary system
 relationship: part_of ZFA:0000339 ! digestive system
-relationship: part_of ZFA:0001656 ! pleuroperitoneal cavity
+relationship: part_of ZFA:0007116 ! pleuroperitoneal region
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 
 [Term]
@@ -2560,7 +2562,7 @@ id: ZFA:0000220
 name: lateral semicircular canal
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000361
-def: "One of three fluid-filled toroidal spaces, arranged orthogonally to each other in each ear, that detect angular acceleration. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/semi_canal/semi.html'>semicircular canals</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "One of three fluid-filled semicircular tubes, arranged orthogonally to each other in each ear.  The lateral semicircular canal is associated with the lateral crista. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/semi_canal/semi.html'>semicircular canals</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
 synonym: "horizontal semicircular canal" EXACT []
 synonym: "lateral semicircular canals" EXACT PLURAL []
 synonym: "lateral semicircular duct" EXACT []
@@ -2737,7 +2739,7 @@ synonym: "mandibular valve" EXACT []
 xref: TAO:0000233
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000695 ! labial cavity
+relationship: part_of ZFA:0000590 ! oral region
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -3088,7 +3090,7 @@ id: ZFA:0000262
 name: posterior semicircular canal
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000483
-def: "One of three fluid-filled toroidal spaces, arranged orthogonally to each other in each ear, that detect angular acceleration. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/semi_canal/semi.html'>semicircular canals</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "One of three fluid-filled semicircular tubes, arranged orthogonally to each other in each ear.  The posterior semicircular canal is associated with the posterior crista. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/semi_canal/semi.html'>semicircular canals</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
 synonym: "caudal vertical semicircular canal" EXACT []
 synonym: "posterior semicircular canals" EXACT PLURAL []
 synonym: "posterior semicircular duct" EXACT []
@@ -3699,7 +3701,7 @@ id: ZFA:0000314
 name: anterior semicircular canal
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000675
-def: "One of three fluid-filled toroidal spaces, arranged orthogonally to each other in each ear, that detect angular acceleration. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/semi_canal/semi.html'>semicircular canals</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "One of three fluid-filled semicircular tubes, arranged orthogonally to each other in each ear.  The anterior semicircular canal is associated with the anterior crista. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/semi_canal/semi.html'>semicircular canals</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
 synonym: "anterior semicircular canals" EXACT PLURAL []
 synonym: "anterior semicircular duct" EXACT []
 synonym: "rostral vertical semicircular canal" EXACT []
@@ -4249,6 +4251,7 @@ is_a: ZFA:0001490 ! cavitated compound organ
 relationship: develops_from ZFA:0000149 ! primitive heart tube
 relationship: end ZFS:0000031 ! Pharyngula:Prim-25
 relationship: part_of ZFA:0000010 ! cardiovascular system
+relationship: part_of ZFA:0007115 ! pericardial region
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
@@ -4613,12 +4616,13 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000395
 name: muscle pioneer somite 2
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 2." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 2" EXACT PLURAL []
 xref: TAO:0000395
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000843 ! slow muscle cell somite 2
+relationship: part_of ZFA:0000728 ! somite 2
 relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 
 [Term]
@@ -4825,7 +4829,7 @@ is_a: ZFA:0001490 ! cavitated compound organ
 relationship: develops_from ZFA:0005272 ! immature gonad
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000632 ! reproductive system
-relationship: part_of ZFA:0001656 ! pleuroperitoneal cavity
+relationship: part_of ZFA:0007116 ! pleuroperitoneal region
 relationship: start ZFS:0000041 ! Larval:Days 21-29
 
 [Term]
@@ -5043,12 +5047,12 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000431
 name: semicircular canal
 namespace: zebrafish_anatomy
-def: "Fluid-filled toroidal spaces, arranged orthogonally to each other in the inner ear, that detect angular accelerations. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/semi_canal/semi.html'>semicircular canals</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "Fluid-filled semicircular tubes, arranged orthogonally to each other in the inner ear. Each canal is associated with a crista that detects angular accelerations. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/semi_canal/semi.html'>semicircular canals</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
 synonym: "scc" EXACT []
 synonym: "semicircular canals" EXACT PLURAL []
 synonym: "semicircular duct" EXACT []
 xref: TAO:0000431
-is_a: ZFA:0001643 ! anatomical space
+is_a: ZFA:0007114 ! anatomical conduit
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005409 ! pars superior ear
 relationship: start ZFS:0000032 ! Pharyngula:High-pec
@@ -5098,7 +5102,7 @@ is_a: ZFA:0000496 ! compound organ
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000339 ! digestive system
 relationship: part_of ZFA:0001159 ! immune system
-relationship: part_of ZFA:0001656 ! pleuroperitoneal cavity
+relationship: part_of ZFA:0007116 ! pleuroperitoneal region
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -5288,7 +5292,7 @@ synonym: "upper semilunar valve " EXACT [ZFIN:ZDB-PUB-060921-12]
 xref: TAO:0000451
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000695 ! labial cavity
+relationship: part_of ZFA:0000590 ! oral region
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -5351,8 +5355,6 @@ def: "Periventricular nucleus which lies rostral to the anterior commissure of t
 synonym: "area ventralis telencephali, nucleus ventralis" EXACT []
 synonym: "ventral division of ventral telencephalic area" RELATED []
 synonym: "ventral nucleus of V" EXACT []
-synonym: "Vv" EXACT [ZFIN:ZDB-PUB-961014-1280]
-synonym: "ZDB-PUB-961014-1280 " RELATED []
 xref: TAO:0000456
 is_a: ZFA:0001666 ! periventricular nucleus of ventral telencephalon
 relationship: end ZFS:0000044 ! Adult
@@ -6213,7 +6215,7 @@ is_a: ZFA:0001490 ! cavitated compound organ
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000163 ! renal system
 relationship: part_of ZFA:0001159 ! immune system
-relationship: part_of ZFA:0001656 ! pleuroperitoneal cavity
+relationship: part_of ZFA:0007116 ! pleuroperitoneal region
 relationship: start ZFS:0000037 ! Larval:Day 5
 
 [Term]
@@ -6431,7 +6433,7 @@ is_a: ZFA:0000292 ! surface structure
 relationship: develops_from ZFA:0001290 ! stomodeum
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000339 ! digestive system
-relationship: part_of ZFA:0001114 ! head
+relationship: part_of ZFA:0000590 ! oral region
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -6961,11 +6963,12 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000590
 name: oral region
 namespace: zebrafish_anatomy
+def: "Region of the head where the mouth and oral structures are located." [GOC:ymb, ORCid:0000-0002-9900-7880]
 xref: TAO:0000590
 is_a: ZFA:0001478 ! anatomical cluster
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000547 ! mouth
-relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+relationship: part_of ZFA:0001114 ! head
+relationship: start ZFS:0000000 ! Unknown
 
 [Term]
 id: ZFA:0000591
@@ -8494,6 +8497,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000719
 name: slow muscle cell somite 21
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 21." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 21" EXACT PLURAL []
 xref: TAO:0000719
@@ -8506,6 +8510,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000720
 name: slow muscle cell somite 24
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 24." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 24" EXACT PLURAL []
 xref: TAO:0000720
@@ -8518,6 +8523,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000721
 name: slow muscle cell somite 27
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 27." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 27" EXACT PLURAL []
 xref: TAO:0000721
@@ -8530,6 +8536,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000722
 name: slow muscle cell somite 3
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 3." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 3" EXACT PLURAL []
 xref: TAO:0000722
@@ -8542,6 +8549,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000723
 name: slow muscle cell somite 5
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 5." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 5" EXACT PLURAL []
 xref: TAO:0000723
@@ -8554,6 +8562,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000724
 name: slow muscle cell somite 8
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 8." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 8" EXACT PLURAL []
 xref: TAO:0000724
@@ -9300,60 +9309,65 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000790
 name: muscle pioneer somite 10
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 10." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 10" EXACT PLURAL []
 xref: TAO:0000790
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0001047 ! slow muscle cell somite 10
+relationship: part_of ZFA:0000974 ! somite 10
 relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 
 [Term]
 id: ZFA:0000791
 name: muscle pioneer somite 13
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 13." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 13" EXACT PLURAL []
 xref: TAO:0000791
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0001048 ! slow muscle cell somite 13
+relationship: part_of ZFA:0000975 ! somite 13
 relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 
 [Term]
 id: ZFA:0000792
 name: muscle pioneer somite 16
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 16." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 16" EXACT PLURAL []
 xref: TAO:0000792
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0001049 ! slow muscle cell somite 16
+relationship: part_of ZFA:0000976 ! somite 16
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
 id: ZFA:0000793
 name: muscle pioneer somite 19
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 19." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 19" EXACT PLURAL []
 xref: TAO:0000793
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0001050 ! slow muscle cell somite 19
+relationship: part_of ZFA:0000977 ! somite 19
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
 id: ZFA:0000794
 name: muscle pioneer somite 22
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 22." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 22" EXACT PLURAL []
 xref: TAO:0000794
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000844 ! slow muscle cell somite 22
+relationship: part_of ZFA:0000978 ! somite 22
 relationship: start ZFS:0000028 ! Segmentation:26+ somites
 
 [Term]
@@ -9372,60 +9386,65 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000796
 name: muscle pioneer somite 25
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 25." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 25" EXACT PLURAL []
 xref: TAO:0000796
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000845 ! slow muscle cell somite 25
+relationship: part_of ZFA:0000980 ! somite 25
 relationship: start ZFS:0000028 ! Segmentation:26+ somites
 
 [Term]
 id: ZFA:0000797
 name: muscle pioneer somite 28
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 28." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 28" EXACT PLURAL []
 xref: TAO:0000797
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000846 ! slow muscle cell somite 28
+relationship: part_of ZFA:0000856 ! somite 28
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
 id: ZFA:0000798
 name: muscle pioneer somite 30
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 30." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 30" EXACT PLURAL []
 xref: TAO:0000798
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000847 ! slow muscle cell somite 30
+relationship: part_of ZFA:0000157 ! somite 30
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
 id: ZFA:0000799
 name: muscle pioneer somite 6
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 6." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 6" EXACT PLURAL []
 xref: TAO:0000799
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000848 ! slow muscle cell somite 6
+relationship: part_of ZFA:0000982 ! somite 6
 relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 
 [Term]
 id: ZFA:0000800
 name: muscle pioneer somite 9
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 9." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 9" EXACT PLURAL []
 xref: TAO:0000800
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000850 ! slow muscle cell somite 9
+relationship: part_of ZFA:0000983 ! somite 9
 relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 
 [Term]
@@ -9882,6 +9901,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000840
 name: slow muscle cell somite 11
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 11." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 11" EXACT PLURAL []
 xref: TAO:0000840
@@ -9894,6 +9914,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000841
 name: slow muscle cell somite 14
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 14." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 14" EXACT PLURAL []
 xref: TAO:0000841
@@ -9906,6 +9927,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000842
 name: slow muscle cell somite 17
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 17." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 17" EXACT PLURAL []
 xref: TAO:0000842
@@ -9918,6 +9940,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000843
 name: slow muscle cell somite 2
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 2." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 2" EXACT PLURAL []
 xref: TAO:0000843
@@ -9930,6 +9953,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000844
 name: slow muscle cell somite 22
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 22." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 22" EXACT PLURAL []
 xref: TAO:0000844
@@ -9942,6 +9966,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000845
 name: slow muscle cell somite 25
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 25." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 25" EXACT PLURAL []
 xref: TAO:0000845
@@ -9954,6 +9979,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000846
 name: slow muscle cell somite 28
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 28." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 28" EXACT PLURAL []
 xref: TAO:0000846
@@ -9966,6 +9992,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000847
 name: slow muscle cell somite 30
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 30." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 30" EXACT PLURAL []
 xref: TAO:0000847
@@ -9978,6 +10005,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000848
 name: slow muscle cell somite 6
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 6." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 6" EXACT PLURAL []
 xref: TAO:0000848
@@ -10002,6 +10030,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000850
 name: slow muscle cell somite 9
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 9." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 9" EXACT PLURAL []
 xref: TAO:0000850
@@ -10094,7 +10123,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000859
 name: specialized hemal arch and spine
 namespace: zebrafish_anatomy
-def: "Modified hemal arches and spines that support the caudal fin.  In developing fish they articulate with preural 1, ural1 and ural2; in adults they articulate with the urostyle." [ZFIN:ZDB-PUB-031103-13]
+def: "Modified hemal arches and spines that support the caudal fin.  In developing fish they articulate with preural 1, ural1 and ural2; in adults they articulate with the urostyle." [ZFIN:ZDB-PUB-011008-1]
 synonym: "ha(pu)" EXACT []
 synonym: "hemal arch (preural)" EXACT [ZFIN:ZDB-PUB-011008-1]
 synonym: "specialized haemal arch and spine" EXACT []
@@ -10746,108 +10775,117 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000915
 name: muscle pioneer somite 11
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 11." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 11" EXACT PLURAL []
 xref: TAO:0000915
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000840 ! slow muscle cell somite 11
+relationship: part_of ZFA:0000725 ! somite 11
 relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 
 [Term]
 id: ZFA:0000916
 name: muscle pioneer somite 14
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 14." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 14" EXACT PLURAL []
 xref: TAO:0000916
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000841 ! slow muscle cell somite 14
+relationship: part_of ZFA:0000726 ! somite 14
 relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 
 [Term]
 id: ZFA:0000917
 name: muscle pioneer somite 17
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 17." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 17" EXACT PLURAL []
 xref: TAO:0000917
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000842 ! slow muscle cell somite 17
+relationship: part_of ZFA:0000727 ! somite 17
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
 id: ZFA:0000918
 name: muscle pioneer somite 20
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 20." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 20" EXACT PLURAL []
 xref: TAO:0000918
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000967 ! slow muscle cell somite 20
+relationship: part_of ZFA:0000156 ! somite 20
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
 id: ZFA:0000919
 name: muscle pioneer somite 23
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 23." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 23" EXACT PLURAL []
 xref: TAO:0000919
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000969 ! slow muscle cell somite 23
+relationship: part_of ZFA:0000730 ! somite 23
 relationship: start ZFS:0000028 ! Segmentation:26+ somites
 
 [Term]
 id: ZFA:0000920
 name: muscle pioneer somite 26
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 26." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 26" EXACT PLURAL []
 xref: TAO:0000920
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000970 ! slow muscle cell somite 26
+relationship: part_of ZFA:0000074 ! somite 26
 relationship: start ZFS:0000028 ! Segmentation:26+ somites
 
 [Term]
 id: ZFA:0000921
 name: muscle pioneer somite 29
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 29." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 29" EXACT PLURAL []
 xref: TAO:0000921
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000971 ! slow muscle cell somite 29
+relationship: part_of ZFA:0000981 ! somite 29
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
 id: ZFA:0000922
 name: muscle pioneer somite 4
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 4." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 4" EXACT PLURAL []
 xref: TAO:0000922
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000972 ! slow muscle cell somite 4
+relationship: part_of ZFA:0000857 ! somite 4
 relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 
 [Term]
 id: ZFA:0000923
 name: muscle pioneer somite 7
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 7." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 7" EXACT PLURAL []
 xref: TAO:0000923
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000973 ! slow muscle cell somite 7
+relationship: part_of ZFA:0000733 ! somite 7
 relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 
 [Term]
@@ -11278,6 +11316,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000963
 name: slow muscle cell somite 1
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 1." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961219-12]
 subset: cell_slim
 synonym: "slow muscle cells somite 1" EXACT PLURAL []
 xref: TAO:0000963
@@ -11290,6 +11329,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000964
 name: slow muscle cell somite 12
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 12." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 12" EXACT PLURAL []
 xref: TAO:0000964
@@ -11302,6 +11342,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000965
 name: slow muscle cell somite 15
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 15." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 15" EXACT PLURAL []
 xref: TAO:0000965
@@ -11314,6 +11355,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000966
 name: slow muscle cell somite 18
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 18." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 18" EXACT PLURAL []
 xref: TAO:0000966
@@ -11326,6 +11368,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000967
 name: slow muscle cell somite 20
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 20." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 20" EXACT PLURAL []
 xref: TAO:0000967
@@ -11349,6 +11392,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000969
 name: slow muscle cell somite 23
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 23." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 23" EXACT PLURAL []
 xref: TAO:0000969
@@ -11361,6 +11405,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000970
 name: slow muscle cell somite 26
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 26." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 26" EXACT PLURAL []
 xref: TAO:0000970
@@ -11373,6 +11418,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000971
 name: slow muscle cell somite 29
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 29." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 29" EXACT PLURAL []
 xref: TAO:0000971
@@ -11385,6 +11431,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000972
 name: slow muscle cell somite 4
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 4." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 4" EXACT PLURAL []
 xref: TAO:0000972
@@ -11397,6 +11444,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000973
 name: slow muscle cell somite 7
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 7." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 7" EXACT PLURAL []
 xref: TAO:0000973
@@ -11709,108 +11757,117 @@ is_obsolete: true
 id: ZFA:0001003
 name: muscle pioneer somite 12
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 12." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 12" EXACT PLURAL []
 xref: TAO:0001003
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000964 ! slow muscle cell somite 12
+relationship: part_of ZFA:0000851 ! somite 12
 relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 
 [Term]
 id: ZFA:0001004
 name: muscle pioneer somite 15
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 15." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 15" EXACT PLURAL []
 xref: TAO:0001004
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000965 ! slow muscle cell somite 15
+relationship: part_of ZFA:0000852 ! somite 15
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
 id: ZFA:0001005
 name: muscle pioneer somite 18
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 18." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 18" EXACT PLURAL []
 xref: TAO:0001005
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000966 ! slow muscle cell somite 18
+relationship: part_of ZFA:0000853 ! somite 18
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
 id: ZFA:0001006
 name: muscle pioneer somite 21
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 21." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 21" EXACT PLURAL []
 xref: TAO:0001006
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000719 ! slow muscle cell somite 21
+relationship: part_of ZFA:0000854 ! somite 21
 relationship: start ZFS:0000028 ! Segmentation:26+ somites
 
 [Term]
 id: ZFA:0001007
 name: muscle pioneer somite 24
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 24." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 24" EXACT PLURAL []
 xref: TAO:0001007
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000720 ! slow muscle cell somite 24
+relationship: part_of ZFA:0000855 ! somite 24
 relationship: start ZFS:0000028 ! Segmentation:26+ somites
 
 [Term]
 id: ZFA:0001008
 name: muscle pioneer somite 27
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 27." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 27" EXACT PLURAL []
 xref: TAO:0001008
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000721 ! slow muscle cell somite 27
+relationship: part_of ZFA:0000731 ! somite 27
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
 id: ZFA:0001009
 name: muscle pioneer somite 3
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 3." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 3" EXACT PLURAL []
 xref: TAO:0001009
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000722 ! slow muscle cell somite 3
+relationship: part_of ZFA:0000732 ! somite 3
 relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 
 [Term]
 id: ZFA:0001010
 name: muscle pioneer somite 5
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 5." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 5" EXACT PLURAL []
 xref: TAO:0001010
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000723 ! slow muscle cell somite 5
+relationship: part_of ZFA:0000073 ! somite 5
 relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 
 [Term]
 id: ZFA:0001011
 name: muscle pioneer somite 8
 namespace: zebrafish_anatomy
+def: "Muscle pioneer cell part of somite 8." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "muscle pioneers somite 8" EXACT PLURAL []
 xref: TAO:0001011
 is_a: ZFA:0001086 ! muscle pioneer
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0000724 ! slow muscle cell somite 8
+relationship: part_of ZFA:0000858 ! somite 8
 relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 
 [Term]
@@ -12217,6 +12274,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0001047
 name: slow muscle cell somite 10
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 10." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 10" EXACT PLURAL []
 xref: TAO:0001047
@@ -12229,6 +12287,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0001048
 name: slow muscle cell somite 13
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 13." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 13" EXACT PLURAL []
 xref: TAO:0001048
@@ -12241,6 +12300,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0001049
 name: slow muscle cell somite 16
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 16." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 16" EXACT PLURAL []
 xref: TAO:0001049
@@ -12253,6 +12313,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0001050
 name: slow muscle cell somite 19
 namespace: zebrafish_anatomy
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content. Slow muscle cells are located superficial to the fast muscle cell in the myotome of somite 19." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "slow muscle cells somite 19" EXACT PLURAL []
 xref: TAO:0001050
@@ -12697,15 +12758,15 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0001086
 name: muscle pioneer
 namespace: zebrafish_anatomy
-def: "Cells that develop from adaxial  that express engrailed and do not migrate completely to the lateral surface of the myotome, and instead extend from the notochord to the lateral surface of the somite, at the level of the future horizontal myoseptum." [ZFIN:ZDB-PUB-961219-12]
+def: "Cells that develop from adaxial cells  that express engrailed and do not migrate completely to the lateral surface of the myotome, and instead extend from the notochord to the lateral surface of the somite, at the level of the future horizontal myoseptum." [ZFIN:ZDB-PUB-961219-12]
 subset: cell_slim
 synonym: "muscle pioneers" EXACT PLURAL []
 synonym: "non migratory adaxial cells" EXACT []
 xref: TAO:0001086
-is_a: ZFA:0009000 ! cell
+is_a: ZFA:0009114 ! muscle cell
 relationship: develops_from ZFA:0000003 ! adaxial cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
-relationship: part_of ZFA:0009116 ! slow muscle cell
+relationship: part_of ZFA:0000155 ! somite
 relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 
 [Term]
@@ -14998,6 +15059,7 @@ xref: TAO:0001290
 is_a: ZFA:0000292 ! surface structure
 relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0000112 ! gut
+relationship: part_of ZFA:0000590 ! oral region
 relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
@@ -15553,6 +15615,7 @@ xref: TAO:0001338
 is_a: ZFA:0001490 ! cavitated compound organ
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000112 ! gut
+relationship: part_of ZFA:0007116 ! pleuroperitoneal region
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 
 [Term]
@@ -16699,7 +16762,7 @@ namespace: zebrafish_anatomy
 def: "Anatomical space, part of the trunk that contains the pericardial and pleuroperitoneal cavities." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 synonym: "body cavity" EXACT []
 xref: TAO:0001438
-is_a: ZFA:0001643 ! anatomical space
+is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001115 ! trunk
 relationship: start ZFS:0000000 ! Unknown
@@ -19240,6 +19303,7 @@ xref: TAO:0002220
 is_a: ZFA:0001643 ! anatomical space
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001438 ! coelom
+relationship: part_of ZFA:0007115 ! pericardial region
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -19252,6 +19316,7 @@ xref: TAO:0002224
 is_a: ZFA:0001643 ! anatomical space
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001438 ! coelom
+relationship: part_of ZFA:0007116 ! pleuroperitoneal region
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -21715,6 +21780,7 @@ xref: TAO:0005131
 is_a: ZFA:0005425 ! serous membrane
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005120 ! peritoneum
+relationship: part_of ZFA:0007116 ! pleuroperitoneal region
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -29862,7 +29928,7 @@ comment: No evidence of septa surrounding fat has been presented so is a fat acc
 synonym: "visceral fat deposit" RELATED []
 is_a: ZFA:0005345 ! adipose tissue
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0001656 ! pleuroperitoneal cavity
+relationship: part_of ZFA:0007116 ! pleuroperitoneal region
 relationship: start ZFS:0000040 ! Larval:Days 14-20
 created_by: Ceri
 creation_date: 2013-09-23T10:23:07Z
@@ -33031,6 +33097,39 @@ created_by: yvonne
 creation_date: 2016-10-19T15:41:01Z
 
 [Term]
+id: ZFA:0007114
+name: anatomical conduit
+namespace: zebrafish_anatomy
+def: "An anatomical structure that is an opening or tube that connects two distinct anatomical spaces." [GOC:ymb, ORCid:0000-0002-9900-7880]
+is_a: ZFA:0000037 ! anatomical structure
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Yvonne
+creation_date: 2018-03-23T11:46:06Z
+
+[Term]
+id: ZFA:0007115
+name: pericardial region
+namespace: zebrafish_anatomy
+def: "An anatomical cluster composed of the heart and associated structures." [GOC:ymb, ORCid:0000-0002-9900-7880]
+is_a: ZFA:0001478 ! anatomical cluster
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Yvonne
+creation_date: 2018-03-26T11:52:32Z
+
+[Term]
+id: ZFA:0007116
+name: pleuroperitoneal region
+namespace: zebrafish_anatomy
+def: "An anatomical cluster composed of the organs of the  pleuroperitoneal cavity and associated structures." [GOC:ymb, ORCid:0000-0002-9900-7880]
+is_a: ZFA:0001478 ! anatomical cluster
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Yvonne
+creation_date: 2018-03-26T14:19:43Z
+
+[Term]
 id: ZFA:0009000
 name: cell
 namespace: zebrafish_anatomy
@@ -34637,13 +34736,13 @@ id: ZFA:0009116
 name: slow muscle cell
 namespace: zebrafish_anatomy
 alt_id: ZFA:0001087
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content." []
 subset: cell_slim
 synonym: "red muscle cell" EXACT []
 synonym: "slow muscle fiber" EXACT [ISBN:0815316208]
 xref: CL:0000189
 xref: TAO:0009116
 is_a: ZFA:0009115 ! skeletal muscle cell
-relationship: develops_from ZFA:0001056 ! myotome
 relationship: develops_from ZFA:0001373 ! migratory slow muscle precursor cell
 relationship: develops_from ZFA:0009368 ! slow muscle myoblast
 relationship: end ZFS:0000044 ! Adult
@@ -34659,7 +34758,6 @@ synonym: "white muscle cell" EXACT []
 xref: CL:0000190
 xref: TAO:0009117
 is_a: ZFA:0009115 ! skeletal muscle cell
-relationship: develops_from ZFA:0001056 ! myotome
 relationship: develops_from ZFA:0009369 ! fast muscle myoblast
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000024 ! Segmentation:5-9 somites
