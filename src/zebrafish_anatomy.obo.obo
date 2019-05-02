@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:02:2019 12:29
+date: 17:04:2019 11:50
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -3525,7 +3525,7 @@ synonym: "nucleus entopeduncularis, pars ventralis" EXACT []
 synonym: "ventral entopeduncular nucleus V" EXACT []
 xref: TAO:0000299
 is_a: ZFA:0001667 ! peripheral nucleus of ventral telencephalon
-relationship: develops_from ZFA:0005910 ! presumptive ventral entopeduncular nucleus  
+relationship: develops_from ZFA:0005910 ! presumptive ventral entopeduncular nucleus
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -14062,6 +14062,7 @@ synonym: "ventral mandibular cartilage" EXACT []
 xref: TAO:0001205
 is_a: ZFA:0001460 ! pharyngeal arch cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0007117 ! Meckel's cartilage-palatoquadrate cartilage joint
 relationship: part_of ZFA:0001273 ! ventral mandibular arch
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 
@@ -16303,6 +16304,7 @@ synonym: "quadrate cartilage" EXACT []
 xref: TAO:0001399
 is_a: ZFA:0001460 ! pharyngeal arch cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0007117 ! Meckel's cartilage-palatoquadrate cartilage joint
 relationship: part_of ZFA:0001272 ! palatoquadrate arch
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 
@@ -19922,7 +19924,7 @@ creation_date: 2009-08-05T03:35:05Z
 id: ZFA:0001705
 name: endolymphatic duct
 namespace: zebrafish_anatomy
-def: "Duct that is part of the inner ear and connects to the semicircular canals ending in a pouch." [http://en.wikipedia.org/wiki/Endolymphatic_duct, ZFIN:ZDB-PUB-090112-20]
+def: "Duct that is part of the inner ear and connects to the semicircular canals ending in the endolymphatic sac." [http://en.wikipedia.org/wiki/Endolymphatic_duct, ZFIN:ZDB-PUB-090112-20]
 xref: TAO:0002194
 is_a: ZFA:0005171 ! duct
 relationship: end ZFS:0000044 ! Adult
@@ -31860,7 +31862,7 @@ creation_date: 2019-01-29T16:37:24Z
 
 [Term]
 id: ZFA:0005910
-name: presumptive ventral entopeduncular nucleus  
+name: presumptive ventral entopeduncular nucleus
 namespace: zebrafish_anatomy
 def: "Portion of tissue that is presumed to give rise to the  entopenduncular nucleus." [ZFIN:ZDB-PUB-040304-8, ZFIN:ZDB-PUB-090914-27]
 synonym: "M3" NARROW []
@@ -31882,6 +31884,18 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 created_by: Ceri
 creation_date: 2019-01-30T13:42:52Z
+
+[Term]
+id: ZFA:0005912
+name: endolymphatic sac
+namespace: zebrafish_anatomy
+def: "Pouch at the end of the endolymphatic duct that helps regulates pressure on the inner ear. The endolymphatic sac is separated from the endolymphatic duct by a dynamic lamellar barrier.  The lamellar barrier is composed of long, thin lamellar sheets that form tongue-and-groove structure or interwoven broadly overlapping structures. In adults, the endolymphatic duct and sac are partially encased within the temporal bone such that the distal end of the endolymphatic sac protrudes out of the temporal bone into the cranial cavity ." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180622-24]
+xref: TAO:0002194
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000217 ! inner ear
+relationship: start ZFS:0000000 ! Unknown
+creation_date: 2019-04-16T14:25:54Z
 
 [Term]
 id: ZFA:0006000
@@ -33310,6 +33324,44 @@ relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Yvonne
 creation_date: 2018-03-26T14:19:43Z
+
+[Term]
+id: ZFA:0007117
+name: Meckel's cartilage-palatoquadrate cartilage joint
+namespace: zebrafish_anatomy
+def: "Joint between Meckel's cartilage and palatoquadrate cartilage." [GOC:ymb, ORCid:0000-0002-9900-7880, ZFIN:ZDB-PUB-151122-6]
+synonym: "jaw joint" EXACT []
+is_a: ZFA:0001596 ! joint
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Yvonne
+creation_date: 2019-04-05T15:06:57Z
+
+[Term]
+id: ZFA:0007118
+name: vertebral body end plate
+namespace: zebrafish_anatomy
+def: "The vertebral body end plate is part of the autocentrum. The anterior and posterior surfaces of the autocentrum constitute the funnel shaped vertebral body end plates. The outer rim of the end plate is the vertebral body growth zone. The anterior and posterior end plates are connected by bony plates that are horizontally attached to the ourter contour of the autocentrum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-180228-2]
+synonym: "vertebral body endplate" EXACT []
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000126 ! centrum
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Yvonne
+creation_date: 2019-04-08T12:21:06Z
+
+[Term]
+id: ZFA:0007119
+name: intervertebral ligament
+namespace: zebrafish_anatomy
+def: "Ligament that connects adjacent vertebra. The intervertebral ligament (IVL) connects the posterior vertebral end plate to  the anterior vertebral end plate of adjacent vertebra. For example the IVL connects the posterior end plate of vertebra 14 to the anterior end plate of vertebra 15.  It is typically composed of three distinct layers: the notochord sheet which is mainly type II collagen; the outer elastin layer; and a layer of type I collagen fiber bundles." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-180808-7]
+synonym: "IVL" EXACT []
+is_a: ZFA:0001675 ! ligament
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001559 ! vertebral column
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Yvonne
+creation_date: 2019-04-08T13:27:22Z
 
 [Term]
 id: ZFA:0009000
