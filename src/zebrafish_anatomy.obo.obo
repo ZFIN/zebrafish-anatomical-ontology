@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:04:2019 11:50
+date: 21:06:2019 10:31
 saved-by: Ceri
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -2705,7 +2705,7 @@ id: ZFA:0000231
 name: lateral recess
 namespace: zebrafish_anatomy
 alt_id: ZFA:0005493
-def: "Intracranial space formed by confluence of supraorbital, infraorbital, preopercular and temporal sensory canals that forms the lateral protrusion of the third ventricle.See also Di Dario (2004)." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917]
+def: "Intracranial space formed by confluence of supraorbital, infraorbital, preopercular and temporal sensory canals that forms the lateral protrusion of the third ventricle. See also Di Dario (2004)." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917]
 synonym: "lateral recess of diencephalic ventricle" EXACT [ZFIN:ZDB-PUB-091221-27]
 synonym: "lateral recesses" EXACT PLURAL []
 synonym: "recessus lateralis" EXACT [ZFIN:ZDB-PUB-961014-1280]
@@ -5841,11 +5841,12 @@ relationship: start ZFS:0000000 ! Unknown
 
 [Term]
 id: ZFA:0000498
-name: dilator operculi
+name: dilatator operculi
 namespace: zebrafish_anatomy
 def: "Mandibular muscle that inserts along the dorsolateral faces of the opercles.  Responsible for opercular abduction." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-020703-2, ZFIN:ZDB-PUB-080306-33]
-synonym: "dilator opercula" EXACT []
-synonym: "dilators operculi" EXACT PLURAL []
+synonym: " dilatator opercula" EXACT []
+synonym: "dilator opercula" RELATED []
+synonym: "dilators operculi" RELATED PLURAL []
 xref: TAO:0000498
 is_a: ZFA:0000236 ! mandibular muscle
 relationship: develops_from ZFA:0007050 ! constrictor dorsalis
@@ -6814,7 +6815,7 @@ relationship: start ZFS:0000040 ! Larval:Days 14-20
 id: ZFA:0000577
 name: renal portal vein
 namespace: zebrafish_anatomy
-def: "Afferent veins that supply the kidneys.  The renal portal veins connect" []
+def: "Afferent vein that supplies the kidney." [GOC:cvs, ISBN:9781118222942, ORCiD:0000-0002-2244-7917]
 synonym: "renal portal veins" EXACT PLURAL []
 xref: TAO:0000577
 is_a: ZFA:0000082 ! vein
@@ -9200,7 +9201,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000779
 name: lateral forebrain bundle telencephalon
 namespace: zebrafish_anatomy
-def: "Portion of the lateral forebrain bundle that lies in the telencephalon.." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+def: "Portion of the lateral forebrain bundle that lies in the telencephalon." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 synonym: "lateral forebrain bundles telencephalon" EXACT PLURAL []
 xref: TAO:0000779
 is_a: ZFA:0000597 ! telencephalic white matter
@@ -14870,7 +14871,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0001274
 name: coronomeckelian
 namespace: zebrafish_anatomy
-def: "The coronomeckelian is a membrane bone that ossifies on Meckel's cartilage where the tendon from the adductor mandibulae A3 inserts (6.1mm). In the adult, the coronomeckelian is a small, irregularly shaped bone that is fused to the dorsomedial surface of the anguloarticular, just dorsal to Meckel's cartilage." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "The coronomeckelian is a membrane bone that ossifies on Meckel's cartilage where the tendon from the adductor mandibulae A3 inserts (6.1mm).  In the adult, the coronomeckelian is a small, irregularly shaped bone that is fused to the dorsomedial surface of the anguloarticular, just dorsal to Meckel's cartilage." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 synonym: "coronoid" RELATED []
 synonym: "sesamoid articular" EXACT []
 xref: TAO:0001274
@@ -18132,7 +18133,9 @@ id: ZFA:0001557
 name: pronephric glomerulus
 namespace: zebrafish_anatomy
 def: "Paired highly vascularized structures of the pronephros which are fused at the midline.  Responsible for blood filtration and begins to function between 40 and 48hpf." [ZFIN:ZDB-PUB-000606-4]
+synonym: "pronephric glomera" EXACT []
 synonym: "pronephric glomeruli" EXACT PLURAL []
+synonym: "pronephric glomus " EXACT []
 xref: TAO:0001557
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000039 ! Larval:Days 7-13
@@ -20389,7 +20392,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005014
 name: recurrent branch afferent branchial artery
 namespace: zebrafish_anatomy
-def: "The anterioventral proceeding branch of the afferent branchial artery." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-010205-5]
+def: "The anteroventral proceeding branch of the afferent branchial artery." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-010205-5]
 synonym: "RCB" EXACT []
 synonym: "recurrent branch afferent branchial arteries" EXACT PLURAL []
 xref: TAO:0005014
@@ -20673,7 +20676,7 @@ relationship: start ZFS:0000034 ! Hatching:Pec-fin
 id: ZFA:0005036
 name: supraintestinal artery
 namespace: zebrafish_anatomy
-def: "A continuation of the anterior mesenteric artery, which branches out from the dorsal aorta  just caudal to the pronephric glomus." [ZFIN:ZDB-PUB-010205-5]
+def: "A continuation of the anterior mesenteric artery, which branches out from the dorsal aorta  just caudal to the pronephric glomus." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-010205-5]
 synonym: "SIA" EXACT []
 xref: TAO:0005036
 is_a: ZFA:0000005 ! artery
@@ -31898,6 +31901,55 @@ relationship: start ZFS:0000000 ! Unknown
 creation_date: 2019-04-16T14:25:54Z
 
 [Term]
+id: ZFA:0005913
+name: urine
+namespace: zebrafish_anatomy
+def: "Organism substance that is the output of the nephron." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050818-17]
+is_a: ZFA:0001487 ! portion of organism substance
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+creation_date: 2019-05-02T16:21:42Z
+
+[Term]
+id: ZFA:0005914
+name: argentum
+namespace: zebrafish_anatomy
+def: "Iridophore layer of iris composed of a outer layer of regularly tiled  iridophores and an inner layer of randomly arranged iridophores.  The outer regularly tiled iridophores reflect blue green light.  The light reflecting crystals in the iris iridophores are composed of anhydrous Beta-guanine." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180822-3]
+synonym: "argenta " EXACT PLURAL []
+synonym: "iridophore layer iris" EXACT []
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001238 ! iris
+relationship: start ZFS:0000032 ! Pharyngula:High-pec
+created_by: Ceri
+creation_date: 2019-05-29T15:43:36Z
+
+[Term]
+id: ZFA:0005915
+name: iris melanophore layer
+namespace: zebrafish_anatomy
+def: "Layer of melanophores that are positioned behind the argenta.  The melanophore layer absorbs unfocused light preventing it from reaching the retina." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180822-3]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001238 ! iris
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2019-05-29T15:55:27Z
+
+[Term]
+id: ZFA:0005916
+name: tapetum lucidum
+namespace: zebrafish_anatomy
+def: "Iridophore layer that forms along the dorsal region of the poster segment of the eye. The tapetum is formed by a single layer of Iridophores and is proximal to  the  photoreceptors  and is located  in the choroid.   The  tapetum  reflects photons back to the photoreceptors if  they were not initially absorbed by the photoreceptors." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180822-3]
+synonym: "tapetum cellulosum" RELATED []
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005229 ! optic choroid
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2019-05-29T16:15:09Z
+
+[Term]
 id: ZFA:0006000
 name: intermediate hypothalamus
 namespace: zebrafish_anatomy
@@ -32058,7 +32110,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0007012
 name: lateral forebrain bundle
 namespace: zebrafish_anatomy
-def: "In the adult bilaterally paired compact tract located lateral to the medial forebrain bundle that extends to the diencephalon.  Formed from several fascicles that  originate in the precommissural telencephalon and converge rostrocaudally.  In the seven day old fish bilaterally paired bundle that runs caudally from the anterior commissure to the forebrain. In the caudal  diencephalon the bundle divides  into  two  parts.   The thinner part runs more laterally and ventrally, and the thicker part was located more medially and dorsally. Both bundles run in the caudal direction  toward  the  cranial  wall  of  the  lateral  recess  of  the diencephalic   ventricle,   where   they   apparently exchange some fibers. Then, they continue in the caudal  direction,  surrounding  the lateral  recess from  the  ventral  and dorsal side, and meet close to the caudal wall of lateral  recess at the level  of  the  commissure  of  the  posterior  tuberculum." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-051207-17, ZFIN:ZDB-PUB-961014-1280]
+def: "In the adult bilaterally paired compact tract located lateral to the medial forebrain bundle that extends to the diencephalon. Formed from several fascicles that  originate in the precommissural telencephalon and converge rostrocaudally.  In the seven day old fish bilaterally paired bundle that runs caudally from the anterior commissure to the forebrain. In the caudal diencephalon the bundle divides into two parts. The thinner part runs more laterally and ventrally, and the thicker part was located more medially and dorsally. Both bundles run in the caudal direction toward the cranial wall of the lateral recess of  the diencephalic ventricle, where they apparently exchange some fibers. Then, they continue in the caudal  direction, surrounding the lateral recess from the ventral and dorsal side, and meet close to the caudal wall of lateral recess at the level of the commissure of the posterior tuberculum." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-051207-17, ZFIN:ZDB-PUB-961014-1280]
 synonym: "fasciculus lateralis telencephali" EXACT [ZFIN:ZDB-PUB-961014-1280]
 synonym: "lateral forebrain bundles" EXACT PLURAL []
 xref: TAO:0007012
@@ -32517,7 +32569,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0007050
 name: constrictor dorsalis
 namespace: zebrafish_anatomy
-def: "Dorsal subdivision of the putative mandibular muscle plate. Splits into the dilator operculi and the levator arcus palatini." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-970819-13]
+def: "Dorsal subdivision of the putative mandibular muscle plate. Splits into the dilatator operculi and the levator arcus palatini." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-970819-13]
 synonym: "constrictors dorsalis" EXACT PLURAL []
 xref: TAO:0007050
 is_a: ZFA:0000236 ! mandibular muscle
@@ -34649,6 +34701,7 @@ is_a: ZFA:0009090 ! pigment cell
 relationship: develops_from ZFA:0009249 ! melanoblast
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000368 ! integument
+relationship: part_of ZFA:0005915 ! iris melanophore layer
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
@@ -34972,7 +35025,7 @@ id: ZFA:0009116
 name: slow muscle cell
 namespace: zebrafish_anatomy
 alt_id: ZFA:0001087
-def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content." []
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content." [CL:curator]
 subset: cell_slim
 synonym: "red muscle cell" EXACT []
 synonym: "slow muscle fiber" EXACT [ISBN:0815316208]
@@ -36049,6 +36102,8 @@ is_a: ZFA:0009090 ! pigment cell
 relationship: develops_from ZFA:0005328 ! iridoblast
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000368 ! integument
+relationship: part_of ZFA:0005914 ! argentum
+relationship: part_of ZFA:0005916 ! tapetum lucidum
 relationship: start ZFS:0000032 ! Pharyngula:High-pec
 
 [Term]
