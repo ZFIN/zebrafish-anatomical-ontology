@@ -1,11 +1,13 @@
 format-version: 1.2
-date: 02:08:2019 12:24
-saved-by: Ceri
-auto-generated-by: OBO-Edit 2.3-beta5
+date: 13:03:2020 08:52
+saved-by: ceriv
+auto-generated-by: OBO-Edit 2.3.1
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_anatomical_ontology
 remark: SVN version: $Revision: 1.100$
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/ xsd:string
+property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
 treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: TAO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
@@ -515,7 +517,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000044
 name: myotome somite 14
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 14 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 xref: TAO:0000044
 is_a: ZFA:0001056 ! myotome
@@ -778,7 +780,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000069
 name: rhombomere 6
 namespace: zebrafish_anatomy
-def: "Hindbrain segment or neuromere." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-576]
+def: "Hindbrain segment or neuromere posterior to rhombomere 5" [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-576]
 synonym: "r6" EXACT []
 xref: TAO:0000069
 is_a: ZFA:0001064 ! rhombomere
@@ -813,7 +815,7 @@ relationship: start ZFS:0000019 ! Gastrula:Shield
 id: ZFA:0000072
 name: somite 1
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Anteriormost undifferentiated mesodermal component of early trunk segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000072
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -823,7 +825,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000073
 name: somite 5
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 5 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000073
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -833,7 +835,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000074
 name: somite 26
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early tail segment 26 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000074
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -870,7 +872,7 @@ relationship: start ZFS:0000034 ! Hatching:Pec-fin
 id: ZFA:0000077
 name: tail bud
 namespace: zebrafish_anatomy
-synonym: "tail bud mesenchyme " RELATED []
+synonym: "tail bud mesenchyme" RELATED []
 synonym: "tailbud" EXACT []
 xref: TAO:0000077
 is_a: ZFA:0001105 ! embryonic structure
@@ -1143,7 +1145,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000100
 name: cerebellum
 namespace: zebrafish_anatomy
-def: "Brain structure derived from the anterior hindbrain, and perhaps including posterior midbrain. The cerebellum plays a role in somatic motor function, the control of muscle tone, and balance. In zebrafish, with the exception of the cerebellum, the ventral remainder of the metencephalon can be separated only arbitrarily from the more caudal myelencephalic portion of the medulla oblongata and thus these are not distinguished here." [ISBN:3764351209]
+def: "Brain structure derived from the anterior hindbrain, and perhaps including posterior midbrain. The cerebellum plays a role in somatic motor function, the control of muscle tone, and balance. In zebrafish, with the exception of the cerebellum, the ventral remainder of the metencephalon can be separated only arbitrarily from the more caudal myelencephalic portion of the medulla oblongata and thus these are not distinguished here." [ISBN:3764351209, ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000100
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0001442 ! upper rhombic lip
@@ -1766,7 +1768,7 @@ relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 id: ZFA:0000153
 name: rhombomere 8
 namespace: zebrafish_anatomy
-def: "Hindbrain segment or neuromere." [ZFIN:ZDB-PUB-961014-576]
+def: "Posteriormost hindbrain segment or neuromere." [ZFIN:ZDB-PUB-961014-576]
 synonym: "r8" EXACT []
 xref: TAO:0000153
 is_a: ZFA:0001064 ! rhombomere
@@ -1804,7 +1806,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000156
 name: somite 20
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment 20 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000156
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -1814,7 +1816,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000157
 name: somite 30
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Posteriormost undifferentiated mesodermal component of early tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000157
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -1883,6 +1885,7 @@ is_a: ZFA:0001488 ! multi-tissue structure
 relationship: develops_from ZFA:0001259 ! forebrain ventricle
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000101 ! diencephalon
+relationship: part_of ZFA:0001261 ! ventricular system
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -1936,7 +1939,7 @@ id: ZFA:0000166
 name: lateral crista
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000378
-def: "Patches of thickened, pseudostratified epithelium of the inner ear, consisting of regular arrays of sensory hair cells interspersed with supporting cells. Each patch has its own characteristic shape and polarity pattern. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/sens/sens.html'>sensory patches of the ear</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "Patch of thickened, pseudostratified epithelium that is associated with the lateral semicircular canal. It consists of regular arrays of sensory hair cells interspersed with supporting cells. The lateral crista has its own characteristic shape and polarity pattern. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/sens/sens.html'>sensory patches of the ear</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
 synonym: "lateral crista ampullaris" EXACT []
 synonym: "lateral cristae" EXACT PLURAL []
 synonym: "lateral semicircular canal sensory patch" EXACT []
@@ -1945,6 +1948,7 @@ synonym: "lc" EXACT []
 synonym: "medial crista" RELATED [ZFIN:ZDB-PUB-051116-3]
 xref: TAO:0000166
 is_a: ZFA:0007068 ! otic epithelium
+relationship: develops_from ZFA:0000225 ! lateral crista primordium
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000220 ! lateral semicircular canal
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
@@ -2399,7 +2403,7 @@ xref: TAO:0000205
 is_a: ZFA:0005277 ! skeletal muscle
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005818 ! superficial caudal fin musculature
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000040 ! Larval:Days 14-20
 
 [Term]
 id: ZFA:0000206
@@ -2734,7 +2738,7 @@ name: lower oral valve
 namespace: zebrafish_anatomy
 def: "Portion of tissue, located on the lower jaw that defines the caudal extent of the labial cavity.  The oral valves control the flow of water into the mouth during routine respiration." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-060921-12]
 synonym: "breathing valve" RELATED []
-synonym: "buccal valve " RELATED []
+synonym: "buccal valve" RELATED []
 synonym: "lower internal lip" EXACT [ZFIN:ZDB-PUB-060921-12]
 synonym: "lower semilunar valve" EXACT [ZFIN:ZDB-PUB-060921-12]
 synonym: "mandibular valve" EXACT []
@@ -2908,6 +2912,7 @@ name: cranial nerve VIII
 namespace: zebrafish_anatomy
 synonym: "auditory nerve" EXACT []
 synonym: "CN-VIII" EXACT []
+synonym: "cochleovestibular nerve" RELATED [ZFIN:ZDB-PUB-190924-19]
 synonym: "octaval nerve" EXACT []
 synonym: "statoacoustic nerve" EXACT []
 xref: TAO:0000247
@@ -3056,7 +3061,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000259
 name: mandibular lateral line
 namespace: zebrafish_anatomy
-def: "One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "One of eight distinct lateral lines in the 4-day larva consisting of 2 neuromast.  One neuromast is positioned at the front edge of the jaw the second posteriorly on the mandible. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:<new dbxref>]
 synonym: "mandibular lateral lines" EXACT PLURAL []
 synonym: "mandibular line" EXACT [ZFIN:ZDB-PUB-000523-3]
 xref: TAO:0000259
@@ -3366,6 +3371,9 @@ relationship: start ZFS:0000039 ! Larval:Days 7-13
 id: ZFA:0000286
 name: superficial lateralis
 namespace: zebrafish_anatomy
+def: "Slow twitch muscle derived from the lateral wedge-shaped strip of slow muscle cells originally positioned at the lateral end of the horizontal myoseptum. In the adult it is a thin band of  muscle positioned mediolaterally above the epaxial-hypaxial junction,  posteriorly the superficial lateralis elaborates into the superficial lateralis dorsalis and superficial lateralis ventralis." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-080519-4, ZFIN:ZDB-PUB-171118-8, ZFIN:ZDB-PUB-961219-12]
+synonym: "lateral superficial muscle" RELATED []
+synonym: "lateralis superficialis" EXACT []
 xref: TAO:0000286
 is_a: ZFA:0005145 ! muscle
 relationship: end ZFS:0000044 ! Adult
@@ -3504,7 +3512,7 @@ name: vent
 namespace: zebrafish_anatomy
 def: "Is a surface structure and is the external opening of the cloaca." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 synonym: "cloacal opening" EXACT [ZFIN:ZDB-PUB-110602-26]
-synonym: "cloacal vent " EXACT []
+synonym: "cloacal vent" EXACT []
 xref: TAO:0000298
 is_a: ZFA:0000292 ! surface structure
 relationship: develops_from ZFA:0000066 ! proctodeum
@@ -4050,7 +4058,7 @@ def: "Periventricular nucleus which lies rostral to the anterior commissure and 
 synonym: "area ventralis telencephali, nucleus dorsalis" EXACT []
 synonym: "dorsal division of ventral telencephalic area" RELATED []
 synonym: "dorsal nucleus of V" EXACT []
-synonym: "Vd " RELATED [ZFIN:ZDB-PUB-961014-1280]
+synonym: "Vd" RELATED [ZFIN:ZDB-PUB-961014-1280]
 xref: TAO:0000343
 is_a: ZFA:0001666 ! periventricular nucleus of ventral telencephalon
 relationship: end ZFS:0000044 ! Adult
@@ -4060,7 +4068,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000344
 name: middle lateral line
 namespace: zebrafish_anatomy
-def: "One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "One of eight distinct lateral lines in the 4-day larva positioned posterior to the ear. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:<new dbxref>]
 synonym: "middle lateral lines" EXACT PLURAL []
 xref: TAO:0000344
 is_a: ZFA:0001469 ! lateral line
@@ -4676,7 +4684,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000400
 name: occipital lateral line
 namespace: zebrafish_anatomy
-def: "One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "One of eight distinct lateral lines in the 4-day larva positioned dorsal to the ear. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:<new dbxref>]
 synonym: "supratemporal lateral line" EXACT []
 xref: TAO:0000400
 is_a: ZFA:0001469 ! lateral line
@@ -4960,7 +4968,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000424
 name: opercular lateral line
 namespace: zebrafish_anatomy
-def: "One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "One of eight distinct lateral lines in the 4-day larva positioned posteriorly to the second arch skeletal element.  A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:<new dbxref>]
 synonym: "opercular lateral lines" EXACT PLURAL []
 xref: TAO:0000424
 is_a: ZFA:0001469 ! lateral line
@@ -5184,7 +5192,7 @@ relationship: start ZFS:0000039 ! Larval:Days 7-13
 id: ZFA:0000443
 name: supraorbital lateral line
 namespace: zebrafish_anatomy
-def: "One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "One of eight distinct lateral lines in the 4-day larva consisting of three neuromast positioned superior to the eye. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:JCN 421-\:189-198]
 synonym: "supraorbital lateral lines" EXACT PLURAL []
 synonym: "supraorbital line" EXACT [ZFIN:ZDB-PUB-000523-3]
 xref: TAO:0000443
@@ -5289,7 +5297,7 @@ namespace: zebrafish_anatomy
 def: "Portion of tissue, located on the upper jaw that defines the caudal extent of the labial cavity.  The oral valves control the flow of water into the mouth during routine respiration." [ZFIN:ZDB-PUB-060921-12]
 synonym: "breathing valve" RELATED []
 synonym: "buccal valve" RELATED []
-synonym: "maxillary valve " EXACT []
+synonym: "maxillary valve" EXACT []
 synonym: "upper internal lip" RELATED [ZFIN:ZDB-PUB-060921-12]
 synonym: "upper semilunar valve " EXACT [ZFIN:ZDB-PUB-060921-12]
 xref: TAO:0000451
@@ -5432,7 +5440,7 @@ relationship: start ZFS:0000000 ! Unknown
 
 [Term]
 id: ZFA:0000463
-name: adductor
+name: branchial adductor
 namespace: zebrafish_anatomy
 synonym: "adductors" EXACT PLURAL []
 xref: TAO:0000463
@@ -5444,7 +5452,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000464
 name: otic lateral line
 namespace: zebrafish_anatomy
-def: "One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "One of eight distinct lateral lines in the 4-day larva positioned anterior to the ear. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:<new dbxref>]
 synonym: "otic lateral lines" EXACT PLURAL []
 xref: TAO:0000464
 is_a: ZFA:0001469 ! lateral line
@@ -6024,8 +6032,10 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000513
 name: fast muscle cell somite 1
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 1." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 1" EXACT PLURAL []
+synonym: "fast muscle fiber somite 1" EXACT []
 xref: TAO:0000513
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -6158,7 +6168,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000524
 name: infraorbital lateral line
 namespace: zebrafish_anatomy
-def: "One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "One of eight distinct lateral lines in the 4-day larva consistingo of four neuromast that are positioned inferior or posterior to the eye A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:<new dbxref>]
 synonym: "infraorbital line" EXACT []
 xref: TAO:0000524
 is_a: ZFA:0001469 ! lateral line
@@ -6677,7 +6687,7 @@ id: ZFA:0000566
 name: posterior crista
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000478
-def: "Patches of thickened, pseudostratified epithelium of the inner ear, consisting of regular arrays of sensory hair cells interspersed with supporting cells. Each patch has its own characteristic shape and polarity pattern. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/sens/sens.html'>sensory patches of the ear</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "Patch of thickened, pseudostratified epithelium that is associated with the posterior semicircular canal. It consists of regular arrays of sensory hair cells interspersed with supporting cells. The posterior crista has its own characteristic shape and polarity pattern. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/sens/sens.html'>sensory patches of the ear</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
 synonym: "caudal crista" EXACT []
 synonym: "pc" EXACT []
 synonym: "posterior crista ampullaris" EXACT []
@@ -6686,6 +6696,7 @@ synonym: "posterior semicircular canal sensory patch" EXACT []
 synonym: "posterior semicircular canal sensory patches" EXACT PLURAL []
 xref: TAO:0000566
 is_a: ZFA:0007068 ! otic epithelium
+relationship: develops_from ZFA:0000411 ! posterior crista primordium
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000262 ! posterior semicircular canal
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
@@ -6951,6 +6962,7 @@ namespace: zebrafish_anatomy
 def: "The sensory ganglion of the ear. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/stato/stato.html'>statoacoustic ganglion</a> by T. Whitfield.)" [GOC:mh, ORCiD:0000-0001-9114-8737]
 synonym: "auditory ganglion" EXACT []
 synonym: "gVIII" EXACT []
+synonym: "octaval ganglion " EXACT []
 synonym: "sag" EXACT []
 synonym: "statoacoustic ganglia" EXACT PLURAL []
 xref: TAO:0000588
@@ -7308,7 +7320,7 @@ id: ZFA:0000619
 name: anterior crista
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000273
-def: "Patches of thickened, pseudostratified epithelium of the inner ear, consisting of regular arrays of sensory hair cells interspersed with supporting cells. Each patch has its own characteristic shape and polarity pattern. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/sens/sens.html'>sensory patches of the ear</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "Patch of thickened, pseudostratified epithelium that is associated with the anterior semicircular canal. It consists of regular arrays of sensory hair cells interspersed with supporting cells. The anterior crista has its own characteristic shape and polarity pattern. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/sens/sens.html'>sensory patches of the ear</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880]
 synonym: "ac" EXACT []
 synonym: "anterior crista ampullaris" EXACT []
 synonym: "anterior cristae" EXACT PLURAL []
@@ -7317,6 +7329,7 @@ synonym: "anterior semicircular canal sensory patches" EXACT PLURAL []
 synonym: "rostral crista" EXACT []
 xref: TAO:0000619
 is_a: ZFA:0007068 ! otic epithelium
+relationship: develops_from ZFA:0000468 ! anterior crista primordium
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000314 ! anterior semicircular canal
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
@@ -8206,7 +8219,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000694
 name: ceratobranchial 5 tooth
 namespace: zebrafish_anatomy
-def: "Is a multi-tissue structure composed of dentine, enameloid and tooth pulp. The tips of the ceratobranchial5 teeth form before the ceratobranchial itself (3.0 mm NL). As they grow ventrally, they meet the perichondrally ossified surface of ceratobranchial5 and become firmly ankylosed to the bone. Ceratobranchial teeth are the only teeth present in zebrafish and other cypriniforms." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Is a multi-tissue structure composed of dentine, enameloid and tooth pulp. The tips of the ceratobranchial 5 teeth form before the ceratobranchial itself (3.0 mm NL). As they grow ventrally, they meet the perichondrally ossified surface of ceratobranchial 5 and become firmly ankylosed to the bone. Ceratobranchial teeth are the only teeth present in zebrafish and other cypriniforms." [GOC:mh, ORCiD:0000-0001-9114-8737]
 synonym: "pharyngeal tooth" EXACT []
 synonym: "teeth" EXACT PLURAL []
 synonym: "tooth" EXACT []
@@ -8501,7 +8514,7 @@ relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 id: ZFA:0000718
 name: epaxial region somite 27
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 27 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000718
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8590,7 +8603,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000725
 name: somite 11
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 11 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000725
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8600,7 +8613,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000726
 name: somite 14
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 14 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000726
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8610,7 +8623,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000727
 name: somite 17
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 17 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000727
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8620,7 +8633,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000728
 name: somite 2
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 2 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000728
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8630,7 +8643,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000729
 name: epaxial region somite 3
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 3 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000729
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8641,7 +8654,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000730
 name: somite 23
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early tail segment 23 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000730
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8651,7 +8664,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000731
 name: somite 27
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early tail segment 27 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000731
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8661,7 +8674,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000732
 name: somite 3
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 3 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000732
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8671,7 +8684,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000733
 name: somite 7
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 7 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000733
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8734,7 +8747,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000739
 name: epaxial region somite 11
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 11 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000739
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8745,7 +8758,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000740
 name: epaxial region somite 5
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 5 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000740
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8756,7 +8769,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000741
 name: epaxial region somite 14
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 14 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000741
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8767,7 +8780,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000742
 name: epaxial region somite 17
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 17 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000742
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8778,7 +8791,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000743
 name: epaxial region somite 2
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 2 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000743
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8789,7 +8802,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000744
 name: epaxial region somite 22
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 22 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000744
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8800,7 +8813,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000745
 name: epaxial region somite 25
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 25 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000745
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8811,7 +8824,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000746
 name: epaxial region somite 28
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 28 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000746
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8822,7 +8835,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000747
 name: epaxial region somite 30
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 30 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000747
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8833,7 +8846,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000748
 name: epaxial region somite 6
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 6 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000748
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8844,7 +8857,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000749
 name: epaxial region somite 9
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 9 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000749
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8855,8 +8868,10 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000750
 name: fast muscle cell somite 10
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 10." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 10" EXACT PLURAL []
+synonym: "fast muscle fiber somite 10" EXACT []
 xref: TAO:0000750
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8867,7 +8882,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000751
 name: epaxial region somite 8
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 8 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000751
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8878,8 +8893,10 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000752
 name: fast muscle cell somite 13
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 13." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 13" EXACT PLURAL []
+synonym: "fast muscle fiber somite 13" EXACT []
 xref: TAO:0000752
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8890,8 +8907,10 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000753
 name: fast muscle cell somite 16
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 16." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 16" EXACT PLURAL []
+synonym: "fast muscle fiber somite 16" EXACT []
 xref: TAO:0000753
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8902,8 +8921,10 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000754
 name: fast muscle cell somite 19
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 19." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 19" EXACT PLURAL []
+synonym: "fast muscle fiber somite 19" EXACT []
 xref: TAO:0000754
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8914,8 +8935,10 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000755
 name: fast muscle cell somite 21
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 21." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 21" EXACT PLURAL []
+synonym: "fast muscle fiber somite 21" EXACT []
 xref: TAO:0000755
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8926,8 +8949,10 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000756
 name: fast muscle cell somite 24
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 24." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 24" EXACT PLURAL []
+synonym: "fast muscle fiber somite 24" EXACT []
 xref: TAO:0000756
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8938,8 +8963,10 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000757
 name: fast muscle cell somite 27
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 27." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 27" EXACT PLURAL []
+synonym: "fast muscle fiber somite 27" EXACT []
 xref: TAO:0000757
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8950,8 +8977,10 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000758
 name: fast muscle cell somite 3
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 3." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 3" EXACT PLURAL []
+synonym: "fast muscle fiber somite 3" EXACT []
 xref: TAO:0000758
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8962,8 +8991,10 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000759
 name: fast muscle cell somite 5
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 5." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 5" EXACT PLURAL []
+synonym: "fast muscle fiber somite 5" EXACT []
 xref: TAO:0000759
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -8974,8 +9005,10 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000760
 name: fast muscle cell somite 8
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 8." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 8" EXACT PLURAL []
+synonym: "fast muscle fiber somite 8" EXACT []
 xref: TAO:0000760
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9063,7 +9096,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000767
 name: hypaxial region somite 11
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 11 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000767
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9074,7 +9107,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000768
 name: hypaxial region somite 14
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 14 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000768
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9085,7 +9118,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000769
 name: hypaxial region somite 17
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 17 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000769
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9096,7 +9129,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000770
 name: hypaxial region somite 2
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 2 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000770
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9107,7 +9140,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000771
 name: hypaxial region somite 22
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 22 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000771
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9118,7 +9151,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000772
 name: hypaxial region somite 25
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 25 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000772
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9129,8 +9162,10 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000773
 name: fast muscle cell somite 12
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 12." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 12" EXACT PLURAL []
+synonym: "fast muscle fiber somite 12" EXACT []
 xref: TAO:0000773
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9141,7 +9176,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000774
 name: hypaxial region somite 28
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 28 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 xref: TAO:0000774
 is_a: ZFA:0001085 ! hypaxial myotome region
@@ -9153,7 +9188,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000775
 name: hypaxial region somite 30
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 30 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 xref: TAO:0000775
 is_a: ZFA:0001085 ! hypaxial myotome region
@@ -9165,7 +9200,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000776
 name: hypaxial region somite 6
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 6 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000776
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9176,7 +9211,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000777
 name: hypaxial region somite 9
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 9 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000777
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9258,8 +9293,10 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000784
 name: fast muscle cell somite 15
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 15." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 15" EXACT PLURAL []
+synonym: "fast muscle fiber somite 15" EXACT []
 xref: TAO:0000784
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9389,8 +9426,10 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000795
 name: fast muscle cell somite 18
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 18." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 18" EXACT PLURAL []
+synonym: "fast muscle fiber somite 18" EXACT []
 xref: TAO:0000795
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9466,7 +9505,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000801
 name: myotome somite 11
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 11 that gives rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 xref: TAO:0000801
 is_a: ZFA:0001056 ! myotome
@@ -9478,7 +9517,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000802
 name: myotome somite 15
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 15 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 xref: TAO:0000802
 is_a: ZFA:0001056 ! myotome
@@ -9490,7 +9529,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000803
 name: myotome somite 18
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 18 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 xref: TAO:0000803
 is_a: ZFA:0001056 ! myotome
@@ -9502,7 +9541,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000804
 name: myotome somite 20
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 20 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 xref: TAO:0000804
 is_a: ZFA:0001056 ! myotome
@@ -9514,7 +9553,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000805
 name: myotome somite 23
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 23 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 xref: TAO:0000805
 is_a: ZFA:0001056 ! myotome
@@ -9526,8 +9565,10 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000806
 name: fast muscle cell somite 20
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 20." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 20" EXACT PLURAL []
+synonym: "fast muscle fiber somite 20" EXACT []
 xref: TAO:0000806
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9538,7 +9579,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000807
 name: myotome somite 26
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 16 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 xref: TAO:0000807
 is_a: ZFA:0001056 ! myotome
@@ -9550,7 +9591,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000808
 name: myotome somite 29
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 29 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 xref: TAO:0000808
 is_a: ZFA:0001056 ! myotome
@@ -9562,7 +9603,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000809
 name: myotome somite 4
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 4 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 xref: TAO:0000809
 is_a: ZFA:0001056 ! myotome
@@ -9574,7 +9615,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000810
 name: myotome somite 7
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 7 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 subset: cell_slim
 xref: TAO:0000810
 is_a: ZFA:0001056 ! myotome
@@ -9654,8 +9695,10 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0000817
 name: fast muscle cell somite 23
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 23." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 23" EXACT PLURAL []
+synonym: "fast muscle fiber somite 23" EXACT []
 xref: TAO:0000817
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9709,7 +9752,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000822
 name: rhombomere 2
 namespace: zebrafish_anatomy
-def: "Hindbrain segment or neuromere." [ZFIN:ZDB-PUB-961014-576]
+def: "Hindbrain segment or neuromere posterior to rhombomere 1." [ZFIN:ZDB-PUB-961014-576]
 synonym: "r2" EXACT []
 xref: TAO:0000822
 is_a: ZFA:0001064 ! rhombomere
@@ -9721,7 +9764,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000823
 name: rhombomere 5
 namespace: zebrafish_anatomy
-def: "Hindbrain segment or neuromere." [ZFIN:ZDB-PUB-961014-576]
+def: "Hindbrain segment or neuromere posterior to rhombomere 4." [ZFIN:ZDB-PUB-961014-576]
 synonym: "r5" EXACT []
 xref: TAO:0000823
 is_a: ZFA:0001064 ! rhombomere
@@ -9770,8 +9813,10 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000827
 name: fast muscle cell somite 26
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 26." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 26" EXACT PLURAL []
+synonym: "fast muscle fiber somite 26" EXACT []
 xref: TAO:0000827
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9794,7 +9839,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000829
 name: sclerotome somite 11
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 11 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000829
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9805,7 +9850,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000830
 name: sclerotome somite 14
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 14 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000830
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9816,7 +9861,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000831
 name: sclerotome somite 17
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 17 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000831
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9827,7 +9872,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000832
 name: sclerotome somite 2
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 2 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000832
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9838,7 +9883,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000833
 name: sclerotome somite 22
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 22 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000833
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9849,7 +9894,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000834
 name: sclerotome somite 25
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 25 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000834
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9860,7 +9905,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000835
 name: sclerotome somite 28
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 28 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000835
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9871,7 +9916,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000836
 name: sclerotome somite 30
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 30 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000836
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9882,7 +9927,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000837
 name: sclerotome somite 6
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 6 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000837
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9893,8 +9938,10 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000838
 name: fast muscle cell somite 29
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 29." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 29" EXACT PLURAL []
+synonym: "fast muscle fiber somite 29" EXACT []
 xref: TAO:0000838
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -9905,7 +9952,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000839
 name: sclerotome somite 9
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 9 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000839
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10033,8 +10080,10 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000849
 name: fast muscle cell somite 4
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 4." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 4" EXACT PLURAL []
+synonym: "fast muscle fiber somite 4" EXACT []
 xref: TAO:0000849
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10058,7 +10107,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000851
 name: somite 12
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 12 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000851
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10068,7 +10117,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000852
 name: somite 15
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 15 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000852
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10078,7 +10127,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000853
 name: somite 18
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment 18 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000853
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10088,7 +10137,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000854
 name: somite 21
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early tail 21 segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000854
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10098,7 +10147,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000855
 name: somite 24
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early tail segment 24 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000855
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10108,7 +10157,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000856
 name: somite 28
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early tail segment 28 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000856
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10118,7 +10167,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000857
 name: somite 4
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 4 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000857
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10128,7 +10177,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000858
 name: somite 8
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 8 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000858
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10153,8 +10202,10 @@ relationship: start ZFS:0000036 ! Larval:Day 4
 id: ZFA:0000860
 name: fast muscle cell somite 7
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 7." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 7" EXACT PLURAL []
+synonym: "fast muscle fiber somite 7" EXACT []
 xref: TAO:0000860
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10202,7 +10253,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0000864
 name: epaxial region somite 1
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 1 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000864
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10213,7 +10264,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000865
 name: epaxial region somite 12
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 12 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000865
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10224,7 +10275,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000866
 name: epaxial region somite 15
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 15 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000866
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10235,7 +10286,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000867
 name: epaxial region somite 18
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 18 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000867
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10246,7 +10297,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000868
 name: epaxial region somite 20
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 20 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000868
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10257,7 +10308,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000869
 name: epaxial region somite 23
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 23 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000869
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10268,7 +10319,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000870
 name: epaxial region somite 26
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 26 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000870
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10292,7 +10343,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000872
 name: epaxial region somite 29
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 29 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000872
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10303,7 +10354,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000873
 name: epaxial region somite 4
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 4 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000873
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10314,7 +10365,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000874
 name: epaxial region somite 7
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 7 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000874
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10334,8 +10385,10 @@ consider: ZFA:0001194
 id: ZFA:0000876
 name: fast muscle cell somite 11
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 11." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 11" EXACT PLURAL []
+synonym: "fast muscle fiber somite 11" EXACT []
 xref: TAO:0000876
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10346,8 +10399,10 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000877
 name: fast muscle cell somite 14
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 14." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 14" EXACT PLURAL []
+synonym: "fast muscle fiber somite 14" EXACT []
 xref: TAO:0000877
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10358,8 +10413,10 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000878
 name: fast muscle cell somite 17
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 17." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 17" EXACT PLURAL []
+synonym: "fast muscle fiber somite 17" EXACT []
 xref: TAO:0000878
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10370,8 +10427,10 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000879
 name: fast muscle cell somite 2
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 2." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 2" EXACT PLURAL []
+synonym: "fast muscle fiber somite 2" EXACT []
 xref: TAO:0000879
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10382,8 +10441,10 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000880
 name: fast muscle cell somite 22
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 22." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 22" EXACT PLURAL []
+synonym: "fast muscle fiber somite 22" EXACT []
 xref: TAO:0000880
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10394,8 +10455,10 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000881
 name: fast muscle cell somite 25
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 25." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 25" EXACT PLURAL []
+synonym: "fast muscle fiber somite 25" EXACT []
 xref: TAO:0000881
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10419,8 +10482,10 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000883
 name: fast muscle cell somite 28
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 28." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 28" EXACT PLURAL []
+synonym: "fast muscle fiber somite 28" EXACT []
 xref: TAO:0000883
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10431,8 +10496,10 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000884
 name: fast muscle cell somite 30
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 30." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 30" EXACT PLURAL []
+synonym: "fast muscle fiber somite 30" EXACT []
 xref: TAO:0000884
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10443,8 +10510,10 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000885
 name: fast muscle cell somite 6
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 6." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 6" EXACT PLURAL []
+synonym: "fast muscle fiber somite 6" EXACT []
 xref: TAO:0000885
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10455,8 +10524,10 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000886
 name: fast muscle cell somite 9
 namespace: zebrafish_anatomy
+def: "Fast muscle cell located in somite 9." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 subset: cell_slim
 synonym: "fast muscle cells somite 9" EXACT PLURAL []
+synonym: "fast muscle fiber somite 9" EXACT []
 xref: TAO:0000886
 is_a: ZFA:0009117 ! fast muscle cell
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10522,7 +10593,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000891
 name: hypaxial region somite 1
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 1 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000891
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10533,7 +10604,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000892
 name: hypaxial region somite 12
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 12 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000892
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10558,7 +10629,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000894
 name: hypaxial region somite 15
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 15 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000894
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10569,7 +10640,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000895
 name: hypaxial region somite 18
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 18 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000895
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10580,7 +10651,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000896
 name: hypaxial region somite 20
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 20 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000896
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10591,7 +10662,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000897
 name: hypaxial region somite 23
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 23 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000897
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10602,7 +10673,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000898
 name: hypaxial region somite 26
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 26 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000898
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10613,7 +10684,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000899
 name: hypaxial region somite 29
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 29 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000899
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10624,7 +10695,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000900
 name: hypaxial region somite 4
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 4 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000900
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10635,7 +10706,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000901
 name: hypaxial region somite 7
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 7 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000901
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10907,7 +10978,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000924
 name: myotome somite 1
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 1 that gives rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000924
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10918,7 +10989,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000925
 name: hypaxial region somite 10
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 10 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000925
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10929,7 +11000,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000926
 name: myotome somite 12
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 12 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000926
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10940,7 +11011,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000927
 name: myotome somite 16
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 16 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000927
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10951,7 +11022,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000928
 name: myotome somite 19
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 19 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000928
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10962,7 +11033,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000929
 name: myotome somite 21
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 21 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000929
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10973,7 +11044,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000930
 name: myotome somite 24
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 24 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000930
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10984,7 +11055,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000931
 name: myotome somite 27
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 27 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000931
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -10995,7 +11066,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000932
 name: myotome somite 3
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 3 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000932
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11006,7 +11077,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000933
 name: myotome somite 5
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 5 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000933
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11017,7 +11088,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000934
 name: myotome somite 8
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 8 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000934
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11051,7 +11122,7 @@ relationship: start ZFS:0000039 ! Larval:Days 7-13
 id: ZFA:0000937
 name: hypaxial region somite 13
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 13 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000937
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11139,7 +11210,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0000946
 name: hypaxial region somite 16
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 16 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000946
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11162,7 +11233,7 @@ relationship: start ZFS:0000039 ! Larval:Days 7-13
 id: ZFA:0000948
 name: rhombomere 3
 namespace: zebrafish_anatomy
-def: "Hindbrain segment or neuromere." [ZFIN:ZDB-PUB-961014-576]
+def: "Hindbrain segment or neuromere posterior to rhombomere 2." [ZFIN:ZDB-PUB-961014-576]
 synonym: "r3" EXACT []
 xref: TAO:0000948
 is_a: ZFA:0001064 ! rhombomere
@@ -11174,7 +11245,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000949
 name: rhombomere 7
 namespace: zebrafish_anatomy
-def: "Hindbrain segment or neuromere." [ZFIN:ZDB-PUB-961014-576]
+def: "Hindbrain segment or neuromere posterior to rhombomere 6." [ZFIN:ZDB-PUB-961014-576]
 synonym: "r7" EXACT []
 xref: TAO:0000949
 is_a: ZFA:0001064 ! rhombomere
@@ -11210,7 +11281,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000952
 name: sclerotome somite 1
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 1 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000952
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11221,7 +11292,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000953
 name: sclerotome somite 12
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 12 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000953
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11232,7 +11303,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000954
 name: sclerotome somite 15
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 15 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000954
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11243,7 +11314,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000955
 name: sclerotome somite 18
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 18 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000955
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11254,7 +11325,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000956
 name: sclerotome somite 20
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 20 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000956
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11265,7 +11336,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000957
 name: hypaxial region somite 19
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 19 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000957
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11276,7 +11347,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000958
 name: sclerotome somite 23
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 23 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000958
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11287,7 +11358,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000959
 name: sclerotome somite 26
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 26 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000959
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11298,7 +11369,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000960
 name: sclerotome somite 29
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 29 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000960
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11309,7 +11380,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000961
 name: sclerotome somite 4
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 4 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000961
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11320,7 +11391,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000962
 name: sclerotome somite 7
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 7 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000962
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11396,7 +11467,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000968
 name: hypaxial region somite 21
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 21 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000968
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11472,7 +11543,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000974
 name: somite 10
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 10 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000974
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11482,7 +11553,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000975
 name: somite 13
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 13 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000975
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11492,7 +11563,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000976
 name: somite 16
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 16 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000976
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11502,7 +11573,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000977
 name: somite 19
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk or tail segment 19 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000977
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11512,7 +11583,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0000978
 name: somite 22
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early tail segment 22 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000978
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11522,7 +11593,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000979
 name: hypaxial region somite 24
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 24 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000979
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11533,7 +11604,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000980
 name: somite 25
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early tail segment 25 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000980
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11543,7 +11614,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000981
 name: somite 29
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early tail segment 29 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000981
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11553,7 +11624,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0000982
 name: somite 6
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 6 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000982
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11563,7 +11634,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000983
 name: somite 9
 namespace: zebrafish_anatomy
-def: "Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
+def: "Undifferentiated mesodermal component of early trunk segment 9 or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000983
 is_a: ZFA:0000155 ! somite
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11593,7 +11664,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000986
 name: hypaxial region somite 27
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 27 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000986
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11604,7 +11675,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000987
 name: hypaxial region somite 3
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 3 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000987
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11615,7 +11686,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000988
 name: hypaxial region somite 5
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 5 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000988
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11626,7 +11697,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000989
 name: hypaxial region somite 8
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present ventral to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The hypaxial region of somite 8 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000989
 is_a: ZFA:0001085 ! hypaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11646,7 +11717,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0000991
 name: epaxial region somite 10
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 10 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000991
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11753,7 +11824,7 @@ relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 id: ZFA:0001001
 name: epaxial region somite 13
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 13 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001001
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11889,7 +11960,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0001012
 name: epaxial region somite 16
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 16 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001012
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11900,7 +11971,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0001013
 name: myotome somite 10
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 10 that gives rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001013
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11911,7 +11982,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0001014
 name: myotome somite 13
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 13 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001014
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11922,7 +11993,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0001015
 name: myotome somite 17
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 17 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001015
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11933,7 +12004,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0001016
 name: myotome somite 2
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 2 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001016
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11944,7 +12015,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0001017
 name: myotome somite 22
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 22 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001017
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11955,7 +12026,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001018
 name: myotome somite 25
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 25 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001018
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11966,7 +12037,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001019
 name: myotome somite 28
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 28 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001019
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11977,7 +12048,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001020
 name: myotome somite 30
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 30 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001020
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11988,7 +12059,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001021
 name: myotome somite 6
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 6 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001021
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -11999,7 +12070,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0001022
 name: myotome somite 9
 namespace: zebrafish_anatomy
-def: "Portion of the somite giving rise to body wall muscle masses." [ZFIN:ZDB-PUB-961014-576]
+def: "Portion of somite 9 that gives rise to body wall muscle masses." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001022
 is_a: ZFA:0001056 ! myotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12010,7 +12081,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0001023
 name: epaxial region somite 19
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 19 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001023
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12097,7 +12168,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001030
 name: epaxial region somite 21
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 21 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001030
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12108,7 +12179,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001031
 name: rhombomere 1
 namespace: zebrafish_anatomy
-def: "Hindbrain segment or neuromere." [ZFIN:ZDB-PUB-961014-576]
+def: "Anteriormost hindbrain segment or neuromere." [ZFIN:ZDB-PUB-961014-576]
 synonym: "r1" EXACT []
 xref: TAO:0001031
 is_a: ZFA:0001064 ! rhombomere
@@ -12120,7 +12191,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0001032
 name: rhombomere 4
 namespace: zebrafish_anatomy
-def: "Hindbrain segment or neuromere." [ZFIN:ZDB-PUB-961014-576]
+def: "Hindbrain segment or neuromere posterior to rhombomere 3." [ZFIN:ZDB-PUB-961014-576]
 synonym: "r4" EXACT []
 xref: TAO:0001032
 is_a: ZFA:0001064 ! rhombomere
@@ -12168,7 +12239,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0001036
 name: sclerotome somite 10
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 10 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0001036
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12179,7 +12250,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0001037
 name: sclerotome somite 13
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 13 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0001037
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12190,7 +12261,7 @@ relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 id: ZFA:0001038
 name: sclerotome somite 16
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 16 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0001038
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12201,7 +12272,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0001039
 name: sclerotome somite 19
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 19 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0001039
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12212,7 +12283,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0001040
 name: epaxial region somite 24
 namespace: zebrafish_anatomy
-def: "Somite-derived body wall muscle present dorsal to the horizontal myoseptum." [ZFIN:ZDB-PUB-961014-576]
+def: "The epaxial region of somite 24 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0001040
 is_a: ZFA:0001084 ! epaxial myotome region
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12223,7 +12294,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001041
 name: sclerotome somite 21
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 21 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0001041
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12234,7 +12305,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001042
 name: sclerotome somite 24
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 24 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0001042
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12245,7 +12316,7 @@ relationship: start ZFS:0000028 ! Segmentation:26+ somites
 id: ZFA:0001043
 name: sclerotome somite 27
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 27 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0001043
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12256,7 +12327,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0001044
 name: sclerotome somite 3
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 3 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0001044
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12267,7 +12338,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0001045
 name: sclerotome somite 5
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 5 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0001045
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -12278,7 +12349,7 @@ relationship: start ZFS:0000024 ! Segmentation:5-9 somites
 id: ZFA:0001046
 name: sclerotome somite 8
 namespace: zebrafish_anatomy
-def: "Medial ventral region of the somite that will form vertebral cartilages." [ZFIN:ZDB-PUB-961014-576]
+def: "Ventromedial region of somite 8 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0001046
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! Hatching:Pec-fin
@@ -14048,6 +14119,7 @@ relationship: start ZFS:0000042 ! Juvenile:Days 30-44
 id: ZFA:0001204
 name: axial mesoderm
 namespace: zebrafish_anatomy
+def: "Region of the mesoderm that is located along the rostral-caudal axis of the embryo." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 xref: TAO:0001204
 is_a: ZFA:0000041 ! mesoderm
 relationship: develops_from ZFA:0001378 ! axial hypoblast
@@ -14386,7 +14458,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001233
 name: hypobranchial 1 bone
 namespace: zebrafish_anatomy
-def: "Hypobranchial ossifications 1-3 develop in the small hypobranchial cartilages that lie between the medial tips of the ceratobranchials and copula 1. The first and second hypobranchials are small and irregular in shape; one or both ossifications are absent in some adults." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Ossification that develops in the small hypobranchial cartilages that lie between the medial tips of the ceratobranchials and copula 1. Small and irregular in shape; ossification may be absent in some adults. Ossification may begin when the fish is 15mm." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCID:0000-0002-2244-7917]
 synonym: "hypobranchial 1 bones" EXACT PLURAL []
 xref: TAO:0001233
 is_a: ZFA:0000363 ! hypobranchial bone
@@ -14400,6 +14472,7 @@ id: ZFA:0001234
 name: hypobranchial 4 bone
 namespace: zebrafish_anatomy
 def: "Tiny hypobranchial4 cartilages appear at anteromedial tips of ceratobranchial 4; these are not obviously present in mature specimens, due either to resorption or fusion to the cartilaginous anterior tip of ceratobranchial." [GOC:mh, ORCiD:0000-0001-9114-8737]
+comment: This may need to be obsoleted since it looks like the cartilage is either reabsorbed or fused with another skeletal element.
 synonym: "hypobranchial 4 bones" EXACT PLURAL []
 xref: TAO:0001234
 is_a: ZFA:0000363 ! hypobranchial bone
@@ -14412,7 +14485,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001235
 name: hypobranchial 3 bone
 namespace: zebrafish_anatomy
-def: "Hypobranchial ossifications 1-3 develop in the small hypobranchial cartilages that lie between the medial tips of the ceratobranchials and copula 1. The first and second hypobranchials are small and irregular in shape; one or both ossifications are absent in some adults." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Ossifications  that develops in the small hypobranchial cartilages that lie between the medial tips of the ceratobranchials and copula 1.  Ossification may begin when the fish is 8mm." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCID:0000-0002-2244-7917]
 synonym: "hypobranchial 3 bones" EXACT PLURAL []
 xref: TAO:0001235
 is_a: ZFA:0000363 ! hypobranchial bone
@@ -14425,7 +14498,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001236
 name: hypobranchial 2 bone
 namespace: zebrafish_anatomy
-def: "Hypobranchial ossifications 1-3 develop in the small hypobranchial cartilages that lie between the medial tips of the ceratobranchials and copula 1. The first and second hypobranchials are small and irregular in shape; one or both ossifications are absent in some adults." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Ossification that develop in the small hypobranchial cartilages that lie between the medial tips of the ceratobranchials and copula 1. Small and irregular in shape; ossification may be absent in some adults.  Ossification may begin when the fish is 12 mm." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCID:0000-0002-2244-7917]
 synonym: "hypobranchial 2 bones" EXACT PLURAL []
 xref: TAO:0001236
 is_a: ZFA:0000363 ! hypobranchial bone
@@ -16075,6 +16148,7 @@ relationship: start ZFS:0000014 ! Blastula:Sphere
 id: ZFA:0001378
 name: axial hypoblast
 namespace: zebrafish_anatomy
+def: "Region of the hypoblast that is located along the rostral-caudal axis of the embryo." [GOC:cvs, ORCID:0000-0002-2244-7917]
 xref: TAO:0001378
 is_a: ZFA:0001477 ! portion of tissue
 relationship: develops_from ZFA:0000071 ! shield
@@ -17050,6 +17124,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001461
 name: chondrocranium cartilage
 namespace: zebrafish_anatomy
+def: "Cartilage that is part of the chondrocranium." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 synonym: "neurocranium cartilage" EXACT []
 xref: TAO:0001461
 is_a: ZFA:0001458 ! cranial cartilage
@@ -19114,6 +19189,7 @@ id: ZFA:0001638
 name: statoacoustic (VIII) nucleus
 namespace: zebrafish_anatomy
 synonym: "cochlear nucleus" EXACT []
+synonym: "octaval nucleus" EXACT []
 synonym: "vestibulocochlear nucleus" EXACT []
 xref: TAO:0002243
 is_a: ZFA:0001658 ! hindbrain nucleus
@@ -22925,7 +23001,7 @@ creation_date: 2009-07-08T12:35:19Z
 id: ZFA:0005212
 name: MeM
 namespace: zebrafish_anatomy
-def: "Midbrain interneuron located in the medial midbrain." [ZFIN:ZDB-PUB-961014-758]
+def: "Midbrain interneuron located in the medial midbrain.  Neuron bodies are part of a cluster." [ZFIN:ZDB-PUB-961014-758]
 subset: cell_slim
 synonym: "mesencephalon medial interneuron" EXACT []
 xref: TAO:0005212
@@ -22986,7 +23062,7 @@ creation_date: 2009-07-09T02:21:45Z
 id: ZFA:0005216
 name: MeM1
 namespace: zebrafish_anatomy
-def: "Midbrain interneuron located in the medial midbrain." [ZFIN:ZDB-PUB-090217-9]
+def: "Midbrain interneuron located in the medial midbrain.  The neuron body is positioned away from the MeM cluster." [ZFIN:ZDB-PUB-090217-9]
 subset: cell_slim
 synonym: "mesencephalon medial 1 interneuron" EXACT []
 xref: TAO:0005216
@@ -23118,7 +23194,7 @@ creation_date: 2009-07-09T04:42:58Z
 id: ZFA:0005226
 name: upper lip
 namespace: zebrafish_anatomy
-def: "Lip that covers the lower portion of the mouth." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+def: "Lip that covers the upper portion of the mouth." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 xref: TAO:0001970
 is_a: ZFA:0007006 ! lip
 relationship: end ZFS:0000044 ! Adult
@@ -23312,15 +23388,17 @@ creation_date: 2009-08-10T06:26:10Z
 id: ZFA:0005240
 name: Kolmer-Agduhr neuron
 namespace: zebrafish_anatomy
-def: "Kolmer-Agduhr neurons are ciliated GABAergic neurons that contact the central canal of the spinal cord and have ipsilateral ascending axons." [ZFIN:ZDB-PUB-080825-21]
+def: "Kolmer-Agduhr neurons are ciliated GABAergic neurons that contact the central canal of the spinal cord and have ipsilateral ascending axons. KA neurons are the dorsal population of CSF-cNs that originate from pMN. The apical extension of dorsal CSF-cNs is more extended along the border of the central canal  than for ventral CSF-cNs. Dorsal CSF-cNs contact V0-v cells and project onto CoPA sensory interneuron and respond to lateral bending of the spinal cord." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-080825-21, ZFIN:ZDB-PUB-170409-2]
 subset: cell_slim
+synonym: "dorsal CSF-cN" EXACT [ZFIN:ZDB-PUB-170409-2]
+synonym: "dorsal CSF-cNs" EXACT PLURAL [ZFIN:ZDB-PUB-170409-2]
 synonym: "KA cell" EXACT []
 synonym: "KA interneuron" EXACT [ZFIN:ZDB-PUB-041115-5]
 synonym: "KA neuron" EXACT [ZFIN:ZDB-PUB-980624-10]
 synonym: "Kolmer-Agduhr cell" EXACT []
 xref: CL:0005007
 xref: TAO:0005240
-is_a: ZFA:0000778 ! spinal cord interneuron
+is_a: ZFA:0007120 ! cerebrospinal fluid contacting neuron
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 created_by: Ceri
@@ -23796,6 +23874,7 @@ creation_date: 2010-01-07T02:57:18Z
 id: ZFA:0005275
 name: arrector muscle
 namespace: zebrafish_anatomy
+def: "Fin muscle that is located on the anterior edge of the fin. Arrector muscles change the angle of the leading edge of the fin during swimming." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 xref: TAO:0002147
 is_a: ZFA:0005277 ! skeletal muscle
 relationship: end ZFS:0000044 ! Adult
@@ -24437,6 +24516,7 @@ subset: cell_slim
 xref: CL:0005006
 xref: TAO:0005323
 is_a: ZFA:0009034 ! epithelial cell
+relationship: develops_from ZFA:0007123 ! ionocyte progenitor cell
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
@@ -28753,7 +28833,7 @@ creation_date: 2013-04-29T11:55:43Z
 id: ZFA:0005669
 name: lateral protoglomerulus
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb.  The neurons composing lateral protoglomeruli respond to amino acid stimuli." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
 synonym: "lateral protoglomeruli" EXACT PLURAL []
 is_a: ZFA:0005668 ! olfactory bulb protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -28778,7 +28858,7 @@ creation_date: 2013-04-29T02:06:50Z
 id: ZFA:0005671
 name: medial protoglomerulus
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb. Mediates the signals produced in response to bile acids." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
 is_a: ZFA:0005668 ! olfactory bulb protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0005676 ! medial zone olfactory bulb
@@ -29147,7 +29227,7 @@ creation_date: 2013-05-21T03:37:11Z
 id: ZFA:0005700
 name: vpG1
 namespace: zebrafish_anatomy
-def: "One of two large glomeruli located in the ventroposterior zone olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
+def: "One of two large glomeruli located in the medial side of the ventroposterior zone olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "ventroposterior glomerulus 1" EXACT []
 is_a: ZFA:0005661 ! olfactory bulb glomerulus
 relationship: end ZFS:0000044 ! Adult
@@ -29160,7 +29240,7 @@ creation_date: 2013-05-21T03:46:05Z
 id: ZFA:0005701
 name: vpG2
 namespace: zebrafish_anatomy
-def: "One of two large glomeruli located in the ventroposterior zone olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
+def: "One of two large glomeruli located in the lateral side of the ventroposterior zone olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "ventroposterior glomerulus 2" EXACT []
 is_a: ZFA:0005661 ! olfactory bulb glomerulus
 relationship: end ZFS:0000044 ! Adult
@@ -29187,7 +29267,7 @@ creation_date: 2013-05-21T04:11:01Z
 id: ZFA:0005703
 name: lG2
 namespace: zebrafish_anatomy
-def: "Glomerulus located in the lateral zone of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+def: "Glomerulus located in the lateral zone of the olfactory bulb. Located on the caudal edge of the lateral glomerulus." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "glomerulus 2 of the lateral chain" EXACT []
 synonym: "lateral glomerulus 2" EXACT []
 synonym: "lcG2 " EXACT []
@@ -29202,7 +29282,7 @@ creation_date: 2013-05-21T04:15:43Z
 id: ZFA:0005704
 name: lG3
 namespace: zebrafish_anatomy
-def: "Glomerulus located in the lateral zone of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
+def: "Glomerulus located in the dorsoanterior region of the  lateral zone of the olfactory bulb. Expresses calretinin." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "glomerulus 3 of the lateral chain" EXACT []
 synonym: "lateral glomerulus 3" EXACT []
 synonym: "lcG3" EXACT []
@@ -29382,7 +29462,7 @@ creation_date: 2013-05-22T12:04:40Z
 id: ZFA:0005717
 name: lateral protoglomerulus 1
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb. Dorsolateral protoglomerulus located in the lateral region of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
 synonym: "LG1" RELATED []
 is_a: ZFA:0005669 ! lateral protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -29395,7 +29475,7 @@ creation_date: 2013-05-22T03:52:20Z
 id: ZFA:0005718
 name: lateral protoglomerulus 2
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb. Ventromedial protoglomerulus located in the lateral region of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
 synonym: "LG2" RELATED []
 is_a: ZFA:0005669 ! lateral protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -29408,7 +29488,7 @@ creation_date: 2013-05-22T04:06:52Z
 id: ZFA:0005719
 name: lateral protoglomerulus 3
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb. Dorsomedial protoglomerulus located in the lateral region of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
 synonym: "LG3" RELATED []
 is_a: ZFA:0005669 ! lateral protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -29421,7 +29501,7 @@ creation_date: 2013-05-22T04:08:18Z
 id: ZFA:0005720
 name: lateral protoglomerulus 4
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb. Ventrolateral protoglomerulus located in the lateral region of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
 synonym: "LG4" RELATED []
 is_a: ZFA:0005669 ! lateral protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -29434,7 +29514,7 @@ creation_date: 2013-05-22T04:08:37Z
 id: ZFA:0005721
 name: central zone protoglomerulus 1
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries.  Most lateral protoglomerulus in the central zone." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
 synonym: "CZ1" EXACT []
 is_a: ZFA:0005670 ! central zone protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -29447,7 +29527,7 @@ creation_date: 2013-05-22T05:13:36Z
 id: ZFA:0005722
 name: central zone protoglomerulus 2
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries.  Located medially to protoglomerulus 1." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
 synonym: "CZ2" EXACT []
 is_a: ZFA:0005670 ! central zone protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -29460,7 +29540,7 @@ creation_date: 2013-05-22T05:20:35Z
 id: ZFA:0005723
 name: central zone protoglomerulus 3
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries.  Located medially to protoglomerulus 2." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
 synonym: "CZ3" EXACT []
 is_a: ZFA:0005670 ! central zone protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -29473,7 +29553,7 @@ creation_date: 2013-05-22T05:21:01Z
 id: ZFA:0005724
 name: central zone protoglomerulus 4
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries.   Located medially to protoglomerulus 3." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
 synonym: "CZ4" EXACT []
 is_a: ZFA:0005670 ! central zone protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -29486,7 +29566,7 @@ creation_date: 2013-05-22T05:35:43Z
 id: ZFA:0005725
 name: central zone protoglomerulus 5
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries. Most medial protoglomerulus in the central zone." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-980729-35]
 synonym: "CZ5" EXACT []
 is_a: ZFA:0005670 ! central zone protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -29499,7 +29579,7 @@ creation_date: 2013-05-22T05:36:02Z
 id: ZFA:0005726
 name: medial protoglomerulus 1
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb.  Most posterio-lateral of the medial protoglomeruli." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
 synonym: "MG1 " RELATED []
 is_a: ZFA:0005671 ! medial protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -29512,7 +29592,7 @@ creation_date: 2013-05-22T05:39:34Z
 id: ZFA:0005727
 name: medial protoglomerulus 2
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb.  Most dorsally located medial protoglomerulus and medial to protoglomerulus 1." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
 synonym: "MG2" RELATED []
 is_a: ZFA:0005671 ! medial protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -29525,7 +29605,7 @@ creation_date: 2013-05-22T05:42:18Z
 id: ZFA:0005728
 name: medial protoglomerulus 3
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb.  Located  between medial glomerulus 2 and medial glomerulus 4 along dorsal-ventral axis of the medial region of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
 synonym: "MG3" RELATED []
 is_a: ZFA:0005671 ! medial protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -29538,7 +29618,7 @@ creation_date: 2013-05-22T05:42:38Z
 id: ZFA:0005729
 name: medial protoglomerulus 4
 namespace: zebrafish_anatomy
-def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
+def: "Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb. Most ventral  of the medial protoglomeruli." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050617-6, ZFIN:ZDB-PUB-980729-35]
 synonym: "MG4" RELATED []
 is_a: ZFA:0005671 ! medial protoglomerulus
 relationship: end ZFS:0000000 ! Unknown
@@ -30740,7 +30820,7 @@ synonym: "interfilamenti caudalis ventralis" EXACT []
 is_a: ZFA:0005277 ! skeletal muscle
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005818 ! superficial caudal fin musculature
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000040 ! Larval:Days 14-20
 created_by: Ceri
 creation_date: 2014-10-30T10:11:24Z
 
@@ -30754,7 +30834,7 @@ synonym: "interfilamenti caudalis dorsalis	" EXACT []
 is_a: ZFA:0005277 ! skeletal muscle
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0005818 ! superficial caudal fin musculature
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000040 ! Larval:Days 14-20
 created_by: Ceri
 creation_date: 2014-10-30T10:14:35Z
 
@@ -31143,6 +31223,7 @@ creation_date: 2015-06-19T03:27:22Z
 id: ZFA:0005851
 name: ceratobranchial 5 primary tooth
 namespace: zebrafish_anatomy
+def: "Is a multi-tissue structure composed of dentine, enameloid and tooth pulp that develops from the dental organ. These are the first teeth to develop." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-020820-10]
 is_a: ZFA:0000694 ! ceratobranchial 5 tooth
 relationship: end ZFS:0000000 ! Unknown
 relationship: start ZFS:0000033 ! Hatching:Long-pec
@@ -33416,6 +33497,91 @@ created_by: Yvonne
 creation_date: 2019-04-08T13:27:22Z
 
 [Term]
+id: ZFA:0007120
+name: cerebrospinal fluid contacting neuron
+namespace: zebrafish_anatomy
+def: "Spinal cord interneuron located along the central canal that extends a microvilliated apical process into the cerebrospinal fluid and extends ascending axonal projections ventrally and ipsilaterally. CSF-cNs are GABAergic neurons that express PKD2L1 (TRPP3) channels and have been shown to be chemosensory and mechanosensory, responding to pH and osmolarity changes as well as mechanical stimuli associated with tail bending. CSF-cNs originate from two distinct progenitor domains, p3 and pMN. CSF-cNs project onto caudal primary (CaP motor neurons) and commissural primary ascending (CoPA) sensory interneurons within the escape circuit as well as onto V0-v interneurons within the slow swimming circuit." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-170409-2]
+synonym: "CSF-cN" EXACT [ZFIN:ZDB-PUB-170409-2]
+synonym: "CSF-cNs" EXACT PLURAL [ZFIN:ZDB-PUB-170409-2]
+is_a: ZFA:0000778 ! spinal cord interneuron
+is_a: ZFA:0009120 ! mechanoreceptor cell
+is_a: ZFA:0009124 ! chemoreceptor cell
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000023 ! Segmentation:1-4 somites
+created_by: Yvonne
+creation_date: 2020-03-03T10:15:16Z
+
+[Term]
+id: ZFA:0007121
+name: ventral cerebrospinal fluid contacting neuron
+namespace: zebrafish_anatomy
+def: "A cerebrospinal fluid contacting neuron that originates form p3 progenitor domain. The apical extension of ventral CSF-cNs are more compact than that of dorsal CSF-cNs. Ventral CSF-cNs synapse with CaP motor neurons and project onto CoPA sensory interneurons. Ventral CSF-cNs respond to longitudinal contractions of the spinal cord." [GOC:ymb, ORDiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-170409-2]
+synonym: "KA\"" EXACT [ZFIN:ZDB-PUB-170409-2]
+synonym: "KA\" cell" EXACT []
+synonym: "KA\" cells" EXACT PLURAL []
+synonym: "KA\" neuron" EXACT []
+synonym: "KA\" neurons" EXACT PLURAL []
+synonym: "ventral CSF-cN" EXACT [ZFIN:ZDB-PUB-170409-2]
+synonym: "ventral CSF-cNs" EXACT PLURAL [ZFIN:ZDB-PUB-170409-2]
+is_a: ZFA:0007120 ! cerebrospinal fluid contacting neuron
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000023 ! Segmentation:1-4 somites
+created_by: Yvonne
+creation_date: 2020-03-03T10:51:35Z
+
+[Term]
+id: ZFA:0007122
+name: epidermal stem cell
+namespace: zebrafish_anatomy
+def: "A stem cell that gives rise to several epidermal cell types, including ionocytes and keratinocytes." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+synonym: "<new synonym>" RELATED []
+xref: CL:1000428
+is_a: ZFA:0009020 ! multi fate stem cell
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Yvonne
+creation_date: 2020-03-03T13:31:57Z
+
+[Term]
+id: ZFA:0007123
+name: ionocyte progenitor cell
+namespace: zebrafish_anatomy
+def: "A cell that will become an ionocyte. Ionocyte progenitor cells develop from epidermal stem cells in the ventral ectoderm that are DeltaC and Tp63 positive." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-190402-19]
+synonym: "ionocyte progenitor cells" EXACT PLURAL []
+is_a: ZFA:0009000 ! cell
+relationship: develops_from ZFA:0007122 ! epidermal stem cell
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Yvonne
+creation_date: 2020-03-03T14:01:21Z
+
+[Term]
+id: ZFA:0007124
+name: keratinocyte progenitor cell
+namespace: zebrafish_anatomy
+def: "A cell that will become a keratinocyte. Keratinocyte progenitor cells develop from epidermal stem cells in the ventral ectoderm that are DeltaC negative and Tp63 positive." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-190402-19]
+synonym: "keratinocyte progenitor cells" EXACT PLURAL []
+is_a: ZFA:0009000 ! cell
+relationship: develops_from ZFA:0007122 ! epidermal stem cell
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Yvonne
+creation_date: 2020-03-03T14:12:30Z
+
+[Term]
+id: ZFA:0007125
+name: midbrain hindbrain boundary constriction
+namespace: zebrafish_anatomy
+def: "A portion of tissue that is the deepest point of the fold of the midbrain hindbrain boundary. In zebrafish the midbrain hindbrain boundary constriction (MHBC) is formed soon after neural tube closure. The MHBC is formed by the bending of the basal side of the neuroepithelium." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-080825-24]
+synonym: "MHBC" EXACT [ZFIN:ZDB-PUB-080825-24]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000042 ! midbrain hindbrain boundary
+relationship: start ZFS:0000026 ! Segmentation:14-19 somites
+created_by: Yvonne
+creation_date: 2020-03-04T12:35:25Z
+
+[Term]
 id: ZFA:0009000
 name: cell
 namespace: zebrafish_anatomy
@@ -35042,7 +35208,9 @@ id: ZFA:0009117
 name: fast muscle cell
 namespace: zebrafish_anatomy
 alt_id: ZFA:0001088
+def: "A muscle cell that has a fast contractile response. Fast muscle fibers make up the deep portion of the myotome and are also known as white muscle cells." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-080501-8, ZFIN:ZDB-PUB-961219-12]
 subset: cell_slim
+synonym: "fast muscle fiber" EXACT []
 synonym: "white muscle cell" EXACT []
 xref: CL:0000190
 xref: TAO:0009117
@@ -35606,6 +35774,7 @@ synonym: "keratinocytes" EXACT PLURAL []
 xref: CL:0000312
 xref: TAO:0009158
 is_a: ZFA:0009157 ! keratin accumulating cell
+relationship: develops_from ZFA:0007124 ! keratinocyte progenitor cell
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -36016,6 +36185,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009191
 name: CNS interneuron
 namespace: zebrafish_anatomy
+def: "Interneuron that is part of the central nervous system." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 subset: cell_slim
 synonym: "CNS interneurons" EXACT PLURAL []
 xref: CL:0000402
