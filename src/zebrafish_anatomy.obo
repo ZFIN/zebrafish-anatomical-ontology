@@ -33516,11 +33516,11 @@ id: ZFA:0007121
 name: ventral cerebrospinal fluid contacting neuron
 namespace: zebrafish_anatomy
 def: "A cerebrospinal fluid contacting neuron that originates form p3 progenitor domain. The apical extension of ventral CSF-cNs are more compact than that of dorsal CSF-cNs. Ventral CSF-cNs synapse with CaP motor neurons and project onto CoPA sensory interneurons. Ventral CSF-cNs respond to longitudinal contractions of the spinal cord." [GOC:ymb, ORDiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-170409-2]
-synonym: "KA\"" EXACT [ZFIN:ZDB-PUB-170409-2]
-synonym: "KA\" cell" EXACT []
-synonym: "KA\" cells" EXACT PLURAL []
-synonym: "KA\" neuron" EXACT []
-synonym: "KA\" neurons" EXACT PLURAL []
+synonym: "KA"" EXACT [ZFIN:ZDB-PUB-170409-2]
+synonym: "KA" cell" EXACT []
+synonym: "KA" cells" EXACT PLURAL []
+synonym: "KA" neuron" EXACT []
+synonym: "KA" neurons" EXACT PLURAL []
 synonym: "ventral CSF-cN" EXACT [ZFIN:ZDB-PUB-170409-2]
 synonym: "ventral CSF-cNs" EXACT PLURAL [ZFIN:ZDB-PUB-170409-2]
 is_a: ZFA:0007120 ! cerebrospinal fluid contacting neuron
