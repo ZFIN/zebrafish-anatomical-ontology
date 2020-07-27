@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:04:2020 09:56
+date: 14:07:2020 12:09
 saved-by: ceriv
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: cell_slim "cell_slim"
@@ -1285,7 +1285,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000110
 name: fourth ventricle
 namespace: zebrafish_anatomy
-def: "Fluid-filled brain cavity." [ZFIN:ZDB-PUB-961014-576]
+def: "Fluid-filled brain cavity. Most posterior brain ventricle." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-576]
 synonym: "4th ventricle" EXACT []
 synonym: "hindbrain ventricle" EXACT []
 synonym: "rhombencephalic ventricle" EXACT []
@@ -1660,7 +1660,7 @@ relationship: start ZFS:0000023 ! Segmentation:1-4 somites
 id: ZFA:0000143
 name: retinal photoreceptor layer
 namespace: zebrafish_anatomy
-def: "The layer within the retina where the photoreceptor cell receptor segments reside. This layer is closet to the sclera." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-677]
+def: "The layer within the retina where the photoreceptor cell receptor segments reside. This layer is closest to the sclera." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-677]
 synonym: "retinal photoreceptor layers" EXACT PLURAL []
 xref: TAO:0000143
 is_a: ZFA:0001477 ! portion of tissue
@@ -3462,7 +3462,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000294
 name: torus lateralis
 namespace: zebrafish_anatomy
-def: "Diencephalic nucleus which is part of the caudal tuberculum. From Neuroanatomy of the Zebrafish Brain." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
+def: "Diencephalic nucleus which is part of the caudal tuberculum.  In goldfish the lateral torus is exclusively involved with gustatory and general visceral systems." [GOC:cvs, GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917, PMID:9552123]
 synonym: "lateral torus" EXACT []
 xref: TAO:0000294
 is_a: ZFA:0001659 ! diencephalic nucleus
@@ -3852,7 +3852,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000325
 name: caudal thalamic nucleus
 namespace: zebrafish_anatomy
-def: "Diencephalic nucleus which is part of the caudal tuberculum. From Neuroanatomy of the Zebrafish Brain." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
+def: "Diencephalic nucleus which is part of the caudal tuberculum.  It is targeted by ascending fibers originating from the secondary gustatory/ visceral complex." [GOC:cvs, GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-160628-14]
 synonym: "posterior thalamic nucleus" EXACT []
 xref: TAO:0000325
 is_a: ZFA:0001659 ! diencephalic nucleus
@@ -4540,7 +4540,7 @@ synonym: "vagal lobe" RELATED []
 is_a: ZFA:0001658 ! hindbrain nucleus
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000297 ! vagal lobe
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 
 [Term]
 id: ZFA:0000388
@@ -4650,7 +4650,7 @@ relationship: start ZFS:0000022 ! Gastrula:Bud
 id: ZFA:0000397
 name: nucleus subglomerulosis
 namespace: zebrafish_anatomy
-def: "Diencephalic nucleus which is part of the caudal tuberculum. From Neuroanatomy of the Zebrafish Brain." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
+def: "Diencephalic nucleus which is part of the caudal tuberculum.  In trout the nucleus subglomerulosis receives gustatory information." [GOC:cvs, GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917, PMID:11923003]
 xref: TAO:0000397
 is_a: ZFA:0001659 ! diencephalic nucleus
 relationship: end ZFS:0000044 ! Adult
@@ -5323,7 +5323,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000453
 name: cranial nerve X
 namespace: zebrafish_anatomy
-def: "Cranial nerve that innervates gill muscles." [ZFIN:ZDB-PUB-040109-20]
+def: "Cranial nerve that innervates gill muscles.  Sometimes called a branchiomeric nerve because it innervates derivatives of the branchial arches.  This nerve contains sensory axons that carry both somatic and visceral sensory information as well as motor axons from branchiomotor neurons. The root is typically found at either rhombomere 7 or rhombomere 8." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-040109-20, ZFIN:ZDB-PUB-110727-5]
 synonym: "CN-X" EXACT []
 synonym: "vagal nerve" EXACT []
 synonym: "vagus nerve" EXACT []
@@ -5331,7 +5331,7 @@ xref: TAO:0000453
 is_a: ZFA:0000641 ! cranial nerve
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001101 ! gustatory system
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
 id: ZFA:0000454
@@ -6654,6 +6654,7 @@ xref: TAO:0000563
 is_a: ZFA:0000207 ! fin musculature
 relationship: develops_from ZFA:0001000 ! mesenchyme pectoral fin
 relationship: end ZFS:0000044 ! Adult
+relationship: has_developmental_contribution_from ZFA:0005924 ! middle migratory muscle precursor stream
 relationship: part_of ZFA:0001161 ! pectoral fin
 relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 
@@ -6661,7 +6662,7 @@ relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 id: ZFA:0000564
 name: pelvic abductor profundus
 namespace: zebrafish_anatomy
-def: "Deep pelvic muscle that originates from the basipterygium  and lies manly parallel to the rays and attaches to the base of all the rays except ray 1." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8]
+def: "Deep pelvic muscle that originates from the basipterygium  and lies mainly parallel to the rays and attaches to the base of all the rays except ray 1." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-171118-8]
 synonym: "abductor profundus pelvicus" EXACT [ZFIN:ZDB-PUB-171118-8]
 synonym: "pelvic abductors profundus" EXACT PLURAL []
 xref: TAO:0000564
@@ -7864,7 +7865,7 @@ xref: TAO:0000664
 is_a: ZFA:0000641 ! cranial nerve
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001101 ! gustatory system
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
 id: ZFA:0000665
@@ -7906,7 +7907,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000668
 name: cranial nerve IX
 namespace: zebrafish_anatomy
-def: "Cranial nerve that innervates gill muscles." [ZFIN:ZDB-PUB-040109-20]
+def: "Cranial nerve that innervates gill muscles.  Sometimes called a branchiomeric nerve because it innervates derivatives of the branchial arches.  The root is typically found at rhombomere 6.  This nerve contains sensory axons that carry both somatic and visceral sensory information as well as motor axons from branchiomotor neurons." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-040109-20, ZFIN:ZDB-PUB-110727-5]
 synonym: "CN-IX" EXACT []
 synonym: "glossopharyngeal nerve" EXACT []
 synonym: "nervus glossopharyngeus" EXACT []
@@ -7914,7 +7915,7 @@ xref: TAO:0000668
 is_a: ZFA:0000641 ! cranial nerve
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0001101 ! gustatory system
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000031 ! Pharyngula:Prim-25
 
 [Term]
 id: ZFA:0000669
@@ -8261,14 +8262,14 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000697
 name: cranial nerve V
 namespace: zebrafish_anatomy
-def: "Cranial nerve which exits the medulla oblongata and carries both sensory and motor axons to and from the facial region." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Cranial nerve which exits the medulla oblongata and carries both sensory and motor axons to and from the facial region. The root is typically found at rhombomere 2." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-110727-5]
 comment: ZDB-PUB-040109-20\nThe motor neuron cell bodies arise in rhombomeres 2 and 3. The neurons in r2 extend axons dorsolaterally to their exit point. The axons of branchiomotor neuron cell bodies in r3 initially extend dorsolaterally, then turn rostrally to reach their exit point in r2. The anterior turn occurs where the motor axons meet the ingrowing trigeminal sensory axons.
 synonym: "CN-V" EXACT []
 synonym: "trigeminal nerve" EXACT []
 xref: TAO:0000697
 is_a: ZFA:0000641 ! cranial nerve
 relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000028 ! Segmentation:26+ somites
 
 [Term]
 id: ZFA:0000698
@@ -12972,7 +12973,7 @@ def: "Sensory system that uses taste buds to sense chemical compounds." [ZFIN:ZD
 xref: TAO:0001101
 is_a: ZFA:0000282 ! sensory system
 relationship: end ZFS:0000044 ! Adult
-relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
 id: ZFA:0001104
@@ -17229,7 +17230,7 @@ relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 id: ZFA:0001470
 name: anterior lateral line
 namespace: zebrafish_anatomy
-def: "The anterior lateral line consists of small sensory patches (neuromasts) located superficially on the skin or just under the skin in fluid-filled canals on the head of all fishes and most amphibians. The anterior lateral line develops from cranial ectodermal placodes situated between the eye and ear." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "The anterior lateral line consists of small sensory patches (neuromasts) located superficially on the skin or just under the skin in fluid-filled canals on the head of all fishes and most amphibians. The anterior lateral line develops from cranial ectodermal placodes situated between the eye and ear." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-000523-3]
 synonym: "anterior lateral lines" EXACT PLURAL []
 xref: TAO:0001470
 is_a: ZFA:0001469 ! lateral line
@@ -19338,7 +19339,7 @@ id: ZFA:0001651
 name: sternohyoid
 namespace: zebrafish_anatomy
 alt_id: ZFA:0000283
-def: "Head muscle that originates on the anterior region of the cleithrum and inserts on the urohyal. The hypobranchial forms initially as left and right parts that later fuse together forming a cone shape.  The muscle is innervated by the occipitospinals." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-080306-33, ZFIN:ZDB-PUB-970819-13]
+def: "Head muscle that originates on the anterior region of the cleithrum and inserts on the urohyal. The hypobranchial forms initially as left and right parts that later fuse together forming a cone shape.  The muscle is innervated by the occipitospinals and mainly composed of fast twitch muscle fibers." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-080306-33, ZFIN:ZDB-PUB-190427-4, ZFIN:ZDB-PUB-970819-13]
 synonym: "hypobranchial muscle" EXACT []
 synonym: "sternohyoideus" EXACT []
 synonym: "sternohyoids" EXACT []
@@ -19347,6 +19348,7 @@ xref: TAO:0002200
 is_a: ZFA:0000236 ! mandibular muscle
 is_a: ZFA:0001652 ! head muscle
 relationship: end ZFS:0000044 ! Adult
+relationship: has_developmental_contribution_from ZFA:0005923 ! anterior migratory muscle precursor stream
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 
 [Term]
@@ -21686,7 +21688,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005115
 name: primary posterior lateral line primordium
 namespace: zebrafish_anatomy
-def: "Primordium that forms the first neuromasts of the posterior lateral line.  This primordium travels at 1.5-1.7 somites/hour and deposits  neuromast that are polarized along the antero-posterior axis." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
+def: "Primordium that forms the first neuromasts of the posterior lateral line.  This primordium travels at 1.5-1.7 somites/hour and deposits  neuromast that are polarized along the antero-posterior axis." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-040319-12, ZFIN:ZDB-PUB-040916-1]
 synonym: "primary posterior lateral line primordia" EXACT PLURAL []
 synonym: "primI" EXACT []
 xref: TAO:0005115
@@ -21699,7 +21701,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0005116
 name: secondary posterior lateral line primordium
 namespace: zebrafish_anatomy
-def: "Second lateral line primordium.  These primordia move at 0.2 somites/hour and deposit neuromasts that are polarized in a dorso-ventral direction." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
+def: "Second lateral line primordium.  These primordia move at 0.2 somites/hour and deposit neuromasts that are polarized in a dorso-ventral direction." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-040319-12, ZFIN:ZDB-PUB-040916-1]
 synonym: "secondary posterior lateral line primordia" EXACT PLURAL []
 xref: TAO:0005116
 is_a: ZFA:0001157 ! posterior lateral line primordium
@@ -22802,7 +22804,7 @@ creation_date: 2009-06-26T04:33:20Z
 id: ZFA:0005199
 name: RoL2r
 namespace: zebrafish_anatomy
-def: "A RoL2 interneuron that is part of rhombomere 2." [ZFIN:ZDB-PUB-090217-9]
+def: "The rostral RoL2 interneuron that is part of rhombomere 2." [ZFIN:ZDB-PUB-090217-9]
 subset: cell_slim
 synonym: "rostral lateral 2 rostral interneuron " EXACT []
 xref: TAO:0005199
@@ -22817,7 +22819,7 @@ creation_date: 2009-06-26T04:48:39Z
 id: ZFA:0005200
 name: RoL2c
 namespace: zebrafish_anatomy
-def: "A RoL2 interneuron that is part of rhombomere 2." [ZFIN:ZDB-PUB-090217-9]
+def: "The caudal RoL2 interneuron that is part of rhombomere 2." [ZFIN:ZDB-PUB-090217-9]
 subset: cell_slim
 synonym: "rostral lateral 2 caudal interneuron " EXACT []
 xref: TAO:0005200
@@ -29353,7 +29355,7 @@ creation_date: 2013-05-22T11:19:31Z
 id: ZFA:0005709
 name: mdG1
 namespace: zebrafish_anatomy
-def: "Glomerulus located in the mediodorsal zone of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+def: "Glomerulus located in the mediodorsal zone of the olfactory bulb. It lies caudal to mdG5 and mdG6 and rostral of mdG3." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "mdpG1" EXACT []
 synonym: "mediodorsal glomerulus 1" EXACT []
 synonym: "mediodorsal posterior glomerulus 1 " EXACT []
@@ -29368,7 +29370,7 @@ creation_date: 2013-05-22T11:49:49Z
 id: ZFA:0005710
 name: mdG2
 namespace: zebrafish_anatomy
-def: "Glomerulus located in the mediodorsal zone of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+def: "Glomerulus located in the mediodorsal zone of the olfactory bulb.  This glomerulus expresses a S100 protein.  It is the most posterior-caudal of the mediodorsal glomeruli." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "mdpG2 " EXACT []
 synonym: "mediodorsal glomerulus 2" EXACT []
 synonym: "mediodorsal posterior glomerulus 2" EXACT []
@@ -29383,7 +29385,7 @@ creation_date: 2013-05-22T11:53:33Z
 id: ZFA:0005711
 name: mdG3
 namespace: zebrafish_anatomy
-def: "Glomerulus located in the mediodorsal zone of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+def: "Glomerulus located in the mediodorsal zone of the olfactory bulb.  Glomerulus that lies ventral to mdG2 on the caudal edge of the mediodorsal glomeruli." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "mediodorsal glomerulus 3" EXACT []
 is_a: ZFA:0005661 ! olfactory bulb glomerulus
 relationship: end ZFS:0000044 ! Adult
@@ -29396,7 +29398,7 @@ creation_date: 2013-05-22T11:54:46Z
 id: ZFA:0005712
 name: mdG4
 namespace: zebrafish_anatomy
-def: "Glomerulus located in the mediodorsal zone of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+def: "Glomerulus located in the mediodorsal zone of the olfactory bulb.  Positioned between mdG2 and mdG5 on the dorsal edge of the medial dorsal glomerular cluster." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "mediodorsal glomerulus 4" EXACT []
 is_a: ZFA:0005661 ! olfactory bulb glomerulus
 relationship: end ZFS:0000044 ! Adult
@@ -29409,7 +29411,7 @@ creation_date: 2013-05-22T11:56:36Z
 id: ZFA:0005713
 name: mdG5
 namespace: zebrafish_anatomy
-def: "Glomerulus located in the mediodorsal zone of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+def: "Glomerulus located in the mediodorsal zone of the olfactory bulb. .  This glomerulus expresses a protein that cross reacts with antibodies raised against GNAO1.  It is the  dorsal to mdG6 on the rostral edge of the mediodorsal cluster." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "mediodorsal glomerulus 5" EXACT []
 is_a: ZFA:0005661 ! olfactory bulb glomerulus
 relationship: end ZFS:0000044 ! Adult
@@ -29422,7 +29424,7 @@ creation_date: 2013-05-22T11:57:20Z
 id: ZFA:0005714
 name: mdG6
 namespace: zebrafish_anatomy
-def: "Glomerulus located in the mediodorsal zone of the olfactory bulb." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+def: "Glomerulus located in the mediodorsal zone of the olfactory bulb.  This glomerulus is the most ventral glomerulus in the mediodorsal cluster." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-120516-14]
 synonym: "mediodorsal glomerulus 6" EXACT []
 is_a: ZFA:0005661 ! olfactory bulb glomerulus
 relationship: end ZFS:0000044 ! Adult
@@ -30351,12 +30353,14 @@ creation_date: 2014-03-18T03:14:29Z
 id: ZFA:0005785
 name: esophageal striated muscle
 namespace: zebrafish_anatomy
-def: "Striated muscle of the esophogus. Permits voluntary swallowing." [ZFIN:ZDB-PUB-130709-61]
+def: "Striated muscle of the esophagus. Permits voluntary swallowing." [ZFIN:ZDB-PUB-130709-61]
+synonym: "oesophageal striated muscle (OSM)" EXACT [ZFIN:ZDB-PUB-130709-61]
 is_a: ZFA:0005145 ! muscle
 relationship: end ZFS:0000044 ! Adult
 relationship: has_developmental_contribution_from ZFA:0000072 ! somite 1
 relationship: has_developmental_contribution_from ZFA:0000728 ! somite 2
 relationship: has_developmental_contribution_from ZFA:0000732 ! somite 3
+relationship: has_developmental_contribution_from ZFA:0005923 ! anterior migratory muscle precursor stream
 relationship: part_of ZFA:0000204 ! esophagus
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 created_by: Ceri
@@ -32029,6 +32033,135 @@ relationship: part_of ZFA:0005229 ! optic choroid
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2019-05-29T16:15:09Z
+
+[Term]
+id: ZFA:0005917
+name: anterior-posterior polarized neuromast
+namespace: zebrafish_anatomy
+def: "Neuromast where the paired hair cells are polarized along the anterior-posterior body axis." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-061205-16]
+synonym: "anteroposterior oriented neuromast" RELATED []
+is_a: ZFA:0000243 ! neuromast
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+created_by: ceriv
+creation_date: 2020-06-18T10:40:23Z
+
+[Term]
+id: ZFA:0005918
+name: dorsal-ventral polarized neuromast
+namespace: zebrafish_anatomy
+def: "Neuromast where the paired hair cells are polarized along the dorsal-ventral body axis." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-061205-16]
+synonym: "dorsoventral oriented neuromast" RELATED []
+is_a: ZFA:0000243 ! neuromast
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+created_by: ceriv
+creation_date: 2020-06-18T10:44:49Z
+
+[Term]
+id: ZFA:0005919
+name: dorsal-ventral polarized posterior lateral line neuromast
+namespace: zebrafish_anatomy
+def: "Posterior lateral line neuromast where the paired hair cells are polarized along the dorsal-ventral body axis. Develops from the secondary lateral line primordium." [GOC:CVS, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-040916-1]
+synonym: "perpendicular posterior lateral line neuromast" EXACT [ZFIN:ZDB-PUB-040916-1]
+is_a: ZFA:0000940 ! posterior lateral line neuromast
+is_a: ZFA:0005918 ! dorsal-ventral polarized neuromast
+relationship: develops_from ZFA:0005116 ! secondary posterior lateral line primordium
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: ceriv
+creation_date: 2020-06-18T10:46:54Z
+
+[Term]
+id: ZFA:0005920
+name: anterior-posterior polarized posterior lateral line neuromast
+namespace: zebrafish_anatomy
+def: "Posterior lateral line neuromast where the paired hair cells are polarized along the anterior-posterior body axis. Deposited by the primary lateral line primordium." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-040916-1]
+synonym: "parallel posterior lateral line neuromast" RELATED [ZFIN:ZDB-PUB-040916-1]
+is_a: ZFA:0000940 ! posterior lateral line neuromast
+is_a: ZFA:0005917 ! anterior-posterior polarized neuromast
+relationship: develops_from ZFA:0005115 ! primary posterior lateral line primordium
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000032 ! Pharyngula:High-pec
+created_by: ceriv
+creation_date: 2020-06-18T10:53:53Z
+
+[Term]
+id: ZFA:0005921
+name: migratory muscle precursor
+namespace: zebrafish_anatomy
+def: "Muscle precursor cells that delaminate from the dermomyotome after epithelial-to-mesenchymal transition (EMT) and undergo long-range migration while retaining proliferative capacity." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-001205-1, ZFIN:ZDB-PUB-200701-39]
+subset: cell_slim
+synonym: "migratory mesenchymal precursor " EXACT [ZFIN:ZDB-PUB-001205-1]
+synonym: "MMP" RELATED []
+is_a: ZFA:0009291 ! muscle precursor cell
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000027 ! Segmentation:20-25 somites
+creation_date: 2020-07-01T10:51:34Z
+
+[Term]
+id: ZFA:0005922
+name: migratory muscle precursor stream
+namespace: zebrafish_anatomy
+def: "Groups of migratory muscle precursor that migrate from a conserved origination in concerted manner along stereotyped path." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-040908-9]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000028 ! Segmentation:26+ somites
+created_by: ceriv
+creation_date: 2020-07-01T11:06:26Z
+
+[Term]
+id: ZFA:0005923
+name: anterior migratory muscle precursor stream
+namespace: zebrafish_anatomy
+def: "Muscle precursor stream that originates from the ventral regions of somites 1-3 and migrates anterior of the pectoral fin bud. Migratory muscle precursor from this stream form the esophageal striated muscle and sternohyoid." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-040908-9, ZFIN:ZDB-PUB-130709-61]
+synonym: "first migratory stream" RELATED []
+is_a: ZFA:0005922 ! migratory muscle precursor stream
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+created_by: ceriv
+creation_date: 2020-07-01T11:10:27Z
+
+[Term]
+id: ZFA:0005924
+name: middle migratory muscle precursor stream
+namespace: zebrafish_anatomy
+def: "Muscle precursor stream that originates from the ventral regions of somites 2-4 and migrates toward the pectoral fin bud.  Migratory muscle precursors from this stream contribute to the pectoral fin musculature and make a small contribution to the posterior hypaxial muscle." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-040908-9, ZFIN:ZDB-PUB-190808-2]
+synonym: "middle migratory muscle precursor stream" RELATED []
+is_a: ZFA:0005922 ! migratory muscle precursor stream
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+created_by: ceriv
+creation_date: 2020-07-01T11:14:03Z
+
+[Term]
+id: ZFA:0005925
+name: posterior migratory muscle precursor stream
+namespace: zebrafish_anatomy
+def: "Migratory muscle precursor stream that originates from the ventral regions of somites 5-7 that migrates posterior to the pectoral fin bud.  Migratory muscle precursors from this stream form the posterior hypaxial muscle." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-040908-9, ZFIN:ZDB-PUB-190427-4]
+synonym: "third migratory stream" RELATED []
+is_a: ZFA:0005922 ! migratory muscle precursor stream
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+created_by: ceriv
+creation_date: 2020-07-01T11:17:29Z
+
+[Term]
+id: ZFA:0005926
+name: posterior hypaxial muscle
+namespace: zebrafish_anatomy
+def: "The posterior hypaxial muscle is an early-forming ventral body wall muscle, located immediately posterior to the fin and positioned like a chest muscle. Migratory muscle precursor from somites 4-7 using the middle and posterior stream contribute to the PHM. Stabilizes the sternohyoid during suction feeding.  Insertion point is on the cleithrum." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-040908-9, ZFIN:ZDB-PUB-190427-4, ZFIN:ZDB-PUB-200701-39]
+synonym: "anterior hypaxial muscle " EXACT [ZFIN:ZDB-PUB-050318-5]
+synonym: "inferior obliquus muscle" BROAD [ZFIN:ZDB-PUB-020913-1]
+synonym: "PHM" RELATED []
+synonym: "ventral-most hypaxial muscle " EXACT [ZFIN:ZDB-PUB-010924-1]
+is_a: ZFA:0000362 ! hypaxialis
+relationship: end ZFS:0000000 ! Unknown
+relationship: has_developmental_contribution_from ZFA:0005924 ! middle migratory muscle precursor stream
+relationship: has_developmental_contribution_from ZFA:0005925 ! posterior migratory muscle precursor stream
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: ceriv
+creation_date: 2020-07-01T11:21:03Z
 
 [Term]
 id: ZFA:0006000
@@ -38984,6 +39117,7 @@ id: ZFS:0000000
 name: Unknown
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-050211-1
+xref: ZFIN:ZDB-TERM-100331-2430
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -38991,6 +39125,7 @@ id: ZFS:0000001
 name: Zygote:1-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-4
+xref: ZFIN:ZDB-TERM-100331-2431
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -38998,6 +39133,7 @@ id: ZFS:0000002
 name: Cleavage:2-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-15
+xref: ZFIN:ZDB-TERM-100331-2432
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39005,6 +39141,7 @@ id: ZFS:0000003
 name: Cleavage:4-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-11
+xref: ZFIN:ZDB-TERM-100331-2433
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39012,6 +39149,7 @@ id: ZFS:0000004
 name: Cleavage:8-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-33
+xref: ZFIN:ZDB-TERM-100331-2434
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39019,6 +39157,7 @@ id: ZFS:0000005
 name: Cleavage:16-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-20
+xref: ZFIN:ZDB-TERM-100331-2435
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39026,6 +39165,7 @@ id: ZFS:0000006
 name: Cleavage:32-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-25
+xref: ZFIN:ZDB-TERM-100331-2436
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39033,6 +39173,7 @@ id: ZFS:0000007
 name: Cleavage:64-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-28
+xref: ZFIN:ZDB-TERM-100331-2437
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39040,6 +39181,7 @@ id: ZFS:0000008
 name: Blastula:128-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-7
+xref: ZFIN:ZDB-TERM-100331-2438
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39047,6 +39189,7 @@ id: ZFS:0000009
 name: Blastula:256-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-1
+xref: ZFIN:ZDB-TERM-100331-2439
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39054,6 +39197,7 @@ id: ZFS:0000010
 name: Blastula:512-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-14
+xref: ZFIN:ZDB-TERM-100331-2440
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39061,6 +39205,7 @@ id: ZFS:0000011
 name: Blastula:1k-cell
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-22
+xref: ZFIN:ZDB-TERM-100331-2441
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39068,6 +39213,7 @@ id: ZFS:0000012
 name: Blastula:High
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-27
+xref: ZFIN:ZDB-TERM-100331-2442
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39075,6 +39221,7 @@ id: ZFS:0000013
 name: Blastula:Oblong
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-24
+xref: ZFIN:ZDB-TERM-100331-2443
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39082,6 +39229,7 @@ id: ZFS:0000014
 name: Blastula:Sphere
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-21
+xref: ZFIN:ZDB-TERM-100331-2444
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39089,6 +39237,7 @@ id: ZFS:0000015
 name: Blastula:Dome
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-19
+xref: ZFIN:ZDB-TERM-100331-2445
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39096,6 +39245,7 @@ id: ZFS:0000016
 name: Blastula:30%-epiboly
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-17
+xref: ZFIN:ZDB-TERM-100331-2446
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39103,6 +39253,7 @@ id: ZFS:0000017
 name: Gastrula:50%-epiboly
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-6
+xref: ZFIN:ZDB-TERM-100331-2447
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39110,6 +39261,7 @@ id: ZFS:0000018
 name: Gastrula:Germ-ring
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-3
+xref: ZFIN:ZDB-TERM-100331-2448
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39117,6 +39269,7 @@ id: ZFS:0000019
 name: Gastrula:Shield
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-2
+xref: ZFIN:ZDB-TERM-100331-2449
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39124,6 +39277,7 @@ id: ZFS:0000020
 name: Gastrula:75%-epiboly
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-18
+xref: ZFIN:ZDB-TERM-100331-2450
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39131,6 +39285,7 @@ id: ZFS:0000021
 name: Gastrula:90%-epiboly
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-29
+xref: ZFIN:ZDB-TERM-100331-2451
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39138,6 +39293,7 @@ id: ZFS:0000022
 name: Gastrula:Bud
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-12
+xref: ZFIN:ZDB-TERM-100331-2452
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39145,6 +39301,7 @@ id: ZFS:0000023
 name: Segmentation:1-4 somites
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-23
+xref: ZFIN:ZDB-TERM-100331-2453
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39152,6 +39309,7 @@ id: ZFS:0000024
 name: Segmentation:5-9 somites
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-5
+xref: ZFIN:ZDB-TERM-100331-2454
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39159,6 +39317,7 @@ id: ZFS:0000025
 name: Segmentation:10-13 somites
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-020626-1
+xref: ZFIN:ZDB-TERM-100331-2455
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39166,6 +39325,7 @@ id: ZFS:0000026
 name: Segmentation:14-19 somites
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-30
+xref: ZFIN:ZDB-TERM-100331-2456
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39173,6 +39333,7 @@ id: ZFS:0000027
 name: Segmentation:20-25 somites
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-16
+xref: ZFIN:ZDB-TERM-100331-2457
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39180,6 +39341,7 @@ id: ZFS:0000028
 name: Segmentation:26+ somites
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-34
+xref: ZFIN:ZDB-TERM-100331-2458
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39187,6 +39349,7 @@ id: ZFS:0000029
 name: Pharyngula:Prim-5
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-10
+xref: ZFIN:ZDB-TERM-100331-2439
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39194,6 +39357,7 @@ id: ZFS:0000030
 name: Pharyngula:Prim-15
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-32
+xref: ZFIN:ZDB-TERM-100331-2460
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39201,6 +39365,7 @@ id: ZFS:0000031
 name: Pharyngula:Prim-25
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-13
+xref: ZFIN:ZDB-TERM-100331-2461
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39208,6 +39373,7 @@ id: ZFS:0000032
 name: Pharyngula:High-pec
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-31
+xref: ZFIN:ZDB-TERM-100331-2462
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39215,6 +39381,7 @@ id: ZFS:0000033
 name: Hatching:Long-pec
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-9
+xref: ZFIN:ZDB-TERM-100331-2463
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39222,6 +39389,7 @@ id: ZFS:0000034
 name: Hatching:Pec-fin
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-26
+xref: ZFIN:ZDB-TERM-100331-2464
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39229,6 +39397,7 @@ id: ZFS:0000035
 name: Larval:Protruding-mouth
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-8
+xref: ZFIN:ZDB-TERM-100331-2465
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39236,6 +39405,7 @@ id: ZFS:0000036
 name: Larval:Day 4
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-35
+xref: ZFIN:ZDB-TERM-100331-2466
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39243,6 +39413,7 @@ id: ZFS:0000037
 name: Larval:Day 5
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-36
+xref: ZFIN:ZDB-TERM-100331-2467
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39250,6 +39421,7 @@ id: ZFS:0000038
 name: Larval:Day 6
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-37
+xref: ZFIN:ZDB-TERM-100331-2468
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39257,6 +39429,7 @@ id: ZFS:0000039
 name: Larval:Days 7-13
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-47
+xref: ZFIN:ZDB-TERM-100331-2469
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39264,6 +39437,7 @@ id: ZFS:0000040
 name: Larval:Days 14-20
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-48
+xref: ZFIN:ZDB-TERM-100331-2470
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39271,6 +39445,7 @@ id: ZFS:0000041
 name: Larval:Days 21-29
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-49
+xref: ZFIN:ZDB-TERM-100331-2471
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39278,6 +39453,7 @@ id: ZFS:0000042
 name: Juvenile:Days 30-44
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-51
+xref: ZFIN:ZDB-TERM-100331-2472
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39285,6 +39461,7 @@ id: ZFS:0000043
 name: Juvenile:Days 45-89
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-52
+xref: ZFIN:ZDB-TERM-100331-2473
 is_a: ZFS:0100000 ! Stages
 
 [Term]
@@ -39292,6 +39469,7 @@ id: ZFS:0000044
 name: Adult
 namespace: zebrafish_stages
 xref: ZFIN:ZDB-STAGE-010723-39
+xref: ZFIN:ZDB-TERM-100331-2474
 is_a: ZFS:0100000 ! Stages
 
 [Term]
