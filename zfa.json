@@ -1,0 +1,37 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/ZFA_00000000",
+      "type" : "CLASS",
+      "lbl" : "root node"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_format_version"
+    } ],
+    "edges" : [ ],
+    "id" : "http://purl.obolibrary.org/obo/zfa.json",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/elements/1.1/description",
+        "val" : "None"
+      }, {
+        "pred" : "http://purl.org/dc/elements/1.1/title",
+        "val" : "Zebrafish Anatomy and Development Ontology"
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "https://creativecommons.org/licenses/unspecified"
+      }, {
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "2020-12-08"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/zfa/releases/2020-12-08/zfa.json"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

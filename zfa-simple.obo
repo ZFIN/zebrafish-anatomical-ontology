@@ -1,0 +1,12 @@
+format-version: 1.2
+data-version: zfa/releases/2020-12-08/zfa-simple.owl
+ontology: zfa/zfa-simple
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Anatomy and Development Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: owl:versionInfo "2020-12-08" xsd:string
+
+[Term]
+id: ZFA:00000000
+name: root node
+

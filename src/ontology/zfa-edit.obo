@@ -1,0 +1,15 @@
+
+
+import: http://purl.obolibrary.org/obo/zfa/imports/ro_import.owl
+
+
+ontology: zfa
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Anatomy and Development Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+
+[Term]
+id: ZFA:00000000
+name: root node
+
+

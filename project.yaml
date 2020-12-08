@@ -1,0 +1,64 @@
+allow_equivalents: all
+catalog_file: catalog-v001.xml
+components: null
+contact: null
+contributors: null
+creators: null
+description: None
+dosdp_tools_options: --obo-prefixes=true
+edit_format: obo
+exclude_tautologies: structural
+export_formats:
+- owl
+- obo
+- json
+git_user: ''
+github_org: cerivs
+gzip_main: false
+id: zfa
+import_group:
+  directory: imports/
+  disabled: false
+  ids: null
+  products:
+  - description: null
+    id: ro
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  rebuild_if_source_changes: true
+import_pattern_ontology: false
+license: https://creativecommons.org/licenses/unspecified
+namespaces:
+- http://purl.obolibrary.org/obo/ZFA_
+- http://purl.obolibrary.org/obo/zfa.owl
+obo_format_options: ''
+pattern_group: null
+pattern_pipelines_group: null
+primary_release: simple
+public_release: none
+public_release_assets: null
+reasoner: ELK
+release_artefacts:
+- base
+- simple
+- full
+release_date: false
+repo: zebrafish-anatomical-ontology
+robot_java_args: -Xmx8G
+robot_report:
+  custom_profile: false
+  fail_on: null
+  report_on:
+  - edit
+  - .owl
+  use_labels: true
+robot_settings: null
+robot_version: null
+robotemplate_group: null
+subset_group: null
+title: Zebrafish Anatomy and Development Ontology
+travis_emails: null
+uribase: http://purl.obolibrary.org/obo
+use_dosdps: false
+use_external_date: false
