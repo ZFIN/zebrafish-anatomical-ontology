@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:12:2020 11:26
+date: 08:03:2021 11:16
 saved-by: ceriv
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: cell_slim "cell_slim"
@@ -7,7 +7,6 @@ synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_anatomical_ontology
 remark: SVN version: $Revision: 1.100$
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/ xsd:string
-property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
 treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: TAO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
@@ -32320,6 +32319,52 @@ created_by: ceriv
 creation_date: 2020-12-02T09:30:41Z
 
 [Term]
+id: ZFA:0005940
+name: fibrocartilaginous callus
+namespace: zebrafish_anatomy
+def: "Temporary regenerating structure composed of chondrocytes and fibroblast that stabilizes the bone ends at a fracture site. The fibrocartilagionous callus surrounds the bone ends." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-190807-16]
+is_a: ZFA:0005147 ! regenerating tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+creation_date: 2021-01-27T10:34:06Z
+
+[Term]
+id: ZFA:0005941
+name: bone callus
+namespace: zebrafish_anatomy
+def: "Temporary regenerating structure wider than the original bone composed of osteoblast and mineralized tissue that replaces the fibrocartilagenous callus at a bone fracture site. The bone callus is eventually remodeled to be the width of the surrounding bone." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-190807-16]
+is_a: ZFA:0005147 ! regenerating tissue
+relationship: develops_from ZFA:0005940 ! fibrocartilaginous callus
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: ceriv
+creation_date: 2021-01-27T10:38:07Z
+
+[Term]
+id: ZFA:0005942
+name: lysosome-rich enterocyte
+namespace: zebrafish_anatomy
+def: "Enterocytes that possess a large supranuclear vacuolar system that preferentially internalize dietary protein via receptor-mediated and fluid-phase endocytosis for intracellular digestion and trans-cellular transport. In zebrafish these cells are located in the posterior region of the mid intestine throughout life. In mammals thy are found in the ileum pre-weaning and later are replaced by mature enterocytes ." [GOC:cvs, ORCID:0000-0002-1009-339X, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-190903-3]
+subset: cell_slim
+is_a: ZFA:0009269 ! enterocyte
+created_by: ceriv
+creation_date: 2021-01-27T10:44:40Z
+
+[Term]
+id: ZFA:0005944
+name: mural cell
+namespace: zebrafish_anatomy
+def: "Cells that localize on the abluminal side of the vascular endothelium that regulate vessel stability and function.  Mural cells are categorized into vascular smooth muscle cells or pericytes." [ORCID:0000-0002-2244-7917, ORCID:0000-0002-4142-7153, ZFIN:ZDB-PUB-190116-4]
+subset: cell_slim
+xref: CL:0008034
+is_a: ZFA:0009000 ! cell
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005249 ! vasculature
+relationship: start ZFS:0000026 ! Segmentation:14-19 somites
+created_by: ceriv
+creation_date: 2021-01-27T11:37:04Z
+
+[Term]
 id: ZFA:0006000
 name: intermediate hypothalamus
 namespace: zebrafish_anatomy
@@ -35422,7 +35467,7 @@ synonym: "pericytes" EXACT PLURAL []
 synonym: "perivascular cells" EXACT []
 xref: CL:0000669
 xref: TAO:0009112
-is_a: ZFA:0009000 ! cell
+is_a: ZFA:0005944 ! mural cell
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -36348,6 +36393,7 @@ subset: cell_slim
 synonym: "vascular associated smooth muscle cells" EXACT PLURAL []
 xref: CL:0000359
 xref: TAO:0009181
+is_a: ZFA:0005944 ! mural cell
 is_a: ZFA:0009118 ! smooth muscle cell
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
