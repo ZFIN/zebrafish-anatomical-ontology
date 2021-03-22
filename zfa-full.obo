@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: zfa/releases/2020-12-08/zfa-full.owl
-date: 14:07:2020 12:09
+data-version: zfa/releases/2021-03-22/zfa-full.owl
+date: 08:03:2021 11:16
 saved-by: ceriv
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: cell_slim "cell_slim"
@@ -12,9 +12,8 @@ treat-xrefs-as-genus-differentia: TAO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: VSAO part_of NCBITaxon:7955
 remark: SVN version: $Revision: 1.100$
 ontology: zfa/zfa-full
-property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/ xsd:string
-property_value: owl:versionInfo "2020-12-08" xsd:string
+property_value: owl:versionInfo "2021-03-22" xsd:string
 
 [Term]
 id: ZFA:0000000
@@ -3780,7 +3779,7 @@ is_a: ZFA:0000338 ! diencephalic white matter
 id: ZFA:0000354
 name: gill
 namespace: zebrafish_anatomy
-def: "Compound organ that consists of gill filaments, gill lamellae, gill rakers and pharyngeal arches 3-7. The gills are responsible for primary gas exchange between the blood and the surrounding water." [http://www.briancoad.com/Dictionary/G.htm]
+def: "Compound organ that consists of gill filaments, gill lamellae, gill rakers and pharyngeal arches 3-7. The gills are responsible for primary gas exchange between the blood and the surrounding water." [http:http\://www.briancoad.com/Dictionary/DicPics/gill.htm]
 synonym: "gills" EXACT PLURAL []
 xref: TAO:0000354
 is_a: ZFA:0000496 ! compound organ
@@ -6303,7 +6302,7 @@ relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 id: ZFA:0000598
 name: testis
 namespace: zebrafish_anatomy
-def: "Male reproductive organ. Adult zebrafish testes are paired organs forming elongated structures, internally organized into tubules. These tubules are formed by seminiferous epithelium containing cysts of spermatogonia and spermatocytes surrounded by somatic support cells, called Sertoli cells. Cysts are arranged around a lumen containing spermatozoa that is connected to the efferent ducts. The interstitial regions between the tubules contain the steroid-producing Leydig cells, connective tissue, and blood vessels." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-161215-2]
+def: "Male reproductive organ. Adult zebrafish testes are paired organs forming elongated structures, internally organized into tubules. These tubules are formed by seminiferous epithelium containing cysts of spermatogonia and spermatocytes surrounded by somatic support cells, called Sertoli cells. Cysts are arranged around a lumen containing spermatozoa that is connected to the efferent ducts. The interstitial regions between the tubules contain the steroid-producing Leydig cells, connective tissue, and blood vessels." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-161215-23]
 synonym: "testes" EXACT PLURAL []
 xref: TAO:0000598
 is_a: ZFA:0000413 ! gonad
@@ -6403,6 +6402,7 @@ is_a: ZFA:0000318 ! brainstem and spinal white matter
 id: ZFA:0000608
 name: ventral transverse
 namespace: zebrafish_anatomy
+synonym: "transverse ventralis" EXACT []
 synonym: "transversus ventralis " EXACT []
 xref: TAO:0000608
 is_a: ZFA:0000172 ! branchial muscle
@@ -11546,6 +11546,7 @@ synonym: "blood vessel" RELATED []
 xref: TAO:0001079
 is_a: ZFA:0001490 ! cavitated compound organ
 is_a: ZFA:0005249 ! vasculature
+relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
 id: ZFA:0001080
@@ -13669,7 +13670,7 @@ name: caudal vein plexus
 namespace: zebrafish_anatomy
 def: "Post-vent vasculature which forms an interconnecting network of venous tubes. The caudal vein plexus forms via a very active period of angiogenic sprouting, beginning at 25 hpf when venous endothelial cells of the posterior cardinal vein sprout and migrate ventrally, then fuse with neighboring tip cells. This process reiterates during a five-hour window, forming a primordial plexus by 30 hpf. By two days of development, the primitive caudal vein plexus has matured into a complex, well-perfused, venous vascular network. Starting at 4 dpf the caudal vein plexus starts to remodel and simplify." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-010205-5, ZFIN:ZDB-PUB-111011-36]
 xref: TAO:0001286
-is_a: ZFA:0005037 ! post-vent vasculature
+is_a: ZFA:0005932 ! developmental vascular plexus
 relationship: end ZFS:0000039 ! Larval:Days 7-13
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
@@ -14741,7 +14742,7 @@ relationship: part_of ZFA:0001269 ! regenerating fin
 id: ZFA:0001390
 name: pancreatic bud
 namespace: zebrafish_anatomy
-def: "Embryonic structure that develops from the pancreas primordium and develops into the pancreas." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
+def: "Embryonic structure that develops from the pancreas primordium and develops into the pancreas.  At Prim-5 the buds are located between the dorsal aorta and the posterior cardinal vein." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-191011-21]
 synonym: "pancreatic buds" EXACT PLURAL []
 xref: TAO:0001390
 is_a: ZFA:0001105 ! embryonic structure
@@ -17032,7 +17033,7 @@ is_a: ZFA:0001613 ! pharyngeal arch 3-7
 id: ZFA:0001611
 name: pharyngeal arch 2
 namespace: zebrafish_anatomy
-def: "The second pharyngeal arch, also known as the hyoid arch, forms jaw support structures.  Anteriorly positioned cranial neural crest cells, which align with rhombomeres 4/5, contribute to the hyoid arch structures including the ceratohyla and hyosymplectic cartilages." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-020904-6, ZFIN:ZDB-PUB-040726-7, ZFIN:ZDB-PUB-961014-985]
+def: "The second pharyngeal arch, also known as the hyoid arch, forms jaw support structures.  Anteriorly positioned cranial neural crest cells, which align with rhombomeres 4/5, contribute to the hyoid arch structures including the ceratohyal and hyosymplectic cartilages." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-020904-6, ZFIN:ZDB-PUB-040726-7, ZFIN:ZDB-PUB-961014-985]
 synonym: "hyoid arch" EXACT []
 synonym: "visceral arch 2" EXACT []
 xref: TAO:0001596
@@ -17496,7 +17497,9 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0001656
 name: pleuroperitoneal cavity
 namespace: zebrafish_anatomy
-def: "Anatomical space which contains the abdominal visceral and swim bladder. Located posterior to the pericardial cavity, separated by the transverse septum. From Functional Anatomy of the Vertebrates, third edition." [GOC:cvs, ISBN:0030223695, ORCiD:0000-0002-2244-7917]
+def: "Anatomical space which contains the abdominal viscera and swim bladder. Located posterior to the pericardial cavity, separated by the transverse septum. From Functional Anatomy of the Vertebrates, third edition." [GOC:cvs, ISBN:0030223695, ORCiD:0000-0002-2244-7917]
+synonym: "coelom" RELATED []
+synonym: "coelomic cavity" RELATED []
 synonym: "visceral cavity" EXACT []
 xref: TAO:0002224
 is_a: ZFA:0001643 ! anatomical space
@@ -18590,6 +18593,7 @@ def: "Is an interconnected tubular multi-tissue structure that contains fluid th
 xref: TAO:0005024
 is_a: ZFA:0005249 ! vasculature
 relationship: part_of ZFA:0001115 ! trunk
+relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 
 [Term]
 id: ZFA:0005025
@@ -19395,6 +19399,7 @@ def: "Is an ocular vasculature that develops adjacent to the pigment epithelium 
 synonym: "choroid vasculature" EXACT []
 synonym: "CVP" EXACT []
 xref: TAO:0005094
+is_a: ZFA:0005933 ! mature plexus
 is_a: ZFA:0007057 ! ocular blood vessel
 relationship: part_of ZFA:0005229 ! optic choroid
 relationship: start ZFS:0000036 ! Larval:Day 4
@@ -21239,7 +21244,7 @@ xref: TAO:0001079
 xref: TAO:0005249
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: part_of ZFA:0000010 ! cardiovascular system
-relationship: start ZFS:0000027 ! Segmentation:20-25 somites
+relationship: start ZFS:0000026 ! Segmentation:14-19 somites
 created_by: Ceri
 creation_date: 2009-11-10T02:31:54Z
 
@@ -26813,9 +26818,10 @@ creation_date: 2013-08-01T04:10:28Z
 id: ZFA:0005756
 name: secondary islet
 namespace: zebrafish_anatomy
-def: "Islet that develops after the primary islet." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+def: "Islets that develop after the primary islet.  The secondary islets usually form around 7 dpf but can be induced to form as early as 5 dpf." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-130710-45, ZFIN:ZDB-PUB-140817-2]
 comment: Start stage known to be after 3dpf.
 is_a: ZFA:0005755 ! islet
+relationship: start ZFS:0000037 ! Larval:Day 5
 created_by: Ceri
 creation_date: 2013-08-01T04:10:55Z
 
@@ -27401,9 +27407,8 @@ name: intestine lumen
 namespace: zebrafish_anatomy
 def: "Anatomical space within the intestine where digestion normally occurs.  The intestinal lumen begins as an interconnected web of small space at 43 hpf that over time remodels to form a single continuous tube at 68hpf.  Lumen maturation proceeds from anterior to posterior along the intestine." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-140415-28]
 synonym: "gut lumen" RELATED []
-is_a: ZFA:0001643 ! anatomical space
+is_a: ZFA:0005930 ! lumen
 relationship: part_of ZFA:0001338 ! intestine
-relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2014-07-14T01:57:57Z
 
@@ -28467,7 +28472,7 @@ name: scale radius
 namespace: zebrafish_anatomy
 def: "Grooves on the scale radiating from the focus. Zebrafish have primary radii that start at the focus and extend to the posterior margin of the scale." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180311-2]
 synonym: "scale radii" EXACT PLURAL []
-is_a: ZFA:0000037 ! anatomical structure
+is_a: ZFA:0001690 ! groove
 relationship: part_of ZFA:0000277 ! scale
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
@@ -28779,6 +28784,181 @@ relationship: has_developmental_contribution_from ZFA:0005925 ! posterior migrat
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: ceriv
 creation_date: 2020-07-01T11:21:03Z
+
+[Term]
+id: ZFA:0005927
+name: endothelial blood brain barrier
+namespace: zebrafish_anatomy
+def: "Blood vessel endothelium that restricts the passage of circulating substances from  the blood to the brain parenchyma while actively facilitating the passage of nutrients and removal of waste products.  The developing blood brain barrier undergoes a period of transcytosis and leaks that decrease as the mature form is established.  The barrier matures in a posterior to anterior direction." [GOC:cvs, ORCID:000-0002-2244-7917, ZFIN:ZDB-PUB-190821-6]
+is_a: ZFA:0005259 ! continuous blood vessel endothelium
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+creation_date: 2020-07-30T10:25:52Z
+
+[Term]
+id: ZFA:0005928
+name: melanoleucophore
+namespace: zebrafish_anatomy
+def: "Lecophores that develop from melanophores. Melanoleucophore are located at the margin of the dorsal fin, in the dorsal and ventral lobes of the caudal fin.  Melanoleucophores lack pterdines and carotenoids;  exhibited variably shaped organelles distinct from iridophore reflecting platelets and melanosomes and have crystalline Beta-guanine.  Melanoleucophores  express tyrosinase related protein 1b and purine nucleoside phosphorylase 4a.  Immature cells may contain melanin." [GOC:cvs, GOC:st, ORCID:0000-0002-2244-7917, ORCID:0000-0002-4142-7153, ZFIN:ZDB-PUB-190530-2]
+subset: cell_slim
+is_a: ZFA:0009261 ! leucophore
+relationship: develops_from ZFA:0009091 ! melanocyte
+creation_date: 2020-11-04T13:46:59Z
+
+[Term]
+id: ZFA:0005929
+name: xantholeucophore
+namespace: zebrafish_anatomy
+def: "Lecophores that develops from xanthophores. Xantholeucophores are located on the anal fin.  Xantholeucophores  contain  round organelles carotenoid vesicles containing yellow/orange pigment as well as irregular organelles indistinguishable from pterinosomes, which contain yellow or colorless pteridines.  During development white pigmentation surrounds a yellow-orange center, gradually increasing until whole cell appears white.  Xantholeucophore express aldehyde oxidase 5 and purine nucleoside phosphorylase 4a.  These cells most closely resemble the leucophores of other teleost." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-190530-2]
+comment: ZDB-PUB-190912-11 mentions that on the 8th day of development   Yellow EL xanthophores gradually fade from view, entering a cryptic state. These same progenitors contribute to adult melanophores (black cell) and at least some xanthophores (orange cell). Additionally, some embryonic/EL melanophores persist into the adult stage (brown cell), and EL xanthophores lose their pigment, entering a cryptic phase (light yellow cell), and then reacquire pigment at a late stage of adult pattern development.
+subset: cell_slim
+is_a: ZFA:0009261 ! leucophore
+relationship: develops_from ZFA:0009198 ! xanthophore
+created_by: ceriv
+creation_date: 2020-11-04T14:18:50Z
+
+[Term]
+id: ZFA:0005930
+name: lumen
+namespace: zebrafish_anatomy
+def: "Anatomical space within a tubular organ, duct, or vessel." [GOC:cvs, https:en.org/wiki/Lumen_(anatomy), ORCID:0000-0002-2244-7917]
+is_a: ZFA:0001643 ! anatomical space
+relationship: start ZFS:0000000 ! Unknown
+creation_date: 2020-11-20T13:39:11Z
+
+[Term]
+id: ZFA:0005931
+name: vascular plexus
+namespace: zebrafish_anatomy
+def: "Nonhierarchical network of interconnected vessels.  May be the primitive state of a mature vascular structure." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-150418-3]
+is_a: ZFA:0005249 ! vasculature
+created_by: ceriv
+creation_date: 2020-11-20T14:12:43Z
+
+[Term]
+id: ZFA:0005932
+name: developmental vascular plexus
+namespace: zebrafish_anatomy
+def: "Transient plexus formed by vasculogenesis that results in the formation of an intermediate network of similar sized vessels with polygonal-shaped avascular spaces.  As the vasculature matures it is remodeled into a hierarchical vascular tree." [GOC:cvs, ORCID:0000-0002-2244-7917, PMID:23799579, ZFIN:ZDB-PUB-150418-3]
+is_a: ZFA:0005931 ! vascular plexus
+relationship: end ZFS:0000000 ! Unknown
+created_by: ceriv
+creation_date: 2020-11-20T14:29:48Z
+
+[Term]
+id: ZFA:0005933
+name: mature plexus
+namespace: zebrafish_anatomy
+def: "Stable vascular plexus that persist in the adult animal." [GOC:cvs, ORCID:0000-0002-2244-7917, PMID:23799579, ZFIN:ZDB-PUB-150418-3]
+synonym: "capillary plexus" EXACT []
+synonym: "mature vascular plexus" EXACT []
+is_a: ZFA:0005931 ! vascular plexus
+created_by: ceriv
+creation_date: 2020-11-20T14:32:44Z
+
+[Term]
+id: ZFA:0005934
+name: subintestinal venous plexus
+namespace: zebrafish_anatomy
+def: "Non stereotyped venous plexus derived from specialised angioblast that originate in the floor of the posterior cardinal vein.  Emerges from the duct of Cuvier at 2dpf as a reticular structure that spreads bilaterally over the surface of the yolk and gut." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-150418-3, ZFIN:ZDB-PUB-151021-20, ZFIN:ZDB-PUB-151104-9]
+synonym: "subintestinal plexus" EXACT []
+is_a: ZFA:0005931 ! vascular plexus
+relationship: start ZFS:0000032 ! Pharyngula:High-pec
+created_by: ceriv
+creation_date: 2020-11-20T14:35:56Z
+
+[Term]
+id: ZFA:0005935
+name: superficial subintestinal venous plexus
+namespace: zebrafish_anatomy
+def: "Subintestinal venous plexus that wraps the yolk. Anterior vessels connected to both the left and right subintestinal vein drain into the liver. These vessels are reabsorbed after the yolk is depleted." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-150418-3]
+synonym: "yolk plexus" RELATED []
+is_a: ZFA:0005932 ! developmental vascular plexus
+is_a: ZFA:0005934 ! subintestinal venous plexus
+relationship: end ZFS:0000039 ! Larval:Days 7-13
+created_by: ceriv
+creation_date: 2020-11-20T14:41:40Z
+
+[Term]
+id: ZFA:0005936
+name: deep subintestinal venous plexus
+namespace: zebrafish_anatomy
+def: "Plexus that wraps the anterior digestive system.  These vessels form the permanent, superficial vessels of the digestive system.  The left subintestinal vein regresses and empties into the right subintestinal vein." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-151021-20]
+is_a: ZFA:0005933 ! mature plexus
+is_a: ZFA:0005934 ! subintestinal venous plexus
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: ceriv
+creation_date: 2020-11-20T14:43:36Z
+
+[Term]
+id: ZFA:0005937
+name: interconnecting vessels
+namespace: zebrafish_anatomy
+def: "Vessels that form connections between the sub intestinal vein and the supraintestinal artery.  There are fewer ICVs on the right side of the fish due to the asymmetrical development of the subintestinal veins." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-151104-9]
+synonym: "ICV" RELATED []
+is_a: ZFA:0005314 ! blood vessel
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0005934 ! subintestinal venous plexus
+relationship: start ZFS:0000032 ! Pharyngula:High-pec
+created_by: ceriv
+creation_date: 2020-11-20T15:14:22Z
+
+[Term]
+id: ZFA:0005938
+name: inter-organ blood vessel
+namespace: zebrafish_anatomy
+def: "Blood vessel that bridge between organs." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-130710-65]
+is_a: ZFA:0005314 ! blood vessel
+creation_date: 2020-12-02T09:24:58Z
+
+[Term]
+id: ZFA:0005939
+name: liver pancreas connecting vessel
+namespace: zebrafish_anatomy
+def: "Blood vessels that bridge between the liver and pancreas.  Four of these vessels have been described, called V1 LP-V4LP.  The  vessels may be transient or permanent and may make direct or indirect connections between the organ vasculature." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-130710-65]
+is_a: ZFA:0005938 ! inter-organ blood vessel
+created_by: ceriv
+creation_date: 2020-12-02T09:30:41Z
+
+[Term]
+id: ZFA:0005940
+name: fibrocartilaginous callus
+namespace: zebrafish_anatomy
+def: "Temporary regenerating structure composed of chondrocytes and fibroblast that stabilizes the bone ends at a fracture site. The fibrocartilagionous callus surrounds the bone ends." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-190807-16]
+is_a: ZFA:0005147 ! regenerating tissue
+creation_date: 2021-01-27T10:34:06Z
+
+[Term]
+id: ZFA:0005941
+name: bone callus
+namespace: zebrafish_anatomy
+def: "Temporary regenerating structure wider than the original bone composed of osteoblast and mineralized tissue that replaces the fibrocartilagenous callus at a bone fracture site. The bone callus is eventually remodeled to be the width of the surrounding bone." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-190807-16]
+is_a: ZFA:0005147 ! regenerating tissue
+relationship: develops_from ZFA:0005940 ! fibrocartilaginous callus
+created_by: ceriv
+creation_date: 2021-01-27T10:38:07Z
+
+[Term]
+id: ZFA:0005942
+name: lysosome-rich enterocyte
+namespace: zebrafish_anatomy
+def: "Enterocytes that possess a large supranuclear vacuolar system that preferentially internalize dietary protein via receptor-mediated and fluid-phase endocytosis for intracellular digestion and trans-cellular transport. In zebrafish these cells are located in the posterior region of the mid intestine throughout life. In mammals thy are found in the ileum pre-weaning and later are replaced by mature enterocytes ." [GOC:cvs, ORCID:0000-0002-1009-339X, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-190903-3]
+subset: cell_slim
+is_a: ZFA:0009269 ! enterocyte
+created_by: ceriv
+creation_date: 2021-01-27T10:44:40Z
+
+[Term]
+id: ZFA:0005944
+name: mural cell
+namespace: zebrafish_anatomy
+def: "Cells that localize on the abluminal side of the vascular endothelium that regulate vessel stability and function.  Mural cells are categorized into vascular smooth muscle cells or pericytes." [ORCID:0000-0002-2244-7917, ORCID:0000-0002-4142-7153, ZFIN:ZDB-PUB-190116-4]
+subset: cell_slim
+xref: CL:0008034
+is_a: ZFA:0009000 ! cell
+relationship: part_of ZFA:0005249 ! vasculature
+relationship: start ZFS:0000026 ! Segmentation:14-19 somites
+created_by: ceriv
+creation_date: 2021-01-27T11:37:04Z
 
 [Term]
 id: ZFA:0006000
@@ -31593,7 +31773,7 @@ synonym: "pericytes" EXACT PLURAL []
 synonym: "perivascular cells" EXACT []
 xref: CL:0000669
 xref: TAO:0009112
-is_a: ZFA:0009000 ! cell
+is_a: ZFA:0005944 ! mural cell
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -32428,6 +32608,7 @@ subset: cell_slim
 synonym: "vascular associated smooth muscle cells" EXACT PLURAL []
 xref: CL:0000359
 xref: TAO:0009181
+is_a: ZFA:0005944 ! mural cell
 is_a: ZFA:0009118 ! smooth muscle cell
 
 [Term]
@@ -32604,6 +32785,8 @@ namespace: zebrafish_anatomy
 alt_id: ZFA:0001090
 def: "A pigment cell derived from the neural crest. The cell contains flat light-reflecting platelets, probably of guanine, in stacks called reflecting platets or iridisomes. The color-generating components produce a silver, gold, or iridescent color." [CL:curator]
 subset: cell_slim
+synonym: "iridocyte" RELATED []
+synonym: "iridosome" RELATED []
 xref: CL:0000431
 xref: TAO:0009199
 is_a: ZFA:0009090 ! pigment cell
@@ -33338,9 +33521,10 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009261
 name: leucophore
 namespace: zebrafish_anatomy
-def: "A pigment cell derived from the neural crest. Contains uric acid or other purine crystals deposited in stacks called leucosomes. The crystals reflect light and this gives a white appearance under white light." [CL:curator]
+def: "A pigment cell derived from the neural crest. Contains uric acid or other purine crystals deposited in stacks called leucosomes. The crystals reflect light and this gives a white appearance under white light.  These cells express purine nucleoside phosphorylase 4a." [CL:curator]
 subset: cell_slim
-synonym: "leucophores" EXACT PLURAL []
+synonym: "guaninophores" RELATED []
+synonym: "guanophore" RELATED [PMID:16588565]
 xref: CL:0000571
 xref: TAO:0009261
 is_a: ZFA:0009090 ! pigment cell
@@ -34973,6 +35157,41 @@ relationship: part_of ZFA:0000035 ! lens
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2017-09-01T15:46:37Z
+
+[Term]
+id: ZFA:0009402
+name: heart valve cell
+namespace: zebrafish_anatomy
+def: "Cell that is part of the heart valve." [CL:editor]
+subset: cell_slim
+xref: CL:1000147
+is_a: ZFA:0009000 ! cell
+relationship: part_of ZFA:0005065 ! heart valve
+relationship: start ZFS:0000000 ! Unknown
+created_by: ceriv
+creation_date: 2020-12-08T09:32:56Z
+
+[Term]
+id: ZFA:0009403
+name: heart valve interstitial cell
+namespace: zebrafish_anatomy
+def: "Cells that secrete the extracellular matrix of the heart valve." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-191202-2]
+subset: cell_slim
+synonym: "VIC" RELATED [ZFIN:ZDB-PUB-191202-2]
+is_a: ZFA:0009402 ! heart valve cell
+created_by: ceriv
+creation_date: 2020-12-08T09:43:48Z
+
+[Term]
+id: ZFA:0009404
+name: heart valve endothelial cells
+namespace: zebrafish_anatomy
+def: "Endothelial cells that surround the heart valve extracellular matrix." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-191202-2]
+subset: cell_slim
+synonym: "VEC" RELATED [ZFIN:ZDB-PUB-191202-2]
+is_a: ZFA:0009402 ! heart valve cell
+created_by: ceriv
+creation_date: 2020-12-08T09:48:24Z
 
 [Term]
 id: ZFA:0100000

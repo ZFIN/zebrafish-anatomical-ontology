@@ -3,8 +3,8 @@ ERROR	duplicate_definition	myotome somite 26	definition	Portion of somite 16 tha
 ERROR	duplicate_definition	myotome somite 16	definition	Portion of somite 16 that gives rise to body wall muscle masses.
 ERROR	duplicate_definition	posterior lateral line	definition	<One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)>
 ERROR	duplicate_definition	dorsal lateral line	definition	<One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)>
-ERROR	missing_ontology_description	obo:zfa.owl	dc11:description	
-ERROR	missing_ontology_title	obo:zfa.owl	dc11:title	
+ERROR	missing_ontology_description	http://purl.obolibrary.org/obo/zfa.owl	dc11:description	
+ERROR	missing_ontology_title	http://purl.obolibrary.org/obo/zfa.owl	dc11:title	
 WARN	annotation_whitespace	corpus cerebelli	has_exact_synonym	corpus cerebelli granular layer 
 WARN	annotation_whitespace	superior caudal dorsal flexor	has_exact_synonym	flexor caudalis dorsalis superioris  
 WARN	annotation_whitespace	upper oral valve	has_exact_synonym	upper semilunar valve 
