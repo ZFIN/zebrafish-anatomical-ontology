@@ -15460,7 +15460,7 @@ name: enteric musculature
 namespace: zebrafish_anatomy
 def: "Musculature of the gut." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 synonym: "gut musculature" EXACT []
-synonym: "tunica muscularis" RELATED [http:/www.vivo.colostate.edu/hbooks/pathphys/digestion/basics/gi_microanatomy.html]
+synonym: "tunica muscularis" RELATED [http://www.vivo.colostate.edu/hbooks/pathphys/digestion/basics/gi_microanatomy.html]
 xref: TAO:0001324
 is_a: ZFA:0000548 ! musculature system
 relationship: end ZFS:0000044 ! Adult
@@ -21792,7 +21792,7 @@ id: ZFA:0005132
 name: visceral peritoneum
 namespace: zebrafish_anatomy
 def: "The part of peritoneum that is a serous membrane covers the external surfaces of most abdominal organs." [GOC:cvs, ORCiD:0000-0002-2244-7917]
-synonym: "tunica serosa" RELATED [http:/www.vivo.colostate.edu/hbooks/pathphys/digestion/basics/gi_microanatomy.html]
+synonym: "tunica serosa" RELATED [http://www.vivo.colostate.edu/hbooks/pathphys/digestion/basics/gi_microanatomy.html]
 xref: TAO:0005132
 is_a: ZFA:0005425 ! serous membrane
 relationship: end ZFS:0000044 ! Adult
