@@ -5,17 +5,17 @@ echo "(2) and add missing files, if any."
 set -e
 
 OID=zfa
-ROOTDIR=../../
-SRCDIR=../
+ROOTDIR=../..
+SRCDIR=..
 CONFIG=$OID"-odk.yaml"
 
 rm -rf target
 mkdir target
-/tools/odk.py seed -c -g False -C $CONFIG
+/tools/odk.py seed -c -g -C $CONFIG
 ls -l target/$OID/src
-ls -l $SRCDIR
+ls -l $SRCDIR/
 cp target/$OID/src/scripts/update_repo.sh $SRCDIR/scripts/
-rsync -r -u --ignore-existing --exclude 'patterns/data/default/example.tsv' --exclude 'patterns/dosdp-patterns/example.yaml' target/$OID/src/ $SRCDIR
+rsync -r -u --ignore-existing --exclude 'patterns/data/default/example.tsv' --exclude 'patterns/dosdp-patterns/example.yaml' target/$OID/src/ $SRCDIR/
 cp target/$OID/src/ontology/Makefile $SRCDIR/ontology/
 cp target/$OID/src/ontology/run.sh $SRCDIR/ontology/
 cp -r target/$OID/src/sparql/* $SRCDIR/sparql/

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zfa/releases/2021-03-22/zfa-base.owl
+data-version: zfa/releases/2021-12-09/zfa-base.owl
 date: 08:03:2021 11:16
 saved-by: ceriv
 auto-generated-by: OBO-Edit 2.3.1
@@ -12,9 +12,11 @@ treat-xrefs-as-genus-differentia: TAO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: VSAO part_of NCBITaxon:7955
 remark: SVN version: $Revision: 1.100$
 ontology: zfa/zfa-base
+property_value: http://purl.org/dc/elements/1.1/description "ZFA description." xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Anatomy Ontology (ZFA)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
-property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/ xsd:string
-property_value: owl:versionInfo "2021-03-22" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/
+property_value: owl:versionInfo "2021-12-09" xsd:string
 
 [Term]
 id: ZFA:0000000
