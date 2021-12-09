@@ -2,10 +2,6 @@
 
 # Zebrafish Anatomy and Development Ontology
 
-This ontology... YOUR DESCRIPTION HERE
-
-More information can be found at http://obofoundry.org/ontology/zfa
-
 ## Versions
 
 ### Stable release versions
@@ -26,4 +22,4 @@ Please use this GitHub repository's [Issue tracker](https://github.com/cerivs/ze
 
 ## Acknowledgements
 
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
