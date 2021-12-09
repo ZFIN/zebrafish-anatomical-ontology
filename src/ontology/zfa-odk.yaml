@@ -1,0 +1,22 @@
+id: zfa
+title: "Zebrafish Anatomy and Development Ontology"
+github_org: cerivs
+repo: zebrafish-anatomical-ontology
+report_fail_on: none
+namespaces: 
+  - http://purl.obolibrary.org/obo/ZFA_
+  - http://purl.obolibrary.org/obo/zfa.owl
+export_formats:
+  - owl
+  - obo
+  - json
+release_artefacts: 
+  - base
+  - simple
+  - full
+primary_release: simple
+import_group:
+  products:
+    - id: ro
+robot_java_args: '-Xmx8G'
+edit_format: obo

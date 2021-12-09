@@ -1,0 +1,559 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_definition	myotome somite 26	definition	Portion of somite 16 that gives rise to body wall muscle masses.
+ERROR	duplicate_definition	myotome somite 16	definition	Portion of somite 16 that gives rise to body wall muscle masses.
+ERROR	duplicate_definition	posterior lateral line	definition	<One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)>
+ERROR	duplicate_definition	dorsal lateral line	definition	<One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)>
+ERROR	missing_ontology_description	obo:zfa.owl	dc11:description	
+ERROR	missing_ontology_title	obo:zfa.owl	dc11:title	
+WARN	annotation_whitespace	corpus cerebelli	has_exact_synonym	corpus cerebelli granular layer 
+WARN	annotation_whitespace	superior caudal dorsal flexor	has_exact_synonym	flexor caudalis dorsalis superioris  
+WARN	annotation_whitespace	upper oral valve	has_exact_synonym	upper semilunar valve 
+WARN	annotation_whitespace	dilatator operculi	has_exact_synonym	 dilatator opercula
+WARN	annotation_whitespace	facial lobe	has_related_synonym	tuberculum impar of Herrick 
+WARN	annotation_whitespace	posttemporal	has_related_synonym	post-temporal 
+WARN	annotation_whitespace	statoacoustic (VIII) ganglion	has_exact_synonym	octaval ganglion 
+WARN	annotation_whitespace	torus semicircularis	has_exact_synonym	semicircular torus 
+WARN	annotation_whitespace	ventral transverse	has_exact_synonym	transversus ventralis 
+WARN	annotation_whitespace	caudal hypothalamic zone	has_exact_synonym	hypothalamus pars tuberalis 
+WARN	annotation_whitespace	telencephalic ventricle	has_exact_synonym	ventriculi telencephali 
+WARN	annotation_whitespace	intestinal bulb	has_exact_synonym	 pseudogaster 
+WARN	annotation_whitespace	myocardium	has_related_synonym	heart muscle 
+WARN	annotation_whitespace	choroid plexus third ventricle	has_exact_synonym	diencephalic choroid plexus 
+WARN	annotation_whitespace	pronephric glomerulus	has_exact_synonym	pronephric glomus 
+WARN	annotation_whitespace	preural centrum 1+ ural centrum 1	has_related_synonym	urostyle 
+WARN	annotation_whitespace	caudal fin procurrent ray	has_related_synonym	caudal procurrent ray 
+WARN	annotation_whitespace	dorsal fin radial	has_related_synonym	dorsal fin pterygiophore 
+WARN	annotation_whitespace	head muscle	has_related_synonym	cranial muscle 
+WARN	annotation_whitespace	solid lens vesicle	has_exact_synonym	 immature lens
+WARN	annotation_whitespace	scale primordium	has_exact_synonym	scale primordia 
+WARN	annotation_whitespace	aortic arch	has_exact_synonym	branchial aortic arches 
+WARN	annotation_whitespace	ventral wall of dorsal aorta	has_exact_synonym	DA-PCV joint 
+WARN	annotation_whitespace	peripheral cardiac conduction system	has_related_synonym	distal conduction system 
+WARN	annotation_whitespace	dentine	has_exact_synonym	dentin 
+WARN	annotation_whitespace	MiD2i	has_exact_synonym	middle dorsal 2 ipsilateral interneuron 
+WARN	annotation_whitespace	MiD2cl	has_exact_synonym	middle dorsal 2 contralateral llf interneuron 
+WARN	annotation_whitespace	MiD2cm	has_exact_synonym	middle dorsal 2 contralateral mlf interneuron 
+WARN	annotation_whitespace	MiM1	has_exact_synonym	middle medial interneuron 
+WARN	annotation_whitespace	MiR1	has_exact_synonym	middle rostral 1 interneuron 
+WARN	annotation_whitespace	MiR2	has_exact_synonym	middle rostral 2 interneuron 
+WARN	annotation_whitespace	MiV1	has_exact_synonym	middle ventral 1 neuron 
+WARN	annotation_whitespace	MiV2	has_exact_synonym	middle ventral 2 neuron 
+WARN	annotation_whitespace	RoI2C	has_exact_synonym	rostral intermediate 2 caudal interneuron 
+WARN	annotation_whitespace	RoI2R	has_exact_synonym	rostral intermediate 2 rostral interneuron 
+WARN	annotation_whitespace	RoL1	has_exact_synonym	rostral lateral 1 interneuron 
+WARN	annotation_whitespace	MiD3cl	has_exact_synonym	middle dorsal 3 contralateral llf interneuron 
+WARN	annotation_whitespace	MiD3cm	has_exact_synonym	middle dorsal 3 contralateral mlf interneuron 
+WARN	annotation_whitespace	MiD3i	has_exact_synonym	middle dorsal 3 ipsilateral interneuron 
+WARN	annotation_whitespace	RoL2	has_exact_synonym	rostral lateral 2 interneuron 
+WARN	annotation_whitespace	RoL2r	has_exact_synonym	rostral lateral 2 rostral interneuron 
+WARN	annotation_whitespace	RoL2c	has_exact_synonym	rostral lateral 2 caudal interneuron 
+WARN	annotation_whitespace	RoL3	has_exact_synonym	rostral lateral 3 interneuron 
+WARN	annotation_whitespace	RoM1c	has_exact_synonym	rostral medial 1 caudal interneuron 
+WARN	annotation_whitespace	RoM1r	has_exact_synonym	rostral medial 1 rostral interneuron 
+WARN	annotation_whitespace	RoV3	has_exact_synonym	rostral ventral 3 interneuron 
+WARN	annotation_whitespace	RoM2l	has_exact_synonym	rostral medial 2 lateral interneuron 
+WARN	annotation_whitespace	RoM2m	has_exact_synonym	rostral medial 2 medial interneuron 
+WARN	annotation_whitespace	RoM3l	has_exact_synonym	rostral medial 3 lateral interneuron 
+WARN	annotation_whitespace	RoM3m	has_related_synonym	rostral medial 3 medial interneuron 
+WARN	annotation_whitespace	renal glomerular capsule	has_exact_synonym	Bowman's capsule 
+WARN	annotation_whitespace	primordial ligament	has_exact_synonym	articular-maxillary ligament 
+WARN	annotation_whitespace	primordial ligament	has_exact_synonym	ligamentum primordiale 
+WARN	annotation_whitespace	pronephric glomerular capsule	has_exact_synonym	Bowman's capsule 
+WARN	annotation_whitespace	posterior recess	has_exact_synonym	recessus posterior 
+WARN	annotation_whitespace	dorsal fin lepidotrichium 1	has_exact_synonym	dorsal fin ray 1 
+WARN	annotation_whitespace	caudal fin principal ray 1	has_exact_synonym	caudal principal lepidotrichium 1 
+WARN	annotation_whitespace	caudal fin principal ray 1	has_exact_synonym	caudal principal ray 1 
+WARN	annotation_whitespace	caudal fin principal ray 3	has_exact_synonym	caudal principal lepidotrichium 3 
+WARN	annotation_whitespace	caudal fin principal ray 2	has_exact_synonym	caudal principal lepidotrichium 2 
+WARN	annotation_whitespace	caudal fin principal ray 4	has_exact_synonym	caudal principal lepidotrichium 4 
+WARN	annotation_whitespace	proximal pars anterior	has_exact_synonym	 proximal pars distalis
+WARN	annotation_whitespace	lG2	has_exact_synonym	lcG2 
+WARN	annotation_whitespace	lg5	has_exact_synonym	lcG5 
+WARN	annotation_whitespace	mdG1	has_exact_synonym	mediodorsal posterior glomerulus 1 
+WARN	annotation_whitespace	mdG2	has_exact_synonym	mdpG2 
+WARN	annotation_whitespace	maGx	has_related_synonym	medial anterior glomeruli 
+WARN	annotation_whitespace	medial protoglomerulus 1	has_related_synonym	MG1 
+WARN	annotation_whitespace	pancreatic PP cell	has_related_synonym	pancreatic F cells 
+WARN	annotation_whitespace	fertilized egg	has_exact_synonym	zygote 
+WARN	annotation_whitespace	hypocretin-secreting neuron	has_related_synonym	orexin secreting neuron 
+WARN	annotation_whitespace	T interneuron	has_related_synonym	T shaped reticular neuron 
+WARN	annotation_whitespace	dorsal interfilamental caudal muscle	has_exact_synonym	"interfilamenti caudalis dorsalis	"
+WARN	annotation_whitespace	deep lateral ventral muscle	has_exact_synonym	lateralis profundus ventralis 
+WARN	annotation_whitespace	lymphatic branchial arch 4	has_exact_synonym	LAA4 
+WARN	annotation_whitespace	medial facial lymph vessel	has_exact_synonym	MFL 
+WARN	annotation_whitespace	nucleus of the caudal commissure	has_exact_synonym	 nuc PC
+WARN	annotation_whitespace	nucleus of the caudal commissure	has_related_synonym	nucleus of the tract of the posterior commissure 
+WARN	annotation_whitespace	griseum tectale	has_exact_synonym	tectal grey 
+WARN	annotation_whitespace	tract of the commissure of the caudal tuberculum	has_exact_synonym	 TCPT
+WARN	annotation_whitespace	lateral basicapsular commissure	has_exact_synonym	 lateral  basicranial commissure
+WARN	annotation_whitespace	lateral basicapsular commissure	has_related_synonym	lateral commissure 
+WARN	annotation_whitespace	coronoid process	has_exact_synonym	 coronoid process of Meckel's cartilage
+WARN	annotation_whitespace	tectal neuropile	has_related_synonym	synaptic neuropil 
+WARN	annotation_whitespace	presumptive preglomerular region	has_related_synonym	preglomerular anlagen 
+WARN	annotation_whitespace	argentum	has_exact_synonym	argenta 
+WARN	annotation_whitespace	migratory muscle precursor	has_exact_synonym	migratory mesenchymal precursor 
+WARN	annotation_whitespace	posterior hypaxial muscle	has_exact_synonym	anterior hypaxial muscle 
+WARN	annotation_whitespace	posterior hypaxial muscle	has_exact_synonym	ventral-most hypaxial muscle 
+WARN	annotation_whitespace	norepinephrine secreting cell	has_exact_synonym	 noradrenergic cell
+WARN	annotation_whitespace	immature natural killer cell	has_exact_synonym	immature NK cell 
+WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	urinary space
+WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	urinary space
+WARN	duplicate_exact_synonym	rostral octaval nerve motor nucleus	has_exact_synonym	rostral cranial nerve VIII motor nucleus
+WARN	duplicate_exact_synonym	caudal octaval nerve motor nucleus	has_exact_synonym	rostral cranial nerve VIII motor nucleus
+WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	inter-glomerular space
+WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	inter-glomerular space
+WARN	duplicate_exact_synonym	follicle stimulating hormone secreting cell	has_exact_synonym	gonadotrope
+WARN	duplicate_exact_synonym	luteinizing hormone secreting cell	has_exact_synonym	gonadotrope
+WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	Bowman's space
+WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	Bowman's space
+WARN	duplicate_exact_synonym	renal glomerular capsule	has_exact_synonym	Bowman's capsule 
+WARN	duplicate_exact_synonym	pronephric glomerular capsule	has_exact_synonym	Bowman's capsule 
+WARN	duplicate_exact_synonym	supracleithrum-vertebral ligament	has_exact_synonym	Baudelot's ligament
+WARN	duplicate_exact_synonym	cleithrum-vertebral ligament	has_exact_synonym	Baudelot's ligament
+WARN	missing_definition	part of	definition	
+WARN	missing_definition	has_part	definition	
+WARN	missing_definition	definition	definition	
+WARN	missing_definition	term replaced by	definition	
+WARN	missing_definition	overlaps	definition	
+WARN	missing_definition	develops from	definition	
+WARN	missing_definition	endoderm	definition	
+WARN	missing_definition	intermediate cell mass of mesoderm	definition	
+WARN	missing_definition	median axial vein	definition	
+WARN	missing_definition	mesoderm	definition	
+WARN	missing_definition	postoptic commissure	definition	
+WARN	missing_definition	spinal cord	definition	
+WARN	missing_definition	tail bud	definition	
+WARN	missing_definition	trunk mesenchyme	definition	
+WARN	missing_definition	ventral mesoderm	definition	
+WARN	missing_definition	lateral plate mesoderm	definition	
+WARN	missing_definition	olfactory pit	definition	
+WARN	missing_definition	tectal ventricle	definition	
+WARN	missing_definition	ventral mesenchyme	definition	
+WARN	missing_definition	caudal oblique	definition	
+WARN	missing_definition	dorsal transverse	definition	
+WARN	missing_definition	facial nerve motor nucleus	definition	
+WARN	missing_definition	infracarinalis	definition	
+WARN	missing_definition	intermediate reticular formation	definition	
+WARN	missing_definition	internal levator	definition	
+WARN	missing_definition	medial forebrain bundle diencephalon	definition	
+WARN	missing_definition	midline column	definition	
+WARN	missing_definition	nucleus Edinger-Westphal	definition	
+WARN	missing_definition	cranial nerve VIII	definition	
+WARN	missing_definition	cranial nerve I	definition	
+WARN	missing_definition	pars subcommissuralis of ventral telencephalon	definition	
+WARN	missing_definition	pharyngohyoid	definition	
+WARN	missing_definition	pretecto-mammillary tract	definition	
+WARN	missing_definition	rostral tegmental nucleus	definition	
+WARN	missing_definition	rostrolateral thalamic nucleus of Butler & Saidel	definition	
+WARN	missing_definition	secondary gustatory nucleus medulla oblongata	definition	
+WARN	missing_definition	supracarinalis	definition	
+WARN	missing_definition	uncrossed tecto-bulbar tract	definition	
+WARN	missing_definition	ventrolateral thalamic nucleus	definition	
+WARN	missing_definition	caudal levator	definition	
+WARN	missing_definition	caudal octaval nucleus	definition	
+WARN	missing_definition	central zone of the optic tectum	definition	
+WARN	missing_definition	commissure infima of Haller	definition	
+WARN	missing_definition	mesovarium	definition	
+WARN	missing_definition	crossed tecto-bulbar tract	definition	
+WARN	missing_definition	habenular commissure	definition	
+WARN	missing_definition	intermediate thalamic nucleus	definition	
+WARN	missing_definition	internal pharyngoclavicularis	definition	
+WARN	missing_definition	interpeduncular nucleus medulla oblongata	definition	
+WARN	missing_definition	lateral lemniscus nucleus	definition	
+WARN	missing_definition	lateral line sensory nucleus	definition	
+WARN	missing_definition	motor nucleus of vagal nerve	definition	
+WARN	missing_definition	medial funicular nucleus medulla oblongata	definition	
+WARN	missing_definition	octaval nerve sensory nucleus	definition	
+WARN	missing_definition	renal artery	definition	
+WARN	missing_definition	sensory trigeminal nucleus	definition	
+WARN	missing_definition	skeletal system	definition	
+WARN	missing_definition	suspensorium	definition	
+WARN	missing_definition	tecto-bulbar tract	definition	
+WARN	missing_definition	trochlear motor nucleus	definition	
+WARN	missing_definition	ventral thalamus	definition	
+WARN	missing_definition	ventromedial thalamic nucleus	definition	
+WARN	missing_definition	branchial adductor	definition	
+WARN	missing_definition	celiacomesenteric artery	definition	
+WARN	missing_definition	coracoradialis	definition	
+WARN	missing_definition	decussation of medial funicular nucleus	definition	
+WARN	missing_definition	deep white zone	definition	
+WARN	missing_definition	dorsal funiculus	definition	
+WARN	missing_definition	dorsal oblique branchial muscle	definition	
+WARN	missing_definition	dorsal retractor	definition	
+WARN	missing_definition	external levatores	definition	
+WARN	missing_definition	glossopharyngeal lobe	definition	
+WARN	missing_definition	horizontal commissure	definition	
+WARN	missing_definition	inferior reticular formation	definition	
+WARN	missing_definition	lateral column	definition	
+WARN	missing_definition	lateral funiculus	definition	
+WARN	missing_definition	lateral reticular nucleus	definition	
+WARN	missing_definition	magnocellular octaval nucleus	definition	
+WARN	missing_definition	medial column	definition	
+WARN	missing_definition	mouth	definition	
+WARN	missing_definition	oculomotor nucleus	definition	
+WARN	missing_definition	saccus dorsalis	definition	
+WARN	missing_definition	superior reticular formation medial column	definition	
+WARN	missing_definition	ventral funiculus	definition	
+WARN	missing_definition	ventral oblique branchial muscle	definition	
+WARN	missing_definition	ventral transverse	definition	
+WARN	missing_definition	decussation of the medial octavolateralis nucleus	definition	
+WARN	missing_definition	descending octaval nucleus	definition	
+WARN	missing_definition	dorsal horn spinal cord	definition	
+WARN	missing_definition	dorsal motor root of V	definition	
+WARN	missing_definition	dorsomedial optic tract	definition	
+WARN	missing_definition	external pharyngoclavicularis	definition	
+WARN	missing_definition	rostral root of abducens nerve	definition	
+WARN	missing_definition	segmental intercostal artery	definition	
+WARN	missing_definition	sensory root of facial nerve	definition	
+WARN	missing_definition	spinal artery	definition	
+WARN	missing_definition	superficial grey and white zone	definition	
+WARN	missing_definition	supraoptic commissure	definition	
+WARN	missing_definition	telencephalic ventricle	definition	
+WARN	missing_definition	ventral horn spinal cord	definition	
+WARN	missing_definition	ventrolateral optic tract	definition	
+WARN	missing_definition	vestibulo-spinal tract	definition	
+WARN	missing_definition	viscerosensory commissural nucleus of Cajal	definition	
+WARN	missing_definition	medial migration pathway mesenchyme	definition	
+WARN	missing_definition	mesenchyme derived from head neural crest	definition	
+WARN	missing_definition	nucleus of the medial longitudinal fasciculus medulla oblongata	definition	
+WARN	missing_definition	primary neuron hindbrain	definition	
+WARN	missing_definition	interpeduncular nucleus tegmentum	definition	
+WARN	missing_definition	lateral mesenchyme derived from mesoderm	definition	
+WARN	missing_definition	medial forebrain bundle telencephalon	definition	
+WARN	missing_definition	superior reticular formation tegmentum	definition	
+WARN	missing_definition	ventral rhombencephalic commissure medulla oblongata	definition	
+WARN	missing_definition	intermediate mesenchyme	definition	
+WARN	missing_definition	lateral migration pathway mesenchyme	definition	
+WARN	missing_definition	mesenchyme derived from head mesoderm	definition	
+WARN	missing_definition	mesenchyme derived from trunk neural crest	definition	
+WARN	missing_definition	posterior caudal vein	definition	
+WARN	missing_definition	lateral mesoderm	definition	
+WARN	missing_definition	epaxial myotome region	definition	
+WARN	missing_definition	hypaxial myotome region	definition	
+WARN	missing_definition	myoseptum	definition	
+WARN	missing_definition	pharyngeal endoderm	definition	
+WARN	missing_definition	neuroectoderm	definition	
+WARN	missing_definition	pharyngeal pouch 1	definition	
+WARN	missing_definition	pharyngeal pouches 2-6	definition	
+WARN	missing_definition	pharyngeal pouch 2	definition	
+WARN	missing_definition	pharyngeal pouch 3	definition	
+WARN	missing_definition	pharyngeal pouch 6	definition	
+WARN	missing_definition	pharyngeal pouch 5	definition	
+WARN	missing_definition	pharyngeal pouch 4	definition	
+WARN	missing_definition	roof plate spinal cord region	definition	
+WARN	missing_definition	non neural ectoderm	definition	
+WARN	missing_definition	ventral lateral mesoderm	definition	
+WARN	missing_definition	intermediate mesoderm	definition	
+WARN	missing_definition	forebrain ventricle	definition	
+WARN	missing_definition	ventricular system	definition	
+WARN	missing_definition	neurohypophysis	definition	
+WARN	missing_definition	pharyngeal arch 2 skeleton	definition	
+WARN	missing_definition	posterior kidney	definition	
+WARN	missing_definition	glossopharyngeal ganglion	definition	
+WARN	missing_definition	vagal ganglion 1	definition	
+WARN	missing_definition	vagal ganglion 2	definition	
+WARN	missing_definition	vagal ganglion 3	definition	
+WARN	missing_definition	vagal ganglion 4	definition	
+WARN	missing_definition	roof plate rhombomere region	definition	
+WARN	missing_definition	dorsal anterior lateral line ganglion	definition	
+WARN	missing_definition	ventral anterior lateral line ganglion	definition	
+WARN	missing_definition	myocardium	definition	
+WARN	missing_definition	neurocranial trabecula	definition	
+WARN	missing_definition	spinal neuromere	definition	
+WARN	missing_definition	stratum griseum centrale	definition	
+WARN	missing_definition	pineal complex	definition	
+WARN	missing_definition	trigeminal motor nucleus	definition	
+WARN	missing_definition	pharyngeal ectoderm	definition	
+WARN	missing_definition	epithelial mesenchymal boundary	definition	
+WARN	missing_definition	dorsal hyoid arch	definition	
+WARN	missing_definition	ventral hyoid arch	definition	
+WARN	missing_definition	basal plate cartilage	definition	
+WARN	missing_definition	primitive olfactory epithelium	definition	
+WARN	missing_definition	pharyngeal arch cartilage	definition	
+WARN	missing_definition	pharyngeal mesoderm	definition	
+WARN	missing_definition	median fin cartilage	definition	
+WARN	missing_definition	vertebral column	definition	
+WARN	missing_definition	os suspensorium medial flange	definition	
+WARN	missing_definition	pharyngeal arch 3	definition	
+WARN	missing_definition	pharyngeal arch 4	definition	
+WARN	missing_definition	pharyngeal arch 5	definition	
+WARN	missing_definition	pharyngeal arch 6	definition	
+WARN	missing_definition	pharyngeal arch 7	definition	
+WARN	missing_definition	pharyngeal arch 3-7	definition	
+WARN	missing_definition	statoacoustic (VIII) nucleus	definition	
+WARN	missing_definition	branchial mesenchyme	definition	
+WARN	missing_definition	telencephalic nucleus	definition	
+WARN	missing_definition	supraintestinal vein	definition	
+WARN	missing_definition	anterior lateral mesoderm	definition	
+WARN	missing_definition	posterior lateral mesoderm	definition	
+WARN	missing_definition	anterior lateral plate mesoderm	definition	
+WARN	missing_definition	posterior lateral plate mesoderm	definition	
+WARN	missing_definition	trabecular layer of ventricle	definition	
+WARN	missing_definition	ventral branch nasal ciliary artery	definition	
+WARN	missing_definition	longitudinal lateral lymphatic vessel	definition	
+WARN	missing_definition	pectoral lymphatic vessel	definition	
+WARN	missing_definition	facial lymphatic vessel	definition	
+WARN	missing_definition	dorsal longitudinal fasciculus	definition	
+WARN	missing_definition	inclinator muscle	definition	
+WARN	missing_definition	dorsal longitudinal lymphatic vessel	definition	
+WARN	missing_definition	tegmental nucleus	definition	
+WARN	missing_definition	vagal ganglion	definition	
+WARN	missing_definition	receptor cell (sensu Animalia)	definition	
+WARN	missing_definition	neuron neural crest derived	definition	
+WARN	missing_definition	glioblast	definition	
+WARN	missing_definition	neuroblast	definition	
+WARN	missing_definition	neuroplacodal cell	definition	
+WARN	missing_definition	single fate stem cell	definition	
+WARN	missing_definition	neuronal stem cell	definition	
+WARN	missing_definition	ciliated cell	definition	
+WARN	missing_definition	ciliated epithelial cell	definition	
+WARN	missing_definition	blood vessel endothelial cell	definition	
+WARN	missing_definition	barrier epithelial cell	definition	
+WARN	missing_definition	columnar/cuboidal epithelial cell	definition	
+WARN	missing_definition	squamous epithelial cell	definition	
+WARN	missing_definition	mesothelial cell	definition	
+WARN	missing_definition	peridermal cell	definition	
+WARN	missing_definition	stratified epithelial cell	definition	
+WARN	missing_definition	epithelial cell of pancreas	definition	
+WARN	missing_definition	sensory epithelial cell	definition	
+WARN	missing_definition	sensory neuron	definition	
+WARN	missing_definition	polymodal neuron	definition	
+WARN	missing_definition	multipolar neuron	definition	
+WARN	missing_definition	pseudounipolar neuron	definition	
+WARN	missing_definition	unipolar neuron	definition	
+WARN	missing_definition	autonomic neuron	definition	
+WARN	missing_definition	adrenergic neuron	definition	
+WARN	missing_definition	peptidergic neuron	definition	
+WARN	missing_definition	peripheral neuron	definition	
+WARN	missing_definition	endothelial cell	definition	
+WARN	missing_definition	CNS neuron (sensu Vertebrata)	definition	
+WARN	missing_definition	basket cell	definition	
+WARN	missing_definition	Golgi cell	definition	
+WARN	missing_definition	granule cell	definition	
+WARN	missing_definition	stellate cell	definition	
+WARN	missing_definition	macroglial cell	definition	
+WARN	missing_definition	gut endothelial cell	definition	
+WARN	missing_definition	neurectodermal cell	definition	
+WARN	missing_definition	odontocyte	definition	
+WARN	missing_definition	simple columnar epithelial cell	definition	
+WARN	missing_definition	pigment cell	definition	
+WARN	missing_definition	GAG secreting cell	definition	
+WARN	missing_definition	acid secreting cell	definition	
+WARN	missing_definition	peptide hormone secreting cell	definition	
+WARN	missing_definition	insulin secreting cell	definition	
+WARN	missing_definition	pancreatic B cell	definition	
+WARN	missing_definition	glucagon secreting cell	definition	
+WARN	missing_definition	pancreatic A cell	definition	
+WARN	missing_definition	somatostatin secreting cell	definition	
+WARN	missing_definition	steroid hormone secreting cell	definition	
+WARN	missing_definition	testosterone secreting cell	definition	
+WARN	missing_definition	progesterone secreting cell	definition	
+WARN	missing_definition	estradiol secreting cell	definition	
+WARN	missing_definition	myoepithelial cell	definition	
+WARN	missing_definition	skeletal muscle cell	definition	
+WARN	missing_definition	olfactory receptor cell	definition	
+WARN	missing_definition	taste receptor cell	definition	
+WARN	missing_definition	synovial cell	definition	
+WARN	missing_definition	insulating cell	definition	
+WARN	missing_definition	brush border epithelial cell	definition	
+WARN	missing_definition	stratified squamous epithelial cell	definition	
+WARN	missing_definition	stratified cuboidal epithelial cell	definition	
+WARN	missing_definition	transitional epithelial cell	definition	
+WARN	missing_definition	hatching gland cell	definition	
+WARN	missing_definition	extramedullary cell	definition	
+WARN	missing_definition	eurydendroid cell	definition	
+WARN	missing_definition	eye photoreceptor cell	definition	
+WARN	missing_definition	keratin accumulating cell	definition	
+WARN	missing_definition	mucus secreting cell	definition	
+WARN	missing_definition	seminal fluid secreting cell	definition	
+WARN	missing_definition	extracellular matrix secreting cell	definition	
+WARN	missing_definition	myelin accumulating cell	definition	
+WARN	missing_definition	oxygen accumulating cell	definition	
+WARN	missing_definition	mesenchyme condensation cell	definition	
+WARN	missing_definition	adrenal medulla cell	definition	
+WARN	missing_definition	neuroblast (sensu Vertebrata)	definition	
+WARN	missing_definition	glioblast (sensu Vertebrata)	definition	
+WARN	missing_definition	pigment cell (sensu Vertebrata)	definition	
+WARN	missing_definition	visual pigment cell (sensu Vertebrata)	definition	
+WARN	missing_definition	dental papilla cell	definition	
+WARN	missing_definition	extraembryonic cell	definition	
+WARN	missing_definition	blastemal cell	definition	
+WARN	missing_definition	muscle stem cell	definition	
+WARN	missing_definition	stratified epithelial stem cell	definition	
+WARN	missing_definition	vascular associated smooth muscle cell	definition	
+WARN	missing_definition	osteoprogenitor cell	definition	
+WARN	missing_definition	sensory processing neuron	definition	
+WARN	missing_definition	neurosecretory neuron	definition	
+WARN	missing_definition	nephrogenic mesenchyme stem cell	definition	
+WARN	missing_definition	ligament cell	definition	
+WARN	missing_definition	tendon cell	definition	
+WARN	missing_definition	CNS short range interneuron	definition	
+WARN	missing_definition	CNS long range interneuron	definition	
+WARN	missing_definition	hypodermal cell	definition	
+WARN	missing_definition	reticular cell	definition	
+WARN	missing_definition	alkali secreting cell	definition	
+WARN	missing_definition	follicle stimulating hormone secreting cell	definition	
+WARN	missing_definition	luteinizing hormone secreting cell	definition	
+WARN	missing_definition	calcitonin secreting cell	definition	
+WARN	missing_definition	parathyroid hormone secreting cell	definition	
+WARN	missing_definition	thyroid hormone secreting cell	definition	
+WARN	missing_definition	epinephrin secreting cell	definition	
+WARN	missing_definition	biogenic amine secreting cell	definition	
+WARN	missing_definition	serotonin secreting cell	definition	
+WARN	missing_definition	glucocorticoid secreting cell	definition	
+WARN	missing_definition	digestive enzyme secreting cell	definition	
+WARN	missing_definition	visible light photoreceptor cell	definition	
+WARN	missing_definition	photopic photoreceptor cell	definition	
+WARN	missing_definition	UV sensitive photoreceptor cell	definition	
+WARN	missing_definition	blue sensitive photoreceptor cell	definition	
+WARN	missing_definition	green sensitive photoreceptor cell	definition	
+WARN	missing_definition	red sensitive photoreceptor cell	definition	
+WARN	missing_definition	inhibitory interneuron	definition	
+WARN	missing_definition	substance P secreting cell	definition	
+WARN	missing_definition	enkephalin secreting cell	definition	
+WARN	missing_definition	endorphin secreting cell	definition	
+WARN	missing_definition	paracrine cell	definition	
+WARN	missing_definition	pigmented epithelial cell	definition	
+WARN	missing_definition	primary neuron	definition	
+WARN	missing_definition	primary interneuron	definition	
+WARN	missing_definition	secondary neuron	definition	
+WARN	missing_definition	angioblastic mesenchymal cell	definition	
+WARN	missing_definition	parafollicular cell	definition	
+WARN	missing_definition	corneal epithelial cell	definition	
+WARN	missing_definition	androgen secreting cell	definition	
+WARN	missing_definition	Bergmann glial cell	definition	
+WARN	missing_definition	mesangial cell	definition	
+WARN	missing_definition	pinealocyte	definition	
+WARN	missing_definition	podocyte	definition	
+WARN	missing_definition	fenestrated cell	definition	
+WARN	missing_definition	collagen secreting cell	definition	
+WARN	missing_definition	glutamatergic neuron	definition	
+WARN	missing_definition	muscle precursor cell	definition	
+WARN	missing_definition	cerebrospinal fluid secreting cell	definition	
+WARN	missing_definition	stellate interneuron	definition	
+WARN	missing_definition	neuroepithelial cell	definition	
+WARN	missing_definition	cardiac muscle cell	definition	
+WARN	missing_definition	stretch receptor cell	definition	
+WARN	missing_definition	stratified keratinized epithelial stem cell	definition	
+WARN	missing_definition	kidney interstitial cell	definition	
+WARN	missing_definition	kidney medulla cell	definition	
+WARN	missing_definition	zebrafish anatomical entity	definition	
+WARN	missing_definition	Unknown	definition	
+WARN	missing_definition	Zygote:1-cell	definition	
+WARN	missing_definition	Cleavage:2-cell	definition	
+WARN	missing_definition	Cleavage:4-cell	definition	
+WARN	missing_definition	Cleavage:8-cell	definition	
+WARN	missing_definition	Cleavage:16-cell	definition	
+WARN	missing_definition	Cleavage:32-cell	definition	
+WARN	missing_definition	Cleavage:64-cell	definition	
+WARN	missing_definition	Blastula:128-cell	definition	
+WARN	missing_definition	Blastula:256-cell	definition	
+WARN	missing_definition	Blastula:512-cell	definition	
+WARN	missing_definition	Blastula:1k-cell	definition	
+WARN	missing_definition	Blastula:High	definition	
+WARN	missing_definition	Blastula:Oblong	definition	
+WARN	missing_definition	Blastula:Sphere	definition	
+WARN	missing_definition	Blastula:Dome	definition	
+WARN	missing_definition	Blastula:30%-epiboly	definition	
+WARN	missing_definition	Gastrula:50%-epiboly	definition	
+WARN	missing_definition	Gastrula:Germ-ring	definition	
+WARN	missing_definition	Gastrula:Shield	definition	
+WARN	missing_definition	Gastrula:75%-epiboly	definition	
+WARN	missing_definition	Gastrula:90%-epiboly	definition	
+WARN	missing_definition	Gastrula:Bud	definition	
+WARN	missing_definition	Segmentation:1-4 somites	definition	
+WARN	missing_definition	Segmentation:5-9 somites	definition	
+WARN	missing_definition	Segmentation:10-13 somites	definition	
+WARN	missing_definition	Segmentation:14-19 somites	definition	
+WARN	missing_definition	Segmentation:20-25 somites	definition	
+WARN	missing_definition	Segmentation:26+ somites	definition	
+WARN	missing_definition	Pharyngula:Prim-5	definition	
+WARN	missing_definition	Pharyngula:Prim-15	definition	
+WARN	missing_definition	Pharyngula:Prim-25	definition	
+WARN	missing_definition	Pharyngula:High-pec	definition	
+WARN	missing_definition	Hatching:Long-pec	definition	
+WARN	missing_definition	Hatching:Pec-fin	definition	
+WARN	missing_definition	Larval:Protruding-mouth	definition	
+WARN	missing_definition	Larval:Day 4	definition	
+WARN	missing_definition	Larval:Day 5	definition	
+WARN	missing_definition	Larval:Day 6	definition	
+WARN	missing_definition	Larval:Days 7-13	definition	
+WARN	missing_definition	Larval:Days 14-20	definition	
+WARN	missing_definition	Larval:Days 21-29	definition	
+WARN	missing_definition	Juvenile:Days 30-44	definition	
+WARN	missing_definition	Juvenile:Days 45-89	definition	
+WARN	missing_definition	Adult	definition	
+WARN	missing_definition	Stages	definition	
+WARN	missing_definition	PLURAL	definition	
+WARN	missing_definition	subset_property	definition	
+WARN	missing_definition	synonym_type_property	definition	
+WARN	missing_definition	consider	definition	
+WARN	missing_definition	has_alternative_id	definition	
+WARN	missing_definition	has_broad_synonym	definition	
+WARN	missing_definition	database_cross_reference	definition	
+WARN	missing_definition	has_exact_synonym	definition	
+WARN	missing_definition	has_narrow_synonym	definition	
+WARN	missing_definition	has_obo_format_version	definition	
+WARN	missing_definition	has_obo_namespace	definition	
+WARN	missing_definition	has_related_synonym	definition	
+WARN	missing_definition	has_synonym_type	definition	
+WARN	missing_definition	in_subset	definition	
+WARN	missing_definition	shorthand	definition	
+WARN	missing_definition	treat-xrefs-as-genus-differentia	definition	
+WARN	missing_obsolete_label	anatomical set	rdfs:label	anatomical set
+WARN	missing_obsolete_label	sensory axons peripheral	rdfs:label	sensory axons peripheral
+WARN	missing_obsolete_label	embryo	rdfs:label	embryo
+WARN	missing_obsolete_label	lateral cells	rdfs:label	lateral cells
+WARN	missing_obsolete_label	mesenchyme condensations	rdfs:label	mesenchyme condensations
+WARN	missing_obsolete_label	antorbital	rdfs:label	antorbital
+WARN	missing_obsolete_label	basisphenoid	rdfs:label	basisphenoid
+WARN	missing_obsolete_label	epicentrals	rdfs:label	epicentrals
+WARN	missing_obsolete_label	hypobranchial vessel	rdfs:label	hypobranchial vessel
+WARN	missing_obsolete_label	larva	rdfs:label	larva
+WARN	missing_obsolete_label	opercular-branchiostegal series	rdfs:label	opercular-branchiostegal series
+WARN	missing_obsolete_label	supramaxillae	rdfs:label	supramaxillae
+WARN	missing_obsolete_label	hypural arches	rdfs:label	hypural arches
+WARN	missing_obsolete_label	dermopalatine	rdfs:label	dermopalatine
+WARN	missing_obsolete_label	duodenum	rdfs:label	duodenum
+WARN	missing_obsolete_label	infraorbital bridge	rdfs:label	infraorbital bridge
+WARN	missing_obsolete_label	juvenile	rdfs:label	juvenile
+WARN	missing_obsolete_label	last preural centrum	rdfs:label	last preural centrum
+WARN	missing_obsolete_label	stomach	rdfs:label	stomach
+WARN	missing_obsolete_label	Mauthner axon	rdfs:label	Mauthner axon
+WARN	missing_obsolete_label	medial pterygiophores anal fin	rdfs:label	medial pterygiophores anal fin
+WARN	missing_obsolete_label	supraorbital series	rdfs:label	supraorbital series
+WARN	missing_obsolete_label	brachium conjunctivum	rdfs:label	brachium conjunctivum
+WARN	missing_obsolete_label	dental plate	rdfs:label	dental plate
+WARN	missing_obsolete_label	ural ossification	rdfs:label	ural ossification
+WARN	missing_obsolete_label	presumptive neuron neural tube	rdfs:label	presumptive neuron neural tube
+WARN	missing_obsolete_label	facial neural crest	rdfs:label	facial neural crest
+WARN	missing_obsolete_label	medial pterygiophores dorsal fin	rdfs:label	medial pterygiophores dorsal fin
+WARN	missing_obsolete_label	peripheral motor axons	rdfs:label	peripheral motor axons
+WARN	missing_obsolete_label	adult	rdfs:label	adult
+WARN	missing_obsolete_label	pars tuberalis	rdfs:label	pars tuberalis
+WARN	missing_obsolete_label	pharyngobranchial 1	rdfs:label	pharyngobranchial 1
+WARN	missing_obsolete_label	pharyngobranchial 2+3	rdfs:label	pharyngobranchial 2+3
+WARN	missing_obsolete_label	cranial motoneurons	rdfs:label	cranial motoneurons
+WARN	missing_obsolete_label	mentomeckelian	rdfs:label	mentomeckelian
+WARN	missing_obsolete_label	visceral organ	rdfs:label	visceral organ
+WARN	missing_obsolete_label	presumptive cardinal organ	rdfs:label	presumptive cardinal organ
+WARN	missing_obsolete_label	presumptive organ	rdfs:label	presumptive organ
+WARN	missing_obsolete_label	presumptive organ system	rdfs:label	presumptive organ system
+WARN	missing_obsolete_label	axial bone	rdfs:label	axial bone
+WARN	missing_obsolete_label	chondrocranium bone	rdfs:label	chondrocranium bone
+WARN	missing_obsolete_label	cranial bone	rdfs:label	cranial bone
+WARN	missing_obsolete_label	pharyngeal arch bone	rdfs:label	pharyngeal arch bone
+WARN	missing_obsolete_label	dermatocranium bone	rdfs:label	dermatocranium bone
+WARN	missing_obsolete_label	axial fin bone	rdfs:label	axial fin bone
+WARN	missing_obsolete_label	paired fin bone	rdfs:label	paired fin bone
+WARN	missing_obsolete_label	fin bone	rdfs:label	fin bone
+WARN	missing_obsolete_label	pons	rdfs:label	pons
+WARN	missing_obsolete_label	distal conduction system	rdfs:label	distal conduction system
+WARN	missing_obsolete_label	lymph node	rdfs:label	lymph node
+WARN	missing_obsolete_label	metanephric mesenchyme stem cell	rdfs:label	metanephric mesenchyme stem cell
+WARN	missing_obsolete_label	non-visual cell (sensu Vertebrata)	rdfs:label	non-visual cell (sensu Vertebrata)
+INFO	lowercase_definition	has developmental contribution from	definition	x has developmental contribution from y iff x has some part z such that z develops from y.
+INFO	lowercase_definition	start stage	definition	c existence starts during s iff start_of(c) part_of s.
+INFO	lowercase_definition	end stage	definition	c existence ends during s iff  end_of(c) part_of s.
+INFO	missing_superclass	zebrafish anatomical entity	rdfs:subClassOf	
+INFO	missing_superclass	Stages	rdfs:subClassOf	
