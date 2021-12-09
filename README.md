@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/cerivs/zebrafish-anatomical-ontology.svg?branch=master)](https://travis-ci.org/cerivs/zebrafish-anatomical-ontology)
-[![DOI](https://zenodo.org/badge/13996/cerivs/zebrafish-anatomical-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/cerivs/zebrafish-anatomical-ontology)
+![Build Status](https://github.com/cerivs/zebrafish-anatomical-ontology/workflows/CI/badge.svg)
 
 # Zebrafish Anatomy and Development Ontology
 
