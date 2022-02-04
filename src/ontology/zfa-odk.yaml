@@ -14,7 +14,7 @@ release_artefacts:
   - base
   - simple
   - full
-primary_release: simple
+primary_release: full
 import_group:
   products:
     - id: ro
