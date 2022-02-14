@@ -1,11 +1,6 @@
-[![Build Status](https://travis-ci.org/cerivs/zebrafish-anatomical-ontology.svg?branch=master)](https://travis-ci.org/cerivs/zebrafish-anatomical-ontology)
-[![DOI](https://zenodo.org/badge/13996/cerivs/zebrafish-anatomical-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/cerivs/zebrafish-anatomical-ontology)
+![Build Status](https://github.com/cerivs/zebrafish-anatomical-ontology/workflows/CI/badge.svg)
 
 # Zebrafish Anatomy and Development Ontology
-
-This ontology... YOUR DESCRIPTION HERE
-
-More information can be found at http://obofoundry.org/ontology/zfa
 
 ## Versions
 
@@ -27,4 +22,4 @@ Please use this GitHub repository's [Issue tracker](https://github.com/cerivs/ze
 
 ## Acknowledgements
 
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
