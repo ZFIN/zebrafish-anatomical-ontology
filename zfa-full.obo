@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zfa/releases/2021-12-09/zfa-full.owl
+data-version: zfa/releases/2022-02-15/zfa-full.owl
 date: 08:03:2021 11:16
 saved-by: ceriv
 auto-generated-by: OBO-Edit 2.3.1
@@ -15,7 +15,7 @@ ontology: zfa/zfa-full
 property_value: http://purl.org/dc/elements/1.1/description "ZFA description." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Anatomy Ontology (ZFA)" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/
-property_value: owl:versionInfo "2021-12-09" xsd:string
+property_value: owl:versionInfo "2022-02-15" xsd:string
 
 [Term]
 id: ZFA:0000000
@@ -14082,7 +14082,7 @@ name: enteric musculature
 namespace: zebrafish_anatomy
 def: "Musculature of the gut." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880]
 synonym: "gut musculature" EXACT []
-synonym: "tunica muscularis" RELATED [http:/www.vivo.colostate.edu/hbooks/pathphys/digestion/basics/gi_microanatomy.html]
+synonym: "tunica muscularis" RELATED [http://www.vivo.colostate.edu/hbooks/pathphys/digestion/basics/gi_microanatomy.html]
 xref: TAO:0001324
 is_a: ZFA:0000548 ! musculature system
 relationship: part_of ZFA:0000112 ! gut
@@ -19776,7 +19776,7 @@ id: ZFA:0005132
 name: visceral peritoneum
 namespace: zebrafish_anatomy
 def: "The part of peritoneum that is a serous membrane covers the external surfaces of most abdominal organs." [GOC:cvs, ORCiD:0000-0002-2244-7917]
-synonym: "tunica serosa" RELATED [http:/www.vivo.colostate.edu/hbooks/pathphys/digestion/basics/gi_microanatomy.html]
+synonym: "tunica serosa" RELATED [http://www.vivo.colostate.edu/hbooks/pathphys/digestion/basics/gi_microanatomy.html]
 xref: TAO:0005132
 is_a: ZFA:0005425 ! serous membrane
 relationship: part_of ZFA:0005120 ! peritoneum
