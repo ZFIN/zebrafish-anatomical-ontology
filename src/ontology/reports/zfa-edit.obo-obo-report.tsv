@@ -3,6 +3,59 @@ ERROR	duplicate_definition	myotome somite 26	definition	Portion of somite 16 tha
 ERROR	duplicate_definition	myotome somite 16	definition	Portion of somite 16 that gives rise to body wall muscle masses.
 ERROR	duplicate_definition	posterior lateral line	definition	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)
 ERROR	duplicate_definition	dorsal lateral line	definition	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)
+WARN	missing_obsolete_label	anatomical set	rdfs:label	anatomical set
+WARN	missing_obsolete_label	sensory axons peripheral	rdfs:label	sensory axons peripheral
+WARN	missing_obsolete_label	embryo	rdfs:label	embryo
+WARN	missing_obsolete_label	lateral cells	rdfs:label	lateral cells
+WARN	missing_obsolete_label	mesenchyme condensations	rdfs:label	mesenchyme condensations
+WARN	missing_obsolete_label	antorbital	rdfs:label	antorbital
+WARN	missing_obsolete_label	basisphenoid	rdfs:label	basisphenoid
+WARN	missing_obsolete_label	epicentrals	rdfs:label	epicentrals
+WARN	missing_obsolete_label	hypobranchial vessel	rdfs:label	hypobranchial vessel
+WARN	missing_obsolete_label	larva	rdfs:label	larva
+WARN	missing_obsolete_label	opercular-branchiostegal series	rdfs:label	opercular-branchiostegal series
+WARN	missing_obsolete_label	supramaxillae	rdfs:label	supramaxillae
+WARN	missing_obsolete_label	hypural arches	rdfs:label	hypural arches
+WARN	missing_obsolete_label	dermopalatine	rdfs:label	dermopalatine
+WARN	missing_obsolete_label	duodenum	rdfs:label	duodenum
+WARN	missing_obsolete_label	infraorbital bridge	rdfs:label	infraorbital bridge
+WARN	missing_obsolete_label	juvenile	rdfs:label	juvenile
+WARN	missing_obsolete_label	last preural centrum	rdfs:label	last preural centrum
+WARN	missing_obsolete_label	stomach	rdfs:label	stomach
+WARN	missing_obsolete_label	Mauthner axon	rdfs:label	Mauthner axon
+WARN	missing_obsolete_label	medial pterygiophores anal fin	rdfs:label	medial pterygiophores anal fin
+WARN	missing_obsolete_label	supraorbital series	rdfs:label	supraorbital series
+WARN	missing_obsolete_label	brachium conjunctivum	rdfs:label	brachium conjunctivum
+WARN	missing_obsolete_label	dental plate	rdfs:label	dental plate
+WARN	missing_obsolete_label	ural ossification	rdfs:label	ural ossification
+WARN	missing_obsolete_label	presumptive neuron neural tube	rdfs:label	presumptive neuron neural tube
+WARN	missing_obsolete_label	facial neural crest	rdfs:label	facial neural crest
+WARN	missing_obsolete_label	medial pterygiophores dorsal fin	rdfs:label	medial pterygiophores dorsal fin
+WARN	missing_obsolete_label	peripheral motor axons	rdfs:label	peripheral motor axons
+WARN	missing_obsolete_label	adult	rdfs:label	adult
+WARN	missing_obsolete_label	pars tuberalis	rdfs:label	pars tuberalis
+WARN	missing_obsolete_label	pharyngobranchial 1	rdfs:label	pharyngobranchial 1
+WARN	missing_obsolete_label	pharyngobranchial 2+3	rdfs:label	pharyngobranchial 2+3
+WARN	missing_obsolete_label	cranial motoneurons	rdfs:label	cranial motoneurons
+WARN	missing_obsolete_label	mentomeckelian	rdfs:label	mentomeckelian
+WARN	missing_obsolete_label	visceral organ	rdfs:label	visceral organ
+WARN	missing_obsolete_label	presumptive cardinal organ	rdfs:label	presumptive cardinal organ
+WARN	missing_obsolete_label	presumptive organ	rdfs:label	presumptive organ
+WARN	missing_obsolete_label	presumptive organ system	rdfs:label	presumptive organ system
+WARN	missing_obsolete_label	axial bone	rdfs:label	axial bone
+WARN	missing_obsolete_label	chondrocranium bone	rdfs:label	chondrocranium bone
+WARN	missing_obsolete_label	cranial bone	rdfs:label	cranial bone
+WARN	missing_obsolete_label	pharyngeal arch bone	rdfs:label	pharyngeal arch bone
+WARN	missing_obsolete_label	dermatocranium bone	rdfs:label	dermatocranium bone
+WARN	missing_obsolete_label	axial fin bone	rdfs:label	axial fin bone
+WARN	missing_obsolete_label	paired fin bone	rdfs:label	paired fin bone
+WARN	missing_obsolete_label	fin bone	rdfs:label	fin bone
+WARN	missing_obsolete_label	pons	rdfs:label	pons
+WARN	missing_obsolete_label	distal conduction system	rdfs:label	distal conduction system
+WARN	missing_obsolete_label	lymph node	rdfs:label	lymph node
+WARN	missing_obsolete_label	metanephric mesenchyme stem cell	rdfs:label	metanephric mesenchyme stem cell
+WARN	missing_obsolete_label	non-visual cell (sensu Vertebrata)	rdfs:label	non-visual cell (sensu Vertebrata)
+WARN	duplicate_label_synonym	maxillo-mandibular ligament	has_exact_synonym	maxillo-mandibular ligament
 WARN	missing_definition	part of	definition	
 WARN	missing_definition	has_part	definition	
 WARN	missing_definition	definition	definition	
@@ -393,73 +446,6 @@ WARN	missing_definition	has_synonym_type	definition
 WARN	missing_definition	in_subset	definition	
 WARN	missing_definition	shorthand	definition	
 WARN	missing_definition	treat-xrefs-as-genus-differentia	definition	
-WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	urinary space
-WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	urinary space
-WARN	duplicate_exact_synonym	rostral octaval nerve motor nucleus	has_exact_synonym	rostral cranial nerve VIII motor nucleus
-WARN	duplicate_exact_synonym	caudal octaval nerve motor nucleus	has_exact_synonym	rostral cranial nerve VIII motor nucleus
-WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	inter-glomerular space
-WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	inter-glomerular space
-WARN	duplicate_exact_synonym	follicle stimulating hormone secreting cell	has_exact_synonym	gonadotrope
-WARN	duplicate_exact_synonym	luteinizing hormone secreting cell	has_exact_synonym	gonadotrope
-WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	Bowman's space
-WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	Bowman's space
-WARN	duplicate_exact_synonym	renal glomerular capsule	has_exact_synonym	Bowman's capsule 
-WARN	duplicate_exact_synonym	pronephric glomerular capsule	has_exact_synonym	Bowman's capsule 
-WARN	duplicate_exact_synonym	supracleithrum-vertebral ligament	has_exact_synonym	Baudelot's ligament
-WARN	duplicate_exact_synonym	cleithrum-vertebral ligament	has_exact_synonym	Baudelot's ligament
-WARN	missing_obsolete_label	anatomical set	rdfs:label	anatomical set
-WARN	missing_obsolete_label	sensory axons peripheral	rdfs:label	sensory axons peripheral
-WARN	missing_obsolete_label	embryo	rdfs:label	embryo
-WARN	missing_obsolete_label	lateral cells	rdfs:label	lateral cells
-WARN	missing_obsolete_label	mesenchyme condensations	rdfs:label	mesenchyme condensations
-WARN	missing_obsolete_label	antorbital	rdfs:label	antorbital
-WARN	missing_obsolete_label	basisphenoid	rdfs:label	basisphenoid
-WARN	missing_obsolete_label	epicentrals	rdfs:label	epicentrals
-WARN	missing_obsolete_label	hypobranchial vessel	rdfs:label	hypobranchial vessel
-WARN	missing_obsolete_label	larva	rdfs:label	larva
-WARN	missing_obsolete_label	opercular-branchiostegal series	rdfs:label	opercular-branchiostegal series
-WARN	missing_obsolete_label	supramaxillae	rdfs:label	supramaxillae
-WARN	missing_obsolete_label	hypural arches	rdfs:label	hypural arches
-WARN	missing_obsolete_label	dermopalatine	rdfs:label	dermopalatine
-WARN	missing_obsolete_label	duodenum	rdfs:label	duodenum
-WARN	missing_obsolete_label	infraorbital bridge	rdfs:label	infraorbital bridge
-WARN	missing_obsolete_label	juvenile	rdfs:label	juvenile
-WARN	missing_obsolete_label	last preural centrum	rdfs:label	last preural centrum
-WARN	missing_obsolete_label	stomach	rdfs:label	stomach
-WARN	missing_obsolete_label	Mauthner axon	rdfs:label	Mauthner axon
-WARN	missing_obsolete_label	medial pterygiophores anal fin	rdfs:label	medial pterygiophores anal fin
-WARN	missing_obsolete_label	supraorbital series	rdfs:label	supraorbital series
-WARN	missing_obsolete_label	brachium conjunctivum	rdfs:label	brachium conjunctivum
-WARN	missing_obsolete_label	dental plate	rdfs:label	dental plate
-WARN	missing_obsolete_label	ural ossification	rdfs:label	ural ossification
-WARN	missing_obsolete_label	presumptive neuron neural tube	rdfs:label	presumptive neuron neural tube
-WARN	missing_obsolete_label	facial neural crest	rdfs:label	facial neural crest
-WARN	missing_obsolete_label	medial pterygiophores dorsal fin	rdfs:label	medial pterygiophores dorsal fin
-WARN	missing_obsolete_label	peripheral motor axons	rdfs:label	peripheral motor axons
-WARN	missing_obsolete_label	adult	rdfs:label	adult
-WARN	missing_obsolete_label	pars tuberalis	rdfs:label	pars tuberalis
-WARN	missing_obsolete_label	pharyngobranchial 1	rdfs:label	pharyngobranchial 1
-WARN	missing_obsolete_label	pharyngobranchial 2+3	rdfs:label	pharyngobranchial 2+3
-WARN	missing_obsolete_label	cranial motoneurons	rdfs:label	cranial motoneurons
-WARN	missing_obsolete_label	mentomeckelian	rdfs:label	mentomeckelian
-WARN	missing_obsolete_label	visceral organ	rdfs:label	visceral organ
-WARN	missing_obsolete_label	presumptive cardinal organ	rdfs:label	presumptive cardinal organ
-WARN	missing_obsolete_label	presumptive organ	rdfs:label	presumptive organ
-WARN	missing_obsolete_label	presumptive organ system	rdfs:label	presumptive organ system
-WARN	missing_obsolete_label	axial bone	rdfs:label	axial bone
-WARN	missing_obsolete_label	chondrocranium bone	rdfs:label	chondrocranium bone
-WARN	missing_obsolete_label	cranial bone	rdfs:label	cranial bone
-WARN	missing_obsolete_label	pharyngeal arch bone	rdfs:label	pharyngeal arch bone
-WARN	missing_obsolete_label	dermatocranium bone	rdfs:label	dermatocranium bone
-WARN	missing_obsolete_label	axial fin bone	rdfs:label	axial fin bone
-WARN	missing_obsolete_label	paired fin bone	rdfs:label	paired fin bone
-WARN	missing_obsolete_label	fin bone	rdfs:label	fin bone
-WARN	missing_obsolete_label	pons	rdfs:label	pons
-WARN	missing_obsolete_label	distal conduction system	rdfs:label	distal conduction system
-WARN	missing_obsolete_label	lymph node	rdfs:label	lymph node
-WARN	missing_obsolete_label	metanephric mesenchyme stem cell	rdfs:label	metanephric mesenchyme stem cell
-WARN	missing_obsolete_label	non-visual cell (sensu Vertebrata)	rdfs:label	non-visual cell (sensu Vertebrata)
-WARN	duplicate_label_synonym	maxillo-mandibular ligament	has_exact_synonym	maxillo-mandibular ligament
 WARN	annotation_whitespace	corpus cerebelli	has_exact_synonym	corpus cerebelli granular layer 
 WARN	annotation_whitespace	superior caudal dorsal flexor	has_exact_synonym	flexor caudalis dorsalis superioris  
 WARN	annotation_whitespace	upper oral valve	has_exact_synonym	upper semilunar valve 
@@ -551,8 +537,22 @@ WARN	annotation_whitespace	posterior hypaxial muscle	has_exact_synonym	anterior 
 WARN	annotation_whitespace	posterior hypaxial muscle	has_exact_synonym	ventral-most hypaxial muscle 
 WARN	annotation_whitespace	norepinephrine secreting cell	has_exact_synonym	 noradrenergic cell
 WARN	annotation_whitespace	immature natural killer cell	has_exact_synonym	immature NK cell 
-INFO	missing_superclass	zebrafish anatomical entity	rdfs:subClassOf	
-INFO	missing_superclass	Stages	rdfs:subClassOf	
+WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	urinary space
+WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	urinary space
+WARN	duplicate_exact_synonym	rostral octaval nerve motor nucleus	has_exact_synonym	rostral cranial nerve VIII motor nucleus
+WARN	duplicate_exact_synonym	caudal octaval nerve motor nucleus	has_exact_synonym	rostral cranial nerve VIII motor nucleus
+WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	inter-glomerular space
+WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	inter-glomerular space
+WARN	duplicate_exact_synonym	follicle stimulating hormone secreting cell	has_exact_synonym	gonadotrope
+WARN	duplicate_exact_synonym	luteinizing hormone secreting cell	has_exact_synonym	gonadotrope
+WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	Bowman's space
+WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	Bowman's space
+WARN	duplicate_exact_synonym	renal glomerular capsule	has_exact_synonym	Bowman's capsule 
+WARN	duplicate_exact_synonym	pronephric glomerular capsule	has_exact_synonym	Bowman's capsule 
+WARN	duplicate_exact_synonym	supracleithrum-vertebral ligament	has_exact_synonym	Baudelot's ligament
+WARN	duplicate_exact_synonym	cleithrum-vertebral ligament	has_exact_synonym	Baudelot's ligament
 INFO	lowercase_definition	has developmental contribution from	definition	x has developmental contribution from y iff x has some part z such that z develops from y.
 INFO	lowercase_definition	start stage	definition	c existence starts during s iff start_of(c) part_of s.
 INFO	lowercase_definition	end stage	definition	c existence ends during s iff  end_of(c) part_of s.
+INFO	missing_superclass	zebrafish anatomical entity	rdfs:subClassOf	
+INFO	missing_superclass	Stages	rdfs:subClassOf	
