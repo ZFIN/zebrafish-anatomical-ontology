@@ -6,6 +6,7 @@ report_fail_on: none
 namespaces: 
   - http://purl.obolibrary.org/obo/ZFA_
   - http://purl.obolibrary.org/obo/zfa.owl
+  - http://purl.obolibrary.org/obo/ZFS_
 export_formats:
   - owl
   - obo
@@ -14,7 +15,8 @@ release_artefacts:
   - base
   - simple
   - full
-primary_release: full
+  - custom-zfa-zfin
+primary_release: zfin
 import_group:
   products:
     - id: ro
