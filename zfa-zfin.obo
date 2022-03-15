@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zfa/releases/2022-02-28/zfa-zfin.owl
+data-version: zfa/releases/2022-03-15/zfa-zfin.owl
 date: 08:03:2021 11:16
 saved-by: ceriv
 auto-generated-by: OBO-Edit 2.3.1
@@ -15,7 +15,7 @@ ontology: zfa/zfa-zfin
 property_value: http://purl.org/dc/elements/1.1/description "ZFA description." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Anatomy Ontology (ZFA)" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/
-property_value: owl:versionInfo "2022-02-28" xsd:string
+property_value: owl:versionInfo "2022-03-15" xsd:string
 
 [Term]
 id: ZFA:0000000
