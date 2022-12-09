@@ -1,8 +1,76 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	duplicate_definition	myotome somite 26	definition	Portion of somite 16 that gives rise to body wall muscle masses.
-ERROR	duplicate_definition	myotome somite 16	definition	Portion of somite 16 that gives rise to body wall muscle masses.
-ERROR	duplicate_definition	posterior lateral line	definition	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)
-ERROR	duplicate_definition	dorsal lateral line	definition	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)
+ERROR	duplicate_label	larva	rdfs:label	larva
+ERROR	duplicate_label	larva	rdfs:label	larva
+ERROR	duplicate_label	juvenile	rdfs:label	juvenile
+ERROR	duplicate_label	juvenile	rdfs:label	juvenile
+ERROR	duplicate_label	adult	rdfs:label	adult
+ERROR	duplicate_label	adult	rdfs:label	adult
+WARN	missing_obsolete_label	anatomical set	rdfs:label	anatomical set
+WARN	missing_obsolete_label	sensory axons peripheral	rdfs:label	sensory axons peripheral
+WARN	missing_obsolete_label	embryo	rdfs:label	embryo
+WARN	missing_obsolete_label	lateral cells	rdfs:label	lateral cells
+WARN	missing_obsolete_label	mesenchyme condensations	rdfs:label	mesenchyme condensations
+WARN	missing_obsolete_label	antorbital	rdfs:label	antorbital
+WARN	missing_obsolete_label	basisphenoid	rdfs:label	basisphenoid
+WARN	missing_obsolete_label	epicentrals	rdfs:label	epicentrals
+WARN	missing_obsolete_label	hypobranchial vessel	rdfs:label	hypobranchial vessel
+WARN	missing_obsolete_label	larva	rdfs:label	larva
+WARN	missing_obsolete_label	opercular-branchiostegal series	rdfs:label	opercular-branchiostegal series
+WARN	missing_obsolete_label	supramaxillae	rdfs:label	supramaxillae
+WARN	missing_obsolete_label	hypural arches	rdfs:label	hypural arches
+WARN	missing_obsolete_label	dermopalatine	rdfs:label	dermopalatine
+WARN	missing_obsolete_label	duodenum	rdfs:label	duodenum
+WARN	missing_obsolete_label	infraorbital bridge	rdfs:label	infraorbital bridge
+WARN	missing_obsolete_label	juvenile	rdfs:label	juvenile
+WARN	missing_obsolete_label	last preural centrum	rdfs:label	last preural centrum
+WARN	missing_obsolete_label	stomach	rdfs:label	stomach
+WARN	missing_obsolete_label	Mauthner axon	rdfs:label	Mauthner axon
+WARN	missing_obsolete_label	medial pterygiophores anal fin	rdfs:label	medial pterygiophores anal fin
+WARN	missing_obsolete_label	supraorbital series	rdfs:label	supraorbital series
+WARN	missing_obsolete_label	brachium conjunctivum	rdfs:label	brachium conjunctivum
+WARN	missing_obsolete_label	dental plate	rdfs:label	dental plate
+WARN	missing_obsolete_label	ural ossification	rdfs:label	ural ossification
+WARN	missing_obsolete_label	presumptive neuron neural tube	rdfs:label	presumptive neuron neural tube
+WARN	missing_obsolete_label	facial neural crest	rdfs:label	facial neural crest
+WARN	missing_obsolete_label	medial pterygiophores dorsal fin	rdfs:label	medial pterygiophores dorsal fin
+WARN	missing_obsolete_label	peripheral motor axons	rdfs:label	peripheral motor axons
+WARN	missing_obsolete_label	adult	rdfs:label	adult
+WARN	missing_obsolete_label	pars tuberalis	rdfs:label	pars tuberalis
+WARN	missing_obsolete_label	pharyngobranchial 1	rdfs:label	pharyngobranchial 1
+WARN	missing_obsolete_label	pharyngobranchial 2+3	rdfs:label	pharyngobranchial 2+3
+WARN	missing_obsolete_label	cranial motoneurons	rdfs:label	cranial motoneurons
+WARN	missing_obsolete_label	mentomeckelian	rdfs:label	mentomeckelian
+WARN	missing_obsolete_label	visceral organ	rdfs:label	visceral organ
+WARN	missing_obsolete_label	presumptive cardinal organ	rdfs:label	presumptive cardinal organ
+WARN	missing_obsolete_label	presumptive organ	rdfs:label	presumptive organ
+WARN	missing_obsolete_label	presumptive organ system	rdfs:label	presumptive organ system
+WARN	missing_obsolete_label	axial bone	rdfs:label	axial bone
+WARN	missing_obsolete_label	chondrocranium bone	rdfs:label	chondrocranium bone
+WARN	missing_obsolete_label	cranial bone	rdfs:label	cranial bone
+WARN	missing_obsolete_label	pharyngeal arch bone	rdfs:label	pharyngeal arch bone
+WARN	missing_obsolete_label	dermatocranium bone	rdfs:label	dermatocranium bone
+WARN	missing_obsolete_label	axial fin bone	rdfs:label	axial fin bone
+WARN	missing_obsolete_label	paired fin bone	rdfs:label	paired fin bone
+WARN	missing_obsolete_label	fin bone	rdfs:label	fin bone
+WARN	missing_obsolete_label	pons	rdfs:label	pons
+WARN	missing_obsolete_label	distal conduction system	rdfs:label	distal conduction system
+WARN	missing_obsolete_label	lymph node	rdfs:label	lymph node
+WARN	missing_obsolete_label	metanephric mesenchyme stem cell	rdfs:label	metanephric mesenchyme stem cell
+WARN	missing_obsolete_label	non-visual cell (sensu Vertebrata)	rdfs:label	non-visual cell (sensu Vertebrata)
+WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	urinary space
+WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	urinary space
+WARN	duplicate_exact_synonym	rostral octaval nerve motor nucleus	has_exact_synonym	rostral cranial nerve VIII motor nucleus
+WARN	duplicate_exact_synonym	caudal octaval nerve motor nucleus	has_exact_synonym	rostral cranial nerve VIII motor nucleus
+WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	inter-glomerular space
+WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	inter-glomerular space
+WARN	duplicate_exact_synonym	follicle stimulating hormone secreting cell	has_exact_synonym	gonadotrope
+WARN	duplicate_exact_synonym	luteinizing hormone secreting cell	has_exact_synonym	gonadotrope
+WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	Bowman's space
+WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	Bowman's space
+WARN	duplicate_exact_synonym	renal glomerular capsule	has_exact_synonym	Bowman's capsule 
+WARN	duplicate_exact_synonym	pronephric glomerular capsule	has_exact_synonym	Bowman's capsule 
+WARN	duplicate_exact_synonym	supracleithrum-vertebral ligament	has_exact_synonym	Baudelot's ligament
+WARN	duplicate_exact_synonym	cleithrum-vertebral ligament	has_exact_synonym	Baudelot's ligament
 WARN	missing_definition	part of	definition	
 WARN	missing_definition	has_part	definition	
 WARN	missing_definition	definition	definition	
@@ -331,52 +399,60 @@ WARN	missing_definition	stratified keratinized epithelial stem cell	definition
 WARN	missing_definition	kidney interstitial cell	definition	
 WARN	missing_definition	kidney medulla cell	definition	
 WARN	missing_definition	zebrafish anatomical entity	definition	
-WARN	missing_definition	Unknown	definition	
-WARN	missing_definition	Zygote:1-cell	definition	
-WARN	missing_definition	Cleavage:2-cell	definition	
-WARN	missing_definition	Cleavage:4-cell	definition	
-WARN	missing_definition	Cleavage:8-cell	definition	
-WARN	missing_definition	Cleavage:16-cell	definition	
-WARN	missing_definition	Cleavage:32-cell	definition	
-WARN	missing_definition	Cleavage:64-cell	definition	
-WARN	missing_definition	Blastula:128-cell	definition	
-WARN	missing_definition	Blastula:256-cell	definition	
-WARN	missing_definition	Blastula:512-cell	definition	
-WARN	missing_definition	Blastula:1k-cell	definition	
-WARN	missing_definition	Blastula:High	definition	
-WARN	missing_definition	Blastula:Oblong	definition	
-WARN	missing_definition	Blastula:Sphere	definition	
-WARN	missing_definition	Blastula:Dome	definition	
-WARN	missing_definition	Blastula:30%-epiboly	definition	
-WARN	missing_definition	Gastrula:50%-epiboly	definition	
-WARN	missing_definition	Gastrula:Germ-ring	definition	
-WARN	missing_definition	Gastrula:Shield	definition	
-WARN	missing_definition	Gastrula:75%-epiboly	definition	
-WARN	missing_definition	Gastrula:90%-epiboly	definition	
-WARN	missing_definition	Gastrula:Bud	definition	
-WARN	missing_definition	Segmentation:1-4 somites	definition	
-WARN	missing_definition	Segmentation:5-9 somites	definition	
-WARN	missing_definition	Segmentation:10-13 somites	definition	
-WARN	missing_definition	Segmentation:14-19 somites	definition	
-WARN	missing_definition	Segmentation:20-25 somites	definition	
-WARN	missing_definition	Segmentation:26+ somites	definition	
-WARN	missing_definition	Pharyngula:Prim-5	definition	
-WARN	missing_definition	Pharyngula:Prim-15	definition	
-WARN	missing_definition	Pharyngula:Prim-25	definition	
-WARN	missing_definition	Pharyngula:High-pec	definition	
-WARN	missing_definition	Hatching:Long-pec	definition	
-WARN	missing_definition	Hatching:Pec-fin	definition	
-WARN	missing_definition	Larval:Protruding-mouth	definition	
-WARN	missing_definition	Larval:Day 4	definition	
-WARN	missing_definition	Larval:Day 5	definition	
-WARN	missing_definition	Larval:Day 6	definition	
-WARN	missing_definition	Larval:Days 7-13	definition	
-WARN	missing_definition	Larval:Days 14-20	definition	
-WARN	missing_definition	Larval:Days 21-29	definition	
-WARN	missing_definition	Juvenile:Days 30-44	definition	
-WARN	missing_definition	Juvenile:Days 45-89	definition	
-WARN	missing_definition	Adult	definition	
-WARN	missing_definition	Stages	definition	
+WARN	missing_definition	unknown	definition	
+WARN	missing_definition	zygote:1-cell	definition	
+WARN	missing_definition	cleavage:2-cell	definition	
+WARN	missing_definition	cleavage:4-cell	definition	
+WARN	missing_definition	cleavage:8-cell	definition	
+WARN	missing_definition	cleavage:16-cell	definition	
+WARN	missing_definition	cleavage:32-cell	definition	
+WARN	missing_definition	cleavage:64-cell	definition	
+WARN	missing_definition	blastula:128-cell	definition	
+WARN	missing_definition	blastula:256-cell	definition	
+WARN	missing_definition	blastula:512-cell	definition	
+WARN	missing_definition	blastula:1k-cell	definition	
+WARN	missing_definition	blastula:high	definition	
+WARN	missing_definition	blastula:oblong	definition	
+WARN	missing_definition	blastula:sphere	definition	
+WARN	missing_definition	blastula:dome	definition	
+WARN	missing_definition	blastula:30%-epiboly	definition	
+WARN	missing_definition	gastrula:50%-epiboly	definition	
+WARN	missing_definition	gastrula:germ-ring	definition	
+WARN	missing_definition	gastrula:shield	definition	
+WARN	missing_definition	gastrula:75%-epiboly	definition	
+WARN	missing_definition	gastrula:90%-epiboly	definition	
+WARN	missing_definition	gastrula:bud	definition	
+WARN	missing_definition	segmentation:1-4 somites	definition	
+WARN	missing_definition	segmentation:5-9 somites	definition	
+WARN	missing_definition	segmentation:10-13 somites	definition	
+WARN	missing_definition	segmentation:14-19 somites	definition	
+WARN	missing_definition	segmentation:20-25 somites	definition	
+WARN	missing_definition	segmentation:26+ somites	definition	
+WARN	missing_definition	pharyngula:prim-5	definition	
+WARN	missing_definition	pharyngula:prim-15	definition	
+WARN	missing_definition	pharyngula:prim-25	definition	
+WARN	missing_definition	pharyngula:high-pec	definition	
+WARN	missing_definition	hatching:long-pec	definition	
+WARN	missing_definition	hatching:pec-fin	definition	
+WARN	missing_definition	larval:protruding-mouth	definition	
+WARN	missing_definition	larval:day 4	definition	
+WARN	missing_definition	larval:day 5	definition	
+WARN	missing_definition	larval:day 6	definition	
+WARN	missing_definition	larval:days 7-13	definition	
+WARN	missing_definition	larval:days 14-20	definition	
+WARN	missing_definition	larval:days 21-29	definition	
+WARN	missing_definition	juvenile:days 30-44	definition	
+WARN	missing_definition	juvenile:days 45-89	definition	
+WARN	missing_definition	adult	definition	
+WARN	missing_definition	blastula	definition	
+WARN	missing_definition	cleavage	definition	
+WARN	missing_definition	gastrula	definition	
+WARN	missing_definition	larva	definition	
+WARN	missing_definition	segmentation	definition	
+WARN	missing_definition	pharyngula	definition	
+WARN	missing_definition	juvenile	definition	
+WARN	missing_definition	hatching	definition	
+WARN	missing_definition	zebrafish stage	definition	
 WARN	missing_definition	PLURAL	definition	
 WARN	missing_definition	subset_property	definition	
 WARN	missing_definition	synonym_type_property	definition	
@@ -393,82 +469,7 @@ WARN	missing_definition	has_synonym_type	definition
 WARN	missing_definition	in_subset	definition	
 WARN	missing_definition	shorthand	definition	
 WARN	missing_definition	treat-xrefs-as-genus-differentia	definition	
-WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	urinary space
-WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	urinary space
-WARN	duplicate_exact_synonym	rostral octaval nerve motor nucleus	has_exact_synonym	rostral cranial nerve VIII motor nucleus
-WARN	duplicate_exact_synonym	caudal octaval nerve motor nucleus	has_exact_synonym	rostral cranial nerve VIII motor nucleus
-WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	inter-glomerular space
-WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	inter-glomerular space
-WARN	duplicate_exact_synonym	follicle stimulating hormone secreting cell	has_exact_synonym	gonadotrope
-WARN	duplicate_exact_synonym	luteinizing hormone secreting cell	has_exact_synonym	gonadotrope
-WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	Bowman's space
-WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	Bowman's space
-WARN	duplicate_exact_synonym	renal glomerular capsule	has_exact_synonym	Bowman's capsule 
-WARN	duplicate_exact_synonym	pronephric glomerular capsule	has_exact_synonym	Bowman's capsule 
-WARN	duplicate_exact_synonym	supracleithrum-vertebral ligament	has_exact_synonym	Baudelot's ligament
-WARN	duplicate_exact_synonym	cleithrum-vertebral ligament	has_exact_synonym	Baudelot's ligament
-WARN	missing_obsolete_label	anatomical set	rdfs:label	anatomical set
-WARN	missing_obsolete_label	sensory axons peripheral	rdfs:label	sensory axons peripheral
-WARN	missing_obsolete_label	embryo	rdfs:label	embryo
-WARN	missing_obsolete_label	lateral cells	rdfs:label	lateral cells
-WARN	missing_obsolete_label	mesenchyme condensations	rdfs:label	mesenchyme condensations
-WARN	missing_obsolete_label	antorbital	rdfs:label	antorbital
-WARN	missing_obsolete_label	basisphenoid	rdfs:label	basisphenoid
-WARN	missing_obsolete_label	epicentrals	rdfs:label	epicentrals
-WARN	missing_obsolete_label	hypobranchial vessel	rdfs:label	hypobranchial vessel
-WARN	missing_obsolete_label	larva	rdfs:label	larva
-WARN	missing_obsolete_label	opercular-branchiostegal series	rdfs:label	opercular-branchiostegal series
-WARN	missing_obsolete_label	supramaxillae	rdfs:label	supramaxillae
-WARN	missing_obsolete_label	hypural arches	rdfs:label	hypural arches
-WARN	missing_obsolete_label	dermopalatine	rdfs:label	dermopalatine
-WARN	missing_obsolete_label	duodenum	rdfs:label	duodenum
-WARN	missing_obsolete_label	infraorbital bridge	rdfs:label	infraorbital bridge
-WARN	missing_obsolete_label	juvenile	rdfs:label	juvenile
-WARN	missing_obsolete_label	last preural centrum	rdfs:label	last preural centrum
-WARN	missing_obsolete_label	stomach	rdfs:label	stomach
-WARN	missing_obsolete_label	Mauthner axon	rdfs:label	Mauthner axon
-WARN	missing_obsolete_label	medial pterygiophores anal fin	rdfs:label	medial pterygiophores anal fin
-WARN	missing_obsolete_label	supraorbital series	rdfs:label	supraorbital series
-WARN	missing_obsolete_label	brachium conjunctivum	rdfs:label	brachium conjunctivum
-WARN	missing_obsolete_label	dental plate	rdfs:label	dental plate
-WARN	missing_obsolete_label	ural ossification	rdfs:label	ural ossification
-WARN	missing_obsolete_label	presumptive neuron neural tube	rdfs:label	presumptive neuron neural tube
-WARN	missing_obsolete_label	facial neural crest	rdfs:label	facial neural crest
-WARN	missing_obsolete_label	medial pterygiophores dorsal fin	rdfs:label	medial pterygiophores dorsal fin
-WARN	missing_obsolete_label	peripheral motor axons	rdfs:label	peripheral motor axons
-WARN	missing_obsolete_label	adult	rdfs:label	adult
-WARN	missing_obsolete_label	pars tuberalis	rdfs:label	pars tuberalis
-WARN	missing_obsolete_label	pharyngobranchial 1	rdfs:label	pharyngobranchial 1
-WARN	missing_obsolete_label	pharyngobranchial 2+3	rdfs:label	pharyngobranchial 2+3
-WARN	missing_obsolete_label	cranial motoneurons	rdfs:label	cranial motoneurons
-WARN	missing_obsolete_label	mentomeckelian	rdfs:label	mentomeckelian
-WARN	missing_obsolete_label	visceral organ	rdfs:label	visceral organ
-WARN	missing_obsolete_label	presumptive cardinal organ	rdfs:label	presumptive cardinal organ
-WARN	missing_obsolete_label	presumptive organ	rdfs:label	presumptive organ
-WARN	missing_obsolete_label	presumptive organ system	rdfs:label	presumptive organ system
-WARN	missing_obsolete_label	axial bone	rdfs:label	axial bone
-WARN	missing_obsolete_label	chondrocranium bone	rdfs:label	chondrocranium bone
-WARN	missing_obsolete_label	cranial bone	rdfs:label	cranial bone
-WARN	missing_obsolete_label	pharyngeal arch bone	rdfs:label	pharyngeal arch bone
-WARN	missing_obsolete_label	dermatocranium bone	rdfs:label	dermatocranium bone
-WARN	missing_obsolete_label	axial fin bone	rdfs:label	axial fin bone
-WARN	missing_obsolete_label	paired fin bone	rdfs:label	paired fin bone
-WARN	missing_obsolete_label	fin bone	rdfs:label	fin bone
-WARN	missing_obsolete_label	pons	rdfs:label	pons
-WARN	missing_obsolete_label	distal conduction system	rdfs:label	distal conduction system
-WARN	missing_obsolete_label	lymph node	rdfs:label	lymph node
-WARN	missing_obsolete_label	metanephric mesenchyme stem cell	rdfs:label	metanephric mesenchyme stem cell
-WARN	missing_obsolete_label	non-visual cell (sensu Vertebrata)	rdfs:label	non-visual cell (sensu Vertebrata)
 WARN	duplicate_label_synonym	maxillo-mandibular ligament	has_exact_synonym	maxillo-mandibular ligament
-WARN	annotation_whitespace	corpus cerebelli	has_exact_synonym	corpus cerebelli granular layer 
-WARN	annotation_whitespace	superior caudal dorsal flexor	has_exact_synonym	flexor caudalis dorsalis superioris  
-WARN	annotation_whitespace	upper oral valve	has_exact_synonym	upper semilunar valve 
-WARN	annotation_whitespace	dilatator operculi	has_exact_synonym	 dilatator opercula
-WARN	annotation_whitespace	facial lobe	has_related_synonym	tuberculum impar of Herrick 
-WARN	annotation_whitespace	posttemporal	has_related_synonym	post-temporal 
-WARN	annotation_whitespace	statoacoustic (VIII) ganglion	has_exact_synonym	octaval ganglion 
-WARN	annotation_whitespace	torus semicircularis	has_exact_synonym	semicircular torus 
-WARN	annotation_whitespace	ventral transverse	has_exact_synonym	transversus ventralis 
 WARN	annotation_whitespace	caudal hypothalamic zone	has_exact_synonym	hypothalamus pars tuberalis 
 WARN	annotation_whitespace	telencephalic ventricle	has_exact_synonym	ventriculi telencephali 
 WARN	annotation_whitespace	intestinal bulb	has_exact_synonym	 pseudogaster 
@@ -552,7 +553,7 @@ WARN	annotation_whitespace	posterior hypaxial muscle	has_exact_synonym	ventral-m
 WARN	annotation_whitespace	norepinephrine secreting cell	has_exact_synonym	 noradrenergic cell
 WARN	annotation_whitespace	immature natural killer cell	has_exact_synonym	immature NK cell 
 INFO	missing_superclass	zebrafish anatomical entity	rdfs:subClassOf	
-INFO	missing_superclass	Stages	rdfs:subClassOf	
+INFO	missing_superclass	zebrafish stage	rdfs:subClassOf	
 INFO	lowercase_definition	has developmental contribution from	definition	x has developmental contribution from y iff x has some part z such that z develops from y.
 INFO	lowercase_definition	start stage	definition	c existence starts during s iff start_of(c) part_of s.
 INFO	lowercase_definition	end stage	definition	c existence ends during s iff  end_of(c) part_of s.
