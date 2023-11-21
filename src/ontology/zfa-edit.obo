@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:11:2022 16:29
+date: 21:11:2023 14:46
 saved-by: zfinf
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -7203,6 +7203,7 @@ relationship: start ZFS:0000000 ! unknown
 id: ZFA:0000608
 name: ventral transverse
 namespace: zebrafish_anatomy
+def: "Ventral branchial muscle that runs diagonally from near the horizontal midline at the caudal end caudal to the ventral side at the  rostral end. The ventral transverse muscles are paired and there is a pair in each branchial arch." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-970819-13]
 synonym: "transverse ventralis" EXACT []
 synonym: "transversus ventralis" EXACT []
 xref: TAO:0000608
@@ -16464,6 +16465,7 @@ is_a: ZFA:0001461 ! chondrocranium cartilage
 relationship: end ZFS:0000042 ! juvenile:days 30-44
 relationship: part_of ZFA:0000351 ! olfactory region
 relationship: part_of ZFA:0001580 ! neurocranium
+relationship: part_of ZFA:0005958 ! early palate
 relationship: start ZFS:0000033 ! hatching:long-pec
 
 [Term]
@@ -17664,9 +17666,10 @@ def: "Paired thin medially aligned bar of cartilage that extends from the anteri
 synonym: "trabeculae cranii" EXACT OMO:0003004 []
 xref: TAO:0001507
 is_a: ZFA:0001461 ! chondrocranium cartilage
-relationship: end ZFS:0000044 ! adult
+relationship: end ZFS:0000000 ! unknown
 relationship: part_of ZFA:0001321 ! neurocranial trabecula
 relationship: part_of ZFA:0001580 ! neurocranium
+relationship: part_of ZFA:0005958 ! early palate
 relationship: start ZFS:0000032 ! pharyngula:high-pec
 
 [Term]
@@ -17677,9 +17680,10 @@ def: "Cartilage formed via medial fusion between bilaterally paired trabecula cr
 synonym: "trabecular bar" EXACT []
 xref: TAO:0001508
 is_a: ZFA:0001461 ! chondrocranium cartilage
-relationship: end ZFS:0000044 ! adult
+relationship: end ZFS:0000000 ! unknown
 relationship: part_of ZFA:0001321 ! neurocranial trabecula
 relationship: part_of ZFA:0001580 ! neurocranium
+relationship: part_of ZFA:0005958 ! early palate
 relationship: start ZFS:0000000 ! unknown
 
 [Term]
@@ -18501,6 +18505,7 @@ name: neurocranium
 namespace: zebrafish_anatomy
 def: "Anatomical cluster that is the regional skeletal system surrounding the brain." [GOC:mh, ORCiD:0000-0001-9114-8737]
 synonym: "braincase" EXACT []
+synonym: "palatal skeleton" RELATED [ZFIN:ZDB-PUB-201027-4]
 xref: TAO:0001580
 is_a: ZFA:0001478 ! anatomical cluster
 relationship: end ZFS:0000044 ! adult
@@ -21663,7 +21668,7 @@ relationship: start ZFS:0000030 ! pharyngula:prim-15
 id: ZFA:0005112
 name: dorsal lateral line
 namespace: zebrafish_anatomy
-def: "One of eight distinct lateral lines in the 4-day larva. The dorsal line runs along the dorsal side of the body and never extends beyond the dorsal fin. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-070907-34]
+def: "One of eight distinct lateral lines in the 4-day larva. The dorsal lateral line runs along the dorsal side of the body and never extends beyond the dorsal fin. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-070907-34]
 synonym: "dorsal lateral lines" EXACT OMO:0003004 []
 xref: TAO:0005112
 is_a: ZFA:0001469 ! lateral line
@@ -32558,6 +32563,18 @@ created_by: ceriv
 creation_date: 2021-08-13T13:47:16Z
 
 [Term]
+id: ZFA:0005958
+name: early palate
+namespace: zebrafish_anatomy
+def: "The cartilage which make up the anterior neurocranium that forms the roof of the oral cavity during pharyngeal and early larval stages.  This cluster is used to model the mammalian palate." [GOC:CVS, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-151122-6]
+is_a: ZFA:0001478 ! anatomical cluster
+relationship: end ZFS:0000042 ! juvenile:days 30-44
+relationship: part_of ZFA:0001580 ! neurocranium
+relationship: start ZFS:0000031 ! pharyngula:prim-25
+created_by: ceriv
+creation_date: 2023-06-09T09:20:28Z
+
+[Term]
 id: ZFA:0006000
 name: intermediate hypothalamus
 namespace: zebrafish_anatomy
@@ -40040,8 +40057,8 @@ is_symmetric: true
 id: develops_from
 name: develops from
 xref: RO:0002202
-holds_over_chain: part_of develops_from
 is_transitive: true
+holds_over_chain: part_of develops_from
 transitive_over: part_of ! part of
 
 [Typedef]
