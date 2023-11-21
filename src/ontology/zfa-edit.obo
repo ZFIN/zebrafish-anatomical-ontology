@@ -9887,7 +9887,7 @@ relationship: start ZFS:0000024 ! segmentation:5-9 somites
 id: ZFA:0000833
 name: sclerotome somite 22
 namespace: zebrafish_anatomy
-def: "Ventromedial region of somite 22 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
+def: "Ventromedial region of somite 22 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576, ZFIN:ZDB-PUB-970213-3]
 xref: TAO:0000833
 is_a: ZFA:0001080 ! sclerotome
 relationship: end ZFS:0000034 ! hatching:pec-fin
@@ -32188,7 +32188,7 @@ creation_date: 2020-07-01T11:21:03Z
 id: ZFA:0005927
 name: endothelial blood brain barrier
 namespace: zebrafish_anatomy
-def: "Blood vessel endothelium that restricts the passage of circulating substances from  the blood to the brain parenchyma while actively facilitating the passage of nutrients and removal of waste products.  The developing blood brain barrier undergoes a period of transcytosis and leaks that decrease as the mature form is established.  The barrier matures in a posterior to anterior direction." [GOC:cvs, ORCID:000-0002-2244-7917, ZFIN:ZDB-PUB-190821-6]
+def: "Blood vessel endothelium that restricts the passage of circulating substances from  the blood to the brain parenchyma while actively facilitating the passage of nutrients and removal of waste products.  The developing blood brain barrier undergoes a period of transcytosis and leaks that decrease as the mature form is established.  The barrier matures in a posterior to anterior direction." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-190821-6]
 is_a: ZFA:0005259 ! continuous blood vessel endothelium
 relationship: end ZFS:0000044 ! adult
 relationship: start ZFS:0000035 ! larval:protruding-mouth
