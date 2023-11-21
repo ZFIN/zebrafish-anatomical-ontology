@@ -3,6 +3,7 @@ date: 29:11:2022 16:29
 saved-by: zfinf
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
+synonymtypedef: OMO:0003004 "plural form"
 default-namespace: zebrafish_anatomical_ontology
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
