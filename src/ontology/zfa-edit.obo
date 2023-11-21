@@ -2727,7 +2727,7 @@ id: ZFA:0000232
 name: otic vesicle lateral protrusion
 namespace: zebrafish_anatomy
 def: "Otic vesicle protrusion that is initially laterally located and then bifurcates and fuses anteriorly with the anterior protrusion, and posteriorly with the posterior protrusion." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-090330-11]
-synonym: "lateral semicircular canal primordia" RELATED PLURAL []
+synonym: "lateral semicircular canal primordia" RELATED OMO:0003004 []
 synonym: "lateral semicircular canal primordium" RELATED []
 xref: TAO:0000232
 is_a: ZFA:0001715 ! otic vesicle protrusion
@@ -4823,7 +4823,7 @@ id: ZFA:0000412
 name: otic vesicle posterior protrusion
 namespace: zebrafish_anatomy
 def: "Otic vesicle protrusion that is anteriorly located and gives rise to the pillar of the posterior semicircular canal." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-090330-11]
-synonym: "posterior semicircular canal primordia" RELATED PLURAL []
+synonym: "posterior semicircular canal primordia" RELATED OMO:0003004 []
 synonym: "posterior semicircular canal primordium" RELATED []
 xref: TAO:0000412
 is_a: ZFA:0001715 ! otic vesicle protrusion
@@ -5521,7 +5521,7 @@ id: ZFA:0000469
 name: otic vesicle anterior protrusion
 namespace: zebrafish_anatomy
 def: "Otic vesicle protrusion that is anteriorly located and gives rise to the pillar of the anterior semicircular canal." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-090330-11]
-synonym: "anterior semicircular canal primordia" RELATED PLURAL []
+synonym: "anterior semicircular canal primordia" RELATED OMO:0003004 []
 synonym: "anterior semicircular canal primordium" RELATED []
 xref: TAO:0000469
 is_a: ZFA:0001715 ! otic vesicle protrusion
@@ -5856,7 +5856,7 @@ namespace: zebrafish_anatomy
 def: "Mandibular muscle that inserts along the dorsolateral faces of the opercles.  Responsible for opercular abduction." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-020703-2, ZFIN:ZDB-PUB-080306-33]
 synonym: "dilatator opercula" EXACT []
 synonym: "dilator opercula" RELATED []
-synonym: "dilators operculi" RELATED PLURAL []
+synonym: "dilators operculi" RELATED OMO:0003004 []
 xref: TAO:0000498
 is_a: ZFA:0000236 ! mandibular muscle
 relationship: develops_from ZFA:0007050 ! constrictor dorsalis
@@ -8154,7 +8154,7 @@ namespace: zebrafish_anatomy
 def: "Supporting cell that is part of the olfactory epithelium. Their cell bodies are more or less cylindrical, often with a pronounced basal part resting on the basal lamina. Their apical surface is covered with microvillous-like protrusions. Nuclei of olfactory support cell lie below the nuclear layer of olfactory sensory neurons,  a feature that is reverse that of other vertebrates.  The nuclei are less electron dense then those of the olfactory sensory neurons." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-060724-7]
 comment: Different nuclear position and morphology from CL_0000853.
 subset: cell_slim
-synonym: "support cells" RELATED PLURAL []
+synonym: "support cells" RELATED OMO:0003004 []
 xref: TAO:0000688
 is_a: ZFA:0009000 ! cell
 relationship: end ZFS:0000044 ! adult
@@ -14113,7 +14113,7 @@ name: ciliary zone
 namespace: zebrafish_anatomy
 def: "Multi-tissue structure that attach the zonules, that suspend the lens, to the eye.  The ciliary zone secretes aqueous humor.  Unlike mammals zebrafish the ciliary zone dose not contain processes or a circumferential band of muscle." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050701-15]
 comment: May need to obsolete this term, ZDB-PUB-050701-15.\n\nThe ciliary "body" does not contain processes or a cumferential band of muscle. For this reason, we refer to the region adjacent and posterior to the iris as the ciliary zone, and not the ciliary body. The ciliary zone, however, is expanded and has a morphology consistent with contraction in a small area of the ventral-most region.
-synonym: "ciliary bodies" RELATED PLURAL []
+synonym: "ciliary bodies" RELATED OMO:0003004 []
 synonym: "ciliary body" RELATED []
 synonym: "ciliary epithelial zone" EXACT []
 xref: TAO:0001203
@@ -18955,7 +18955,7 @@ namespace: zebrafish_anatomy
 alt_id: ZFA:0000139
 def: "Portion of organism substance composed of calcium carbonate located in the otolith organ and positioned over a sensory macula; two form in each vesicle during the late segmentation period. (Also see Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/oto/otolith.html'>otolith</a> by T. Whitfield.)" [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-961014-576]
 synonym: "immature otolith" RELATED []
-synonym: "immature otoliths" RELATED PLURAL []
+synonym: "immature otoliths" RELATED OMO:0003004 []
 synonym: "statolith" EXACT []
 xref: TAO:0001621
 is_a: ZFA:0001487 ! portion of organism substance
@@ -19919,7 +19919,7 @@ def: "Octaval nerve motor nucleus that is initially located within rhombomere 6.
 synonym: "REN" EXACT [ZFIN:ZDB-PUB-061229-17]
 synonym: "ROLE" EXACT []
 synonym: "rostral cranial nerve VIII motor nucleus" EXACT []
-synonym: "rostral efferent nuclei" RELATED PLURAL [ZFIN:ZDB-PUB-061229-17]
+synonym: "rostral efferent nuclei" RELATED OMO:0003004 [ZFIN:ZDB-PUB-061229-17]
 xref: TAO:0002175
 is_a: ZFA:0001697 ! octaval nerve motor nucleus
 relationship: end ZFS:0000044 ! adult
@@ -19932,7 +19932,7 @@ id: ZFA:0001699
 name: caudal octaval nerve motor nucleus
 namespace: zebrafish_anatomy
 def: "Octaval nerve motor nucleus that is initially located within rhombomere 7." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-061229-17]
-synonym: "caudal efferent nuclei" RELATED PLURAL [ZFIN:ZDB-PUB-061229-17]
+synonym: "caudal efferent nuclei" RELATED OMO:0003004 [ZFIN:ZDB-PUB-061229-17]
 synonym: "CEN" EXACT [ZFIN:ZDB-PUB-061229-17]
 synonym: "RELL" EXACT []
 synonym: "rostral cranial nerve VIII motor nucleus" EXACT []
