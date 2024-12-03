@@ -31499,7 +31499,7 @@ creation_date: 2016-02-02T11:47:50Z
 [Term]
 id: ZFA:0005872
 name: external granular layer of the cerebellar plate
-def: "Proliferative region that forms on peripheral side of the cerebellar plate." [GOC:cvs, ORCiD:0000-0002-2244-7917, ORDCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
+def: "Proliferative region that forms on peripheral side of the cerebellar plate." [GOC:cvs, ORCiD:0000-0002-2244-7917, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
 synonym: "cerebellar plate peripheral proliferative zone" RELATED []
 synonym: "EGL" EXACT []
 is_a: ZFA:0000098 ! proliferative region
@@ -34067,7 +34067,7 @@ creation_date: 2020-03-03T10:15:16Z
 id: ZFA:0007121
 name: ventral cerebrospinal fluid contacting neuron
 namespace: zebrafish_anatomy
-def: "A cerebrospinal fluid contacting neuron that originates form p3 progenitor domain. The apical extension of ventral CSF-cNs are more compact than that of dorsal CSF-cNs. Ventral CSF-cNs synapse with CaP motor neurons and project onto CoPA sensory interneurons. Ventral CSF-cNs respond to longitudinal contractions of the spinal cord.  Frequently called KA\" neurons." [GOC:ymb, ORDiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-170409-2]
+def: "A cerebrospinal fluid contacting neuron that originates form p3 progenitor domain. The apical extension of ventral CSF-cNs are more compact than that of dorsal CSF-cNs. Ventral CSF-cNs synapse with CaP motor neurons and project onto CoPA sensory interneurons. Ventral CSF-cNs respond to longitudinal contractions of the spinal cord.  Frequently called KA\" neurons." [GOC:ymb, ORCID:0000-0002-9900-7880, ZFIN:ZDB-PUB-170409-2]
 subset: cell_slim
 synonym: "KA 2" RELATED []
 synonym: "ventral CSF-cN" EXACT [ZFIN:ZDB-PUB-170409-2]
@@ -38667,7 +38667,7 @@ relationship: start ZFS:0000000 ! unknown
 id: ZFA:0009334
 name: naive B cell
 namespace: zebrafish_anatomy
-def: "A naive B cell is a mature B cell that has the phenotype surface IgD-positive, surface IgM-positive, CD27-negative, and CD38-negative, and that has not yet been activated by antigen in the periphery." [CL:curator, IBSN:0781765196]
+def: "A naive B cell is a mature B cell that has the phenotype surface IgD-positive, surface IgM-positive, CD27-negative, and CD38-negative, and that has not yet been activated by antigen in the periphery." [CL:curator, ISBN:0781765196]
 subset: cell_slim
 synonym: "naive B lymphocyte" EXACT []
 synonym: "naive B-cell" EXACT []
