@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 21:11:2023 14:46
-saved-by: zfinf
-auto-generated-by: OBO-Edit 2.3-beta5
+date: 28:01:2025 12:26
+saved-by: ybrad
+auto-generated-by: OBO-Edit 2.3.1
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: OMO:0003004 "plural form"
 default-namespace: zebrafish_anatomical_ontology
@@ -782,7 +782,7 @@ relationship: start ZFS:0000023 ! segmentation:1-4 somites
 id: ZFA:0000069
 name: rhombomere 6
 namespace: zebrafish_anatomy
-def: "Hindbrain segment or neuromere posterior to rhombomere 5" [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-576]
+def: "Hindbrain segment or neuromere posterior to rhombomere 5." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-576]
 synonym: "r6" EXACT []
 xref: TAO:0000069
 is_a: ZFA:0001064 ! rhombomere
@@ -2617,7 +2617,7 @@ relationship: start ZFS:0000040 ! larval:days 14-20
 
 [Term]
 id: ZFA:0000224
-name: larva
+name: obsolete larva
 namespace: zebrafish_anatomy
 is_obsolete: true
 consider: ZFS:0000035
@@ -3868,6 +3868,7 @@ name: caudal vertebra
 namespace: zebrafish_anatomy
 def: "Vertebra bearing a hemal arch and spine. The most posterior caudal vertebrae support the caudal fin and are referred to as preural vertebrae." [GOC:mh, ORCiD:0000-0001-9114-8737]
 synonym: "caudal vertebrae" EXACT OMO:0003004 []
+synonym: "mid caudal vertebra" NARROW []
 xref: TAO:0000326
 is_a: ZFA:0001189 ! vertebra
 relationship: end ZFS:0000044 ! adult
@@ -4302,6 +4303,7 @@ synonym: "hypurals" EXACT OMO:0003004 []
 xref: TAO:0000364
 is_a: ZFA:0000859 ! specialized hemal arch and spine
 relationship: end ZFS:0000044 ! adult
+relationship: part_of ZFA:0000862 ! caudal fin skeleton
 relationship: start ZFS:0000036 ! larval:day 4
 
 [Term]
@@ -4391,7 +4393,7 @@ relationship: start ZFS:0000000 ! unknown
 
 [Term]
 id: ZFA:0000373
-name: juvenile
+name: obsolete juvenile
 namespace: zebrafish_anatomy
 is_obsolete: true
 consider: ZFS:0000042
@@ -4788,6 +4790,7 @@ name: periventricular nucleus of caudal tuberculum
 namespace: zebrafish_anatomy
 def: "Diencephalic nucleus which is located between the ventral thalamus and the hypothalamus. From Neuroanatomy of the Zebrafish Brain." [GOC:mh, ISBN:3764351209, ORCiD:0000-0001-9114-8737]
 synonym: "periventricular nucleus of posterior tuberculum" EXACT []
+synonym: "TPp" RELATED []
 xref: TAO:0000408
 is_a: ZFA:0001659 ! diencephalic nucleus
 relationship: end ZFS:0000044 ! adult
@@ -13276,6 +13279,7 @@ relationship: start ZFS:0000024 ! segmentation:5-9 somites
 id: ZFA:0001128
 name: pharyngeal pouch 1
 namespace: zebrafish_anatomy
+def: "Most anterior pharyngeal pouch." [GOC:cvs, ORCID:0000-0002-2244-7917]
 synonym: "pharyngeal pouches 1" EXACT OMO:0003004 []
 xref: TAO:0001128
 is_a: ZFA:0001106 ! pharyngeal pouch
@@ -13622,7 +13626,7 @@ relationship: start ZFS:0000025 ! segmentation:10-13 somites
 
 [Term]
 id: ZFA:0001160
-name: adult
+name: obsolete adult
 namespace: zebrafish_anatomy
 is_obsolete: true
 consider: ZFS:0000044
@@ -18494,9 +18498,8 @@ name: ural vertebra 2
 namespace: zebrafish_anatomy
 def: "Ural vertebra that is the second vertebra posterior to preural centrum 1." [GOC:mh, ORCiD:0000-0001-9114-8737]
 xref: TAO:0001579
-is_a: ZFA:0001189 ! vertebra
+is_a: ZFA:0005959 ! ural vertebra
 relationship: end ZFS:0000044 ! adult
-relationship: part_of ZFA:0000862 ! caudal fin skeleton
 relationship: start ZFS:0000000 ! unknown
 
 [Term]
@@ -22450,7 +22453,7 @@ creation_date: 2009-04-27T06:04:51Z
 id: ZFA:0005175
 name: CoPA
 namespace: zebrafish_anatomy
-def: "An interneuron in the spinal cord.  CoPA are bipolar with \"T\" shaped dorsal dendrites, have contralateral longitudinal axons that crosses the cord dorsal to the Mauthner neuron and ascends in the dorsal cord." [ZFIN:ZDB-PUB-010807-17, ZFIN:ZDB-PUB-961014-274, ZFIN:ZDB-PUB-961014-649]
+def: "An interneuron in the spinal cord.  CoPA are bipolar with \"T\" shaped dorsal dendrites, have contralateral longitudinal axons that crosses the cord dorsal to the Mauthner neuron and ascends in the dorsal cord. These neurons are glutamatergic." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-010807-17, ZFIN:ZDB-PUB-230515-30, ZFIN:ZDB-PUB-961014-274, ZFIN:ZDB-PUB-961014-649]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
 subset: cell_slim
 synonym: "primary commissural interneuron" EXACT []
@@ -22465,7 +22468,7 @@ creation_date: 2009-06-18T01:41:54Z
 id: ZFA:0005176
 name: CoSA
 namespace: zebrafish_anatomy
-def: "An interneuron of the spinal cord. CoSA,  have contralateral longitudinal axons that crosses the cord dorsal to the Mauthner neuron and ascends in the dorsal cord." [ZFIN:ZDB-PUB-010807-17, ZFIN:ZDB-PUB-961014-649]
+def: "An interneuron of the spinal cord. CoSA,  have contralateral longitudinal axons that crosses the cord dorsal to the Mauthner neuron and ascends in the dorsal cord.  These neurons are glutamatergic and glycinergic." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-010807-17, ZFIN:ZDB-PUB-230515-30, ZFIN:ZDB-PUB-961014-649]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
 subset: cell_slim
 synonym: "secondary commissural interneuron" EXACT []
@@ -22480,7 +22483,7 @@ creation_date: 2009-06-18T02:07:49Z
 id: ZFA:0005177
 name: VeLD
 namespace: zebrafish_anatomy
-def: "An interneuron of the spinal cord. VeLD neurons have an ipsilateral longitudinal axon." [ZFIN:ZDB-PUB-961014-649]
+def: "An interneuron of the spinal cord. VeLD neurons have an ipsilateral longitudinal axon." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-649]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
 subset: cell_slim
 synonym: "V2b interneuron" RELATED []
@@ -22496,7 +22499,7 @@ creation_date: 2009-06-18T02:14:18Z
 id: ZFA:0005178
 name: DoLA
 namespace: zebrafish_anatomy
-def: "An interneuron of the spinal cord." [ZFIN:ZDB-PUB-961014-649]
+def: "An interneuron of the spinal cord.  These are ascending and glycinergic." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-230515-30, ZFIN:ZDB-PUB-961014-649]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.
 subset: cell_slim
 synonym: "dorsal longitudinal interneuron" EXACT []
@@ -22607,7 +22610,7 @@ creation_date: 2009-06-18T05:18:53Z
 id: ZFA:0005186
 name: CoB
 namespace: zebrafish_anatomy
-def: "A bifurcate interneuron.  It is a commissural neuron with both ascending and descending axons in the ventrolateral cord contralateral to its cell body." [ZFIN:ZDB-PUB-961014-649]
+def: "A bifurcate interneuron.  It is a commissural neuron with both ascending and descending axons in the ventrolateral cord contralateral to its cell body." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-649]
 comment: This term is a leaf node in the zebrafish AO and is not in the CL.\n\nThis may be the same as CoBL.
 subset: cell_slim
 synonym: "bifurcate commissural interneuron" EXACT []
@@ -23252,7 +23255,7 @@ creation_date: 2009-07-14T02:05:16Z
 id: ZFA:0005230
 name: CoBL
 namespace: zebrafish_anatomy
-def: "A bifurcate interneuron where the axon projects ventrally, crossing the spinal cord  ventral to the Mauthner axons before bifurcating and extending dorsally." [ZFIN:ZDB-PUB-010807-17]
+def: "A bifurcate interneuron where the axon projects ventrally, crossing the spinal cord  ventral to the Mauthner axons before bifurcating and extending dorsally." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-010807-17]
 subset: cell_slim
 synonym: "commissural bifurcating longitudinal" EXACT []
 xref: TAO:0005230
@@ -23279,10 +23282,11 @@ creation_date: 2009-07-17T01:22:50Z
 id: ZFA:0005232
 name: MCoD
 namespace: zebrafish_anatomy
-def: "A multipolar  interneuron with branching dendrites.  The axon extend ventrally, lateral to the Mauthner axons before crossing the cord and descending ventrally." [ZFIN:ZDB-PUB-010807-17]
+def: "A multipolar  interneuron with branching dendrites.  The axon extend ventrally, lateral to the Mauthner axons before crossing the cord and descending ventrally." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-010807-17]
 subset: cell_slim
 synonym: "larval VeLD" RELATED []
 synonym: "multipolar commissural descending interneuron" EXACT []
+synonym: "V0v " RELATED [ZFIN:ZDB-PUB-230515-30]
 xref: TAO:0005232
 is_a: ZFA:0000778 ! spinal cord interneuron
 relationship: end ZFS:0000044 ! adult
@@ -23294,7 +23298,7 @@ creation_date: 2009-07-17T03:46:32Z
 id: ZFA:0005233
 name: CiD
 namespace: zebrafish_anatomy
-def: "A interneuron of the spinal cord with an ipsilateral axon that extends ventral to the Mauthner axon then turns dorsally  and caudally and sometimes has a minor ascending branch." [ZFIN:ZDB-PUB-010807-17]
+def: "A interneuron of the spinal cord with an ipsilateral axon that extends ventral to the Mauthner axon then turns dorsally  and caudally and sometimes has a minor ascending branch." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-010807-17]
 subset: cell_slim
 synonym: "circumferential descending interneuron" EXACT []
 synonym: "commissural descending interneurons" EXACT [ZFIN:ZDB-PUB-081114-2]
@@ -23310,7 +23314,7 @@ creation_date: 2009-07-17T03:55:01Z
 id: ZFA:0005234
 name: CoLA
 namespace: zebrafish_anatomy
-def: "A spinal interneuron with a dorsal dendrite that extends caudally. CoLA also has  midlateral process that extend rostrally and caudally, the axon crosses the cord dorsal to the Mauthner cell and ascends, extending dorsally.  Axon has minor descending branch." [ZFIN:ZDB-PUB-010807-17]
+def: "A spinal interneuron with a dorsal dendrite that extends caudally. CoLA also has  midlateral process that extend rostrally and caudally, the axon crosses the cord dorsal to the Mauthner cell and ascends, extending dorsally.  Axon has minor descending branch.  These neurons are glycinergic." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-010807-17, ZFIN:ZDB-PUB-230515-30]
 subset: cell_slim
 synonym: "commissural longitudinal ascending interneuron" EXACT []
 xref: TAO:0005234
@@ -23324,7 +23328,7 @@ creation_date: 2009-07-17T04:14:51Z
 id: ZFA:0005235
 name: UCoD
 namespace: zebrafish_anatomy
-def: "A unipolar spinal interneuron that forms dendritic trunk laterally with extensive dendritic branching.  The axon extends ventrally, lateral to the Mauthner axons before crssoing the cord and descending ventrally." [ZFIN:ZDB-PUB-010807-17]
+def: "A unipolar spinal interneuron that forms dendritic trunk laterally with extensive dendritic branching.  The axon extends ventrally, lateral to the Mauthner axons before crossing the cord and descending ventrally." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-010807-17]
 subset: cell_slim
 synonym: "unipolar commissural descending interneuron" RELATED []
 xref: TAO:0005235
@@ -23523,7 +23527,7 @@ creation_date: 2009-08-12T01:43:26Z
 id: ZFA:0005247
 name: CiA
 namespace: zebrafish_anatomy
-def: "Interneurons of the spinal cord that arise from the V1 proliferation domain.  The CiA neurons inhibit motoneurons, other ventral interneurons and also inhibit dorsal sensory neurons involved in sensory gating,.  CiA have ipsilateral axonal projections in both motor and sensory regions of spinal cord." [ZFIN:ZDB-PUB-040625-12, ZFIN:ZDB-PUB-060418-1]
+def: "Interneurons of the spinal cord that arise from the V1 proliferation domain.  The CiA neurons inhibit motoneurons, other ventral interneurons and also inhibit dorsal sensory neurons involved in sensory gating.  CiA have ipsilateral axonal projections in both motor and sensory regions of spinal cord." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-040625-12, ZFIN:ZDB-PUB-060418-1]
 subset: cell_slim
 synonym: "circumferential ascending interneuron" EXACT []
 synonym: "V1 interneuron" RELATED []
@@ -32575,6 +32579,160 @@ created_by: ceriv
 creation_date: 2023-06-09T09:20:28Z
 
 [Term]
+id: ZFA:0005959
+name: ural vertebra
+namespace: zebrafish_anatomy
+def: "Vertebrae that are posterior to the preural vertebrae.  There is disagreement whether the diural interpretation or polyural interpretation of the caudal skeleton is what is observed in zebrafish. These two interpretations lead to differences in counting the ural vertebrae.   Diural interpretations consider the basic bauplan of the caudal fin to be composed of an anterior centrum (preural centrum 1 + ural centrum 1) supporting the parhypural and hypurals 1 and 2 and a posterior centrum supporting hypurals 3 -5 or 3-6  with variations in hypural number due to fusion or loss. From the polyural perspective, the teleost caudal fin is considered an evolutionary derivation of a fully metameristic caudal fin in which each hypural is supported by a single ural centrum with its own neural arch." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-011008-1, ZFIN:ZDB-PUB-020807-1, ZFIN:ZDB-PUB-031103-13, ZFIN:ZDB-PUB-170304-9]
+is_a: ZFA:0001189 ! vertebra
+relationship: end ZFS:0000044 ! adult
+relationship: part_of ZFA:0000862 ! caudal fin skeleton
+relationship: start ZFS:0000035 ! larval:protruding-mouth
+created_by: zfinf
+creation_date: 2024-08-15T12:42:50Z
+
+[Term]
+id: ZFA:0005960
+name: hypural diastema
+namespace: zebrafish_anatomy
+def: "Gap between hypural two and three separating the upper and lower lobes of the caudal fin." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-240120-4]
+is_a: ZFA:0001643 ! anatomical space
+relationship: end ZFS:0000044 ! adult
+relationship: part_of ZFA:0001058 ! caudal fin
+relationship: start ZFS:0000036 ! larval:day 4
+created_by: zfinf
+creation_date: 2024-08-15T14:56:17Z
+
+[Term]
+id: ZFA:0005961
+name: opisthural cartilage
+namespace: zebrafish_anatomy
+def: "A specialized cartilaginous structure derived from the notochordal sheath that covers the posterior end of the notochord." [ORCID:0000-0002-2244-7917]
+is_a: ZFA:0001457 ! postcranial axial cartilage
+relationship: end ZFS:0000044 ! adult
+relationship: part_of ZFA:0000862 ! caudal fin skeleton
+relationship: start ZFS:0000000 ! unknown
+created_by: zfinf
+creation_date: 2024-08-15T15:09:45Z
+
+[Term]
+id: ZFA:0005962
+name: neuromast-associated ionocyte
+namespace: zebrafish_anatomy
+def: "Ionocytes associated with neuromasts. Nm ionocytes are not present at the time of neuromast deposition, and are derived from basal keratinocytes surrounding neuromasts. Nm ionocyte progenitors migrate into neuromasts as pairs of cells. The invasion process is triggered in response to changing environmental stimuli such as salinity and pH." [ORCID:0000-0002-1009-339X, ZFIN:ZDB-PUB-210421-6.]
+is_a: ZFA:0005323 ! ionocyte
+relationship: end ZFS:0000044 ! adult
+relationship: start ZFS:0000000 ! unknown
+created_by: zfinf
+creation_date: 2024-08-15T15:20:01Z
+
+[Term]
+id: ZFA:0005963
+name: DC2 dopaminergic neuron
+namespace: zebrafish_anatomy
+def: "Large pear-shaped dopaminergic neuron that ascend from the ventral diencephalon group DC2 to the telencephalon. These neurons may be the correlate of mammalian substantia nigra (SNc) neurons.  DC2 neurons are located rostrally and their processes project laterally." [ORCID:0000-0002-1009-339X, ZFIN:ZDB-PUB-001220-2, ZFIN:ZDB-PUB-020730-6, ZFIN:ZDB-PUB-110131-27, ZFIN:ZDB-PUB-210319-11]
+is_a: ZFA:0009301 ! dopaminergic neuron
+relationship: end ZFS:0000044 ! adult
+relationship: part_of ZFA:0000408 ! periventricular nucleus of caudal tuberculum
+relationship: start ZFS:0000000 ! unknown
+created_by: zfinf
+creation_date: 2024-08-15T15:39:04Z
+
+[Term]
+id: ZFA:0005964
+name: DC4 dopaminergic neuron
+namespace: zebrafish_anatomy
+def: "Large pear-shaped dopaminergic neuron that ascend from the posterior tuberculum to the subpallium. These neurons may be the correlate of mammalian substantia nigra (SNc) neurons. DC4 neurons are located caudally and their processes projected dorsolaterally." [ORCID:0000-0002-1009-339X, ZFIN:ZDB-PUB-001220-2, ZFIN:ZDB-PUB-020730-6, ZFIN:ZDB-PUB-110131-27, ZFIN:ZDB-PUB-210319-11]
+is_a: ZFA:0009301 ! dopaminergic neuron
+relationship: end ZFS:0000044 ! adult
+relationship: part_of ZFA:0000408 ! periventricular nucleus of caudal tuberculum
+relationship: start ZFS:0000000 ! unknown
+created_by: zfinf
+creation_date: 2024-08-15T15:42:05Z
+
+[Term]
+id: ZFA:0005965
+name: striolar hair cell
+namespace: zebrafish_anatomy
+def: "Hair cell that is located in the macula and cristae along the central area of polarity reversal where hair cell change their stereocilia orientation. The kinocilium and tallest stereocilium are roughly equal in height when the cells are mature.  These cells carry high-pass signals which are predominantly relayed by irregular-firing vestibular afferents with phasic kinetics." [GOC:cvs, ORCID:0000-0002-1009-339X, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-220829-1, ZFIN:ZDB-PUB-230105-1]
+is_a: ZFA:0009366 ! hair cell
+relationship: end ZFS:0000044 ! adult
+relationship: part_of ZFA:0000217 ! inner ear
+relationship: start ZFS:0000000 ! unknown
+created_by: zfinf
+creation_date: 2024-08-28T16:48:03Z
+
+[Term]
+id: ZFA:0005966
+name: extrastriolar hair cell
+namespace: zebrafish_anatomy
+def: "Hair cell that is located in the macula and cristae surrounding the central area of polarity reversal where hair cell change their stereocilia orientation. The kinocilium and tallest stereocilium are unequal in height when the cells are mature. Extrastriolar hair cells excite predominantly regular-firing vestibular afferents with tonic or phasic-tonic dynamic." [GOC:cvs, ORCID:0000-0002-1009-339X, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-220829-1, ZFIN:ZDB-PUB-230105-1]
+is_a: ZFA:0009366 ! hair cell
+relationship: end ZFS:0000044 ! adult
+relationship: part_of ZFA:0000217 ! inner ear
+relationship: start ZFS:0000000 ! unknown
+created_by: zfinf
+creation_date: 2024-08-28T17:10:48Z
+
+[Term]
+id: ZFA:0005967
+name: pseudobranch
+namespace: zebrafish_anatomy
+def: "An epithelial structure located anterior to the gill filaments and connected to the eye via the ophthalmic artery. It arises from mandibular arch neural crest-derived mesenchyme and first pouch endodermal epithelia. The pseudobranch appears as a small bud behind the eye at 4dpf. At 17 dpf, the pseudobranch is composed of five distinct filaments that resemble the primary gill filaments, with the five filaments merging to form a single pseudobranch by adult stages (90 dpf).  The pseudobranch is not exposed to the outside environment unlike the gills.  The pseudobranch may regulate ocular blood pressure and/or have an endocrine function." [ORCID:0000-0002-1009-339X, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-080722-8, ZFIN:ZDB-PUB-220629-5]
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! adult
+relationship: start ZFS:0000036 ! larval:day 4
+created_by: zfinf
+creation_date: 2024-09-20T07:10:16Z
+
+[Term]
+id: ZFA:0005968
+name: pseudobranch cell
+namespace: zebrafish_anatomy
+def: "Pseudobranch cells are epithelial cells characterized by apical localization of the enzyme Na + /K + -ATPase and an extensive cytoplasmic tubular network." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-080722-8]
+is_a: ZFA:0009034 ! epithelial cell
+relationship: end ZFS:0000044 ! adult
+relationship: part_of ZFA:0005967 ! pseudobranch
+relationship: start ZFS:0000036 ! larval:day 4
+created_by: zfinf
+creation_date: 2024-09-20T07:14:56Z
+
+[Term]
+id: ZFA:0005969
+name: VeMe
+namespace: zebrafish_anatomy
+def: "Descending interneurons that are the most ventrally positioned in the spinal cord.  The cell body are ventral to the level of the Mauthner axon.  The cell body is positioned medial to the central canal but do not contact it differentiating them from KA cells.  There are multiple VeMe cells in each segment and they are mulitipolar with elaborate local branching. These neurons are glutamatergic." [ORCID:0000-0002-2244-7917, ORCID:0000-0002-7496-2937, ZFIN:ZDB-PUB-010807-17, ZFIN:ZDB-PUB-220202-37]
+synonym: "V3 interneuron" RELATED [ZFIN:ZDB-PUB-230515-30]
+synonym: "ventral medial interneuron" EXACT [ZFIN:ZDB-PUB-010807-17]
+is_a: ZFA:0000778 ! spinal cord interneuron
+relationship: end ZFS:0000044 ! adult
+relationship: start ZFS:0000000 ! unknown
+created_by: zfinf
+creation_date: 2024-10-25T12:53:16Z
+
+[Term]
+id: ZFA:0005970
+name: brain lymphatic endothelial cell
+namespace: zebrafish_anatomy
+def: "Lymphatic endothelial cells located in the meningeal layer of the brain.  They are derived from venous vascular endothelium and can be found associated with meningeal blood vessels." [ORCID:0000-0002-1009-339X, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-170412-9, ZFIN:ZDB-PUB-170502-5, ZFIN:ZDB-PUB-170513-1, ZFIN:ZDB-PUB-210907-11]
+synonym: "FGP" RELATED [ZFIN:ZDB-PUB-170412-9]
+synonym: "fluorescent granular perithelial cell" EXACT [ZFIN:ZDB-PUB-170412-9]
+synonym: "mural lymphatic endothelial cell" EXACT [ZFIN:ZDB-PUB-170502-5]
+is_a: ZFA:0009065 ! endothelial cell
+relationship: part_of ZFA:0000385 ! lymphatic system
+created_by: zfinf
+creation_date: 2024-10-25T13:23:05Z
+
+[Term]
+id: ZFA:0005971
+name: motor exit point glia
+namespace: zebrafish_anatomy
+def: "Glial cell that restricts CNS-residing myelinating glia from entering the PNS. MEP glia originate from within the CNS, then migrate into the PNS, divide and produce cells that ensheath and myelinate spinal motor root axons." [ORCID:0000-0002-1009-339X, ZFIN:ZDB-PUB-141001-1, ZFIN:ZDB-PUB-181026-18]
+synonym: "MEP glia" EXACT []
+is_a: ZFA:0009147 ! glial cell (sensu Vertebrata)
+created_by: zfinf
+creation_date: 2024-10-28T16:11:46Z
+
+[Term]
 id: ZFA:0006000
 name: intermediate hypothalamus
 namespace: zebrafish_anatomy
@@ -34038,7 +34196,8 @@ creation_date: 2019-04-08T12:21:06Z
 id: ZFA:0007119
 name: intervertebral ligament
 namespace: zebrafish_anatomy
-def: "Ligament that connects adjacent vertebra. The intervertebral ligament (IVL) connects the posterior vertebral end plate to  the anterior vertebral end plate of adjacent vertebra. For example the IVL connects the posterior end plate of vertebra 14 to the anterior end plate of vertebra 15.  It is typically composed of three distinct layers: the notochord sheet which is mainly type II collagen; the outer elastin layer; and a layer of type I collagen fiber bundles." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-180808-7]
+def: "Ligament that connects adjacent vertebra. The intervertebral ligament (IVL) connects the posterior vertebral end plate to  the anterior vertebral end plate of adjacent vertebra. For example the IVL connects the posterior end plate of vertebra 14 to the anterior end plate of vertebra 15.  It is typically composed of three distinct layers: the notochord sheath which is mainly type II collagen; the outer elastin layer; and a layer of type I collagen fiber bundles." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-180808-7]
+synonym: "annulus fibrosus" EXACT [ZFIN:ZDB-PUB-210902-3]
 synonym: "IVL" EXACT []
 is_a: ZFA:0001675 ! ligament
 relationship: end ZFS:0000044 ! adult
@@ -34067,7 +34226,7 @@ creation_date: 2020-03-03T10:15:16Z
 id: ZFA:0007121
 name: ventral cerebrospinal fluid contacting neuron
 namespace: zebrafish_anatomy
-def: "A cerebrospinal fluid contacting neuron that originates form p3 progenitor domain. The apical extension of ventral CSF-cNs are more compact than that of dorsal CSF-cNs. Ventral CSF-cNs synapse with CaP motor neurons and project onto CoPA sensory interneurons. Ventral CSF-cNs respond to longitudinal contractions of the spinal cord.  Frequently called KA\" neurons." [GOC:ymb, ORDiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-170409-2]
+def: "A cerebrospinal fluid contacting neuron that originates form p3 progenitor domain. The apical extension of ventral CSF-cNs are more compact than that of dorsal CSF-cNs. Ventral CSF-cNs synapse with CaP motor neurons and project onto CoPA sensory interneurons. Ventral CSF-cNs respond to longitudinal contractions of the spinal cord.  Frequently called \"KA neurons\"." [GOC:ymb, ORDiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-170409-2]
 subset: cell_slim
 synonym: "KA 2" RELATED []
 synonym: "ventral CSF-cN" EXACT [ZFIN:ZDB-PUB-170409-2]
@@ -35686,7 +35845,7 @@ def: "An elongated, contractile cell found wrapped about precapillary arterioles
 comment: CL:0000184 was merged into CL:0000699.
 subset: cell_slim
 synonym: "pericytes" EXACT OMO:0003004 []
-synonym: "perivascular cells" EXACT []
+synonym: "perivascular cell" EXACT []
 xref: CL:0000669
 xref: TAO:0009112
 is_a: ZFA:0005944 ! mural cell
@@ -35823,7 +35982,7 @@ synonym: "auditory hair cell" EXACT []
 synonym: "auditory receptor cells" EXACT OMO:0003004 []
 xref: CL:0000202
 xref: TAO:0009121
-is_a: ZFA:0009001 ! receptor cell (sensu Animalia)
+is_a: ZFA:0009366 ! hair cell
 relationship: end ZFS:0000044 ! adult
 relationship: start ZFS:0000000 ! unknown
 
@@ -36874,6 +37033,7 @@ relationship: start ZFS:0000000 ! unknown
 id: ZFA:0009203
 name: luteinizing hormone secreting cell
 namespace: zebrafish_anatomy
+def: "Cell that secretes luteinizing hormone." [CVS:0000-0002-2244-7917]
 subset: cell_slim
 synonym: "delta basophila" EXACT []
 synonym: "gonadotrope" EXACT []
