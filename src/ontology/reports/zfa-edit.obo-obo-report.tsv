@@ -1,80 +1,107 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	duplicate_label	larva	rdfs:label	larva
-ERROR	duplicate_label	larva	rdfs:label	larva
-ERROR	duplicate_label	juvenile	rdfs:label	juvenile
-ERROR	duplicate_label	juvenile	rdfs:label	juvenile
-ERROR	duplicate_label	adult	rdfs:label	adult
-ERROR	duplicate_label	adult	rdfs:label	adult
-WARN	missing_obsolete_label	anatomical set	rdfs:label	anatomical set
-WARN	missing_obsolete_label	sensory axons peripheral	rdfs:label	sensory axons peripheral
-WARN	missing_obsolete_label	embryo	rdfs:label	embryo
-WARN	missing_obsolete_label	lateral cells	rdfs:label	lateral cells
-WARN	missing_obsolete_label	mesenchyme condensations	rdfs:label	mesenchyme condensations
-WARN	missing_obsolete_label	antorbital	rdfs:label	antorbital
-WARN	missing_obsolete_label	basisphenoid	rdfs:label	basisphenoid
-WARN	missing_obsolete_label	epicentrals	rdfs:label	epicentrals
-WARN	missing_obsolete_label	hypobranchial vessel	rdfs:label	hypobranchial vessel
-WARN	missing_obsolete_label	larva	rdfs:label	larva
-WARN	missing_obsolete_label	opercular-branchiostegal series	rdfs:label	opercular-branchiostegal series
-WARN	missing_obsolete_label	supramaxillae	rdfs:label	supramaxillae
-WARN	missing_obsolete_label	hypural arches	rdfs:label	hypural arches
-WARN	missing_obsolete_label	dermopalatine	rdfs:label	dermopalatine
-WARN	missing_obsolete_label	duodenum	rdfs:label	duodenum
-WARN	missing_obsolete_label	infraorbital bridge	rdfs:label	infraorbital bridge
-WARN	missing_obsolete_label	juvenile	rdfs:label	juvenile
-WARN	missing_obsolete_label	last preural centrum	rdfs:label	last preural centrum
-WARN	missing_obsolete_label	stomach	rdfs:label	stomach
-WARN	missing_obsolete_label	Mauthner axon	rdfs:label	Mauthner axon
-WARN	missing_obsolete_label	medial pterygiophores anal fin	rdfs:label	medial pterygiophores anal fin
-WARN	missing_obsolete_label	supraorbital series	rdfs:label	supraorbital series
-WARN	missing_obsolete_label	brachium conjunctivum	rdfs:label	brachium conjunctivum
-WARN	missing_obsolete_label	dental plate	rdfs:label	dental plate
-WARN	missing_obsolete_label	ural ossification	rdfs:label	ural ossification
-WARN	missing_obsolete_label	presumptive neuron neural tube	rdfs:label	presumptive neuron neural tube
-WARN	missing_obsolete_label	facial neural crest	rdfs:label	facial neural crest
-WARN	missing_obsolete_label	medial pterygiophores dorsal fin	rdfs:label	medial pterygiophores dorsal fin
-WARN	missing_obsolete_label	peripheral motor axons	rdfs:label	peripheral motor axons
-WARN	missing_obsolete_label	adult	rdfs:label	adult
-WARN	missing_obsolete_label	pars tuberalis	rdfs:label	pars tuberalis
-WARN	missing_obsolete_label	pharyngobranchial 1	rdfs:label	pharyngobranchial 1
-WARN	missing_obsolete_label	pharyngobranchial 2+3	rdfs:label	pharyngobranchial 2+3
-WARN	missing_obsolete_label	cranial motoneurons	rdfs:label	cranial motoneurons
-WARN	missing_obsolete_label	mentomeckelian	rdfs:label	mentomeckelian
-WARN	missing_obsolete_label	visceral organ	rdfs:label	visceral organ
-WARN	missing_obsolete_label	presumptive cardinal organ	rdfs:label	presumptive cardinal organ
-WARN	missing_obsolete_label	presumptive organ	rdfs:label	presumptive organ
-WARN	missing_obsolete_label	presumptive organ system	rdfs:label	presumptive organ system
-WARN	missing_obsolete_label	axial bone	rdfs:label	axial bone
-WARN	missing_obsolete_label	chondrocranium bone	rdfs:label	chondrocranium bone
-WARN	missing_obsolete_label	cranial bone	rdfs:label	cranial bone
-WARN	missing_obsolete_label	pharyngeal arch bone	rdfs:label	pharyngeal arch bone
-WARN	missing_obsolete_label	dermatocranium bone	rdfs:label	dermatocranium bone
-WARN	missing_obsolete_label	axial fin bone	rdfs:label	axial fin bone
-WARN	missing_obsolete_label	paired fin bone	rdfs:label	paired fin bone
-WARN	missing_obsolete_label	fin bone	rdfs:label	fin bone
-WARN	missing_obsolete_label	pons	rdfs:label	pons
-WARN	missing_obsolete_label	distal conduction system	rdfs:label	distal conduction system
-WARN	missing_obsolete_label	lymph node	rdfs:label	lymph node
-WARN	missing_obsolete_label	metanephric mesenchyme stem cell	rdfs:label	metanephric mesenchyme stem cell
-WARN	missing_obsolete_label	non-visual cell (sensu Vertebrata)	rdfs:label	non-visual cell (sensu Vertebrata)
-WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	urinary space
-WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	urinary space
-WARN	duplicate_exact_synonym	rostral octaval nerve motor nucleus	has_exact_synonym	rostral cranial nerve VIII motor nucleus
-WARN	duplicate_exact_synonym	caudal octaval nerve motor nucleus	has_exact_synonym	rostral cranial nerve VIII motor nucleus
-WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	inter-glomerular space
-WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	inter-glomerular space
-WARN	duplicate_exact_synonym	follicle stimulating hormone secreting cell	has_exact_synonym	gonadotrope
-WARN	duplicate_exact_synonym	luteinizing hormone secreting cell	has_exact_synonym	gonadotrope
-WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	Bowman's space
-WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	Bowman's space
-WARN	duplicate_exact_synonym	renal glomerular capsule	has_exact_synonym	Bowman's capsule 
-WARN	duplicate_exact_synonym	pronephric glomerular capsule	has_exact_synonym	Bowman's capsule 
-WARN	duplicate_exact_synonym	supracleithrum-vertebral ligament	has_exact_synonym	Baudelot's ligament
-WARN	duplicate_exact_synonym	cleithrum-vertebral ligament	has_exact_synonym	Baudelot's ligament
+WARN	annotation_whitespace	caudal hypothalamic zone	has_exact_synonym	hypothalamus pars tuberalis 
+WARN	annotation_whitespace	telencephalic ventricle	has_exact_synonym	ventriculi telencephali 
+WARN	annotation_whitespace	intestinal bulb	has_exact_synonym	 pseudogaster 
+WARN	annotation_whitespace	myocardium	has_related_synonym	heart muscle 
+WARN	annotation_whitespace	choroid plexus third ventricle	has_exact_synonym	diencephalic choroid plexus 
+WARN	annotation_whitespace	pronephric glomerulus	has_exact_synonym	pronephric glomus 
+WARN	annotation_whitespace	preural centrum 1+ ural centrum 1	has_related_synonym	urostyle 
+WARN	annotation_whitespace	caudal fin procurrent ray	has_related_synonym	caudal procurrent ray 
+WARN	annotation_whitespace	dorsal fin radial	has_related_synonym	dorsal fin pterygiophore 
+WARN	annotation_whitespace	head muscle	has_related_synonym	cranial muscle 
+WARN	annotation_whitespace	solid lens vesicle	has_exact_synonym	 immature lens
+WARN	annotation_whitespace	scale primordium	has_exact_synonym	scale primordia 
+WARN	annotation_whitespace	aortic arch	has_exact_synonym	branchial aortic arches 
+WARN	annotation_whitespace	ventral wall of dorsal aorta	has_exact_synonym	DA-PCV joint 
+WARN	annotation_whitespace	peripheral cardiac conduction system	has_related_synonym	distal conduction system 
+WARN	annotation_whitespace	dentine	has_exact_synonym	dentin 
+WARN	annotation_whitespace	MiD2i	has_exact_synonym	middle dorsal 2 ipsilateral interneuron 
+WARN	annotation_whitespace	MiD2cl	has_exact_synonym	middle dorsal 2 contralateral llf interneuron 
+WARN	annotation_whitespace	MiD2cm	has_exact_synonym	middle dorsal 2 contralateral mlf interneuron 
+WARN	annotation_whitespace	MiM1	has_exact_synonym	middle medial interneuron 
+WARN	annotation_whitespace	MiR1	has_exact_synonym	middle rostral 1 interneuron 
+WARN	annotation_whitespace	MiR2	has_exact_synonym	middle rostral 2 interneuron 
+WARN	annotation_whitespace	MiV1	has_exact_synonym	middle ventral 1 neuron 
+WARN	annotation_whitespace	MiV2	has_exact_synonym	middle ventral 2 neuron 
+WARN	annotation_whitespace	RoI2C	has_exact_synonym	rostral intermediate 2 caudal interneuron 
+WARN	annotation_whitespace	RoI2R	has_exact_synonym	rostral intermediate 2 rostral interneuron 
+WARN	annotation_whitespace	RoL1	has_exact_synonym	rostral lateral 1 interneuron 
+WARN	annotation_whitespace	MiD3cl	has_exact_synonym	middle dorsal 3 contralateral llf interneuron 
+WARN	annotation_whitespace	MiD3cm	has_exact_synonym	middle dorsal 3 contralateral mlf interneuron 
+WARN	annotation_whitespace	MiD3i	has_exact_synonym	middle dorsal 3 ipsilateral interneuron 
+WARN	annotation_whitespace	RoL2	has_exact_synonym	rostral lateral 2 interneuron 
+WARN	annotation_whitespace	RoL2r	has_exact_synonym	rostral lateral 2 rostral interneuron 
+WARN	annotation_whitespace	RoL2c	has_exact_synonym	rostral lateral 2 caudal interneuron 
+WARN	annotation_whitespace	RoL3	has_exact_synonym	rostral lateral 3 interneuron 
+WARN	annotation_whitespace	RoM1c	has_exact_synonym	rostral medial 1 caudal interneuron 
+WARN	annotation_whitespace	RoM1r	has_exact_synonym	rostral medial 1 rostral interneuron 
+WARN	annotation_whitespace	RoV3	has_exact_synonym	rostral ventral 3 interneuron 
+WARN	annotation_whitespace	RoM2l	has_exact_synonym	rostral medial 2 lateral interneuron 
+WARN	annotation_whitespace	RoM2m	has_exact_synonym	rostral medial 2 medial interneuron 
+WARN	annotation_whitespace	RoM3l	has_exact_synonym	rostral medial 3 lateral interneuron 
+WARN	annotation_whitespace	RoM3m	has_related_synonym	rostral medial 3 medial interneuron 
+WARN	annotation_whitespace	MCoD	has_related_synonym	V0v 
+WARN	annotation_whitespace	renal glomerular capsule	has_exact_synonym	Bowman's capsule 
+WARN	annotation_whitespace	primordial ligament	has_exact_synonym	articular-maxillary ligament 
+WARN	annotation_whitespace	primordial ligament	has_exact_synonym	ligamentum primordiale 
+WARN	annotation_whitespace	pronephric glomerular capsule	has_exact_synonym	Bowman's capsule 
+WARN	annotation_whitespace	posterior recess	has_exact_synonym	recessus posterior 
+WARN	annotation_whitespace	dorsal fin lepidotrichium 1	has_exact_synonym	dorsal fin ray 1 
+WARN	annotation_whitespace	caudal fin principal ray 1	has_exact_synonym	caudal principal lepidotrichium 1 
+WARN	annotation_whitespace	caudal fin principal ray 1	has_exact_synonym	caudal principal ray 1 
+WARN	annotation_whitespace	caudal fin principal ray 3	has_exact_synonym	caudal principal lepidotrichium 3 
+WARN	annotation_whitespace	caudal fin principal ray 2	has_exact_synonym	caudal principal lepidotrichium 2 
+WARN	annotation_whitespace	caudal fin principal ray 4	has_exact_synonym	caudal principal lepidotrichium 4 
+WARN	annotation_whitespace	proximal pars anterior	has_exact_synonym	 proximal pars distalis
+WARN	annotation_whitespace	lG2	has_exact_synonym	lcG2 
+WARN	annotation_whitespace	lg5	has_exact_synonym	lcG5 
+WARN	annotation_whitespace	mdG1	has_exact_synonym	mediodorsal posterior glomerulus 1 
+WARN	annotation_whitespace	mdG2	has_exact_synonym	mdpG2 
+WARN	annotation_whitespace	maGx	has_related_synonym	medial anterior glomeruli 
+WARN	annotation_whitespace	medial protoglomerulus 1	has_related_synonym	MG1 
+WARN	annotation_whitespace	pancreatic PP cell	has_related_synonym	pancreatic F cells 
+WARN	annotation_whitespace	fertilized egg	has_exact_synonym	zygote 
+WARN	annotation_whitespace	hypocretin-secreting neuron	has_related_synonym	orexin secreting neuron 
+WARN	annotation_whitespace	T interneuron	has_related_synonym	T shaped reticular neuron 
+WARN	annotation_whitespace	dorsal interfilamental caudal muscle	has_exact_synonym	"interfilamenti caudalis dorsalis	"
+WARN	annotation_whitespace	deep lateral ventral muscle	has_exact_synonym	lateralis profundus ventralis 
+WARN	annotation_whitespace	lymphatic branchial arch 4	has_exact_synonym	LAA4 
+WARN	annotation_whitespace	medial facial lymph vessel	has_exact_synonym	MFL 
+WARN	annotation_whitespace	nucleus of the caudal commissure	has_exact_synonym	 nuc PC
+WARN	annotation_whitespace	nucleus of the caudal commissure	has_related_synonym	nucleus of the tract of the posterior commissure 
+WARN	annotation_whitespace	griseum tectale	has_exact_synonym	tectal grey 
+WARN	annotation_whitespace	tract of the commissure of the caudal tuberculum	has_exact_synonym	 TCPT
+WARN	annotation_whitespace	lateral basicapsular commissure	has_exact_synonym	 lateral  basicranial commissure
+WARN	annotation_whitespace	lateral basicapsular commissure	has_related_synonym	lateral commissure 
+WARN	annotation_whitespace	coronoid process	has_exact_synonym	 coronoid process of Meckel's cartilage
+WARN	annotation_whitespace	tectal neuropile	has_related_synonym	synaptic neuropil 
+WARN	annotation_whitespace	presumptive preglomerular region	has_related_synonym	preglomerular anlagen 
+WARN	annotation_whitespace	argentum	has_exact_synonym	argenta 
+WARN	annotation_whitespace	migratory muscle precursor	has_exact_synonym	migratory mesenchymal precursor 
+WARN	annotation_whitespace	posterior hypaxial muscle	has_exact_synonym	anterior hypaxial muscle 
+WARN	annotation_whitespace	posterior hypaxial muscle	has_exact_synonym	ventral-most hypaxial muscle 
+WARN	annotation_whitespace	norepinephrine secreting cell	has_exact_synonym	 noradrenergic cell
+WARN	annotation_whitespace	immature natural killer cell	has_exact_synonym	immature NK cell 
+WARN	duplicate_exact_synonym	renal capsular space	has_exact_synonym	
+WARN	duplicate_exact_synonym	pronephric capsular space	has_exact_synonym	
+WARN	duplicate_exact_synonym	rostral octaval nerve motor nucleus	has_exact_synonym	
+WARN	duplicate_exact_synonym	caudal octaval nerve motor nucleus	has_exact_synonym	
+WARN	duplicate_exact_synonym	otic vesicle	has_exact_synonym	
+WARN	duplicate_exact_synonym	optic vein	has_exact_synonym	
+WARN	duplicate_exact_synonym	trigeminal motor nucleus	has_exact_synonym	
+WARN	duplicate_exact_synonym	nasal vein	has_exact_synonym	
+WARN	duplicate_exact_synonym	follicle stimulating hormone secreting cell	has_exact_synonym	
+WARN	duplicate_exact_synonym	luteinizing hormone secreting cell	has_exact_synonym	
+WARN	duplicate_exact_synonym	renal glomerular capsule	has_exact_synonym	
+WARN	duplicate_exact_synonym	pronephric glomerular capsule	has_exact_synonym	
+WARN	duplicate_exact_synonym	supracleithrum-vertebral ligament	has_exact_synonym	
+WARN	duplicate_exact_synonym	cleithrum-vertebral ligament	has_exact_synonym	
+WARN	duplicate_label_synonym	maxillo-mandibular ligament	has_exact_synonym	maxillo-mandibular ligament
 WARN	missing_definition	part of	definition	
 WARN	missing_definition	has_part	definition	
 WARN	missing_definition	definition	definition	
 WARN	missing_definition	term replaced by	definition	
+WARN	missing_definition	plural form	definition	
 WARN	missing_definition	overlaps	definition	
 WARN	missing_definition	develops from	definition	
 WARN	missing_definition	endoderm	definition	
@@ -156,7 +183,6 @@ WARN	missing_definition	saccus dorsalis	definition
 WARN	missing_definition	superior reticular formation medial column	definition	
 WARN	missing_definition	ventral funiculus	definition	
 WARN	missing_definition	ventral oblique branchial muscle	definition	
-WARN	missing_definition	ventral transverse	definition	
 WARN	missing_definition	decussation of the medial octavolateralis nucleus	definition	
 WARN	missing_definition	descending octaval nucleus	definition	
 WARN	missing_definition	dorsal horn spinal cord	definition	
@@ -194,7 +220,6 @@ WARN	missing_definition	hypaxial myotome region	definition
 WARN	missing_definition	myoseptum	definition	
 WARN	missing_definition	pharyngeal endoderm	definition	
 WARN	missing_definition	neuroectoderm	definition	
-WARN	missing_definition	pharyngeal pouch 1	definition	
 WARN	missing_definition	pharyngeal pouches 2-6	definition	
 WARN	missing_definition	pharyngeal pouch 2	definition	
 WARN	missing_definition	pharyngeal pouch 3	definition	
@@ -354,7 +379,6 @@ WARN	missing_definition	hypodermal cell	definition
 WARN	missing_definition	reticular cell	definition	
 WARN	missing_definition	alkali secreting cell	definition	
 WARN	missing_definition	follicle stimulating hormone secreting cell	definition	
-WARN	missing_definition	luteinizing hormone secreting cell	definition	
 WARN	missing_definition	calcitonin secreting cell	definition	
 WARN	missing_definition	parathyroid hormone secreting cell	definition	
 WARN	missing_definition	thyroid hormone secreting cell	definition	
@@ -453,10 +477,11 @@ WARN	missing_definition	pharyngula	definition
 WARN	missing_definition	juvenile	definition	
 WARN	missing_definition	hatching	definition	
 WARN	missing_definition	zebrafish stage	definition	
-WARN	missing_definition	PLURAL	definition	
 WARN	missing_definition	subset_property	definition	
 WARN	missing_definition	synonym_type_property	definition	
 WARN	missing_definition	consider	definition	
+WARN	missing_definition	created by	definition	
+WARN	missing_definition	creation date	definition	
 WARN	missing_definition	has_alternative_id	definition	
 WARN	missing_definition	has_broad_synonym	definition	
 WARN	missing_definition	database_cross_reference	definition	
@@ -466,94 +491,61 @@ WARN	missing_definition	has_obo_format_version	definition
 WARN	missing_definition	has_obo_namespace	definition	
 WARN	missing_definition	has_related_synonym	definition	
 WARN	missing_definition	has_synonym_type	definition	
+WARN	missing_definition	id	definition	
 WARN	missing_definition	in_subset	definition	
 WARN	missing_definition	shorthand	definition	
 WARN	missing_definition	treat-xrefs-as-genus-differentia	definition	
-WARN	duplicate_label_synonym	maxillo-mandibular ligament	has_exact_synonym	maxillo-mandibular ligament
-WARN	annotation_whitespace	caudal hypothalamic zone	has_exact_synonym	hypothalamus pars tuberalis 
-WARN	annotation_whitespace	telencephalic ventricle	has_exact_synonym	ventriculi telencephali 
-WARN	annotation_whitespace	intestinal bulb	has_exact_synonym	 pseudogaster 
-WARN	annotation_whitespace	myocardium	has_related_synonym	heart muscle 
-WARN	annotation_whitespace	choroid plexus third ventricle	has_exact_synonym	diencephalic choroid plexus 
-WARN	annotation_whitespace	pronephric glomerulus	has_exact_synonym	pronephric glomus 
-WARN	annotation_whitespace	preural centrum 1+ ural centrum 1	has_related_synonym	urostyle 
-WARN	annotation_whitespace	caudal fin procurrent ray	has_related_synonym	caudal procurrent ray 
-WARN	annotation_whitespace	dorsal fin radial	has_related_synonym	dorsal fin pterygiophore 
-WARN	annotation_whitespace	head muscle	has_related_synonym	cranial muscle 
-WARN	annotation_whitespace	solid lens vesicle	has_exact_synonym	 immature lens
-WARN	annotation_whitespace	scale primordium	has_exact_synonym	scale primordia 
-WARN	annotation_whitespace	aortic arch	has_exact_synonym	branchial aortic arches 
-WARN	annotation_whitespace	ventral wall of dorsal aorta	has_exact_synonym	DA-PCV joint 
-WARN	annotation_whitespace	peripheral cardiac conduction system	has_related_synonym	distal conduction system 
-WARN	annotation_whitespace	dentine	has_exact_synonym	dentin 
-WARN	annotation_whitespace	MiD2i	has_exact_synonym	middle dorsal 2 ipsilateral interneuron 
-WARN	annotation_whitespace	MiD2cl	has_exact_synonym	middle dorsal 2 contralateral llf interneuron 
-WARN	annotation_whitespace	MiD2cm	has_exact_synonym	middle dorsal 2 contralateral mlf interneuron 
-WARN	annotation_whitespace	MiM1	has_exact_synonym	middle medial interneuron 
-WARN	annotation_whitespace	MiR1	has_exact_synonym	middle rostral 1 interneuron 
-WARN	annotation_whitespace	MiR2	has_exact_synonym	middle rostral 2 interneuron 
-WARN	annotation_whitespace	MiV1	has_exact_synonym	middle ventral 1 neuron 
-WARN	annotation_whitespace	MiV2	has_exact_synonym	middle ventral 2 neuron 
-WARN	annotation_whitespace	RoI2C	has_exact_synonym	rostral intermediate 2 caudal interneuron 
-WARN	annotation_whitespace	RoI2R	has_exact_synonym	rostral intermediate 2 rostral interneuron 
-WARN	annotation_whitespace	RoL1	has_exact_synonym	rostral lateral 1 interneuron 
-WARN	annotation_whitespace	MiD3cl	has_exact_synonym	middle dorsal 3 contralateral llf interneuron 
-WARN	annotation_whitespace	MiD3cm	has_exact_synonym	middle dorsal 3 contralateral mlf interneuron 
-WARN	annotation_whitespace	MiD3i	has_exact_synonym	middle dorsal 3 ipsilateral interneuron 
-WARN	annotation_whitespace	RoL2	has_exact_synonym	rostral lateral 2 interneuron 
-WARN	annotation_whitespace	RoL2r	has_exact_synonym	rostral lateral 2 rostral interneuron 
-WARN	annotation_whitespace	RoL2c	has_exact_synonym	rostral lateral 2 caudal interneuron 
-WARN	annotation_whitespace	RoL3	has_exact_synonym	rostral lateral 3 interneuron 
-WARN	annotation_whitespace	RoM1c	has_exact_synonym	rostral medial 1 caudal interneuron 
-WARN	annotation_whitespace	RoM1r	has_exact_synonym	rostral medial 1 rostral interneuron 
-WARN	annotation_whitespace	RoV3	has_exact_synonym	rostral ventral 3 interneuron 
-WARN	annotation_whitespace	RoM2l	has_exact_synonym	rostral medial 2 lateral interneuron 
-WARN	annotation_whitespace	RoM2m	has_exact_synonym	rostral medial 2 medial interneuron 
-WARN	annotation_whitespace	RoM3l	has_exact_synonym	rostral medial 3 lateral interneuron 
-WARN	annotation_whitespace	RoM3m	has_related_synonym	rostral medial 3 medial interneuron 
-WARN	annotation_whitespace	renal glomerular capsule	has_exact_synonym	Bowman's capsule 
-WARN	annotation_whitespace	primordial ligament	has_exact_synonym	articular-maxillary ligament 
-WARN	annotation_whitespace	primordial ligament	has_exact_synonym	ligamentum primordiale 
-WARN	annotation_whitespace	pronephric glomerular capsule	has_exact_synonym	Bowman's capsule 
-WARN	annotation_whitespace	posterior recess	has_exact_synonym	recessus posterior 
-WARN	annotation_whitespace	dorsal fin lepidotrichium 1	has_exact_synonym	dorsal fin ray 1 
-WARN	annotation_whitespace	caudal fin principal ray 1	has_exact_synonym	caudal principal lepidotrichium 1 
-WARN	annotation_whitespace	caudal fin principal ray 1	has_exact_synonym	caudal principal ray 1 
-WARN	annotation_whitespace	caudal fin principal ray 3	has_exact_synonym	caudal principal lepidotrichium 3 
-WARN	annotation_whitespace	caudal fin principal ray 2	has_exact_synonym	caudal principal lepidotrichium 2 
-WARN	annotation_whitespace	caudal fin principal ray 4	has_exact_synonym	caudal principal lepidotrichium 4 
-WARN	annotation_whitespace	proximal pars anterior	has_exact_synonym	 proximal pars distalis
-WARN	annotation_whitespace	lG2	has_exact_synonym	lcG2 
-WARN	annotation_whitespace	lg5	has_exact_synonym	lcG5 
-WARN	annotation_whitespace	mdG1	has_exact_synonym	mediodorsal posterior glomerulus 1 
-WARN	annotation_whitespace	mdG2	has_exact_synonym	mdpG2 
-WARN	annotation_whitespace	maGx	has_related_synonym	medial anterior glomeruli 
-WARN	annotation_whitespace	medial protoglomerulus 1	has_related_synonym	MG1 
-WARN	annotation_whitespace	pancreatic PP cell	has_related_synonym	pancreatic F cells 
-WARN	annotation_whitespace	fertilized egg	has_exact_synonym	zygote 
-WARN	annotation_whitespace	hypocretin-secreting neuron	has_related_synonym	orexin secreting neuron 
-WARN	annotation_whitespace	T interneuron	has_related_synonym	T shaped reticular neuron 
-WARN	annotation_whitespace	dorsal interfilamental caudal muscle	has_exact_synonym	"interfilamenti caudalis dorsalis	"
-WARN	annotation_whitespace	deep lateral ventral muscle	has_exact_synonym	lateralis profundus ventralis 
-WARN	annotation_whitespace	lymphatic branchial arch 4	has_exact_synonym	LAA4 
-WARN	annotation_whitespace	medial facial lymph vessel	has_exact_synonym	MFL 
-WARN	annotation_whitespace	nucleus of the caudal commissure	has_exact_synonym	 nuc PC
-WARN	annotation_whitespace	nucleus of the caudal commissure	has_related_synonym	nucleus of the tract of the posterior commissure 
-WARN	annotation_whitespace	griseum tectale	has_exact_synonym	tectal grey 
-WARN	annotation_whitespace	tract of the commissure of the caudal tuberculum	has_exact_synonym	 TCPT
-WARN	annotation_whitespace	lateral basicapsular commissure	has_exact_synonym	 lateral  basicranial commissure
-WARN	annotation_whitespace	lateral basicapsular commissure	has_related_synonym	lateral commissure 
-WARN	annotation_whitespace	coronoid process	has_exact_synonym	 coronoid process of Meckel's cartilage
-WARN	annotation_whitespace	tectal neuropile	has_related_synonym	synaptic neuropil 
-WARN	annotation_whitespace	presumptive preglomerular region	has_related_synonym	preglomerular anlagen 
-WARN	annotation_whitespace	argentum	has_exact_synonym	argenta 
-WARN	annotation_whitespace	migratory muscle precursor	has_exact_synonym	migratory mesenchymal precursor 
-WARN	annotation_whitespace	posterior hypaxial muscle	has_exact_synonym	anterior hypaxial muscle 
-WARN	annotation_whitespace	posterior hypaxial muscle	has_exact_synonym	ventral-most hypaxial muscle 
-WARN	annotation_whitespace	norepinephrine secreting cell	has_exact_synonym	 noradrenergic cell
-WARN	annotation_whitespace	immature natural killer cell	has_exact_synonym	immature NK cell 
-INFO	missing_superclass	zebrafish anatomical entity	rdfs:subClassOf	
-INFO	missing_superclass	zebrafish stage	rdfs:subClassOf	
+WARN	missing_obsolete_label	anatomical set	rdfs:label	anatomical set
+WARN	missing_obsolete_label	sensory axons peripheral	rdfs:label	sensory axons peripheral
+WARN	missing_obsolete_label	embryo	rdfs:label	embryo
+WARN	missing_obsolete_label	lateral cells	rdfs:label	lateral cells
+WARN	missing_obsolete_label	mesenchyme condensations	rdfs:label	mesenchyme condensations
+WARN	missing_obsolete_label	antorbital	rdfs:label	antorbital
+WARN	missing_obsolete_label	basisphenoid	rdfs:label	basisphenoid
+WARN	missing_obsolete_label	epicentrals	rdfs:label	epicentrals
+WARN	missing_obsolete_label	hypobranchial vessel	rdfs:label	hypobranchial vessel
+WARN	missing_obsolete_label	opercular-branchiostegal series	rdfs:label	opercular-branchiostegal series
+WARN	missing_obsolete_label	supramaxillae	rdfs:label	supramaxillae
+WARN	missing_obsolete_label	hypural arches	rdfs:label	hypural arches
+WARN	missing_obsolete_label	dermopalatine	rdfs:label	dermopalatine
+WARN	missing_obsolete_label	duodenum	rdfs:label	duodenum
+WARN	missing_obsolete_label	infraorbital bridge	rdfs:label	infraorbital bridge
+WARN	missing_obsolete_label	last preural centrum	rdfs:label	last preural centrum
+WARN	missing_obsolete_label	stomach	rdfs:label	stomach
+WARN	missing_obsolete_label	Mauthner axon	rdfs:label	Mauthner axon
+WARN	missing_obsolete_label	medial pterygiophores anal fin	rdfs:label	medial pterygiophores anal fin
+WARN	missing_obsolete_label	supraorbital series	rdfs:label	supraorbital series
+WARN	missing_obsolete_label	brachium conjunctivum	rdfs:label	brachium conjunctivum
+WARN	missing_obsolete_label	dental plate	rdfs:label	dental plate
+WARN	missing_obsolete_label	ural ossification	rdfs:label	ural ossification
+WARN	missing_obsolete_label	presumptive neuron neural tube	rdfs:label	presumptive neuron neural tube
+WARN	missing_obsolete_label	facial neural crest	rdfs:label	facial neural crest
+WARN	missing_obsolete_label	medial pterygiophores dorsal fin	rdfs:label	medial pterygiophores dorsal fin
+WARN	missing_obsolete_label	peripheral motor axons	rdfs:label	peripheral motor axons
+WARN	missing_obsolete_label	pars tuberalis	rdfs:label	pars tuberalis
+WARN	missing_obsolete_label	pharyngobranchial 1	rdfs:label	pharyngobranchial 1
+WARN	missing_obsolete_label	pharyngobranchial 2+3	rdfs:label	pharyngobranchial 2+3
+WARN	missing_obsolete_label	cranial motoneurons	rdfs:label	cranial motoneurons
+WARN	missing_obsolete_label	mentomeckelian	rdfs:label	mentomeckelian
+WARN	missing_obsolete_label	visceral organ	rdfs:label	visceral organ
+WARN	missing_obsolete_label	presumptive cardinal organ	rdfs:label	presumptive cardinal organ
+WARN	missing_obsolete_label	presumptive organ	rdfs:label	presumptive organ
+WARN	missing_obsolete_label	presumptive organ system	rdfs:label	presumptive organ system
+WARN	missing_obsolete_label	axial bone	rdfs:label	axial bone
+WARN	missing_obsolete_label	chondrocranium bone	rdfs:label	chondrocranium bone
+WARN	missing_obsolete_label	cranial bone	rdfs:label	cranial bone
+WARN	missing_obsolete_label	pharyngeal arch bone	rdfs:label	pharyngeal arch bone
+WARN	missing_obsolete_label	dermatocranium bone	rdfs:label	dermatocranium bone
+WARN	missing_obsolete_label	axial fin bone	rdfs:label	axial fin bone
+WARN	missing_obsolete_label	paired fin bone	rdfs:label	paired fin bone
+WARN	missing_obsolete_label	fin bone	rdfs:label	fin bone
+WARN	missing_obsolete_label	pons	rdfs:label	pons
+WARN	missing_obsolete_label	distal conduction system	rdfs:label	distal conduction system
+WARN	missing_obsolete_label	lymph node	rdfs:label	lymph node
+WARN	missing_obsolete_label	metanephric mesenchyme stem cell	rdfs:label	metanephric mesenchyme stem cell
+WARN	missing_obsolete_label	non-visual cell (sensu Vertebrata)	rdfs:label	non-visual cell (sensu Vertebrata)
 INFO	lowercase_definition	has developmental contribution from	definition	x has developmental contribution from y iff x has some part z such that z develops from y.
 INFO	lowercase_definition	start stage	definition	c existence starts during s iff start_of(c) part_of s.
 INFO	lowercase_definition	end stage	definition	c existence ends during s iff  end_of(c) part_of s.
+INFO	missing_superclass	zebrafish anatomical entity	rdfs:subClassOf	
+INFO	missing_superclass	zebrafish stage	rdfs:subClassOf	
