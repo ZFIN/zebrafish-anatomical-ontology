@@ -1,11 +1,10 @@
 format-version: 1.2
-date: 01:03:2022 16:38
-saved-by: ceriv
-auto-generated-by: OBO-Edit 2.3.1
+date: 20:03:2025 11:14
+saved-by: zfinf
+auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: zebrafish_anatomical_ontology
-namespace-id-rule: * ATP:$sequence(7,0001,1999)$
 remark: SVN version: $Revision: 1.100$
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
@@ -7140,6 +7139,7 @@ id: ZFA:0000602
 name: uroneural
 namespace: zebrafish_anatomy
 def: "Neural arch that extends along the dorso-lateral surface of the last preural centra and/or ural centra and the notochord (Arratia & Schultze, 1992). An uroneural develops as a modification of the neural arch of an ural centrum (Patterson, 1968). The series of uroneurals may include from 7 to 1 elements that are numbered from rostral to caudal. An uroneural is a paired membrane bone." [http://citebank.org/node/36904, ISSN:0362-2525, TAO:WD]
+synonym: "pleurostyle" EXACT []
 synonym: "uroneurals" EXACT PLURAL []
 xref: TAO:0000602
 is_a: ZFA:0001066 ! neural arch
