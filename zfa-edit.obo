@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:04:2025 18:02
+date: 14:04:2025 18:07
 saved-by: zfinf
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -32711,11 +32711,14 @@ id: ZFA:0005970
 name: brain lymphatic endothelial cell
 namespace: zebrafish_anatomy
 def: "Lymphatic endothelial cells located in the meningeal layer of the brain.  They are derived from venous vascular endothelium and can be found associated with meningeal blood vessels." [ORCID:0000-0002-1009-339X, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-170412-9, ZFIN:ZDB-PUB-170502-5, ZFIN:ZDB-PUB-170513-1, ZFIN:ZDB-PUB-210907-11]
+subset: cell_slim
 synonym: "FGP" RELATED [ZFIN:ZDB-PUB-170412-9]
 synonym: "fluorescent granular perithelial cell" EXACT [ZFIN:ZDB-PUB-170412-9]
 synonym: "mural lymphatic endothelial cell" EXACT [ZFIN:ZDB-PUB-170502-5]
 is_a: ZFA:0009065 ! endothelial cell
+relationship: end ZFS:0000044 ! adult
 relationship: part_of ZFA:0000385 ! lymphatic system
+relationship: start ZFS:0000000 ! unknown
 created_by: zfinf
 creation_date: 2024-10-25T13:23:05Z
 
@@ -32724,8 +32727,11 @@ id: ZFA:0005971
 name: motor exit point glia
 namespace: zebrafish_anatomy
 def: "Glial cell that restricts CNS-residing myelinating glia from entering the PNS. MEP glia originate from within the CNS, then migrate into the PNS, divide and produce cells that ensheath and myelinate spinal motor root axons." [ORCID:0000-0002-1009-339X, ZFIN:ZDB-PUB-141001-1, ZFIN:ZDB-PUB-181026-18]
+subset: cell_slim
 synonym: "MEP glia" EXACT []
 is_a: ZFA:0009147 ! glial cell (sensu Vertebrata)
+relationship: end ZFS:0000044 ! adult
+relationship: start ZFS:0000000 ! unknown
 created_by: zfinf
 creation_date: 2024-10-28T16:11:46Z
 
