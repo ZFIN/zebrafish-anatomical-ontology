@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 28:01:2025 12:26
-saved-by: ybrad
-auto-generated-by: OBO-Edit 2.3.1
+date: 21:04:2025 14:39
+saved-by: zfinf
+auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: OMO:0003004 "plural form"
 default-namespace: zebrafish_anatomical_ontology
@@ -32654,6 +32654,7 @@ id: ZFA:0005965
 name: striolar hair cell
 namespace: zebrafish_anatomy
 def: "Hair cell that is located in the macula and cristae along the central area of polarity reversal where hair cell change their stereocilia orientation. The kinocilium and tallest stereocilium are roughly equal in height when the cells are mature.  These cells carry high-pass signals which are predominantly relayed by irregular-firing vestibular afferents with phasic kinetics." [GOC:cvs, ORCID:0000-0002-1009-339X, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-220829-1, ZFIN:ZDB-PUB-230105-1]
+subset: cell_slim
 is_a: ZFA:0009366 ! hair cell
 relationship: end ZFS:0000044 ! adult
 relationship: part_of ZFA:0000217 ! inner ear
@@ -32689,6 +32690,7 @@ id: ZFA:0005968
 name: pseudobranch cell
 namespace: zebrafish_anatomy
 def: "Pseudobranch cells are epithelial cells characterized by apical localization of the enzyme Na + /K + -ATPase and an extensive cytoplasmic tubular network." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-080722-8]
+subset: cell_slim
 is_a: ZFA:0009034 ! epithelial cell
 relationship: end ZFS:0000044 ! adult
 relationship: part_of ZFA:0005967 ! pseudobranch
