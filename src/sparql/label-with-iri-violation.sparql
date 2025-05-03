@@ -4,6 +4,6 @@ SELECT ?term ?value
 WHERE {
   ?term rdfs:label ?value .
   FILTER (REGEX(?value, "http[s]?[:]"))
-  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/ZFA_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/ZFA_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/zfa.owl") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/ZFS_")))
+  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/ZFA_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/zfa.owl") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/ZFS_")))
 }
 
