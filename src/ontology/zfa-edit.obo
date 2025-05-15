@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:04:2025 14:39
+date: 15:05:2025 11:23
 saved-by: zfinf
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -17681,10 +17681,11 @@ id: ZFA:0001508
 name: trabecula communis
 namespace: zebrafish_anatomy
 def: "Cartilage formed via medial fusion between bilaterally paired trabecula cranii." [GOC:mh, ORCiD:0000-0001-9114-8737]
+comment: End stage should be adult but because of end stage of early palate changing to "unknown".
 synonym: "trabecular bar" EXACT []
 xref: TAO:0001508
 is_a: ZFA:0001461 ! chondrocranium cartilage
-relationship: end ZFS:0000044 ! adult
+relationship: end ZFS:0000000 ! unknown
 relationship: part_of ZFA:0001321 ! neurocranial trabecula
 relationship: part_of ZFA:0001580 ! neurocranium
 relationship: part_of ZFA:0005958 ! early palate
