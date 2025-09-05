@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: zfa/releases/2025-01-28/zfa-full.owl
-date: 28:01:2025 12:26
-saved-by: ybrad
-auto-generated-by: OBO-Edit 2.3.1
+data-version: zfa/releases/2025-09-05/zfa-full.owl
+date: 15:05:2025 11:23
+saved-by: zfinf
+auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: OMO:0003004 "plural form"
 default-namespace: zebrafish_anatomical_ontology
@@ -18,7 +18,7 @@ property_value: dc:description "ZFA description." xsd:string
 property_value: dc:title "Zebrafish Anatomy Ontology (ZFA)" xsd:string
 property_value: IAO:0000700 ZFA:0100000
 property_value: IAO:0000700 ZFS:0100000
-property_value: owl:versionInfo "2025-01-28" xsd:string
+property_value: owl:versionInfo "2025-09-05" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/3.0/
 
 [Term]
@@ -15990,6 +15990,7 @@ id: ZFA:0001508
 name: trabecula communis
 namespace: zebrafish_anatomy
 def: "Cartilage formed via medial fusion between bilaterally paired trabecula cranii." [GOC:mh, ORCiD:0000-0001-9114-8737]
+comment: End stage should be adult but because of end stage of early palate changing to "unknown".
 synonym: "trabecular bar" EXACT []
 xref: TAO:0001508
 is_a: ZFA:0001461 ! chondrocranium cartilage
@@ -29218,6 +29219,7 @@ id: ZFA:0005965
 name: striolar hair cell
 namespace: zebrafish_anatomy
 def: "Hair cell that is located in the macula and cristae along the central area of polarity reversal where hair cell change their stereocilia orientation. The kinocilium and tallest stereocilium are roughly equal in height when the cells are mature.  These cells carry high-pass signals which are predominantly relayed by irregular-firing vestibular afferents with phasic kinetics." [GOC:cvs, ORCID:0000-0002-1009-339X, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-220829-1, ZFIN:ZDB-PUB-230105-1]
+subset: cell_slim
 is_a: ZFA:0009366 ! hair cell
 relationship: part_of ZFA:0000217 ! inner ear
 created_by: zfinf
@@ -29248,6 +29250,7 @@ id: ZFA:0005968
 name: pseudobranch cell
 namespace: zebrafish_anatomy
 def: "Pseudobranch cells are epithelial cells characterized by apical localization of the enzyme Na + /K + -ATPase and an extensive cytoplasmic tubular network." [ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-080722-8]
+subset: cell_slim
 is_a: ZFA:0009034 ! epithelial cell
 relationship: part_of ZFA:0005967 ! pseudobranch
 relationship: start ZFS:0000036 ! larval:day 4
@@ -29259,6 +29262,7 @@ id: ZFA:0005969
 name: VeMe
 namespace: zebrafish_anatomy
 def: "Descending interneurons that are the most ventrally positioned in the spinal cord.  The cell body are ventral to the level of the Mauthner axon.  The cell body is positioned medial to the central canal but do not contact it differentiating them from KA cells.  There are multiple VeMe cells in each segment and they are mulitipolar with elaborate local branching. These neurons are glutamatergic." [ORCID:0000-0002-2244-7917, ORCID:0000-0002-7496-2937, ZFIN:ZDB-PUB-010807-17, ZFIN:ZDB-PUB-220202-37]
+subset: cell_slim
 synonym: "V3 interneuron" RELATED [ZFIN:ZDB-PUB-230515-30]
 synonym: "ventral medial interneuron" EXACT [ZFIN:ZDB-PUB-010807-17]
 is_a: ZFA:0000778 ! spinal cord interneuron
@@ -29270,6 +29274,7 @@ id: ZFA:0005970
 name: brain lymphatic endothelial cell
 namespace: zebrafish_anatomy
 def: "Lymphatic endothelial cells located in the meningeal layer of the brain.  They are derived from venous vascular endothelium and can be found associated with meningeal blood vessels." [ORCID:0000-0002-1009-339X, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-170412-9, ZFIN:ZDB-PUB-170502-5, ZFIN:ZDB-PUB-170513-1, ZFIN:ZDB-PUB-210907-11]
+subset: cell_slim
 synonym: "FGP" RELATED [ZFIN:ZDB-PUB-170412-9]
 synonym: "fluorescent granular perithelial cell" EXACT [ZFIN:ZDB-PUB-170412-9]
 synonym: "mural lymphatic endothelial cell" EXACT [ZFIN:ZDB-PUB-170502-5]
@@ -29283,6 +29288,7 @@ id: ZFA:0005971
 name: motor exit point glia
 namespace: zebrafish_anatomy
 def: "Glial cell that restricts CNS-residing myelinating glia from entering the PNS. MEP glia originate from within the CNS, then migrate into the PNS, divide and produce cells that ensheath and myelinate spinal motor root axons." [ORCID:0000-0002-1009-339X, ZFIN:ZDB-PUB-141001-1, ZFIN:ZDB-PUB-181026-18]
+subset: cell_slim
 synonym: "MEP glia" EXACT []
 is_a: ZFA:0009147 ! glial cell (sensu Vertebrata)
 created_by: zfinf
