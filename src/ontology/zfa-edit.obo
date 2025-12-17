@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:05:2025 11:23
+date: 17:12:2025 15:49
 saved-by: zfinf
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -33623,10 +33623,10 @@ creation_date: 2011-04-26T12:43:35Z
 id: ZFA:0007071
 name: flexural organ
 namespace: zebrafish_anatomy
-def: "Is a portion of tissue that is the most anterior portion of the notochord. The flexural organ secretes Reissner's fiber-related proteins, including F-spondin." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-120709-5]
+def: "Is a portion of tissue that is the most anterior portion of the notochord. The flexural organ secretes Reissner's fiber-related proteins, including F-spondin early in development." [GOC:CVS, GOC:ymb, ORCID:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-120709-5]
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! adult
-relationship: part_of ZFA:0000135 ! notochord
+relationship: part_of ZFA:0000022 ! floor plate
 relationship: start ZFS:0000000 ! unknown
 created_by: yvonne
 creation_date: 2012-07-18T02:12:26Z
