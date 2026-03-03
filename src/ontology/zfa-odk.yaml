@@ -22,3 +22,6 @@ import_group:
     - id: ro
 robot_java_args: '-Xmx8G'
 edit_format: obo
+git_main_branch: master
+workflows:
+ - qc
