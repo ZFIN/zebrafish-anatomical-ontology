@@ -9,12 +9,13 @@ treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: TAO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: VSAO part_of NCBITaxon:7955
+import: http://purl.obolibrary.org/obo/zfa/imports/ro_import.owl
 ontology: zfa
-property_value: http://purl.org/dc/elements/1.1/description "ZFA description." xsd:string
-property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Anatomy Ontology (ZFA)" xsd:string
-property_value: http://purl.org/dc/terms/license "https://creativecommons.org/licenses/by/3.0/"
-property_value: IAO:0000700 "ZFA:0100000"
-property_value: IAO:0000700 "ZFS:0100000"
+property_value: http://purl.org/dc/terms/description "ZFA description." xsd:string
+property_value: http://purl.org/dc/terms/title "Zebrafish Anatomy Ontology (ZFA)" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/
+property_value: IAO:0000700 ZFA:0100000
+property_value: IAO:0000700 ZFS:0100000
 
 [Term]
 id: ZFA:0000000
@@ -40226,8 +40227,8 @@ is_symmetric: true
 id: develops_from
 name: develops from
 xref: RO:0002202
-is_transitive: true
 holds_over_chain: part_of develops_from
+is_transitive: true
 transitive_over: part_of ! part of
 
 [Typedef]
