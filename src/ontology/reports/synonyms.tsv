@@ -3886,9 +3886,9 @@
 <http://purl.obolibrary.org/obo/ZFA_0000443>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"supraorbital lateral lines"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0009246>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"secondary neurons"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0005317>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"pectoral fin membrane"	
+<http://purl.obolibrary.org/obo/ZFA_0000019>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"pineal gland"	
 <http://purl.obolibrary.org/obo/ZFA_0000019>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"corpus pineale"	
 <http://purl.obolibrary.org/obo/ZFA_0000019>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"pineal organ"	
-<http://purl.obolibrary.org/obo/ZFA_0000019>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"pineal gland"	
 <http://purl.obolibrary.org/obo/ZFA_0009302>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"sustentacular cells"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0000115>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"rudimentary heart"	
 <http://purl.obolibrary.org/obo/ZFA_0000115>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"heart cone"	
