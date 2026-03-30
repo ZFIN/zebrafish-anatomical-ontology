@@ -9,7 +9,6 @@ treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: TAO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: VSAO part_of NCBITaxon:7955
-import: http://purl.obolibrary.org/obo/zfa/imports/ro_import.owl
 ontology: zfa
 property_value: http://purl.org/dc/terms/description "ZFA description." xsd:string
 property_value: http://purl.org/dc/terms/title "Zebrafish Anatomy Ontology (ZFA)" xsd:string
