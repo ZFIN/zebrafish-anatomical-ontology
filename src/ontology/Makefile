@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                6b8a04a652fe06fdcdd5064c10b48a9b4b6e20930e98980d67bb5b8fb8ee7781
+CONFIG_HASH=                dbcab5c441164ca1630113a2e1a9e7218b0999ac5a36674dd14985787d60112a
 
 
 # ----------------------------------------
@@ -64,7 +64,7 @@ EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
 FORMATS = $(sort  owl obo json owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
-RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-simple $(ONT)-full zfa-zfin )
+RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-simple $(ONT)-full zfa-zfin zfs-base zfs )
 
 ifeq ($(ODK_DEBUG),yes)
 ODK_DEBUG_FILE = debug.log
@@ -417,6 +417,25 @@ $(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms.txt \
 
 .PRECIOUS: $(IMPORTDIR)/%_import.owl
 
+## Module for ontology: ro (filter)
+$(IMPORTDIR)/ro_import.owl: $(MIRRORDIR)/ro.owl $(IMPORTDIR)/ro_terms.txt $(IMPORTSEED) | all_robot_plugins
+	$(ROBOT) annotate --input $< --remove-annotations \
+		 odk:normalize --add-source true \
+		 extract --term-file $(IMPORTDIR)/ro_terms.txt $(T_IMPORTSEED) \
+		         --copy-ontology-annotations true --force true --method BOT \
+		 remove --axioms external --preserve-structure false --trim false \
+		        --base-iri http://purl.obolibrary.org/obo/RO \
+		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
+		        --term rdfs:label \
+		        --term IAO:0000115 \
+		        --term OMO:0002000 \
+		        --term-file $(IMPORTDIR)/ro_terms.txt $(T_IMPORTSEED) \
+		        --select complement \
+		 odk:normalize --base-iri http://purl.obolibrary.org/obo \
+		               --subset-decls true --synonym-decls true \
+		 repair --merge-axiom-annotations true \
+		 $(ANNOTATE_CONVERT_FILE)
+
 endif # IMP=true
 
 .PHONY: refresh-imports
@@ -530,6 +549,18 @@ zfa-zfin.json: zfa-zfin.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert --check false -f json -o $@.tmp.json &&\
 		mv $@.tmp.json $@
+zfs-base.obo: zfs-base.owl
+	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@
+zfs-base.json: zfs-base.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f json -o $@.tmp.json &&\
+		mv $@.tmp.json $@
+zfs.obo: zfs.owl
+	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@
+zfs.json: zfs.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f json -o $@.tmp.json &&\
+		mv $@.tmp.json $@
 # ----------------------------------------
 # Release artefacts: main release artefacts
 # ----------------------------------------
@@ -591,6 +622,12 @@ $(ONT)-simple.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(SIMPLESEED) $(IMPORT_FILE
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 
 zfa-zfin.owl:
+	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in zfa.Makefile!" && false
+
+zfs-base.owl:
+	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in zfa.Makefile!" && false
+
+zfs.owl:
 	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in zfa.Makefile!" && false
 # ----------------------------------------
 # Debugging Tools

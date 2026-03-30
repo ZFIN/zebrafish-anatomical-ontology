@@ -46,9 +46,9 @@
         "val" : "VSAO part_of NCBITaxon:7955"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-03-25"
+        "val" : "2026-03-30"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/zfa/releases/2026-03-25/zfa-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/zfa/releases/2026-03-30/zfa-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/ZFA_0000000",
@@ -72350,10 +72350,6 @@
       "type" : "PROPERTY",
       "propertyType" : "OBJECT",
       "meta" : {
-        "definition" : {
-          "val" : "a core relation that holds between a part and its whole"
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_go_gp2term", "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_gocam" ],
         "xrefs" : [ {
           "val" : "BFO:0000050"
         } ],
@@ -72371,10 +72367,6 @@
       "type" : "PROPERTY",
       "propertyType" : "OBJECT",
       "meta" : {
-        "definition" : {
-          "val" : "a core relation that holds between a whole and its part"
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_gocam" ],
         "xrefs" : [ {
           "val" : "BFO:0000051"
         } ],
@@ -72393,9 +72385,9 @@
       "propertyType" : "OBJECT",
       "meta" : {
         "definition" : {
-          "val" : "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point."
+          "val" : "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X).",
+          "xrefs" : [ "goc:cjm" ]
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
         "xrefs" : [ {
           "val" : "BFO:0000062"
         } ],
@@ -72581,12 +72573,7 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
       "lbl" : "definition",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."
-        }
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000231",
       "type" : "PROPERTY",
@@ -72599,13 +72586,7 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
       "lbl" : "term replaced by",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "Use on obsolete terms, relating the term to another term that can be used as a substitute"
-        },
-        "comments" : [ "Add as annotation triples in the granting ontology" ]
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OMO_0003004",
       "lbl" : "plural form",
@@ -72613,14 +72594,6 @@
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/valid_for_go_gp2term",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/valid_for_go_ontology",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
@@ -72638,6 +72611,10 @@
       "meta" : {
         "comments" : [ "cell_slim" ]
       }
+    }, {
+      "id" : "http://purl.org/dc/elements/1.1/source",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.org/dc/terms/description",
       "type" : "PROPERTY",
@@ -72696,42 +72673,22 @@
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
       "lbl" : "has_broad_synonym",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "An alternative label for a class or property which has a more general meaning than the preferred name/primary label."
-        }
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-      "lbl" : "has cross-reference",
+      "lbl" : "database_cross_reference",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "An annotation property that links an ontology entity or a statement to a prefixed identifier or URI."
-        }
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
       "lbl" : "has_exact_synonym",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "An alternative label for a class or property which has the exact same meaning than the preferred name/primary label."
-        }
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
       "lbl" : "has_narrow_synonym",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "An alternative label for a class or property which has a more specific meaning than the preferred name/primary label."
-        }
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
       "lbl" : "has_obo_format_version",
@@ -72746,12 +72703,7 @@
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
       "lbl" : "has_related_synonym",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "An alternative label for a class or property that has been used synonymously with the primary term name, but the usage is not strictly correct."
-        }
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType",
       "lbl" : "has_synonym_type",
@@ -101816,12 +101768,6 @@
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000051"
     } ],
     "propertyChainAxioms" : [ {
-      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002131",
-      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/BFO_0000050" ]
-    }, {
-      "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000062",
-      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/BFO_0000062" ]
-    }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002202",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/RO_0002202" ]
     }, {

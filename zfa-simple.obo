@@ -1,16 +1,15 @@
 format-version: 1.2
-data-version: zfa/releases/2026-03-25/zfa-simple.owl
+data-version: zfa/releases/2026-03-30/zfa-simple.owl
 date: 17:12:2025 15:49
 saved-by: zfinf
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
-subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
-subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
 subsetdef: ro-eco ""
 synonymtypedef: OMO:0003004 "plural form"
 default-namespace: zebrafish_anatomical_ontology
+idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
@@ -20,7 +19,7 @@ treat-xrefs-as-genus-differentia: VSAO part_of NCBITaxon:7955
 ontology: zfa/zfa-simple
 property_value: IAO:0000700 ZFA:0100000
 property_value: IAO:0000700 ZFS:0100000
-property_value: owl:versionInfo "2026-03-25" xsd:string
+property_value: owl:versionInfo "2026-03-30" xsd:string
 property_value: terms:description "ZFA description." xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/3.0/
 property_value: terms:title "Zebrafish Anatomy Ontology (ZFA)" xsd:string
@@ -35216,10 +35215,6 @@ holds_over_chain: has_part has_developmental_contribution_from
 [Typedef]
 id: has_part
 name: has_part
-def: "a core relation that holds between a whole and its part" []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
 xref: BFO:0000051
 is_transitive: true
 is_a: overlaps ! overlaps
@@ -35241,18 +35236,12 @@ subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: ro-eco
 xref: RO:0002131
 holds_over_chain: has_part overlaps
-holds_over_chain: part_of part_of
 is_symmetric: true
 transitive_over: part_of ! part of
 
 [Typedef]
 id: part_of
 name: part of
-def: "a core relation that holds between a part and its whole" []
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
 xref: BFO:0000050
 is_transitive: true
 is_a: overlaps ! overlaps
@@ -35262,9 +35251,7 @@ inverse_of: has_part ! has_part
 id: preceded_by
 name: preceded_by
 def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)." [goc:cjm]
-subset: ro-eco
 xref: BFO:0000062
-holds_over_chain: part_of preceded_by
 is_transitive: true
 
 [Typedef]

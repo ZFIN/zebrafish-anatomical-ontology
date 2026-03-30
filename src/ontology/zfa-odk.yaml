@@ -16,12 +16,16 @@ release_artefacts:
   - simple
   - full
   - custom-zfa-zfin
+  - custom-zfs-base
+  - custom-zfs
 primary_release: zfin
 import_group:
   products:
     - id: ro
+      module_type: filter
 robot_java_args: '-Xmx8G'
 edit_format: obo
 git_main_branch: master
+manage_import_declarations: False
 workflows:
  - qc
