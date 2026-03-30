@@ -3213,25 +3213,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0005823>	<http://www.w3.org/2000/01/rdf-schema#label>	"external lateral dorsal muscle"	
 <http://purl.obolibrary.org/obo/ZFA_0005117>	<http://www.w3.org/2000/01/rdf-schema#label>	"anterior lateral line primordium"	
 <http://purl.obolibrary.org/obo/ZFA_0001448>	<http://www.w3.org/2000/01/rdf-schema#label>	"ultimobranchial body"	
-<http://purl.obolibrary.org/obo/BFO_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"continuant"@en	
-<http://purl.obolibrary.org/obo/BFO_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"occurrent"@en	
-<http://purl.obolibrary.org/obo/GO_0016301>	<http://www.w3.org/2000/01/rdf-schema#label>	"kinase activity"	
-<http://purl.obolibrary.org/obo/IAO_0000078>	<http://www.w3.org/2000/01/rdf-schema#label>	"curation status specification"@en	
-<http://purl.obolibrary.org/obo/UBERON_0001062>	<http://www.w3.org/2000/01/rdf-schema#label>	"anatomical entity"	
-<http://purl.obolibrary.org/obo/BFO_0000034>	<http://www.w3.org/2000/01/rdf-schema#label>	"function"@en	
-<http://purl.obolibrary.org/obo/BFO_0000016>	<http://www.w3.org/2000/01/rdf-schema#label>	"disposition"@en	
-<http://purl.obolibrary.org/obo/BFO_0000019>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"@en	
-<http://purl.obolibrary.org/obo/PATO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"	
-<http://purl.obolibrary.org/obo/BFO_0000040>	<http://www.w3.org/2000/01/rdf-schema#label>	"material entity"@en	
-<http://purl.obolibrary.org/obo/BFO_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"role"@en	
-<http://purl.obolibrary.org/obo/GO_0003674>	<http://www.w3.org/2000/01/rdf-schema#label>	"molecular_function"	
-<http://purl.obolibrary.org/obo/GO_0003674>	<http://www.w3.org/2000/01/rdf-schema#label>	"gene product or complex activity"@en	
-<http://purl.obolibrary.org/obo/BFO_0000017>	<http://www.w3.org/2000/01/rdf-schema#label>	"realizable entity"@en	
-<http://purl.obolibrary.org/obo/GO_0008150>	<http://www.w3.org/2000/01/rdf-schema#label>	"biological_process"	
-<http://purl.obolibrary.org/obo/GO_0008150>	<http://www.w3.org/2000/01/rdf-schema#label>	"biological process"@en	
-<http://purl.obolibrary.org/obo/BFO_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"specifically dependent continuant"@en	
-<http://purl.obolibrary.org/obo/BFO_0000004>	<http://www.w3.org/2000/01/rdf-schema#label>	"independent continuant"@en	
-<http://purl.obolibrary.org/obo/BFO_0000015>	<http://www.w3.org/2000/01/rdf-schema#label>	"process"@en	
 <http://purl.obolibrary.org/obo/ZFA_0001704>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"scale placode"	
 <http://purl.obolibrary.org/obo/ZFA_0001698>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"rostral efferent nuclei"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0005236>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"early normoblast"	
@@ -3589,8 +3570,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0009049>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"polymorphonuclear leucocyte"	
 <http://purl.obolibrary.org/obo/ZFA_0009049>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"poly"	
 <http://purl.obolibrary.org/obo/ZFA_0005823>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"LSD"	
-<http://purl.obolibrary.org/obo/GO_0008150>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"single-organism process"	
-<http://purl.obolibrary.org/obo/GO_0008150>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"single organism process"	
 <http://purl.obolibrary.org/obo/ZFA_0009395>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"parachordal lymphangioblast"	
 <http://purl.obolibrary.org/obo/ZFA_0000326>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"mid caudal vertebra"	
 <http://purl.obolibrary.org/obo/ZFA_0005910>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"M3"	
@@ -4240,8 +4219,8 @@
 <http://purl.obolibrary.org/obo/ZFA_0000752>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"fast muscle cells somite 13"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0000752>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"fast muscle fiber somite 13"	
 <http://purl.obolibrary.org/obo/ZFA_0000091>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chordamesoderm"	
-<http://purl.obolibrary.org/obo/ZFA_0000091>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chorda mesoderm"	
 <http://purl.obolibrary.org/obo/ZFA_0000091>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"presumptive notochord"	
+<http://purl.obolibrary.org/obo/ZFA_0000091>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chorda mesoderm"	
 <http://purl.obolibrary.org/obo/ZFA_0009163>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"myelin accumulating cells"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0001399>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"dorsal mandibular cartilage"	
 <http://purl.obolibrary.org/obo/ZFA_0001399>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"pterygoquadrate"	
@@ -4937,8 +4916,8 @@
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"T lymphocyte"	
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"immature T lymphocyte"	
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"immature T-lymphocyte"	
-<http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"T-cell"	
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mature T-lymphocyte"	
+<http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"T-cell"	
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mature T lymphocyte"	
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"immature T cell"	
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mature T-cell"	
@@ -5161,8 +5140,8 @@
 <http://purl.obolibrary.org/obo/ZFA_0009285>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"podocytes"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0001433>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"posterior sclerotic bones"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0000480>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"nucleus octavolateralis caudalis"	
-<http://purl.obolibrary.org/obo/ZFA_0007005>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"haemal prezygapophysis"	
 <http://purl.obolibrary.org/obo/ZFA_0007005>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"hemal prezygopophysis"	
+<http://purl.obolibrary.org/obo/ZFA_0007005>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"haemal prezygapophysis"	
 <http://purl.obolibrary.org/obo/ZFA_0000048>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"olfactory placodes"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0001543>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"paired fin cartilages"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0000317>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"axial skeleton"	
@@ -6227,7 +6206,3 @@
 <http://purl.obolibrary.org/obo/ZFA_0005823>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"lateralis superficialis dorsalis"	
 <http://purl.obolibrary.org/obo/ZFA_0005117>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"anterior lateral line primordia"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0001448>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"ultimobranchial bodies"	<http://purl.obolibrary.org/obo/OMO_0003004>
-<http://purl.obolibrary.org/obo/GO_0016301>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"phosphokinase activity"	
-<http://purl.obolibrary.org/obo/GO_0003674>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"molecular function"	
-<http://purl.obolibrary.org/obo/GO_0008150>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"physiological process"	
-<http://purl.obolibrary.org/obo/GO_0008150>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"biological process"	

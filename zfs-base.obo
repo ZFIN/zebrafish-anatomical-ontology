@@ -1,0 +1,477 @@
+format-version: 1.2
+data-version: zfs/releases/2026-03-30/zfs-base.owl
+idspace: dc http://purl.org/dc/elements/1.1/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: terms http://purl.org/dc/terms/ 
+ontology: zfa/zfs-base
+property_value: dc:type IAO:8000001
+property_value: IAO:0000700 ZFS:0100000
+property_value: owl:versionInfo "2026-03-30" xsd:string
+property_value: terms:description "An ontology of Zebrafish developmental stages." xsd:string
+property_value: terms:license https://creativecommons.org/licenses/by/3.0/
+property_value: terms:title "Zebrafish Developmental Stages Ontology (ZFS)" xsd:string
+
+[Term]
+id: ZFS:0000000
+name: unknown
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-050211-1
+xref: ZFIN:ZDB-TERM-100331-2430
+is_a: ZFS:0100000 ! zebrafish stage
+
+[Term]
+id: ZFS:0000001
+name: zygote:1-cell
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-4
+xref: ZFIN:ZDB-TERM-100331-2431
+is_a: ZFS:0100000 ! zebrafish stage
+
+[Term]
+id: ZFS:0000002
+name: cleavage:2-cell
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-15
+xref: ZFIN:ZDB-TERM-100331-2432
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000046 ! cleavage
+
+[Term]
+id: ZFS:0000003
+name: cleavage:4-cell
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-11
+xref: ZFIN:ZDB-TERM-100331-2433
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000046 ! cleavage
+
+[Term]
+id: ZFS:0000004
+name: cleavage:8-cell
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-33
+xref: ZFIN:ZDB-TERM-100331-2434
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000046 ! cleavage
+
+[Term]
+id: ZFS:0000005
+name: cleavage:16-cell
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-20
+xref: ZFIN:ZDB-TERM-100331-2435
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000046 ! cleavage
+
+[Term]
+id: ZFS:0000006
+name: cleavage:32-cell
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-25
+xref: ZFIN:ZDB-TERM-100331-2436
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000046 ! cleavage
+
+[Term]
+id: ZFS:0000007
+name: cleavage:64-cell
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-28
+xref: ZFIN:ZDB-TERM-100331-2437
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000046 ! cleavage
+
+[Term]
+id: ZFS:0000008
+name: blastula:128-cell
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-7
+xref: ZFIN:ZDB-TERM-100331-2438
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000045 ! blastula
+
+[Term]
+id: ZFS:0000009
+name: blastula:256-cell
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-1
+xref: ZFIN:ZDB-TERM-100331-2439
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000045 ! blastula
+
+[Term]
+id: ZFS:0000010
+name: blastula:512-cell
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-14
+xref: ZFIN:ZDB-TERM-100331-2440
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000045 ! blastula
+
+[Term]
+id: ZFS:0000011
+name: blastula:1k-cell
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-22
+xref: ZFIN:ZDB-TERM-100331-2441
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000045 ! blastula
+
+[Term]
+id: ZFS:0000012
+name: blastula:high
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-27
+xref: ZFIN:ZDB-TERM-100331-2442
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000045 ! blastula
+
+[Term]
+id: ZFS:0000013
+name: blastula:oblong
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-24
+xref: ZFIN:ZDB-TERM-100331-2443
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000045 ! blastula
+
+[Term]
+id: ZFS:0000014
+name: blastula:sphere
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-21
+xref: ZFIN:ZDB-TERM-100331-2444
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000045 ! blastula
+
+[Term]
+id: ZFS:0000015
+name: blastula:dome
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-19
+xref: ZFIN:ZDB-TERM-100331-2445
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000045 ! blastula
+
+[Term]
+id: ZFS:0000016
+name: blastula:30%-epiboly
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-17
+xref: ZFIN:ZDB-TERM-100331-2446
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000045 ! blastula
+
+[Term]
+id: ZFS:0000017
+name: gastrula:50%-epiboly
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-6
+xref: ZFIN:ZDB-TERM-100331-2447
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000047 ! gastrula
+
+[Term]
+id: ZFS:0000018
+name: gastrula:germ-ring
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-3
+xref: ZFIN:ZDB-TERM-100331-2448
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000047 ! gastrula
+
+[Term]
+id: ZFS:0000019
+name: gastrula:shield
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-2
+xref: ZFIN:ZDB-TERM-100331-2449
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000047 ! gastrula
+
+[Term]
+id: ZFS:0000020
+name: gastrula:75%-epiboly
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-18
+xref: ZFIN:ZDB-TERM-100331-2450
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000047 ! gastrula
+
+[Term]
+id: ZFS:0000021
+name: gastrula:90%-epiboly
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-29
+xref: ZFIN:ZDB-TERM-100331-2451
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000047 ! gastrula
+
+[Term]
+id: ZFS:0000022
+name: gastrula:bud
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-12
+xref: ZFIN:ZDB-TERM-100331-2452
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000047 ! gastrula
+
+[Term]
+id: ZFS:0000023
+name: segmentation:1-4 somites
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-23
+xref: ZFIN:ZDB-TERM-100331-2453
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000049 ! segmentation
+
+[Term]
+id: ZFS:0000024
+name: segmentation:5-9 somites
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-5
+xref: ZFIN:ZDB-TERM-100331-2454
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000049 ! segmentation
+
+[Term]
+id: ZFS:0000025
+name: segmentation:10-13 somites
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-020626-1
+xref: ZFIN:ZDB-TERM-100331-2455
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000049 ! segmentation
+
+[Term]
+id: ZFS:0000026
+name: segmentation:14-19 somites
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-30
+xref: ZFIN:ZDB-TERM-100331-2456
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000049 ! segmentation
+
+[Term]
+id: ZFS:0000027
+name: segmentation:20-25 somites
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-16
+xref: ZFIN:ZDB-TERM-100331-2457
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000049 ! segmentation
+
+[Term]
+id: ZFS:0000028
+name: segmentation:26+ somites
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-34
+xref: ZFIN:ZDB-TERM-100331-2458
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000049 ! segmentation
+
+[Term]
+id: ZFS:0000029
+name: pharyngula:prim-5
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-10
+xref: ZFIN:ZDB-TERM-100331-2439
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000050 ! pharyngula
+
+[Term]
+id: ZFS:0000030
+name: pharyngula:prim-15
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-32
+xref: ZFIN:ZDB-TERM-100331-2460
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000050 ! pharyngula
+
+[Term]
+id: ZFS:0000031
+name: pharyngula:prim-25
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-13
+xref: ZFIN:ZDB-TERM-100331-2461
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000050 ! pharyngula
+
+[Term]
+id: ZFS:0000032
+name: pharyngula:high-pec
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-31
+xref: ZFIN:ZDB-TERM-100331-2462
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000050 ! pharyngula
+
+[Term]
+id: ZFS:0000033
+name: hatching:long-pec
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-9
+xref: ZFIN:ZDB-TERM-100331-2463
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0007000 ! hatching
+
+[Term]
+id: ZFS:0000034
+name: hatching:pec-fin
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-26
+xref: ZFIN:ZDB-TERM-100331-2464
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0007000 ! hatching
+
+[Term]
+id: ZFS:0000035
+name: larval:protruding-mouth
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-8
+xref: ZFIN:ZDB-TERM-100331-2465
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000048 ! larva
+
+[Term]
+id: ZFS:0000036
+name: larval:day 4
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-35
+xref: ZFIN:ZDB-TERM-100331-2466
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000048 ! larva
+
+[Term]
+id: ZFS:0000037
+name: larval:day 5
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-36
+xref: ZFIN:ZDB-TERM-100331-2467
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000048 ! larva
+
+[Term]
+id: ZFS:0000038
+name: larval:day 6
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-37
+xref: ZFIN:ZDB-TERM-100331-2468
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000048 ! larva
+
+[Term]
+id: ZFS:0000039
+name: larval:days 7-13
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-47
+xref: ZFIN:ZDB-TERM-100331-2469
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000048 ! larva
+
+[Term]
+id: ZFS:0000040
+name: larval:days 14-20
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-48
+xref: ZFIN:ZDB-TERM-100331-2470
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000048 ! larva
+
+[Term]
+id: ZFS:0000041
+name: larval:days 21-29
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-49
+xref: ZFIN:ZDB-TERM-100331-2471
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000048 ! larva
+
+[Term]
+id: ZFS:0000042
+name: juvenile:days 30-44
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-51
+xref: ZFIN:ZDB-TERM-100331-2472
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000051 ! juvenile
+
+[Term]
+id: ZFS:0000043
+name: juvenile:days 45-89
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-52
+xref: ZFIN:ZDB-TERM-100331-2473
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: BFO:0000050 ZFS:0000051 ! juvenile
+
+[Term]
+id: ZFS:0000044
+name: adult
+namespace: zebrafish_stages
+xref: ZFIN:ZDB-STAGE-010723-39
+xref: ZFIN:ZDB-TERM-100331-2474
+is_a: ZFS:0100000 ! zebrafish stage
+
+[Term]
+id: ZFS:0000045
+name: blastula
+namespace: zebrafish_stages
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: RO:0002087 ZFS:0000046 ! cleavage
+
+[Term]
+id: ZFS:0000046
+name: cleavage
+namespace: zebrafish_stages
+is_a: ZFS:0100000 ! zebrafish stage
+
+[Term]
+id: ZFS:0000047
+name: gastrula
+namespace: zebrafish_stages
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: RO:0002087 ZFS:0000045 ! blastula
+
+[Term]
+id: ZFS:0000048
+name: larva
+namespace: zebrafish_stages
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: RO:0002087 ZFS:0007000 ! hatching
+
+[Term]
+id: ZFS:0000049
+name: segmentation
+namespace: zebrafish_stages
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: RO:0002087 ZFS:0000047 ! gastrula
+
+[Term]
+id: ZFS:0000050
+name: pharyngula
+namespace: zebrafish_stages
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: RO:0002087 ZFS:0000049 ! segmentation
+
+[Term]
+id: ZFS:0000051
+name: juvenile
+namespace: zebrafish_stages
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: RO:0002087 ZFS:0000048 ! larva
+
+[Term]
+id: ZFS:0007000
+name: hatching
+namespace: zebrafish_stages
+is_a: ZFS:0100000 ! zebrafish stage
+relationship: RO:0002087 ZFS:0000050 ! pharyngula
+created_by: yvonne
+creation_date: 2014-11-05T08:33:09Z
+
+[Term]
+id: ZFS:0100000
+name: zebrafish stage
+namespace: zebrafish_stages
+

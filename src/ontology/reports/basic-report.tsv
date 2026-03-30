@@ -452,7 +452,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0009008>		
 <http://purl.obolibrary.org/obo/ZFA_0005415>	"Foramen in the inner ear."	"TAO:0005415"
 <http://purl.obolibrary.org/obo/ZFA_0005014>	"The anteroventral proceeding branch of the afferent branchial artery."	"TAO:0005014"
-<http://purl.obolibrary.org/obo/UBERON_0001062>	"Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species."	"MA:0000001 TAO:0100000 AAO:0010841 HAO:0000000 ZFA:0100000 FMA:62955 WBbt:0000100 TGMA:0001822 BFO:0000004 BILA:0000000 AEO:0000000 NCIT:C12219 XAO:0000000 EHDAA2:0002229 CARO:0000000 BIRNLEX:6"
 <http://purl.obolibrary.org/obo/ZFA_0001466>	"Layer of the retina composed of the outer segments of the photoreceptor cells. The photoreceptor outer segment is a specialized primary cilium consisting of a microtubule-based axoneme and regular stacks of membrane folds or disks containing the photopigments (opsins) required for the phototransduction cascade."	"TAO:0001466"
 <http://purl.obolibrary.org/obo/ZFA_0000349>	"Skeletal muscle that is the dorsal-most component of the body musculature. The anterior region attaches to the back of the cranial vault and the dorsal region of the pectoral girdle. The epaxialis is bound to the skin by fibrous connective tissue and internally it inserts over the dorsal portion of the vertebral centra and fin pterygiophores and the neural spines. Posteriorly the epaxialis overlies the modified muscle of the caudal fin and inserts onto the dorsal ray bases of the fin. The anterior epaxial plays a role in feeding and the posterior region is central to locomotion."	"TAO:0000349"
 <http://purl.obolibrary.org/obo/ZFA_0005780>	"Epithelium of the thymus primordium composed of cells of immature morphology. The immature thymic epithelium is continuous with the pharyngeal epithelium.  The immature thymic epithelium is composed of electron-lucent epithelial cells of irregular or polygonal shape and contain numerous ribosomes, large electron-lucent mitochondria, and rough endoplasmic reticulum. Nascent desmosomes join these primitive epithelial cells together."	
@@ -766,7 +765,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0000192>	"The bundle of the sensory root of the trigeminal nerve that descends in the medulla oblongata providing somatosensory input to the nucleus of the descending trigeminal root and to the medial funicular nucleus."	"TAO:0000192"
 <http://purl.obolibrary.org/obo/ZFA_0000839>	"Ventromedial region of somite 9 that will form vertebral cartilages and connective tissues. The sclerotome lies ventral to the myotome. Cells of the sclerotome will migrate dorsally to surround the notochord and neural tube."	"TAO:0000839"
 <http://purl.obolibrary.org/obo/ZFA_0005266>		
-<http://purl.obolibrary.org/obo/BFO_0000034>		
 <http://purl.obolibrary.org/obo/ZFA_0005413>	"Portion of organism substance that is an extracellular fluid that has a low potassium concentration."	"TAO:0005413"
 <http://purl.obolibrary.org/obo/ZFA_0000353>	"Paired fasciculus that connects the habenula to the interpeduncular nucleus.  In zebrafish the fascicles seem to gather under the raphe nucleus and don't extend to the medulla."	"TAO:0000353"
 <http://purl.obolibrary.org/obo/ZFA_0005403>	"Fifth lepidotrichium of anal fin."	"TAO:0001773"
@@ -832,7 +830,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0001085>		"TAO:0001085"
 <http://purl.obolibrary.org/obo/ZFA_0001690>	"Anatomical structure that delineates a furrow or depression in an organ or tissue."	"TAO:0001838"
 <http://purl.obolibrary.org/obo/ZFA_0005725>	"Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries. Most medial protoglomerulus in the central zone."	
-<http://purl.obolibrary.org/obo/PATO_0000001>	"A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities"	
 <http://purl.obolibrary.org/obo/ZFA_0005840>	"Lymph vasculature surrounding the intestines."	
 <http://purl.obolibrary.org/obo/ZFA_0007037>	"Posterior portion of the neural tube that gives rise to the hindbrain and spinal cord."	"TAO:0007037"
 <http://purl.obolibrary.org/obo/ZFA_0001162>	"Median fin that is located posterior to the anus."	"TAO:0001162"
@@ -1835,7 +1832,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0009038>		"CL:0000075 TAO:0009038"
 <http://purl.obolibrary.org/obo/ZFA_0000806>	"Fast muscle cell located in somite 20."	"TAO:0000806"
 <http://purl.obolibrary.org/obo/ZFA_0000002>		
-<http://purl.obolibrary.org/obo/GO_0016301>	"Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule."	"Reactome:R-HSA-6788855 Reactome:R-HSA-6788867"
 <http://purl.obolibrary.org/obo/ZFA_0000919>	"Muscle pioneer cell part of somite 23."	"TAO:0000919"
 <http://purl.obolibrary.org/obo/ZFA_0009341>		
 <http://purl.obolibrary.org/obo/ZFA_0009039>		"TAO:0009039 CL:0000076"
@@ -2051,7 +2047,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0000152>	"Multi-tissue structure that contains the retinal neural layer and the retinal pigmented epithelium, and develops from the optic cup."	"TAO:0000152"
 <http://purl.obolibrary.org/obo/ZFS_0000006>		"ZFIN:ZDB-TERM-100331-2436 ZFIN:ZDB-STAGE-010723-25"
 <http://purl.obolibrary.org/obo/ZFA_0005877>	"Commissure that is formed by a subset of TCPT axons that cross the midline in the diencephalon.  The TCPTc does not appear to cross with other commissures.  The initial crossing of the TCPTc occurs at approximately 36 hpf."	
-<http://purl.obolibrary.org/obo/BFO_0000002>	"An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en	
 <http://purl.obolibrary.org/obo/ZFA_0000864>	"The epaxial region of somite 1 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum."	"TAO:0000864"
 <http://purl.obolibrary.org/obo/ZFA_0009111>	"The main structural component of the liver. They are specialized epithelial cells that are organized into interconnected plates called lobules."	"CL:0000182 TAO:0009111"
 <http://purl.obolibrary.org/obo/ZFA_0006000>	"Brain structure that lies perpendicular to the longitudinal axis of the embryonic neural tube, is continuous with the rostral hypothalamic proliferation and whose most lateral extent is deflected dorsally within the inferior lobe."	"TAO:0006000"
@@ -2074,7 +2069,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0000909>	"Multi-tissue structure forming the sides of the lumen of the neural tube in rhombomere 8."	"TAO:0000909"
 <http://purl.obolibrary.org/obo/ZFA_0000705>	"The efferent motor portion of the spinal nerve root."	"TAO:0000705"
 <http://purl.obolibrary.org/obo/ZFA_0000758>	"Fast muscle cell located in somite 3."	"TAO:0000758"
-<http://purl.obolibrary.org/obo/BFO_0000040>	"An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en	
 <http://purl.obolibrary.org/obo/ZFA_0000285>	"Pectoral fin muscle that develops from the primitive pectoral fin adductor.  The adductor superficialis originates at the cleithrum and  inserts on all fins rays except the first. Insertion of the adductor superficialis on fin rays is distal to the fin ray bases."	"TAO:0000285"
 <http://purl.obolibrary.org/obo/ZFA_0009171>		"TAO:0009171 CL:0000343"
 <http://purl.obolibrary.org/obo/ZFA_0005833>	"Superficial lymph vessel that is part of pharyngeal arch 4.   The vessel sprouts from the lateral facial lymph vessel."	
@@ -2105,7 +2099,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0005821>	"Paired superficial caudal fin muscle that has a narrow attachment site along the  midline posterior to the attachment of the lateralis superficialis ventralis  and fans out to attach broadly in a region between the 12th and 16th caudal fin ray."	
 <http://purl.obolibrary.org/obo/ZFA_0001011>	"Muscle pioneer cell part of somite 8."	"TAO:0001011"
 <http://purl.obolibrary.org/obo/ZFA_0005652>	"Layers of broad flat tendons."	
-<http://purl.obolibrary.org/obo/BFO_0000015>	"p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en	
 <http://purl.obolibrary.org/obo/ZFA_0001216>	"Anatomical cluster that is the regional skeletal system of the jaws, hyoid and branchial arches."	"TAO:0001216"
 <http://purl.obolibrary.org/obo/ZFA_0000362>	"The hypaxialis consists of that part of the body musculature lying ventral to the midlateral horizontal septum."	"TAO:0000362"
 <http://purl.obolibrary.org/obo/ZFA_0001551>	"Lepidotrichium which is part of the pectoral fin, forming the pectoral fin skeleton and articulating with the pectoral radials.  A pectoral lepidotrichium is composed of two hemitrichia that surround bundles of actinotrichia distally."	"TAO:0001551"
@@ -2207,7 +2200,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0000753>	"Fast muscle cell located in somite 16."	"TAO:0000753"
 <http://purl.obolibrary.org/obo/ZFA_0000145>		
 <http://purl.obolibrary.org/obo/ZFA_0001576>	"Autonomic nervous system that originates beginning at the thoracic and lumbar areas of the spinal cord.  Sympathetic neurons are primarily adrenergic producing the neurotransmitter noradrenalin along with other neuropeptides."	"TAO:0001576"
-<http://purl.obolibrary.org/obo/IAO_0000078>	"The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en	
 <http://purl.obolibrary.org/obo/ZFA_0005901>	"Transient groove in the dorsal eye lined by basal lamina.  The groove extends across the dorsal retina to partially separate the nasal and temporal retinal lobes.  The sulcus forms soon after optic cup formation and as the eye develops it becomes broader and shallower until it is undetectable."	
 <http://purl.obolibrary.org/obo/ZFA_0000743>	"The epaxial region of somite 2 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum"	"TAO:0000743"
 <http://purl.obolibrary.org/obo/ZFA_0005564>	"Clear ocular fluid in the anterior segment of the eye.  It is produced primarily by dorsal ciliary epithelial cells."	"TAO:0002288"
@@ -2396,7 +2388,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0007025>	"Portion of  neural keel that gives rise to the midbrain neural rod."	"TAO:0007025"
 <http://purl.obolibrary.org/obo/ZFA_0005124>	"Simple columnar epithelium that lines the intestine, sometimes pseudostratified, with absorptive brush-border cells and mucous goblet cells clearly visible."	"TAO:0005124"
 <http://purl.obolibrary.org/obo/ZFA_0005315>	"Multi-tissue structure part of the blood vasculature formed by the anastomosis of capillaries.  Venules carry blood toward the heart."	"TAO:0005315"
-<http://purl.obolibrary.org/obo/GO_0008150>	"A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence."	"Wikipedia:Biological_process"
 <http://purl.obolibrary.org/obo/ZFA_0009058>		"CL:0000106 TAO:0009058"
 <http://purl.obolibrary.org/obo/ZFA_0000170>	"Median elements that are ossified within copulae and are not assigned to a specific branchial arch number. They articulate posterolaterally with the hypobranchials."	"TAO:0000170"
 <http://purl.obolibrary.org/obo/ZFA_0005312>	"Space between the pronephric glomerulus and the pronephric glomerular capsule.  Renal filtrate collects here then passes into the pronephric tubule."	"TAO:0005312"
@@ -2549,7 +2540,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0005351>	"Vertebra that is posteriorly adjacent to vertebra 8."	"TAO:0002149"
 <http://purl.obolibrary.org/obo/ZFA_0005439>	"Pectoral fin motor nerve that enters the fin from the dorsal side of the fin rostral of all other motor nerves and innervates the dorsal side of the pectoral fin."	
 <http://purl.obolibrary.org/obo/ZFA_0001311>		"TAO:0001311"
-<http://purl.obolibrary.org/obo/BFO_0000023>	"A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts."@en	
 <http://purl.obolibrary.org/obo/ZFA_0000397>	"Diencephalic nucleus which is part of the caudal tuberculum.  In trout the nucleus subglomerulosis receives gustatory information."	"TAO:0000397"
 <http://purl.obolibrary.org/obo/ZFA_0005261>	"Fenestrated blood vessel endothelium with pores that are large enough for blood cells to pass.  The basal lamina and gap junctions  may be discontinuous."	"TAO:0005261"
 <http://purl.obolibrary.org/obo/ZFA_0009323>	"A nucleated blood cell involved in coagulation, typically seen in birds and other non-mammalian vertebrates."	"CL:0000762 TAO:0009323"
@@ -2557,7 +2547,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0001601>	"Anterior branch of the intercalarium.  The manubrium develops as a simple antero-lateral membrane bone extension from basidorsal 2."	"TAO:0001553"
 <http://purl.obolibrary.org/obo/ZFA_0001193>	"Supraneural located between vertebra 7 and 8."	"TAO:0001193"
 <http://purl.obolibrary.org/obo/ZFA_0001592>	"Bone that is bilaterally paired endochondral bone with extensions of membrane bone forming part of a dorsolateral protective wall around the neural canal between the back of the skull and the beginning of the neural arch series. The first Weberian ossicle. Most recently, de Pinna and Grande (2003) have proposed the claustrum is homologous to the accessory neural arch of lower teleosts."	"TAO:0001592"
-<http://purl.obolibrary.org/obo/BFO_0000019>		
 <http://purl.obolibrary.org/obo/ZFA_0005554>	"First lepidotrichium of pelvic fin."	"TAO:0001776"
 <http://purl.obolibrary.org/obo/ZFA_0000119>	"Retinal layer that contains the interneurons, the horizontal, bipolar and amacrine cells."	"TAO:0000119"
 <http://purl.obolibrary.org/obo/ZFA_0000472>	"Large median unpaired cartilage bone that contacts the exoccipital, epiotic and pterotic dorsally, and the parasphenoid anteriorly. Forms the posteroventral hind margin of the cranium, articulates with the centrum of the first vertebra. Bears a posteroventral pharyngeal process that is flattened ventrally and opposes the pharyngeal teeth of the fifth pair of ceratobranchials."	"TAO:0000472"
@@ -2814,7 +2803,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0005198>	"Hindbrain interneuron that is part of rhombomere 2 with 4 lateral neurons in each hemi-rhombomere."	"TAO:0005198"
 <http://purl.obolibrary.org/obo/ZFA_0001069>	"Region of the median fin fold that develops into the anal and caudal fin."	"TAO:0001069"
 <http://purl.obolibrary.org/obo/ZFA_0001509>	"Bilaterally paired thin continuous band of cartilage that sagitally encircles the eye.  It lies between t lies between the sclera and the optic choroid."	"TAO:0001509"
-<http://purl.obolibrary.org/obo/BFO_0000004>	"b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en	
 <http://purl.obolibrary.org/obo/ZFA_0000606>		"TAO:0000606"
 <http://purl.obolibrary.org/obo/ZFA_0005664>	"Ventral branch of the spinal nerve that projects toward the lateral surface of the myotome, initially extending parallel to the horizontal myoseptum. RoP primary motoneuron axons extend in this branch."	
 <http://purl.obolibrary.org/obo/ZFA_0001645>	"Dermal bone that is located posterior to the dentary and lateral to the articular and retroarticular bones of the lower jaw. The angular forms the outer dermal sheet of the posterior part of the lower jaw. The angular bears a portion of the mandibular sensory canal. The angular is a paired bone."	"TAO:0001669"
@@ -2891,7 +2879,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0005531>	"The bony shelf above orbit is an anatomical cluster formed by the dorsolateral portions of the lateral ethmoid, frontal and sphenotic bones that forms the dorsal margin of the orbit."	"TAO:0001686"
 <http://purl.obolibrary.org/obo/ZFA_0005239>	"Is a specialized pore forming cell of the follicle, located adjacent to the animal pole of the oocyte.  The micropylar cell makes the single micropyle (pore) through the chorion through which the sperm fertilizes the egg."	"CL:0007022 TAO:0005239"
 <http://purl.obolibrary.org/obo/ZFA_0007094>	"Cell that is part of the premigratory trunk neural crest population. Will undergo epithelial to mesenchymal transition and delamination to become part of the migratory trunk neural crest."	
-<http://purl.obolibrary.org/obo/GO_0003674>	"A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs."	
 <http://purl.obolibrary.org/obo/ZFA_0009087>	"An osteocytelike cell with numerous processes, trapped in a lacuna in the cement of the tooth."	"TAO:0009087 CL:0000141"
 <http://purl.obolibrary.org/obo/ZFA_0005476>	"Joint that articulates the contralateral ventral hypohyal bones or the contralateral ceratobranchial cartilages. Inter-ventral hypohyal joint is paired."	"TAO:0001846"
 <http://purl.obolibrary.org/obo/ZFA_0001277>	"The anterior compartment of the swim bladder is thought to have acoustic resonance properties that play a key role in audition.  It is connected to the posterior chamber via the ductus communicans."	"TAO:0001277"
@@ -2956,7 +2943,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0005855>	"Ceratobranchial 5 tooth which is posterior to tooth 1V and anterior to tooth 3V in the ventral tooth row. This tooth develops from the dental epithelium  at the position of  primary tooth 2V."	
 <http://purl.obolibrary.org/obo/ZFA_0000488>	"Endochondral bone that is bilaterally paired and forms part of the ventral branchial arches. They articulate medially with the hypobranchials and laterally and dorsally with the epibranchials."	"TAO:0000488"
 <http://purl.obolibrary.org/obo/ZFA_0005345>	"Connective tissue in which fat is stored. All adipose tissue in the zebrafish is white adipose tissue and is comprised of adipocytes, stroma, macrophages and vasculature.  Mature adipocytes express adipokines, such as adipsin, adiponectin, and leptin so white adipose tissue is considered an endocrine organ. The connective tissue is loose and infiltrated by a vascular network."	"TAO:0002134"
-<http://purl.obolibrary.org/obo/BFO_0000017>	"A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances."@en	
 <http://purl.obolibrary.org/obo/ZFA_0009165>	"A cell of the neural crest. The neural crest is a strip of specialized ectoderm, the neural plate border, which flanks each side of the embryonic neural plate. Neural crest cells are multipotent. Premigratory neural crest cells are found at the neural plate boarder, some of which will undergo ectomesenchymal transition and delamination to form migratory neural crest cells. Most of the cranial and all of the spinal sensory ganglion cells arise by differentiation of neural crest cells."	
 <http://purl.obolibrary.org/obo/ZFA_0000771>	"The hypaxial region of somite 22 derived body wall muscle. The hypaxial region is ventral to the horizontal myoseptum."	"TAO:0000771"
 <http://purl.obolibrary.org/obo/ZFA_0000991>	"The epaxial region of somite 10 derived body wall muscle. The epaxial region is dorsal to the horizontal myoseptum."	"TAO:0000991"
@@ -3095,7 +3081,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0000690>		"TAO:0000690"
 <http://purl.obolibrary.org/obo/ZFA_0000552>	"Nucleus located in the midbrain tegmentum that controls motor coordination during locomotion."	"TAO:0000552"
 <http://purl.obolibrary.org/obo/ZFA_0005177>	"An interneuron of the spinal cord. VeLD neurons have an ipsilateral longitudinal axon."	"TAO:0005177"
-<http://purl.obolibrary.org/obo/BFO_0000020>	"b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])"@en	
 <http://purl.obolibrary.org/obo/ZFA_0009274>	"A receptor in the vascular system, particularly the aorta and carotid sinus, which is sensitive to stretch of the vessel walls."	"CL:0000602 TAO:0009274"
 <http://purl.obolibrary.org/obo/ZFA_0007096>	"Vertebra that is posteriorly adjacent to vertebra 12."	
 <http://purl.obolibrary.org/obo/ZFA_0005753>	"Cluster of acinar glands surrounding an intralobular duct."	
@@ -3128,7 +3113,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0009198>	"A pigment cell derived from the neural crest. Contains carotenoid pigments in structures called pterinosomes or xanthosomes. This gives an appearance ranging from a golden yellow to orange and red."	"TAO:0009198 CL:0000430"
 <http://purl.obolibrary.org/obo/ZFA_0000514>	"Large elongated paired dermal bones that roof the cranium and bear part of the supraorbital canal. The frontal bones cover the upper edge of the lateral ethmoid, orbitosphenoid and pterosphenoids and overlaps the parietal bone posteriorly."	"TAO:0000514"
 <http://purl.obolibrary.org/obo/ZFA_0005933>	"Stable vascular plexus that persist in the adult animal."	
-<http://purl.obolibrary.org/obo/BFO_0000003>	"An entity that has temporal parts and that happens, unfolds or develops through time."@en	
 <http://purl.obolibrary.org/obo/ZFA_0005766>	"Adipose tissue that forms at the base of the pectoral fin."	
 <http://purl.obolibrary.org/obo/ZFA_0009161>		"CL:0000324 TAO:0009161"
 <http://purl.obolibrary.org/obo/ZFA_0005607>	"Fibrous joint connecting the parietal bones."	"TAO:0005245"
@@ -3285,7 +3269,6 @@
 <http://purl.obolibrary.org/obo/ZFA_0001491>	"Compound organ that does not contain macroscopic anatomical spaces."	"CARO:0000074 TAO:0001491"
 <http://purl.obolibrary.org/obo/ZFA_0007114>	"An anatomical structure that is an opening or tube that connects two distinct anatomical spaces."	
 <http://purl.obolibrary.org/obo/ZFA_0007047>	"Portion of neural tube that gives rise to the midbrain hindbrain boundary."	"TAO:0007047"
-<http://purl.obolibrary.org/obo/BFO_0000016>		
 <http://purl.obolibrary.org/obo/ZFA_0005673>	"Central region of the glomerular layer of the olfactory bulb."	
 <http://purl.obolibrary.org/obo/ZFA_0001698>	"Octaval nerve motor nucleus that is initially located within rhombomere 6."	"TAO:0002175"
 <http://purl.obolibrary.org/obo/ZFA_0001638>		"TAO:0002243"
