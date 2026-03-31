@@ -31504,7 +31504,7 @@ creation_date: 2016-02-02T11:47:50Z
 [Term]
 id: ZFA:0005872
 name: external granular layer of the cerebellar plate
-def: "Proliferative region that forms on peripheral side of the cerebellar plate." [GOC:cvs, ORCID:0000-0002-2244-7917, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
+def: "Proliferative region that forms on peripheral side of the cerebellar plate." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
 synonym: "cerebellar plate peripheral proliferative zone" RELATED []
 synonym: "EGL" EXACT []
 is_a: ZFA:0000098 ! proliferative region
