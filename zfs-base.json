@@ -19,9 +19,9 @@
         "val" : "Zebrafish Developmental Stages Ontology (ZFS)"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-03-30"
+        "val" : "2026-03-31"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/zfa/releases/2026-03-30/zfs-base.json"
+      "version" : "http://purl.obolibrary.org/obo/zfa/releases/2026-03-31/zfs-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/ZFS_0000000",
