@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: zfa/releases/2026-03-31/zfa-simple.owl
-date: 17:12:2025 15:49
+data-version: zfa/releases/2026-06-02/zfa-simple.owl
+date: 12:05:2026 09:24
 saved-by: zfinf
 auto-generated-by: OBO-Edit 2.3-beta5
 subsetdef: cell_slim "cell_slim"
@@ -19,7 +19,7 @@ treat-xrefs-as-genus-differentia: VSAO part_of NCBITaxon:7955
 ontology: zfa/zfa-simple
 property_value: IAO:0000700 ZFA:0100000
 property_value: IAO:0000700 ZFS:0100000
-property_value: owl:versionInfo "2026-03-31" xsd:string
+property_value: owl:versionInfo "2026-06-02" xsd:string
 property_value: terms:description "ZFA description." xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/3.0/
 property_value: terms:title "Zebrafish Anatomy Ontology (ZFA)" xsd:string
@@ -27500,6 +27500,7 @@ creation_date: 2016-02-02T11:47:50Z
 [Term]
 id: ZFA:0005872
 name: external granular layer of the cerebellar plate
+namespace: zebrafish_anatomy
 def: "Proliferative region that forms on peripheral side of the cerebellar plate." [GOC:cvs, ORCID:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
 synonym: "cerebellar plate peripheral proliferative zone" RELATED []
 synonym: "EGL" EXACT []
@@ -31010,6 +31011,7 @@ relationship: part_of ZFA:0001501 ! cartilage element
 [Term]
 id: ZFA:0009085
 name: amelocyte
+namespace: zebrafish_anatomy
 def: "Skeletogenic cell that produces enamel, overlies the odontogenic papilla, and arises from the differentiation of a preameloblast cell." [GOC:tfm]
 comment: Was CL:0000139, seems that cell type was merged into CL:0000059 along with CL:0000053.
 subset: cell_slim

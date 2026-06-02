@@ -19,9 +19,9 @@
         "val" : "Zebrafish Anatomy Ontology (ZFA)"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-03-31"
+        "val" : "2026-06-02"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/zfa/releases/2026-03-31/zfa-base.json"
+      "version" : "http://purl.obolibrary.org/obo/zfa/releases/2026-06-02/zfa-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/ZFA_0000000",
@@ -56710,7 +56710,7 @@
           "val" : "2016-02-02T11:50:39Z"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "zebrafish_anatomical_ontology"
+          "val" : "zebrafish_anatomy"
         } ]
       }
     }, {
@@ -63845,7 +63845,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "zebrafish_anatomical_ontology"
+          "val" : "zebrafish_anatomy"
         } ]
       }
     }, {
