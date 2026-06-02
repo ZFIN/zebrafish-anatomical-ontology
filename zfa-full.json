@@ -22,7 +22,7 @@
         "val" : "OBO-Edit 2.3-beta5"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
-        "val" : "17:12:2025 15:49"
+        "val" : "12:05:2026 09:24"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
         "val" : "zebrafish_anatomical_ontology"
@@ -46,9 +46,9 @@
         "val" : "VSAO part_of NCBITaxon:7955"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-03-31"
+        "val" : "2026-06-02"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/zfa/releases/2026-03-31/zfa-full.json"
+      "version" : "http://purl.obolibrary.org/obo/zfa/releases/2026-06-02/zfa-full.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/ZFA_0000000",
@@ -56737,7 +56737,7 @@
           "val" : "2016-02-02T11:50:39Z"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "zebrafish_anatomical_ontology"
+          "val" : "zebrafish_anatomy"
         } ]
       }
     }, {
@@ -63872,7 +63872,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "zebrafish_anatomical_ontology"
+          "val" : "zebrafish_anatomy"
         } ]
       }
     }, {

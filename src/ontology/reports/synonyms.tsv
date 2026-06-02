@@ -4916,8 +4916,8 @@
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"T lymphocyte"	
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"immature T lymphocyte"	
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"immature T-lymphocyte"	
-<http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mature T-lymphocyte"	
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"T-cell"	
+<http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mature T-lymphocyte"	
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mature T lymphocyte"	
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"immature T cell"	
 <http://purl.obolibrary.org/obo/ZFA_0009046>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mature T-cell"	
@@ -5140,8 +5140,8 @@
 <http://purl.obolibrary.org/obo/ZFA_0009285>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"podocytes"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0001433>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"posterior sclerotic bones"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0000480>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"nucleus octavolateralis caudalis"	
-<http://purl.obolibrary.org/obo/ZFA_0007005>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"hemal prezygopophysis"	
 <http://purl.obolibrary.org/obo/ZFA_0007005>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"haemal prezygapophysis"	
+<http://purl.obolibrary.org/obo/ZFA_0007005>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"hemal prezygopophysis"	
 <http://purl.obolibrary.org/obo/ZFA_0000048>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"olfactory placodes"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0001543>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"paired fin cartilages"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0000317>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"axial skeleton"	
@@ -5612,8 +5612,8 @@
 <http://purl.obolibrary.org/obo/ZFA_0009157>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"keratin accumulating cells"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0000354>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"gills"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0000785>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"lateral wall telencephalon"	
-<http://purl.obolibrary.org/obo/ZFA_0007048>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"ventral intermandibulari posterior"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0007048>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"intermandibularis posterior"	
+<http://purl.obolibrary.org/obo/ZFA_0007048>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"ventral intermandibulari posterior"	<http://purl.obolibrary.org/obo/OMO_0003004>
 <http://purl.obolibrary.org/obo/ZFA_0000653>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"thalamus, pars dorsalis"	
 <http://purl.obolibrary.org/obo/ZFA_0001183>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"stratum laxum"	
 <http://purl.obolibrary.org/obo/ZFA_0001285>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"intersomitic vessels"	
