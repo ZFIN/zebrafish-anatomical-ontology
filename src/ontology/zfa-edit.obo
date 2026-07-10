@@ -1,10 +1,11 @@
 format-version: 1.2
-date: 12:05:2026 09:24
-saved-by: zfinf
-auto-generated-by: OBO-Edit 2.3-beta5
+date: 10:07:2026 16:38
+saved-by: ybrad
+auto-generated-by: OBO-Edit 2.3.1
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: OMO:0003004 "plural form"
 default-namespace: zebrafish_anatomical_ontology
+remark: SVN version:$Revision:1.100$
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: TAO part_of NCBITaxon:7955
@@ -34302,6 +34303,18 @@ relationship: part_of ZFA:0000042 ! midbrain hindbrain boundary
 relationship: start ZFS:0000026 ! segmentation:14-19 somites
 created_by: Yvonne
 creation_date: 2020-03-04T12:35:25Z
+
+[Term]
+id: ZFA:0007126
+name: vagus motor neuron
+namespace: zebrafish_anatomy
+def: "Motor neurons of cranial nerve X. In all vertebrates, vagus motor neurons are located in the most posterior segment of the hindbrain, rhombomere 8 (r8). In fish, these neurons innervate muscles to move the pharynx, gills, and  pharyngeal teeth." [GOC:ymb, ORCID:0000-0002-9900-7880, PMID:29225029]
+synonym: "vagus motor neurons" EXACT OMO:0003004 []
+is_a: ZFA:0005731 ! branchiomotor neuron
+relationship: end ZFS:0000044 ! adult
+relationship: start ZFS:0000000 ! unknown
+created_by: ybrad
+creation_date: 2026-07-10T15:39:57Z
 
 [Term]
 id: ZFA:0009000
