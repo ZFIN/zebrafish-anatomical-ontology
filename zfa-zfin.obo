@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: zfa/releases/2026-06-02/zfa-zfin.owl
-date: 12:05:2026 09:24
-saved-by: zfinf
-auto-generated-by: OBO-Edit 2.3-beta5
+data-version: zfa/releases/2026-07-16/zfa-zfin.owl
+date: 16:07:2026 14:31
+saved-by: ybrad
+auto-generated-by: OBO-Edit 2.3.1
 subsetdef: cell_slim "cell_slim"
 synonymtypedef: OMO:0003004 "plural form"
 default-namespace: zebrafish_anatomical_ontology
@@ -12,10 +12,11 @@ treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: TAO part_of NCBITaxon:7955
 treat-xrefs-as-genus-differentia: VSAO part_of NCBITaxon:7955
+remark: SVN version:$Revision:1.100$
 ontology: zfa/zfa-zfin
 property_value: IAO:0000700 ZFA:0100000
 property_value: IAO:0000700 ZFS:0100000
-property_value: owl:versionInfo "2026-06-02" xsd:string
+property_value: owl:versionInfo "2026-07-16" xsd:string
 property_value: terms:description "ZFA description." xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/3.0/
 property_value: terms:title "Zebrafish Anatomy Ontology (ZFA)" xsd:string
@@ -34304,6 +34305,95 @@ relationship: part_of ZFA:0000042 ! midbrain hindbrain boundary
 relationship: start ZFS:0000026 ! segmentation:14-19 somites
 created_by: Yvonne
 creation_date: 2020-03-04T12:35:25Z
+
+[Term]
+id: ZFA:0007126
+name: vagus motor neuron
+namespace: zebrafish_anatomy
+def: "Motor neurons of cranial nerve X. In all vertebrates, vagus motor neurons are located in the most posterior segment of the hindbrain, rhombomere 8 (r8). In fish, these neurons innervate muscles to move the pharynx, gills, and  pharyngeal teeth." [GOC:ymb, ORCID:0000-0002-9900-7880, PMID:29225029]
+synonym: "vagus motor neurons" EXACT OMO:0003004 []
+is_a: ZFA:0005731 ! branchiomotor neuron
+relationship: end ZFS:0000044 ! adult
+relationship: start ZFS:0000000 ! unknown
+created_by: ybrad
+creation_date: 2026-07-10T15:39:57Z
+
+[Term]
+id: ZFA:0007127
+name: glossopharyngeal motor neuron
+namespace: zebrafish_anatomy
+def: "Motor neuron of cranial nerve IX. These neurons are induced in rhombomere 6 and migrate tangentially into r7." [GOC:ymb, ORCID:0000-0002-9900-7880, PMID:11820812]
+is_a: ZFA:0005731 ! branchiomotor neuron
+relationship: end ZFS:0000044 ! adult
+relationship: start ZFS:0000000 ! unknown
+created_by: ybrad
+creation_date: 2026-07-16T11:18:03Z
+
+[Term]
+id: ZFA:0007128
+name: oculomotor motor neuron
+namespace: zebrafish_anatomy
+def: "Motor neuron of cranial nerve III. These motor neurons control the medial rectus, lateral rectus, inferior oblique  ipsilateral muscles and contralateral superior rectus muscle. These muscles are involved in eye movements." [GOC:ymb, ORCID:0000-0002-9900-7880, PMID:39740266]
+is_a: ZFA:0005733 ! somatomotor neuron
+relationship: end ZFS:0000044 ! adult
+relationship: start ZFS:0000000 ! unknown
+created_by: ybrad
+creation_date: 2026-07-16T11:23:20Z
+
+[Term]
+id: ZFA:0007129
+name: facial motor neuron
+namespace: zebrafish_anatomy
+def: "Motor neuron of cranial nerve VII. The facial motor neurons innervate second pharyngeal arch derivatives including facial  muscles. The motor neurons of nVII are specified in r4, migrate posteriorly along a medial path, then migrate to take up residence in r6 and r7." [GOC:ymb, ORCID:0000-0002-9900-7880, PMID:12645925, PMID:24090878]
+is_a: ZFA:0005731 ! branchiomotor neuron
+relationship: end ZFS:0000044 ! adult
+relationship: start ZFS:0000000 ! unknown
+created_by: ybrad
+creation_date: 2026-07-16T11:42:21Z
+
+[Term]
+id: ZFA:0007130
+name: trigeminal motor neuron
+namespace: zebrafish_anatomy
+def: "Motor neuron of cranial nerve V. Trigeminal motor neurons are generally clustered in r2 and r3 and project together from an r2 exit point to innervate the muscles of the mandibular arch." [GOC:ymb, ORCID:0000-0002-9900-7880, PMID:12645925]
+is_a: ZFA:0005731 ! branchiomotor neuron
+relationship: end ZFS:0000044 ! adult
+relationship: start ZFS:0000000 ! unknown
+created_by: ybrad
+creation_date: 2026-07-16T14:14:15Z
+
+[Term]
+id: ZFA:0007131
+name: trochlear motor neuron
+namespace: zebrafish_anatomy
+def: "Motor neuron of cranial nerve IV. It is one of the extraocular motor neurons which control eye  movements. The trochlear motor neuron is involved in controlling the contralateral superior oblique muscle." [GOC:ymb, ORCID:0000-0002-9900-7880, PMID:39740266]
+is_a: ZFA:0005733 ! somatomotor neuron
+relationship: end ZFS:0000044 ! adult
+relationship: start ZFS:0000000 ! unknown
+created_by: ybrad
+creation_date: 2026-07-16T14:18:50Z
+
+[Term]
+id: ZFA:0007132
+name: abducens motor neuron
+namespace: zebrafish_anatomy
+def: "Motor neuron of cranial nerve VI. It is located in r5 and r6 and innervates the lateral rectus muscles which control abduction f the eye." [GOC:ymb, ORCID:0000-0002-9900-7880, PMID:14699587]
+is_a: ZFA:0005733 ! somatomotor neuron
+relationship: end ZFS:0000044 ! adult
+relationship: start ZFS:0000000 ! unknown
+created_by: ybrad
+creation_date: 2026-07-16T14:23:54Z
+
+[Term]
+id: ZFA:0007133
+name: migratory facial motor neuron
+namespace: zebrafish_anatomy
+def: "Facial motor neuron which is migrating." [GOC:ymb, ORCID:0000-0002-9900-7880]
+is_a: ZFA:0007129 ! facial motor neuron
+relationship: end ZFS:0000000 ! unknown
+relationship: start ZFS:0000000 ! unknown
+created_by: ybrad
+creation_date: 2026-07-16T14:28:55Z
 
 [Term]
 id: ZFA:0009000
