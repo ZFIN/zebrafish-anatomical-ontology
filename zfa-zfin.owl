@@ -11,22 +11,23 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zfa/zfa-zfin.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zfa/releases/2026-06-02/zfa-zfin.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zfa/releases/2026-07-16/zfa-zfin.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/ZFA_0100000"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/ZFS_0100000"/>
         <terms:description>ZFA description.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <terms:title>Zebrafish Anatomy Ontology (ZFA)</terms:title>
-        <oboInOwl:auto-generated-by>OBO-Edit 2.3-beta5</oboInOwl:auto-generated-by>
-        <oboInOwl:date>12:05:2026 09:24</oboInOwl:date>
+        <oboInOwl:auto-generated-by>OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
+        <oboInOwl:date>16:07:2026 14:31</oboInOwl:date>
         <oboInOwl:default-namespace>zebrafish_anatomical_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:saved-by>zfinf</oboInOwl:saved-by>
+        <oboInOwl:saved-by>ybrad</oboInOwl:saved-by>
         <oboInOwl:treat-xrefs-as-genus-differentia>CARO part_of NCBITaxon:7955</oboInOwl:treat-xrefs-as-genus-differentia>
         <oboInOwl:treat-xrefs-as-genus-differentia>CL part_of NCBITaxon:7955</oboInOwl:treat-xrefs-as-genus-differentia>
         <oboInOwl:treat-xrefs-as-genus-differentia>TAO part_of NCBITaxon:7955</oboInOwl:treat-xrefs-as-genus-differentia>
         <oboInOwl:treat-xrefs-as-genus-differentia>VSAO part_of NCBITaxon:7955</oboInOwl:treat-xrefs-as-genus-differentia>
-        <owl:versionInfo>2026-06-02</owl:versionInfo>
+        <rdfs:comment>SVN version:$Revision:1.100$</rdfs:comment>
+        <owl:versionInfo>2026-07-16</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -113181,6 +113182,285 @@ this previously described vessel is connected to, or derived from, the FL networ
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>MHBC</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ZFIN:ZDB-PUB-080825-24</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZFA_0007126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0007126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZFA_0005731"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002496"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002497"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Motor neurons of cranial nerve X. In all vertebrates, vagus motor neurons are located in the most posterior segment of the hindbrain, rhombomere 8 (r8). In fish, these neurons innervate muscles to move the pharynx, gills, and  pharyngeal teeth.</obo:IAO_0000115>
+        <oboInOwl:created_by>ybrad</oboInOwl:created_by>
+        <oboInOwl:creation_date>2026-07-10T15:39:57Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>vagus motor neurons</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>zebrafish_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>ZFA:0007126</oboInOwl:id>
+        <rdfs:label>vagus motor neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ZFA_0007126"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Motor neurons of cranial nerve X. In all vertebrates, vagus motor neurons are located in the most posterior segment of the hindbrain, rhombomere 8 (r8). In fish, these neurons innervate muscles to move the pharynx, gills, and  pharyngeal teeth.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:ymb</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORCID:0000-0002-9900-7880</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:29225029</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ZFA_0007126"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>vagus motor neurons</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003004"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZFA_0007127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0007127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZFA_0005731"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002496"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002497"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Motor neuron of cranial nerve IX. These neurons are induced in rhombomere 6 and migrate tangentially into r7.</obo:IAO_0000115>
+        <oboInOwl:created_by>ybrad</oboInOwl:created_by>
+        <oboInOwl:creation_date>2026-07-16T11:18:03Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>zebrafish_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>ZFA:0007127</oboInOwl:id>
+        <rdfs:label>glossopharyngeal motor neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ZFA_0007127"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Motor neuron of cranial nerve IX. These neurons are induced in rhombomere 6 and migrate tangentially into r7.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:ymb</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORCID:0000-0002-9900-7880</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11820812</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZFA_0007128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0007128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZFA_0005733"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002496"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002497"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Motor neuron of cranial nerve III. These motor neurons control the medial rectus, lateral rectus, inferior oblique  ipsilateral muscles and contralateral superior rectus muscle. These muscles are involved in eye movements.</obo:IAO_0000115>
+        <oboInOwl:created_by>ybrad</oboInOwl:created_by>
+        <oboInOwl:creation_date>2026-07-16T11:23:20Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>zebrafish_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>ZFA:0007128</oboInOwl:id>
+        <rdfs:label>oculomotor motor neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ZFA_0007128"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Motor neuron of cranial nerve III. These motor neurons control the medial rectus, lateral rectus, inferior oblique  ipsilateral muscles and contralateral superior rectus muscle. These muscles are involved in eye movements.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:ymb</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORCID:0000-0002-9900-7880</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:39740266</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZFA_0007129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0007129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZFA_0005731"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002496"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002497"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Motor neuron of cranial nerve VII. The facial motor neurons innervate second pharyngeal arch derivatives including facial  muscles. The motor neurons of nVII are specified in r4, migrate posteriorly along a medial path, then migrate to take up residence in r6 and r7.</obo:IAO_0000115>
+        <oboInOwl:created_by>ybrad</oboInOwl:created_by>
+        <oboInOwl:creation_date>2026-07-16T11:42:21Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>zebrafish_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>ZFA:0007129</oboInOwl:id>
+        <rdfs:label>facial motor neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ZFA_0007129"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Motor neuron of cranial nerve VII. The facial motor neurons innervate second pharyngeal arch derivatives including facial  muscles. The motor neurons of nVII are specified in r4, migrate posteriorly along a medial path, then migrate to take up residence in r6 and r7.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:ymb</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORCID:0000-0002-9900-7880</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12645925</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24090878</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZFA_0007130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0007130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZFA_0005731"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002496"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002497"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Motor neuron of cranial nerve V. Trigeminal motor neurons are generally clustered in r2 and r3 and project together from an r2 exit point to innervate the muscles of the mandibular arch.</obo:IAO_0000115>
+        <oboInOwl:created_by>ybrad</oboInOwl:created_by>
+        <oboInOwl:creation_date>2026-07-16T14:14:15Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>zebrafish_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>ZFA:0007130</oboInOwl:id>
+        <rdfs:label>trigeminal motor neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ZFA_0007130"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Motor neuron of cranial nerve V. Trigeminal motor neurons are generally clustered in r2 and r3 and project together from an r2 exit point to innervate the muscles of the mandibular arch.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:ymb</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORCID:0000-0002-9900-7880</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12645925</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZFA_0007131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0007131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZFA_0005733"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002496"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002497"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Motor neuron of cranial nerve IV. It is one of the extraocular motor neurons which control eye  movements. The trochlear motor neuron is involved in controlling the contralateral superior oblique muscle.</obo:IAO_0000115>
+        <oboInOwl:created_by>ybrad</oboInOwl:created_by>
+        <oboInOwl:creation_date>2026-07-16T14:18:50Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>zebrafish_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>ZFA:0007131</oboInOwl:id>
+        <rdfs:label>trochlear motor neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ZFA_0007131"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Motor neuron of cranial nerve IV. It is one of the extraocular motor neurons which control eye  movements. The trochlear motor neuron is involved in controlling the contralateral superior oblique muscle.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:ymb</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORCID:0000-0002-9900-7880</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:39740266</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZFA_0007132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0007132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZFA_0005733"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002496"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002497"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Motor neuron of cranial nerve VI. It is located in r5 and r6 and innervates the lateral rectus muscles which control abduction f the eye.</obo:IAO_0000115>
+        <oboInOwl:created_by>ybrad</oboInOwl:created_by>
+        <oboInOwl:creation_date>2026-07-16T14:23:54Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>zebrafish_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>ZFA:0007132</oboInOwl:id>
+        <rdfs:label>abducens motor neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ZFA_0007132"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Motor neuron of cranial nerve VI. It is located in r5 and r6 and innervates the lateral rectus muscles which control abduction f the eye.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:ymb</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORCID:0000-0002-9900-7880</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:14699587</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZFA_0007133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZFA_0007133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZFA_0007129"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002496"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002497"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ZFS_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Facial motor neuron which is migrating.</obo:IAO_0000115>
+        <oboInOwl:created_by>ybrad</oboInOwl:created_by>
+        <oboInOwl:creation_date>2026-07-16T14:28:55Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>zebrafish_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>ZFA:0007133</oboInOwl:id>
+        <rdfs:label>migratory facial motor neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ZFA_0007133"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Facial motor neuron which is migrating.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:ymb</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORCID:0000-0002-9900-7880</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

@@ -19,10 +19,10 @@
         "val" : "Zebrafish Anatomy Ontology (ZFA)"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "OBO-Edit 2.3-beta5"
+        "val" : "OBO-Edit 2.3.1"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
-        "val" : "12:05:2026 09:24"
+        "val" : "16:07:2026 14:31"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
         "val" : "zebrafish_anatomical_ontology"
@@ -31,7 +31,7 @@
         "val" : "1.2"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
-        "val" : "zfinf"
+        "val" : "ybrad"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-genus-differentia",
         "val" : "CARO part_of NCBITaxon:7955"
@@ -45,10 +45,13 @@
         "pred" : "http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-genus-differentia",
         "val" : "VSAO part_of NCBITaxon:7955"
       }, {
+        "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+        "val" : "SVN version:$Revision:1.100$"
+      }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-06-02"
+        "val" : "2026-07-16"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/zfa/releases/2026-06-02/zfa-zfin.json"
+      "version" : "http://purl.obolibrary.org/obo/zfa/releases/2026-07-16/zfa-zfin.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/ZFA_0000000",
@@ -61746,6 +61749,171 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/ZFA_0007126",
+      "lbl" : "vagus motor neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Motor neurons of cranial nerve X. In all vertebrates, vagus motor neurons are located in the most posterior segment of the hindbrain, rhombomere 8 (r8). In fish, these neurons innervate muscles to move the pharynx, gills, and  pharyngeal teeth.",
+          "xrefs" : [ "GOC:ymb", "ORCID:0000-0002-9900-7880", "PMID:29225029" ]
+        },
+        "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003004",
+          "pred" : "hasExactSynonym",
+          "val" : "vagus motor neurons"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "ybrad"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2026-07-10T15:39:57Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "zebrafish_anatomy"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZFA_0007127",
+      "lbl" : "glossopharyngeal motor neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Motor neuron of cranial nerve IX. These neurons are induced in rhombomere 6 and migrate tangentially into r7.",
+          "xrefs" : [ "GOC:ymb", "ORCID:0000-0002-9900-7880", "PMID:11820812" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "ybrad"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2026-07-16T11:18:03Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "zebrafish_anatomy"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZFA_0007128",
+      "lbl" : "oculomotor motor neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Motor neuron of cranial nerve III. These motor neurons control the medial rectus, lateral rectus, inferior oblique  ipsilateral muscles and contralateral superior rectus muscle. These muscles are involved in eye movements.",
+          "xrefs" : [ "GOC:ymb", "ORCID:0000-0002-9900-7880", "PMID:39740266" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "ybrad"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2026-07-16T11:23:20Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "zebrafish_anatomy"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZFA_0007129",
+      "lbl" : "facial motor neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Motor neuron of cranial nerve VII. The facial motor neurons innervate second pharyngeal arch derivatives including facial  muscles. The motor neurons of nVII are specified in r4, migrate posteriorly along a medial path, then migrate to take up residence in r6 and r7.",
+          "xrefs" : [ "GOC:ymb", "ORCID:0000-0002-9900-7880", "PMID:12645925", "PMID:24090878" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "ybrad"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2026-07-16T11:42:21Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "zebrafish_anatomy"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZFA_0007130",
+      "lbl" : "trigeminal motor neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Motor neuron of cranial nerve V. Trigeminal motor neurons are generally clustered in r2 and r3 and project together from an r2 exit point to innervate the muscles of the mandibular arch.",
+          "xrefs" : [ "GOC:ymb", "ORCID:0000-0002-9900-7880", "PMID:12645925" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "ybrad"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2026-07-16T14:14:15Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "zebrafish_anatomy"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZFA_0007131",
+      "lbl" : "trochlear motor neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Motor neuron of cranial nerve IV. It is one of the extraocular motor neurons which control eye  movements. The trochlear motor neuron is involved in controlling the contralateral superior oblique muscle.",
+          "xrefs" : [ "GOC:ymb", "ORCID:0000-0002-9900-7880", "PMID:39740266" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "ybrad"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2026-07-16T14:18:50Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "zebrafish_anatomy"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZFA_0007132",
+      "lbl" : "abducens motor neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Motor neuron of cranial nerve VI. It is located in r5 and r6 and innervates the lateral rectus muscles which control abduction f the eye.",
+          "xrefs" : [ "GOC:ymb", "ORCID:0000-0002-9900-7880", "PMID:14699587" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "ybrad"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2026-07-16T14:23:54Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "zebrafish_anatomy"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZFA_0007133",
+      "lbl" : "migratory facial motor neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Facial motor neuron which is migrating.",
+          "xrefs" : [ "GOC:ymb", "ORCID:0000-0002-9900-7880" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "ybrad"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2026-07-16T14:28:55Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "zebrafish_anatomy"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/ZFA_0009000",
       "lbl" : "cell",
       "type" : "CLASS",
@@ -115685,6 +115853,102 @@
       "sub" : "http://purl.obolibrary.org/obo/ZFA_0007125",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002497",
       "obj" : "http://purl.obolibrary.org/obo/ZFS_0000044"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007126",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZFA_0005731"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007126",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002496",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007126",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002497",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000044"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007127",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZFA_0005731"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007127",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002496",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007127",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002497",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000044"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007128",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZFA_0005733"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007128",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002496",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007128",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002497",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000044"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007129",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZFA_0005731"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007129",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002496",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007129",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002497",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000044"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007130",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZFA_0005731"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007130",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002496",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007130",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002497",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000044"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007131",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZFA_0005733"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007131",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002496",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007131",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002497",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000044"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007132",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZFA_0005733"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007132",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002496",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007132",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002497",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000044"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007133",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZFA_0007129"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007133",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002496",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZFA_0007133",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002497",
+      "obj" : "http://purl.obolibrary.org/obo/ZFS_0000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZFA_0009000",
       "pred" : "is_a",
